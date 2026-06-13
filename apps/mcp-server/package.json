@@ -1,14 +1,17 @@
 {
   "dependencies": {
+    "@hono/mcp": "0.3.0",
+    "@modelcontextprotocol/sdk": "1.29.0",
     "@repo/core": "workspace:*",
-    "hono": "4.12.25"
+    "@repo/data": "workspace:*",
+    "hono": "4.12.23",
+    "zod": "4.4.3"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20260613.1",
+    "@cloudflare/workers-types": "4.20260605.1",
     "@repo/tsconfig": "workspace:*",
     "typescript": "catalog:",
-    "vitest": "catalog:",
-    "wrangler": "4.100.0"
+    "vitest": "catalog:"
   },
   "name": "@repo/mcp-server",
   "private": true,

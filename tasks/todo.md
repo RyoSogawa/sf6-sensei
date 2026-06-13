@@ -30,16 +30,14 @@
 - [ ] D1（SQLite）スキーマ設計（検索インデックス含む）
 - [ ] JSON → D1 投入スクリプト（マイグレーション）
 
-## Phase 4: MCP サーバー（4 ツール）
-- [ ] Hono on Cloudflare Workers の MCP エンドポイント
-- [ ] `get_move`
-- [ ] `get_character_frame_data`
-- [ ] `search_moves`
-- [ ] `find_punish`
-- [ ] `list_characters`（補助）
-- [ ] 全レスポンスに attribution 付与
-- [ ] 曖昧性/エラー時の候補返却
-- [ ] 各ツールのユニット/統合テスト（80%+ 目標）
+## Phase 4: MCP サーバー — 完了 2026-06-13
+- [x] Hono + `@hono/mcp`(StreamableHTTPTransport) + `@modelcontextprotocol/sdk` の MCP エンドポイント(`/mcp`)
+  - ステートレス: リクエストごとに McpServer を生成（共有インスタンスは「Already connected」で落ちる）
+- [x] `get_move` / `get_character_frame_data` / `search_moves` / `find_punish` / `list_characters`
+- [x] 全レスポンスに attribution(CC-BY-SA) 付与、曖昧性/未解決時は候補(suggestions/candidates)返却
+- [x] tool ロジックのユニットテスト + `/mcp` ライブ handshake 検証（initialize→tools/list→tools/call、計 31 件）
+- [x] 依存解決: trustPolicy=no-downgrade、若い dev/型は成熟版へダウングレード、esbuild/@types/node は overrides 固定
+- 注: `wrangler` は Phase 5(デプロイ)まで保留中（mcp-server devDeps から一時除外）。再追加が必要
 
 ## Phase 5: デプロイ / 接続確認
 - [ ] Cloudflare Workers にデプロイ（リモート HTTPS）

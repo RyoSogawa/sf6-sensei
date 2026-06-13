@@ -3,7 +3,32 @@ packages:
   - packages/*
 
 minimumReleaseAge: 10080
+# trustPolicy: 過去リリースより信頼根拠（trusted publisher / provenance）が弱くなった版を拒否する。
+# publisher 降格・アカウント乗っ取りによる改ざんリリース対策。
+trustPolicy: no-downgrade
+
+# trustPolicyExclude: trust-downgrade 検査を免除するパッケージ。除外は調査の上で理由を必ず明記すること。
+#   undici-types — Node.js 公式 undici プロジェクト(github.com/nodejs/undici)の型定義のみ(.d.ts)。
+#     正規メンテナ(Matteo Collina 他)・npm 署名あり。6.21.0 は provenance attestation のみ欠落で、
+#     @types/node が ~6.21.0 固定のため範囲内に代替版なし。型のみで実行コードを注入できず、
+#     provenance ラプスは CI 外リリース等で起きる良性現象のため、除外は低リスクと判断。
+trustPolicyExclude:
+  - undici-types
+
+# minimumReleaseAgeExclude: cooldown を免除するパッケージ。原則として使わず空に保つ。
+# 若くてブロックされる依存は「成熟版(公開7日以上)へダウングレード」で対応する:
+#   - @biomejs/biome 2.4.16 (2.5.0 は若い)
+#   - @cloudflare/workers-types 4.20260605.1 (日次リリースのため明示的に成熟版を固定)
+#   - esbuild は pnpm overrides で成熟版 0.28.0 に固定（tsx の ~0.28.0 範囲内・若い 0.28.1 を回避）
 minimumReleaseAgeExclude: []
+
+# overrides: 若い transitive を成熟版に下げて固定する（除外せずダウングレードで対応）。
+# pnpm は range 内の最新を選んでから age チェックで失敗し、自動で成熟版へ下げないため明示固定する。
+#   esbuild      — tsx / vitest(vite) が利用。tsx の ~0.28.0 範囲内の成熟版 0.28.0 に固定。
+#   @types/node  — vitest の peer(^20||^22||>=24) が latest(25.x 若い)を引くため、Node 22 系の成熟版に固定。
+overrides:
+  esbuild: 0.28.0
+  "@types/node": "22.19.20"
 
 # 依存バージョンの単一ソース
 catalog:
