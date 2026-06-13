@@ -8,12 +8,12 @@ minimumReleaseAge: 10080
 trustPolicy: no-downgrade
 
 # trustPolicyExclude: trust-downgrade 検査を免除するパッケージ。除外は調査の上で理由を必ず明記すること。
-#   undici-types — Node.js 公式 undici プロジェクト(github.com/nodejs/undici)の型定義のみ(.d.ts)。
-#     正規メンテナ(Matteo Collina 他)・npm 署名あり。6.21.0 は provenance attestation のみ欠落で、
-#     @types/node が ~6.21.0 固定のため範囲内に代替版なし。型のみで実行コードを注入できず、
-#     provenance ラプスは CI 外リリース等で起きる良性現象のため、除外は低リスクと判断。
+#   undici-types@6.21.0 — Node.js 公式 undici プロジェクト(github.com/nodejs/undici)の型定義のみ(.d.ts)。
+#     6.21.0(2024-11-13 公開)で provenance attestation が外れたが、1 年半以上前の長期安定した変更であり
+#     fresh で疑わしい降格ではない。正規メンテナ(Matteo Collina 他)・npm 署名あり・型のみで実行コード注入不可。
+#     @types/node が ~6.21.0 固定のため範囲内に代替版なし。供給網リスクは低いと判断して除外。
 trustPolicyExclude:
-  - undici-types
+  - "undici-types@6.21.0"
 
 # minimumReleaseAgeExclude: cooldown を免除するパッケージ。原則として使わず空に保つ。
 # 若くてブロックされる依存は「成熟版(公開7日以上)へダウングレード」で対応する:
