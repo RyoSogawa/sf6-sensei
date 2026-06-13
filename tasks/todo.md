@@ -40,9 +40,12 @@
 - 注: `wrangler` は Phase 5(デプロイ)まで保留中（mcp-server devDeps から一時除外）。再追加が必要
 
 ## Phase 5: デプロイ / 接続確認
-- [ ] Cloudflare Workers にデプロイ（リモート HTTPS）
-- [ ] ChatGPT Developer mode で MCP コネクタ登録
-- [ ] 主要ユースケースを音声入力で動作確認
+- [x] バンドル可否・サイズを検証（2026-06-14, esbuild）: 2.7MB raw / **288KB gzip**＝Workers 無料枠(1MB)内、
+  `node:` 依存ゼロで `nodejs_compat` 不要、データ(2MB JSON)も inline 済み
+- [x] デプロイ手順書を作成（[`docs/deploy.md`](../docs/deploy.md)）
+- [ ] （要・ユーザー操作）wrangler 再追加 → workerd build script 承認 → `wrangler login` → `wrangler deploy`
+- [ ] （要・ユーザー操作）ChatGPT Developer mode で MCP コネクタ登録（`/mcp` URL）
+- [ ] （要・ユーザー操作）主要ユースケースを音声入力で動作確認
 
 ## 将来（別フェーズ）
 - [ ] プレイヤー認証（OAuth）
