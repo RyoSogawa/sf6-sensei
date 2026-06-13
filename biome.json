@@ -3,8 +3,20 @@
   "extends": ["@repo/biome-config"],
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**", "!**/dist", "!**/.wrangler", "!**/node_modules", "!scripts"]
+    "includes": ["**", "!**/dist", "!**/.wrangler", "!**/node_modules", "!scripts", "!**/generated"]
   },
+  "overrides": [
+    {
+      "includes": ["apps/scraper/**/*.ts"],
+      "linter": {
+        "rules": {
+          "suspicious": {
+            "noConsole": "off"
+          }
+        }
+      }
+    }
+  ],
   "vcs": {
     "clientKind": "git",
     "enabled": true,

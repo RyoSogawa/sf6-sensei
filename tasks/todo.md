@@ -2,33 +2,29 @@
 
 仕様: [`docs/spec.md`](../docs/spec.md) / [`docs/data-model.md`](../docs/data-model.md) / [`docs/mcp-tools.md`](../docs/mcp-tools.md)
 
-## Phase 0: プロジェクト基盤（scaffold）
-- [ ] `project-scaffold` スキルで pnpm monorepo を構築（構成は事前確認）
-- [ ] Biome / Vitest / lefthook / GitHub Actions CI をセットアップ
-- [ ] `apps/mcp-server` `packages/scraper` `packages/core` `packages/data` の雛形
+## Phase 0: プロジェクト基盤（scaffold）— 完了 2026-06-13
+- [x] `project-scaffold` スキルで pnpm monorepo を構築
+- [x] Biome / Vitest / lefthook / GitHub Actions CI（action は SHA ピン留め）
+- [x] `apps/mcp-server` `apps/scraper` `packages/core` `packages/data` `packages/tsconfig` `packages/biome-config`
 
-## Phase 1: データモデル / core
-- [ ] `packages/core` に Character / Move 型を定義（data-model.md 準拠）
-- [ ] numpad パーサ（236P / 2HP などを方向+ボタンに分解）
-- [ ] 強度マップ・通称辞書（汎用スラング + キャラ固有）
-- [ ] alias 解決ロジック（クエリ → 技 ID）+ ユニットテスト
+## Phase 1: データモデル / core — 完了 2026-06-13
+- [x] `packages/core` に zod スキーマ（moveSchema/characterSchema 等）+ 推論型（Move/Character）
+- [x] `normalizeInput`（numpad / JP 表記 → 正規化 numpad キー）+ ユニットテスト
+- [x] `resolveMove`（クエリ → 候補 Move[]: input 一致 / alias / name）+ ユニットテスト
+- 既知の課題: guard `LH` を properties `[low, high]` に展開している（「中段＝両対応」の意味。要再整理）
 
-## Phase 2: データ取得（手動バッチ）
-- [x] SuperCombo のデータ構造を調査・検証（2026-06-13 完了）
-  - ミラー `srk.shib.live` の `api.php` + `action=cargoquery` で取得可能と確認
-  - テーブル: `SF6_FrameData`（2306 行 / 30 キャラ）, `SF6_CharacterData`
-- [ ] cargoquery クライアント（`srk.shib.live/api.php`、honest UA、低頻度、ページング: limit/offset）。
-  アクセス方針は spec.md「取得の許諾とアクセス方針」を厳守（偽装 UA 不可・api.php のみ・出典明記+継承）
-- [x] 正規化の難所を probe で洗い出し（2026-06-13, `scripts/normalize-probe.mjs`）。マークアップ除去は全 2306 行クリーン
-- [ ] 正規化を本実装（詳細は data-model.md「正規化の難所」）:
-  - `{{{x}}}`/`-` → null、`KD/HKD +N`、`N(M)` 条件値
-  - moveType の大小文字ゆれ + `taunt`/`serenity_stream`/`air_normal8`
-  - frames の `N land`/`until`/`3+8`/`2,2`/`18~`
-  - cancel(space/comma, SA1-3, `*`, 括弧注記)、guard の多段 comma
-- [ ] Move / Character モデルへマッピング → JSON 出力（出典・取得日時・ライセンス付与）
-- [ ] 日本語の技名・通称を手動 alias レイヤー（`alias-overrides.json`）で付与
+## Phase 2: データ取得（手動バッチ）— 完了 2026-06-13
+- [x] SuperCombo のデータ構造を調査・検証（`srk.shib.live` `api.php` + `cargoquery`）
+- [x] 正規化の難所を probe で洗い出し（`scripts/normalize-probe.mjs`）
+- [x] cargoquery クライアント（honest UA・低頻度・ページング）。アクセス方針は spec.md 厳守
+- [x] 正規化を本実装（advantage/frames/cancel/guard/moveType、`apps/scraper`）+ ユニットテスト（39件）
+- [x] Move / Character へマッピング → `packages/data/src/generated/sf6.json`（30 キャラ / 2306 技、出典付き）
+- [x] core の zod スキーマで書き込み時バリデーション
+- [x] `packages/data` を生成 JSON に結線（`characters` / `resolveMove` smoke test）
+- [x] alias 手動レイヤーの仕組み（`packages/data/alias-overrides.json`、再スクレイプで消えない）
+- [ ] alias-overrides の中身を充実（`2強`/`昇竜`/`真空` 等 P/K 省略・通称・JP 技名の付与）← 継続作業
 - [ ] 差分チェック（既存 JSON との比較）
-- [ ] CC-BY-SA の出典表記をデータ/リポジトリに明記
+- [x] CC-BY-SA の出典表記をデータ（各 Move.source）/ README / spec に明記
 
 ## Phase 3: データストア
 - [ ] D1（SQLite）スキーマ設計（検索インデックス含む）
