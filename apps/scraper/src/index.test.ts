@@ -65,6 +65,17 @@ describe('parseAdvantage', () => {
     expect(result.value).toBeNull()
     expect(result.knockdown).toBe(false)
   })
+
+  it('extracts the primary value of a conditional N(M)', () => {
+    expect(parseAdvantage('+4(+11)').value).toBe(4)
+    expect(parseAdvantage('-7(-2)').value).toBe(-7)
+  })
+
+  it('returns null for complex situational strings', () => {
+    const result = parseAdvantage('Crumple (Standing +21, Juggle +46, HKD +104)')
+    expect(result.value).toBeNull()
+    expect(result.text).toContain('Crumple')
+  })
 })
 
 describe('parseFrameValue', () => {

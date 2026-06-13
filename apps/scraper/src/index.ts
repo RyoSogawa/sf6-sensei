@@ -89,7 +89,9 @@ export function parseAdvantage(raw: string): ParsedAdvantage {
     }
   }
 
-  const numberMatch = text.match(/([+-]?\d+)/)
+  // 先頭が符号付き数値のときだけ採用する。"Crumple (Standing +21, ...)" のような
+  // 複合状況文字列は先頭が数値でないため null になり、text に原文を残す。
+  const numberMatch = text.match(/^([+-]?\d+)/)
   if (numberMatch) {
     return {
       knockdown: false,

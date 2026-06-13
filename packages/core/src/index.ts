@@ -95,15 +95,17 @@ export type GetMoveInput = z.infer<typeof getMoveInput>
 // Phase 1: Query resolution layer
 
 /**
- * Normalize a move input (numpad, JP notation, etc.) to lowercase canonical form.
+ * Normalize a move input (numpad or JP notation) to a lowercase canonical key.
  * Examples:
- *   "2強" → "2hp"
  *   "屈強P" → "2hp"
+ *   "下大P" → "2hp"
  *   "236P" → "236p"
  *   "立中K" → "5mk"
  *   "cr.HP" → "2hp"
  *   "2HP" → "2hp"
- * Returns null if input cannot be interpreted as a move command.
+ * Note: P/K を省いた俗称（例 "2強" → "2h"）は技を一意化できないため、
+ * そうしたクエリは alias-overrides 層で補い、resolveMove の alias マッチで解決する。
+ * Returns null if the input cannot be interpreted as a move command.
  */
 export function normalizeInput(raw: string): string | null {
   if (!raw) return null
@@ -180,37 +182,40 @@ function matchesByName(move: Move, queryLower: string): boolean {
 }
 
 /**
- * Resolve a query string to matching Move(s) in a list.
- * Matching strategies (in order of priority):
- * 1. Normalize query, then match against normalize(move.input.numpad) exactly
- * 2. Case-insensitive substring match against move.aliases
- * 3. Case-insensitive substring match against move.name.ja or move.name.en
- * De-duplicate and preserve order.
+ * Resolve a query string to matching Move(s), ranked by match quality.
+ * Tiers (lower = stronger): 0 = exact numpad input, 1 = alias, 2 = name.
+ * Within a tier the original move order is preserved (stable sort). De-duplicated by id.
  */
 export function resolveMove(query: string, moves: Move[]): Move[] {
   if (!(query && moves.length)) return []
 
   const queryNorm = normalizeInput(query)
   const queryLower = query.toLowerCase()
+
+  const ranked: { move: Move; tier: number }[] = []
+  for (const move of moves) {
+    let tier: number | null = null
+    if (matchesByNumpadInput(move, queryNorm)) {
+      tier = 0
+    } else if (matchesByAlias(move, queryLower)) {
+      tier = 1
+    } else if (matchesByName(move, queryLower)) {
+      tier = 2
+    }
+    if (tier !== null) {
+      ranked.push({ move, tier })
+    }
+  }
+
+  ranked.sort((a, b) => a.tier - b.tier)
+
   const results: Move[] = []
   const seen = new Set<string>()
-
-  const addIfUnseen = (move: Move) => {
+  for (const { move } of ranked) {
     if (!seen.has(move.id)) {
       seen.add(move.id)
       results.push(move)
     }
   }
-
-  for (const move of moves) {
-    if (
-      matchesByNumpadInput(move, queryNorm) ||
-      matchesByAlias(move, queryLower) ||
-      matchesByName(move, queryLower)
-    ) {
-      addIfUnseen(move)
-    }
-  }
-
   return results
 }

@@ -160,6 +160,50 @@ describe('resolveMove', () => {
     const result = resolveMove('2HP', [])
     expect(result).toHaveLength(0)
   })
+
+  it('ranks an exact input match above a name-substring match earlier in the list', () => {
+    const src = {
+      fetchedAt: '2026-06-13T00:00:00Z',
+      license: 'CC-BY-SA' as const,
+      url: 'https://example.com',
+    }
+    const rankMoves = [
+      {
+        active: null,
+        aliases: [],
+        cancel: [],
+        category: 'normal' as const,
+        characterId: 'ryu',
+        id: 'name_match',
+        input: { numpad: '5MP', official: null },
+        name: { en: 'contains 2HP text', ja: null },
+        onBlock: null,
+        onHit: null,
+        properties: [],
+        recovery: null,
+        source: src,
+        startup: null,
+      },
+      {
+        active: null,
+        aliases: [],
+        cancel: [],
+        category: 'normal' as const,
+        characterId: 'ryu',
+        id: 'input_match',
+        input: { numpad: '2HP', official: null },
+        name: { en: 'Crouching Heavy Punch', ja: null },
+        onBlock: null,
+        onHit: null,
+        properties: [],
+        recovery: null,
+        source: src,
+        startup: null,
+      },
+    ]
+    const result = resolveMove('2HP', rankMoves)
+    expect(result[0].id).toBe('input_match')
+  })
 })
 
 describe('zod schemas', () => {

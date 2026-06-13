@@ -11,7 +11,7 @@
 - [x] `packages/core` に zod スキーマ（moveSchema/characterSchema 等）+ 推論型（Move/Character）
 - [x] `normalizeInput`（numpad / JP 表記 → 正規化 numpad キー）+ ユニットテスト
 - [x] `resolveMove`（クエリ → 候補 Move[]: input 一致 / alias / name）+ ユニットテスト
-- 既知の課題: guard `LH` を properties `[low, high]` に展開している（「中段＝両対応」の意味。要再整理）
+- guard `LH`→properties `[low, high]` は意図的表現。`low`/`high` は「ガード可能方向」で、両方＝上段（立ち/しゃがみ両対応）。要再整理ではない（2026-06-13 確認）。将来 `上段/中段/下段` ラベルを導出して持たせるのは任意
 
 ## Phase 2: データ取得（手動バッチ）— 完了 2026-06-13
 - [x] SuperCombo のデータ構造を調査・検証（`srk.shib.live` `api.php` + `cargoquery`）
