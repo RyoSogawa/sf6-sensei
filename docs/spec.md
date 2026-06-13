@@ -158,11 +158,13 @@ pnpm workspace モノレポ。想定パッケージ:
 ```
 sf6-frame-data-api/
 ├── apps/
-│   └── mcp-server/      # Hono on Cloudflare Workers（MCP エンドポイント）
+│   ├── mcp-server/      # Hono on Cloudflare Workers（MCP エンドポイント）
+│   └── scraper/         # SuperCombo cargoquery 取得 + 正規化バッチ（Node CLI）
 ├── packages/
-│   ├── scraper/         # SuperCombo スクレイプ + 正規化バッチ
 │   ├── core/            # 型定義・データモデル・alias 解決ロジック
-│   └── data/            # 生成された JSON / マイグレーション
+│   ├── data/            # 生成された JSON
+│   ├── tsconfig/        # @repo/tsconfig（base / node / workers）
+│   └── biome-config/    # @repo/biome-config
 ├── docs/
 └── (Biome / Vitest / lefthook / GitHub Actions CI)
 ```

@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "@repo/core": "workspace:*",
+    "hono": "4.12.25"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "4.20260613.1",
+    "@repo/tsconfig": "workspace:*",
+    "typescript": "catalog:",
+    "vitest": "catalog:",
+    "wrangler": "4.100.0"
+  },
+  "name": "@repo/mcp-server",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "deploy": "wrangler deploy",
+    "dev": "wrangler dev",
+    "test": "vitest run"
+  },
+  "type": "module",
+  "version": "0.0.0"
+}

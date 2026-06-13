@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@repo/core": "workspace:*"
+  },
+  "devDependencies": {
+    "@repo/tsconfig": "workspace:*",
+    "@types/node": "25.9.3",
+    "tsx": "4.22.4",
+    "typescript": "catalog:",
+    "vitest": "catalog:"
+  },
+  "name": "@repo/scraper",
+  "private": true,
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsx src/index.ts",
+    "fetch": "tsx src/index.ts",
+    "test": "vitest run"
+  },
+  "type": "module",
+  "version": "0.0.0"
+}

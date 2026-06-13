@@ -1,0 +1,10 @@
+{
+  "files": [
+    "base.json",
+    "node.json",
+    "workers.json"
+  ],
+  "name": "@repo/tsconfig",
+  "private": true,
+  "version": "0.0.0"
+}

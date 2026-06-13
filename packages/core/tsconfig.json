@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "rootDir": "src"
+  },
+  "exclude": ["dist", "**/*.test.ts"],
+  "extends": "@repo/tsconfig/base.json",
+  "include": ["src"]
+}

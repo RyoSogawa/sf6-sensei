@@ -1,0 +1,10 @@
+{
+  "extends": "@repo/tsconfig/base.json",
+  "files": [],
+  "references": [
+    { "path": "./packages/core" },
+    { "path": "./apps/scraper" },
+    { "path": "./packages/data" },
+    { "path": "./apps/mcp-server" }
+  ]
+}
