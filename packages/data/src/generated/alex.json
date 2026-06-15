@@ -1,0 +1,4838 @@
+{
+  "aliases": [],
+  "id": "alex",
+  "moves": [
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.5,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "alex",
+      "chipDamage": 750,
+      "damage": 3000,
+      "damageText": "3000(2000 Air)",
+      "dmgScaling": "40% Minimum; 50% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "alex__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": "1-16 Full",
+      "juggle": {
+        "increase": "0",
+        "limit": "99",
+        "start": "0"
+      },
+      "name": {
+        "en": "Sledgecross Hammer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes a cinematic on grounded opponents and a wallsplat on airborne opponents (can juggle in the corner); wallsplat is a free juggle state if SA2 starts the combo (otherwise, maintains the existing juggle state); can choose which version to cancel into from OD Flash Chop (1st hit stays grounded, 2nd hit launches); effective fireball counter due to range and invincibility; cinematic version gives decent Drive Rush oki (but DR~Throw can only beat reversal 4f normals on wide characters like Alex, Marisa, Sagat, Blanka, E. Honda, and Zangief)",
+        "ja": null
+      },
+      "onBlock": -29,
+      "onHit": 19,
+      "onPerfectParry": -52,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 50,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 66
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.61,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "alex",
+      "chipDamage": 500,
+      "damage": 2000,
+      "damageText": null,
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "alex__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-9 Strike/Throw",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": "1"
+      },
+      "name": {
+        "en": "Raging Spear",
+        "ja": null
+      },
+      "notes": {
+        "en": "Alex's best reversal option; sends opponent far away (oki only possible near the corner); puts opponent into a limited juggle state that can lead to trade combos depending on distance and the opponent's attack hitstun (e.g. fireball trade, early anti-air timing)",
+        "ja": null
+      },
+      "onBlock": -38,
+      "onHit": 30,
+      "onPerfectParry": -58,
+      "onPunishCounter": 30,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 55,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 68
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.91,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "alex",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "alex__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-16 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "The Final Prison",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cinematic time regenerates ~2 Drive bars for Alex; significantly less range than Alex's other Supers; poor oki after the cinematic (e.g. spaced DR~5MP or DR~2MK); has 2 different cinematics depending on whether it KOs the opponent",
+        "ja": null
+      },
+      "onBlock": -38,
+      "onHit": 18,
+      "onPerfectParry": -56,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 53,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 69
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.91,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "alex",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "alex__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-16 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "The Final Prison (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Available at 25% HP or below; cinematic time regenerates ~2.1 Drive bars for Alex; significantly less range than Alex's other Supers; better oki than standard SA3 (e.g. DR~Throw or DR~5HP into tick MP Power Bomb); has 2 different cinematics depending on whether it KOs the opponent",
+        "ja": null
+      },
+      "onBlock": -38,
+      "onHit": 25,
+      "onPerfectParry": -56,
+      "onPunishCounter": 25,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 53,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 69
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.04,
+      "blockstun": 25,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 7000,
+        "dealtOnHit": 12000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": 28,
+      "id": "alex__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Flash Chop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into Backturned state and Forces Stand on hit; slow startup but plus on block (leaves the opponent inside OD Power Bomb range for a tick throw); true blockstring from 5[HP] dealing significant Drive damage; has both a strike hitbox as well as a separate 1-hit projectile clash box on frames 25-29 (starting 1f before active); this allows Alex to hit the opponent even when clashing with higher-priority projectiles like Supers (though it doesn't dissipate any hits of the higher priority projectiles); recovery is cancelable on hit into Power Drop (63214P) or Collapsing Driver (4MK) on frame 40 (opponent must be grounded for these to connect); can omit the follow-up cancel and link normals afterward (lights on regular hit, 5MP on counter-hit, 2HP on Punish Counter)",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 5,
+      "onPerfectParry": -21,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.7,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "alex__236lp",
+      "input": {
+        "numpad": "236LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Flash Axe",
+        "ja": null
+      },
+      "notes": {
+        "en": "Safe on block if spaced from a light string and maintains pressure up close on hit; has both a strike hitbox and a separate 1-hit projectile clash box during the active frames; this allows Alex to hit the opponent even when clashing with higher-priority projectiles like Supers (though it doesn't dissipate any hits of the higher priority projectiles)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.11,
+      "blockstun": 21,
+      "cancel": [
+        "ps",
+        "super"
+      ],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "alex__236mp",
+      "input": {
+        "numpad": "236MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Flash Axe",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can transition into Prowler Stance on hit; important combo tool that is relatively safe if spaced out; extends a large vertical combo-only hitbox for juggle consistency; has both a strike hitbox and a separate 1-hit projectile clash box during the active frames; this allows Alex to hit the opponent even when clashing with higher-priority projectiles like Supers (though it doesn't dissipate any hits of the higher priority projectiles); can get midscreen oki with Drive Rush into a delayed button or throw; Prowler Stance cancel: KD +46 oH (variable on airborne opponents)",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 39,
+      "onPerfectParry": -25,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "2,2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.1,
+      "blockstun": 23,
+      "cancel": [
+        "ps",
+        "super"
+      ],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800,500 (1300)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "alex__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "5,6",
+        "start": "1"
+      },
+      "name": {
+        "en": "Flash Chop",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; 1st hit keeps opponent grounded (SA2 cancel allows cinematic hit); 2nd hit puts opponents into a limited juggle state (SA2 cancel causes wall splat); can transition into Prowler Stance on hit; completely safe on block due to pushback; has both a strike hitbox as well as a separate 2-hit OD projectile clash box on frames 14-19 (starting 1f before active); this allows Alex to hit the opponent even when clashing with higher-priority projectiles like Supers (though it doesn't dissipate any hits of the higher priority projectiles); leads to good midscreen oki with Drive Rush or a 6-frame safe jump with j.HK (can often outspace 5f reversals as well); Prowler Stance cancel: KD +37 oH (variable on airborne opponents)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 41,
+      "onPerfectParry": -27,
+      "onPunishCounter": 41,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -7,
+        "onHit": 29
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.88,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "alex__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Roundhouse Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range sweep; has juggle potential",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 29,
+      "onPerfectParry": -27,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "6",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 1
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.94,
+      "blockstun": 22,
+      "cancel": [
+        "ps",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2500
+      },
+      "driveRushCancel": {
+        "onBlock": 12,
+        "onHit": 15
+      },
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "alex__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand; head and arm hurtbox are anti-air invuln on frames 10-14; decent anti-air but weaker against close jumps; active frames 1-2 can hit grounded or airborne and are cancelable; active frames 3-6 can only hit airborne opponents and cannot cancel; cannot hit cross-up; Punish Counter puts opponents into a limited juggle state (much higher launch vs. airborne); stand-sized hurtboxes on frames 10-30 (considered crouching); very short horizontal range (usually requires Drive Rush to combo properly); useful combo tool into Prowler Stance (combos naturally into Palm Jab) or into HP Flash Chop when used out of Drive Rush; Prowler Stance cancel: +7 oH / +4 oB",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": -3,
+      "onPerfectParry": -26,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.31,
+      "blockstun": 12,
+      "cancel": [
+        "chain",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "alex__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; TC into 2HK requires Drive Rush/Counter-hit/Punish Counter (useful 5f punish at longer ranges, especially with Modern controls)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -12,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.96,
+      "blockstun": 18,
+      "cancel": [
+        "ps"
+      ],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": "1000 (800)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 7000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "alex__2lk2hk",
+      "input": {
+        "numpad": "2LK~2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Twisted Drop",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage from 2LK starter; does not combo naturally (requires Drive Rush / Counter-hit / Punish Counter); allows 2LK to be a useful punish option at ranges where 2LP whiffs (and especially in Modern where Alex cannot punish with 2LP); cancelable into Prowler Stance on hit only for oki; 6f blockstring gap between the hits (interruptible on block without DR~2LK or Burnout); Prowler Stance cancel: KD +17 oH",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 20,
+      "onPerfectParry": -31,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.23,
+      "blockstun": 9,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -2,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "alex__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; topmost hurtbox on frames 1-7 is vulnerable only to aerial attacks (preventing its use as an anti-air) and is projectile invincible to avoid High Tiger Shot; DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 5,
+      "onPerfectParry": -9,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 15
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 1300,
+      "damageText": "1300 (2210)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__2lplk",
+      "input": {
+        "numpad": "2LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Illegal Knees",
+        "ja": null
+      },
+      "notes": {
+        "en": "Leaves Alex at neutral advantage after forward dash for a pseudo-throw loop; Drive Rush allows real corner throw loops but gives weak midscreen oki; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 22,
+      "onPerfectParry": null,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.65,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "alex__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good low starter from Drive Rush (links to 2MP except from longer ranges); solid poke range to punish back walk",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -19,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.58,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 5,
+        "onHit": 8
+      },
+      "hitstop": 11,
+      "hitstun": 19,
+      "id": "alex__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "4f extra recovery on whiff; topmost hurtbox on frames 1-9 is vulnerable only to aerial attacks (preventing its use as an anti-air) and is projectile invincible to avoid High Tiger Shot; Special/DR/DI cancel is delayed until after active frames; relatively poor DR Cancel options (no natural combo into 2HP > 236HP, max range cannot cancel to 4MK > 2HP, and only a true blockstring into 5LP/2LP/2LK)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 1,
+      "onPerfectParry": -16,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__2pp",
+      "input": {
+        "numpad": "2PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Prowler Stance",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot block while in stance (counter-hit state for entire duration); Alex is in a crouching state on frame 5 onward (stand-sized hurtbox until frame 8); crouch-sized hurtbox on frames 9-15; Low Profile on frame 16~ (but does not duck under standard projectiles); can transition into one of several different follow-ups on frame 18 onward (frame 17 for Stance Exit); can be canceled with any up input (2PP~8); Alex remains in stance until canceled or hit; Alex switches facing direction when opponent switches sides",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "15-26 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.69,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 2000,
+      "damageText": "2000 (2300)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__2pp2lplk",
+      "input": {
+        "numpad": "2PP~2LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Dangerous Armbar<br>(Spiral DDT)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Turns into Spiral DDT on Punish Counter (different animation with separate KD advantage and higher damage/meter properties); can only hit standing opponents; regular version gets strong meterless corner oki or Drive Rush midscreen oki; Punish Counter version can walk for meterless oki anywhere on screen; immediately loses low profile state and exits stance upon activation but retains crouching state on frames 1-14 (standing-sized hurtboxes on frames 9-14); can be canceled into from Palm Jab for a more effective tick throw",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 21,
+      "onPerfectParry": null,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 55
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__2pp4",
+      "input": {
+        "numpad": "2PP~4",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Low Retreat",
+        "ja": null
+      },
+      "notes": {
+        "en": "Distance: 1.00; cannot cancel into follow-ups during the dash animation (except Stance Exit 1f before recovery ends); maintains Low Profile / crouch for entire duration and remains in Prowler Stance afterward; holding back does not buffer the dash (must be timed using the standard input buffer window)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 31
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__2pp6",
+      "input": {
+        "numpad": "2PP~6",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Low Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "Distance: 1.76; cancelable into Slash Elbow (6P) on frames 1-14 (if done later, Elbow is buffered at the usual follow-up timing); can perform Tactical Hop (LK) / Air Stampede (MK) on frame 18~; can perform Stance Exit on frame 28 (final recovery frame); cancelable into other Stance follow-ups on frame 21~; maintains Low Profile / crouch for entire duration and remains in Prowler Stance afterward; holding forward does not buffer the dash (must be timed using the standard input buffer window)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 28
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.32,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 4000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "alex__2pp6p",
+      "input": {
+        "numpad": "2PP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Slashing Elbow",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button strength determines distance and startup (LP shortest/fastest, HP longest/slowest); exits Stance after use; high active frame count allows it to be spaced or used with meaty timing for better advantage; Counter-hit/Punish Counter puts opponent into a limited juggle state; puts airborne opponents into a limited juggle state; head and arm hurtbox are anti-air invuln on frames 8-15 (LP) / 11-18 (MP) / 14-21 (HP); maintains Low Profile on startup until 5f before active; maintains crouch state until the end of active frames (standing-sized hurtboxes after the Low Profile frames end); expands significantly on the 3rd active frame making it easier to space for advantage on block; causes a screen shake effect when blocked with frame advantage (3rd/4th active frames)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 3,
+      "onPerfectParry": -20,
+      "onPunishCounter": 56,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__2pp8",
+      "input": {
+        "numpad": "2PP~8",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Exit Prowler Stance",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can start exiting stance 1 frame earlier than other follow-ups; fastest total stance + exit time is 42f; Low Profile and crouch state on frames 1-9 of exit animation; Alex remains in a counter-hit state for entire exit duration; holding up direction will buffer the Stance Exit at the earliest possible timing",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 25
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.02,
+      "blockstun": 16,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": "600 (2420)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "alex__2pphk",
+      "input": {
+        "numpad": "2PP~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Sweep Combination 1<br>(Flying Suplex)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hitconfirmable (but unsafe) long range sweep; Counter-hit/Punish Counter transitions into Flying Suplex for extra damage, meter, and a Hard Knockdown (no difference between 1st or 2nd hit of the TC when this happens); puts airborne opponents into a limited juggle state (allows TC follow-up to combo); Alex remains in stance after recovery except on Perfect Parry or when Flying Suplex connects; maintains Low Profile and crouch state for entire duration; 3f blockstring gap between hits (will frame trap if opponent attempts a punish too early); can be canceled into from Palm Jab (consistent combo ender at any range)",
+        "ja": null
+      },
+      "onBlock": -17,
+      "onHit": 29,
+      "onPerfectParry": -56,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.82,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": "600 (2420)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 10000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "alex__2pphkhk",
+      "input": {
+        "numpad": "2PP~HK~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Sweep Combination 2<br>(Flying Suplex)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Counter-hit/Punish Counter transitions into Flying Suplex for extra damage, meter, and a Hard Knockdown (no difference between 1st or 2nd hit of the TC when this happens); Alex remains in stance after recovery except on Perfect Parry or when Flying Suplex connects; maintains Low Profile and crouch state for entire duration; 3f blockstring gap between hits (will frame trap if opponent attempts a punish too early); leaves Alex +1 after manual Stance Exit for corner oki; can whiff when the first sweep connects at max range",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 25,
+      "onPerfectParry": -59,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.48,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "alex__2pphp",
+      "input": {
+        "numpad": "2PP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Heavy Lariat",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be held to gain damage, 2f extra blockstun, and armor properties; puts airborne opponents into a limited juggle state; Counter-hit (+8) / Punish Counter (+10) puts grounded opponents into a Backturned state that can link to 4MK or MP/OD Power Drop (can whiff at long range); shorter range vs. crouching opponents; great pressure tool for depleting the opponent's Drive gauge; can be canceled into from Palm Jab (up to 3 jabs vs. standing or 2 jabs vs. crouching); uncharged version comes out if button is held up to 12 frames; can be spaced out to hit on later active frames for better advantage (up to +8/+5); holding the button 1-5f results in 12f startup; holding the button 6-12f increases the total startup incrementally (up to a maximum startup of 20f); maintains Low Profile on frames 1-6 and crouch state on frames 1-14 (standing-sized hurtbox on frames 11-14)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 6,
+      "onPerfectParry": -20,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "6-16 (2-hit)",
+      "attackRange": 1.48,
+      "blockstun": 27,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "alex__2pp[hp]",
+      "input": {
+        "numpad": "2PP~[HP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Heavy Lariat (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "More damage and blockstun than uncharged version; puts airborne opponents into a limited juggle state; Counter-hit (+8) / Punish Counter (+10) puts grounded opponents into a Backturned state that can link to 4MK or MP/OD Power Drop (can whiff at long range); armor absorbs 2 hits as long as the button continues to be held (armor ends 5f before the attack hits); shorter range vs. crouching opponents; great pressure tool for depleting the opponent's Drive gauge; can be canceled into from Palm Jab but only combos on Punish Counter; can be spaced out to hit on later active frames for better advantage (up to +8/+7); button must be held 13f (early release ends the armor and results in uncharged version); maintains Low Profile on frames 1-16 and crouch state on frames 1-23 (standing-sized hurtbox on frames 20-23)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 6,
+      "onPerfectParry": -20,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "7-36 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__2pplk",
+      "input": {
+        "numpad": "2PP~LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Tactical Hop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Distance: 1.157; much shorter trajectory and lower height than a standard jump; can perform air normals or Flying Cross Chop on frames 22-32 (buffers from frame 8~, then buffers a grounded normal if pressed on frame 33~); immediately loses low profile state and exits stance upon activation; prejump frames 1-2 are in a crouching state followed by a standing state on frames 3-6; Lower Body Projectile Invuln on frames 6-8 (helps jump over projectiles on startup); has a smaller body hurtbox on frames 6-33; 3f landing recovery like a regular jump but cannot block when landing from an empty jump; Alex is in a Counter-hit state for entire move duration; can be canceled into from Palm Jab",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": null,
+      "totalFrames": 39
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.36,
+      "blockstun": 13,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 300
+      },
+      "driveRushCancel": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "hitstop": 9,
+      "hitstun": 19,
+      "id": "alex__2pplp",
+      "input": {
+        "numpad": "2PP~LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Palm Jab",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fast and long range jab that maintains the stance's Low Profile and crouching state; cancelable into other Prowler Stance moves (except Stance Exit, Forward/Back Dash, Hyper Takedown, or Slashing Elbow) and into standard specials / DI / DR; Alex remains in stance if not canceled (forced to exit after Perfect Parry); chained jabs form a true blockstring (can chain 4 jabs on hit or 3 on block); frame advantage compares the end of the jab recovery to the opponent's hitstun/blockstun but is only really relevant for tick throws with Hyper Takedown or when using Slashing Elbow afterward; can only tick throw into Hyper Takedown (Stance LP+LK) after 1 jab",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 7,
+      "onPerfectParry": -10,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 15
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.02,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__2pplplk",
+      "input": {
+        "numpad": "2PP~LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Hyper Takedown<br>(Death Valley Bomb)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Acts like a normal throw with extra range (can be teched); turns into Death Valley Bomb on Punish Counter (different animation with separate KD advantage and higher damage/meter properties); leads to good oki anywhere on screen; immediately loses low profile state and exits stance upon activation but retains crouching state on frames 1-7 with standing-sized hurtboxes; cannot be canceled into from Palm Jab (only in throw range after 1 jab on hit or block); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 32,
+      "onPerfectParry": null,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": "9-30 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.05,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "alex__2ppmk",
+      "input": {
+        "numpad": "2PP~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Air Stampede",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be steered left/right; cannot hit cross-up; Alex is considered grounded on the 2nd active frame (anti-air invuln specials will lose if they don't hit before this frame); Punish Counter puts opponents into a limited juggle OTG bounce state (Hard Knockdown if no move is juggled afterward); immediately loses low profile state and exits stance upon activation (remains crouching on frames 1-8 with a standing-sized hurtbox on frames 5-8); very short hitstop gives little time for opponent to make a decision on block (significantly longer hitstop on Punish Counter for easier juggle confirms); stomp is block reactable but difficult to anti-air (can hold back to cause many anti-airs to whiff at some ranges); can intentionally whiff over the opponent to bait parry (opponent can option select with 4~4MPMK to option select a parry + Drive Rush, though the timing is strict to punish Alex); can be canceled into from Palm Jab",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 28,
+      "onPerfectParry": -17,
+      "onPunishCounter": 62,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 30,
+      "superGauge": {
+        "onBlock": 550,
+        "onHit": 1100
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "2,5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.1,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400x2 (2680)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "alex__2ppmp",
+      "input": {
+        "numpad": "2PP~MP",
+        "official": null
+      },
+      "invuln": "1-6 Air (Upper/Mid), 7-13 Air (all)",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "2,3",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Shoulder Launcher<br>(Falling Moon)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Counter-hit/Punish Counter transitions into Falling Moon for higher damage, Hard Knockdown, and improved meter properties (regardless of whether 1st or 2nd hit connects); () refers to Falling Moon damage; not airborne despite the animation; puts opponents into a limited juggle state on normal hit; maintains Low Profile on frames 1-7 and considered crouching on frames 1-13; cannot hit cross-up but will autocorrect if input while dashing under the opponent (allows for side swap juggle routes); can be canceled into from Palm Jab",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 51,
+      "onPerfectParry": -22,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Guillotine Hammer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switch; no real strike/throw oki in the corner but can pressure with Drive Rush normals; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 16,
+      "onPerfectParry": null,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.28,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "alex__4mk",
+      "input": {
+        "numpad": "4MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Oblique Stomp",
+        "ja": null
+      },
+      "notes": {
+        "en": "Transitions into Collapsing Driver for a cinematic knockdown on backturned opponents; good punish starter into 2MP; strong pressure tool with a 5LP frame trap that links to 5MP on Counter-hit, or with DR~4MK into itself",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -16,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 24
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.38,
+      "blockstun": null,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": "600,1400",
+      "dmgScaling": "Both hits apply scaling",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 8000,
+        "gain": 3500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "alex__4mk(backturn)",
+      "input": {
+        "numpad": "4MK (Backturn)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Collapsing Driver",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performs a cinematic knockdown on backturned opponents; can be canceled into after 236HP on hit; counts as 2 separate moves for damage scaling; can whiff after max range 236HP on crouching opponents; deals less damage than Power Drop but maintains same side and gives better HKD oki",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 33,
+      "onPerfectParry": null,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2500
+      },
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Let's do this!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 310,
+      "superGauge": null,
+      "totalFrames": 310
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt (Omega Wing Buster)",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Aaalex. Aaaalex! AAAALEX!!! AAHHHH!!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 460,
+      "superGauge": null,
+      "totalFrames": 460
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.05,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "15% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "alex__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1[-1 PC Ground]"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Disjointed poke with great range; grounded Punish Counter crumple puts opponent into a free juggle crumple state and is +23 before opponent falls to the ground (no grounded combo possible); puts airborne opponents into a limited juggle state (free juggle on Punish Counter); extends a hurtbox 1f before active that is vulnerable to projectiles; can be held for a stronger, longer-range version (uncharged version comes out if button is held up to 15 frames); holding the button 1-8f results in 16f startup; holding the button 9-15f increases the total startup incrementally by 1f (up to a maximum startup of 23f)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": -24,
+      "onPunishCounter": 62,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 6,
+        "onHit": null
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.3,
+      "blockstun": 25,
+      "cancel": [
+        "ps"
+      ],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "15% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 12000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "alex__5[hk]",
+      "input": {
+        "numpad": "5[HK]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1 [0 PC]"
+      },
+      "name": {
+        "en": "Standing Heavy Kick (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button must be held 16f (early release results in uncharged version); more damage, range, and juggle potential than uncharged version; stops forward momentum when used out of Drive Rush (good for baiting DR checks); Punish Counter (ground/air) puts opponent into a free juggle state; puts airborne opponents into a limited juggle state on normal hit; startup frames 17-24 extend a small leg hurtbox (more easily counter-poked by standing buttons); extends a wide leg hurtbox on the first 10 recovery frames; Prowler Stance cancel: KD +42 oH / +4 oB (KD advantage varies on airborne opponents)",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 40,
+      "onPerfectParry": -21,
+      "onPunishCounter": 69,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 550,
+        "onHit": 1100
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.78,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "10% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "alex__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Disjointed poke with great range to harass the opponent's Drive gauge; cancelable into Super for a hitconfirm or to punish Drive Impact; extends a wide arm and foot hurtbox on the first 12 recovery frames; high active frame count for meaty setups (up to +8 oH / +1 oB, but high pushback on block); can be held for a stronger, fully cancelable version (uncharged version comes out if button is held up to 15 frames); holding the button 1-7f results in 12f startup; holding the button 8-15f increases the total startup incrementally by 1f (up to a maximum startup of 20f)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -22,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 6,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.03,
+      "blockstun": 27,
+      "cancel": [
+        "ps",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 12000,
+        "gain": 3000
+      },
+      "driveRushCancel": {
+        "onBlock": 17,
+        "onHit": 20
+      },
+      "hitstop": 15,
+      "hitstun": 30,
+      "id": "alex__5[hp]",
+      "input": {
+        "numpad": "5[HP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button must be held 16f (early release results in uncharged version); more damage and range than uncharged version; has juggle potential unlike uncharged version (useful in some routes like juggled SA2 when not fully cornered); puts airborne opponents into a limited juggle state; stops forward momentum when used out of Drive Rush (good for baiting DR checks, but will usually be out of range for link follow-ups afterward); enables true blockstring into HP Flash Chop for huge Drive damage and plus frames; true blockstring when canceled into Drive Impact (can be delayed to manually create a gap); extends a front leg hurtbox on frames 8-19 of startup (more easily counterpoked by lows); extends a wide arm and foot hurtbox on the first 15 recovery frames; can be safe to Drive Impact if absorbed late; Prowler Stance cancel: +9 oH / +6 oB",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 5,
+      "onPerfectParry": -23,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.44,
+      "blockstun": 10,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "alex__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Very long range for a 6-frame button (but slow for a light normal); DR cancel is delayed until after active frames",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 1,
+      "onPerfectParry": -13,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 20
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.08,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "alex__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; Alex's only 4f attack with above average range",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -9,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.330",
+        "onHit": "0.319"
+      },
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.7,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "alex__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Foot hurtbox shifts backward on frames 5-16f (more effective at counter-hitting low pokes); long range poke with good hitbox priority and no extended hurtbox before active frames; creates a useful spacing trap against Ryu/Akuma/Terry 2MK and Ed 2MP using 5LP~2LP~2LP or 2LK~5LP~2LP that grants a Punish Counter link to 5LK; extends a wide leg hurtbox on the first 11 recovery frames",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 3,
+      "onPerfectParry": -20,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 4,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.3,
+      "blockstun": 19,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 9,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "alex__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on whiff; extends a wide arm and foot hurtbox on the first 15 recovery frames; can lead to a hitconfirmable TC knockdown; great meaty tool with very low pushback (up to +6 oH / +3 oB)",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 3,
+      "onPerfectParry": -17,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.75,
+      "blockstun": 21,
+      "cancel": [
+        "ps"
+      ],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (840)",
+      "dmgScaling": "30% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "alex__5mphp",
+      "input": {
+        "numpad": "5MP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Palm Strikes",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage starting from 5MP (full sequence on hit does the same damage as just a counter-hit on the HP itself); easily hitconfirmable but fairly low risk and DI-safe between hits; cancelable into Prowler Stance on hit only for oki; 1f blockstring gap between hits (up to 3f if delayed, can throw off Perfect Parry timing); can be useful to stay close in Burnout (no blockstring gap but becomes +1 on block with some pushback); on block, leaves Alex in throw range if done from point blank; Prowler Stance cancel: KD +24 oH",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 21,
+      "onPerfectParry": -22,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Mind if... I loosen up... a bit?\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 370,
+      "superGauge": null,
+      "totalFrames": 370
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt (Omega Wing Buster)",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"... BOOM!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 256,
+      "superGauge": null,
+      "totalFrames": 256
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": "16-42 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.75,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": 175,
+      "damage": 1500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "alex__623hk",
+      "input": {
+        "numpad": "623HK",
+        "official": null
+      },
+      "invuln": "1-21 Air",
+      "juggle": {
+        "increase": null,
+        "limit": "10",
+        "start": null
+      },
+      "name": {
+        "en": "Aerial Knee Smash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Active frames 1-2 can hit grounded or airborne; active frames 3-8 can only hit airborne; Drive/Super meter gain only applies to the first hit when blocked; cannot hit cross-up; slow for anti-air purposes but the range can be used to punish landing recovery of divekicks or similar moves; useful as a combo ender even from max range light normals; allows strong meterless oki in the corner or Drive Rush oki midscreen",
+        "ja": null
+      },
+      "onBlock": -42,
+      "onHit": 29,
+      "onPerfectParry": -55,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 910,
+        "onHit": 1300
+      },
+      "totalFrames": 70
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": "12-38 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.75,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": 150,
+      "damage": 1700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "alex__623kk",
+      "input": {
+        "numpad": "623KK",
+        "official": null
+      },
+      "invuln": "1-17 Air",
+      "juggle": {
+        "increase": null,
+        "limit": "10",
+        "start": null
+      },
+      "name": {
+        "en": "Aerial Knee Smash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Active frames 1-2 can hit grounded or airborne; active frames 3-8 can only hit airborne; Super meter gain only applies to the first hit when blocked; cannot hit cross-up; Hard Knockdown allows strong meterless oki anywhere on screen; combos and anti-airs in all the same situations as HK version (and even more lenient in juggles due to the faster startup)",
+        "ja": null
+      },
+      "onBlock": -46,
+      "onHit": 27,
+      "onPerfectParry": -59,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 700,
+        "onHit": 1000
+      },
+      "totalFrames": 70
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": "5-32 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.1,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__623lk",
+      "input": {
+        "numpad": "623LK",
+        "official": null
+      },
+      "invuln": "1-10 Air",
+      "juggle": {
+        "increase": null,
+        "limit": "10",
+        "start": null
+      },
+      "name": {
+        "en": "Aerial Knee Smash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Anti-air grab (cannot hit grounded opponents); cannot hit cross-up; best overall anti-air at closer ranges due to its fast speed and upward trajectory; allows strong meterless oki in the corner or Drive Rush oki midscreen",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 29,
+      "onPerfectParry": null,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 1300
+      },
+      "totalFrames": 56
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": "6-34 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.51,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 1400,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__623mk",
+      "input": {
+        "numpad": "623MK",
+        "official": null
+      },
+      "invuln": "1-16 Air",
+      "juggle": {
+        "increase": null,
+        "limit": "10",
+        "start": null
+      },
+      "name": {
+        "en": "Aerial Knee Smash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Anti-air grab (cannot hit grounded opponents); cannot hit cross-up; more horizontal range and an extended combo-only hitbox make it useful in juggles; allows strong meterless oki in the corner or Drive Rush oki midscreen",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 29,
+      "onPerfectParry": null,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 1300
+      },
+      "totalFrames": 58
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 2500,
+      "damageText": "2500 (2875)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__63214hp",
+      "input": {
+        "numpad": "63214HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Power Bomb",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shortest range / fastest startup version; turns into Power Drop on backturned opponent; most useful for tick throws when the range allows it; Alex's strongest meterless Drive Reversal punish (but can whiff when blocked at max range)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 15,
+      "onPerfectParry": null,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.24,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 2500,
+      "damageText": "2500 (2875)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__63214lp",
+      "input": {
+        "numpad": "63214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Power Bomb",
+        "ja": null
+      },
+      "notes": {
+        "en": "Longest range / slowest startup version; useful in some oki situations (e.g. corner throw + dash) but less useful in tick throw scenarios; turns into Power Drop on backturned opponent",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 15,
+      "onPerfectParry": null,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 50,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.04,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 2500,
+      "damageText": "2500 (2875)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__63214mp",
+      "input": {
+        "numpad": "63214MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Power Bomb",
+        "ja": null
+      },
+      "notes": {
+        "en": "Medium range / startup version; turns into Power Drop on backturned opponent; can be used in some tick throw situations especially out of Drive Rush normals",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 15,
+      "onPerfectParry": null,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 52,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.14,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 2900,
+      "damageText": "2900 (3335)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__63214pp",
+      "input": {
+        "numpad": "63214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Power Bomb",
+        "ja": null
+      },
+      "notes": {
+        "en": "Startup of HP version with range in between LP/MP versions; most useful overall in tick throw scenarios; turns into Power Drop on backturned opponent; more consistent and slightly more damaging as a Drive Reversal punish than HP version",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 15,
+      "onPerfectParry": null,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 3200,
+      "damageText": "3200 (3680)(2620 Scaled)",
+      "dmgScaling": "15% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 11000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__63214pp6backturn",
+      "input": {
+        "numpad": "63214PP~6 Backturn",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "OD Hyper Bomb",
+        "ja": null
+      },
+      "notes": {
+        "en": "Does not switch sides; sets up a safe jump or Drive Rush oki anywhere on the screen; cannot be canceled into Omega Wing Buster; () refers to Punish Counter damage, scaled damage refers to version canceled from 236HP combo starter; maintains the same damage scaling as the preceding OD Power Drop (does not count as a separate move for scaling); backturn connect can occur even without 236HP starter (e.g. after opponent jumps over Alex)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 42,
+      "onPerfectParry": null,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.42,
+      "blockstun": null,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 3000,
+      "damageText": "3000 (3450)(2550 scaled)",
+      "dmgScaling": "40% Starter; 15% Immediate; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__63214ppbackturn",
+      "input": {
+        "numpad": "63214PP Backturn",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Power Drop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Switches sides and leads to Drive Rush oki even midscreen; cancelable into Omega Wing Buster by inputting PP (cannot hold buttons for the entire animation, input during the 2nd body slam); () refers to Punish Counter damage, scaled damage refers to version canceled from 236HP combo starter; the version that comes out after 236HP has more range than any standard version of Power Bomb (but can whiff at absolute max range vs. crouching opponents); the starter scaling affects Omega Wing Buster damage when punishing with a raw OD Power Drop, while the combo scaling affects it when canceled from HP Flash Chop; backturn connect can occur even without 236HP starter (e.g. after opponent jumps over Alex)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 38,
+      "onPerfectParry": null,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.42,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 2800,
+      "damageText": "2800 (3220)(2240 scaled)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__63214pbackturn",
+      "input": {
+        "numpad": "63214P Backturn",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Power Drop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Switches sides with no real oki; no difference between strengths once the grab connects; the version that comes out after 236HP has more range than any standard version of Power Bomb (but can whiff at absolute max range vs. crouching opponents); () refers to Punish Counter damage, scaled damage refers to version canceled from 236HP combo starter; backturn connect can occur even without 236HP starter (e.g. after opponent jumps over Alex)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 13,
+      "onPerfectParry": null,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.64,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "alex",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "alex__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Headbutt (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; 4f less hitstop on block compared to most Drive Reversals (changes the punish timing); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.74,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "alex",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "alex__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Headbutt (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); 4f less hitstop on block compared to most Drive Reversals (changes the punish timing); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.64,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "alex__6mp",
+      "input": {
+        "numpad": "6MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Chop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good range and damage for an overhead; when used out of Drive Rush, combos into 5MP at any range",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -19,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"You know what I'm gonna do to you once I'm warmed up? THIS!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 405,
+      "superGauge": null,
+      "totalFrames": 405
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt (Omega Wing Buster)",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Bring it.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 350,
+      "superGauge": null,
+      "totalFrames": 350
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.477,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "alex",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "alex__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Lariat Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 34,
+      "id": "alex__j2hp",
+      "input": {
+        "numpad": "j.2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Flying Cross Chop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forward Jump only; 15f extra recovery on whiff; Alex is in a crouching state during landing recovery (standing-sized hurtbox for the first 3 frames); puts airborne opponents into a limited juggle state; leg hurtbox is projectile invuln on frame 19 until landing",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 0,
+      "onPerfectParry": -47,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.2,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "alex__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Decent all-around jump-in for horizontal approaches; lower body projectile invuln 10-21f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 7,
+      "onHit": 11,
+      "onPerfectParry": -6,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.07,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "alex__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Best downward hitbox priority for vertical approaches; spike knockdown on airborne opponents; lower body projectile invuln 9-24f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -9,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.59,
+      "blockstun": 12,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "alex__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; can be used as a fuzzy instant overhead on tall characters",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 5,
+      "onPerfectParry": -8,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.09,
+      "blockstun": 12,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "alex__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Quick air-to-air",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 7,
+      "onPerfectParry": -6,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.33,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 18,
+      "id": "alex__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Most horizontal range of Alex's jump-ins but more difficult to time than j.HK; requires frame perfect timing to connect on a standard crouching hurtbox (4f timing vs. tall crouching opponents); lower body projectile invuln 8-25f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 8,
+      "onHit": 11,
+      "onPerfectParry": -5,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.09,
+      "blockstun": 11,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "alex__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into a limited juggle state; lower body projectile invuln 7-21f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -4,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Arm Lock",
+        "ja": null
+      },
+      "notes": {
+        "en": "No true throw loop without Drive Rush (can dash + LP Power Bomb, dash up into spaced normals, or use Drive Rush for better strike/throw oki); DR~5HK leaves Alex +7/+2 anywhere on screen and in range for a tick command grab (HP in corner, OD midscreen); midscreen, can also hold the DR~5[HK] to throw off Perfect Parry timing or punish delay tech; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 28,
+      "onPerfectParry": null,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.393 (min/throw), 1.722 (min/block), 3.530 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "alex",
+      "chipDamage": null,
+      "damage": 2800,
+      "damageText": "2800 (1680)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "alex__pp(sa2)",
+      "input": {
+        "numpad": "PP (SA2)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Omega Wing Buster",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can only be performed after OD Power Drop on a backturned opponent; 2800 damage refers to base damage without scaling (1680 is the most it can theoretically do at 60% scaling); fully invincible for the entire cinematic; pushes opponent a full screen away (no possible oki); PP input must be pressed rather than held for the entire throw cinematic (timing is around the 2nd body slam)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 29,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Alex/Frame_data"
+      },
+      "startup": 2,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": -20000
+      },
+      "totalFrames": null
+    }
+  ],
+  "name": {
+    "en": "Alex",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.452Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

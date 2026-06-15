@@ -1,6 +1,7 @@
 import { type Character, deriveNormalJaName, type Move } from '@repo/core'
 import overrides from './alias-overrides.json'
-import generated from './generated/sf6.json'
+// generated/index.ts は apps/scraper が自動生成（キャラ別 JSON を結合した配列）。
+import generated from './generated'
 import saLevels from './sa-levels.json'
 
 // 生成データ。apps/scraper が SuperCombo Wiki (CC-BY-SA) から cargoquery で取得・正規化し、
@@ -147,4 +148,4 @@ export function getCharacters(): readonly Character[] {
 }
 
 // 生成スナップショットの識別子（取得日）
-export const dataVersion = '2026-06-13'
+export const dataVersion = '2026-06-15'

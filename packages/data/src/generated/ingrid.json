@@ -1,0 +1,5462 @@
+{
+  "aliases": [],
+  "id": "ingrid",
+  "moves": [
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "6-33; Break",
+      "attackRange": 2.37,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": "900x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 30000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "ingrid__214214k",
+      "input": {
+        "numpad": "214214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "10,10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Sunburst Blow",
+        "ja": null
+      },
+      "notes": {
+        "en": "Dark Ingrid only; immediately puts the opponent into Burnout on hit; cannot be canceled into from normals; hits twice on hit or once on block",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 27,
+      "onPerfectParry": -30,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 27,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 58
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ingrid",
+      "chipDamage": 450,
+      "damage": 1600,
+      "damageText": "1600(250x4,300x2)",
+      "dmgScaling": "40% Minimum; 20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 1200,
+        "dealtOnHit": 1000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "ingrid__214214p(0stock)",
+      "input": {
+        "numpad": "214214P (0 Stock)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "100",
+        "start": "0"
+      },
+      "name": {
+        "en": "Order of the Sun (0 Stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fires beacon into the air that spawns 3 downward-hitting Super-priority projectiles (these projectiles disappear if Ingrid is hit); button strength determines beacon position (Modern Controls: hold back/neutral/forward to control position); LP version appears in front of the opponent, MP version appears above the opponent, HP version appears behind the opponent (except at fullscreen distance); can hold the button to spend up to 2 Sun Crests for additional projectiles; projectile startup varies based on strength: LP 103f / MP 68f / HP 98f; gap between blocked projectiles is 8f / 7f (varies when switching between stand/crouch block, but always large enough to throw between projectiles); grounded opponents are put into a free juggle state by the 3rd projectile (1st/2nd keep the opponent grounded); airborne opponents are put into a free juggle state or maintain the existing juggle count; Ingrid cannot gain additional Super gauge while the projectiles are active or until the current combo ends; after SA2 activation, can combo after a Forward Throw (limited juggle) or Back Throw (free juggle)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 13
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ingrid",
+      "chipDamage": 600,
+      "damage": 2400,
+      "damageText": "2400(250x4,300x2,400x2)",
+      "dmgScaling": "40% Minimum; 20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 1200,
+        "dealtOnHit": 1000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "ingrid__214214[p](1stock)",
+      "input": {
+        "numpad": "214214[P] (1 Stock)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "100",
+        "start": "0"
+      },
+      "name": {
+        "en": "Order of the Sun (1 Stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button must be held 26f during Super freeze; fires beacon into the air that spawns 4 sets of downward-hitting Super-priority projectiles (these projectiles disappear if Ingrid is hit); button strength determines beacon position (Modern Controls: hold back/neutral/forward to control position); LP version appears in front of the opponent, MP version appears above the opponent, HP version appears behind the opponent (except at fullscreen distance); consumes 1 Sun Crest in exchange for the additional projectiles; projectile startup varies based on strength: LP 103f / MP 68f / HP 98f; gap between blocked projectiles is 8f / 7f / 10f (varies when switching between stand/crouch block, but always large enough to throw between projectiles); grounded opponents are put into a free juggle state by the 3rd projectile (1st/2nd/4th keep the opponent grounded); airborne opponents are put into a free juggle state or maintain the existing juggle count; Ingrid cannot gain additional Super gauge while the projectiles are active or until the current combo ends; after SA2 activation, can combo after a Forward Throw (limited juggle) or Back Throw (free juggle)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 13
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ingrid",
+      "chipDamage": 750,
+      "damage": 3400,
+      "damageText": "3400(250x4,300x2,400x2,500x2)",
+      "dmgScaling": "40% Minimum; 20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 1200,
+        "dealtOnHit": 1000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "ingrid__214214[p](2stock)",
+      "input": {
+        "numpad": "214214[P] (2 Stock)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "100",
+        "start": "0"
+      },
+      "name": {
+        "en": "Order of the Sun (2 Stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button must be held 71f during Super freeze; fires beacon into the air that spawns 5 sets of downward-hitting Super-priority projectiles (these projectiles disappear if Ingrid is hit); button strength determines beacon position (Modern Controls: hold back/neutral/forward to control position); LP version appears in front of the opponent, MP version appears above the opponent, HP version appears behind the opponent (except at fullscreen distance); consumes 2 Sun Crests in exchange for the additional projectiles; projectile startup varies based on strength: LP 103f / MP 68f / HP 98f; gap between blocked projectiles is 8f / 7f / 10f / 7f (varies when switching between stand/crouch block, but always large enough to throw between projectiles); grounded opponents are put into a free juggle state by the 3rd projectile (1st/2nd/4th keep the opponent grounded); airborne opponents are put into a free juggle state or maintain the existing juggle count; 5th hit puts opponent into an OTG bounce state; Ingrid cannot gain additional Super gauge while the projectiles are active or until the current combo ends; after SA2 activation, can combo after a Forward Throw (limited juggle) or Back Throw (free juggle)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 13
+    },
+    {
+      "active": "15",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": "1100 (800,300)",
+      "dmgScaling": "30% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "ingrid__214hp(1stock)",
+      "input": {
+        "numpad": "214HP (1 Stock)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,2",
+        "limit": "1,1",
+        "start": "0,2"
+      },
+      "name": {
+        "en": "Sun Flare (1 Stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit projectile hitbox; consumes 1 Sun Crest for more hits, extra damage, and longer range compared to the 0-stock MP/HP version; identical to the 0-stock OD version except for projectile priority and Super cancelability; extends a foot hurtbox and a projectile invincible arm hurtbox on frames 19-38",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 68,
+      "onPerfectParry": -7,
+      "onPunishCounter": 68,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "15",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 336,
+      "damage": 1350,
+      "damageText": "1350 (450x3)",
+      "dmgScaling": "30% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "ingrid__214hp(2stock)",
+      "input": {
+        "numpad": "214HP (2 Stock)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,1",
+        "limit": "99x3",
+        "start": "1,1,2"
+      },
+      "name": {
+        "en": "Sun Flare (2 Stock))",
+        "ja": null
+      },
+      "notes": {
+        "en": "3-hit projectile hitbox; consumes 2 Sun Crests for more hits, extra damage, and longer range compared to the 1-stock HP version; identical to the 1-stock OD version except for projectile priority and Super cancelability; extends a foot hurtbox and a projectile invincible arm hurtbox on frames 19-38",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 76,
+      "onPerfectParry": 4,
+      "onPunishCounter": 76,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ingrid__214lp(holdok)",
+      "input": {
+        "numpad": "214LP (HOLD OK)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Sun Flare",
+        "ja": null
+      },
+      "notes": {
+        "en": "Builds Sun Crests up to a maximum of 4 stocks; can hold the button to extend the move and build stocks slightly more quickly (ends automatically upon reaching 4 stocks); Lv.1 (unheld version): 48F total, stock is built on frame 47 (or frame 42 when continuing to Lv.2 Hold); Lv.2 Hold: 94F total, button must be held 23F, 2nd stock is built on frame 93 (or frame 88 when continuing to Lv.3 Hold); Lv.3 Hold: 140F total, button must be held 85F, 3rd stock is built on frame 139 (or frame 134 when continuing to Lv.4 Hold); Lv.4 Hold: 186F total, button must be held 131F, 4th stock is built on frame 182; if activated with 4 Sun Crests, Ingrid instead builds 3000 Drive gauge every 46 frames (frame data is identical to the regular version but the button can be held indefinitely); Ingrid is in a counter-hit state for the entire duration; hurtbox expands upward on frames 10-44 (Lv.1) / 10-84 (Lv.2) / 10-130 (Lv.3) / 10-184 (Lv.4)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 48,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 23,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "30% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "ingrid__214mp",
+      "input": {
+        "numpad": "214MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Sun Flare",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile hitbox; this version also comes out when input with HP button if Ingrid has 0 Sun Crests; extends a foot hurtbox and a projectile invincible arm hurtbox on frames 22-41",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 47,
+      "onPerfectParry": -16,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "15",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": "1100 (800,300)",
+      "dmgScaling": "30% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "ingrid__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,2",
+        "limit": "1,1",
+        "start": "0,2"
+      },
+      "name": {
+        "en": "Sun Flare",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit OD projectile hitbox; identical to the 1-stock HP version except for projectile priority and SA2 cancelability; extends a foot hurtbox and a projectile invincible arm hurtbox on frames 19-38; SA2 cancel: KD+75/+11",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 68,
+      "onPerfectParry": -7,
+      "onPunishCounter": 68,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "15",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 336,
+      "damage": 1350,
+      "damageText": "1350 (450x3)",
+      "dmgScaling": "30% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "ingrid__214pp(1stock)",
+      "input": {
+        "numpad": "214PP (1 Stock)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,1",
+        "limit": "99x3",
+        "start": "1,1,2"
+      },
+      "name": {
+        "en": "Sun Flare (1 Stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "3-hit OD projectile hitbox; identical to the 2-stock HP version except for projectile priority and SA2 cancelability; has more hits, extra damage, and longer range compared to 0-stock OD version; extends a foot hurtbox and a projectile invincible arm hurtbox on frames 19-38; SA2 cancel: KD+83/+12",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 76,
+      "onPerfectParry": 4,
+      "onPunishCounter": 76,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "18",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 448,
+      "damage": 1800,
+      "damageText": "1800 (450x4)",
+      "dmgScaling": "30% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "ingrid__214pp(2stock)",
+      "input": {
+        "numpad": "214PP (2 Stock)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x3,1",
+        "limit": "99x4",
+        "start": "1x3,0"
+      },
+      "name": {
+        "en": "Sun Flare (2 Stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "4-hit OD projectile hitbox; has properties greater than the 2-stock HP version or 1-stock OD version for 2 Sun Crests; extends a foot hurtbox and a projectile invincible arm hurtbox on frames 19-38; SA2 cancel: KD+94/+16",
+        "ja": null
+      },
+      "onBlock": 9,
+      "onHit": 87,
+      "onPerfectParry": 15,
+      "onPunishCounter": 87,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "15",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break (counter)",
+      "attackRange": 1.7,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 25,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3500,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "ingrid__22k",
+      "input": {
+        "numpad": "22K",
+        "official": null
+      },
+      "invuln": "6-20 Strike/Projectile1-14 (counter)",
+      "juggle": null,
+      "name": {
+        "en": "Sun Veil",
+        "ja": null
+      },
+      "notes": {
+        "en": "Counter that can absorb strikes (resulting in a counter-attack) or dissipate 1-hit non-Super projectiles; counter-attack is a strike knockdown that can be blocked if triggered by a low-recovery attack; counter-attack has 12f startup / 3f active / 21f recovery / 45f total animation / 1-14 fully invuln / Armor Break / no collision box 1-14f (some moves can pass through before counter-attack connects); absorbing a projectile results in 28f total recovery (often punishable if done from longer ranges); can be used to counter most strike-based Supers (useful option out of Drive Rush cancel on reaction to opponent's Super freeze); Ingrid is in a counter-hit state on frames 1-5 and a Punish Counter state for the rest of the move's duration; extends a vulnerable arm hurtbox on frames 21-36 if the counter whiffs",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 23,
+      "onPerfectParry": -22,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 0,
+        "onHit": 1000
+      },
+      "totalFrames": 55
+    },
+    {
+      "active": "20",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break (counter)",
+      "attackRange": 1.7,
+      "blockstun": 24,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 25,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "ingrid__22kk",
+      "input": {
+        "numpad": "22KK",
+        "official": null
+      },
+      "invuln": "1-20 Full1-11 (counter)",
+      "juggle": null,
+      "name": {
+        "en": "Sun Veil",
+        "ja": null
+      },
+      "notes": {
+        "en": "Counter that can absorb strikes/throws (resulting in a counter-attack) or dissipate non-Super projectiles even with multiple hits; counter-attack is a strike knockdown that can be blocked if triggered by a safe jump (3f leniency on safe jump timing); counter-attack has 6f startup / 6f active / 21f recovery / 40f total animation / 1-11 fully invuln / Armor Break / no collision box 1-11f (some moves can pass through before counter-attack connects); after absorbing a projectile hit, Ingrid incurs up to 9f fully invincible recovery per hit (refreshing for each new hit absorbed) followed by 15f vulnerable recovery; can be used to counter most Supers (useful option out of Drive Rush cancel on reaction to opponent's Super freeze); extends a vulnerable arm hurtbox on frames 21-36 if the counter whiffs",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 52,
+      "onPerfectParry": -25,
+      "onPunishCounter": 52,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": {
+        "onBlock": 0,
+        "onHit": 1200
+      },
+      "totalFrames": 55
+    },
+    {
+      "active": "50",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 61,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 2500,
+      "damage": 5000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": null,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 1,
+      "hitstun": null,
+      "id": "ingrid__22ppp",
+      "input": {
+        "numpad": "22PPP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1x16",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Sunburst Beam",
+        "ja": null
+      },
+      "notes": {
+        "en": "Dark Ingrid only; tall 16-hit beam projectile that reaches fullscreen; expands forward during the first 4 active frames before reaching full range on the 5th active frame; most/all hits will connect even if opponent falls into the late active frames; chip damage deals 50% of its base damage rather than the usual 25%",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 48,
+      "onPerfectParry": 101,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 61,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 135
+    },
+    {
+      "active": "5(14)7(11)3",
+      "afterDriveRush": null,
+      "airborne": "16-95 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.79,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ingrid",
+      "chipDamage": 500,
+      "damage": 1900,
+      "damageText": null,
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ingrid__236236k(0stock)",
+      "input": {
+        "numpad": "236236K (0 Stock)",
+        "official": null
+      },
+      "invuln": "1-15 Strike/Throw",
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shining Sun (0 Stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hold the button to spend up to 2 Sun Crests (+400 damage per crest but reduced oki); sends opponent ~1/2 screen away on hit; Ingrid's primary reversal while in Burnout (but slow startup makes it susceptible to safejab pressure); hitbox has a dead zone that can cause it to whiff through high airborne opponents; solid anti-air but cannot hit cross-up; 1st hit deals 400 damage and puts the opponent into a limited juggle state if it trades with a projectile (high float for easy hitconfirm)",
+        "ja": null
+      },
+      "onBlock": -99,
+      "onHit": 12,
+      "onPerfectParry": -117,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 45,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 129
+    },
+    {
+      "active": "5(14)7(11)3",
+      "afterDriveRush": null,
+      "airborne": "16-95 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.79,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ingrid",
+      "chipDamage": 500,
+      "damage": 2300,
+      "damageText": null,
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ingrid__236236[k](1stock)",
+      "input": {
+        "numpad": "236236[K] (1 Stock)",
+        "official": null
+      },
+      "invuln": "1-15 Strike/Throw",
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shining Sun (1 Stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hold the button for 30 frames to spend 1 Sun Crest for 400 extra damage and a farther knockdown; sends opponent ~2/3 screen away on hit; hitbox has a dead zone that can cause it to whiff through high airborne opponents; solid anti-air but cannot hit cross-up; 1st hit deals 400 damage and puts the opponent into a limited juggle state if it trades with a projectile (high float for easy hitconfirm)",
+        "ja": null
+      },
+      "onBlock": -99,
+      "onHit": 17,
+      "onPerfectParry": -117,
+      "onPunishCounter": 17,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 45,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 129
+    },
+    {
+      "active": "5(14)7(11)3",
+      "afterDriveRush": null,
+      "airborne": "16-95 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.79,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ingrid",
+      "chipDamage": 500,
+      "damage": 2700,
+      "damageText": null,
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ingrid__236236[k](2stock)",
+      "input": {
+        "numpad": "236236[K] (2 Stock)",
+        "official": null
+      },
+      "invuln": "1-15 Strike/Throw",
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shining Sun (2 Stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hold the button for 60 frames to spend 2 Sun Crests for 800 extra damage and a farther knockdown; sends opponent a full screen away on hit; hitbox has a dead zone that can cause it to whiff through high airborne opponents; solid anti-air but cannot hit cross-up; 1st hit deals 400 damage and puts the opponent into a limited juggle state if it trades with a projectile (high float for easy hitconfirm)",
+        "ja": null
+      },
+      "onBlock": -99,
+      "onHit": 20,
+      "onPerfectParry": -117,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 45,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 129
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 26,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ingrid",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "ingrid__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Cosmic Ray",
+        "ja": null
+      },
+      "notes": {
+        "en": "Projectile hitbox that targets the opponent's position 8f before it becomes active (can continue moving slightly upward after this point); the opponent can avoid the projectile by moving quickly (like a fast Drive Rush or jumping after the Super freeze); cinematic time regenerates ~2.1 Drive bars for Ingrid; very slow startup makes it a poor reversal",
+        "ja": null
+      },
+      "onBlock": -45,
+      "onHit": 30,
+      "onPerfectParry": -60,
+      "onPunishCounter": 30,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 68,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 90
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 26,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ingrid",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "ingrid__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Cosmic Ray (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Projectile hitbox that targets the opponent's position 8f before it becomes active (can continue moving slightly upward after this point); the opponent can avoid the projectile by moving quickly (like a fast Drive Rush or jumping after the Super freeze); available at 25% HP or below; cinematic time regenerates ~2.3 Drive bars for Ingrid; very slow startup makes it a poor reversal",
+        "ja": null
+      },
+      "onBlock": -45,
+      "onHit": 30,
+      "onPerfectParry": -60,
+      "onPunishCounter": 30,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 68,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 90
+    },
+    {
+      "active": "3(4)2(14)4",
+      "afterDriveRush": null,
+      "airborne": "50-78 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.55,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 225,
+      "damage": 1300,
+      "damageText": "1300 (200x2,500,400)",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 1500,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "ingrid__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,1,1",
+        "limit": "0,0,1,7",
+        "start": "1,1,0,0"
+      },
+      "name": {
+        "en": "Sun Rise",
+        "ja": null
+      },
+      "notes": {
+        "en": "4 hits (only 3 hits on block/whiff); Low Crush 25-35f (not airborne during these frames); on hit, Ingrid recovers mid-air on frame 77 with the opponent in a limited juggle state (can follow up with j.MP knockdown / j.HP reset / j.214P)",
+        "ja": null
+      },
+      "onBlock": -25,
+      "onHit": 28,
+      "onPerfectParry": -43,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 27,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 94
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 31,
+      "id": "ingrid__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Sun Shot",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; uncharged version has 2f extra whiff recovery if the projectile does not connect within the first 40 frames; sends a projectile upward that stays active for 39f, then descends for another 20f; hold button 15f for charged version that instead flies straight forward mid-air; puts airborne opponents into a limited juggle state; charged version is useful for baiting a whiffed parry or punishing opponents trying to jump out of Ingrid's projectile zoning; uncharged version can be used to safely stock a Sun Crest at mid range if the opponent doesn't jump over it; can only have 1 meterless Sun Shot on-screen at a time (but can be used in conjunction with OD Sun Shot); projectile disappears 1f after Ingrid is hit; extends a slight projectile invuln hand hitbox on frames 16-45 and a foot hurtbox on frames 16-44",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": -1,
+      "onPerfectParry": -21,
+      "onPunishCounter": 3,
+      "projectileSpeed": 0.038,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "5(4)4(7)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.08,
+      "blockstun": 23,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 225,
+      "damage": 1600,
+      "damageText": "1600 (200x2,500,700)",
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 1500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 23,
+      "id": "ingrid__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1,0,1",
+        "limit": "5,5,7,10",
+        "start": "1,1,1,0"
+      },
+      "name": {
+        "en": "Sun Rise",
+        "ja": null
+      },
+      "notes": {
+        "en": "4 hits (only 3 hits on block/whiff); Low Crush 14-26f (not airborne); safe buffer option that becomes +1 vs. Burnout; forces stand on the first 3 hits; carries over Counter-Hit / Punish Counter bonus frame advantage through the first 3 hits (affects SA2 cancel advantage); SA2 cancel: +15/+5",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 40,
+      "onPerfectParry": -21,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 56
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": "8-38 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.38,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": "1000(800)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ingrid__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": "1-14 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Sun Rise",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong anti-air but cannot hit cross-up; deals 200 less damage and has reduced advantage (KD +32~38) on active frames 4-10",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 36,
+      "onPerfectParry": -42,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 31,
+      "id": "ingrid__236lp",
+      "input": {
+        "numpad": "236LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Sun Shot",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; sends a slower projectile forward a short distance that pauses before continuing forward; hold button 17f for charged version (faster ending projectile speed); puts airborne opponents into a limited juggle state; useful approach tool that can be followed up with Drive Rush pressure from midrange; can only have 1 meterless Sun Shot on-screen at a time (but can be used in conjunction with OD Sun Shot); projectile disappears 1f after Ingrid is hit; extends a slight projectile invuln hand hitbox on frames 18-44 and a foot hurtbox on frames 18-45",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": -2,
+      "onPerfectParry": -22,
+      "onPunishCounter": 2,
+      "projectileSpeed": 0.043,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,600",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "ingrid__236lpmpor236lphp",
+      "input": {
+        "numpad": "236LPMP or 236LPHP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,2",
+        "limit": "3,6",
+        "start": "0,1"
+      },
+      "name": {
+        "en": "Sun Shot (L/M)",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit OD projectile; LP+MP gives the shorter/slower 236LP version (most useful for approaching from midrange); LP+MP gives the farther/faster 236MP version (more useful as a traditional zoning projectile); hold button 17f for charged version (faster ending projectile speed); 2nd hit puts opponents into a limited juggle state; can only have 1 OD Sun Shot on-screen at a time (but can be used in conjunction with another meterless Sun Shot); projectile disappears 1f after Ingrid is hit; extends a slight projectile invuln hand hitbox on frames 18-44 and a foot hurtbox on frames 18-45; SA2 cancel: KD+61/+10",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 52,
+      "onPerfectParry": -7,
+      "onPunishCounter": 52,
+      "projectileSpeed": 0.043,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "5(17)10",
+      "afterDriveRush": null,
+      "airborne": "35-64 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.45,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": "1200 (500,700)",
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "ingrid__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "5,10",
+        "start": "1,0"
+      },
+      "name": {
+        "en": "Sun Rise",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; Low Crush 12-20f (not airborne during these frames); combos from light normals",
+        "ja": null
+      },
+      "onBlock": -23,
+      "onHit": 38,
+      "onPerfectParry": -41,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 77
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 31,
+      "id": "ingrid__236mp",
+      "input": {
+        "numpad": "236MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Sun Shot",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; sends a projectile forward a medium distance that pauses before continuing forward; hold button 17f for charged version (faster ending projectile speed); puts airborne opponents into a limited juggle state; can only have 1 meterless Sun Shot on-screen at a time (but can be used in conjunction with OD Sun Shot); projectile disappears 1f after Ingrid is hit; extends a slight projectile invuln hand hitbox on frames 18-44 and a foot hurtbox on frames 18-45",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": -2,
+      "onPerfectParry": -22,
+      "onPunishCounter": 2,
+      "projectileSpeed": 0.065,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,600",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "ingrid__236mphp",
+      "input": {
+        "numpad": "236MPHP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,2",
+        "limit": "3,6",
+        "start": "0,1"
+      },
+      "name": {
+        "en": "Sun Shot (H)",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit OD projectile; uncharged version has 2f extra whiff recovery if the projectile does not connect within the first 35 frames; sends a projectile upward that stays active for 39f, then descends for another 20f; hold button 15f for charged version that instead flies straight forward mid-air; charged version is useful for baiting a whiffed parry or punishing opponents trying to jump out of Ingrid's projectile zoning; uncharged version can be used to safely stock a Sun Crest at mid range if the opponent doesn't jump over it; can only have 1 OD Sun Shot on-screen at a time (but can be used in conjunction with another meterless Sun Shot); projectile disappears 1f after Ingrid is hit; extends a slight projectile invuln hand hitbox on frames 16-45 and a foot hurtbox on frames 16-44; SA2 cancel: KD+61/+10",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 53,
+      "onPerfectParry": -6,
+      "onPunishCounter": 53,
+      "projectileSpeed": 0.038,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -8,
+        "onHit": 30
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.71,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ingrid__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Orbital Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Solid range and hitbox priority; has juggle potential without Drive Rush",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 30,
+      "onPerfectParry": -26,
+      "onPunishCounter": 45,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 37
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.749,
+      "blockstun": 22,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 12,
+        "onHit": 14
+      },
+      "hitstop": 13,
+      "hitstun": 24,
+      "id": "ingrid__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Ingrid's longest ranged fully cancelable poke with a strong disjointed hitbox; much safer on block than most similar pokes (sets up a +3 strike/throw/shimmy mixup when used out of Drive Rush on block); has an extended hurtbox on whiff until the end of recovery; SA2 cancel: +10/+8",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 1,
+      "onPerfectParry": -21,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": "20-48 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.56,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ingrid__2kkk",
+      "input": {
+        "numpad": "2KKK",
+        "official": null
+      },
+      "invuln": "13-27 Full",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Vanishing Sun (Down)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Teleports above the opponent and comes down with an overhead strike that is plus on block; puts grounded opponents into a limited juggle state (follow-ups possible in the corner); puts airborne opponents into a limited juggle OTG bounce state (follow-ups possible anywhere on screen); can whiff over opponents that are walking forward; vulnerable for 15f after reappearing (can be countered on reaction)",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 48,
+      "onPerfectParry": -15,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 43,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 59
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.05,
+      "blockstun": 10,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "ingrid__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -10,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 16
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "ingrid__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; more range and less pushback than 5LP but worse hit advantage (cannot link on hit to 5LK or on counter-hit to 2MP); DR cancel is delayed until after active frames; topmost hurtbox on frames 1-5 is vulnerable only to aerial strikes (preventing its use as an anti-air); SA2 cancel: +1/-4",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -9,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.330",
+        "onHit": "0.320"
+      },
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.448,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 11
+      },
+      "hitstop": 9,
+      "hitstun": 23,
+      "id": "ingrid__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Slightly below average range for a cancelable low poke; Special/DR cancel (but not DI cancel) is delayed until after active frames; SA2 cancel: +7/+0",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 1,
+      "onPerfectParry": -20,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.17,
+      "blockstun": 15,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 5,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "ingrid__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f extra recovery on whiff; one of Ingrid's primary buffer tools (less range than 5MK/2HP but also less likely to be whiff punished); links into 5MP on crouching opponents or into 5LK vs. standing/crouching; high active frame count (up to +9 oH / +2 oB with meaty timing); topmost hurtbox on frames 1-10 is vulnerable only to aerial strikes (preventing its use as an anti-air); SA2 cancel: +8/+1",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 6,
+      "onPerfectParry": -14,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 22
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ingrid__2pppkkk",
+      "input": {
+        "numpad": "2PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Down Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"You're done!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 123,
+      "superGauge": null,
+      "totalFrames": 123
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.225,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 3500,
+      "damageText": null,
+      "dmgScaling": "40% Minimum; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ingrid__360+kk",
+      "input": {
+        "numpad": "360+KK",
+        "official": null
+      },
+      "invuln": "1-7 Full",
+      "juggle": null,
+      "name": {
+        "en": "Sun Octopus",
+        "ja": null
+      },
+      "notes": {
+        "en": "Dark Ingrid only; command grab Super; opponent cannot jump after the freeze; can be comboed into on grounded opponents; cinematic time regenerates ~1.6 Drive bars for Ingrid",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 36,
+      "onPerfectParry": null,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 101,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": -20000
+      },
+      "totalFrames": 108
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": -4,
+        "onHit": 45
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.591,
+      "blockstun": 17,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ingrid__4hp",
+      "input": {
+        "numpad": "4HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Luminous Uppercut 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Whiffs on crouching opponents; slow but solid anti-air with an extremely rewarding Target Combo juggle follow-up; strong hitbox but no head or upper body invincibility (likely to trade if not timed early); puts the opponent into a free juggle state on hit; cannot hit cross-up; very short horizontal range on grounded opponents; 7f blockstring gap into 4HP~HP TC (up to 11f if delayed); Ingrid shifts backward during startup unless she is fully cornered",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 45,
+      "onPerfectParry": -23,
+      "onPunishCounter": 45,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.84,
+      "blockstun": 14,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 2500
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 57
+      },
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ingrid__4hphp",
+      "input": {
+        "numpad": "4HP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Luminous Uppercut 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "Whiffs on crouching opponents (opponent can crouch block even after stand blocking the initial 4HP); puts opponents into a limited juggle state; reduced KD Advantage if only the 2nd hit connects on a grounded opponent; 7f blockstring gap between hits (up to 11f if delayed); SA2 cancel: KD+53/+0",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 43,
+      "onPerfectParry": -22,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ingrid__4kkk",
+      "input": {
+        "numpad": "4KKK",
+        "official": null
+      },
+      "invuln": "13-26 Full",
+      "juggle": null,
+      "name": {
+        "en": "Vanishing Sun (Back)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Teleports away from the opponent; Ingrid is in a counter-hit state on frames 1-12 (before disappearing); after reappearing, Ingrid incurs 22 vulnerable recovery frames with an extended forward hurtbox (Punish Counter state); can use the teleport animation to bait an anti-air reaction to the Forward/Air versions of Vanishing Sun; Distance: 1.74",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ingrid__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": null,
+        "start": "0"
+      },
+      "name": {
+        "en": "Gravity Drop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switch; no true throw oki after corner side switch but can threaten with ranged normals, forward dash (+0), or Drive Rush normals; can set up a LP Sun Shot that allows Ingrid to dash in with frame advantage while recovering quickly enough to anti-air if the opponent jumps out of the corner; can throw opponent into falling projectiles after SA2 activation (free juggle state with no damage scaling, since the throw itself does not deal damage in this scenario); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 20,
+      "onPerfectParry": null,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.55,
+      "blockstun": 17,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "ingrid__4mk",
+      "input": {
+        "numpad": "4MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Glowing Touch 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Foot hurtbox shifts backward on frames 5-11f (more effective against low pokes); has strong hitbox priority and a hitconfirmable TC extension; 6f blockstring gap into 4MK~HP TC (up to 8f if delayed)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 4,
+      "onPerfectParry": -19,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.89,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ingrid__4mkhp",
+      "input": {
+        "numpad": "4MK~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Glowing Touch 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "TC extension that makes 4MK a solid whiff punishing tool; puts opponents into a limited juggle state and does not increase the juggle counter on airborne opponents; 6f blockstring gap between hits (up to 8f if delayed)",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 44,
+      "onPerfectParry": -25,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ingrid__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Oop, I forgot I have an urgent matter. You, babysit this one for a while.\"; summons a controllable Monoid that cannot block and has access to 6 attacks; LP or LK is a divekick-like move that hits low, MP or MK is an overhead, HP or HK is a high strike, HP+HK performs a beam attack, any aerial button in the air performs an aerial strike, and 214236+HP or HK performs a 3-bar Super; the Monoid is fully controllable mid-air; Ingrid comes back if the Monoid stands still or after hitting with Super; when Ingrid returns and high fives the Monoid, input LP~LP~4~LK~HK (Modern: L~L~4~M~H) to absorb the Monoid and transform into a more powerful version (\"Dark Ingrid\"); this transformation also fully heals Ingrid, fills her Super gauge, and grants 4 Sun Crests; Dark Ingrid gains access to 2 new Hidden Art special moves (22PPP and 214214K) and a new SA2 (360+KK)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 425,
+      "superGauge": null,
+      "totalFrames": 425
+    },
+    {
+      "active": "5(1)3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.69,
+      "blockstun": 14,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": 23,
+      "id": "ingrid__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,1",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; only the 2nd hit is Super cancelable; Super cancel is delayed until after active frames; puts airborne opponents into a limited juggle OTG state that can juggle into SA1/SA3 (or pick up a post-SA2 juggle if the opponent is high enough); active frames 1-3 hit upward but have poor anti-air hitbox priority; Counter-hit/Punish Counter bonus advantage applies to both hits; strong approach tool out of Drive Rush (links to mediums on hit or grants a +2 strike/throw/shimmy mixup on block); SA2 cancel: +10/+4",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -20,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.798,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "ingrid__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "1f extra recovery on whiff and block; long range whiff punish tool (links to 6HP at nearly any range on Punish Counter); extends a hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.13,
+      "blockstun": 11,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "ingrid__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Longest range of Ingrid's light normals (but relatively short for a 5f light); DR cancel is delayed until after active frames; SA2 cancel: +2/-3",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -12,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.97,
+      "blockstun": 9,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "ingrid__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; shorter range than 2LP but links naturally into 5LP or into 2MP on counter-hit; SA2 cancel: +1/-5",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -8,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.378",
+        "onHit": "0.363"
+      },
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 13
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.39,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 13
+      },
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "ingrid__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Has forward movement on startup (allows Ingrid to maintain a consistent corner spacing when canceling into Sun Shot); highest damage and hitstun out of Ingrid's cancelable mediums; SA2 cancel: +9/+3",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -18,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": 4,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.06,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 9
+      },
+      "hitstop": 11,
+      "hitstun": 19,
+      "id": "ingrid__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong meaty option due to high active frame count (up to +5 oH / +4 oB); true blockstring when chained into 5MP~MK even at max delay; SA2 cancel: +5/+4",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 1,
+      "onPerfectParry": -16,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 23
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.69,
+      "blockstun": 15,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 5,
+        "onHit": 13
+      },
+      "hitstop": 13,
+      "hitstun": 23,
+      "id": "ingrid__5mpmk",
+      "input": {
+        "numpad": "5MP~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Pretty Heel Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Important combo tool for converting from Ingrid's 6f medium; true blockstring even at max delay; 2nd hit keeps airborne opponents in a juggle state (does not increase the juggle counter); SA2 cancel: +9/+1",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": -3,
+      "onPerfectParry": null,
+      "onPunishCounter": 1,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 37
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ingrid__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Ahhh, time for a break I guess. Hmm? You too little one? Oh, you're such a little nice Monoid. Yes you are, yes you are, yes you are! See ya later!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 1540,
+      "superGauge": null,
+      "totalFrames": 1540
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 38
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.213,
+      "blockstun": 20,
+      "cancel": [
+        "special"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 14,
+      "hitstun": null,
+      "id": "ingrid__6hp",
+      "input": {
+        "numpad": "6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Halo Flight",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f extra recovery on whiff; Low Crush on frames 9-19 (not airborne); cancelable into j.214P on hit or block (cancel is delayed until after 1st recovery frame); j.214P cancel can be interrupted with 4-5f normals or air-invuln specials; KD +10 after cancel into j.214LP; can lead to huge damage with Sun Crests and j.214PP hitconfirm; high pushback keeps it safe on block in most scenarios; puts the opponent into a free juggle state on hit or maintains the existing juggle count",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 38,
+      "onPerfectParry": -25,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.86,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ingrid",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "ingrid__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Odd Flight (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.86,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ingrid",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "ingrid__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Odd Flight (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": "21-46 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.16,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ingrid__6kkk",
+      "input": {
+        "numpad": "6KKK",
+        "official": null
+      },
+      "invuln": "13-27 Full",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Vanishing Sun (Forward)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Teleports forward to the opponent's location and performs a kick that is safe on block; puts opponents into a limited juggle state (follow-ups possible on a corner airborne connect); can whiff in juggle routes where the opponent is flying backward too quickly; vulnerable for 8f after reappearing (can be countered on reaction)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 44,
+      "onPerfectParry": -20,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 36,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 57
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.247,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 23,
+      "id": "ingrid__6mp",
+      "input": {
+        "numpad": "6MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Sun Bright",
+        "ja": null
+      },
+      "notes": {
+        "en": "Short range for an overhead; high active frame count (up to +6 oH / 0 oB with meaty timing for a potential meterless medium link); puts airborne opponents into a limited juggle OTG state",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -18,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.07,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 0,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "ingrid__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"My power howls! Face me! Just kidding.\"; if opponent stands directly in front of Ingrid, she performs an attack that deals 0 damage but grants full Super gauge to the opponent on hit/block/parry; references M. Bison's back taunt",
+        "ja": null
+      },
+      "onBlock": -189,
+      "onHit": null,
+      "onPerfectParry": -207,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 205,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 382,
+      "superGauge": {
+        "onBlock": 0,
+        "onHit": 0
+      },
+      "totalFrames": 583
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.483,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ingrid",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "ingrid__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Twinkle Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": "1100 (800,300)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "ingrid__j214hp(1stock)",
+      "input": {
+        "numpad": "j.214HP (1 Stock)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "99,99",
+        "start": "1,2"
+      },
+      "name": {
+        "en": "Solar Burst (1 Stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; consumes 1 Sun Crest for more hits, extra damage, and longer range compared to 0-stock MP/HP version; can be canceled into from 6HP; puts opponents into a limited juggle state (corner follow-ups possible if input low to the ground); Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 44,
+      "onPerfectParry": -9,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 336,
+      "damage": 1350,
+      "damageText": "1350 (450x3)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "ingrid__j214hp(2stock)",
+      "input": {
+        "numpad": "j.214HP (2 Stock)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,1",
+        "limit": "99x3",
+        "start": "1,1,2"
+      },
+      "name": {
+        "en": "Solar Burst (2 Stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "3-hit projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; consumes 2 Sun Crests for more hits, extra damage, and longer range compared to 1-stock HP version; can be canceled into from 6HP; launches opponents upward into a limited juggle state; Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 60,
+      "onPerfectParry": 1,
+      "onPunishCounter": 60,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ingrid__j214lp",
+      "input": {
+        "numpad": "j.214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Solar Burst",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be used during Forward/Neutral jump only on frames 17-33; builds 1 Sun Crest on frame 47 (1f before end of recovery); the animation lasts 48f regardless of when it was input during the jump (more total recovery if input late in the jump arc); landing recovery ranges from 8-30f depending on activation time; Ingrid is in a counter-hit state for the entire duration and a Forced Knockdown state during all airborne frames; if performed with 4 Sun Crests, Ingrid builds 3000 Drive gauge instead; can be canceled into from 6HP; extends a large full-body hurtbox for the entire move duration",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 48,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 26,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "ingrid__j214mp",
+      "input": {
+        "numpad": "j.214MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Solar Burst",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; this version also comes out when input with HP button if Ingrid has 0 Sun Crests; can be canceled into from 6HP; puts opponents into a limited juggle state (corner follow-ups possible if input low to the ground); Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 43,
+      "onPerfectParry": -20,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": "1100 (800,300)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "ingrid__j214pp",
+      "input": {
+        "numpad": "j.214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "99,99",
+        "start": "1,2"
+      },
+      "name": {
+        "en": "Solar Burst",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit OD projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; has the properties of the 1-stock HP version without spending any Sun Crests; can be canceled into from 6HP; puts opponents into a limited juggle state (corner follow-ups possible if input low to the ground); Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 44,
+      "onPerfectParry": -9,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 336,
+      "damage": 1350,
+      "damageText": "1350 (450x3)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "ingrid__j214pp(1stock)",
+      "input": {
+        "numpad": "j.214PP (1 Stock)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,1",
+        "limit": "99x3",
+        "start": "1,1,2"
+      },
+      "name": {
+        "en": "Solar Burst (1 Stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "3-hit OD projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; has the properties of the 2-stock HP version but only costs 1 Sun Crest; can be canceled into from 6HP; launches opponents upward into a limited juggle state; Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 59,
+      "onPerfectParry": 0,
+      "onPunishCounter": 59,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 448,
+      "damage": 1800,
+      "damageText": "1800 (450x4)",
+      "dmgScaling": "30% Starter; Combo (5% Extra)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "ingrid__j214pp(2stock)",
+      "input": {
+        "numpad": "j.214PP (2 Stock)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x4",
+        "limit": "99x4",
+        "start": "1x3,0"
+      },
+      "name": {
+        "en": "Solar Burst (2 Stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "4-hit OD projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; has properties greater than the 2-stock HP version or 1-stock OD version for 2 Sun Crests; can be canceled into from 6HP; puts opponents into a free juggle OTG bounce state; if the opponent Perfect Parries and Ingrid lands before all 4 hits connect, all remaining hits will fail to come out resulting in worse frame advantage; Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 73,
+      "onPerfectParry": -5,
+      "onPunishCounter": 73,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.2,
+      "blockstun": 15,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "ingrid__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into a limited juggle state (can juggle into Target Combo extension); lower body projectile invuln 12-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs); best horizontal range of Ingrid's jump-ins",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 10,
+      "onPerfectParry": -7,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3(2)4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.2,
+      "blockstun": null,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": "300x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "ingrid__jhkjhk",
+      "input": {
+        "numpad": "j.HK~j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0",
+        "limit": "1,1",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Satellite Leap",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into a limited juggle state; cannot hit grounded opponents (too slow to connect even after max-height j.HK); 1st hit pulls opponents inward (if the 2nd hit whiffs, opponent can fly over Ingrid for a side switch)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.96,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "ingrid__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spikes airborne opponents on counter-hit/Punish Counter; has juggle potential (causes air reset when juggled after 236HK); lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs); hitbox extends farther beyond Ingrid's arm (visually deceptive); best downward reach of Ingrid's jump-ins for vertical approaches",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -9,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.55,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "ingrid__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; good air-to-air for potential cross-ups (e.g. E. Honda Sumo Smash, M. Bison Devil Reverse)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -7,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "ingrid__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fastest air-to-air; good hitbox priority",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 6,
+      "onPerfectParry": -5,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.08,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "ingrid__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; lower body projectile invuln 8-21f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -6,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.97,
+      "blockstun": 11,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "ingrid__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "5",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into a limited juggle state; lower body projectile invuln 8-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 10,
+      "onPerfectParry": -3,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate; 20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ingrid__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": null,
+        "start": "1"
+      },
+      "name": {
+        "en": "Strange Knuckle",
+        "ja": null
+      },
+      "notes": {
+        "en": "No true throw loop, but can dash to become +1 for a corner pseudo-throw loop (also in range for a 2-hit light confirm); can set up a LP Sun Shot that allows Ingrid to dash in with frame advantage while recovering quickly enough to anti-air if the opponent jumps out of the corner; can throw opponent into falling projectiles after SA2 activation (limited juggle state); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 21,
+      "onPerfectParry": null,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.45,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 25,
+      "damage": 3000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "ingrid__214236hp/hk",
+      "input": {
+        "numpad": "214236HP/HK",
+        "official": null
+      },
+      "invuln": "31-57 Full",
+      "juggle": {
+        "increase": "-99",
+        "limit": "100",
+        "start": "0"
+      },
+      "name": {
+        "en": "Monoid Super",
+        "ja": null
+      },
+      "notes": {
+        "en": "Slow 3-bar Super with low damage relative to its meter cost; unsafe on hit or block; on hit, Ingrid returns and high-fives the Monoid (can transform into Dark Ingrid using the LP~LP~4~LK~HK input before the high five, becoming much more unsafe on hit); Modern Controls: 214236H",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": null,
+      "onPerfectParry": -42,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 46,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 89
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.64,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "ingrid__hporhk",
+      "input": {
+        "numpad": "HP or HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Monoid Star Thrust",
+        "ja": null
+      },
+      "notes": {
+        "en": "Requires summoning the Monoid with Ingrid's Back Taunt; can hold forward to steer and increase the attack's range; knocks down on grounded opponents and resets airborne opponents; Modern Controls: H",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 31,
+      "onPerfectParry": -28,
+      "onPunishCounter": 31,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 30,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 500
+      },
+      "totalFrames": 59
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 24,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "ingrid__hp+hk",
+      "input": {
+        "numpad": "HP+HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "100",
+        "limit": "99",
+        "start": "100"
+      },
+      "name": {
+        "en": "Monoid Beam",
+        "ja": null
+      },
+      "notes": {
+        "en": "Requires summoning the Monoid with Ingrid's Back Taunt; cannot steer the attack forward like the other Monoid attacks; knocks down on both grounded and airborne opponents; input has no kara-cancel leniency (must hit HP+HK on the exact same frame); Modern Controls: Sp",
+        "ja": null
+      },
+      "onBlock": -13,
+      "onHit": 37,
+      "onPerfectParry": -26,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 32,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 68
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": "Until Land",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.12,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "ingrid__jx",
+      "input": {
+        "numpad": "j.X",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Monoid Aerial Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Requires summoning the Monoid with Ingrid's Back Taunt; can hold forward to steer and increase the attack's range; knocks down on grounded opponents and resets airborne opponents; gains a second hitbox on active frames 3-6 that can hit cross-up; Modern Controls: j.X",
+        "ja": null
+      },
+      "onBlock": -25,
+      "onHit": 19,
+      "onPerfectParry": -37,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3,3,3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.48,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": "300x3",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "ingrid__lporlk",
+      "input": {
+        "numpad": "LP or LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Monoid Low Dive",
+        "ja": null
+      },
+      "notes": {
+        "en": "Requires summoning the Monoid with Ingrid's Back Taunt; 3 hits (all hit low despite the divekick-like animation); can hold forward to steer and increase the attack's range; Modern Controls: L",
+        "ja": null
+      },
+      "onBlock": -40,
+      "onHit": 8,
+      "onPerfectParry": -53,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 53,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 38,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 99
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.52,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "ingrid__mpormk",
+      "input": {
+        "numpad": "MP or MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Monoid Overhead Hammer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Requires summoning the Monoid with Ingrid's Back Taunt; can hold forward to steer and increase the attack's range; knocks down on grounded opponents and resets airborne opponents; Modern Controls: M",
+        "ja": null
+      },
+      "onBlock": -27,
+      "onHit": 5,
+      "onPerfectParry": -41,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 41,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 37,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 500
+      },
+      "totalFrames": 79
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ingrid__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ingrid__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ingrid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ingrid__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.375 (min/throw), 1.502 (min/block), 3.083 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "Ingrid",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

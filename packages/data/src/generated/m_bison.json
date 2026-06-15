@@ -1,0 +1,4911 @@
+{
+  "aliases": [],
+  "id": "m_bison",
+  "moves": [
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 4.763,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "m_bison",
+      "chipDamage": 750,
+      "damage": 3000,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "m_bison__214214k",
+      "input": {
+        "numpad": "214214K",
+        "official": null
+      },
+      "invuln": "1-30 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Psycho Punisher",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can steer left/right during startup; can hit cross-up; causes planted Psycho Mine to disappear; can be used as a fullscreen punish against projectiles or install moves that would normally be safe due to distance; cannot be beaten by air-invuln moves because Bison is technically never considered airborne",
+        "ja": null
+      },
+      "onBlock": -34,
+      "onHit": 23,
+      "onPerfectParry": -57,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 52,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 82
+    },
+    {
+      "active": "13",
+      "afterDriveRush": null,
+      "airborne": "2-69",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.12,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "m_bison",
+      "chipDamage": 750,
+      "damage": 3000,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "m_bison__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": "1-69 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Final Psycho Crusher",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shin Bison only (requires detonating Psycho Mine with Forward Taunt); cannot hit cross-up; 1st active frame only connects when Bison is cornered (usually connects on 7th active frame midscreen, making it functionally 15f startup); fullscreen anti-air and anti-projectile Super; during recovery, flies off-screen then reappears on the opposite side of opponent (does not switch sides vs. cornered opponents on HIT",
+        "ja": null
+      },
+      "onBlock": -94,
+      "onHit": null,
+      "onPerfectParry": -107,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 48,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 117
+    },
+    {
+      "active": "3(10)5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.088,
+      "blockstun": 29,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,600 (900)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2500,
+        "gain": 1250
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "m_bison__214hp",
+      "input": {
+        "numpad": "214HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "10",
+        "start": "1 (1,1 Air)"
+      },
+      "name": {
+        "en": "Backfist Combo",
+        "ja": null
+      },
+      "notes": {
+        "en": "Plants Psycho Mine onto opponent on 2nd hit (detonates after 300f or when another Backfist Combo, Psycho Crusher, or Devil Reverse connects); useful ender for some juggles (higher KD advantage in high-connect juggles); Potential Bug: builds more Super gauge on hit when comboed into (denoted with [] in data)",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 31,
+      "onPerfectParry": -42,
+      "onPunishCounter": 31,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500600
+      },
+      "totalFrames": 65
+    },
+    {
+      "active": "3(10)5,1",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.088,
+      "blockstun": 53,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,700,500 (1500)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2500,
+        "gain": 1250
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "m_bison__214hp",
+      "input": {
+        "numpad": "214HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1,1",
+        "limit": "10x3",
+        "start": "2 (3 Air)"
+      },
+      "name": {
+        "en": "Backfist Combo (Mine)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Detonates Psycho Mine on hit/block; Mine detonation does not count as a hit for damage scaling; puts opponent into limited juggle state that allows follow-up juggles (can combo into midscreen 2HK / 3HK / LP Crusher / OD Backfist / SA1 / SA3, as well as corner LP Backfist); 2nd hit triggers Mine detonation even on Perfect Parry (punishable 5f gap before explosion hits); lets Bison maintain pressure on block; can be timed to plant another Psycho Mine if the previous one detonates during this attack's hitstun; POSSIBLE BUG: builds more Super gauge when comboed into compared to raw connect",
+        "ja": null
+      },
+      "onBlock": 9,
+      "onHit": 49,
+      "onPerfectParry": -6,
+      "onPunishCounter": 49,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500600
+      },
+      "totalFrames": 65
+    },
+    {
+      "active": "2(10)5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.64,
+      "blockstun": 28,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,400 (700)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "m_bison__214lp",
+      "input": {
+        "numpad": "214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "10",
+        "start": "1 (1,1 Air)"
+      },
+      "name": {
+        "en": "Backfist Combo",
+        "ja": null
+      },
+      "notes": {
+        "en": "Plants Psycho Mine onto opponent on 2nd hit (detonates after 300f or when another Backfist Combo, Psycho Crusher, or Devil Reverse connects); useful ender for many juggles (higher KD advantage in high-connect juggles); 3f extra recovery on hit",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 21,
+      "onPerfectParry": -40,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 54
+    },
+    {
+      "active": "2(10)5,1",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.64,
+      "blockstun": 51,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,500x2 (1300)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "m_bison__214lp",
+      "input": {
+        "numpad": "214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1,1",
+        "limit": "10x3",
+        "start": "2 (3 Air)"
+      },
+      "name": {
+        "en": "Backfist Combo (Mine)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Detonates Psycho Mine on hit/block; Mine detonation does not count as a hit for damage scaling; puts opponent into limited juggle state; sets up auto-timed safe jump vs. grounded or low-height opponents; 2nd hit triggers Mine detonation even on Perfect Parry (punishable 5f gap before explosion hits); lets Bison maintain pressure on block; can be timed to plant another Psycho Mine if the previous one detonates during this attack's hitstun",
+        "ja": null
+      },
+      "onBlock": 9,
+      "onHit": 42,
+      "onPerfectParry": -6,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 54
+    },
+    {
+      "active": "2(10)5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.205,
+      "blockstun": 28,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,500 (800)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2500,
+        "gain": 1250
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "m_bison__214mp",
+      "input": {
+        "numpad": "214MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "10",
+        "start": "1 (1,1 Air)"
+      },
+      "name": {
+        "en": "Backfist Combo",
+        "ja": null
+      },
+      "notes": {
+        "en": "Plants Psycho Mine onto opponent on 2nd hit (detonates after 300f or when another Backfist Combo, Psycho Crusher, or Devil Reverse connects); useful ender for some juggles (higher KD advantage in high-connect juggles); +23 KD Advantage sets up a dash into strike/throw mixup, or a perfectly meaty 6HP (+5 oH / -1 oB); 3f extra recovery on hit",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 20,
+      "onPerfectParry": -41,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 59
+    },
+    {
+      "active": "2(10)5,1",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.205,
+      "blockstun": 52,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,600,500 (1400)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2500,
+        "gain": 1250
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "m_bison__214mp",
+      "input": {
+        "numpad": "214MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1,1",
+        "limit": "10x3",
+        "start": "2 (3 Air)"
+      },
+      "name": {
+        "en": "Backfist Combo (Mine)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Detonates Psycho Mine on hit/block; Mine detonation does not count as a hit for damage scaling; puts opponent into limited juggle state; can juggle into 2HK or SA1/SA3 anywhere on screen; 2nd hit triggers Mine detonation even on Perfect Parry (punishable 5f gap before explosion hits); lets Bison maintain pressure on block; can be timed to plant another Psycho Mine if the previous one detonates during this attack's hitstun",
+        "ja": null
+      },
+      "onBlock": 9,
+      "onHit": 44,
+      "onPerfectParry": -6,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 59
+    },
+    {
+      "active": "2(19)3(23)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.523,
+      "blockstun": 69,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x3 (1200)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "m_bison__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,0",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Backfist Combo",
+        "ja": null
+      },
+      "notes": {
+        "en": "Plants Psycho Mine onto opponent on 2nd hit (detonates after 300f or when another Backfist Combo, Psycho Crusher, or Devil Reverse connects); puts opponent into limited juggle OTG state on hit; useful ender for some juggles (higher KD advantage in high-connect juggles)",
+        "ja": null
+      },
+      "onBlock": -25,
+      "onHit": 24,
+      "onPerfectParry": -92,
+      "onPunishCounter": 24,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 44,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 107
+    },
+    {
+      "active": "2(19)1(26)1,1",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.523,
+      "blockstun": 91,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,500,400x2 (1700)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "m_bison__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x3,1",
+        "limit": "10x4",
+        "start": "2"
+      },
+      "name": {
+        "en": "Backfist Combo (Mine)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Detonates Psycho Mine on hit/block; Mine detonation does not count as a hit for damage scaling; launches opponent into a limited juggle state that allows follow-up juggles; 3rd hit triggers Mine detonation even on Perfect Parry (punishable 5f gap before explosion hits); does not let Bison maintain block pressure like the meterless versions; can be timed to plant another Psycho Mine if the previous one detonates during this attack's hitstun",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 48,
+      "onPerfectParry": -6,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 44,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 107
+    },
+    {
+      "active": "2(1)3(31)2(1)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 5.522,
+      "blockstun": 63,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "m_bison",
+      "chipDamage": 100,
+      "damage": 2000,
+      "damageText": "2000 (600~1200)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 600,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "m_bison__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-11 Strike/Throw",
+      "juggle": {
+        "increase": "99",
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Knee Press Nightmare",
+        "ja": null
+      },
+      "notes": {
+        "en": "First hit cause Bison to enter the full animation; connecting with the 2nd-4th hits leads to a weaker version with only 600-1200 damage and much worse KD advantage; causes planted Psycho Mine to disappear; opponents can jump out after Super freeze to escape chip damage (except Dhalsim/Lily/Zangief)",
+        "ja": null
+      },
+      "onBlock": -41,
+      "onHit": 11,
+      "onPerfectParry": -102,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 62,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 113
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.379,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "m_bison",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "m_bison__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-15 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Unlimited Psycho Crusher",
+        "ja": null
+      },
+      "notes": {
+        "en": "Travels slightly under 1/2 screen making it a viable projectile counter; opponent cannot jump out after Super freeze to escape chip damage; cinematic time regenerates ~2 Drive bars for M. Bison; causes planted Psycho Mine to disappear; only 5f startup when canceled from special moves",
+        "ja": null
+      },
+      "onBlock": -46,
+      "onHit": 15,
+      "onPerfectParry": -69,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 65,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 80
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.379,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "m_bison",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "m_bison__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-15 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Unlimited Psycho Crusher (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Travels slightly under 1/2 screen making it a viable projectile counter; available at 25% HP or below; opponent cannot jump out after Super freeze to escape chip damage; cinematic time regenerates ~2.2 Drive bars for M. Bison; causes planted Psycho Mine to disappear; only 5f startup when canceled from special moves",
+        "ja": null
+      },
+      "onBlock": -46,
+      "onHit": 15,
+      "onPerfectParry": -69,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 65,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 80
+    },
+    {
+      "active": "2(1)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.286,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500,700 (1200)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2000,
+        "gain": 1250
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 28,
+      "id": "m_bison__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "10",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Double Knee Press",
+        "ja": null
+      },
+      "notes": {
+        "en": "5f extra recovery on whiff; Low Crush 14-24f (not airborne); Counter-hit/Punish Counter bonus advantage carries through both hits; extremely powerful punish starter due to high damage, frame advantage, and lack of damage scaling; strong pressure tool that gives strike/throw mixup on hit while easily spaced safely on block",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 3,
+      "onPerfectParry": -28,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "2(1)2(17)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.097,
+      "blockstun": 38,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 62,
+      "damage": 250,
+      "damageText": "250x2,300 (800)",
+      "dmgScaling": "Combo (2-hit)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 1500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "m_bison__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,2",
+        "limit": "2",
+        "start": "1,1,3"
+      },
+      "name": {
+        "en": "Double Knee Press",
+        "ja": null
+      },
+      "notes": {
+        "en": "Low Crush 12-19f (not airborne); puts opponent into limited juggle state; cancel is only useful if the first 2 hits are absorbed by Drive Impact (stronger juggle routes always possible); 3rd hit comes out even on whiff",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 55,
+      "onPerfectParry": -51,
+      "onPunishCounter": 55,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 69
+    },
+    {
+      "active": "2(1)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.362,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,500 (800)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2000,
+        "gain": 750
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 27,
+      "id": "m_bison__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "10",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Double Knee Press",
+        "ja": null
+      },
+      "notes": {
+        "en": "5f extra recovery on whiff; Low Crush 7-15f (not airborne); Counter-hit/Punish Counter bonus advantage carries through both hits; strong pressure tool that gives strike/throw mixup on hit while easily spaced safely on block",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 2,
+      "onPerfectParry": -28,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 37
+    },
+    {
+      "active": "2(1)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.89,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,600 (900)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 28,
+      "id": "m_bison__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "10",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Double Knee Press",
+        "ja": null
+      },
+      "notes": {
+        "en": "5f extra recovery on whiff; Low Crush 11-19f (not airborne); Counter-hit/Punish Counter bonus advantage carries through both hits; strong pressure tool that gives strike/throw mixup on hit while easily spaced safely on block",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 3,
+      "onPerfectParry": -28,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "9-49 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "m_bison__[2]8k",
+      "input": {
+        "numpad": "[2]8K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Shadow Rise",
+        "ja": null
+      },
+      "notes": {
+        "en": "40f charge time (charge lasts 10f after releasing down direction); button strength determines trajectory (LK close, MK mid, HK far); landing recovery and total frame refers to LK/MK/HK version respectively; Bison is in a crouching state on the final landing recovery frame; can use the OD versions of follow-ups by pressing PP or KK; foot hurtbox is projectile invincible",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 4,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 53
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "9-50 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "m_bison__[2]8kk",
+      "input": {
+        "numpad": "[2]8KK",
+        "official": null
+      },
+      "invuln": "1-8 Throw",
+      "juggle": null,
+      "name": {
+        "en": "Shadow Rise",
+        "ja": null
+      },
+      "notes": {
+        "en": "40f charge time (charge lasts 10f after releasing down direction); automatically tracks opponent's location; follow-ups will become their respective OD versions without spending additional Drive gauge; Bison is in a crouching state on the final landing recovery frame",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": null,
+      "totalFrames": 55
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.49,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 100,
+      "damage": 2000,
+      "damageText": "2000(1200)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "m_bison__[2]8kkkor[2]8kkk",
+      "input": {
+        "numpad": "[2]8KK~K or [2]8K~KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "15",
+        "start": "1"
+      },
+      "name": {
+        "en": "Head Press",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can also be input after meterless Shadow Rise; transitions to cinematic follow-up on grounded hit (causing Psycho Mine to disappear); lands near opponent on block (does not bounce like meterless version); puts airborne opponents into limited juggle OTG state, dealing 800 less damage",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 27,
+      "onPerfectParry": -16,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 1800
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.3,
+      "blockstun": 35,
+      "cancel": [],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": "700x2 (1400)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 3500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "m_bison__[2]8kkpor[2]8kpp",
+      "input": {
+        "numpad": "[2]8KK~P or [2]8K~PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "15",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Devil Reverse",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; can be steered left/right; cannot hit cross-up (but will turn around if Punch is input behind the opponent); 5f extra landing recovery on whiff; puts opponent into limited juggle state; gives good advantage on block; on whiff, final landing recovery frame is in a crouching state; on hit/block, all landing recovery frames are in a crouching state; does not extend a wide hurtbox like the meterless version, making it better for approaching",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 35,
+      "onPerfectParry": -13,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.3,
+      "blockstun": 92,
+      "cancel": [],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": "700x3,500 (2600)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 3500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "m_bison__[2]8kkpor[2]8kpp",
+      "input": {
+        "numpad": "[2]8KK~P or [2]8K~PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1,1,1",
+        "limit": "15",
+        "start": "4"
+      },
+      "name": {
+        "en": "Devil Reverse (Mine)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Detonates Psycho Mine on hit/block (does not trigger on Perfect Parry); can be steered left/right; cannot hit cross-up (but will turn around if Punch is input behind the opponent); gives great advantage on block or a juggle on hit (follow-ups possible in the corner); Bison is in a crouching state during landing recovery; does not extend a wide hurtbox like the meterless version, making it better for approaching",
+        "ja": null
+      },
+      "onBlock": 23,
+      "onHit": 54,
+      "onPerfectParry": -13,
+      "onPunishCounter": 54,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 1050,
+        "onHit": 2100
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.49,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 5000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": 29,
+      "id": "m_bison__[2]8kk",
+      "input": {
+        "numpad": "[2]8K~K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "15",
+        "start": "2"
+      },
+      "name": {
+        "en": "Head Press",
+        "ja": null
+      },
+      "notes": {
+        "en": "Bounces off opponent's head on hit/block/armor (can steer left/right after bounce); can hit cross-up; Hard Knockdown on Punish Counter; puts airborne opponents into limited juggle OTG state; Bison can auto-correct to face the opponent before descending; good hitbox and delayed descent makes it tricky to anti-air; drops straight to the ground on Perfect Parry (no follow-up possible)",
+        "ja": null
+      },
+      "onBlock": -39,
+      "onHit": -29,
+      "onPerfectParry": -30,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.18,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 5000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "m_bison__[2]8kkp",
+      "input": {
+        "numpad": "[2]8K~K~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "15",
+        "start": "1"
+      },
+      "name": {
+        "en": "Somersault Skull Diver",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can only be performed after meterless Head Press after bouncing on hit/block/armor; lower body hurtbox shifts upward 1-21f (startup + active) as Bison tucks his knees in; puts airborne opponents into limited juggle state; cannot be performed after Perfect Parry or after connecting on a counter like JP's Amnesia or Marisa's charged SA1",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 8,
+      "onPerfectParry": -14,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.27,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 5000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "m_bison__[2]8kp",
+      "input": {
+        "numpad": "[2]8K~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "15",
+        "start": "1"
+      },
+      "name": {
+        "en": "Devil Reverse",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be steered left/right; cannot hit cross-up (but will turn around if Punch is input behind the opponent); puts opponent into limited juggle state; gives good advantage on block; final landing recovery frame is in a crouching state; extends a wide full-body hurtbox forward on frame 9~ and a forward/downward hurtbox on the arms while active (easy to anti-air)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 35,
+      "onPerfectParry": -17,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.27,
+      "blockstun": 80,
+      "cancel": [],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800,700,500 (2000)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 5000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "m_bison__[2]8kp",
+      "input": {
+        "numpad": "[2]8K~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,2,1",
+        "limit": "15",
+        "start": "4"
+      },
+      "name": {
+        "en": "Devil Reverse (Mine)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Detonates Psycho Mine on hit/block (does not trigger on Perfect Parry); can be steered left/right; cannot hit cross-up (but will turn around if Punch is input behind the opponent); gives great advantage on block or a juggle on hit (follow-ups possible in the corner); Bison is in a crouching state during landing recovery; extends a wide full-body hurtbox forward on frame 9~ and a forward/downward hurtbox on the arms while active (easy to anti-air)",
+        "ja": null
+      },
+      "onBlock": 21,
+      "onHit": 52,
+      "onPerfectParry": -17,
+      "onPunishCounter": 52,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 1150,
+        "onHit": 2300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -8,
+        "onHit": 29
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.991,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "m_bison__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shadow Sweep",
+        "ja": null
+      },
+      "notes": {
+        "en": "Sweep with good range and hitbox priority; has juggle potential; puts airborne opponents into a limited juggle state (can combo with well-timed Psycho Mine detonation); can be difficult for some characters to punish when well spaced",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 29,
+      "onPerfectParry": -27,
+      "onPunishCounter": 45,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "6",
+      "afterDriveRush": {
+        "onBlock": -5,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 17
+      },
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "m_bison__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand; puts airborne opponents into limited juggle state on Counter-hit/Punish Counter; slow anti-air with good vertical hitbox priority on frames 12-15 but cannot hit cross-up; only first 2 active frames are cancelable",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 0,
+      "onPerfectParry": -25,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.05,
+      "blockstun": 10,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "m_bison__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; links naturally into 4f lights without chaining and can link to 2MP on counter-hit (rare for a 2LK)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -10,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 16
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.06,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "m_bison__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; DR cancel is delayed until after active frames; topmost hurtbox on frames 1-5 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -10,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.385",
+        "onHit": "0.404"
+      },
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 15
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 2
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.482,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 8
+      },
+      "hitstop": 9,
+      "hitstun": 20,
+      "id": "m_bison__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Solid cancelable low poke; DR cancel is delayed until after active frames; extends a wide hurtbox through the first 9 recovery frames before starting to recede; Range: 1.482",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": -2,
+      "onPerfectParry": -20,
+      "onPunishCounter": 2,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.3,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 6,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "m_bison__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f extra recovery on whiff; great range for a 6f medium (great for buffers and combos); topmost hurtbox on frames 1-8 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -15,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 22
+    },
+    {
+      "active": "10",
+      "afterDriveRush": {
+        "onBlock": -11,
+        "onHit": 25
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.47,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "m_bison__3hk",
+      "input": {
+        "numpad": "3HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Hover Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Full-screen slide that can be spaced (but always punishable except vs. Burnout); has juggle potential (not a Hard Knockdown when juggled into); crouching state for entire duration",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 25,
+      "onPerfectParry": -31,
+      "onPunishCounter": 41,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "26",
+      "afterDriveRush": null,
+      "airborne": "30-49 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 5.609,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 400,
+      "damage": 1600,
+      "damageText": null,
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "m_bison__[4]6hp",
+      "input": {
+        "numpad": "[4]6HP",
+        "official": null
+      },
+      "invuln": "6-25 Air, 23-49 Projectile (Head/Arm)",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Psycho Crusher Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "45f charge time (charge lasts 8f after releasing back direction, and must be holding forward when HP is input); 1-hit projectile clash hitbox on frames 24-49",
+        "ja": null
+      },
+      "onBlock": -23,
+      "onHit": 14,
+      "onPerfectParry": -48,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 750,
+        "onHit": 1500
+      },
+      "totalFrames": 73
+    },
+    {
+      "active": "26,1",
+      "afterDriveRush": null,
+      "airborne": "30-49 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 5.609,
+      "blockstun": 55,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 400,
+      "damage": 1600,
+      "damageText": "1600,500 (2100)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "m_bison__[4]6hp",
+      "input": {
+        "numpad": "[4]6HP",
+        "official": null
+      },
+      "invuln": "6-25 Air, 23-49 Projectile (Head/Arm)",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "10",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Psycho Crusher (Mine)",
+        "ja": null
+      },
+      "notes": {
+        "en": "45f charge time (charge lasts 8f after releasing back direction, and must be holding forward when HP is input); strike hitbox surrounded by a 1-hit projectile clash hitbox on frames 24-49; detonates Psycho Mine on hit/block (does not trigger on Perfect Parry); puts opponent into limited juggle state, allowing a follow-up juggle (SA1 midscreen, 214LP/SA3 corner); KD advantage depends on spacing (+46 close range, +51 most mid/far ranges); useful pressure tool after Backfist Combo due to its block advantage, but is susceptible to Perfect Parry; when Perfect Parried, Bison will usually be airborne as the opponent punishes",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 46,
+      "onPerfectParry": -48,
+      "onPunishCounter": 46,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 750,
+        "onHit": 1500
+      },
+      "totalFrames": 73
+    },
+    {
+      "active": "16",
+      "afterDriveRush": null,
+      "airborne": "20-29 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.917,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "m_bison__[4]6lp",
+      "input": {
+        "numpad": "[4]6LP",
+        "official": null
+      },
+      "invuln": "6-15 Air, 15-29 Projectile (Head/Arm)",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Psycho Crusher Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "45f charge time (charge lasts 8f after releasing back direction, and must be holding forward when LP is input); 1-hit projectile clash hitbox on frames 14-29",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 24,
+      "onPerfectParry": -38,
+      "onPunishCounter": 24,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 53
+    },
+    {
+      "active": "14,1",
+      "afterDriveRush": null,
+      "airborne": "20-29 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.917,
+      "blockstun": 46,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": "1200,500 (1700)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "m_bison__[4]6lp",
+      "input": {
+        "numpad": "[4]6LP",
+        "official": null
+      },
+      "invuln": "6-15 Air, 15-29 Projectile (Head/Arm)",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "10",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Psycho Crusher (Mine)",
+        "ja": null
+      },
+      "notes": {
+        "en": "45f charge time (charge lasts 8f after releasing back direction, and must be holding forward when LP is input); strike hitbox surrounded by a 1-hit projectile clash hitbox on frames 14-29; detonates Psycho Mine on hit/block (does not trigger on Perfect Parry); puts opponent into limited juggle state (cancel into SA3 connects before Psycho Mine explodes); KD advantage depends on spacing (+41 close range, +42 most mid ranges, +39 on last active frame); useful pressure tool after Backfist Combo due to its block advantage, but is susceptible to Perfect Parry; when Perfect Parried, Bison will usually be airborne as the opponent punishes",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 39,
+      "onPerfectParry": -38,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 53
+    },
+    {
+      "active": "16",
+      "afterDriveRush": null,
+      "airborne": "26-35 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.15,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": null,
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 7000,
+        "dealtOnHit": 10000,
+        "gain": 3500
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "m_bison__[4]6mp",
+      "input": {
+        "numpad": "[4]6MP",
+        "official": null
+      },
+      "invuln": "6-21 Air, 21-35 Projectile (Head/Arm)",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Psycho Crusher Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "45f charge time (charge lasts 8f after releasing back direction, and must be holding forward when MP is input); 1-hit projectile clash hitbox on frames 20-35",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 24,
+      "onPerfectParry": -38,
+      "onPunishCounter": 24,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 650,
+        "onHit": 1300
+      },
+      "totalFrames": 59
+    },
+    {
+      "active": "16,1",
+      "afterDriveRush": null,
+      "airborne": "26-35 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.15,
+      "blockstun": 46,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": "1400,500 (1900)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 7000,
+        "dealtOnHit": 10000,
+        "gain": 3500
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "m_bison__[4]6mp",
+      "input": {
+        "numpad": "[4]6MP",
+        "official": null
+      },
+      "invuln": "6-21 Air, 21-35 Projectile (Head/Arm)",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "10",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Psycho Crusher (Mine)",
+        "ja": null
+      },
+      "notes": {
+        "en": "45f charge time (charge lasts 8f after releasing back direction, and must be holding forward when MP is input); strike hitbox surrounded by a 1-hit projectile clash hitbox on frames 20-35; detonates Psycho Mine on hit/block (does not trigger on Perfect Parry); puts opponent into limited juggle state (cancel into SA3 connects before Psycho Mine explodes); KD advantage depends on spacing (+41 close range, +42 most mid ranges, +39 on last active frame); useful pressure tool after Backfist Combo due to its block advantage, but is susceptible to Perfect Parry; when Perfect Parried, Bison will usually be airborne as the opponent punishes",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 39,
+      "onPerfectParry": -38,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 650,
+        "onHit": 1300
+      },
+      "totalFrames": 59
+    },
+    {
+      "active": "7,6,3",
+      "afterDriveRush": null,
+      "airborne": "20-31 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.869,
+      "blockstun": 33,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2,500 (1300)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 7000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "m_bison__[4]6pp",
+      "input": {
+        "numpad": "[4]6PP",
+        "official": null
+      },
+      "invuln": "6-17 Air, 13-31 Projectile",
+      "juggle": {
+        "increase": "1x4",
+        "limit": "10",
+        "start": "1x4"
+      },
+      "name": {
+        "en": "Psycho Crusher Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "45f charge time (charge lasts 8f after releasing back direction, and must be holding forward when PP is input); cancel into SA2 does not combo",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -25,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "7,6,3(1)1",
+      "afterDriveRush": null,
+      "airborne": "20-31 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.869,
+      "blockstun": 31,
+      "cancel": [],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x4 (1600)",
+      "dmgScaling": "30% Starter(OTG - see Notes)",
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 7000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "m_bison__[4]6pp",
+      "input": {
+        "numpad": "[4]6PP",
+        "official": null
+      },
+      "invuln": "6-17 Air, 13-31 Projectile",
+      "juggle": {
+        "increase": "3 (Forced)",
+        "limit": "10",
+        "start": "3 (Forced)"
+      },
+      "name": {
+        "en": "Psycho Crusher (Mine)",
+        "ja": null
+      },
+      "notes": {
+        "en": "45f charge time (charge lasts 8f after releasing back direction, and must be holding forward when PP is input); strike hitbox (no projectile clash since Bison has full projectile invuln); detonates Psycho Mine on hit/block (does not trigger on Perfect Parry); launches opponent high into a limited juggle state, followed by an OTG bounce; when juggling late on these OTG bounce frames, an extra 10% Immediate Scaling is applied to the follow-ups (but an earlier juggle has no extra scaling); useful pressure tool after Backfist Combo due to its block advantage, but is susceptible to Perfect Parry; when Perfect Parried, Bison will usually be airborne as the opponent punishes; POSSIBLE BUG: on a high airborne connect, the automatic follow-up will not trigger, but explosion still occurs; however, the opponent is still considered to have a Psycho Mine on their body which can be detonated again",
+        "ja": null
+      },
+      "onBlock": 10,
+      "onHit": 82,
+      "onPerfectParry": -25,
+      "onPunishCounter": 82,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.075,
+      "blockstun": 22,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": {
+        "onBlock": 12,
+        "onHit": 15
+      },
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "m_bison__4hk",
+      "input": {
+        "numpad": "4HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Evil Knee",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand; good combo/pressure/oki tool but short horizontal range; low pushback on hit/block",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 4,
+      "onPerfectParry": -19,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "m_bison__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Death Tower",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switches; can Drive Rush for oki after throwing opponent into corner (DR~5MP is auto-timed for tick throw or combo), or pressure with ranged normals (no real midscreen oki); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 18,
+      "onPerfectParry": null,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "m_bison__6or4+ppp/kkk",
+      "input": {
+        "numpad": "6 or 4 + PPP/KKK",
+        "official": null
+      },
+      "invuln": "1-16 Full",
+      "juggle": null,
+      "name": {
+        "en": "Bison Warp",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shin Bison only (requires detonating Psycho Mine with Forward Taunt); 6PPP appears behind opponent unless fully cornered, and 4PPP appears directly in front of the opponent (close enough to throw or confirm 2 light normals); 4PPP teleports backward 1.50 units; 4KKK teleports backward 2.50 units; can be canceled into from normals, allowing it to dodge Drive Reversal or Drive Impact and potentially punish (-5 on immediate Teleport cancel vs. immediate Drive Reversal; distance varies by opponent)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 43,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 43
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 0,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "m_bison__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"My power howls. Face me!\"; if opponent steps within range, Bison unleashes an unblockable strike that knocks down for no damage (\"Not yet.\"); attack still comes out even if opponent stands behind Bison; if opponent does not approach: \"Hmm. Coward.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 202,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 400,
+      "superGauge": null,
+      "totalFrames": 442
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.59,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 29,
+      "id": "m_bison__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Punish Counter crumple is +7 before opponent goes airborne; extended foot hurtbox is anti-air invuln while active on frames 13-16; whiffs on crouching opponents at longer ranges; puts airborne opponents into limited juggle state (much higher launch on Punish Counter); extends a hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 6,
+      "onPerfectParry": -21,
+      "onPunishCounter": 73,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.071,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 24,
+      "id": "m_bison__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Slow advancing poke with good hitbox priority; 3f extra recovery on whiff/armor; can be spaced for better frame advantage; can be hitconfirmed into Super; slams airborne opponents down into limited juggle OTG state (higher bounce on Punish Counter allows more juggle follow-ups); extends a hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 4,
+      "onPerfectParry": -18,
+      "onPunishCounter": 17,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.097,
+      "blockstun": 11,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 1,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "m_bison__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good light string ender that moves Bison forward (keeps him closer after a cancel, allowing more consistent combos like 2LK, 2LP, 5LK > 214LP); rare light normal that is plus after DR Cancel on block",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 3,
+      "onPerfectParry": -10,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.218",
+        "onHit": "0.213"
+      },
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 15
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.26,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -2,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "m_bison__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; good range for a 5f jab; DR cancel is delayed until after 1st recovery frame; when 5LP is chained into, a follow-up chain occurs 1f earlier than usual (e.g. 5LP~5LP has 2f blockstring gap, but 5LP~5LP~5LP has 1f gap between the 2nd/3rd hits)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -11,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 17
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.729,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "m_bison__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Poke with great range and hitbox priority; extends a wider hurtbox until the end of recovery",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -18,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 4,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.288,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 14
+      },
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "m_bison__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Counter-hit required to combo into 6HP Target Combo; combo and pressure starter",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 6,
+      "onPerfectParry": -16,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "m_bison__5mp2hk",
+      "input": {
+        "numpad": "5MP~2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shadow Spear",
+        "ja": null
+      },
+      "notes": {
+        "en": "Safe low ender from 5MP with only a 1f gap on block; can link into light normals when landing as a counter-hit",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "m_bison__5mp6hp",
+      "input": {
+        "numpad": "5MP~6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shadow Hammer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle OTG bounce state; combos from 5MP only on CH/PC/DR or with meaty timing; safe on block, but has an interruptible 7f gap on block",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "m_bison__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"A gnat like you will be buried here.\"; can change to alternate taunts by holding Up or Down on frame 235",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 544,
+      "superGauge": null,
+      "totalFrames": 544
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "m_bison__5pppkkk2",
+      "input": {
+        "numpad": "5PPPKKK~2",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt (Down)",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"A gnat like you has no value to anyone. You're a worthless piece of trash!\"; must be holding Down on frame 235 of Neutral Taunt",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 770,
+      "superGauge": null,
+      "totalFrames": 770
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "m_bison__5pppkkk8",
+      "input": {
+        "numpad": "5PPPKKK~8",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt (Up)",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"A gnat like you is of no use to me.\"; must be holding Up on frame 235 of Neutral Taunt",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 475,
+      "superGauge": null,
+      "totalFrames": 475
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.93,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 0,
+      "hitstun": null,
+      "id": "m_bison__623pp",
+      "input": {
+        "numpad": "623PP",
+        "official": null
+      },
+      "invuln": "1-18 Full",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Psycho Burst",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shin Bison only (requires detonating Psycho Mine with Forward Taunt); very slow but meterless reversal; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -28,
+      "onHit": 17,
+      "onPerfectParry": -49,
+      "onPunishCounter": 17,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 47,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 65
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.507,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "m_bison__6hp",
+      "input": {
+        "numpad": "6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Psycho Hammer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Safe overhead with follow-up combos out of Drive Rush; slams airborne opponents down into limited juggle OTG state",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.66,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "m_bison",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "m_bison__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Hell Drive (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.66,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "m_bison",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "m_bison__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Hell Drive (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "m_bison__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Hmph. Do you fear me?\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 411,
+      "superGauge": null,
+      "totalFrames": 411
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 30,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "m_bison",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "m_bison__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Forward Taunt (Mine)",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Three. Two. One. BOOM! Hahahaha.\"; detonates a planted Psycho Mine at the end of the countdown; taunt activation can overwrite the previous explosion timer",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 150,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 409,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 560
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.537,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "m_bison",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "m_bison__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Hell Twist",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.34,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "m_bison__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Longest horizontal range of Bison's air normals; lower body projectile invuln 10-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 7,
+      "onHit": 11,
+      "onPerfectParry": -6,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.92,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "m_bison__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good vertical hitbox for close jumps; spike knockdown vs. airborne opponents on Counter-hit/Punish Counter; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 7,
+      "onPerfectParry": -10,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.21,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "m_bison__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; decent air-to-air",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -7,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.12,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "m_bison__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Decent air-to-air",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -3,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.63,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "m_bison__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; lower body projectile invuln 7-20f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -7,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.16,
+      "blockstun": 11,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "m_bison__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great air-to-air with a long cancel window into Hell Attack; puts airborne opponents into limited juggle state; lower body projectile invuln 8-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -4,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "m_bison__jmpjmp",
+      "input": {
+        "numpad": "j.MP~j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "2",
+        "start": null
+      },
+      "name": {
+        "en": "Hell Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "Keeps airborne opponents in a limited juggle state after j.MP; can be delayed significantly, giving Bison better advantage to juggle after landing",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "m_bison__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Deadly Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can dash for auto-timed +2 corner throw loop, or walk for manual timing (better for baiting throw tech); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 21,
+      "onPerfectParry": null,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "m_bison__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "m_bison__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "m_bison",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "m_bison__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.593 (min/throw), 2.650 (min/block), 4.425 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    },
+    {
+      "active": "1",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 30,
+      "cancel": [],
+      "category": "special",
+      "characterId": "m_bison",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "m_bison__-",
+      "input": {
+        "numpad": "-",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Psycho Mine (Detonation)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Projectile hitbox (can be avoided with projectile invuln moves, including some with upper-body invuln); Mine dissipates if Bison is hit; explosion happens automatically 300f after a mine has been planted by the 2nd hit of Backfist Combo; also triggered by Psycho Crusher, Backfist Combo, and Devil Reverse on hit/block (only Backfist Combo triggers the detonation on Perfect Parry); explosion puts opponent into free juggle state or maintains existing juggle state; performing Forward Taunt causes Bison to start a countdown to trigger the explosion; explosion only counts as a hit for damage scaling when the timer expires (not when automatically activated from a special move)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
+      },
+      "startup": 300,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    }
+  ],
+  "name": {
+    "en": "M.Bison",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

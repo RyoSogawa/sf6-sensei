@@ -1,0 +1,3914 @@
+{
+  "aliases": [],
+  "id": "manon",
+  "moves": [
+    {
+      "active": "3(11)6(45)9",
+      "afterDriveRush": null,
+      "airborne": "21-36, 68-118 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.383,
+      "blockstun": 28,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "manon",
+      "chipDamage": 400,
+      "damage": 2800,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "manon__214214k",
+      "input": {
+        "numpad": "214214K",
+        "official": null
+      },
+      "invuln": "1-9 Full",
+      "juggle": {
+        "increase": "1,1,0x3",
+        "limit": "6,6,99x3",
+        "start": null
+      },
+      "name": {
+        "en": "Étoile",
+        "ja": null
+      },
+      "notes": {
+        "en": "If blocked, the last hit whiffs on crouching opponents; can be juggled into; extended KD time for opponent if they fall out before 3rd hit; full damage distribution: 450,400,500x2,950",
+        "ja": null
+      },
+      "onBlock": -61,
+      "onHit": 32,
+      "onPerfectParry": -79,
+      "onPunishCounter": 32,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 38,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 152
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.893,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 29,
+      "id": "manon__214hk",
+      "input": {
+        "numpad": "214HK",
+        "official": null
+      },
+      "invuln": "9-19 Lower Body",
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "HK Dégagé",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces crouch on hit; 1st active frame can only hit airborne opponents (functionally 21f startup); works as a low crush but not actually airborne",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 3,
+      "onPerfectParry": -24,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "9-21 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.919,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 31,
+      "id": "manon__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": "11-24 Throw",
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "OD Dégagé",
+        "ja": null
+      },
+      "notes": {
+        "en": "1st active frame cannot hit crouching opponents (functionally 23f as an overhead); 1f better advantage on hit vs. crouching (allows links into 5MP/2MP for improved damage and oki); blockstun is reduced by 1f on active frames 2-3 (still -3 if stand blocked on frame 23)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 6,
+      "onPerfectParry": -23,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "2(10)4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.23,
+      "blockstun": 28,
+      "cancel": [],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,700",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "manon__214lk",
+      "input": {
+        "numpad": "214LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "5,6",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "LK Dégagé",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range low attack that can catch opponents by surprise, but very unsafe if blocked; can be juggled into; leaves opponent close for follow-up oki even midscreen",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 21,
+      "onPerfectParry": -38,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 36,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 67
+    },
+    {
+      "active": "4(14)6",
+      "afterDriveRush": null,
+      "airborne": "15-39 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.614,
+      "blockstun": 33,
+      "cancel": [],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,800",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "manon__214mk",
+      "input": {
+        "numpad": "214MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "5,6",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "MK Dégagé",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range tool for combos and punishes, leading to great corner carry",
+        "ja": null
+      },
+      "onBlock": -13,
+      "onHit": 33,
+      "onPerfectParry": -26,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 3.083,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "manon",
+      "chipDamage": 500,
+      "damage": 2000,
+      "damageText": null,
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "manon__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-13 Strike/Throw",
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Arabesque",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range sliding low attack; switches sides with opponent on hit (except at max range); can be used in juggles; can trade vs. projectiles at certain ranges, allowing for a follow-up juggle",
+        "ja": null
+      },
+      "onBlock": -49,
+      "onHit": 7,
+      "onPerfectParry": -67,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 65,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 78
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.489,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 4000,
+      "damageText": "4000~4600",
+      "dmgScaling": "50% Minimum; 5% Immediate (236HK: 15%)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-8 Full",
+      "juggle": null,
+      "name": {
+        "en": "Pas de Deux",
+        "ja": null
+      },
+      "notes": {
+        "en": "Command throw that can be comboed into; opponent can jump on reaction after the Super freeze; damage at Medal Lv. 1-5: 4000/4100/4200/4400/4600; cannot hit opponents behind Manon; juggles into meterless 236P grant a restand that combos into SA3; cinematic time regenerates ~2.2 Drive bars for Manon; Range: 1.463 (2nd active frame 1.489)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 16,
+      "onPerfectParry": null,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 72,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": -30000
+      },
+      "totalFrames": 80
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.489,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 4500,
+      "damageText": "4500~5100",
+      "dmgScaling": "50% Minimum; 5% Immediate (236HK: 15%)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-8 Full",
+      "juggle": null,
+      "name": {
+        "en": "Pas de Deux (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Command throw that can be comboed into; opponent can jump on reaction after the Super freeze; damage at Medal Lv. 1-5: 4500/4600/4700/4900/5100; cannot hit opponents behind Manon; juggles into meterless 236P grant a restand that combos into SA3; available at 25% HP or below; cinematic time regenerates ~2.4 Drive bars for Manon; Range: 1.463 (2nd active frame 1.489)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 16,
+      "onPerfectParry": null,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 72,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": -30000
+      },
+      "totalFrames": 80
+    },
+    {
+      "active": "3(3)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.833,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "manon__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": "9-22 Air (Upper Body)",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,2",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "HK Rond-point",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong anti-air but cannot hit cross-up; the 1st hit can combo into SA3 vs. grounded opponents (causes SA3 to incur 15% immediate damage scaling instead of the usual 5%); the final 2 recovery frames can be canceled into any special or super on hit (allows for better juggles); puts opponents into limited juggle state with a higher float state than other meterless versions (but still requires an airborne hit to combo into a follow-up)",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 37,
+      "onPerfectParry": -25,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.377,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200,(1300~1900)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 8000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": 20,
+      "id": "manon__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": "3-28 Projectile",
+      "juggle": {
+        "increase": null,
+        "limit": "3",
+        "start": null
+      },
+      "name": {
+        "en": "HP Renversé",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hitgrab that works in combos/juggles and can be blocked; total damage at Medal Lv. 1-5: 1500/1650/1800/1950/2100; Super Gain on Hit at Medal Lv. 1-5: 2150/2150/3150/3150/4150; 1st hit Super Gain is only 150 self / 105 opponent regardless of Medal Level; increases Medal Level by 1 on hit; 1st hit restands juggled opponents and allows a cancel into SA3",
+        "ja": null
+      },
+      "onBlock": -16,
+      "onHit": 15,
+      "onPerfectParry": -30,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 29,
+      "superGauge": {
+        "onBlock": 75,
+        "onHit": 2150
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "4(2)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.48,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": 100,
+      "damage": 500,
+      "damageText": "500,300",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "manon__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": "4-16 Air",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "1,2",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "OD Rond-point",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong anti-air with an enormous hitbox, but cannot hit cross-up; 2nd hit does 400 damage if 1st hit whiffs; the final 5 recovery frames can be canceled into any special or super on hit (allows for better juggles); puts opponents into limited juggle state (has consistent juggle follow-ups); 1st hit can combo into SA3 when canceled (causes SA3 to incur 15% immediate damage scaling instead of the usual 5%); 2nd hit juggles into SA2 when canceled (SA3 cancel only useful if attack is absorbed by armor); the 1st hit has extra range against grounded opponents",
+        "ja": null
+      },
+      "onBlock": -19,
+      "onHit": 45,
+      "onPerfectParry": -31,
+      "onPunishCounter": 45,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "3(2)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.453,
+      "blockstun": 14,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,500",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 24,
+      "id": "manon__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": "5-15 Air (Upper Body)",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,2",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "LK Rond-point",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong anti-air but cannot hit cross-up; SA3 cancel occurs on 2nd hit (allows it to combo vs. grounded opponents); the 1st hit can whiff when canceled into at max range (SA3 cancel at this range usually whiffs and has a much shorter hitconfirm window)",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 3,
+      "onPerfectParry": -34,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 29,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.882,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": 13,
+      "damage": 50,
+      "damageText": "50,(1300~1900)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 8000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": 20,
+      "id": "manon__236lp",
+      "input": {
+        "numpad": "236LP",
+        "official": null
+      },
+      "invuln": "3-21 Projectile",
+      "juggle": {
+        "increase": null,
+        "limit": "3",
+        "start": null
+      },
+      "name": {
+        "en": "LP Renversé",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hitgrab that works in combos/juggles and can be blocked; total damage at Medal Lv. 1-5: 1350/1500/1650/1800/1950; Super Gain on Hit at Medal Lv. 1-5: 2150/2150/3150/3150/4150; 1st hit Super Gain is only 150 self / 105 opponent regardless of Medal Level; increases Medal Level by 1 on hit; 1st hit restands juggled opponents and allows a cancel into SA3",
+        "ja": null
+      },
+      "onBlock": -23,
+      "onHit": 15,
+      "onPerfectParry": -37,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 37,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 75,
+        "onHit": 2150
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "3(3)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.633,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,600",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "manon__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": "7-19 Air (Upper Body)",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,2",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "MK Rond-point",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong anti-air but cannot hit cross-up; SA3 cancel is only useful if the attack is absorbed by armor; puts opponents into limited juggle state (very high anti-air is required for a follow-up juggle); the 1st hit tends to whiff when canceled into at max range",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 34,
+      "onPerfectParry": -28,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.202,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": 25,
+      "damage": 100,
+      "damageText": "100,(1300~1900)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 8000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": 20,
+      "id": "manon__236mp",
+      "input": {
+        "numpad": "236MP",
+        "official": null
+      },
+      "invuln": "3-24 Projectile",
+      "juggle": {
+        "increase": null,
+        "limit": "3",
+        "start": null
+      },
+      "name": {
+        "en": "MP Renversé",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hitgrab that works in combos/juggles and can be blocked; total damage at Medal Lv. 1-5: 1400/1550/1700/1850/2000; Super Gain on Hit at Medal Lv. 1-5: 2150/2150/3150/3150/4150; 1st hit Super Gain is only 150 self / 105 opponent regardless of Medal Level; increases Medal Level by 1 on hit; 1st hit restands juggled opponents and allows a cancel into SA3",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 15,
+      "onPerfectParry": -34,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 34,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 75,
+        "onHit": 2150
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.494,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200,(1300~1900)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 8000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": 20,
+      "id": "manon__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": "3-26 Projectile (All); 3-26 Strike (Upper/Mid Body)",
+      "juggle": {
+        "increase": null,
+        "limit": "3",
+        "start": null
+      },
+      "name": {
+        "en": "OD Renversé",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hitgrab that works in combos/juggles and can be blocked; total damage at Medal Lv. 1-5: 1500/1650/1800/1950/2100; Super Gain on Hit at Medal Lv. 1-5: 2150/2150/3150/3150/4150; 1st hit Super Gain is only 150 self / 105 opponent regardless of Medal Level; increases Medal Level by 1 on hit; unlike the meterless versions, this one cannot be canceled into any Super; leaves Manon much closer to opponent in the corner on hit, allowing for better oki than other enders",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 15,
+      "onPerfectParry": -34,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 34,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 75,
+        "onHit": 2150
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__236[pp]",
+      "input": {
+        "numpad": "236[PP]",
+        "official": null
+      },
+      "invuln": "3-16 Projectile, Strike (Upper/Mid Body)",
+      "juggle": null,
+      "name": {
+        "en": "OD Renversé Feint",
+        "ja": null
+      },
+      "notes": {
+        "en": "Susceptible to low attacks during invincibility window; travel distance: 1.23",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 32
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.99,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "10% Immediate; 10% Starter (applies to 3rd hit)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "manon__236ppk",
+      "input": {
+        "numpad": "236PP~K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "0"
+      },
+      "name": {
+        "en": "OD Grand Fouetté",
+        "ja": null
+      },
+      "notes": {
+        "en": "Any invincibility from 236PP is lost as soon as the kick follow-up starts (can slightly delay the follow-up to extend invincibility); puts opponent into free juggle state on hit; can be spaced to be safer in neutral; combos naturally from 4HP, making it an excellent combo tool for damage and corner carry",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 58,
+      "onPerfectParry": -26,
+      "onPunishCounter": 58,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__236[p]",
+      "input": {
+        "numpad": "236[P]",
+        "official": null
+      },
+      "invuln": "3-(15/16/17) Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Renversé Feint",
+        "ja": null
+      },
+      "notes": {
+        "en": "Travel distance for LP/MP/HP versions: 0.85/1.10/1.14",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 31
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.99,
+      "blockstun": 23,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "10% Immediate; 10% Starter (applies to 3rd hit)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "manon__236pk",
+      "input": {
+        "numpad": "236P~K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "1",
+        "start": "1[0 PC]"
+      },
+      "name": {
+        "en": "Grand Fouetté",
+        "ja": null
+      },
+      "notes": {
+        "en": "Startup of the initial spin depends on button strength; any invincibility from 236P is lost as soon as the kick follow-up starts (can slightly delay the follow-up to extend invincibility); cancel into SA3 is only useful if the kick is absorbed by armor; puts opponent into limited juggle state (free juggle state on Punish Counter); can be spaced to be safer in neutral",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 51,
+      "onPerfectParry": -26,
+      "onPunishCounter": 55,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": null,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": -8,
+        "onHit": 29
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.01,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "manon__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Croisee",
+        "ja": null
+      },
+      "notes": {
+        "en": "Moves forward during startup, giving it more range but also making it easily punished on block; has juggle potential",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 29,
+      "onPerfectParry": -27,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": -4,
+        "onHit": 2
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.89,
+      "blockstun": 18,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "manon__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": "7-34 Air (Arm/Head)",
+      "juggle": {
+        "increase": "10",
+        "limit": "0",
+        "start": "10"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Very strong anti-air but cannot hit cross-up; the hurtbox on Manon's arm and head is invincible to airborne strikes, and her hurtbox remains in a crouching state for the entire animation allowing for late anti-airs to work",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": -2,
+      "onPerfectParry": -24,
+      "onPunishCounter": 2,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 31,
+      "id": "manon__2hphp",
+      "input": {
+        "numpad": "2HP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "15",
+        "start": "1"
+      },
+      "name": {
+        "en": "Allongé",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes spike knockdown after 2HP hits an airborne opponent; slightly better KD advantage when opponent is juggled high in the air",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 1,
+      "onPerfectParry": null,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 3
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.33,
+      "blockstun": 12,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "manon__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; primary low combo starter; less pushback than other chainable light normals (allows tick throws and easier 3-light string confirms)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": -1,
+      "onPerfectParry": -13,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 19
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.09,
+      "blockstun": 11,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "manon__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; true blockstring when chained into 5LP/2LP; cannot combo into 214LK/214MK, but gives more reliable 3-hit light confirm; topmost hurtbox on frames 1-5 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -11,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.436",
+        "onHit": "0.427"
+      },
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 16
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.62,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "manon__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good range low poke that leads to combos and frame advantage when used out of Drive Rush; high pushback on hit and block; after Drive Rush, can link into 5MP at closer ranges",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -18,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.29,
+      "blockstun": 13,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 3,
+        "onHit": 10
+      },
+      "hitstop": 11,
+      "hitstun": 20,
+      "id": "manon__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "4f extra recovery on whiff; Manon's primary combo starter",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 6,
+      "onPerfectParry": -12,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 20
+    },
+    {
+      "active": "9",
+      "afterDriveRush": {
+        "onBlock": -19,
+        "onHit": 26
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.04,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "manon__3hk",
+      "input": {
+        "numpad": "3HK",
+        "official": null
+      },
+      "invuln": "9-19 Air (Leg)",
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tomoe Derriére",
+        "ja": null
+      },
+      "notes": {
+        "en": "Not a low attack despite the animation; works as an anti-air to to invincibility on kicking leg; puts opponents into limited juggle state; can hit cross-up; kicks airborne opponents backwards for a side switch; Punish Counter also switches sides and gives a Hard Knockdown, allowing follow-up oki; only the 1st active frame can hit grounded opponents (active frames 2-9 hit airborne)",
+        "ja": null
+      },
+      "onBlock": -23,
+      "onHit": 26,
+      "onPerfectParry": -39,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "6",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.09,
+      "blockstun": 24,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 14,
+        "onHit": 16
+      },
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "manon__4hp",
+      "input": {
+        "numpad": "4HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Révérence",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong punish starter and combo filler after Drive Rush routes; high active frame count makes it very strong as a meaty; puts airborne opponents into limited juggle state; lenient hitconfirm window, but late cancels into 236P, 214HK, or 214KK can fail to combo",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Uchi Mata",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switches; after corner side switch, can walk for a pseudo throw loop or Drive Rush for a manually timed strike/throw mixup; can get true throw oki vs. wide characters (1f timing vs. Marisa, 2f timing vs. Blanka/E.Honda/Zangief); midscreen, can chase down with DR~5HP but no real strike/throw mixup; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 18,
+      "onPerfectParry": null,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 3
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.22,
+      "blockstun": 20,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 4000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "manon__4mk",
+      "input": {
+        "numpad": "4MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Back Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long TC cancel window into an overhead, but will not combo on hit if delayed too long; good anti-air hitbox (cannot hit cross-ups); puts airborne opponents into limited juggle state (follow-up TC can continue juggle, or can juggle 236KK/SA1/SA2 on a high anti-air)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": -1,
+      "onPerfectParry": -21,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 32
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 3,
+        "onHit": 11
+      },
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "manon__4mkmk",
+      "input": {
+        "numpad": "4MK~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "En Haut",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces crouch on hit; 2f blockstring gap when canceled from 4MK, which can be increased by delaying the cancel for different frame trap timings; combos naturally from 4MK unless the TC cancel is delayed; has juggle potential and puts airborne opponents into limited juggle OTG state (useful after a 4MK anti-air); special/DR cancel is delayed until after 3rd active frame; 2nd hit maintains the CH/PC state from the initial 4MK (allows stronger cancel routes and both hits deal Drive damage on PC, but does not apply to Drive Rush starter); CH 4MK~MK cancels into 236LP and PC 4MK~MK cancels into 214KK",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": -3,
+      "onPerfectParry": -24,
+      "onPunishCounter": 1,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Hmm, how boring. I could be at my favorite salon right now.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 582,
+      "superGauge": null,
+      "totalFrames": 582
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.28,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "manon__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1[0 PC Air]"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f extra recovery on block/whiff; incredibly long range poke that can combo into 214LK/214MK on Punish Counter from max range; Punish Counter puts airborne opponents into spinning free juggle state; extends a hurtbox 1f before active that is vulnerable to projectiles; the slow startup and recovery makes it especially vulnerable to Drive Impact",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 1,
+      "onPerfectParry": -27,
+      "onPunishCounter": 17,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.66,
+      "blockstun": 21,
+      "cancel": [
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 24,
+      "id": "manon__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Very lenient hitconfirm window (always a true blockstring even if delayed); puts airborne opponents into limited juggle state; Punish Counter causes the follow-up Target Combo (5HP~HP) to change properties (causes limited juggle state knockdown instead of standing reset); can be used in juggle routes to cancel into 5HP~HP or SA2 (e.g. after j.MP / 236P~K / corner 236KK / corner 236PP~K > 4HP)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 0,
+      "onPerfectParry": -22,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.44,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "manon__5hphp",
+      "input": {
+        "numpad": "5HP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Temps Lié",
+        "ja": null
+      },
+      "notes": {
+        "en": "Pulls opponent close to Manon for a strike/throw mixup on hit, but also easily punishable on block; 2f extra recovery on block; always a true blockstring even when delayed; easily hitconfirmed from 5HP; after Punish Counter 5HP, becomes a knockdown (KD +48 limited juggle state) that can combo into 236KK or SA2; this Punish version has extended range and inflicts damage scaling on the follow-up juggle; can be juggled into after 5HP in some combo routes (e.g. air-to-air j.MP, corner 236KK, 236P~K, or 236PP~K > 4HP)",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 3,
+      "onPerfectParry": null,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 26
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.35,
+      "blockstun": 12,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 2,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "manon__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Longest ranged light normal (important for punishing -5 or -6 attacks); does not naturally combo into 214LK/214MK outside of Punish Counter situations",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -12,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.01,
+      "blockstun": 12,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "manon__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; higher hitstun than other light normals allows a natural combo into 214LK/214MK; DR cancel is delayed until after active frames",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -11,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.433",
+        "onHit": "0.424"
+      },
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 16
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 2
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.587,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 7
+      },
+      "hitstop": 11,
+      "hitstun": 19,
+      "id": "manon__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Front leg hurtbox is raised on frames 9-12, making it a good poke against low attacks; DR cancel is delayed until after active frames",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": -2,
+      "onPerfectParry": -19,
+      "onPunishCounter": 2,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.48,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 11
+      },
+      "hitstop": 11,
+      "hitstun": 21,
+      "id": "manon__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Moves forward during startup; easily hitconfirmable into TC follow-up (always a true blockstring even if delayed); high active frame count makes it good for oki; Punish Counter causes the follow-up Target Combo (5MP~MK) to change properties (causes hard knockdown instead of standing reset); strong Drive Rush check that can combo into 236LP on counter-hit for a medal",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -17,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 21,
+      "id": "manon__5mpmk",
+      "input": {
+        "numpad": "5MP~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "À Terre",
+        "ja": null
+      },
+      "notes": {
+        "en": "Pulls opponent close to Manon for a strike/throw mixup on hit (but also easily punishable on block); always a true blockstring from 5MP; after Punish Counter 5MP, becomes a hard knockdown (HKD +32) that sets up strong oki anywhere on the screen",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 2,
+      "onPerfectParry": null,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"No no, begin again from the plié.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 252,
+      "superGauge": null,
+      "totalFrames": 252
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.144,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 2000,
+      "damageText": "2000~3700",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__63214hp",
+      "input": {
+        "numpad": "63214HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "HP Manège Doré",
+        "ja": null
+      },
+      "notes": {
+        "en": "Increases Medal Level by 1 on hit; damage at Medal Lv. 1-5: 2000/2300/2700/3000/3700; Super Gain at Medal Lv. 1-5: 3000/3000/4000/4000/5000; cannot be special canceled into; fastest startup with shortest range",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 19,
+      "onPerfectParry": null,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.529,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 2000,
+      "damageText": "2000~3700",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__63214lp",
+      "input": {
+        "numpad": "63214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "LP Manège Doré",
+        "ja": null
+      },
+      "notes": {
+        "en": "Increases Medal Level by 1 on hit; damage at Medal Lv. 1-5: 2000/2300/2700/3000/3700; Super Gain at Medal Lv. 1-5: 3000/3000/4000/4000/5000; cannot be special canceled into; slowest startup with long range",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 19,
+      "onPerfectParry": null,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 49,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.374,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 2000,
+      "damageText": "2000~3700",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__63214mp",
+      "input": {
+        "numpad": "63214MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "MP Manège Doré",
+        "ja": null
+      },
+      "notes": {
+        "en": "Increases Medal Level by 1 on hit; damage at Medal Lv. 1-5: 2000/2300/2700/3000/3700; Super Gain at Medal Lv. 1-5: 3000/3000/4000/4000/5000; cannot be special canceled into; medium startup with medium range",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 19,
+      "onPerfectParry": null,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 51,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.524,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 2000,
+      "damageText": "2000~3700",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__63214pp",
+      "input": {
+        "numpad": "63214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "OD Manège Doré",
+        "ja": null
+      },
+      "notes": {
+        "en": "Increases Medal Level by 1 on hit; damage at Medal Lv. 1-5: 2000/2300/2700/3000/3700; Super Gain at Medal Lv. 1-5: 3000/3000/4000/4000/5000; cannot be special canceled into; medium startup with long range",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 19,
+      "onPerfectParry": null,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 51,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.66,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "manon",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "manon__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Écarté (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.66,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "manon",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "manon__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Écarté (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Un deux trois, un deux trois, un deux trois.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 364,
+      "superGauge": null,
+      "totalFrames": 364
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.5,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "manon",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "manon__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Glissade",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.13,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "manon__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Incredible hitbox priority and downward reach (best option for most jump-ins); lower body projectile invuln 11-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -9,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "manon__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes spike knockdown vs. airborne opponents; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -9,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.56,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "manon__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; can be used as a fuzzy instant overhead (requires perfect safe jump timing)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 3,
+      "onPerfectParry": -9,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.67,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "manon__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -6,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.23,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "manon__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; lower body projectile invuln 7-20f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -7,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.01,
+      "blockstun": 11,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "manon__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": "8-22 Lower Body Projectile",
+      "juggle": {
+        "increase": "10",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state; excellent horizontal air-to-air hitbox; lower body projectile invuln 8-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -4,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Ouchi Gari",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can manually time a throw loop in the corner; Drive Rush also allows an auto-timed meaty throw that can be mixed up with 2MP or 4HP; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 16,
+      "onPerfectParry": null,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "manon",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "manon__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.506 (min/throw), 1.417 (min/block), 2.347 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "Manon",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

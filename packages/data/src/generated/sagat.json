@@ -1,0 +1,4592 @@
+{
+  "aliases": [],
+  "id": "sagat",
+  "moves": [
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.3,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "sagat",
+      "chipDamage": 750,
+      "damage": 1700,
+      "damageText": "1700~3000",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "sagat__214214k",
+      "input": {
+        "numpad": "214214K",
+        "official": null
+      },
+      "invuln": "1-14 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Savage Tiger",
+        "ja": null
+      },
+      "notes": {
+        "en": "Goes into one of 4 follow-ups after frame 76 on hit (depending on which direction is held while clutching the opponent); Sagat's best reversal Super (but is still slow enough to be baited by an opponent's safejab setup); can be used as a projectile counter from about half screen; Sagat has travel time throughout the active frames (takes longer than SA3 to reach full range)",
+        "ja": null
+      },
+      "onBlock": -58,
+      "onHit": null,
+      "onPerfectParry": -76,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 73,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 87
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.3,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 2700,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "sagat__214214k2",
+      "input": {
+        "numpad": "214214K~2",
+        "official": null
+      },
+      "invuln": "1-14 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Savage Tiger Stomp<br>(Oki)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Leaves the opponent close to Sagat for stronger oki than other versions; can walk up for a strike/throw/shimmy mixup; gives enough advantage for an immediate 6MP overhead",
+        "ja": null
+      },
+      "onBlock": -58,
+      "onHit": 19,
+      "onPerfectParry": -76,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 73,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 87
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.3,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 2700,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "sagat__214214k4",
+      "input": {
+        "numpad": "214214K~4",
+        "official": null
+      },
+      "invuln": "1-14 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Savage Tiger Pendulum<br>(Side Switch)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Switches sides with opponent; leaves the opponent far away with no oki",
+        "ja": null
+      },
+      "onBlock": -58,
+      "onHit": 7,
+      "onPerfectParry": -76,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 73,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 87
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.3,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 3000,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "sagat__214214k5",
+      "input": {
+        "numpad": "214214K~5",
+        "official": null
+      },
+      "invuln": "1-14 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Savage Tiger Raid<br>(Damage)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Highest damage variant of SA2; leaves the opponent far away with no oki; has significant corner carry (over 1/2 screen)",
+        "ja": null
+      },
+      "onBlock": -58,
+      "onHit": 4,
+      "onPerfectParry": -76,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 73,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 87
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.3,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 1700,
+      "damageText": null,
+      "dmgScaling": "40% Minimum; 50% Starter; Combo (4 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "sagat__214214k6",
+      "input": {
+        "numpad": "214214K~6",
+        "official": null
+      },
+      "invuln": "1-14 Full",
+      "juggle": {
+        "increase": "2",
+        "limit": "99",
+        "start": "2 (Forced)"
+      },
+      "name": {
+        "en": "Savage Tiger Zenith<br>(Launcher)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Launches the opponent into a limited juggle state (juggle counter is always set to 2 regardless of previous juggle state); Hard Knockdown if the opponent hits the ground instead of being juggled; useful for corner carry, building back some Super gauge, and getting a good mix of damage + oki (but usually results in less damage than Tiger Raid)",
+        "ja": null
+      },
+      "onBlock": -58,
+      "onHit": 53,
+      "onPerfectParry": -76,
+      "onPunishCounter": 53,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 73,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 87
+    },
+    {
+      "active": "3(1)4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.51,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,200",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 21,
+      "id": "sagat__214hk",
+      "input": {
+        "numpad": "214HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "0,1",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Tiger Nexus",
+        "ja": null
+      },
+      "notes": {
+        "en": "Slow startup, only combos naturally from the first hit of 5HK (requires Drive Rush or Punish Counter to combo from 2HP, 4HP launch, or 5HK 2nd hit); 214HK cannot frame trap when canceled from a normal (except for Burnout + Drive Rush into 2MP/2HP/5HK); combos naturally into all follow-ups including 6HK; cancel into 6HK follow-up leaves a 7f gap on block (can frame trap 4f normals in Burnout); 2f extra recovery on Perfect Parry only; if the 1st hit is Perfect Parried, 2nd hit will interrupt any punish slower than 5f startup (trades with 6f attacks); cannot perform follow-up attacks if both hits whiff; carries Counter-hit/Punish Counter advantage through both hits; can juggle after DR~4HP (easier execution but less damaging than his MP Tiger Shot juggle sequence); opponents can beat all follow-ups with invincible reversals (but standard 6f reversals will not punish 214HK)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -24,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 28,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 55
+    },
+    {
+      "active": "3(1)4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.51,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,200",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 16,
+      "id": "sagat__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "0,1",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Tiger Nexus",
+        "ja": null
+      },
+      "notes": {
+        "en": "Similar to HK version but faster (can cancel from more starters like 2HP, 4HP launch, and 5HK 2nd hit); combos naturally into all follow-ups including 6HK; cancel into 6HK follow-up leaves a 7f gap on block (can frame trap 4f normals in Burnout); 2f extra recovery on Perfect Parry only; if the 1st hit is Perfect Parried, 2nd hit will interrupt any punish slower than 5f startup (trades with 6f attacks); cannot perform follow-up attacks if both hits whiff; carries Counter-hit/Punish Counter advantage through both hits; opponents can beat all follow-ups with invincible reversals (but standard 6f reversals will not punish 214KK)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -24,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.39,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "sagat__214kk6hk",
+      "input": {
+        "numpad": "214KK~6HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "2"
+      },
+      "name": {
+        "en": "Nova Tiger",
+        "ja": null
+      },
+      "notes": {
+        "en": "Connects on both standing/crouching opponents; launches opponent into a limited juggle state; combos naturally from 214KK; after blocked 214KK, interruptible 7f blockstring gap (frame trap vs. Burnout); unsafe to reversal Drive Impact and susceptible to Perfect Parry on reaction (becomes DI-safe from 214KK if opponent delays it by 2f or longer); opponent is left inside throw range on block (but Sagat cannot shimmy an immediate throw tech)",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 62,
+      "onPerfectParry": -20,
+      "onPunishCounter": 62,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.73,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 28,
+      "id": "sagat__214kk6lk",
+      "input": {
+        "numpad": "214KK~6LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "2"
+      },
+      "name": {
+        "en": "Mighty Tiger",
+        "ja": null
+      },
+      "notes": {
+        "en": "Mixup tool that is unsafe on block; the threat of overhead makes ~6MK follow-up stronger while the threat of a frame trap makes ~6HK follow-up stronger; safe vs. Burnout but no longer frame traps, making it a weak option; puts airborne opponents into a limited juggle state (e.g. after DI wallsplat juggle); causes immediate knockdown on Counter-hit/Punish Counter; safe to reversal Drive Impact after blocked 214KK unless the 6LK input is delayed",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 3,
+      "onPerfectParry": -23,
+      "onPunishCounter": 25,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.85,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "sagat__214kk6mk",
+      "input": {
+        "numpad": "214KK~6MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "5",
+        "start": "3"
+      },
+      "name": {
+        "en": "Greedy Tiger",
+        "ja": null
+      },
+      "notes": {
+        "en": "Whiffs on crouching opponents; 2f extra recovery on whiff; puts opponent into a limited juggle state (only allows 623LP/PP juggle in the corner); frame data vs. crouch from 214KK: -17 oH / -24 oB / -13 onPC; safe to reversal Drive Impact after blocked 214KK; 3f blockstring gap after 214KK (frame trap vs. standing normals but still loses to reversal crouching normals); risky to attempt on block, but the threat of the overhead and frame trap from ~6LK follow-up can condition opponents to stand block or parry; opponent cannot walk back out of throw range on block",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 48,
+      "onPerfectParry": -18,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.39,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "sagat__214k6hk",
+      "input": {
+        "numpad": "214K~6HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "2"
+      },
+      "name": {
+        "en": "Nova Tiger",
+        "ja": null
+      },
+      "notes": {
+        "en": "Connects on both standing/crouching opponents; launches opponent into a limited juggle state; only combos naturally from 214HK (requires juggle state for LK/MK versions, like a CH/PC Tiger Nexus); after blocked 214LK/MK, interruptible 9f blockstring gap (5f gap vs. Burnout, loses to 4f normals); after blocked 214HK, interruptible 7f blockstring gap (frame trap vs. Burnout); unsafe to reversal Drive Impact and susceptible to Perfect Parry on reaction (becomes DI-safe from 214HK if opponent delays it by 2f or longer); opponent is left inside throw range on block (but Sagat cannot shimmy an immediate throw tech)",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 62,
+      "onPerfectParry": -20,
+      "onPunishCounter": 62,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.73,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 28,
+      "id": "sagat__214k6lk",
+      "input": {
+        "numpad": "214K~6LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "2"
+      },
+      "name": {
+        "en": "Mighty Tiger",
+        "ja": null
+      },
+      "notes": {
+        "en": "Mixup tool that is unsafe on block; the threat of overhead makes ~6MK follow-up stronger while the threat of a frame trap makes ~6HK follow-up stronger; safe vs. Burnout but no longer frame traps (unless the 6LK input is delayed from 214LK/MK); puts airborne opponents into a limited juggle state (e.g. after Counter-hit 214LK/MK); causes immediate knockdown on Counter-hit/Punish Counter; loses to reversal Drive Impact after blocked 214LK/MK (but safe after 214HK unless the 6LK input is delayed); if used from a 2-light chain, opponent is in range for Throw or 2LK~5LP chain (too far if starting with 3-light chain)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 3,
+      "onPerfectParry": -23,
+      "onPunishCounter": 25,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.85,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 5000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "sagat__214k6mk",
+      "input": {
+        "numpad": "214K~6MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "5",
+        "start": "3"
+      },
+      "name": {
+        "en": "Greedy Tiger",
+        "ja": null
+      },
+      "notes": {
+        "en": "Whiffs on crouching opponents; 2f extra recovery on whiff; puts opponent into a limited juggle state (only allows 623LP/PP juggle in the corner, or 623MP from CH/PC 214LK/MK launch); frame data vs. crouch from 214LK/214MK: -19 oH / -26 oB / KD +51 onPC launch; frame data vs. crouch from 214HK: -17 oH / -24 oB / -13 onPC (214HK keeps opponent crouching on Punish Counter); safe to reversal Drive Impact after blocked 214K; 5f blockstring gap after 214LK/MK (loses to reversal standing/crouching 4f normals); 3f blockstring gap after 214HK (frame trap vs. standing normals but still loses to reversal crouching normals); risky to attempt on block, but the threat of the overhead and frame trap from ~6LK follow-up can condition opponents to stand block or parry; opponent cannot walk back out of throw range on block",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 48,
+      "onPerfectParry": -18,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.66,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": 28,
+      "id": "sagat__214lk",
+      "input": {
+        "numpad": "214LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tiger Nexus",
+        "ja": null
+      },
+      "notes": {
+        "en": "The only strength of 214K that can combo naturally from 5LP (3-light confirm can reach if point blank, but results in weaker mixup from ~6LK ender); does not frame trap when canceled on block (except from Light normals with Drive Rush or Burnout); combos into 6LK/6MK follow-ups; canceling into the 6HK follow-up leaves a 2f gap on hit / 9f gap on block (loses to 4f normals even in Burnout); Counter-hit/Punish Counter puts the opponent into a limited juggle state that allows the 6HK follow-up to combo; cannot perform follow-up attacks on whiff; opponents can beat all follow-ups with invincible reversals (but standard 6f reversals will not punish 214LK); if the opponent attempts to punish 214LK, the 6LK follow-up will frame trap on block (must delay 6LK vs. Burnout)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 2,
+      "onPerfectParry": -24,
+      "onPunishCounter": 41,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.96,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": 28,
+      "id": "sagat__214mk",
+      "input": {
+        "numpad": "214MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tiger Nexus",
+        "ja": null
+      },
+      "notes": {
+        "en": "Combos into 6LK/6MK follow-ups; canceling into the 6HK follow-up leaves a 2f gap on hit / 9f gap on block (loses to 4f normals even in Burnout); Counter-hit/Punish Counter puts the opponent into a limited juggle state that allows the 6HK follow-up to combo; 214MK combos from canceled 2MP/2HP/5HK (these cancels also frame trap on block, with 2HP/5HK > 214MK being DI-safe); cannot perform follow-up attacks on whiff; lacks natural juggle potential but can juggle after DR~4HP (free juggle state) for a powerful 1-bar corner combo (DR~4HP > 214MK, 4HP > 236HK, 623MP); opponents can beat all follow-ups with invincible reversals (but standard 6f reversals will not punish 214MK); if the opponent attempts to punish 214MK, the 6LK follow-up will frame trap on block (must delay 6LK vs. Burnout)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 2,
+      "onPerfectParry": -24,
+      "onPunishCounter": 41,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.2,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "sagat",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "sagat__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-15 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Tiger Vanquisher",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cinematic time regenerates ~1.9 Drive bars for Sagat; only 2f startup when canceled from Tiger Uppercut; can be used as a projectile counter from about half screen; slow startup makes it a risky wakeup reversal option; total damage scaling from anti-air Tiger Uppercut is 20-40% depending on which strength was used (weaker strength gives higher scaling)",
+        "ja": null
+      },
+      "onBlock": -51,
+      "onHit": 15,
+      "onPerfectParry": -69,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 67,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 82
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.2,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "sagat",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "sagat__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-15 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Tiger Vanquisher (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Available at 25% HP or below; cinematic time regenerates ~1.9 Drive bars for Sagat; only 2f startup when canceled from Tiger Uppercut; can be used as a projectile counter from about half screen; slow startup makes it a risky wakeup reversal option; total damage scaling from anti-air Tiger Uppercut is 20-40% depending on which strength was used (weaker strength gives higher scaling)",
+        "ja": null
+      },
+      "onBlock": -51,
+      "onHit": 15,
+      "onPerfectParry": -69,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 67,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 82
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "sagat",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200x7,800 (2200)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 300,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "sagat__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-13 Strike/Throw",
+      "juggle": {
+        "increase": "0x7,100",
+        "limit": "99",
+        "start": "0x7,100"
+      },
+      "name": {
+        "en": "Tiger Cannon",
+        "ja": null
+      },
+      "notes": {
+        "en": "8-hit Super projectile; can be used while OD Tiger Shot is on-screen (but not meterless Tiger Shot); fast travel speed allows it to be used in long range juggles; projectile speed is not affected by button strength",
+        "ja": null
+      },
+      "onBlock": -31,
+      "onHit": 22,
+      "onPerfectParry": -9,
+      "onPunishCounter": 22,
+      "projectileSpeed": 0.23,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 96,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 109
+    },
+    {
+      "active": "4(4)11",
+      "afterDriveRush": null,
+      "airborne": "24-43 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.9,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500,900(1300)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "sagat__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": "Lower Body Proj 27-41",
+      "juggle": {
+        "increase": "0,1 / 11",
+        "limit": "7,7",
+        "start": "0,1 / 11"
+      },
+      "name": {
+        "en": "Tiger Knee Crush",
+        "ja": null
+      },
+      "notes": {
+        "en": "Furthest horizontal distance; much better block advantage when spaced at max range; 2nd hit active frames 1-9 whiff on crouching opponents; this means that if the Knee is spaced out so the first hit whiffs, it connects on the 2nd to last active frame vs. crouching opponents (+4 on block); if the 1st hit is crouch blocked, opponent cannot switch to stand block the 2nd hit; puts opponent into a limited juggle state (in the corner, can juggle 623LP if the last 6 active frames connect, or 623MP / SA2 if the final active frame connects); blocked Knee causes a screen shake when Sagat has frame advantage; Sweet Spot occurs when juggling into the 3rd or 4th active frame, dealing 1300 damage (single hit) with a higher spinning juggle launch (ensures a follow-up juggle is possible even midscreen); the 2nd hit's extended Knee hitbox is too high to connect on standing characters on active frames 2-7 (tall characters: active frames 4-6); sets up corner safe jump in certain juggle scenarios (e.g. after juggled 2MP~HP)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 40,
+      "onPerfectParry": -27,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 58
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 30,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 3500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 30,
+      "id": "sagat__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "High Tiger Shot",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fast 1-hit projectile; whiffs on crouching opponents unless they extend an upward hurtbox; puts airborne opponents into a limited juggle state; has much better recovery and frame advantage than the Low version; can be used meaty on the opponent's wakeup even if they crouch block, but the opponent can input a crouching button to avoid blocking the projectile; extends a slight projectile invincible arm hurtbox on frames 14-28 and a leg hurtbox on frames 14-42",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": -1,
+      "onPerfectParry": -20,
+      "onPunishCounter": 3,
+      "projectileSpeed": 0.14,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "3(4)6,5",
+      "afterDriveRush": null,
+      "airborne": "21-38 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.87,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600,1000(500x2)",
+      "dmgScaling": "30% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "sagat__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": "Lower Body Proj 22-37",
+      "juggle": {
+        "increase": "0,4 / 0,1",
+        "limit": "7,99 / 7,7",
+        "start": "0,4 / 0,1"
+      },
+      "name": {
+        "en": "Tiger Knee Crush",
+        "ja": null
+      },
+      "notes": {
+        "en": "1st hit transitions to a different follow-up on hit, resulting in higher damage and a tumbling +66 knockdown (allows a 623LP juggle in the corner); if 1st hit whiffs, the next 2 hits deal 500 damage each and give a worse knockdown (only 1 hit at farthest ranges); safe on block but usually lands inside the opponent's throw range; 2nd hit active frames 2-10 whiff on crouching opponents; this means that if the Knee is spaced out, it connects on the last active frame vs. crouching opponents (+1 on block); unlike HK Knee, the opponent can switch to stand block after the first hit connects, leaving Sagat at -2; blocked Knee causes a screen shake when Sagat has frame advantage; later hits put opponent into a limited juggle state (in the corner, can juggle 623LP)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 66,
+      "onPerfectParry": -23,
+      "onPunishCounter": 66,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 54
+    },
+    {
+      "active": "11",
+      "afterDriveRush": null,
+      "airborne": "13-27 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.41,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "sagat__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": "Lower Body Proj 13-26",
+      "juggle": {
+        "increase": "3",
+        "limit": "7",
+        "start": "3"
+      },
+      "name": {
+        "en": "Tiger Knee Crush",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shortest horizontal distance; no front leg hurtbox on frames 10-12 (helps avoid low pokes); 3f extra landing recovery when absorbed by armor; much better block advantage (up to +2) when spaced at max range; active frames 2-10 whiff on crouching opponents; this means that if the Knee is spaced out so the first active frame whiffs, it always connects on the last active frame vs. crouching opponents (+2 on block, 623LP juggle on hit); puts opponent into a limited juggle state (in the corner, can juggle 623LP if the last active frame connects); blocked Knee causes a screen shake when Sagat has frame advantage; can be whiffed in some situations for a side switch vs. knocked down opponents",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 36,
+      "onPerfectParry": -27,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 30,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 34,
+      "id": "sagat__236lp",
+      "input": {
+        "numpad": "236LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Low Tiger Shot",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fast 1-hit projectile (speed is not variable); can hit crouching opponents unlike MP/HP High Tiger Shot; has extremely long recovery compared to most projectiles (more vulnerable to jumps, Drive Impact, projectile invuln moves, and Perfect Parry + Drive Rush); the projectile travels low to the ground, preventing many low profile attacks from avoiding it (e.g. Kimberly's slide, A.K.I.'s Sinister Slide); Sagat is in a crouching state for the entire move duration with crouch-sized hurtboxes; puts airborne opponents into a limited juggle state; extends a slight projectile invincible arm hurtbox on frames 16-43 and a leg hurtbox on frames 14-50; topmost hurtboxes are vulnerable only to air attacks on frames 1-50 (more vulnerable to jump-ins despite crouching) and are projectile invincible on frames 1-31 to avoid High Tiger Shot (frames 32-50 are still vulnerable)",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": -3,
+      "onPerfectParry": -26,
+      "onPunishCounter": 1,
+      "projectileSpeed": 0.105,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 36,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 32,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": "20% Starter (1st); Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": null,
+      "id": "sagat__236lpmpor236lphp",
+      "input": {
+        "numpad": "236LPMP or 236LPHP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,2",
+        "limit": "4,5",
+        "start": "0,3"
+      },
+      "name": {
+        "en": "Low Tiger Shot",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fast 2-hit OD projectile; can hit crouching opponents; can be used while a meterless Tiger Shot is still on-screen; the projectile travels low to the ground, preventing many low profile attacks from avoiding it (e.g. Kimberly's slide, A.K.I.'s Sinister Slide); Sagat is in a crouching state for the entire move duration with crouch-sized hurtboxes; puts opponents into a limited juggle state; extends a slight projectile invincible arm hurtbox on frames 16-37 and a leg hurtbox on frames 12-44; topmost hurtboxes are vulnerable only to air attacks on frames 1-44 (more vulnerable to jump-ins despite crouching) and are projectile invincible on frames 1-29 to avoid High Tiger Shot (frames 30-44 are still vulnerable); starter scaling does not apply if only the 2nd hit connects (e.g. clashing with 1-hit OD fireball or breaking Drive Impact armor)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 52,
+      "onPerfectParry": -11,
+      "onPunishCounter": 52,
+      "projectileSpeed": 0.14,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "11",
+      "afterDriveRush": null,
+      "airborne": "16-31 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.97,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "sagat__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": "Lower Body Proj 18-30",
+      "juggle": {
+        "increase": "3",
+        "limit": "7",
+        "start": "3"
+      },
+      "name": {
+        "en": "Tiger Knee Crush",
+        "ja": null
+      },
+      "notes": {
+        "en": "Medium horizontal distance; no front leg hurtbox on frames 14-15 (helps avoid low pokes); 3f extra landing recovery when absorbed by armor; much better block advantage (up to +3) when spaced at max range; active frames 2-9 whiff on crouching opponents; this means that if the Knee is spaced out so the first active frame whiffs, it connects on the 2nd to last active frame vs. crouching opponents (+2 on block, 623LP juggle on hit); puts opponent into a limited juggle state (in the corner, can juggle 623LP if the last 4 active frames connect); blocked Knee causes a screen shake when Sagat has frame advantage; can be whiffed in some situations for a side switch vs. knocked down opponents; sets up midscreen safe jump in certain juggle scenarios (e.g. after juggled 2MP~HP)",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": 39,
+      "onPerfectParry": -27,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 30,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 3500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 30,
+      "id": "sagat__236mp",
+      "input": {
+        "numpad": "236MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "High Tiger Shot",
+        "ja": null
+      },
+      "notes": {
+        "en": "Medium speed 1-hit projectile (comparable to a shoto HP fireball, but much slower than Sagat's other projectiles); whiffs on crouching opponents unless they extend an upward hurtbox; puts airborne opponents into a limited juggle state (useful juggle tool after 4HP launch); has much better recovery and frame advantage than the Low version; can be used meaty on the opponent's wakeup even if they crouch block, but the opponent can input a crouching button to avoid blocking the projectile; extends a slight projectile invincible arm hurtbox on frames 18-32 and a leg hurtbox on frames 18-42",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 3,
+      "onPerfectParry": -16,
+      "onPunishCounter": 7,
+      "projectileSpeed": 0.08,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 34,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200x2,600 (1000)",
+      "dmgScaling": "20% Starter (1st/2nd)); Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 1000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "sagat__236mphp",
+      "input": {
+        "numpad": "236MPHP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,2",
+        "limit": "7,7,7",
+        "start": "0,0,3"
+      },
+      "name": {
+        "en": "High Tiger Shot",
+        "ja": null
+      },
+      "notes": {
+        "en": "Extremely fast 3-hit OD projectile; slow startup but very powerful in fireball wars once released; can hit crouching opponents unlike the MP/HP High Tiger Shots; can be used while a meterless Tiger Shot is still on-screen; excellent frame advantage on hit or block; puts opponents into a limited juggle state; can juggle into SA1 from anywhere on the screen, and into another OD High Tiger Shot from fullscreen (or at close range vs. cornered opponents); extends a slight projectile invincible arm hurtbox on frames 25-41 and a leg hurtbox on frames 25-48; starter scaling does not apply if only the 3rd hit connects (e.g. clashing with 2-hit OD fireball or breaking Drive Impact armor)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 63,
+      "onPerfectParry": 5,
+      "onPunishCounter": 63,
+      "projectileSpeed": 0.19,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 75,
+        "onHit": 150
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -8,
+        "onHit": 29
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.91,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "sagat__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tiger Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Has some juggle potential; great range and hitbox priority; can be punished on block by most other sweeps in the game",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 29,
+      "onPerfectParry": -27,
+      "onPunishCounter": 45,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.65,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 10,
+        "onHit": 16
+      },
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "sagat__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Very long range for a cancelable and hitconfirmable poke; significantly more range on active frames 3-4; topmost hurtbox is vulnerable only to aerial strikes on frames 1-14 (preventing its use as an anti-air), and is projectile invincible on frames 1-19 to avoid High Tiger Shot (frames 20-35 are still vulnerable)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 1,
+      "onPerfectParry": -23,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.22,
+      "blockstun": 12,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "sagat__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; low starter that can combo into any 3-light chain from close range",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -13,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 19
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.2,
+      "blockstun": 11,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -2,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "sagat__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; excellent range for a 4f jab; high pushback makes tick throw and counter-hit pressure weaker, but also allows Sagat to space himself outside the opponent's reversal normals on block; DR cancel is delayed until after 2nd~3rd recovery frame; topmost hurtbox on frames 1-5 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -10,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.415",
+        "onHit": "0.487"
+      },
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 15
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.66,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 26,
+      "id": "sagat__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Amazing hitbox priority as a neutral poke; can link to 5LP at closer ranges, or into 2MP/5LK on Counter-hit; useful combo/pressure starter out of Drive Rush (but has poor link options near its max range)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 5,
+      "onPerfectParry": -19,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.48,
+      "blockstun": 19,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 9,
+        "onHit": 13
+      },
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "sagat__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Solid mid-range cancelable poke and buffer tool; 1f extra recovery on block; 3f extra recovery on whiff; significantly more range on active frames 2-3 (more effective linking from +8 or punishing -8 moves); cancelable into 2 different Target Combo follow-ups with different hitconfirm timings (requires Punish Counter or Drive Rush for 2MP~HP combo); topmost hurtbox is vulnerable only to aerial strikes on frames 1-9 (preventing its use as an anti-air), and is projectile invincible on frames 1-14 to avoid High Tiger Shot (frames 15-26 are still vulnerable)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -18,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.35,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "sagat__2mphk",
+      "input": {
+        "numpad": "2MP~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tiger Rise",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f blockstring gap between hits; harder to confirm into from 2MP but combos naturally; launch only allows a canceled Super but no other follow-up juggles; easily hitconfirmed into Super even if only the 2nd hit connects as a frame trap; higher KD advantage when juggled into",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 32,
+      "onPerfectParry": -28,
+      "onPunishCounter": 32,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.24,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 16
+      },
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "sagat__2mphp",
+      "input": {
+        "numpad": "2MP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "4",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tiger Slash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Combos after Punish Counter or Drive Rush 2MP only; causes limited juggle OTG bounce vs. airborne opponents",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": -2,
+      "onPerfectParry": -28,
+      "onPunishCounter": 2,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "3,5",
+      "afterDriveRush": {
+        "onBlock": null,
+        "onHit": 34
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.13,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": "200,600",
+      "dmgScaling": "10% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 10,
+        "onHit": 54
+      },
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "sagat__4hp",
+      "input": {
+        "numpad": "4HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "0,2",
+        "start": "0,1"
+      },
+      "name": {
+        "en": "Tiger Monolith",
+        "ja": null
+      },
+      "notes": {
+        "en": "Tall hitbox on 2nd hit, but also extends a tall hurtbox with no anti-air invincibility (likely to lose/trade with jump-ins); cannot hit cross-up; 2nd hit whiffs on crouch blocking opponents (3f worse on block and not cancelable); cancel does not occur until the 2nd hit's active frames (still executes on hit even if the 2nd hit whiffs); puts opponents into a limited juggle state (can combo into 236MP, DR~delay 4HP > 236HK, 623MP for great midscreen damage and corner carry); free juggle state from DR~4HP, allowing a more optimal corner juggle: > 214MK, 4HP > 236HK, 623MP; launches higher on Counter-hit/Punish Counter (KD +41) or on airborne opponents (KD +40); 1st hit puts opponent into a free juggle OTG bounce state that is usually overwritten by the 2nd hit (but can still occur on trades or when hitting extended hurtboxes)",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 34,
+      "onPerfectParry": -24,
+      "onPunishCounter": 41,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "sagat__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Tiger Carry",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switch; no true oki after throwing opponent into the corner, but can pressure with Tiger Shot, MK/HK Knee, or spaced Drive Rush normals; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 21,
+      "onPerfectParry": null,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "sagat__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"If you're on a path to attain strength, show me your worth!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 435,
+      "superGauge": null,
+      "totalFrames": 435
+    },
+    {
+      "active": "2,4",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.96,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": "600,300",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 10,
+        "onHit": 20
+      },
+      "hitstop": 13,
+      "hitstun": 30,
+      "id": "sagat__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,1(0)",
+        "start": "0,1"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Upper Body/Leg hurtbox is anti-air invincible on frames 9-15 (solid anti-air against midrange jumps); cannot hit cross-up; 1st hit forces stand on hit; 2nd hit whiffs on crouching opponents (2f worse on block); 4f extra recovery if both hits whiff; 1st hit deals extra hitstun, allowing a natural combo into 214HK; deals full damage / Drive damage / Meter gain even if only the 2nd hit connects; 1st hit puts airborne opponents into a free juggle state (limited juggle if comboed from a wallsplat or airborne crumple), then air resets on the 2nd hit; 2nd hit only has juggle potential after the 1st hit connects; the first 11 recovery frames extend a wide leg hurtbox making it more easily whiff punished by standing normals; carries counter-hit/Punish Counter advantage through both hits",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 1,
+      "onPerfectParry": -25,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.17,
+      "blockstun": 21,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "sagat__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f extra recovery on whiff; huge range poke with a hitconfirmable TC follow-up; the first 10 recovery frames extend a wide arm-height hurtbox making it easily whiff punished by standing normals",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 0,
+      "onPerfectParry": -24,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.38,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 5000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "sagat__5hphk",
+      "input": {
+        "numpad": "5HP~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tiger Sting",
+        "ja": null
+      },
+      "notes": {
+        "en": "Both hits are always a true blockstring; hitconfirmable knockdown from a very strong midrange poke; sets up a KD +42 safe jump when juggled into (like after a DI wallsplat on hit/block)",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 39,
+      "onPerfectParry": null,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 3
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.56,
+      "blockstun": 13,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 3
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "sagat__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range but slow startup (more comparable to a medium normal); 2f extra recovery on whiff; great whiff punish tool that combos consistently into 623HP on Punish Counter; input overlap with 6LK Step Low Kick makes it harder to walk forward and poke in neutral; DR cancel is delayed until after 2nd recovery frame",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": -1,
+      "onPerfectParry": -15,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 23
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.26,
+      "blockstun": 11,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -3,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 18,
+      "id": "sagat__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; great range for a chainable 5f jab (but slightly shorter than a standard shoto 5LK); DR cancel is delayed until after 2nd recovery frame; Sagat's only light normal that combos naturally into 214LK",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -12,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.87,
+      "blockstun": 20,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 26,
+      "id": "sagat__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Very long poke with a semi-hitconfirmable TC follow-up; more range vs. standing opponents (the tip of the hitbox whiffs on crouching opponents); the first 10 recovery frames extend a wide leg hurtbox making it more easily whiff punished by standing normals",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.49,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 8000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "sagat__5mkhk",
+      "input": {
+        "numpad": "5MK~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Step Middle Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f blockstring gap between hits; somewhat hitconfirmable knockdown from a very strong midrange poke; puts opponent into a limited juggle state (can combo 623LP after DI wallsplat on hit)",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 38,
+      "onPerfectParry": -24,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 6,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.08,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "sagat__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Core pressure tool for frame traps (5MPx2 sets up a trade combo vs. most reversal 4f normals); pushback on block is too far for a throw mixup without Drive Rush; links consistently into 2MP on counter-hit or into 5HK on Punish Counter (very strong Drive Reversal punish option); on regular hit can lead to 5MP, 5MP, 5LP combo",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 6,
+      "onPerfectParry": -17,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "sagat__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"If you desire the throne, stand tall against the emperor.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 487,
+      "superGauge": null,
+      "totalFrames": 487
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": "22-67 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.56,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 400,
+      "damage": 1600,
+      "damageText": "1600 (1000)",
+      "dmgScaling": "10% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "sagat__623hp",
+      "input": {
+        "numpad": "623HP",
+        "official": null
+      },
+      "invuln": "1-21 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tiger Uppercut",
+        "ja": null
+      },
+      "notes": {
+        "en": "Extremely long range but slow startup (cannot combo naturally from light normals, but works well as a combo ender from 5LK whiff punish); deals 600 less damage on active frames 3-10; cannot hit cross-up; can be charged into a much stronger version by holding the button 24 frames; releasing the button early results in uncharged 623HP with 8f startup after release; if partially charged, the Air Invuln is 1-9f then 1-11f after the button is released, and the airborne frames are 12-57f after the button is released; puts opponent into a limited juggle state (allows SA3 cancel on active frames 1-2 only)",
+        "ja": null
+      },
+      "onBlock": -45,
+      "onHit": 27,
+      "onPerfectParry": -63,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 40,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 650,
+        "onHit": 1300
+      },
+      "totalFrames": 82
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": "39-84 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.6,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 450,
+      "damage": 1800,
+      "damageText": "1800,1000 (1700)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 15000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "sagat__623[hp]",
+      "input": {
+        "numpad": "623[HP]",
+        "official": null
+      },
+      "invuln": "1-9, 28-38 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tiger Uppercut (hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button must be held 24f for fully charged version; causes a wall splat on hit that leaves Sagat at a fixed distance (no follow-up combo); deals 1100 less damage on active frames 4-10 with no wallsplat animation (KD +29 on active frame 4); cannot hit cross-up; 1st hit puts opponent into a limited juggle state (allows SA3 cancel on active frames 1-3 only)",
+        "ja": null
+      },
+      "onBlock": -45,
+      "onHit": 23,
+      "onPerfectParry": -63,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 40,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 35,
+      "superGauge": {
+        "onBlock": 750,
+        "onHit": 1500
+      },
+      "totalFrames": 99
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": "9-49 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.22,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": "1100 (800)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "sagat__623lp",
+      "input": {
+        "numpad": "623LP",
+        "official": null
+      },
+      "invuln": "1-14 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "30(99)",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tiger Uppercut",
+        "ja": null
+      },
+      "notes": {
+        "en": "Sagat's primary anti-air with fast startup but short range; deals 300 less damage on active frames 4-10; cannot hit cross-up; puts opponent into a limited juggle state (allows SA3 cancel on active frames 1-2 only)",
+        "ja": null
+      },
+      "onBlock": -37,
+      "onHit": 32,
+      "onPerfectParry": -55,
+      "onPunishCounter": 32,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": "14-59 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.68,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": "1400 (800)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "sagat__623mp",
+      "input": {
+        "numpad": "623MP",
+        "official": null
+      },
+      "invuln": "1-13 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "30(99)",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tiger Uppercut",
+        "ja": null
+      },
+      "notes": {
+        "en": "Much more range than LP version for mid-range anti airs and more consistent cancels from light normals; much slower startup (limits usefulness in many juggles); forward movement makes Sagat more likely to whiff under an opponent's jump-in; deals 600 less damage on active frames 4-10; cannot hit cross-up; puts opponent into a limited juggle state (allows SA3 cancel on active frames 1-2 only)",
+        "ja": null
+      },
+      "onBlock": -45,
+      "onHit": 27,
+      "onPerfectParry": -63,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 40,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 74
+    },
+    {
+      "active": "2x6",
+      "afterDriveRush": null,
+      "airborne": "12-57 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.6,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "sagat",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600,200x5 (1600)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "sagat__623pp",
+      "input": {
+        "numpad": "623PP",
+        "official": null
+      },
+      "invuln": "1-12 Full",
+      "juggle": {
+        "increase": "0x5,100",
+        "limit": "99",
+        "start": "0x5,100"
+      },
+      "name": {
+        "en": "Tiger Uppercut",
+        "ja": null
+      },
+      "notes": {
+        "en": "Sagat's main reversal; slightly slower than most OD reversals (can be safejabbed by Dee Jay 5LP but is otherwise reliable); deals less damage if it connects on later active frames (1st hit deals significant portion of overall damage); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -43,
+      "onHit": 25,
+      "onPerfectParry": -63,
+      "onPunishCounter": 25,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 38,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 72
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 8,
+        "onHit": 11
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.66,
+      "blockstun": 26,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "10% Starter; Combo (5% extra)",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 32,
+      "id": "sagat__6hk",
+      "input": {
+        "numpad": "6HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10",
+        "limit": "10",
+        "start": "1[0 PC]"
+      },
+      "name": {
+        "en": "Step High Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Upper Body/Leg hurtbox is anti-air invincible on frames 14-19 (useful as a predictive long range anti-air); whiffs on crouching opponents; puts airborne opponents into a limited juggle state; Punish Counter staggers grounded opponents and puts airborne opponents into a free juggle state; 3f fewer total frames on block/parry/armor (active frames end upon contact, with variable recovery depending on which active frame connected); the first 5 recovery frames extend a wide hurtbox where the kicking leg was (too high for many attacks to easily connect as a whiff punish); extends hurtbox 1f before active that is vulnerable to projectiles; useful in Drive Rush cancel routes from 2HP/5HK/2MP~HP (but the pushback prevents Sagat's usual midscreen link of 4HP > 236MP, juggle DR~4HP)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 7,
+      "onPerfectParry": -20,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.8,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "sagat",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "sagat__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Tiger Twin Babel (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.8,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "sagat",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "sagat__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Tiger Twin Babel (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.35,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 24,
+      "id": "sagat__6lk",
+      "input": {
+        "numpad": "6LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Step Low Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range advancing low poke that leaves Sagat close for a strike/throw mixup on hit while remaining safe on block; 3f extra recovery on whiff; can link into light normals on Counter-hit, or into 2MP after Drive Rush or Punish Counter; knocks down airborne opponents (KD +35~38) when juggled into (but has no juggle potential on its own); the first 7 recovery frames extend a wide foot hurtbox making it more easily whiff punished by low-reaching normals",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -19,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.71,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "sagat__6mp",
+      "input": {
+        "numpad": "6MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tiger Heavy Elbow",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spike knockdown vs. airborne opponents; Drive Rush gives a combo into 2MP (no real strike/throw pressure on block); meaty timing allows a follow-up link (up to +5/0 on final active frame)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -20,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "sagat__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"The emperor's strength is peerless. However, it would be my pleasure to test your strength!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 650,
+      "superGauge": null,
+      "totalFrames": 650
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.529,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "sagat",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "sagat__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Tiger Punishment",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.44,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "sagat__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "1",
+        "start": "3"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Longest horizontal range; puts airborne opponents into a limited juggle state; lower body projectile invuln 10-21f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 7,
+      "onHit": 11,
+      "onPerfectParry": -6,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.11,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "sagat__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "1",
+        "start": "3"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong downward attack angle; spike knockdown vs. airborne opponents; lower body projectile invuln 10-22f (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -9,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.64,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "sagat__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "0",
+        "start": "3"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; can be used as a fuzzy instant overhead",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -7,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.14,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "sagat__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "1",
+        "start": "3"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fast air-to-air with solid horizontal range",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 6,
+      "onPerfectParry": -5,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.42,
+      "blockstun": 14,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 19,
+      "id": "sagat__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "0",
+        "start": "3"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long horizontal range (barely shorter than j.HK) with a better downward attack angle and nearly identical hitstun and blockstun; lower body projectile invuln 8-25f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 9,
+      "onPerfectParry": -8,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2,3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.1,
+      "blockstun": 11,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 350,
+      "damageText": "350x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 15,
+      "id": "sagat__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3,1",
+        "limit": "1,4",
+        "start": "3,1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; puts airborne opponents into a limited juggle state; if 1st hit is stand blocked, the 2nd hit will not hit overhead against crouch block; lower body projectile invuln 8-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 10,
+      "onPerfectParry": -3,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "sagat__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Tiger Hang",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can use Drive Rush for a corner throw loop with 4f timing on standard characters; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 21,
+      "onPerfectParry": null,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "sagat__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "sagat__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "sagat",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "sagat__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.546 (min/throw), 1.869 (min/block), 3.156 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "Sagat",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

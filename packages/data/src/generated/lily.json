@@ -1,0 +1,4934 @@
+{
+  "aliases": [],
+  "id": "lily",
+  "moves": [
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.755,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": "1-8 Full",
+      "juggle": null,
+      "name": {
+        "en": "Raging Typhoon",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be jumped out of during startup; can be comboed into like a hit-grab (immediate damage scaling applies to any combo into SA3); cinematic time regenerates ~1.7 Drive bars for Lily; Range: 1.728 (1.755 on 2nd active frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 4,
+      "onPerfectParry": null,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 106,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": -30000
+      },
+      "totalFrames": 114
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.755,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 5000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": "1-8 Full",
+      "juggle": null,
+      "name": {
+        "en": "Raging Typhoon (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be jumped out of during startup; can be comboed into like a hit-grab (immediate damage scaling applies to any combo into SA3); available at 25% HP or below; cinematic time regenerates ~2.4 Drive bars for Lily; Range: 1.728 (1.755 on 2nd active frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 4,
+      "onPerfectParry": null,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 106,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": -30000
+      },
+      "totalFrames": 114
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.12,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "lily__214hp(holdok)",
+      "input": {
+        "numpad": "214HP (HOLD OK)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Condor Wind (attack)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Windclad stock gained on the first active frame (or frames 46, 71 and 90 if held); can delay the attack by holding HP (attack comes out 4f after button release); puts opponents into limited juggle state on hit; cancel into SA3 does not combo (only useful when absorbed by armor); cancels and self-hitstop do not occur until after the 2nd active frame; head hurtbox shrinks during active frames and the first 16 recovery frames",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 30,
+      "onPerfectParry": -27,
+      "onPunishCounter": 30,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 53
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__214lp",
+      "input": {
+        "numpad": "214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Condor Wind (stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Windclad stock gained on frame 46 (frames 71 and 90 if held); LP must be held for 59f/89f for Lv.2/Lv.3 versions (releasing too early extends the animation without building a stock); can build up to 3 Windclad stocks; stocks can be spent for enhanced versions of Condor Spire, Tomahawk Buster, or Condor Dive",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 1,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 46,
+      "superGauge": null,
+      "totalFrames": 47
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.07,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": 31,
+      "id": "lily__214mp(holdok)",
+      "input": {
+        "numpad": "214MP (HOLD OK)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Condor Wind (attack)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Windclad stock gained on the first active frame (or frames 46, 71 and 90 if held); can delay the attack by holding MP (attack comes out 4f after button release); cancels and self-hitstop do not occur until after the 2nd active frame; useful for comboing into SA3 as it leaves the opponent grounded on hit; puts airborne opponents into limited juggle state on hit; head hurtbox shrinks during active frames and the first 16 recovery frames",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 2,
+      "onPerfectParry": -27,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.15,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 8000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "lily__214pp(holdok)",
+      "input": {
+        "numpad": "214PP (HOLD OK)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Condor Wind (attack)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Windclad stock gained on the 1st active frame; holding the buttons for 16-24f increases the startup (attack comes out 4f after button release); puts opponents into limited juggle state on hit (can land a corner follow-up juggle with up to 6f startup); holding for 25f or longer results in non-attack version instead; SA3 cancel does not combo on hit (only useful when absorbed by armor); cancels and self-hitstop do not occur until after the 2nd active frame; head hurtbox shrinks during active frames and the first 16 recovery frames",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 39,
+      "onPerfectParry": -25,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__214[pp]",
+      "input": {
+        "numpad": "214[PP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Condor Wind (stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Windclad stock gained on frame 38; buttons must be held 25f for the non-attack version to come out; can built up to 3 Windclad stocks; stocks can be spent for enhanced versions of Condor Spire, Tomahawk Buster, or Condor Dive; 7f faster than the LP version, making it much safer to use in neutral",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 38,
+      "superGauge": null,
+      "totalFrames": 40
+    },
+    {
+      "active": "4,3x6(9)2",
+      "afterDriveRush": null,
+      "airborne": "13-80 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.13,
+      "blockstun": 36,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "lily",
+      "chipDamage": 550,
+      "damage": 2600,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 0,
+      "hitstun": null,
+      "id": "lily__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-12 Full, 13-41 Projectile",
+      "juggle": {
+        "increase": "1xN",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Thunderbird",
+        "ja": null
+      },
+      "notes": {
+        "en": "Connects 7 times vs. stand block, 5 times vs. crouch block (affects Block Adv, Chip Damage, and Drive Damage); hits on both sides of Lily (good anti-air against cross-ups); must be Perfect Parried twice (3 times for tall standing characters); suction effect on hit (can be used against extended projectile hurtboxes); Dmg distribution: 100x7,1900",
+        "ja": null
+      },
+      "onBlock": -60,
+      "onHit": 42,
+      "onPerfectParry": -87,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 39,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 104
+    },
+    {
+      "active": "2x11,3(6)2",
+      "afterDriveRush": null,
+      "airborne": "13-80 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.61,
+      "blockstun": 37,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "lily",
+      "chipDamage": 225,
+      "damage": 2900,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 750,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 1,
+      "hitstun": null,
+      "id": "lily__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-12 Full, 13-41 Projectile",
+      "juggle": {
+        "increase": "1xN",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Thunderbird (Windclad)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Consumes 1 Windclad stock (+300 damage, +4 KD Adv, better horizontal range in both directions); connects 11 times vs. stand block, 8 times vs. crouch block (affects Block Adv, Chip Damage, and Drive Damage); hits on both sides of Lily (good anti-air against cross-ups); must be Perfect Parried twice (3 times for tall standing characters); suction effect on hit (can be used against extended projectile hurtboxes); Dmg distribution: 100x12,1700",
+        "ja": null
+      },
+      "onBlock": -59,
+      "onHit": 46,
+      "onPerfectParry": -87,
+      "onPunishCounter": 46,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 39,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 104
+    },
+    {
+      "active": "2(5)2(7)2(8)2(8)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 3.077,
+      "blockstun": 57,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "lily",
+      "chipDamage": 100,
+      "damage": 2200,
+      "damageText": "2200 (1840)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 200,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "lily__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-11 Strike/Throw",
+      "juggle": {
+        "increase": "1xN",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Breezing Hawk",
+        "ja": null
+      },
+      "notes": {
+        "en": "First 2 hits give full animation; partial connect gives reduced damage and KD advantage; Dmg distribution: 80x13,1160 (full animation), 80x2,1680 (partial animation)",
+        "ja": null
+      },
+      "onBlock": -36,
+      "onHit": 27,
+      "onPerfectParry": -54,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 101
+    },
+    {
+      "active": "13",
+      "afterDriveRush": null,
+      "airborne": "11-39 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.286,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "lily__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Condor Spire",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be spaced out for better frame advantage, allowing a strike/throw mixup on block; puts opponent into limited juggle state on hit (corner juggle follow-up is possible when hitting on active frame 9 or later)",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 37,
+      "onPerfectParry": -27,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 53
+    },
+    {
+      "active": "5(6)11,7",
+      "afterDriveRush": null,
+      "airborne": "17-47 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.342,
+      "blockstun": 44,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 25,
+      "damage": 100,
+      "damageText": "100x2,1000",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 500,
+        "gain": 600
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "lily__w236hk",
+      "input": {
+        "numpad": "W.236HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3,3,1",
+        "limit": "5,9,12",
+        "start": "3,3,1"
+      },
+      "name": {
+        "en": "Condor Spire (Windclad)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Consumes 1 Windclad Stock; 3 hits (can lose hits from farther range); can be spaced out for better frame advantage if only 3rd hit connects; puts opponent into limited juggle state on hit; can land a follow-up juggle with 10f startup (up to 14f startup on max range connect)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 52,
+      "onPerfectParry": -19,
+      "onPunishCounter": 52,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 59
+    },
+    {
+      "active": "13",
+      "afterDriveRush": null,
+      "airborne": "7-29 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.175,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 7000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "lily__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Condor Spire",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button combination determines travel distance; far version MK+HK (Modern A[3S]), short version LK+MK / LK+HK (Modern A[2S] / A[1S]); can be spaced out for better frame advantage, allowing a strike/throw mixup on block; short version is easier to space on later active frames for frame advantage (extends a proximity guard box beyond its max range); puts opponent into limited juggle state on hit (corner juggle follow-up is possible when hitting on active frame 5 or later); SA2 hitconfirm time decreases when connecting from longer ranges",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 43,
+      "onPerfectParry": -24,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "13",
+      "afterDriveRush": null,
+      "airborne": "8-31 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.438,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "lily__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Condor Spire",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be spaced out for better frame advantage, allowing a strike/throw mixup on block; puts opponent into limited juggle state on hit (corner juggle follow-up is possible only vs. airborne opponents at longer ranges)",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 33,
+      "onPerfectParry": -27,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "14,3,7",
+      "afterDriveRush": null,
+      "airborne": "9-34 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.206,
+      "blockstun": 40,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 25,
+      "damage": 100,
+      "damageText": "100x2,1000",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 7000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "lily__w236lkmkorw236lkhk",
+      "input": {
+        "numpad": "W.236LKMK or W.236LKHK",
+        "official": null
+      },
+      "invuln": "9-32 Projectile",
+      "juggle": {
+        "increase": "3,3,1",
+        "limit": "5,9,12",
+        "start": "3,3,1"
+      },
+      "name": {
+        "en": "Condor Spire (Windclad)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Consumes 1 Windclad Stock; 3 hits (can lose hits from farther range); can be spaced out for better frame advantage if only 3rd hit connects; puts opponent into limited juggle state on hit; can land a follow-up juggle with 8f startup (up to 14f startup on max range connect); SA2 hitconfirm time decreases when connecting from longer ranges; shorter travel distance and less knockdown advantage than the MKHK version; easier to space on a late active frame (becomes safe to Drive Reversal); range on the 3rd hit's first active frame: 2.876",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 44,
+      "onPerfectParry": -19,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "5(6)11,7",
+      "afterDriveRush": null,
+      "airborne": "9-39 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.255,
+      "blockstun": 44,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 25,
+      "damage": 100,
+      "damageText": "100x2,800",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 500,
+        "gain": 600
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "lily__w236lk",
+      "input": {
+        "numpad": "W.236LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3,3,1",
+        "limit": "5,9,12",
+        "start": "3,3,1"
+      },
+      "name": {
+        "en": "Condor Spire (Windclad)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Consumes 1 Windclad Stock; 3 hits (can lose hits from farther range); can be spaced out for better frame advantage if only 3rd hit connects; puts opponent into limited juggle state on hit; can land a follow-up juggle with 5f startup (up to 10f startup on max range connect)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 47,
+      "onPerfectParry": -19,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "13",
+      "afterDriveRush": null,
+      "airborne": "9-35 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.077,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "lily__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Condor Spire",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be spaced out for better frame advantage, allowing a strike/throw mixup on block; puts opponent into limited juggle state on hit (corner juggle follow-up is possible when hitting on active frame 10 or later)",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 37,
+      "onPerfectParry": -27,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "14,3,7",
+      "afterDriveRush": null,
+      "airborne": "9-34 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.831,
+      "blockstun": 40,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 25,
+      "damage": 100,
+      "damageText": "100x2,1000",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 7000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "lily__w236mkhk",
+      "input": {
+        "numpad": "W.236MKHK",
+        "official": null
+      },
+      "invuln": "9-32 Projectile",
+      "juggle": {
+        "increase": "3,3,1",
+        "limit": "5,9,12",
+        "start": "3,3,1"
+      },
+      "name": {
+        "en": "Condor Spire (Windclad)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Consumes 1 Windclad Stock; 3 hits (can lose hits from farther range); can be spaced out for better frame advantage if only 3rd hit connects; puts opponent into limited juggle state on hit; can land a follow-up juggle with 16f startup (up to 22f startup on max range connect); SA2 hitconfirm time decreases when connecting from longer ranges; longer travel distance and more knockdown advantage than the LKK version; range on the 3rd hit's first active frame: 3.351",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 56,
+      "onPerfectParry": -19,
+      "onPunishCounter": 56,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "5(6)11,7",
+      "afterDriveRush": null,
+      "airborne": "13-43 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.705,
+      "blockstun": 44,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 25,
+      "damage": 100,
+      "damageText": "100x2,900",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 500,
+        "gain": 600
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "lily__w236mk",
+      "input": {
+        "numpad": "W.236MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3,3,1",
+        "limit": "5,9,12",
+        "start": "3,3,1"
+      },
+      "name": {
+        "en": "Condor Spire (Windclad)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Consumes 1 Windclad Stock; 3 hits (can lose hits from farther range); can be spaced out for better frame advantage if only 3rd hit connects; puts opponent into limited juggle state on hit; can land a follow-up juggle with 7f startup (up to 11f startup on max range connect)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 49,
+      "onPerfectParry": -19,
+      "onPunishCounter": 49,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 55
+    },
+    {
+      "active": "2(6)2",
+      "afterDriveRush": {
+        "onBlock": -8,
+        "onHit": 32
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.938,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 450,
+      "damageText": "450x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 26,
+      "id": "lily__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "5,6",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Squall Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; 2nd hit is not low if the 1st hit is blocked; 1st hit doesn't knock down (-4 if the 2nd hit whiffs on a long range Punish Counter); has juggle potential",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 32,
+      "onPerfectParry": -24,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "2,4",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.71,
+      "blockstun": 26,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": "500x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 13,
+        "onHit": 15
+      },
+      "hitstop": 10,
+      "hitstun": 28,
+      "id": "lily__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "0,1",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Counter-hit/Punish Counter puts airborne opponents into limited juggle state; incredible anti-air hitbox but cannot hit cross-up; ; special/DR cancel is delayed until after 4th active frame (2nd active frame of 2nd hit); has an extended hurtbox on whiff until the end of recovery",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 0,
+      "onPerfectParry": -26,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 37
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.13,
+      "blockstun": 12,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "lily__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/5LK/2LP/2LK",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -12,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.32,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "lily__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/5LK/2LP/2LK; great range for a light attack; topmost hurtbox on frames 1-8 is vulnerable only to aerial strikes (preventing its use as an anti-air); DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 6,
+      "onPerfectParry": -9,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 16
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.364,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 10
+      },
+      "hitstop": 9,
+      "hitstun": 22,
+      "id": "lily__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Slow and stubby compared to most cancelable 2MKs in the game; Range: 1.364; special/DR cancel is delayed until after active frames",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 1,
+      "onPerfectParry": -19,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.438,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "lily__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong poke with great hitbox priority; can buffer into Super Arts (SA2 is likely to whiff if buffered as a counterpoke); topmost hurtbox on frames 1-10 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -19,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.98,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 2800,
+      "damageText": "2800 (3220)",
+      "dmgScaling": "10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__360+hp",
+      "input": {
+        "numpad": "360+HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Mexican Typhoon",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts Lily fullscreen after successful grab; Range: 0.98",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 28,
+      "onPerfectParry": null,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 53,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.38,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 2000,
+      "damageText": "2000 (2300)",
+      "dmgScaling": "10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__360+lp",
+      "input": {
+        "numpad": "360+LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Mexican Typhoon",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts Lily fullscreen after successful grab; Range: 1.38",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 28,
+      "onPerfectParry": null,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 53,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.23,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 2400,
+      "damageText": "2400 (2760)",
+      "dmgScaling": "10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__360+mp",
+      "input": {
+        "numpad": "360+MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Mexican Typhoon",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts Lily fullscreen after successful grab; Range: 1.23",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 28,
+      "onPerfectParry": null,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 53,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.38,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 2900,
+      "damageText": "2900 (3350)",
+      "dmgScaling": "10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__360+pp",
+      "input": {
+        "numpad": "360+PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Mexican Typhoon",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts Lily fullscreen after successful grab; Range: 1.38",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 28,
+      "onPerfectParry": null,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 53,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.1,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 23,
+      "id": "lily__3hp",
+      "input": {
+        "numpad": "3HP",
+        "official": null
+      },
+      "invuln": "5-19 Lower Body",
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Ridge Thrust",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good range and hitbox priority for an overhead; Lily is in a crouching state on frames 25-42 (only the final 3f of recovery has a standing hurtbox); causes spike knockdown vs. airborne opponents",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -19,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.65,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 10,
+        "onHit": 17
+      },
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "lily__4hp",
+      "input": {
+        "numpad": "4HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Horn Breaker",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good range, strong hitbox priority (strong bufferable neutral tool); extends a hurtbox in front of body until the end of recovery",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 5,
+      "onPerfectParry": -20,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Falling Cliff",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switch; requires Drive Rush to land another meaty throw after cornering opponent; can also use immediate 236MK to become +4 on block for a mixup (or Windclad 236LK to become +3); forward dash can set up a meaty normal but no real throw mixup; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 32,
+      "onPerfectParry": null,
+      "onPunishCounter": 32,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Come on! I'm ready to fight!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 144,
+      "superGauge": null,
+      "totalFrames": 144
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.962,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "lily__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Solid poke with good range and high pushback; useful whiff punish due to the Punish Counter knockdown; Punish Counter puts airborne opponents into limited juggle state; extends a hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 1,
+      "onPerfectParry": -23,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.506,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 9,
+        "onHit": 14
+      },
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "lily__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Punish Counter crumple state is +5 before opponent becomes airborne and +28 to land a juggle follow-up; Punish Counter puts airborne opponents into limited juggle state (requires very precise timing); extends a large hurtbox 1f before active that is vulnerable to projectiles; no head hurtbox on frames 9-34; special/DR cancel is delayed until after 2nd active frame; Lily's best link after Punish Counter 5LP due to its range and damage",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 0,
+      "onPerfectParry": -23,
+      "onPunishCounter": 84,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.82,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "lily__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/5LK/2LP/2LK; true blockstring when chained from 2LK; Lily's fastest button but incredibly short range",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -13,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.436",
+        "onHit": "0.425"
+      },
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.23,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 350,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "lily__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/5LK/2LP/2LK; more damage than other light attacks; DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 6,
+      "onPerfectParry": -9,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 15
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.293,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 10
+      },
+      "hitstop": 11,
+      "hitstun": 20,
+      "id": "lily__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Combo tool (primarily for counter-hit links); decent neutral buffer that can go over low pokes and has low whiff recovery",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 2,
+      "onPerfectParry": -16,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 24
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.72,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "lily__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong poke with great range and hitbox priority; no head hurtbox on frames 8-25",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": -19,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 1,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": 19,
+      "id": "lily__5pppkkk(holdok)",
+      "input": {
+        "numpad": "5PPPKKK (HOLD OK)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Okay, smile! Good stuff.\"; Camera flash is a 1-hit low priority projectile; can hold any button to indefinitely delay the camera flash (17f startup after release)",
+        "ja": null
+      },
+      "onBlock": -206,
+      "onHit": -201,
+      "onPerfectParry": -209,
+      "onPunishCounter": -197,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 217,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 147,
+      "superGauge": null,
+      "totalFrames": 366
+    },
+    {
+      "active": "13",
+      "afterDriveRush": null,
+      "airborne": "11-49 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.93,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "lily__623hp",
+      "input": {
+        "numpad": "623HP",
+        "official": null
+      },
+      "invuln": "1-14 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tomahawk Buster",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -35,
+      "onHit": 36,
+      "onPerfectParry": -50,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "4,12",
+      "afterDriveRush": null,
+      "airborne": "11-49 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.856,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,1000",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "lily__w623hp",
+      "input": {
+        "numpad": "W.623HP",
+        "official": null
+      },
+      "invuln": "1-14 Air",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "12,13",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Tomahawk Buster (Windclad)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Consumes 1 Windclad Stock (2f faster, 200 more damage, better juggles and KD Adv.); puts opponents into limited juggle state; if 2nd hit connects vs. standing grounded opponent, they are launched higher and fall more slowly (KD +46~49 and follow-ups only possible in the corner); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -33,
+      "onHit": 41,
+      "onPerfectParry": -45,
+      "onPunishCounter": 41,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "11",
+      "afterDriveRush": null,
+      "airborne": "7-37 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.05,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "lily__623lp",
+      "input": {
+        "numpad": "623LP",
+        "official": null
+      },
+      "invuln": "1-10 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tomahawk Buster",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -27,
+      "onHit": 36,
+      "onPerfectParry": -42,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "4,9",
+      "afterDriveRush": null,
+      "airborne": "7-37 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,600",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "lily__w623lp",
+      "input": {
+        "numpad": "W.623LP",
+        "official": null
+      },
+      "invuln": "1-10 Air",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "12,13",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Tomahawk Buster (Windclad)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Consumes 1 Windclad Stock (2f faster, 100 more damage, better juggles and KD Adv.); puts opponents into limited juggle state; 4f startup means this move cannot be safe jumped unless jump-in is spaced out to make it whiff; if 2nd hit connects vs. standing grounded opponent, they are launched close enough to follow up midscreen with SA1, SA2, 2HK, or 2HP (and more in the corner); KD Adv. of 2nd hit is +49~53 depending on distance; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -25,
+      "onHit": 41,
+      "onPerfectParry": -37,
+      "onPunishCounter": 41,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "12",
+      "afterDriveRush": null,
+      "airborne": "9-44 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.93,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "lily__623mp",
+      "input": {
+        "numpad": "623MP",
+        "official": null
+      },
+      "invuln": "1-12 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tomahawk Buster",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -32,
+      "onHit": 36,
+      "onPerfectParry": -47,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 56
+    },
+    {
+      "active": "4,10",
+      "afterDriveRush": null,
+      "airborne": "9-44 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,800",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "lily__w623mp",
+      "input": {
+        "numpad": "W.623MP",
+        "official": null
+      },
+      "invuln": "1-12 Air",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "12,13",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Tomahawk Buster (Windclad)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Consumes 1 Windclad Stock (2f faster, 200 more damage, better juggles and KD Adv.); puts opponents into limited juggle state; if 2nd hit connects vs. standing grounded opponent, they are launched higher and fall more slowly (KD +47~50 and follow-ups only possible in the corner); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -30,
+      "onHit": 41,
+      "onPerfectParry": -42,
+      "onPunishCounter": 41,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 56
+    },
+    {
+      "active": "3,9",
+      "afterDriveRush": null,
+      "airborne": "7-45 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.93,
+      "blockstun": 20,
+      "cancel": [
+        "j.ppp"
+      ],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800,600",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "lily__623pp",
+      "input": {
+        "numpad": "623PP",
+        "official": null
+      },
+      "invuln": "1-10 Throw, 1-10 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "5,6",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tomahawk Buster",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit (cancelable into OD Condor Dive for extra damage at the cost of 2 Drive bars); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -35,
+      "onHit": 32,
+      "onPerfectParry": -53,
+      "onPunishCounter": 32,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "2,2,10",
+      "afterDriveRush": null,
+      "airborne": "7-45 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": 22,
+      "cancel": [
+        "j.ppp"
+      ],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,600x2",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "lily__w623pp",
+      "input": {
+        "numpad": "W.623PP",
+        "official": null
+      },
+      "invuln": "1-10 Throw, 1-10 Air",
+      "juggle": {
+        "increase": "1,1,1",
+        "limit": "12,15,16",
+        "start": "1,1,1"
+      },
+      "name": {
+        "en": "Tomahawk Buster (Windclad)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Consumes 1 Windclad Stock (2f faster, 200 more damage, better juggles and KD Adv.); puts opponents into limited juggle state; 4f startup means this move cannot be safe jumped unless jump-in is spaced out to make it whiff; cancelable into OD Condor Dive on hit (if 623PP hits grounded opponents, the final cancel frame into j.PPP will not connect); has extra range on the 2nd active frame vs. grounded opponents only for combo consistency; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -35,
+      "onHit": 33,
+      "onPerfectParry": -48,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.061,
+      "blockstun": 22,
+      "cancel": [
+        "target_combo",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": {
+        "onBlock": 12,
+        "onHit": 18
+      },
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "lily__6hp",
+      "input": {
+        "numpad": "6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Desert Storm 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand; cancelable to Desert Storm target combo (can frame trap opponents if not in Burnout); good range and incredible hitbox priority for a cancelable normal, but slow startup; not a useful anti-air despite the animation; puts airborne opponents into limited juggle state (can juggle full TC sequence)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 2,
+      "onPerfectParry": -24,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.85,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "lily",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "lily__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Cross Hammer (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.85,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "lily",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "lily__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Cross Hammer (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 29,
+      "id": "lily__6hphp",
+      "input": {
+        "numpad": "6HP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Desert Storm 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f gap on block between 1st/2nd hits of TC (can frame trap opponents if not in Burnout); puts airborne opponents into limited juggle state (can juggle full TC sequence)",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 0,
+      "onPerfectParry": -27,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": "800(640)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "lily__6hphphp",
+      "input": {
+        "numpad": "6HP~HP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Desert Storm 3",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage when starting a combo with 6HP~HP; 1f gap on block between 2nd and 3rd hits of TC (can frame trap opponents if not in Burnout); full TC sequence can juggle vs. airborne opponents",
+        "ja": null
+      },
+      "onBlock": -23,
+      "onHit": 26,
+      "onPerfectParry": -40,
+      "onPunishCounter": 26,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 39,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Hey! Is there anyone that wants to duke it out with me? Oh wait, you're here.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 338,
+      "superGauge": null,
+      "totalFrames": 338
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.389,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "lily",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "lily__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Earth's Rage",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "4,3x6(9)2",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.35,
+      "blockstun": 36,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "lily",
+      "chipDamage": 552,
+      "damage": 2600,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 800,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 0,
+      "hitstun": null,
+      "id": "lily__j236236k",
+      "input": {
+        "numpad": "j.236236K",
+        "official": null
+      },
+      "invuln": "1-12 Full, 13-41 Projectile",
+      "juggle": {
+        "increase": "1xN",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Soaring Thunderbird",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f startup if canceled from OD Condor Spire (this version's Full Invuln lasts 1-41f); total recovery time before landing depends on activation height; hits on both sides of Lily; if input after a cross-up jump, Lily turns to face the opponent (can be used to escape anti-air punish after jumping out of corner); Dmg distribution: 100x7,1900",
+        "ja": null
+      },
+      "onBlock": -54,
+      "onHit": 36,
+      "onPerfectParry": -67,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2x11,3(6)2",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.61,
+      "blockstun": 39,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "lily",
+      "chipDamage": 225,
+      "damage": 2900,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 0,
+      "hitstun": null,
+      "id": "lily__j236236k",
+      "input": {
+        "numpad": "j.236236K",
+        "official": null
+      },
+      "invuln": "1-12 Full, 13-41 Projectile",
+      "juggle": {
+        "increase": "1xN",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Soaring Thunderbird (Windclad)",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f startup if canceled from OD Condor Spire (this version's Full Invuln lasts 1-41f); consumes 1 Windclad stock (+300 damage, +4 KD Adv, better horizontal range in both directions); total recovery time before landing depends on activation height; hits on both sides of Lily; if input after a cross-up jump, Lily turns to face the opponent (can be used to escape anti-air punish after jumping out of corner); Dmg distribution: 100x12,1700",
+        "ja": null
+      },
+      "onBlock": -51,
+      "onHit": 39,
+      "onPerfectParry": -67,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "11",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "lily__j2hp",
+      "input": {
+        "numpad": "j.2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Great Spin",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; can be used from any jump direction; extended backwards hurtbox is projectile invuln 9-19f",
+        "ja": null
+      },
+      "onBlock": 7,
+      "onHit": 11,
+      "onPerfectParry": -6,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.12,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "lily__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Lower body projectile invuln 11-26f (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -8,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.77,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "lily__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes spike knockdown vs. airborne opponents; good downward hitbox priority for close range jump-ins; lower body projectile invuln 10-15f (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 6,
+      "onPerfectParry": -11,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.37,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "lily__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 4,
+      "onPerfectParry": -8,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.22,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "lily__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Decent horizontal air-to-air",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 6,
+      "onPerfectParry": -5,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.09,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "lily__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; lower body projectile invuln 8-22f and 8-12f around the kicking foot (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 7,
+      "onPerfectParry": -8,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.28,
+      "blockstun": 11,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "lily__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state; decent hitbox priority for horizontal jump-in approaches (longest horizontal range of all Lily's air normals) cancel window into Condor Dive and Air SA2 is longer, enabling some juggles that would whiff if canceled early; lower body projectile invuln 9-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -8,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "lily__jmpmp",
+      "input": {
+        "numpad": "j.MP~MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": null
+      },
+      "name": {
+        "en": "Double Arrow",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "11(17)",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "lily__jpp",
+      "input": {
+        "numpad": "j.PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10",
+        "limit": "50",
+        "start": "10"
+      },
+      "name": {
+        "en": "Condor Dive",
+        "ja": null
+      },
+      "notes": {
+        "en": "Usable during neutral/forward jump; final active frame has an expanded downward hitbox; can hit cross-up",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 32,
+      "onPerfectParry": -40,
+      "onPunishCounter": 32,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10(14)",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "lily__jppp",
+      "input": {
+        "numpad": "j.PPP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10",
+        "limit": "50",
+        "start": "10"
+      },
+      "name": {
+        "en": "Condor Dive",
+        "ja": null
+      },
+      "notes": {
+        "en": "Usable during neutral/forward jump, or canceled from 623PP on hit; final active frame has an expanded downward hitbox; can hit cross-up",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 40,
+      "onPerfectParry": -40,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10(14)",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 19,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200,1400",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "lily__wjppp",
+      "input": {
+        "numpad": "W.j.PPP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10,10",
+        "limit": "50,50",
+        "start": "10"
+      },
+      "name": {
+        "en": "Condor Dive (Windclad)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Consumes 1 Windclad Stock; usable during neutral/forward jump, or canceled from 623PP on hit; final active frame has an expanded downward hitbox; can hit cross-up; bounces farther away on block than regular version, making it harder for some characters to punish; cancelable into a follow-up Dive at the cost of 1 Windclad stock (and 1 Drive bar for OD version); hitconfirm time refers to follow-up Dive cancel window at the lowest/highest connect (actual timing to combo into follow-up is variable)",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 41,
+      "onPerfectParry": -41,
+      "onPunishCounter": 41,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "11(17)",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 19,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200,800",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "lily__wjpp",
+      "input": {
+        "numpad": "W.j.PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10,10",
+        "limit": "50,50",
+        "start": "10"
+      },
+      "name": {
+        "en": "Condor Dive (Windclad)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Consumes 1 Windclad Stock; usable during neutral/forward jump; final active frame has an expanded downward hitbox; can hit cross-up; bounces farther away on block than regular version, making it harder for some characters to punish; cancelable into a follow-up Dive at the cost of 1 Windclad stock (and 1 Drive bar for OD version); hitconfirm time refers to follow-up Dive cancel window at the lowest/highest connect (actual timing to combo into follow-up is variable)",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 34,
+      "onPerfectParry": -41,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5(12)",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200,1000",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2500,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "lily__wjppppp",
+      "input": {
+        "numpad": "W.j.PP~PPP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10,10",
+        "limit": "50,50",
+        "start": "10"
+      },
+      "name": {
+        "en": "Dive Follow-up",
+        "ja": null
+      },
+      "notes": {
+        "en": "Consumes 1 additional Windclad Stock and 1 Drive bar; can be canceled from Windclad j.PP or j.PPP; final active frame has an expanded downward hitbox; Hard Knockdown on hit that allows Lily to dash twice for oki anywhere on the screen; can be used to extend combos or stop opponents from moving forward to punish the initial Condor Dive",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 44,
+      "onPerfectParry": -40,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5(14)",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200,600",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "lily__wjpppp",
+      "input": {
+        "numpad": "W.j.PP~PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10,10",
+        "limit": "50,99",
+        "start": "10"
+      },
+      "name": {
+        "en": "Dive Follow-up",
+        "ja": null
+      },
+      "notes": {
+        "en": "Consumes 1 additional Windclad Stock; can be canceled from Windclad j.PP or j.PPP; final active frame has an expanded downward hitbox; min/max active frame count refers grounded opponents only (can bounce higher vs. point blank airborne opponent; can be used to extend combos or stop opponents from moving forward to punish the initial Condor Dive",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 27,
+      "onPerfectParry": -41,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Canyon Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can Drive Rush for a corner strike/throw mixup; has a true walking throw loop vs. Blanka/E.Honda/Zangief that requires frame perfect timing; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 20,
+      "onPerfectParry": null,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.434 (min/throw), 1.900 (min/block), 3.044 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "Lily",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

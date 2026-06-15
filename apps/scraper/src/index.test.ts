@@ -5,8 +5,10 @@ import {
   mapMoveType,
   parseAdvantage,
   parseCancel,
+  parseDamage,
   parseFrameValue,
   parseGuard,
+  parseNumber,
   stripMarkup,
 } from './index'
 
@@ -236,5 +238,33 @@ describe('getCharacterSlug', () => {
 
   it('defaults to lowercase+underscore for unknown', () => {
     expect(getCharacterSlug('Test Name')).toBe('test_name')
+  })
+})
+
+describe('parseNumber', () => {
+  it('parses plain, bracketed, parenthetical and decimal values', () => {
+    expect(parseNumber('2000')).toBe(2000)
+    expect(parseNumber('[8000]')).toBe(8000) // driveDmg はブラケット付き
+    expect(parseNumber('1000 (700)')).toBe(1000) // 副次値は括弧内
+    expect(parseNumber('1.545')).toBe(1.545) // atkRange は小数
+    expect(parseNumber('500x2')).toBe(500) // 多段は先頭値
+  })
+
+  it('returns null for unset templates and dashes', () => {
+    expect(parseNumber('{{{driveGain}}}')).toBeNull()
+    expect(parseNumber('-')).toBeNull()
+    expect(parseNumber('')).toBeNull()
+  })
+})
+
+describe('parseDamage', () => {
+  it('keeps raw text only for compound expressions', () => {
+    expect(parseDamage('800')).toEqual({ text: null, value: 800 })
+    expect(parseDamage('500x2')).toEqual({ text: '500x2', value: 500 })
+    expect(parseDamage('1400(800)')).toEqual({ text: '1400(800)', value: 1400 })
+  })
+
+  it('returns null for unset templates', () => {
+    expect(parseDamage('{{{damage}}}')).toEqual({ text: null, value: null })
   })
 })

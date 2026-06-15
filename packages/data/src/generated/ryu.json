@@ -1,0 +1,5104 @@
+{
+  "aliases": [],
+  "id": "ryu",
+  "moves": [
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ryu",
+      "chipDamage": 750,
+      "damage": 2800,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 18,
+      "hitstun": null,
+      "id": "ryu__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": "1-13 Full",
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shin Hashogeki Lv.1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hold the button to charge to a higher level for more damage (in exchange for less invincibility); if button is held up to 5f after Super freeze, this invuln is extended up to the 2nd active frame (up to 18f); strike hitbox; Burnout chip damage does not changed based on charge level",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 20,
+      "onPerfectParry": -43,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 39,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 56
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ryu",
+      "chipDamage": 750,
+      "damage": 3200,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 18,
+      "hitstun": null,
+      "id": "ryu__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": "1-13 Full",
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Denjin Hashogeki Lv.1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hold the button to charge to a higher level for more damage (in exchange for less invincibility); if button is held up to 5f after Super freeze, this invuln is extended up to the 2nd active frame (up to 18f); strike hitbox; Burnout chip damage does not changed based on charge level; consumes Denjin stock for slightly more damage",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 20,
+      "onPerfectParry": -43,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 39,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 56
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ryu",
+      "chipDamage": 750,
+      "damage": 3300,
+      "damageText": null,
+      "dmgScaling": "40% Minimum; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "ryu__214214p(holdlv2)",
+      "input": {
+        "numpad": "214214P (Hold Lv.2)",
+        "official": null
+      },
+      "invuln": "1-9 Full",
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Denjin Hashogeki Lv.2",
+        "ja": null
+      },
+      "notes": {
+        "en": "Loses 4 invincibility frames if held; invincibility can be reduced to 1-7f if the button is held the minimum length of time for Lv.2 charge (6f after Super freeze); strike hitbox; Burnout chip damage does not changed based on charge level; consumes Denjin stock for slightly more damage; Denjin version gives the tumbling OTG state that can lead to follow-up juggles (this is the only version that incurs damage scaling in combos)",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 78,
+      "onPerfectParry": -43,
+      "onPunishCounter": 78,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 39,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ryu",
+      "chipDamage": 750,
+      "damage": 3400,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 23,
+      "hitstun": null,
+      "id": "ryu__214214p(holdlv3)",
+      "input": {
+        "numpad": "214214P (Hold Lv.3)",
+        "official": null
+      },
+      "invuln": "1-9 Full",
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Denjin Hashogeki Lv.3",
+        "ja": null
+      },
+      "notes": {
+        "en": "Loses 4 invincibility frames if held; full charge causes tumble OTG state; strike hitbox; Burnout chip damage does not changed based on charge level; extremely high pushback on block (can be difficult to punish without holding Parry into immediate Drive Rush); consumes Denjin stock for slightly more damage",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 78,
+      "onPerfectParry": -43,
+      "onPunishCounter": 78,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 39,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 50,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 94
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ryu",
+      "chipDamage": 750,
+      "damage": 2900,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "ryu__214214p(holdlv2)",
+      "input": {
+        "numpad": "214214P (Hold Lv.2)",
+        "official": null
+      },
+      "invuln": "1-9 Full",
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shin Hashogeki Lv.2",
+        "ja": null
+      },
+      "notes": {
+        "en": "Loses 4 invincibility frames if held; invincibility can be reduced to 1-7f if the button is held the minimum length of time for Lv.2 charge (6f after Super freeze); strike hitbox; Burnout chip damage does not changed based on charge level",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 20,
+      "onPerfectParry": -43,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 39,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ryu",
+      "chipDamage": 750,
+      "damage": 3000,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 23,
+      "hitstun": null,
+      "id": "ryu__214214p(holdlv3)",
+      "input": {
+        "numpad": "214214P (Hold Lv.3)",
+        "official": null
+      },
+      "invuln": "1-9 Full",
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shin Hashogeki Lv.3",
+        "ja": null
+      },
+      "notes": {
+        "en": "Loses 4 invincibility frames if held; full charge causes tumble OTG state; strike hitbox; Burnout chip damage does not changed based on charge level; extremely high pushback on block (can be difficult to punish without holding Parry into immediate Drive Rush)",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 78,
+      "onPerfectParry": -43,
+      "onPunishCounter": 78,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 39,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 50,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 94
+    },
+    {
+      "active": "2(13)2(13)2",
+      "afterDriveRush": null,
+      "airborne": "10-61 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.935,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 4000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ryu__214hk",
+      "input": {
+        "numpad": "214HK",
+        "official": null
+      },
+      "invuln": "10-61 Lower Body Projectile",
+      "juggle": {
+        "increase": "4,4,4",
+        "limit": "3,3,3",
+        "start": "4,4,4"
+      },
+      "name": {
+        "en": "Tatsumaki Senpu-kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Only 1st hit can connect on crouching (stand blocking any hit forces next hit to be blocked, even if crouching); later hits have better KD Advantage; puts opponent into limited juggle state (can juggle afterward if 3rd hit connects)",
+        "ja": null
+      },
+      "onBlock": -13,
+      "onHit": 20,
+      "onPerfectParry": -31,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 700,
+        "onHit": 1400
+      },
+      "totalFrames": 78
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ryu__214hp",
+      "input": {
+        "numpad": "214HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,1",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Hashogeki",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits, even if it connects on final active frame; strike hitbox but can nullify 1-hit meterless projectiles; puts opponent into spinning juggle state on hit; leaves Ryu inside throw range for a strike/throw mixup on block",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 61,
+      "onPerfectParry": -23,
+      "onPunishCounter": 61,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 30,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 54
+    },
+    {
+      "active": "2(4)2(4)2(3)2(4)2",
+      "afterDriveRush": null,
+      "airborne": "5-47 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.74,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200x5",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 800,
+        "dealtOnHit": 1000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "ryu__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1x4,2",
+        "limit": "1,3,5,7,9",
+        "start": "2 ground / 1x5 air"
+      },
+      "name": {
+        "en": "Tatsumaki Senpu-kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hit crouching opponents; puts opponent into limited juggle state; on hit, 1st hit has vacuum effect; on max range block, some hits can drop (-32 at worse)",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 57,
+      "onPerfectParry": -23,
+      "onPunishCounter": 57,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 80,
+        "onHit": 160
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "5-28 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.96,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ryu__214lk",
+      "input": {
+        "numpad": "214LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "4",
+        "limit": "3",
+        "start": "4"
+      },
+      "name": {
+        "en": "Tatsumaki Senpu-kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hit crouching opponents",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 35,
+      "onPerfectParry": -33,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": 26,
+      "id": "ryu__214lp",
+      "input": {
+        "numpad": "214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Hashogeki",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox but can nullify 1-hit meterless projectiles; puts opponent into spinning juggle state on counter-hit/Punish Counter; excellent Burnout pressure tool (+1 on block, but increased pushback against Burnout)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -22,
+      "onPunishCounter": 59,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "2(13)2",
+      "afterDriveRush": null,
+      "airborne": "8-41 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.98,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 3500
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ryu__214mk",
+      "input": {
+        "numpad": "214MK",
+        "official": null
+      },
+      "invuln": "10-41 Lower Body Projectile",
+      "juggle": {
+        "increase": "4,4",
+        "limit": "3,3",
+        "start": "4,4"
+      },
+      "name": {
+        "en": "Tatsumaki Senpu-kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Only 1st hit can connect on crouching (stand blocking 1st hit forces 2nd hit to be blocked, even if crouching); later hits have better KD Advantage",
+        "ja": null
+      },
+      "onBlock": -13,
+      "onHit": 23,
+      "onPerfectParry": -31,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 650,
+        "onHit": 1300
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": 25,
+      "id": "ryu__214mp",
+      "input": {
+        "numpad": "214MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Hashogeki",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox but can nullify 1-hit meterless projectiles; puts opponent into spinning juggle state on counter-hit/Punish Counter",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 2,
+      "onPerfectParry": -21,
+      "onPunishCounter": 58,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 41,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ryu__214hp",
+      "input": {
+        "numpad": "214HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "3,4",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Denjin Charge Hashogeki",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to recovery on block; strike hitbox but can nullify 2-hit meterless projectile; puts opponent into spinning juggle state on hit; only comes out when the Heavy Punch button is pressed",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 62,
+      "onPerfectParry": -36,
+      "onPunishCounter": 62,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 29,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": 29,
+      "id": "ryu__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Hashogeki",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox but can nullify 1-hit OD projectiles or any meterless projectiles; great pressure tool",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 3,
+      "onPerfectParry": -24,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 450,
+        "onHit": 900
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 29,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ryu__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "-1 ground / 1 air"
+      },
+      "name": {
+        "en": "Denjin Charge Hashogeki",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit; strike hitbox but can nullify 1-hit OD projectile or any meterless projectile; crumple state is +14 before opponent becomes airborne",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 87,
+      "onPerfectParry": -23,
+      "onPunishCounter": 91,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 550,
+        "onHit": 1100
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ryu__22p",
+      "input": {
+        "numpad": "22P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Denjin Charge",
+        "ja": null
+      },
+      "notes": {
+        "en": "Charges up next fireball-based move (Hadoken, Hashogeki, SA1, SA2) into a more powerful Denjin version; Ryu is in a counter-hit state for the entire animation; gains the Denjin charge on frame 50; can only store 1 stock at a time (does not persist between rounds); can also be performed after 5HP~HK or 5MP~LK~HK (on hit) by inputting 2P",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 50,
+      "superGauge": null,
+      "totalFrames": 52
+    },
+    {
+      "active": "12",
+      "afterDriveRush": null,
+      "airborne": "7-48 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.1,
+      "blockstun": 31,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ryu",
+      "chipDamage": 400,
+      "damage": 4000,
+      "damageText": "4000 (3600)",
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "ryu__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-16 Full",
+      "juggle": {
+        "increase": "[1x5]",
+        "limit": "99 [99x5]",
+        "start": "[1]"
+      },
+      "name": {
+        "en": "Shin Shoryuken",
+        "ja": null
+      },
+      "notes": {
+        "en": "More hits connect on block vs. tall standing characters (these extra hits do not deal any additional Drive Damage on block); active frames 3-12 cause a non-cinematic hit that does reduced damage (400x4,2000); cannot anti-air cross-ups; starts up faster only when canceled from HP Shoryuken; cinematic time regenerates ~2.2 Drive bars for Ryu",
+        "ja": null
+      },
+      "onBlock": -50,
+      "onHit": 14,
+      "onPerfectParry": -74,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 87
+    },
+    {
+      "active": "12",
+      "afterDriveRush": null,
+      "airborne": "7-48 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.1,
+      "blockstun": 31,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ryu",
+      "chipDamage": 650,
+      "damage": 4500,
+      "damageText": "4500 (4400)",
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "ryu__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-16 Full",
+      "juggle": {
+        "increase": "[1x5]",
+        "limit": "99 [99x5]",
+        "start": "[1]"
+      },
+      "name": {
+        "en": "Shin Shoryuken (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "More hits connect on block vs. tall standing characters (these extra hits do not deal any additional Drive Damage on block); active frames 3-12 cause a non-cinematic hit that does slightly reduced damage (400x2,1200x3); cannot anti-air cross-ups; starts up faster only when canceled from HP Shoryuken; available at 25% HP or below; cinematic time regenerates ~2.3 Drive bars for Ryu",
+        "ja": null
+      },
+      "onBlock": -50,
+      "onHit": 14,
+      "onPerfectParry": -74,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 87
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 56,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ryu",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x5 (2000)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 1000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "ryu__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-8 Strike/Throw",
+      "juggle": {
+        "increase": "1x4,100",
+        "limit": "99x5",
+        "start": "1x4,100"
+      },
+      "name": {
+        "en": "Shinku Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "5-hit Super projectile; button strength does not affect projectile speed; opponent cannot jump over projectile after Super freeze if within ~1/2 screen; can be preformed even when an OD Hadoken is on screen",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 26,
+      "onPerfectParry": -25,
+      "onPunishCounter": 26,
+      "projectileSpeed": 0.15,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 79,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 86
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 59,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ryu",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200x7,1000 (2400)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 300,
+        "dealtOnHit": 600,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "ryu__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-8 Strike/Throw",
+      "juggle": {
+        "increase": "1x7,100",
+        "limit": "99x8",
+        "start": "1x7,100"
+      },
+      "name": {
+        "en": "Denjin Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "8-hit Super projectile; button strength does not affect projectile speed; opponent cannot jump over projectile after Super freeze if within ~1/2 screen; consumes Denjin stock for slightly more damage and KD Advantage; can be performed even when an OD Hadoken is on screen",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 27,
+      "onPerfectParry": 5,
+      "onPunishCounter": 27,
+      "projectileSpeed": 0.24,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 82,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 89
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.612,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 325,
+      "damage": 1300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "ryu__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "High Blade Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit (can follow up with 623MP, 623PP, or SA3 in corner); Punish Counter tumble state can be hit OTG; has great range and forward movement, making it a useful poke in neutral; the last 3 active frames have identical range (the listed best-case frame advantage is when spaced at max range, active frame 7)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 45,
+      "onPerfectParry": -22,
+      "onPunishCounter": 96,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 27,
+      "superGauge": {
+        "onBlock": 700,
+        "onHit": 1400
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 34,
+      "id": "ryu__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": -2,
+      "onPerfectParry": -25,
+      "onPunishCounter": 2,
+      "projectileSpeed": 0.085,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.062,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "Combo (5% extra)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "ryu__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "High Blade Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Wall Bounce into limited juggle state on hit; if close to corner, opponent flies over Ryu's head",
+        "ja": null
+      },
+      "onBlock": -18,
+      "onHit": null,
+      "onPerfectParry": -36,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 54
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.962,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 5000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ryu__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "High Blade Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit; sets up auto-timed safe jump against cornered opponents; can combo when canceled from any normal except 5LP; the last 2 active frames have identical range (the listed best-case frame advantage is when spaced at max range, active frame 5)",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 42,
+      "onPerfectParry": -26,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 700,
+        "onHit": 1400
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 34,
+      "id": "ryu__236lp",
+      "input": {
+        "numpad": "236LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 2,
+      "onPerfectParry": -21,
+      "onPunishCounter": 6,
+      "projectileSpeed": 0.055,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.162,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 7000,
+        "gain": 3500
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ryu__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "High Blade Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit; can be spaced safely due to its range and high active frame count; 3 extra recovery frames on whiff; the last 3 active frames have identical range (the listed best-case frame advantage is when spaced at max range, active frame 7)",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 40,
+      "onPerfectParry": -26,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 700,
+        "onHit": 1400
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 34,
+      "id": "ryu__236mp",
+      "input": {
+        "numpad": "236MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": 0,
+      "onPerfectParry": -23,
+      "onPunishCounter": 4,
+      "projectileSpeed": 0.07,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 28,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500x2",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 1500,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": null,
+      "id": "ryu__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,2",
+        "limit": "1,6",
+        "start": "1"
+      },
+      "name": {
+        "en": "Denjin Charge Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit projectile; puts opponent into limited juggle state on hit; only comes out when the HP button is pressed",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 54,
+      "onPerfectParry": -7,
+      "onPunishCounter": 54,
+      "projectileSpeed": 0.12,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 28,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500x2",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": null,
+      "id": "ryu__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,2",
+        "limit": "1,6",
+        "start": "1"
+      },
+      "name": {
+        "en": "Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit OD projectile; puts opponent into limited juggle state on hit",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 54,
+      "onPerfectParry": -7,
+      "onPunishCounter": 54,
+      "projectileSpeed": 0.112,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 29,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x3 (1200)",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 1000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "ryu__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1,1",
+        "limit": "3,3,6",
+        "start": "1"
+      },
+      "name": {
+        "en": "Denjin Charge Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "3-hit OD projectile; puts opponent into limited juggle state on hit",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 57,
+      "onPerfectParry": 6,
+      "onPunishCounter": 57,
+      "projectileSpeed": 0.145,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -8,
+        "onHit": 40
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.793,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ryu__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Low Spinning Sweep",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good range and hitbox priority; has some juggle potential; on block, always plays out a fixed 29f recovery (cannot be made safer with meaty timing)",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 40,
+      "onPerfectParry": -28,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "6",
+      "afterDriveRush": {
+        "onBlock": -3,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.137,
+      "blockstun": 19,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": {
+        "onBlock": 9,
+        "onHit": 17
+      },
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "ryu__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand on hit; decent anti-air; cannot hit cross-ups; fist hurtbox is invincible to air strikes on frame 9; head hurtbox is invincible to air strikes on frames 10-14; only 1st active frame is cancelable (extends a combo-only hitbox to match the range of the 2nd active frame for combo consistency); () refers to hit/block recovery on 1st active frame only; 5f less hitstun on active frames 2-5 (can be punishable on meaty timing)",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": 1,
+      "onPerfectParry": -24,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.05,
+      "blockstun": 11,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "ryu__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 3,
+      "onPerfectParry": -10,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 16
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.94,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "ryu__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; topmost hurtbox on frames 1-5 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -9,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.330",
+        "onHit": "0.277"
+      },
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.482,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 11
+      },
+      "hitstop": 9,
+      "hitstun": 23,
+      "id": "ryu__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Range: 1.482; DR cancel is delayed until after active frames",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 1,
+      "onPerfectParry": -20,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 4,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.14,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "ryu__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on whiff; combo and pressure tool; topmost hurtbox on frames 1-9 is vulnerable only to aerial strikes (preventing its use as an anti-air); extends a wider hurtbox until the end of recovery",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 5,
+      "onPerfectParry": -15,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 22
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ryu__2pppkkk",
+      "input": {
+        "numpad": "2PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Down Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Come!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 154,
+      "superGauge": null,
+      "totalFrames": 154
+    },
+    {
+      "active": "5(5)3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.564,
+      "blockstun": 14,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 10
+      },
+      "hitstop": 10,
+      "hitstun": 20,
+      "id": "ryu__4hk",
+      "input": {
+        "numpad": "4HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,4",
+        "limit": "0,3",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Axe Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to 2nd hit startup; 1st hit forces stand and puts airborne opponents into a limited juggle state; 2nd hit puts airborne opponents into OTG bounce state; both hits are cancelable; Counter-hit and Punish Counter frame advantage applies to both hits",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 0,
+      "onPerfectParry": -22,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": -9,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.88,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 6,
+        "onHit": 20
+      },
+      "hitstop": 13,
+      "hitstun": 30,
+      "id": "ryu__4hp",
+      "input": {
+        "numpad": "4HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Short Uppercut",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand on hit; only 1st active frame is cancelable; () refers to hit/block recovery on 1st active frame only; extremely short range makes it finicky in combos; 8f less hitstun on active frames 2-4 (can be punishable with meaty timing)",
+        "ja": null
+      },
+      "onBlock": -13,
+      "onHit": 1,
+      "onPerfectParry": -27,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ryu__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Somersault Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switches; no throw/strike oki after back throwing opponent into corner; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 11,
+      "onPerfectParry": null,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ryu__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Your footwork's sloppy.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 209,
+      "superGauge": null,
+      "totalFrames": 209
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 13
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.572,
+      "blockstun": 24,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 33,
+      "id": "ryu__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1[-1 PC Ground]"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Whiffs on crouching opponents unless they extend a vertical hurtbox; 2 extra recovery frames on block; good horizontal anti-air that puts airborne opponents into limited juggle state (higher launch on Punish Counter juggle); +11 before Punish Counter crumple state goes airborne; extends a hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 9,
+      "onPerfectParry": -21,
+      "onPunishCounter": 84,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.545,
+      "blockstun": 21,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 11,
+        "onHit": 17
+      },
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "ryu__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand on hit (allowing Target Combo follow-up to work on crouching opponents); good poke with hitbox priority, many active frames, and a reactable hitconfirm window",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -21,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 32
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 7000,
+        "dealtOnHit": 10000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ryu__5hphk",
+      "input": {
+        "numpad": "5HP~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "High Double Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "HK cannot hit vs. crouch block (much more unsafe); cancels to Denjin Charge by inputting 2P on hit only (KD Adv. +10); can juggle into MP/OD Shoryuken or SA3 in the corner",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 39,
+      "onPerfectParry": null,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 32
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.3,
+      "blockstun": 10,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "ryu__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good range for a 5f light (useful in punishes and neutral buffers); DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 2,
+      "onPerfectParry": -12,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.01,
+      "blockstun": 9,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "ryu__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -8,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.378",
+        "onHit": "0.289"
+      },
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 13
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.568,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "ryu__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Solid poke; front leg hurtbox is raised on frames 4-11 (can avoid low pokes)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 4,
+      "onPerfectParry": -19,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 11
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.01,
+      "blockstun": 14,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "ryu__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on whiff; useful combo tool with a Target Combo follow-up; extends a wider body hurtbox until the end of recovery",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 7,
+      "onPerfectParry": -13,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 20
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 20,
+      "id": "ryu__5mplk",
+      "input": {
+        "numpad": "5MP~LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Fuwa Triple Strike 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hits consistently at max 5MP range, but the LK can whiff if 5MP connects on an extended hurtbox; can be spaced safely against most characters for a spacing trap",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": null,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 23
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": "900(720)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 10000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ryu__5mplkhk",
+      "input": {
+        "numpad": "5MP~LK~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": null,
+        "start": "1"
+      },
+      "name": {
+        "en": "Fuwa Triple Strike 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "(refers to scaled damage); 6f gap before HK on block; cancels to Denjin Charge by inputting 2P on hit only (KD Adv. +7)",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 36,
+      "onPerfectParry": -22,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ryu__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Come on!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 210,
+      "superGauge": null,
+      "totalFrames": 210
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": "9-50 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.186,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": "1400(800)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "ryu__623hp",
+      "input": {
+        "numpad": "623HP",
+        "official": null
+      },
+      "invuln": "1-8 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "5(7)",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shoryuken",
+        "ja": null
+      },
+      "notes": {
+        "en": "Has juggle potential; cannot hit cross-up; does reduced damage and higher juggle limit on active frames 3-10 (weaker as a high-connect anti-air); higher knockdown advantage on the first 2 active frames (+37 refers to 1st active frame, +29 refers to anti-air with 3rd active frame; actual advantage varies based on height/distance)",
+        "ja": null
+      },
+      "onBlock": -39,
+      "onHit": 37,
+      "onPerfectParry": -57,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 34,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": "7-35 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.906,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": "1100(800)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ryu__623lp",
+      "input": {
+        "numpad": "623LP",
+        "official": null
+      },
+      "invuln": "1-14 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "5(7)",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shoryuken",
+        "ja": null
+      },
+      "notes": {
+        "en": "Has juggle potential; puts opponent into limited juggle state (can juggle after a high corner anti-air); cannot hit cross-up; does reduced damage and higher juggle limit on active frames 4-10 (weaker as a high-connect anti-air)",
+        "ja": null
+      },
+      "onBlock": -23,
+      "onHit": 38,
+      "onPerfectParry": -41,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": "8-45 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.966,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": "1200(800)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ryu__623mp",
+      "input": {
+        "numpad": "623MP",
+        "official": null
+      },
+      "invuln": "1-9 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "5(7)",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shoryuken",
+        "ja": null
+      },
+      "notes": {
+        "en": "Has juggle potential; cannot hit cross-up; does reduced damage and higher juggle limit on active frames 4-10 (weaker as a high-connect anti-air)",
+        "ja": null
+      },
+      "onBlock": -32,
+      "onHit": 34,
+      "onPerfectParry": -50,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 57
+    },
+    {
+      "active": "2,8",
+      "afterDriveRush": null,
+      "airborne": "8-52 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.006,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "ryu__623pp",
+      "input": {
+        "numpad": "623PP",
+        "official": null
+      },
+      "invuln": "1-8 Full",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "6(7)",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Shoryuken",
+        "ja": null
+      },
+      "notes": {
+        "en": "Has juggle potential; cannot hit cross-up; only 2nd hit will connect if used too early as an anti-air; extends a combo-only hitbox to make the 1st active frame more consistent",
+        "ja": null
+      },
+      "onBlock": -40,
+      "onHit": 29,
+      "onPerfectParry": -60,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 37,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 67
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.924,
+      "blockstun": 20,
+      "cancel": [
+        "special"
+      ],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "ryu__6hk",
+      "input": {
+        "numpad": "6HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Whirlwind Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cancelable to regular/OD Air Tatsu on hit/block; Low Crush on frames 13-20 (not airborne); high pushback on block; puts airborne opponents into limited juggle state; good juggle option after midscreen OD High Blade Kick for corner carry and oki; proximity guard box begins on frame 2 and reaches the maximum attack range (prevents opponents from walking back out of the attack startup)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 2,
+      "onPerfectParry": -22,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "1-26 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.79,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ryu__6hk214k",
+      "input": {
+        "numpad": "6HK~214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "4",
+        "limit": "3",
+        "start": "4"
+      },
+      "name": {
+        "en": "Aerial Tatsumaki Senpu-kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Version canceled from 6HK; no follow-up juggle like after jumping Air Tatsu; the last frame of recovery puts Ryu in a crouching state; useful juggle ender after midscreen OD High Blade Kick for damage, corner carry, and oki",
+        "ja": null
+      },
+      "onBlock": -16,
+      "onHit": 38,
+      "onPerfectParry": null,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "2(1)2(2)2(2)2(3)2",
+      "afterDriveRush": null,
+      "airborne": "1-40 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.17,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,200x3,600 (1500)",
+      "dmgScaling": "Combo (15% extra)",
+      "driveGauge": {
+        "dealtOnBlock": 800,
+        "dealtOnHit": 1000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "ryu__6hk214kk",
+      "input": {
+        "numpad": "6HK~214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1x5",
+        "limit": "10,11,12,13,14",
+        "start": "1x5"
+      },
+      "name": {
+        "en": "Aerial Tatsumaki Senpu-kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Version canceled from 6HK; can hit crouching opponents unlike the jumping version; puts opponent into limited juggle state (follow-up only possible near the corner); the last frame of recovery puts Ryu in a crouching state",
+        "ja": null
+      },
+      "onBlock": -30,
+      "onHit": 47,
+      "onPerfectParry": null,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 56
+    },
+    {
+      "active": "2,3",
+      "afterDriveRush": {
+        "onBlock": 7,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.877,
+      "blockstun": 8,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1250
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 25,
+      "id": "ryu__6hp",
+      "input": {
+        "numpad": "6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "0,0",
+        "start": "0,1"
+      },
+      "name": {
+        "en": "Solar Plexus Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; good forward-moving combo starter and pressure tool; if 1st hit connects on an extended hurtbox, becomes +6 on Counter-hit or +8 on Punish Counter; Counter-hit/Punish Counter frame advantage applies to both hits; can be very advantageous if 1st hit trades with a light normal; 1st hit puts opponent into free juggle state so that the 2nd hit connects (to prevent Ryu from being punishable)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 6,
+      "onPerfectParry": -19,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.67,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ryu",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "ryu__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Chest Strike (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.67,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ryu",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "ryu__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Chest Strike (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "1,3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.701,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": "300x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2500,
+        "gain": 750
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 17,
+      "id": "ryu__6mp",
+      "input": {
+        "numpad": "6MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Collarbone Breaker",
+        "ja": null
+      },
+      "notes": {
+        "en": "Counter-hit/Punish Counter/Drive Rush frame advantage applies to both hits; 2nd hit is no longer an overhead if the first hit connects; up to +5 on hit with meaty timing for a meterless combo extension",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ryu__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "*Slaps face*",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 124,
+      "superGauge": null,
+      "totalFrames": 124
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.541,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ryu",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "ryu__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Shingeki",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "2(5)2(6)2",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.12,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ryu__j214k",
+      "input": {
+        "numpad": "j.214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "8 forward / 3 back",
+        "start": "5"
+      },
+      "name": {
+        "en": "Aerial Tatsumaki Senpu-kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be input during forward jump; not an overhead; can cross-up (4f less blockstun when landing as a cross-up); at least +3 on block vs. crouching opponents; puts opponent into limited juggle state (can juggle 2HK or SA1); the last 13f of recovery puts Ryu in a crouching state",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 46,
+      "onPerfectParry": -21,
+      "onPunishCounter": 46,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2(1)3(1)3(1)3(2)2",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.559,
+      "blockstun": 27,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ryu",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,200x3,600 (1500)",
+      "dmgScaling": "Combo (15% extra)",
+      "driveGauge": {
+        "dealtOnBlock": 800,
+        "dealtOnHit": 1000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "ryu__j214kk",
+      "input": {
+        "numpad": "j.214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1x5",
+        "limit": "10,11,12,13,14",
+        "start": "1x5"
+      },
+      "name": {
+        "en": "Aerial Tatsumaki Senpu-kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be input during forward jump; cannot hit cross-up; cannot hit crouching opponents (unless they extend a vertical hurtbox), and 1st hit can only hit standing opponents on the final 3 airborne frames of jump; puts opponent into limited juggle state; the last 13f of recovery puts Ryu in a crouching state",
+        "ja": null
+      },
+      "onBlock": -29,
+      "onHit": 45,
+      "onPerfectParry": -46,
+      "onPunishCounter": 45,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.2,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "ryu__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong jump-in from mid to long range; lower body projectile invuln 10-17f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -8,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.06,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "ryu__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spike knockdown on counter hit/Punish Counter vs. airborne opponents; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -9,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.55,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "ryu__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -7,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "ryu__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be used as a fuzzy instant overhead",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 4,
+      "onPerfectParry": -7,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.15,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "ryu__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; lower body projectile invuln 7-20f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -7,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2,3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": 11,
+      "cancel": [
+        "special"
+      ],
+      "category": "normal",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 350,
+      "damageText": "350x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2500,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 15,
+      "id": "ryu__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "6,7",
+        "start": "1,1 Air"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Both hits are cancelable to Air Tatsu and put airborne opponents into a limited juggle state; if 1st hit is stand blocked, the 2nd hit will not hit overhead against crouch block; lower body projectile invuln 8-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 10,
+      "onPerfectParry": -5,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ryu__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Shoulder Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "Has access to corner throw loops without walking or dashing (whiff 5LP or manually time the next throw); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 17,
+      "onPerfectParry": null,
+      "onPunishCounter": 17,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ryu__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ryu__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ryu",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ryu__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.525 (min/throw), 1.878 (min/block), 3.628 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ryu/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "Ryu",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

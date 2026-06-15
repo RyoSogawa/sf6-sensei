@@ -40,33 +40,75 @@ export const moveCategorySchema = z.enum([
   'taunt',
 ])
 
+// ヒット時 / ガード時の有利フレーム（ドライブラッシュ系で共用）
+const dualAdvantageSchema = z
+  .object({ onBlock: z.number().nullable(), onHit: z.number().nullable() })
+  .nullable()
+  .optional()
+
 export const moveSchema = z.object({
   active: z.string().nullable(),
+  // ドライブラッシュ後にこの技を出したときの有利（afterDRHit/Blk）
+  afterDriveRush: dualAdvantageSchema,
+  airborne: z.string().nullable().optional(), // 空中判定フレーム（例 "9-50 (FKD)"）
   aliases: z.array(z.string()),
+  armor: z.string().nullable().optional(), // アーマー（例 "5-12 (1 hit)"）
+  attackRange: z.number().nullable().optional(), // 攻撃の届く距離
+  blockstun: z.number().nullable().optional(),
   cancel: z.array(z.string()),
   category: moveCategorySchema,
   characterId: z.string(),
+  chipDamage: z.number().nullable().optional(),
   damage: z.number().nullable().optional(),
+  damageText: z.string().nullable().optional(), // 複合表記の原文（例 "500x2", "1400(800)"）
+  dmgScaling: z.string().nullable().optional(), // ダメージ補正（例 "20% Starter"）
+  // ドライブゲージ: gain=増加, dealtOnHit/Blk=相手に与えるドライブダメージ
   driveGauge: z
-    .object({ onBlock: z.number(), onHit: z.number(), onPunishCounter: z.number() })
+    .object({
+      dealtOnBlock: z.number().nullable(),
+      dealtOnHit: z.number().nullable(),
+      gain: z.number().nullable(),
+    })
     .nullable()
     .optional(),
-  driveRush: z.object({ onBlock: z.number(), onHit: z.number() }).nullable().optional(),
+  // この技をドライブラッシュキャンセルしたときの有利（DRcancelHit/Blk）
+  driveRushCancel: dualAdvantageSchema,
+  hitstop: z.number().nullable().optional(),
+  hitstun: z.number().nullable().optional(),
   id: z.string(),
   input: z.object({
     numpad: z.string(),
     official: z.string().nullable(),
   }),
+  invuln: z.string().nullable().optional(), // 無敵フレーム（例 "1-8 Air", "1-3 Full"）
+  juggle: z
+    .object({
+      increase: z.string().nullable(),
+      limit: z.string().nullable(),
+      start: z.string().nullable(),
+    })
+    .nullable()
+    .optional(),
   name: localizedNameSchema,
   notes: z.object({ en: z.string().nullable(), ja: z.string().nullable() }).nullable().optional(),
   onBlock: z.number().nullable(),
   onHit: z.number().nullable(),
-  onPunishCounter: z.number().nullable().optional(),
+  onPerfectParry: z.number().nullable().optional(), // パーフェクトパリィ時の有利
+  onPunishCounter: z.number().nullable().optional(), // パニッシュカウンター時の有利
+  projectileSpeed: z.number().nullable().optional(),
   properties: z.array(z.string()),
+  pushback: z
+    .object({ onBlock: z.string().nullable(), onHit: z.string().nullable() })
+    .nullable()
+    .optional(),
   recovery: z.number().nullable(),
   source: moveSourceSchema,
   startup: z.number().nullable(),
-  superGauge: z.number().nullable().optional(),
+  // SA ゲージ増加: onHit/onBlock（括弧内の副次値は原文 notes 参照）
+  superGauge: z
+    .object({ onBlock: z.number().nullable(), onHit: z.number().nullable() })
+    .nullable()
+    .optional(),
   totalFrames: z.number().nullable().optional(),
 })
 

@@ -1,0 +1,4228 @@
+{
+  "aliases": [],
+  "id": "cviper",
+  "moves": [
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.06,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "cviper",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cviper__214214k",
+      "input": {
+        "numpad": "214214K",
+        "official": null
+      },
+      "invuln": "1-13 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Hard Luck Rejector",
+        "ja": null
+      },
+      "notes": {
+        "en": "Short range makes it a poor projectile counter; cinematic time regenerates ~2 Drive bars for C.Viper",
+        "ja": null
+      },
+      "onBlock": -38,
+      "onHit": 21,
+      "onPerfectParry": -56,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 67
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.06,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "cviper",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cviper__214214k",
+      "input": {
+        "numpad": "214214K",
+        "official": null
+      },
+      "invuln": "1-13 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Hard Luck Rejector (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Short range makes it a poor projectile counter; available at 25% HP or below; cinematic time regenerates ~2.2 Drive bars for C.Viper",
+        "ja": null
+      },
+      "onBlock": -38,
+      "onHit": 23,
+      "onPerfectParry": -56,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 67
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.71,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "cviper",
+      "chipDamage": 750,
+      "damage": 3000,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cviper__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": "1-10 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Mission Complete",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong reversal but short range makes it a poor projectile counter; cinematic carries opponent over half screen; cannot be executed using easy input shortcuts when inputting with HP button or immediately after High Jump (to prevent input overlap issues with HP Thunder Dash and Feint cancels)",
+        "ja": null
+      },
+      "onBlock": -29,
+      "onHit": 19,
+      "onPerfectParry": -47,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 45,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 55
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": "9-31 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.02,
+      "blockstun": 23,
+      "cancel": [
+        "feint"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cviper__214hp",
+      "input": {
+        "numpad": "214HP",
+        "official": null
+      },
+      "invuln": "1-9 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Thunder Dash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Upward trajectory for juggles and anti-airs; cannot hit cross-up; combos from all light normals; can whiff in long-range cancels like 5MK > HJC 214HP; startup can be canceled into Feint by inputting K (feint occurs after 6 startup frames, leading to the best advantage of all feint cancels); feint-canceled version still maintains anti-air invincibility on frames 1-6, allowing C.Viper to \"spot dodge\" some airborne attacks with precise timing for a better punish; variable knockdown advantage on airborne opponents; cancelable into Tracer Combination (6PP) on hit only (can whiff on high juggled opponents)",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 21,
+      "onPerfectParry": -45,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 53
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": "Until Land",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.67,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cviper__214hp6pp",
+      "input": {
+        "numpad": "214HP~6PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tracer Combination",
+        "ja": null
+      },
+      "notes": {
+        "en": "Costs 1 extra bar of Drive gauge (except during SA1 install); can only be canceled into on hit; can whiff on high juggled opponents; gives the best oki out of all Thunder Dash follow-ups; useful way to extend C. Viper's anti-air damage",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 25,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 500
+      },
+      "totalFrames": 57
+    },
+    {
+      "active": "4(4)4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "6-13(19)",
+      "attackRange": 2.42,
+      "blockstun": 21,
+      "cancel": [
+        "dash"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500x2 (1000)",
+      "dmgScaling": "50% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 27,
+      "id": "cviper__214k",
+      "input": {
+        "numpad": "214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "3,4",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Focus Force (Lv.1)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Lv.1 version when uncharged or when button is held up to 19f; can hold button longer to charge to a stronger version (20f Lv.2 / 59f Lv.3); 1-hit armor frames cover the full body, ending immediately if button is released after frame 13; absorbing a strike results in an automatic counter-attack with 10f startup (comes out on frame 14 at the earliest); absorbing an attack early in the armor frames makes it possible for the counter-attack to be blocked; C. Viper incurs only 7f armor hitstop from absorbing a strike; armor can absorb projectiles but does not perform counter-attack (C. Viper incurs 10f projectile hitstop during armor); cancelable into Forward Dash from frame 12 until button is released (not possible after absorbing a strike); C. Viper is in a Punish Counter state for entire duration (including Forward Dash cancel); 2f extra knockdown advantage on Punish Counter; only the first hit gains the bonus damage from a Counter-hit/Punish Counter; -17 on Punish Counter if only the first hit of counter-attack reaches opponent (e.g. absorbing a ranged Dhalsim poke); Focus + Dash can be used to absorb projectiles when Drive gauge is too low for Parry; can be used against Drive Impact while in Burnout (but armor starts too late to work in most DI-cancel blockstrings)",
+        "ja": null
+      },
+      "onBlock": -16,
+      "onHit": 24,
+      "onPerfectParry": -38,
+      "onPunishCounter": 26,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 36,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 70
+    },
+    {
+      "active": "4(4)4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "3-10(19)",
+      "attackRange": 2.42,
+      "blockstun": 21,
+      "cancel": [
+        "dash"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 187,
+      "damage": 750,
+      "damageText": "750x2 (1500)",
+      "dmgScaling": "50% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 27,
+      "id": "cviper__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "3,4",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Focus Force (Lv.1)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Lv.1 version when uncharged or when button is held up to 19f; can hold button longer to charge to a stronger version (20f Lv.2 / 57f Lv.3); 1-hit armor frames cover the full body, ending immediately if button is released after frame 10; absorbing a strike results in an automatic counter-attack with 10f startup (comes out on frame 11 at the earliest); absorbing an attack early in the armor frames makes it possible for the counter-attack to be blocked; C. Viper incurs only 7f armor hitstop from absorbing a strike; armor can absorb projectiles but does not perform counter-attack (C. Viper incurs 10f projectile hitstop during armor); cancelable into Forward Dash from frame 9 until button is released (not possible after absorbing a strike); C. Viper is in a Punish Counter state for entire duration (including Forward Dash cancel); 2f extra knockdown advantage on Punish Counter; only the first hit gains the bonus damage from a Counter-hit/Punish Counter; -17 on Punish Counter if only the first hit of counter-attack reaches opponent (e.g. absorbing a ranged Dhalsim poke)",
+        "ja": null
+      },
+      "onBlock": -16,
+      "onHit": 24,
+      "onPerfectParry": -38,
+      "onPunishCounter": 26,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 36,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 67
+    },
+    {
+      "active": "4(4)4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "3-57",
+      "attackRange": 2.42,
+      "blockstun": 19,
+      "cancel": [
+        "dash"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": "1000x2 (2000)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 27,
+      "id": "cviper__214[kk]",
+      "input": {
+        "numpad": "214[KK]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "10,10",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Focus Force (Lv.3)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fully charged Lv.3 version when button is held at least 57f; Punish Counter causes a limited juggle crumple state (+29 before opponent falls to the ground); extremely powerful combo starter for Stun or punishing very unsafe Supers; 1-hit armor frames cover the full body; attack hitbox starts up 10f after reaching full charge (no armor on these frames); absorbing a strike while charging results in an automatic counter-attack with 10f startup; C. Viper incurs only 7f armor hitstop from absorbing a strike; armor can absorb projectiles but does not perform counter-attack (C. Viper incurs 10f projectile hitstop during armor); cancelable into Forward Dash from frame 9-58 (not possible after absorbing a strike); C. Viper is in a Punish Counter state for entire duration (including Forward Dash cancel); only the first hit gains the bonus damage from a Counter-hit/Punish Counter; -17 on Punish Counter if only the first hit of counter-attack reaches opponent (e.g. absorbing a ranged Dhalsim poke)",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 73,
+      "onPerfectParry": -38,
+      "onPunishCounter": 77,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 36,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 57,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 114
+    },
+    {
+      "active": "4(4)4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "3~release",
+      "attackRange": 2.42,
+      "blockstun": 21,
+      "cancel": [
+        "dash"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 212,
+      "damage": 850,
+      "damageText": "850x2 (1700)",
+      "dmgScaling": "50% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 27,
+      "id": "cviper__214{kk}",
+      "input": {
+        "numpad": "214{KK}",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "3,4",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Focus Force (Lv.2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Partially charged Lv.2 version when button is held at least 20f (up to 56f); Punish Counter causes a limited juggle crumple state (+8 before opponent falls to the ground); 1-hit armor frames cover the full body, ending immediately if button is released after frame 10; attack hitbox starts up 10f after button release (no armor on these frames); absorbing a strike results in an automatic counter-attack with 10f startup; C. Viper incurs only 7f armor hitstop from absorbing a strike; armor can absorb projectiles but does not perform counter-attack (C. Viper incurs 10f projectile hitstop during armor); cancelable into Forward Dash from frame 9 until button is released (not possible after absorbing a strike); C. Viper is in a Punish Counter state for entire duration (including Forward Dash cancel); only the first hit gains the bonus damage from a Counter-hit/Punish Counter; -17 on Punish Counter if only the first hit of counter-attack reaches opponent (e.g. absorbing a ranged Dhalsim poke)",
+        "ja": null
+      },
+      "onBlock": -16,
+      "onHit": 26,
+      "onPerfectParry": -38,
+      "onPunishCounter": 56,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 36,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 77
+    },
+    {
+      "active": "4(4)4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "6-59",
+      "attackRange": 2.42,
+      "blockstun": 19,
+      "cancel": [
+        "dash"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": "700x2 (1400)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 27,
+      "id": "cviper__214[k]",
+      "input": {
+        "numpad": "214[K]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "10,10",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Focus Force (Lv.3)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fully charged Lv.3 version when button is held at least 59f; Punish Counter causes a limited juggle crumple state (+29 before opponent falls to the ground); 1-hit armor frames cover the full body; attack hitbox starts up 10f after reaching full charge (no armor on these frames); absorbing a strike while charging results in an automatic counter-attack with 10f startup; C. Viper incurs only 7f armor hitstop from absorbing a strike; armor can absorb projectiles but does not perform counter-attack (C. Viper incurs 10f projectile hitstop during armor); cancelable into Forward Dash from frame 12-60 (not possible after absorbing a strike); C. Viper is in a Punish Counter state for entire duration (including Forward Dash cancel); only the first hit gains the bonus damage from a Counter-hit/Punish Counter; -17 on Punish Counter if only the first hit of counter-attack reaches opponent (e.g. absorbing a ranged Dhalsim poke)",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 73,
+      "onPerfectParry": -38,
+      "onPunishCounter": 77,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 36,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 59,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 116
+    },
+    {
+      "active": "4(4)4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "6~release",
+      "attackRange": 2.42,
+      "blockstun": 21,
+      "cancel": [
+        "dash"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600x2 (1200)",
+      "dmgScaling": "50% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 27,
+      "id": "cviper__214{k}",
+      "input": {
+        "numpad": "214{K}",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "3,4",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Focus Force (Lv.2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Partially charged Lv.2 version when button is held at least 20f (up to 58f); Punish Counter causes a limited juggle crumple state (+8 before opponent falls to the ground); 1-hit armor frames cover the full body, ending immediately if button is released after frame 13; attack hitbox starts up 10f after button release (no armor on these frames); absorbing a strike results in an automatic counter-attack with 10f startup; C. Viper incurs only 7f armor hitstop from absorbing a strike; armor can absorb projectiles but does not perform counter-attack (C. Viper incurs 10f projectile hitstop during armor); cancelable into Forward Dash from frame 12 until button is released (not possible after absorbing a strike); C. Viper is in a Punish Counter state for entire duration (including Forward Dash cancel); only the first hit gains the bonus damage from a Counter-hit/Punish Counter; -17 on Punish Counter if only the first hit of counter-attack reaches opponent (e.g. absorbing a ranged Dhalsim poke); Focus + Dash can be used to absorb projectiles when Drive gauge is too low for Parry",
+        "ja": null
+      },
+      "onBlock": -16,
+      "onHit": 26,
+      "onPerfectParry": -38,
+      "onPunishCounter": 56,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 36,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 77
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.24,
+      "blockstun": 23,
+      "cancel": [
+        "super",
+        "feint"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "cviper__214lp",
+      "input": {
+        "numpad": "214LP",
+        "official": null
+      },
+      "invuln": "14-20 Upper Body Proj",
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Thunder Dash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Crouch-sized hurtbox on frames 14-43 (standing state); can be spaced meaty for better advantage (very precise spacing required for the final active frame to connect); can duck under projectiles with precise timing (impractical as a reaction to fast fireballs, and can be clipped on her back during recovery against slow fireballs); combos naturally from medium/heavy normals; punishing a projectile can link into lights, 2MP, or SA2 depending on the range; startup can be canceled into Feint by inputting K (feint occurs after 12 startup frames); cancelable into Tracer Combination (6PP) on hit/block only",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": -25,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.52,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 4000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cviper__214lp6pp",
+      "input": {
+        "numpad": "214LP~6PP",
+        "official": null
+      },
+      "invuln": "1-17 Upper Body Proj",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tracer Combination",
+        "ja": null
+      },
+      "notes": {
+        "en": "Costs 1 extra bar of Drive gauge (except during SA1 install); maintains the Projectile Invuln and crouch-sized hurtbox of 214LP on frames 1-17; best version for confirming into SA3 (combos naturally); forms a true blockstring from 214LP; gives solid oki with Drive Rush or a Forward Dash + manually timed walk",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 37,
+      "onPerfectParry": null,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.84,
+      "blockstun": 23,
+      "cancel": [
+        "super",
+        "feint"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "cviper__214mp",
+      "input": {
+        "numpad": "214MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Thunder Dash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Less range than LP version but safe on block at all ranges; can be spaced meaty for better advantage; combos from 5LK naturally; startup can be canceled into Feint by inputting K (feint occurs after 8 startup frames); cancelable into Tracer Combination (6PP) on hit/block only; can perform a risky frame trap into follow-up on block (2f gap) unless the move connects on the final 2 active frames",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -24,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.21,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 4000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cviper__214mp6pp",
+      "input": {
+        "numpad": "214MP~6PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tracer Combination",
+        "ja": null
+      },
+      "notes": {
+        "en": "Costs 1 extra bar of Drive gauge (except during SA1 install); cancel into SA3 does not combo on grounded opponents; puts airborne opponents into a limited juggle OTG bounce state (KD +30 at lowest height, allows SA3 cancel to juggle); 2f gap on block can set up a risky frame trap (no gap during Burnout or if the final 2 active frames of 214MP connect); grounded hit gives the worst oki of all Thunder Dash follow-ups (-3 after Dash)",
+        "ja": null
+      },
+      "onBlock": -13,
+      "onHit": 18,
+      "onPerfectParry": -27,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "4(16)4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.56,
+      "blockstun": 43,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800x2",
+      "dmgScaling": "30% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": null,
+      "id": "cviper__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "5,6",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Thunder Dash",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits with a large gap in between; range of the 1st hit is in between LP/MP versions (total range is longer but easily interruptible if 1st hit whiffs); combos from medium and heavy normals; allows an easy hitconfirm into SA2/SA3 while remaining safe on block; leaves C.Viper inside throw range with block advantage on burned out opponents, making it a strong chip and pressure tool; cannot perform feint cancels or Tracer Combination follow-ups; if Perfect Parried, opponent can interrupt 2nd hit with 18f or faster attack; extremely disjointed hitbox makes it a strong approach tool at midrange; sets up a safe jump on grounded hit (midscreen, can only connect with max range j.MK)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 42,
+      "onPerfectParry": -23,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cviper__214pk",
+      "input": {
+        "numpad": "214P~K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Thunder Dash Feint",
+        "ja": null
+      },
+      "notes": {
+        "en": "Feint animation lasts 12f but occurs at a different timing from each meterless strength of Thunder Dash (LP 12+12 / MP 8+12 / HP 6+12); can be input more easily by holding any K while inputting 214P; 214HP version gives better combo potential from 2HP or from High Jump canceled 5HP/5HK; Counter-hit state for entire feint animation",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "4(3)6",
+      "afterDriveRush": null,
+      "airborne": "12-42 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.59,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "cviper",
+      "chipDamage": 250,
+      "damage": 800,
+      "damageText": "800,1200 (2000)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "cviper__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-11 Strike/Throw, 12-20 Air",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "99,99",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Limit Decoupler",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts C.Viper into an install state on frame 21 (after active frames) that removes the meter cost of her 1-bar moves (High Jump, extensions from Thunder Dash and Burning Kick) and also causes the 1-bar special follow-ups to build 3000 Drive gauge on hit/block; during Burnout, the install ends after one use of these moves; install lasts for 700 frames (11.7 seconds) and freezes during hitstop or cinematics; cannot build additional Super gauge while install is active; KD advantage varies slightly when used in juggles or as an anti-air; if 1st hit is Perfect Parried, opponent can interrupt 2nd hit with 5f or faster attack that reaches around standing chest-height; if 1st hit trades with a projectile at close range, C. Viper can pick up a juggle into 214HP, SA1, or SA2 depending on the distance and fireball hitstun (useful in blockstrings with a large gap, like Terry 5HP > Round Wave)",
+        "ja": null
+      },
+      "onBlock": -34,
+      "onHit": 21,
+      "onPerfectParry": -57,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 73
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": "5-38 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.14,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "cviper__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": "18-31 Lower Body Proj",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Burning Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Farthest trajectory; cannot hit cross-up; Punish Counter gives an extra +5 KD advantage (allows combo into KK follow-up); useful as a safe approach tool from long range (but more likely to land inside opponent's throw range on block); easiest version to space meaty for extra advantage due to forward movement during active frames; works well as a predictive fireball counter due to its range, safety, and lower body projectile invuln frames",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 38,
+      "onPerfectParry": -23,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 27,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "3(21)4",
+      "afterDriveRush": null,
+      "airborne": "11-43 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.71,
+      "blockstun": 45,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": "700,800 (1500)",
+      "dmgScaling": "30% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "cviper__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "10,10",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Burning Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Best horizontal range for combo consistency; 2 hits (cannot be interrupted on block); cannot hit cross-up; recovery is cancelable into SA2/SA3 after 11f on hit or block; very difficult to space meaty for extra advantage due to minimal forward movement during 2nd hit's active frames; important juggle tool after launches into Air Burning Kick or juggled 5HK ground bounce; combo from 5HK > HJC requires a strict 2f input window (cannot buffer on the first High Jump frame, and results in air version on frame 4 onward)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 43,
+      "onPerfectParry": -23,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 56
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.55,
+      "blockstun": 27,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cviper__236kkk",
+      "input": {
+        "numpad": "236K~KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Double Burn",
+        "ja": null
+      },
+      "notes": {
+        "en": "Costs 1 extra bar of Drive gauge (except during SA1 install); leaves a 3f gap on block from Burning Kick that can beat non-invincible attacks (but loses to Drive Impact and anti-air invuln moves); true blockstring vs. opponents in Burnout and +6 oB making it a great pressure tool; KD +40 on grounded opponents (e.g. frame trap after Burning Kick) and +34 on airborne opponents (e.g. combo after PC Burning Kick or in juggle routes, up to KD +40 in very high juggles); does not combo naturally from Burning Kick on grounded opponents (requires Punish Counter or airborne connect); whiffing this attack on grounded hit results in a +13 knockdown with oki only possible in the corner",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 40,
+      "onPerfectParry": -23,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.43,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 4000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cviper__236kpp",
+      "input": {
+        "numpad": "236K~PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Knuckled Pursuit",
+        "ja": null
+      },
+      "notes": {
+        "en": "Costs 1 extra bar of Drive gauge (except during SA1 install); true blockstring and natural combo from Burning Kick; higher KD advantage if Burning Kick lands as a Punish Counter or hits airborne opponent; KD +9 when follow-up hits a grounded opponent (e.g. after Burning Kick is absorbed by 1-hit armor like Luke 236KK or Zangief Charged 5HP)",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 23,
+      "onPerfectParry": null,
+      "onPunishCounter": 24,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": "5-34 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.84,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "cviper__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": "14-27 Lower Body Proj",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Burning Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shortest trajectory; cannot hit cross-up; Punish Counter gives an extra +5 KD advantage (allows combo into KK follow-up); primarily used for beating throw techs and crouching buttons; connects from about C. Viper's maximum poke range; very difficult to space more safely in neutral due to minimal forward movement during active frames",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 38,
+      "onPerfectParry": -23,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": "5-36 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.27,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "cviper__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": "16-29 Lower Body Proj",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Burning Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Medium trajectory; cannot hit cross-up; Punish Counter gives an extra +5 KD advantage (allows combo into KK follow-up); useful for crushing low pokes from outside their max range and for approaching in neutral while staying out of the opponent's throw range on block",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 38,
+      "onPerfectParry": -23,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -7,
+        "onHit": 34
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.89,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cviper__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Viper Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "4f extra recovery on block; C. Viper's only standard normal that cannot be High Jump canceled; does not have natural juggle potential unlike most sweeps; Punish Counter sets up a safe jump using High Jump (fairly impractical outside the corner, as a forward High Jump usually sails over the opponent)",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 34,
+      "onPerfectParry": -30,
+      "onPunishCounter": 45,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 37
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.54,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super",
+        "hj"
+      ],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 15
+      },
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "cviper__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "C.Viper's main cancelable poke (no High Jump cancel required) that combos into meterless Seismic Hammer; forces stand on hit; 214HP Feint cancel: +6 oH / -1 oB",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 2,
+      "onPerfectParry": -21,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 31
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.06,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "hj"
+      ],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "cviper__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; can be High Jump canceled allowing for stronger combo options than most 2LKs; HJC~214HP Feint cancel: -6 oH / -11 oB",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -9,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 15
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.95,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super",
+        "hj"
+      ],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "cviper__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; DR cancel is delayed until after 2nd active frame; 214HP Feint cancel: -3 oH / -9 oB; topmost hurtbox on frames 1-6 is vulnerable only to aerial attacks, preventing its use as an anti-air",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -9,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.330",
+        "onHit": "0.276"
+      },
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.6,
+      "blockstun": 19,
+      "cancel": [
+        "hj"
+      ],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 25,
+      "id": "cviper__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Amazing range for a low poke that can lead to combos with High Jump cancel; HJC~214HP Feint cancel: +4 oH / -2 oB",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -18,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.14,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super",
+        "hj"
+      ],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 15
+      },
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "cviper__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "High hitstun for a medium normal (combos into OD Seismo); special/DI/High Jump cancel is delayed until after 2nd active frame; 214HP Feint cancel: +5 oH / -2 oB; topmost hurtbox on frames 1-8 is vulnerable only to aerial attacks, preventing its use as an anti-air",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 5,
+      "onPerfectParry": -18,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "40 air",
+      "afterDriveRush": null,
+      "airborne": "7-46 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cviper__28",
+      "input": {
+        "numpad": "2~8",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "High Jump",
+        "ja": null
+      },
+      "notes": {
+        "en": "Costs 1 bar of Drive gauge (except during SA1 install); jumps slightly higher and over 50% farther than a standard jump; can be input in neutral or canceled on hit/block from all normals (except 2HK/6MP/6HK) and from Seismic Hammer; can be input as a forward or neutral jump (cannot High Jump backwards, but attempting this as a cancel results in neutral jump); cancelable into grounded special moves and Supers during prejump frames 2-6, effectively allowing any HJ-cancelable attack to be special/super cancelable; C. Viper is in a Counter-hit state for the entire duration and in a Forced Knockdown state when airborne; Drive Gauge recovery acts similar to OD specials (can start regaining meter quickly, effectively refunding part of its cost by hitting the opponent afterward; grounded High Jump Cancel into grounded Burning Kick cannot be buffered on the first jump frame (results in a strict 2f window to properly input a combo sequence like juggled 5HK > HJC OD Burning Kick); can be used in safe jump setups with a KD Advantage of +45; the Up direction must be input no later than the 8th frame after initiating the Down direction (holding down before inputting a jump does not result in a High Jump)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": null,
+      "totalFrames": 49
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cviper__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Thunder Cradle",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switch; can pressure with Drive Rush after a corner side switch (but cannot beat reversal 4f normals with another throw); meaty LK Burning Kick can lead to a DI-safe Double Burn blockstring, but loses to wakeup Drive Impact; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 19,
+      "onPerfectParry": null,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cviper__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "Begins with \"You're a stubborn one —\" / \"You're becoming a pain in —\" / \"I have a few new tricks up —\" / \"Decouple power limiters —\" / \"This is going on far too —\" / \"I think it's about time I —\"; after being interrupted, plays out one of 6 potential phone conversations.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 965,
+      "superGauge": null,
+      "totalFrames": 965
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.36,
+      "blockstun": 21,
+      "cancel": [
+        "hj"
+      ],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "cviper__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "2"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Staggers opponent on Punish Counter; shorter range vs. crouching opponents; puts airborne opponents into a limited juggle OTG bounce that can be followed up with High Jump cancel into Thunder Dash, OD Burning Kick, or any Super; can be juggled into after Seismo > HJC Air Burning Kick, then High Jump canceled into more damage; extends a hurtbox 1f before active that is vulnerable to projectiles; HJC~214HP Feint cancel: +7 oH / 0 oB / +22 onPC; HJC~214K~Dash cancel onPC: +8 meterless / +11 OD; strict 2f timing to input HJC into grounded Burning Kick (cannot be buffered on the first frame of High Jump)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -22,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.78,
+      "blockstun": 22,
+      "cancel": [
+        "hj"
+      ],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "cviper__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range poke that can be converted into damaging combos with High Jump cancel into Feint or Seismo; HJC~214HP Feint cancel: +6 oH / +1 oB",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.2,
+      "blockstun": 12,
+      "cancel": [
+        "special",
+        "super",
+        "hj"
+      ],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "cviper__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Primary 5f punish tool; higher hitstun than other lights (can combo into 214MP); links from 2LP allowing C.Viper to combo 4 light normals; DR cancel is delayed until after active frames; 214HP Feint cancel: -2 oH / -7 oB",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -12,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.01,
+      "blockstun": 9,
+      "cancel": [
+        "chain",
+        "special",
+        "super",
+        "hj"
+      ],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "cviper__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; 214HP Feint cancel: -4 oH / -10 oB; more range than 2LP but worse advantage on hit/block",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -9,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.333",
+        "onHit": "0.288"
+      },
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.57,
+      "blockstun": 18,
+      "cancel": [
+        "hj"
+      ],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "cviper__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong poke that can combo into specials with a High Jump cancel (214HP can whiff at farther ranges); 2f extra recovery on whiff; HJC~214HP Feint cancel: +4 oH / -3 oB",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -19,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.01,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super",
+        "hj"
+      ],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "cviper__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Primary combo and frame trap starter; 214HP Feint cancel: +3 oH / -2 oB",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 6,
+      "onPerfectParry": -14,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 23
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cviper__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Ugh, could you just like, give up now? I have other work to do.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 605,
+      "superGauge": null,
+      "totalFrames": 605
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 24,
+      "cancel": [
+        "super",
+        "hj",
+        "feint"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "cviper__623p",
+      "input": {
+        "numpad": "623P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "2"
+      },
+      "name": {
+        "en": "Seismic Hammer",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit standard projectile; button strength determines projectile distance (LP close, MP ~50% screen, HP ~80% screen); puts opponents into a limited juggle state; combos from 2HP or from High Jump canceled 5HP/5HK; cancelable into High Jump on hit or block for 1 extra Drive bar (no extra cost during SA1 install); all strengths will not go beyond the corner; can transition into Seismo Feint after 11f (total Feint duration 27f); HJC~214HP Feint cancel: KD +61 / -2 oB; great tool for Burnout pressure (can repeatedly chain Seismos together with High Jump cancels until pushed out of range); can connect 9 consecutive HP Seismos on a blocking cornered opponent (if starting from a canceled normal, 5HP > HJC Seismo is the best option with 8 consecutive Seismo chains); hitbox is very low to the ground, allowing opponent to block when landing from an empty jump",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 53,
+      "onPerfectParry": -23,
+      "onPunishCounter": 53,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 57
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 26,
+      "cancel": [
+        "super",
+        "hj",
+        "feint"
+      ],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 7000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "cviper__623pp",
+      "input": {
+        "numpad": "623PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "2"
+      },
+      "name": {
+        "en": "Seismic Hammer",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit OD projectile; covers wide area in front of C. Viper (~50% screen); puts opponents into a limited juggle state; combos from medium normals; cancelable into High Jump on hit or block for 1 extra Drive bar (no extra cost during SA1 install); startup cannot be canceled with Seismo Feint; HJC~214HP Feint cancel: KD +61 / 0 oB; hitbox is very low to the ground, allowing opponent to block when landing from an empty jump; hurtbox expands forward beginning on the 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 53,
+      "onPerfectParry": -23,
+      "onPunishCounter": 53,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 52
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cviper__623pk",
+      "input": {
+        "numpad": "623P~K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Seismic Hammer Feint",
+        "ja": null
+      },
+      "notes": {
+        "en": "Useful for baiting neutral responses like jumps or anti-projectile Supers; much slower than HP Thunder Dash feint (not useful for combos/pressure when canceled from normals); can only be performed from meterless Seismic Hammer after 11 frames of startup (27f total animation); can be performed by holding K for easier execution; Counter-hit state for entire feint animation",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": null,
+      "totalFrames": 27
+    },
+    {
+      "active": "3(15)3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.81,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 450,
+      "damageText": "450x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 24,
+      "id": "cviper__6hk",
+      "input": {
+        "numpad": "6HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "1,2",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Double Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; carries counter-hit/Punish Counter advantage through both hits; if 1st hit is Perfect Parried, opponent can interrupt 2nd hit with 16f or faster attack; useful approach tool from Drive Rush (strike/throw mixup on block, 2MP link on hit); can be spaced effectively in neutral to keep C.Viper out of the opponent's throw range on block",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -17,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.91,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "cviper",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "cviper__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Counter Spark (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.91,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "cviper",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "cviper__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Counter Spark (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.43,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "cviper__6mp",
+      "input": {
+        "numpad": "6MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Viper Elbow",
+        "ja": null
+      },
+      "notes": {
+        "en": "16-27f Low Crush (not airborne or throw invincible)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -21,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cviper__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"I hate to admit, you're not half bad! Even messed up my makeup. Hmm, alright, all done up.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 740,
+      "superGauge": null,
+      "totalFrames": 740
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.2,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 20,
+      "id": "cviper__8hk",
+      "input": {
+        "numpad": "8HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Neutral Jump Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Longest horizontal range of Viper's air normals; in the corner or against wide characters (Blanka/E.Honda/Zangief), can combo Punish Counter 5HK into High Jump cancel nj.HK for powerful combo extension; lower body projectile invuln 10-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 11,
+      "onPerfectParry": -7,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.549,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "cviper",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "cviper__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Viper Cannon",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.04,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "cviper__j236hk",
+      "input": {
+        "numpad": "j.236HK",
+        "official": null
+      },
+      "invuln": "18-24 Lower Body Proj",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Aerial Burning Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be input from a forward/neutral jump or High Jump; maintains the most forward air momentum; effective approach tool when used from immediate High Jump; can hit crossup; 1f extra landing recovery frame when blocked as a cross-up; 8f extra landing recovery on whiff after crossing over the opponent; comes out after 7 airborne frames (normal jump) or 3 airborne frames (High Jump); High Jump version deals 1f less blockstun but hits lower to the ground resulting in better advantage when used low to the ground; advantage on knockdown or block varies greatly depending on angle, distance, and height when activated; earliest input timing (Tiger Knee input) at close range results in KD +38 / -3 oB (regular jump), KD +41 / -1 oB (High Jump)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 36,
+      "onPerfectParry": -24,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.04,
+      "blockstun": 28,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 7000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "cviper__j236kk",
+      "input": {
+        "numpad": "j.236KK",
+        "official": null
+      },
+      "invuln": "18-24 Lower Body Proj",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Aerial Burning Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be input from a forward/neutral jump or High Jump; same air trajectory as Heavy version; can hit crossup; 8f extra landing recovery on whiff after crossing over the opponent; comes out after 7 airborne frames (normal jump) or 3 airborne frames (High Jump); High Jump version deals 1f less blockstun but hits lower to the ground resulting in better advantage when used low to the ground; advantage on knockdown or block varies greatly depending on angle, distance, and height when activated; earliest input timing (Tiger Knee input) at close range results in KD +37 / +2 oB (regular jump), KD +41 / +4 oB (High Jump)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 35,
+      "onPerfectParry": -25,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.04,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "cviper__j236lk",
+      "input": {
+        "numpad": "j.236LK",
+        "official": null
+      },
+      "invuln": "22-28 Lower Body Proj",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Aerial Burning Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be input from a forward/neutral jump or High Jump; stops forward air momentum; can hit crossup; 1f extra landing recovery frame when blocked as a cross-up; 8f extra landing recovery on whiff after crossing over the opponent; comes out after 7 airborne frames (normal jump) or 3 airborne frames (High Jump); High Jump version deals 1f less blockstun but hits lower to the ground resulting in better advantage when used low to the ground; advantage on knockdown or block varies greatly depending on angle, distance, and height when activated; earliest input timing (Tiger Knee input) at close range results in KD +39 / -2 oB (regular jump), KD +43 / +1 oB (High Jump)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 38,
+      "onPerfectParry": -24,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.04,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cviper",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "cviper__j236mk",
+      "input": {
+        "numpad": "j.236MK",
+        "official": null
+      },
+      "invuln": "20-26 Lower Body Proj",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Aerial Burning Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be input from a forward/neutral jump or High Jump; maintains some forward air momentum; can hit crossup; 1f extra landing recovery frame when blocked as a cross-up; 8f extra landing recovery on whiff after crossing over the opponent; comes out after 7 airborne frames (normal jump) or 3 airborne frames (High Jump); High Jump version deals 1f less blockstun but hits lower to the ground resulting in better advantage when used low to the ground; advantage on knockdown or block varies greatly depending on angle, distance, and height when activated; earliest input timing (Tiger Knee input) at close range results in KD +40 / -1 oB (regular jump), KD +43 / +1 oB (High Jump); using this version after Seismic Hammer launch allows a midscreen juggle into MP Thunder Dash + Tracer Combination (great damage, oki, and potential SA3 cancel with less meter cost than OD Burning Kick routes)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 37,
+      "onPerfectParry": -24,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.55,
+      "blockstun": 15,
+      "cancel": [
+        "special"
+      ],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 20,
+      "id": "cviper__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; cancelable into Aerial Burn Kick (only combos naturally into HK/OD version on grounded opponents, and cannot juggle after air-to-air connect due to air reset); cancelable until the 37th airborne frame of a forward jump or High Jump; lower body projectile invuln 8-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 11,
+      "onPerfectParry": -7,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.04,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 20,
+      "id": "cviper__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spike knockdown vs. airborne opponents; forces stand on hit; good hitbox for vertical approaches; lower body projectile invuln 11-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 11,
+      "onPerfectParry": -7,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.89,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "cviper__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be used as a fuzzy instant overhead; strong hitbox priority; against tall standing characters, can combo any close range button into High Jump canceled j.LK on the way up",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 3,
+      "onPerfectParry": -8,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.74,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "cviper__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand on hit; short range air-to-air with an upward angle",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 6,
+      "onPerfectParry": -5,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.01,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "cviper__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; strong overall jump-in (great hitbox priority and the most range of her forward jump normals); lower body projectile invuln 7-20f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 7,
+      "onPerfectParry": -8,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.02,
+      "blockstun": 13,
+      "cancel": [
+        "special"
+      ],
+      "category": "normal",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "cviper__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into a limited juggle state; cancelable into Aerial Burning Kick on forward or neutral jump; lower body projectile invuln 8-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 8,
+      "onPerfectParry": -5,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cviper__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "High Impulse",
+        "ja": null
+      },
+      "notes": {
+        "en": "Grants a corner throw loop by walking or dashing (+7, requires delayed throw); can pressure with MK Burning Kick (+2 oB, DI-safe), MK Burning Kick ~ Double Burn (also +2 oB, true blockstring, gives better Drive damage but the sequence loses to wakeup DI), or HK Burning Kick ~ Double Burn (leaves a small blockstring gap between hits, allowing C. Viper to land and counter-DI); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 28,
+      "onPerfectParry": null,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cviper__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cviper__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "cviper",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cviper__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.374 (min/throw), 1.756 (min/block), 3.355 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "C.Viper",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

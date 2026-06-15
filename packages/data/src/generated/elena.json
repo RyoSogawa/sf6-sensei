@@ -1,0 +1,5307 @@
+{
+  "aliases": [],
+  "id": "elena",
+  "moves": [
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.726,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "elena",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 17,
+      "hitstun": null,
+      "id": "elena__214214k",
+      "input": {
+        "numpad": "214214K",
+        "official": null
+      },
+      "invuln": "1-11 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Song of the Grasslands",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cinematic time regenerates ~2.1 Drive bars for Elena; large combo-only hitbox makes it more consistent in juggles; reliable but expensive reversal when in Burnout; very consistent anti-air at mid to long range, but cannot hit cross-up and can whiff under closer jumps; opponents cannot avoid a chip KO by jumping after the Super freeze",
+        "ja": null
+      },
+      "onBlock": -54,
+      "onHit": 24,
+      "onPerfectParry": -70,
+      "onPunishCounter": 24,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 68,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 79
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.726,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "elena",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 17,
+      "hitstun": null,
+      "id": "elena__214214k",
+      "input": {
+        "numpad": "214214K",
+        "official": null
+      },
+      "invuln": "1-11 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Song of the Grasslands (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Available at 25% HP or below; cinematic time regenerates ~2.1 Drive bars for Elena; large combo-only hitbox makes it more consistent in juggles; reliable but expensive reversal when in Burnout; very consistent anti-air at mid to long range, but cannot hit cross-up and can whiff under closer jumps; opponents cannot avoid a chip KO by jumping after the Super freeze",
+        "ja": null
+      },
+      "onBlock": -54,
+      "onHit": 29,
+      "onPerfectParry": -70,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 68,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 79
+    },
+    {
+      "active": "4(17)3(22)5(2)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.07,
+      "blockstun": 45,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2,200x2 (1200)",
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": 52,
+      "id": "elena__214hk",
+      "input": {
+        "numpad": "214HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,0,0,3",
+        "limit": "2,3,3,3",
+        "start": "1,1,1,3"
+      },
+      "name": {
+        "en": "Spinning Scythe",
+        "ja": null
+      },
+      "notes": {
+        "en": "Lynx Whirl Cancels (on Hit/on Block/on PC): ~6LP -3/-12/+1, ~6MP -11/-20/-7, ~6HP -13/-22/-9; first 2 hits force stand (last 2 hits will whiff vs. crouch block); first 2 hits have an extended foot hurtbox that can only hit standing opponents (shorter range vs. crouching); block disadvantage refers to stand(crouch); 2nd hit is cancelable into Lynx Whirl (enhanced Roll) on hit/block (but not whiff); all follow-ups are interruptible on block (even if opponent is in Burnout); Lynx Whirl cancel allows Elena to keep up pressure, but does not naturally combo into the follow-ups; Counter-hit/Punish Counter bonus advantage carries through first 2 hits (CH combos into ~6MK, PC combos into ~6LK); empty ~6LP Roll is safe on hit and can bait Parry/DI/Reversals; last hit puts opponent into limited juggle state, allowing follow-ups like 236MK, DR~2MP, SA2, canceled SA3, or corner 236LK~623HK",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 52,
+      "onPerfectParry": 1,
+      "onPunishCounter": 52,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 101
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.84,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "elena__214hp",
+      "input": {
+        "numpad": "214HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Moon Glider",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand; sways back significantly (can avoid attacks); sways on frames 5-23 (max distance of 0.71 on frames 14-16); puts airborne opponents into limited juggle state; safe option out of Drive Rush that can bait the opponent's button/throw and grants a 5MK combo extension after a whiff punish",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -21,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 28,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "4(12)3(24)2(3)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.07,
+      "blockstun": 40,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x2,200x2 (1000)",
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": 45,
+      "id": "elena__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,0,0,3",
+        "limit": "2,3,3,3",
+        "start": "1,1,1,3"
+      },
+      "name": {
+        "en": "Spinning Scythe",
+        "ja": null
+      },
+      "notes": {
+        "en": "Lynx Whirl Cancels (on Hit/on Block/on PC): ~6LP -3/-10/+1, ~6MP -11/-18/-7, ~6HP -13/-20/-9; first 2 hits force stand (last 2 hits will whiff vs. crouch block); first 2 hits have an extended foot hurtbox that can only hit standing opponents (shorter range vs. crouching); block disadvantage refers to stand(crouch); 2nd hit is cancelable into Lynx Whirl (enhanced Roll) on hit/block (but not whiff); all follow-ups are interruptible on block (except ~6MK trades with 4f normals if the opponent is in Burnout); Lynx Whirl cancel allows Elena to keep up pressure, but does not naturally combo into the follow-ups; Counter-hit/Punish Counter bonus advantage carries through first 2 hits (CH combos into ~6MK, PC combos into ~6LK); empty ~6LP Roll is safe on hit and can bait Parry/DI/Reversals; last hit puts opponent into limited juggle state, allowing follow-ups like 236MK, DR~2MP, SA2, canceled SA3, or corner 236LK~623HK",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 52,
+      "onPerfectParry": 1,
+      "onPunishCounter": 52,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 90
+    },
+    {
+      "active": "4(14)3(24)2(3)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.07,
+      "blockstun": 42,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x2,150x2 (900)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": 49,
+      "id": "elena__214lk",
+      "input": {
+        "numpad": "214LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,0,0,3",
+        "limit": "2,3,3,3",
+        "start": "1,1,1,3"
+      },
+      "name": {
+        "en": "Spinning Scythe",
+        "ja": null
+      },
+      "notes": {
+        "en": "Lynx Whirl Cancels (on Hit/on Block/on PC): ~6LP -3/-12/+1, ~6MP -11/-20/-7, ~6HP -13/-22/-9; first 2 hits force stand (last 2 hits will whiff vs. crouch block); first 2 hits have an extended foot hurtbox that can only hit standing opponents (shorter range vs. crouching); block disadvantage refers to stand(crouch); 2nd hit is cancelable into Lynx Whirl (enhanced Roll) on hit/block (but not whiff); all follow-ups are interruptible on block (even if opponent is in Burnout); Lynx Whirl cancel allows Elena to keep up pressure, but does not naturally combo into the follow-ups; Counter-hit/Punish Counter bonus advantage carries through first 2 hits (CH combos into ~6MK, PC combos into ~6LK); empty ~6LP Roll is safe on hit and can bait Parry/DI/Reversals; last hit puts opponent into limited juggle state (only SA3 cancel will combo unless 214LK connects in a high juggle)",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 34,
+      "onPerfectParry": 1,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 91
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.45,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 24,
+      "id": "elena__214lp",
+      "input": {
+        "numpad": "214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Moon Glider",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand; sways back slightly (can avoid attacks); sways on frames 5-14 (max distance of 0.40 on frame 5); puts airborne opponents into limited juggle state; safe option out of Drive Rush that can bait the opponent's button/throw and grants a light combo extension after a whiff punish",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -21,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "4(19)3(22)5(2)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.07,
+      "blockstun": 47,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x2,200x2 (1000)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": 54,
+      "id": "elena__214mk",
+      "input": {
+        "numpad": "214MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,0,0,3",
+        "limit": "2,3,3,3",
+        "start": "1,1,1,3"
+      },
+      "name": {
+        "en": "Spinning Scythe",
+        "ja": null
+      },
+      "notes": {
+        "en": "Lynx Whirl Cancels (on Hit/on Block/on PC): ~6LP -3/-12/+1, ~6MP -11/-20/-7, ~6HP -13/-22/-9; first 2 hits force stand (last 2 hits will whiff vs. crouch block); first 2 hits have an extended foot hurtbox that can only hit standing opponents (shorter range vs. crouching); block disadvantage refers to stand(crouch); 2nd hit is cancelable into Lynx Whirl (enhanced Roll) on hit/block (but not whiff); all follow-ups are interruptible on block (even if opponent is in Burnout); Lynx Whirl cancel allows Elena to keep up pressure, but does not naturally combo into the follow-ups; Counter-hit/Punish Counter bonus advantage carries through first 2 hits (CH combos into ~6MK, PC combos into ~6LK); empty ~6LP Roll is safe on hit and can bait Parry/DI/Reversals; last hit puts opponent into limited juggle state (only SA3 cancel will combo unless 214LK connects in a high juggle)",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 42,
+      "onPerfectParry": 1,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 103
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.7,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 24,
+      "id": "elena__214mp",
+      "input": {
+        "numpad": "214MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Moon Glider",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand; sways back a moderate distance (can avoid attacks); sways on frames 5-18 (max distance of 0.50 on frame 9); puts airborne opponents into limited juggle state; safe option out of Drive Rush that can bait the opponent's button/throw and grants a 5MK combo extension after a whiff punish",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -20,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.74,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 24,
+      "id": "elena__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Moon Glider",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand; sways back a moderate distance (can avoid attacks); sways on frames 5-19 (max distance of 0.56 on frame 9); puts airborne opponents into limited juggle state; safe option out of Drive Rush that can bait the opponent's button/throw and grants a light combo extension after a whiff punish",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -21,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "2(4)4(19)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.64,
+      "blockstun": 48,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x2,500 (1100)",
+      "dmgScaling": "Combo (5% Extra)",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 1000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "elena__214pp6p",
+      "input": {
+        "numpad": "214PP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1,3",
+        "limit": "6,21,11",
+        "start": "1,1,1"
+      },
+      "name": {
+        "en": "Moon Glider Follow-up",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hitconfirmable follow-up from safe sway starter; puts opponents into limited juggle state (into SA2/SA3); sets up a safe jump vs. grounded opponents near the corner",
+        "ja": null
+      },
+      "onBlock": -19,
+      "onHit": 42,
+      "onPerfectParry": null,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 175,
+        "onHit": 350
+      },
+      "totalFrames": 82
+    },
+    {
+      "active": "2(4)4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.79,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x2",
+      "dmgScaling": "Combo (5% Extra)",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 750
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "elena__214p6p",
+      "input": {
+        "numpad": "214P~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "6,7",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Moon Glider Follow-up",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hitconfirmable follow-up from safe sway starter; puts opponents into limited juggle state (into SA3)",
+        "ja": null
+      },
+      "onBlock": -13,
+      "onHit": 39,
+      "onPerfectParry": null,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 175,
+        "onHit": 350
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "5(6)4(16)2",
+      "afterDriveRush": null,
+      "airborne": "7-63 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.458,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "elena",
+      "chipDamage": 500,
+      "damage": 250,
+      "damageText": "250,750,800 (1800)",
+      "dmgScaling": "30% Minimum; 30% Starter; 10% Immediate; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 1500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "elena__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-21 Air",
+      "juggle": {
+        "increase": "0,0,6",
+        "limit": "11x3",
+        "start": "2,2,1"
+      },
+      "name": {
+        "en": "Meteor Volley",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good anti-air with air invuln that fully covers the first 2 hits; cannot be used as an invincible reversal against grounded strikes/throws/projectiles (making it much more dangerous to be in Burnout); cannot hit cross-up; puts opponents into limited juggle state (can combo a 236KK full connect after a grounded hit); extreme block disadvantage allows many characters to set activate installs without sacrificing optimal punish starters",
+        "ja": null
+      },
+      "onBlock": -68,
+      "onHit": 44,
+      "onPerfectParry": -86,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 94
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.92,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "elena",
+      "chipDamage": 750,
+      "damage": 2800,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "elena__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-17 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Revival Dance",
+        "ja": null
+      },
+      "notes": {
+        "en": "Excellent anti-fireball tool due to its invincibility and forward movement; slow startup makes it risky as a reversal (can be safely meatied by light normals); leaves Elena farther away than the Healing version, but with more advantage for Lynx Song or Drive Rush pressure; generally a poor anti-air but can catch some mid-range neutral jumps or divekick landing recovery; has a large combo-only hitbox that makes it more consistent in juggles; opponents can jump after the Super freeze to avoid a chip KO",
+        "ja": null
+      },
+      "onBlock": -47,
+      "onHit": 25,
+      "onPerfectParry": -66,
+      "onPunishCounter": 25,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 62,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 79
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.92,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "elena",
+      "chipDamage": 750,
+      "damage": 1950,
+      "damageText": "1950[+1600 Heal]",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "elena__236236p[2]",
+      "input": {
+        "numpad": "236236P~[2]",
+        "official": null
+      },
+      "invuln": "1-17 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Revival Dance (Healing)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Sacrifices damage and oki in exchange for healing 100 HP; the healing amount is not affected by damage scaling, making it more useful in a highly scaled combo; Elena builds 1 bar of Drive gauge when healing which also allows Drive regeneration to resume slightly earlier (also applies to Burnout gauge); excellent anti-fireball tool due to its invincibility and forward movement; slow startup makes it risky as a reversal (can be safely meatied by light normals); opponents can jump after the Super freeze to avoid a chip KO",
+        "ja": null
+      },
+      "onBlock": -47,
+      "onHit": 1,
+      "onPerfectParry": -66,
+      "onPunishCounter": 1,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 62,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 79
+    },
+    {
+      "active": "5(11)6",
+      "afterDriveRush": null,
+      "airborne": "21-45 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.04,
+      "blockstun": 33,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,900",
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "elena__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,5",
+        "limit": "15,15",
+        "start": "1,2"
+      },
+      "name": {
+        "en": "Rhino Horn",
+        "ja": null
+      },
+      "notes": {
+        "en": "Farthest distance; whiffs on crouching opponents; Low Crush 23-43f; puts opponents into limited juggle state with follow-ups like 623HK possible in the corner; 4f extra recovery on block/whiff; KD Advantage refers to grounded hits (varies against airborne opponents)",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 40,
+      "onPerfectParry": -24,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 58
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": "11-24 Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Lynx Song",
+        "ja": null
+      },
+      "notes": {
+        "en": "Longest total distance (2.21); 16f/1.08 distance before 6LK; 19f/1.35 distance before 6MK/6HK/6P; crouch-sized hurtbox 3-26f (but still considered standing); can execute the 6LK follow-up 3f earlier than the other follow-ups; Elena is in a Counter-hit state for the entire roll duration",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 38,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": null,
+      "totalFrames": 38
+    },
+    {
+      "active": "7(7)4,7",
+      "afterDriveRush": null,
+      "airborne": "11-38 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.02,
+      "blockstun": 35,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x3",
+      "dmgScaling": "30% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "elena__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,5,5",
+        "limit": "15,15,20",
+        "start": "1,2,2"
+      },
+      "name": {
+        "en": "Rhino Horn",
+        "ja": null
+      },
+      "notes": {
+        "en": "Whiffs on crouching opponents; Low Crush 13-35f; puts opponents into limited juggle state with follow-ups possible anywhere on the screen; some hits can whiff under high airborne opponents (at certain heights, allows a sideswitch juggle); 6f extra recovery on block/whiff; KD Advantage refers to grounded hits (varies against airborne opponents)",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 43,
+      "onPerfectParry": -21,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "5(10)6",
+      "afterDriveRush": null,
+      "airborne": "13-36 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.19,
+      "blockstun": 31,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,700",
+      "dmgScaling": "30% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "elena__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,5",
+        "limit": "15,15",
+        "start": "1,2"
+      },
+      "name": {
+        "en": "Rhino Horn",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shortest distance; whiffs on crouching opponents; Low Crush 15-34f; puts opponents into limited juggle state with follow-ups possible in the corner; 3f extra recovery on block/whiff; KD Advantage refers to grounded hits (varies against airborne opponents)",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 39,
+      "onPerfectParry": -23,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__236lp",
+      "input": {
+        "numpad": "236LP",
+        "official": null
+      },
+      "invuln": "11-21 Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Lynx Song",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shortest total distance (1.37); 13f/0.72 distance before 6LK; 16f/0.87 distance before 6MK/6HK/6P; crouch-sized hurtbox 3-26f (but still considered standing); can execute the 6LK follow-up 3f earlier than the other follow-ups; Elena is in a Counter-hit state for the entire roll duration",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": null,
+      "totalFrames": 28
+    },
+    {
+      "active": "5(11)6",
+      "afterDriveRush": null,
+      "airborne": "17-41 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.64,
+      "blockstun": 33,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,800",
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "elena__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,5",
+        "limit": "15,15",
+        "start": "1,2"
+      },
+      "name": {
+        "en": "Rhino Horn",
+        "ja": null
+      },
+      "notes": {
+        "en": "Medium distance; whiffs on crouching opponents; Low Crush 19-39f; puts opponents into limited juggle state with follow-ups possible in the corner; 4f extra recovery on block/whiff; KD Advantage refers to grounded hits (varies against airborne opponents)",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 39,
+      "onPerfectParry": -24,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 54
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__236mp",
+      "input": {
+        "numpad": "236MP",
+        "official": null
+      },
+      "invuln": "11-22 Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Lynx Song",
+        "ja": null
+      },
+      "notes": {
+        "en": "Medium total distance (1.72); 13f/0.66 distance before 6LK; 18f/0.98 distance before 6MK/6HK/6P; crouch-sized hurtbox 3-26f (but still considered standing); can execute the 6LK follow-up 5f earlier than the other follow-ups; Elena is in a Counter-hit state for the entire roll duration",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 36,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": null,
+      "totalFrames": 36
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": "8-26 Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Lynx Song",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-ups are enhanced like the Lynx Whirl versions after only one spin; total distance is between the MP/HP versions (2.02); 15f/0.93 distance before 6LK; 18f/1.19 distance before 6MK/6HK/6P; crouch-sized hurtbox 3-26f (but still considered standing); can execute the 6LK follow-up 3f earlier than the other follow-ups; this version is good for combos, pressuring from neutral, and punishing projectiles due to the faster startup on enhanced follow-ups; Elena is in a Counter-hit state for the entire roll duration",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 34,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": null,
+      "totalFrames": 34
+    },
+    {
+      "active": "2(2)2",
+      "afterDriveRush": null,
+      "airborne": "9-22 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.5,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 100,
+      "damage": 500,
+      "damageText": "500x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": 26,
+      "id": "elena__236pp6hkor236p6p6hk",
+      "input": {
+        "numpad": "236PP~6HK or 236P~6P~6HK",
+        "official": null
+      },
+      "invuln": "5-27 Projectile*",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "5,6",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Mallet Smash",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits (if 1st hit is blocked, 2nd hit is no longer an overhead); Low Crush 5-22f (can avoid moves before becoming airborne); projectile invuln disappears for a brief period after Lynx Song/Whirl (less effective as a fireball counter); projectile invuln does not apply to the top of Elena's head; Elena immediately loses crouch-sized hurtbox from Lynx Song; overhead that gives strong follow-up pressure on block, a 2LP on hit, and a medium combo after baiting the opponent's low buttons or throw tech; puts airborne opponents into limited juggle state on hit (can always pick up a juggle, but exact route depends on height and distance)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 4,
+      "onPerfectParry": -20,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": null,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "5(5)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.65,
+      "blockstun": 28,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "elena__236pp6lkor236p6p6lk",
+      "input": {
+        "numpad": "236PP~6LK or 236P~6P~6LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "5,10",
+        "limit": "15,15",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Leopard Snap",
+        "ja": null
+      },
+      "notes": {
+        "en": "Elena immediately loses crouch-sized hurtbox and projectile invuln from Lynx Song (hard to use vs. projectiles); strong ender from Spinning Scythe on hit (3f gap) to reset pressure (but does not frame trap on block); useful for pressure on block (can beat 4f normals with 2LP, catch back walk with 2LK~2LP, and throw except vs. midscreen back walk); 1f extra recovery on whiff; the version used from OD Lynx Song is not considered an OD move for cancel purposes (no SA2 cancel); puts the opponent into a limited juggle state",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 48,
+      "onPerfectParry": 1,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": null,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "3(6)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.74,
+      "blockstun": 24,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600,700",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "elena__236pp6mkor236p6p6mk",
+      "input": {
+        "numpad": "236PP~6MK or 236P~6P~6MK",
+        "official": null
+      },
+      "invuln": "1-10 Projectile",
+      "juggle": {
+        "increase": "0,3",
+        "limit": "11,11",
+        "start": "1,4"
+      },
+      "name": {
+        "en": "Harvest Circle",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on block/whiff; 1st hit pulls opponents inward on hit/block for combo consistency; extended kicking foot hurtbox is anti-air invuln while active on frames 8-10 (can anti-air opponents jumping out of roll pressure, but cannot hit cross-up); maintains projectile invuln from Lynx Song/Whirl to counter fireballs more effectively; Elena immediately loses crouch-sized hurtbox from Lynx Song; can combo from Spinning Scythe ~ Lynx Whirl on Counter-hit/Punish Counter; puts opponent into a limited juggle state",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 50,
+      "onPerfectParry": 1,
+      "onPunishCounter": 50,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": null,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__236pp6p",
+      "input": {
+        "numpad": "236PP~6P",
+        "official": null
+      },
+      "invuln": "1-26 Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Lynx Whirl",
+        "ja": null
+      },
+      "notes": {
+        "en": "Nearly identical to meterless versions except that the cancel window into follow-up specials is extended 3f longer; accessible from a previous OD Lynx Song; performs an extra spin, enhancing the follow-up specials (~6LK, ~6MK, ~6HK); can continue rolling indefinitely with repeated ~6P inputs; crouch-sized hurtbox 1-26f (but still considered standing); startup refers to minimum number of frames before each follow-up can come out (15-24f ~6LK, 18-24f ~6MK/~6HK, 20-24f ~6P); total roll distance: 2.59; Elena is in a Counter-hit state for the entire roll duration",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 34,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": null,
+      "totalFrames": 34
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "14-23 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.33,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 160,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 24,
+      "id": "elena__236p6hk",
+      "input": {
+        "numpad": "236P~6HK",
+        "official": null
+      },
+      "invuln": "5-24 Projectile*",
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Mallet Smash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Low Crush 14-24f (final active frame is considered standing but still has a high hurtbox); projectile invuln disappears for a brief period after Lynx Song (less effective as a fireball counter); projectile invuln does not apply to the top of Elena's head; Elena immediately loses crouch-sized hurtbox from Lynx Song; safe overhead that can lead to a 5MK combo after baiting the opponent's throw tech; puts airborne opponents into limited juggle state on hit (can always pick up corner juggles, but midscreen juggles depend on height/spacing);  total minimum startup depends on which strength of Lynx Song was used (LP 16+22, MP 18+22, HP 19+22, OD 18+22)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -20,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": null,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__236p6hp",
+      "input": {
+        "numpad": "236P~6HP",
+        "official": null
+      },
+      "invuln": "1-26 Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Lynx Whirl",
+        "ja": null
+      },
+      "notes": {
+        "en": "Accessible from a previous Lynx Song or Spin Scythe; performs an extra spin, enhancing the follow-up specials (~6LK, ~6MK, ~6HK); can continue rolling indefinitely with repeated ~6P inputs; crouch-sized hurtbox 1-26f (but still considered standing); startup refers to minimum number of frames before each follow-up can come out (15-21f ~6LK, 18-21f ~6MK/~6HK, 20-21f ~6P); total roll distance: 2.46; Elena is in a Counter-hit state for the entire roll duration",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 38,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": null,
+      "totalFrames": 38
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.14,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "elena__236p6lk",
+      "input": {
+        "numpad": "236P~6LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "5",
+        "limit": "15",
+        "start": "1"
+      },
+      "name": {
+        "en": "Leopard Snap",
+        "ja": null
+      },
+      "notes": {
+        "en": "Elena immediately loses crouch-sized hurtbox and projectile invuln from Lynx Song (hard to use vs. projectiles); generally safe on block if spaced as a poke; punishable by most characters at closer ranges (notable exceptions: A.K.I. only gets 2LK, Mai gets nothing); combos when buffered from 2MP or 2MK~HK in neutral; puts the opponent into a limited juggle state (only into SA3 cancel except in high corner juggles); total minimum startup depends on which strength of Lynx Song was used (LP 13+10, MP 13+10, HP 16+10, OD 15+10)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 35,
+      "onPerfectParry": -25,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": null,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__236p6lp",
+      "input": {
+        "numpad": "236P~6LP",
+        "official": null
+      },
+      "invuln": "1-21 Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Lynx Whirl",
+        "ja": null
+      },
+      "notes": {
+        "en": "Accessible from a previous Lynx Song or Spin Scythe; performs an extra spin, enhancing the follow-up specials (~6LK, ~6MK, ~6HK); can continue rolling indefinitely with repeated ~6P inputs; crouch-sized hurtbox 1-26f (but still considered standing); startup refers to minimum number of frames before each follow-up can come out (15-21f ~6LK, 18-21f ~6MK/~6HK, 20-21f ~6P); total roll distance: 1.43; Elena is in a Counter-hit state for the entire roll duration; safest version of empty Roll to cancel into (e.g. Spinning Scythe ~ empty Lynx Whirl to bait DI/Parry/reversal)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": null,
+      "totalFrames": 28
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.43,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "elena__236p6mk",
+      "input": {
+        "numpad": "236P~6MK",
+        "official": null
+      },
+      "invuln": "1-10 Projectile",
+      "juggle": {
+        "increase": "3",
+        "limit": "11",
+        "start": "1"
+      },
+      "name": {
+        "en": "Harvest Circle",
+        "ja": null
+      },
+      "notes": {
+        "en": "Extended kicking foot hurtbox is anti-air invuln while active on frames 8-10 (can anti-air opponents jumping out of roll pressure, but cannot hit cross-up); maintains projectile invuln from Lynx Song to counter fireballs more effectively; Elena immediately loses crouch-sized hurtbox from Lynx Song; total minimum startup depends on which strength of Lynx Song was used (LP 16+8, MP 18+8, HP 19+8, OD 18+8); puts opponent into a limited juggle state",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 44,
+      "onPerfectParry": -24,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": null,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__236p6mp",
+      "input": {
+        "numpad": "236P~6MP",
+        "official": null
+      },
+      "invuln": "1-26 Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Lynx Whirl",
+        "ja": null
+      },
+      "notes": {
+        "en": "Accessible from a previous Lynx Song or Spin Scythe; performs an extra spin, enhancing the follow-up specials (~6LK, ~6MK, ~6HK); can continue rolling indefinitely with repeated ~6P inputs; crouch-sized hurtbox 1-26f (but still considered standing); startup refers to minimum number of frames before each follow-up can come out (15-21f ~6LK, 18-21f ~6MK/~6HK, 20-21f ~6P); total roll distance: 1.94; Elena is in a Counter-hit state for the entire roll duration",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 36,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": null,
+      "totalFrames": 36
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -8,
+        "onHit": 31
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.967,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "elena__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Root Breaker",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range sweep; has juggle potential; punishable by most other sweeps even at max range",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 31,
+      "onPerfectParry": -25,
+      "onPunishCounter": 46,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 37
+    },
+    {
+      "active": "3(4)3",
+      "afterDriveRush": {
+        "onBlock": -3,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.195,
+      "blockstun": 23,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 6,
+        "onHit": 19
+      },
+      "hitstop": 6,
+      "hitstun": 36,
+      "id": "elena__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,1",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; Upper Body/Legs are anti-air invuln on frames 8-19 (solid anti-air but cannot hit cross-up); causes air reset vs. airborne opponents; anti-airing with the first hit results in very little frame advantage as the 2nd hit continues to whiff; forces stand (important for 236K combo routes); cancel only comes out on the 2nd hit (will cancel on whiff if the first hit connects on airborne opponent); anti-air cancel into Lynx Song allows Elena to threaten with a meaty roll follow-up or feint to bait Parry (timing/advantage varies heavily based on anti-air timing); high pushback on hit; follow-up links require a Counter-hit, Punish Counter, Drive Rush starter into a ranged button; Counter-hit/Punish Counter bonus advantage carries through both hits; if 1st hit is Perfect Parried, opponent can interrupt 2nd hit with 5f or faster attack",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": 6,
+      "onPerfectParry": -21,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.09,
+      "blockstun": 10,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "elena__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 2LP/2LK",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 3,
+      "onPerfectParry": -9,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 15
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.07,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "elena__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 2LP/2LK; topmost hurtbox on frames 1-6 is vulnerable only to aerial strikes (preventing its use as an anti-air); DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -9,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.338",
+        "onHit": "0.361"
+      },
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.726,
+      "blockstun": 17,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "elena__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on whiff/block; good combo starter out of Drive Rush but leaves Elena neutral if blocked; can combo naturally into 2LP, but Elena is always punishable by the opponent's 4f normal at this range",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 4,
+      "onPerfectParry": -19,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "1",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400(320)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 5,
+        "onHit": 14
+      },
+      "hitstop": 9,
+      "hitstun": 25,
+      "id": "elena__2mkhk",
+      "input": {
+        "numpad": "2MK~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Fluttering Lark",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage from 2MK combo starter; whiffs on crouching opponents (-18 after 2MK on hit, -24 after 2MK on block); 4f extra recovery on whiff or parry; the HK itself usually cannot be blocked since a blocked 2MK forces the opponent to crouch under it, but the entire sequence can be parried (block data notated with * refers to this scenario); if the TC is delayed as late as possible, the opponent can block 2MK and then Parry the follow-up or get hit while trying to jump; Special/DI/DR cancel is delayed until after 1st recovery frame",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 4,
+      "onPerfectParry": -23,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.5,
+      "blockstun": 19,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "elena__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great cancelable poke in neutral; not an anti-air despite the animation; DR cancel is delayed until after active frames",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": -21,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 5000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "elena__2pppkkk",
+      "input": {
+        "numpad": "2PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Down Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"What's up?\"",
+        "ja": null
+      },
+      "onBlock": -106,
+      "onHit": null,
+      "onPerfectParry": -121,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 120,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 144
+    },
+    {
+      "active": "9",
+      "afterDriveRush": {
+        "onBlock": -6,
+        "onHit": 31
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.88,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "elena__3hk",
+      "input": {
+        "numpad": "3HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Slide",
+        "ja": null
+      },
+      "notes": {
+        "en": "4f extra recovery on whiff or vs. armor; does not low profile under projectiles; reaches ~1/2 screen and is safe when spaced well",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 31,
+      "onPerfectParry": -29,
+      "onPunishCounter": 46,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.79,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "elena__4hk",
+      "input": {
+        "numpad": "4HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Round Arch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Low Crush 9-17f (not airborne); 2f extra recovery on whiff; Counter-hit/Punish Counter puts opponent into a limited juggle state (can chase with DR oki, 236LP~6LP~6LK pressure, or juggle 623MK/623KK if used point blank in the corner); Elena moves backward starting on frame 5 (can help avoid the opponent's attack or throw)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -19,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Leg Lift Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switches; no true throw oki even with Drive Rush (except frame-perfect DR~Throw vs. Zangief); in the corner, allows an auto-timed meaty DR~5MK that is +12 oH / +8 oB; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 19,
+      "onPerfectParry": null,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"And up!\"; can hold forward or back to transition into a hand-walking animation on frames 181-370",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 470,
+      "superGauge": null,
+      "totalFrames": 470
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__4pppkkk4",
+      "input": {
+        "numpad": "4PPPKKK~4",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt ~ Back Walk",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Hehe, over here!\"; cannot change walk animation once it has begun; total animation time depends on when Back was input during the initial Back Taunt",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 549,
+      "superGauge": null,
+      "totalFrames": 549
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__4pppkkk6",
+      "input": {
+        "numpad": "4PPPKKK~6",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt ~ Forward Walk",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Cool right? Give it a try!\"; cannot change walk animation once it has begun; total animation time depends on when Forward was input during the initial Back Taunt",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 586,
+      "superGauge": null,
+      "totalFrames": 586
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.915,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "elena__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Low Crush 9-17f (not airborne); good mid-range poke; Punish Counter puts opponent into limited juggle state (combos reliably into 236KK or SA2 unless whiff punishing a ranged attack); also causes limited juggle state on airborne Counter-hit (into 623HK at close range) and Punish Counter (slightly better juggles than grounded PC); extends hurtbox 1f before active that is vulnerable to projectiles; hitbox does not move forward during the active frames (cannot be spaced in neutral for better advantage)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 2,
+      "onPerfectParry": -21,
+      "onPunishCounter": 53,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.729,
+      "blockstun": 22,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "elena__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand; foot hitbox cannot hit crouching opponents (shorter range vs. crouching); Punish Counter puts opponent into limited juggle state; strong anti-air hitbox at longer ranges but cannot hit cross-up; extends hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -22,
+      "onPunishCounter": 46,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "4(3)4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.35,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "elena__5hphp",
+      "input": {
+        "numpad": "5HP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "1,2",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Turning Tail",
+        "ja": null
+      },
+      "notes": {
+        "en": "Whiffs on crouch blocking opponents; puts opponents into limited juggle state with a much more rewarding juggle after Punish Counter 5HP; if 5HP is stand blocked, the first hit of the follow-up will also be stand blocked, but the last hit still whiffs leaving Elena unsafe; starter scaling only applies if the 2nd HP begins the combo (e.g. opponent tries to jump out after crouch blocking 5HP)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 55,
+      "onPerfectParry": -19,
+      "onPunishCounter": 45,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.31,
+      "blockstun": 10,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -2,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "elena__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Ranged light poke that gives Elena strong punishes and confirms; allows for 4-light confirm strings after chained 2LPs, but does not combo naturally into 214LK; Special/DI cancel is delayed until after 2nd active frame; DR cancel is delayed until after 3rd active frame",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 2,
+      "onPerfectParry": -12,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.16,
+      "blockstun": 10,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -2,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "elena__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good range for a light normal; less range than 5LK, but leads to better 5f punish combos; DR cancel is delayed until after 3rd active frame",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -10,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 16
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.11,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "elena__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on whiff; useful combo and frame trap tool; short range for a 6-frame medium",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -15,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 22
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.612,
+      "blockstun": 19,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 7000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 6,
+        "onHit": 47
+      },
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "elena__5mkhk",
+      "input": {
+        "numpad": "5MK~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Hind Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state; Elena's main Target Combo conversion on crouching opponents; Special/DI/DR cancel is delayed until after 1st recovery frame",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 33,
+      "onPerfectParry": null,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.765,
+      "blockstun": 17,
+      "cancel": [
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "elena__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong neutral buffer tool; active frames 1-2 have shorter range (this close-range hitbox disappears after the 3rd active frame, making it less useful as a meaty); active frames 3-5 gain a longer range foot hitbox, but cannot hit crouching opponents and cannot hit cross-up; these later active frames result in 2f better frame advantage; the final 2 TC cancel frames do not combo without at least a Counter-hit starter; lenient hitconfirm window gives time to confirm a Super, or a TC follow-up if the opponent is standing; forces stand on Punish Counter, ensuring the TC will fully connect",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -18,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.94,
+      "blockstun": 15,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 5,
+        "onHit": 11
+      },
+      "hitstop": 11,
+      "hitstun": 21,
+      "id": "elena__5mpmp",
+      "input": {
+        "numpad": "5MP~MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Starling Beak",
+        "ja": null
+      },
+      "notes": {
+        "en": "Whiffs on crouching opponents (but can force stand with Punish Counter 5MP); interruptible 6-8f gap between hits; does not combo from the final 2 cancelable frames of 5MP without at least a Counter-hit",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": -4,
+      "onPerfectParry": -23,
+      "onPunishCounter": 0,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"It's such a lovely day. And I hope you're having a good one too!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 685,
+      "superGauge": null,
+      "totalFrames": 685
+    },
+    {
+      "active": "2,2,2",
+      "afterDriveRush": null,
+      "airborne": "7-46 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.17,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500,400,500 (1400)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "elena__623hk",
+      "input": {
+        "numpad": "623HK",
+        "official": null
+      },
+      "invuln": "1-12 Air",
+      "juggle": {
+        "increase": "1,1,1",
+        "limit": "20,21,22",
+        "start": "1,1,1"
+      },
+      "name": {
+        "en": "Scratch Wheel",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong mid-range anti air but cannot hit cross-up; has the most range for grounded juggles and cancels; connecting with active frames 3-4 makes the first hit whiff (500 less damage), and active frames 5-6 make the first 2 hits whiff (900 less damage), making early anti-air attempts weaker",
+        "ja": null
+      },
+      "onBlock": -33,
+      "onHit": 23,
+      "onPerfectParry": -52,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 34,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "4,2(12)2(1)2",
+      "afterDriveRush": null,
+      "airborne": "7-52 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.1,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 112,
+      "damage": 450,
+      "damageText": "450,350x2,450 (1600)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "elena__623kk",
+      "input": {
+        "numpad": "623KK",
+        "official": null
+      },
+      "invuln": "1-8 Full",
+      "juggle": {
+        "increase": "1,1,1,1",
+        "limit": "20,21,22,23",
+        "start": "1,1,1,1"
+      },
+      "name": {
+        "en": "Scratch Wheel",
+        "ja": null
+      },
+      "notes": {
+        "en": "Elena's primary reversal; cannot hit cross-up; connecting with active frames 5-6 makes the first hit whiff (450 less damage), making early anti-air attempts weaker",
+        "ja": null
+      },
+      "onBlock": -46,
+      "onHit": 25,
+      "onPerfectParry": -65,
+      "onPunishCounter": 25,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 72
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": "7-34 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.01,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 14,
+      "hitstun": null,
+      "id": "elena__623lk",
+      "input": {
+        "numpad": "623LK",
+        "official": null
+      },
+      "invuln": "1-9 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "20",
+        "start": "1"
+      },
+      "name": {
+        "en": "Scratch Wheel",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong close-range anti air but cannot hit cross-up; can launch high airborne opponent high enough for a follow-up Scratch Wheel juggle (incurs starter scaling)",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 36,
+      "onPerfectParry": -42,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "3,3",
+      "afterDriveRush": null,
+      "airborne": "7-41 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.03,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "elena",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600x2",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "elena__623mk",
+      "input": {
+        "numpad": "623MK",
+        "official": null
+      },
+      "invuln": "1-11 Air",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "20,21",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Scratch Wheel",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong close/mid-range anti air but cannot hit cross-up; active frames 4-6 will only deal 1 hit for half damage, making early anti-air attempts weaker; can only incur starter scaling if trading with a grounded normal and landing a follow-up juggle",
+        "ja": null
+      },
+      "onBlock": -30,
+      "onHit": 26,
+      "onPerfectParry": -48,
+      "onPunishCounter": 26,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 55
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.01,
+      "blockstun": 20,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "elena__6hp",
+      "input": {
+        "numpad": "6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Trunk Slap 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forward-moving ranged poke that can be hitconfirmed into a TC knockdown follow-up; TC is always a true blockstring; pushback keeps Elena safe (except at close range vs. Marisa/E.Honda/Sagat 2LP and Zangief 2LK); pushback also prevents a follow-up link even with Drive Rush (+5), but can link 5LK after a corner Punish Counter",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": -22,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.61,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "elena",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "elena__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Boar Charge (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.61,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "elena",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "elena__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Boar Charge (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.9,
+      "blockstun": 18,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 1250
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": 27,
+      "id": "elena__6hphp",
+      "input": {
+        "numpad": "6HP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Trunk Slap 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hitconfirmable extension from long-range 6HP; has no juggle potential (will not juggle after DI wall splat); always a true blockstring from 6HP",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": -2,
+      "onPerfectParry": null,
+      "onPunishCounter": 2,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "3(5)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.43,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 370,
+      "damageText": "370,380(296,304)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": null,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "elena__6hphphp",
+      "input": {
+        "numpad": "6HP~HP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Trunk Slap 3",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage after a 6HP combo starter; good corner carry and knockdown advantage that can lead to auto-timed Lynx Whirl pressure on the opponent's wakeup; always a true blockstring from 6HP~HP",
+        "ja": null
+      },
+      "onBlock": -16,
+      "onHit": 40,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 175,
+        "onHit": 350
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.716,
+      "blockstun": 19,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "elena__6mk",
+      "input": {
+        "numpad": "6MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Handstand Whip 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long-range overhead with fast startup and a hitconfirmable TC follow-up",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -20,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.07,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 750
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "elena__6mkmk",
+      "input": {
+        "numpad": "6MK~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": "0",
+        "start": null
+      },
+      "name": {
+        "en": "Handstand Whip 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hitconfirmable Target Combo that makes Elena's long-range overhead more threatening even without Drive Rush",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 29,
+      "onPerfectParry": null,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 175,
+        "onHit": 350
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"One, two, and spin! What do you say? How about you dance with me!\"; overrides the current background music with the Reniala Remains stage theme with increased volume",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 799,
+      "superGauge": null,
+      "totalFrames": 799
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.541,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "elena",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "elena__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Giraffe Neck",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "2(1)8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.27,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 19,
+      "id": "elena__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,0",
+        "limit": "0,1",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; 1st hit puts airborne opponents into limited juggle state; 2nd hit causes spike knockdown vs. airborne opponents; 2nd hit has the most horizontal range of Elena's air normals; overall weaker as an air approach due to the damage being split between 2 hits (very specific timing required to land both hits vs. grounded opponents); if 1st hit is stand blocked, the 2nd hit will not hit overhead against crouch block; lower body projectile invuln 10-22f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 7,
+      "onHit": 11,
+      "onPerfectParry": -6,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.2,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "elena__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Elena's strongest overall jump-in (reaches downward faster than j.HK and deals all its damage in one hit); lower body projectile invuln 10-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -8,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.82,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "elena__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be used as a fuzzy instant overhead; good downward hitbox priority (likely to beat or trade with anti-airs)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -9,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.55,
+      "blockstun": 10,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "elena__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; can be used as a fuzzy instant overhead (except vs. Blanka); Target Combo extension can lead to better advantage vs. grounded opponents, giving more time to hitconfirm a follow-up",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -7,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.09,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": null,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "elena__jlpjmk",
+      "input": {
+        "numpad": "j.LP~j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Soaring Raid",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hit after cross-up j.LP; can be done from any jump direction; does not work as an air-to-air even after a Forced Knockdown; will not connect if the j.LP hits a crouching opponent",
+        "ja": null
+      },
+      "onBlock": 8,
+      "onHit": 12,
+      "onPerfectParry": null,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.17,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "elena__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up with a wide hitbox in both directions; lower body projectile invuln 7-20f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -6,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.21,
+      "blockstun": 11,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "elena__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state; at most air-to-air timings, Elena's only follow-up juggle is a Target Combo extension; whiffs against standard-sized crouching opponents; lower body projectile invuln 8-17f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 11,
+      "onPerfectParry": -4,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.01,
+      "blockstun": null,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "elena__jmpjhp",
+      "input": {
+        "numpad": "j.MP~j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "5",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Raptor Range",
+        "ja": null
+      },
+      "notes": {
+        "en": "Knockdown ender from air-to-air j.MP that puts opponent into a limited juggle state; can be done from any jump direction; cannot connect on a grounded opponent",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Leg Tackle",
+        "ja": null
+      },
+      "notes": {
+        "en": "Grants a frame-perfect throw loop against Zangief (Dash + walk 2f); allows a frame-perfect corner throw loop with Drive Rush (more lenient vs. Marisa/Blanka/E.Honda/Zangief); throw pressure is more effective when mixed with other DR buttons, or feints like DR~214P); can also Dash + 5MK for weak pressure and a link to 5LK on hit; Lynx Song can be used for mixups (LP Roll into 6LK/6MK to beat reversal buttons, OD Roll into 6HK to beat throws, empty LP Roll to bait Perfect Parry at only -4 on whiff); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 24,
+      "onPerfectParry": null,
+      "onPunishCounter": 24,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "elena",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "elena__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.548 (min/throw), 2.100 (min/block), 3.011 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "Elena",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

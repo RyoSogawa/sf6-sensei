@@ -1,0 +1,5960 @@
+{
+  "aliases": [],
+  "id": "marisa",
+  "moves": [
+    {
+      "active": "8(32)3",
+      "afterDriveRush": null,
+      "airborne": "17-47 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.16,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "marisa",
+      "chipDamage": 500,
+      "damage": 3000,
+      "damageText": "3000(2500)",
+      "dmgScaling": "40% Minimum; 15% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "marisa__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": "1-16 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Meteorite",
+        "ja": null
+      },
+      "notes": {
+        "en": "Useful anti-air, reversal, and juggle ender; can be steered by holding forward/back; this affects the range, allowing you to hold back for close anti-airs or hold forward in ranged juggles or fireball punishes; upward hit triggers a cinematic; on block/whiff, ends with a downward slam that does 500 less damage than the cinematic version (still does full Drive Damage on hit); Marisa's collision box extends far downward, preventing opponent from walking or dashing underneath (opponent can still jump to avoid 2nd hit)",
+        "ja": null
+      },
+      "onBlock": -44,
+      "onHit": 17,
+      "onPerfectParry": -60,
+      "onPunishCounter": 17,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 59,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 110
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.356,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 1250
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "marisa__214hp",
+      "input": {
+        "numpad": "214HP",
+        "official": null
+      },
+      "invuln": "10-25 Air (Head)",
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Dimachaerus",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; cancelable into 6P follow-up on hit or armor absorb; puts airborne opponents into free juggle state",
+        "ja": null
+      },
+      "onBlock": -16,
+      "onHit": 38,
+      "onPerfectParry": -32,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 288,
+        "onHit": 575
+      },
+      "totalFrames": 55
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 5000,
+        "gain": 1250
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "marisa__214hp6p",
+      "input": {
+        "numpad": "214HP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "HP Dimachaerus Follow-up",
+        "ja": null
+      },
+      "notes": {
+        "en": "Only comes out after 214HP hits or is armor absorbed",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 56,
+      "onPerfectParry": null,
+      "onPunishCounter": 50,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 575
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "26(116)",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "3-28(118) Upper Body",
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "marisa__214k",
+      "input": {
+        "numpad": "214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Scutum",
+        "ja": null
+      },
+      "notes": {
+        "en": "Stance with 1-hit armor can be extended an extra 90f by holding the button, followed by 26 unarmored recovery frames; no armor on lower half of body; cancelable into follow-ups after 8f; stance cannot be canceled into from other attacks; absorbing an attack automatically triggers counterattack follow-up; Marisa takes a fixed 6f hitstop when absorbing attacks (causing the counterattack to often land as a Counter-hit rather than a Punish Counter against medium/heavy attacks)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 54
+    },
+    {
+      "active": "28(58)",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-28(58) 2-hit",
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "marisa__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Scutum",
+        "ja": null
+      },
+      "notes": {
+        "en": "Stance with 2-hit full-body armor can be extended an extra 30f by holding a kick button, followed by 29 unarmored recovery frames; cancelable into follow-ups after 8f; stance cannot be canceled into from other attacks; absorbing an attack automatically triggers counterattack follow-up; Marisa takes a fixed 6f hitstop when absorbing attacks (causing the counterattack to often land as a Counter-hit rather than a Punish Counter against medium/heavy attacks)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 29,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 57
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-10; Break",
+      "attackRange": 1.816,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "marisa__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Scutum (Counter)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Automatically triggers counterattack after 214KK absorbs attack; Marisa is in a Punish Counter state for entire duration; can hold button to remain in Scutum stance after counterattack; hit advantage depends on attack that is absorbed; Marisa's short 6f hitstop causes attack to land as a +1 Counter-hit against most Medium/Heavy normals, while landing as a +3 Punish Counter against Lights",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": -1,
+      "onPerfectParry": -22,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.916,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "marisa__214k",
+      "input": {
+        "numpad": "214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Scutum (Counter)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Automatically triggers counterattack after 214K absorbs attack; Marisa is in a Punish Counter state for entire duration; can hold button to remain in Scutum stance after counterattack; hit advantage depends on attack that is absorbed; Marisa's short 6f hitstop causes attack to land as a +1 Counter-hit against most Medium/Heavy normals, while landing as a +3 Punish Counter against Lights",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": -1,
+      "onPerfectParry": -22,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.711,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "marisa__214kk",
+      "input": {
+        "numpad": "214K~K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Procella",
+        "ja": null
+      },
+      "notes": {
+        "en": "Risky low ender; may catch opponent by surprise since the overhead ender is safe on block; Marisa is in a Punish Counter state for entire duration; range includes 0.218 forward movement from 214K startup",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 22,
+      "onPerfectParry": -38,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 37,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 55
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.164,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 2500,
+      "damageText": "2500 (2875)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "marisa__214klplk",
+      "input": {
+        "numpad": "214K~LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Enfold",
+        "ja": null
+      },
+      "notes": {
+        "en": "Marisa is in a Punish Counter state for entire duration; Range: 1.109 (final active frame: 1.164); range includes 0.218 forward movement from 214K startup",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 18,
+      "onPerfectParry": null,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.253,
+      "blockstun": 22,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "marisa__214kp",
+      "input": {
+        "numpad": "214K~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tonitrus 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "1st active frame only hits airborne opponents (functionally 8+16f startup vs. grounded); causes spike knockdown vs. airborne opponents; Marisa is in a Punish Counter state for entire duration; hitconfirm window is 1f shorter vs. grounded opponents; cannot be canceled into Tonitrus 2 on whiff; range includes 0.218 forward movement from 214K startup",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -23,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "marisa__214kpp",
+      "input": {
+        "numpad": "214K~P~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "1",
+        "start": "0"
+      },
+      "name": {
+        "en": "Tonitrus 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "True blockstring from overhead starter; Marisa is in a Punish Counter state for entire duration; cannot be performed when Tonitrus 1 whiffs",
+        "ja": null
+      },
+      "onBlock": -21,
+      "onHit": 31,
+      "onPerfectParry": null,
+      "onPunishCounter": 31,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 36,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 58
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.535,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 1250
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 31,
+      "id": "marisa__214lp",
+      "input": {
+        "numpad": "214LP",
+        "official": null
+      },
+      "invuln": "5-15 Air",
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Dimachaerus",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; cancelable into 6P follow-up on hit or armor absorb; puts airborne opponents into free juggle state",
+        "ja": null
+      },
+      "onBlock": -16,
+      "onHit": -3,
+      "onPerfectParry": -32,
+      "onPunishCounter": 1,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 288,
+        "onHit": 575
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 5000,
+        "gain": 1250
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "marisa__214lp6p",
+      "input": {
+        "numpad": "214LP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "LP Dimachaerus Follow-up",
+        "ja": null
+      },
+      "notes": {
+        "en": "Only comes out after 214LP hits or is armor absorbed",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 31,
+      "onPerfectParry": null,
+      "onPunishCounter": 31,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 575
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.356,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 1250
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 34,
+      "id": "marisa__214mp",
+      "input": {
+        "numpad": "214MP",
+        "official": null
+      },
+      "invuln": "6-19 Air (Upper body)",
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Dimachaerus",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; cancelable into 6P follow-up on hit or armor absorb; puts airborne opponents into free juggle state",
+        "ja": null
+      },
+      "onBlock": -16,
+      "onHit": 0,
+      "onPerfectParry": -32,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 288,
+        "onHit": 575
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 5000,
+        "gain": 1250
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "marisa__214mp6p",
+      "input": {
+        "numpad": "214MP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "MP Dimachaerus Follow-up",
+        "ja": null
+      },
+      "notes": {
+        "en": "Only comes out after 214MP hits or is armor absorbed; gives a slight ground bounce on hit (can follow up with juggle vs. airborne opponents)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 36,
+      "onPerfectParry": null,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 575
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.356,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "marisa__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": "5-19 Air",
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Dimachaerus",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; cancelable into 6P follow-up on hit or armor absorb; puts airborne opponents into free juggle state",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 42,
+      "onPerfectParry": -28,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 288,
+        "onHit": 575
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "marisa__214pp6p",
+      "input": {
+        "numpad": "214PP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "OD Dimachaerus Follow-up",
+        "ja": null
+      },
+      "notes": {
+        "en": "Only comes out after 214PP hits or is armor absorbed",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 58,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 575
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.911,
+      "blockstun": 28,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "marisa",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "marisa__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-19 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Goddess of the Hunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "Takes opponent to corner; cinematic time regenerates ~2.1 Drive bars for Marisa; excellent whiff punish and projectile counter tool (especially with Modern controls)",
+        "ja": null
+      },
+      "onBlock": -39,
+      "onHit": 14,
+      "onPerfectParry": -65,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 60,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 79
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.911,
+      "blockstun": 28,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "marisa",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "marisa__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-19 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Goddess of the Hunt (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Takes opponent to corner; available at 25% HP or below; cinematic time regenerates ~2.1 Drive bars for Marisa; excellent whiff punish and projectile counter tool (especially with Modern controls)",
+        "ja": null
+      },
+      "onBlock": -39,
+      "onHit": 14,
+      "onPerfectParry": -65,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 60,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 79
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break; 1-23 (2 hits)",
+      "attackRange": 3.215,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "marisa",
+      "chipDamage": 500,
+      "damage": 2200,
+      "damageText": null,
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "marisa__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1 Strike/Throw",
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Javelin of Marisa",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hold button 27f for more damage and a cinematic counter that activates against strikes and throws",
+        "ja": null
+      },
+      "onBlock": -43,
+      "onHit": 14,
+      "onPerfectParry": -63,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 60,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 83
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "marisa",
+      "chipDamage": 500,
+      "damage": 2400,
+      "damageText": null,
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "marisa__236236[p]counter",
+      "input": {
+        "numpad": "236236[P] Counter",
+        "official": null
+      },
+      "invuln": "1-10 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "5",
+        "start": "100"
+      },
+      "name": {
+        "en": "Javelin of Marisa",
+        "ja": null
+      },
+      "notes": {
+        "en": "Automatically triggers counterattack after Held SA1 armor absorbs a strike or throw on frames 1-27; can be baited with safe jump timing",
+        "ja": null
+      },
+      "onBlock": -37,
+      "onHit": 46,
+      "onPerfectParry": -55,
+      "onPunishCounter": 46,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 63
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break; 1-47 (2 hits)",
+      "attackRange": 3.075,
+      "blockstun": 24,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "marisa",
+      "chipDamage": 500,
+      "damage": 2900,
+      "damageText": "2900(2600)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "marisa__236236[p]",
+      "input": {
+        "numpad": "236236[P]",
+        "official": null
+      },
+      "invuln": "1 Strike/Throw",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Javelin of Marisa",
+        "ja": null
+      },
+      "notes": {
+        "en": "Held version; only the first 3 active frames trigger cinematic hit, which deals extra damage and Drive damage; max-range non-cinematic version does not give a Hard Knockdown; if frames 1-27 absorb a strike or throw, results in Counterattack version instead; has slightly less range than the uncharged version",
+        "ja": null
+      },
+      "onBlock": -42,
+      "onHit": 35,
+      "onPerfectParry": -64,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 60,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 42,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 107
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.735,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 400,
+      "damage": 1600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 12000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Quadriga",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; ~70% screen length",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 37,
+      "onPerfectParry": -23,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 29,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 53
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "5-15 (High/Mid)",
+      "attackRange": 2.105,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 400,
+      "damage": 1600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 12000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "marisa__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gladius",
+        "ja": null
+      },
+      "notes": {
+        "en": "Armor loses to low attacks; cannot hit cross-up; can hold the button 35f to charge a more powerful version (armor is lost immediately upon button release); after releasing partial charge, startup is 10f (frames 12-19), 9f (frames 20-27), or 8f (frames 28-34); holding the button for 33-34f results in an uncharged 236HP with even slower startup than the fully charged version",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 36,
+      "onPerfectParry": -23,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break; 5-35 (High/Mid)",
+      "attackRange": 2.375,
+      "blockstun": 28,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 400,
+      "damage": 1600,
+      "damageText": "1600,1000,200 (2800)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 12000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__236[hp]",
+      "input": {
+        "numpad": "236[HP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,6",
+        "start": "0"
+      },
+      "name": {
+        "en": "Gladius (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Armor loses to low attacks; transitions to a cinematic follow-up on hit; vs. airborne opponents, 2nd follow-up hit whiffs (no Hard Knockdown and reduced Super Meter gain); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 40,
+      "onPerfectParry": -22,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 41,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 64
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 3.54,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 375,
+      "damage": 1500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 12000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "0"
+      },
+      "name": {
+        "en": "Quadriga",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; ~65% screen length; Wall Splat on hit; KD Advantage increases when farther from the wall; significant pushback on block makes it hard to punish when spaced out",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 50,
+      "onPerfectParry": -26,
+      "onPunishCounter": 50,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.885,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 12000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Quadriga",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; ~50% screen length",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 35,
+      "onPerfectParry": -26,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "5-10 (High/Mid)",
+      "attackRange": 1.865,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 12000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "marisa__236lp",
+      "input": {
+        "numpad": "236LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gladius",
+        "ja": null
+      },
+      "notes": {
+        "en": "Armor loses to low attacks; cannot hit cross-up; can hold the button 26f to charge a more powerful version (armor is lost immediately upon button release); after releasing partial charge, startup is 5f (frames 12-19) or 4f (frames 20-25); holding the button for 11-12f can extend the armor by 1-2f without increasing startup",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 36,
+      "onPerfectParry": -23,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break; 5-26 (High/Mid)",
+      "attackRange": 2.075,
+      "blockstun": 28,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": "1200,1000,200 (2400)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 12000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__236[lp]",
+      "input": {
+        "numpad": "236[LP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,6",
+        "start": "0"
+      },
+      "name": {
+        "en": "Gladius (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Armor loses to low attacks; transitions to a cinematic follow-up on hit; vs. airborne opponents, 2nd follow-up hit whiffs (no Hard Knockdown and reduced Super Meter gain); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 40,
+      "onPerfectParry": -22,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 30,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 53
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.22,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 375,
+      "damage": 1500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 12000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Quadriga",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; ~60% screen length",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 37,
+      "onPerfectParry": -24,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "5-12 (High/Mid)",
+      "attackRange": 1.985,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 12000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "marisa__236mp",
+      "input": {
+        "numpad": "236MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gladius",
+        "ja": null
+      },
+      "notes": {
+        "en": "Armor loses to low attacks; cannot hit cross-up; can hold the button 29f to charge a more powerful version (armor is lost immediately upon button release); after releasing partial charge, startup is 7f (frames 12-19) or 6f (frames 20-28)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 36,
+      "onPerfectParry": -23,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break; 5-29 (High/Mid)",
+      "attackRange": 2.255,
+      "blockstun": 28,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": "1400,1000,200 (2600)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 12000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__236[mp]",
+      "input": {
+        "numpad": "236[MP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,6",
+        "start": "0"
+      },
+      "name": {
+        "en": "Gladius (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Armor loses to low attacks; transitions to a cinematic follow-up on hit; vs. airborne opponents, 2nd follow-up hit whiffs (no Hard Knockdown and reduced Super Meter gain); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 40,
+      "onPerfectParry": -22,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 35,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 58
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break; 1-22 (2-hit, High/Mid)",
+      "attackRange": 2.105,
+      "blockstun": 23,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 425,
+      "damage": 1700,
+      "damageText": null,
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 12000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "marisa__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gladius",
+        "ja": null
+      },
+      "notes": {
+        "en": "Armor loses to low attacks; cannot hit cross-up; can hold the button 29f to charge a more powerful version; after releasing partial charge, startup is 8f (frames 11-12), 7f (frames 13-19), or 6f (frames 20-28)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 36,
+      "onPerfectParry": -23,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break; 1-38 (2-hit, High/Mid)",
+      "attackRange": 2.269,
+      "blockstun": 28,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 425,
+      "damage": 1700,
+      "damageText": "1700,1000,200 (2900)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 12000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__236[pp]",
+      "input": {
+        "numpad": "236[PP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,6",
+        "start": "0"
+      },
+      "name": {
+        "en": "Gladius (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Armor loses to low attacks; transitions to a cinematic follow-up on hit; vs. airborne opponents, 2nd follow-up hit whiffs (no Hard Knockdown and reduced Super Meter gain); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 40,
+      "onPerfectParry": -22,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 35,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 58
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -7,
+        "onHit": 29
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.856,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 10000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "marisa__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gaia Bash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hold button 20f for improved properties; has juggle potential; topmost hurtboxes on frames 1-7 are projectile invincible (avoids Sagat's MP/HP Tiger Shot)",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 29,
+      "onPerfectParry": -27,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 35
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.956,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 12000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__2[hk]",
+      "input": {
+        "numpad": "2[HK]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gaia Bash (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f extra recovery on whiff; has juggle potential and keeps the opponent in a limited juggle state (e.g. corner OTG bounce > 2[HK] > SA2); releasing the button on frames 7-15 results in uncharged version with 4f startup; topmost hurtboxes on frames 1-7 are projectile invincible (avoids Sagat's MP/HP Tiger Shot but becomes vulnerable on frame 8~)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -24,
+      "onPunishCounter": 50,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 35
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.103,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "marisa__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": "10-13 Air (Head)",
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hold button 17f for improved properties; slow but solid anti-air; cannot hit cross-up; only first 2 active frames hit grounded opponents; active frames 3-5 only hit airborne opponents; puts opponent into limited juggle state on hit (higher launch vs. airborne, and much higher on Punish Counter)",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 35,
+      "onPerfectParry": -26,
+      "onPunishCounter": 54,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "6",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 52
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.103,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 12000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 17,
+      "hitstun": null,
+      "id": "marisa__2[hp]",
+      "input": {
+        "numpad": "2[HP]",
+        "official": null
+      },
+      "invuln": "20-31 Air (Head)",
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Launches opponent into limited juggle state on hit, and much higher launch on Punish Counter; useful for continuing juggles; cannot hit cross-up and too slow to realistically anti-air; only first 2 active frames hit grounded opponents; active frames 3-6 only hit airborne opponents; releasing the button on frames 5-16 results in uncharged version with 4f startup; only Super cancelable on the first 2 active frames; can always combo into a fully charged SA1 for incredible 1-bar damage; hitstop is 2 frames longer on hit than on block for easier cancel hitconfirms",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 52,
+      "onPerfectParry": -25,
+      "onPunishCounter": 61,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.34,
+      "blockstun": 12,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "marisa__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 2LP/2LK",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -13,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 19
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.17,
+      "blockstun": 11,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -2,
+        "onHit": 3
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "marisa__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 2LP/2LK; Marisa's only 4f normal; special cancel is delayed until after active frames; DR cancel is delayed until after 2nd recovery frame",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -10,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.389",
+        "onHit": "0.363"
+      },
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 15
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.623,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "marisa__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "1f extra recovery on whiff/block; solid low poke with good range and hitbox priority; strong Drive Rush starter that links into 4HP or 5MP~MP at close range, 2MP at mid range, or 6MP from farther out; topmost hurtboxes on frames 9-16 are projectile invincible (avoids Sagat's MP/HP Tiger Shot but becomes vulnerable on frame 17~)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 5,
+      "onPerfectParry": -19,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.45,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "marisa__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range for a cancelable 2MP (but slower than average startup); topmost hurtboxes on frames 8-15 are projectile invincible (avoids Sagat's MP/HP Tiger Shot)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -17,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 26
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.717,
+      "blockstun": 20,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 23,
+      "id": "marisa__3hp",
+      "input": {
+        "numpad": "3HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Malleus Breaker 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hold button 17f for improved propertied; has a Target Combo follow-up; causes a short OTG bounce vs. airborne opponents",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 0,
+      "onPerfectParry": -21,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "marisa__3hp3hp",
+      "input": {
+        "numpad": "3HP~3HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Malleus Breaker 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "Gives a risky 2nd overhead after 3HP; true blockstring, so opponent can safely mash a standing normal after blocking 3HP without being frame trapped or hit by the overhead; can be juggled into (KD +31); can whiff at longer ranges of 3HP (much more unsafe)",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 29,
+      "onPerfectParry": null,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 6,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.907,
+      "blockstun": 23,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 12000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "marisa__3[hp]",
+      "input": {
+        "numpad": "3[HP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Malleus Breaker 1 (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Slow overhead that can combo on hit or give pressure on block; releasing the button on frames 7-13 results in uncharged version with 14f startup; causes a short OTG bounce vs. airborne opponents",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 5,
+      "onPerfectParry": -19,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 28,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.323,
+      "blockstun": 22,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 9,
+        "onHit": 13
+      },
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "marisa__4hp",
+      "input": {
+        "numpad": "4HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Magna Bunker",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f extra recovery on whiff; can hold button 17f for improved properties; causes air reset when juggled into without Drive Rush; short range but important in combos and pressure; special/DR cancel is delayed until after 2nd recovery frame",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 8,
+        "onHit": 17
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.413,
+      "blockstun": 24,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 2500
+      },
+      "driveRushCancel": {
+        "onBlock": 14,
+        "onHit": 23
+      },
+      "hitstop": 15,
+      "hitstun": 33,
+      "id": "marisa__4[hp]",
+      "input": {
+        "numpad": "4[HP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Magna Bunker (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "5f extra recovery on whiff; 2nd active frame is omitted on hit/block (when combined with the extra whiff recovery, the total frame count is 6f longer on whiff compared to hit/block); releasing the button on frames 5-16 results in uncharged version with 3f startup; short range but excellent combo and pressure tool; meaty connect does not give extra frame advantage; puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 13,
+      "onPerfectParry": -18,
+      "onPunishCounter": 17,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.9,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "marisa__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Ponte Milvio",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switch; after throwing opponent into corner, can Drive Rush for strong strike/throw mixup; DR~5[HP] trades with reversal 4f normals for a high-damage trade combo; meaty options are much weaker after normal dash (no throw, limited conversions on hit); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 33,
+      "onPerfectParry": null,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "marisa__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"This will be fun! *crack*\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 184,
+      "superGauge": null,
+      "totalFrames": 184
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.045,
+      "blockstun": 24,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "10% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "marisa__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1[0 PC]"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hold button 17f for improved properties; solid poke with good hitbox priority; Punish Counter puts opponent into free juggle state; puts airborne opponents into limited juggle state; extends a hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -25,
+      "onPunishCounter": 58,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 36
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.235,
+      "blockstun": 28,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": "10% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 12000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__5[hk]",
+      "input": {
+        "numpad": "5[HK]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1[0 PC]"
+      },
+      "name": {
+        "en": "Marisa Style (HK)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Releasing the button on frames 5-13 results in uncharged version with 10f startup; puts airborne opponents into limited juggle state; Punish Counter causes free juggle state",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 36,
+      "onPerfectParry": -25,
+      "onPunishCounter": 65,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.958,
+      "blockstun": 22,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "10% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "marisa__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hold button 21f for improved properties; strong whiff punish tool",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -23,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 8,
+        "onHit": 11
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.188,
+      "blockstun": 27,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": "10% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 12000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": 30,
+      "id": "marisa__5[hp]",
+      "input": {
+        "numpad": "5[HP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Marisa Style (HP)",
+        "ja": null
+      },
+      "notes": {
+        "en": "1f extra recovery on whiff; releasing the button on frames 7-17 results in uncharged version with 5f startup; great range and frame advantage for follow-up combos and pressure; puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 7,
+      "onPerfectParry": -21,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 24,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": "1000 (900)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "marisa__5hphp",
+      "input": {
+        "numpad": "5HP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Heavy Two Hitter",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage after 5HP combo starter; 6f gap between hits on block (1f gap if starting from 5[HP]); grants a safe jump near the corner on a grounded hit or low-height juggle",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 42,
+      "onPerfectParry": -20,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.433,
+      "blockstun": 14,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 2
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "marisa__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "At farther ranges, can only combo into SA2; special cancel is delayed until after 2nd recovery frame; DR cancel is delayed until after 3rd recovery frame",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 0,
+      "onPerfectParry": -14,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 21
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.216,
+      "blockstun": 12,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "marisa__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good neutral buffer into 5LP~LP Target Combo (requires at least a Counter-hit to combo); causes air reset if juggled into",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 0,
+      "onPerfectParry": -12,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 19
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 19,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "10% Starter; Combo (extra 5%)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 9,
+        "onHit": 12
+      },
+      "hitstop": 13,
+      "hitstun": 22,
+      "id": "marisa__5lplp",
+      "input": {
+        "numpad": "5LP~LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Light Two Hitter",
+        "ja": null
+      },
+      "notes": {
+        "en": "Requires Counter-hit, Punish Counter, or Drive Rush 5LP to combo; 3f gap on block between hits that allows for a frame trap",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": -3,
+      "onPerfectParry": -23,
+      "onPunishCounter": 1,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.749,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "marisa__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good poke and Drive Rush starter",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -18,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.356,
+      "blockstun": 18,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 21,
+      "id": "marisa__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on whiff; great hitbox and a strong buffer into 5MP~MP Target Combo",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 2,
+      "onPerfectParry": -17,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 5,
+        "onHit": 10
+      },
+      "hitstop": 13,
+      "hitstun": 22,
+      "id": "marisa__5mpmp",
+      "input": {
+        "numpad": "5MP~MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Medium Two Hitter",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great pressure and bully tool from 5MP; true blockstring between hits; special/DR cancel is delayed until after 1st recovery frame",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": -3,
+      "onPerfectParry": null,
+      "onPunishCounter": 1,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "marisa__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"I may need a second helping of you!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 242,
+      "superGauge": null,
+      "totalFrames": 242
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": "17-37 (FKD)",
+      "aliases": [],
+      "armor": "10-15 High/Mid",
+      "attackRange": 3.386,
+      "blockstun": 24,
+      "cancel": [],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 425,
+      "damage": 1700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 12000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__623hp",
+      "input": {
+        "numpad": "623HP",
+        "official": null
+      },
+      "invuln": "12-34 Lower Body Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Phalanx",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; hits 1f later vs. crouching opponents; leaves Marisa close enough to frame trap with 5LP~LP on block or use 5MP~MP without causing an air reset; can set up trade combos with 4f reversals using 5MP vs. stand block or 4HP vs. crouch block",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 42,
+      "onPerfectParry": -19,
+      "onPunishCounter": 58,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 32,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 52
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": "11-30 (FKD)",
+      "aliases": [],
+      "armor": "7-11 High/Mid",
+      "attackRange": 2.571,
+      "blockstun": 24,
+      "cancel": [],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 375,
+      "damage": 1500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 12000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__623lp",
+      "input": {
+        "numpad": "623LP",
+        "official": null
+      },
+      "invuln": "12-27 Lower Body Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Phalanx",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; hits 1f later vs. crouching opponents",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 42,
+      "onPerfectParry": -19,
+      "onPunishCounter": 58,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": "14-33 (FKD)",
+      "aliases": [],
+      "armor": "7-13 High/Mid",
+      "attackRange": 2.871,
+      "blockstun": 24,
+      "cancel": [],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 400,
+      "damage": 1600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 12000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__623mp",
+      "input": {
+        "numpad": "623MP",
+        "official": null
+      },
+      "invuln": "12-30 Lower Body Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Phalanx",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; hits 1f later vs. crouching opponents; leaves Marisa close enough to frame trap with 5LP~LP on block or use 5MP~MP without causing an air reset; can set up trade combos with 4f reversals using 5MP vs. stand block or 4HP vs. crouch block",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 42,
+      "onPerfectParry": -19,
+      "onPunishCounter": 58,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 28,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": "14-33 (FKD)",
+      "aliases": [],
+      "armor": "Break; 6-17 High/Mid",
+      "attackRange": 3.246,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "special",
+      "characterId": "marisa",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 12000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__623pp",
+      "input": {
+        "numpad": "623PP",
+        "official": null
+      },
+      "invuln": "12-30 Lower Body Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "0"
+      },
+      "name": {
+        "en": "Phalanx",
+        "ja": null
+      },
+      "notes": {
+        "en": "Sends opponent tumbling backward into OTG state; if opponent hits the corner, a low-height Wall Splat occurs (opponent is grounded and throwable, but strikes put them into juggle state); cannot hit cross-up; hits 1f later vs. crouching opponents; can set up trade combos with 4f reversals using 4HP vs. stand block or 6MP vs. crouch block",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 70,
+      "onPerfectParry": -19,
+      "onPunishCounter": 76,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 28,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.912,
+      "blockstun": 22,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 12,
+        "onHit": 15
+      },
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "marisa__6hk",
+      "input": {
+        "numpad": "6HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Falx Crusher 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hold button 21f for improved properties; has a hitconfirmable Target Combo follow-up; forces stand on hit",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 0,
+      "onPerfectParry": -23,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "marisa__6hk6hk",
+      "input": {
+        "numpad": "6HK~6HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "3",
+        "start": "6"
+      },
+      "name": {
+        "en": "Falx Crusher 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hitconfirmable ender after 6HK; delaying the input can create a frame trap up to 3f on block (no gap if starting from 6[HK]); puts opponent into limited juggle state; extremely powerful when juggled into (does not increase juggle count at all from DR~6HK)",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 52,
+      "onPerfectParry": -28,
+      "onPunishCounter": 52,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 7,
+        "onHit": 14
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.212,
+      "blockstun": 26,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 12000,
+        "gain": 3000
+      },
+      "driveRushCancel": {
+        "onBlock": 14,
+        "onHit": 21
+      },
+      "hitstop": 15,
+      "hitstun": 33,
+      "id": "marisa__6[hk]",
+      "input": {
+        "numpad": "6[HK]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Falx Crusher 1 (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Releasing the button on frames 7-14 results in uncharged version with 7f startup (frames 15-20: 4f startup); has a hitconfirmable Target Combo follow-up; forces stand on hit; puts airborne opponents into limited juggle state; more range than uncharged version with excellent follow-up combos or block pressure; special/DR cancel is delayed until after 3rd active frame",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 10,
+      "onPerfectParry": -21,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 27,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.8,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "marisa",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "marisa__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Love Tap (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; 4f less hitstop on block compared to most Drive Reversals (changes the punish timing); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.8,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "marisa",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "marisa__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Love Tap (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); 4f less hitstop on block compared to most Drive Reversals (changes the punish timing); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.893,
+      "blockstun": 19,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "marisa__6mp",
+      "input": {
+        "numpad": "6MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Novacula 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong forward movement and can link into light normals after Counter-hit, Punish Counter, or Drive Rush; has 2 hitconfirmable Target Combo follow-ups; useful link option out of DR~2MK due to its range",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -20,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "marisa__6mphk",
+      "input": {
+        "numpad": "6MP~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Novacula Thrust",
+        "ja": null
+      },
+      "notes": {
+        "en": "Whiffs on crouching opponents; if the opponent is standing, this ender is preferable for its corner carry and Super cancelability; Super cancel is delayed until after 3rd active frame",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 39,
+      "onPerfectParry": null,
+      "onPunishCounter": 49,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 37
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "marisa__6mphp",
+      "input": {
+        "numpad": "6MP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Novacula Swipe",
+        "ja": null
+      },
+      "notes": {
+        "en": "Low follow-up; true blockstring from 6MP, so an opponent mashing a crouching button after blocked 6MP will not be frame trapped; useful confirm if 6MP hits crouching opponent",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 31,
+      "onPerfectParry": null,
+      "onPunishCounter": 31,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 287,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "[55]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "85-139",
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "marisa__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Come on, the first hit's free.\"; active frames refer to armored period",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 72,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 85,
+      "superGauge": null,
+      "totalFrames": 211
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.527,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "marisa",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "marisa__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Secutor",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.19,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "marisa__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hold button 20f for improved properties; lower body projectile invuln 10-21f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 10,
+      "onPerfectParry": -7,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.19,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 15000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__j[hk]",
+      "input": {
+        "numpad": "j.[HK]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Marisa Style (j.HK)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Releasing the button on frames 7-19 results in uncharged version with 3f startup; causes spike knockdown; lower body projectile invuln 29-37f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 13,
+      "onHit": 70,
+      "onPerfectParry": -7,
+      "onPunishCounter": 70,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 29,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.14,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "marisa__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hold button 20f for improved properties; causes spike knockdown vs. airborne opponents; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -8,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.14,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 15000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__j[hp]",
+      "input": {
+        "numpad": "j.[HP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Marisa Style (j.HP)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Releasing the button on frames 5-19 results in uncharged version with 5f startup; causes spike knockdown; lower body projectile invuln 28-37f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 12,
+      "onHit": 69,
+      "onPerfectParry": -8,
+      "onPunishCounter": 69,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 28,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.64,
+      "blockstun": 12,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "marisa__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; useful for safe jumps; can be used as a fuzzy instant overhead",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 4,
+      "onPerfectParry": -9,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.24,
+      "blockstun": 12,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "marisa__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Quick air-to-air",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 9,
+      "onPerfectParry": -4,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.31,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 18,
+      "id": "marisa__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Farthest reaching horizontal jump-in with good hitbox priority; lower body projectile invuln 8-25f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 9,
+      "onPerfectParry": -7,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.26,
+      "blockstun": 11,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "marisa__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state; lower body projectile invuln 7-21f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -5,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "marisa__jmpmp",
+      "input": {
+        "numpad": "j.MP~MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": null
+      },
+      "name": {
+        "en": "Volare Combo",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spike KD vs. airborne opponents",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.9,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "marisa__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Mounted Grace",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can use Drive Rush for a corner throw loop with 2f timing on standard characters; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 23,
+      "onPerfectParry": null,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "marisa__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "marisa__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "marisa__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.544 (min/throw), 1.903 (min/block), 3.081 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.93,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "marisa__nj2hp",
+      "input": {
+        "numpad": "nj.2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Caelum Arc",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hit Cross-up; can hold button 20f for improved properties; causes spike knockdown vs. airborne opponents; lower body projectile invuln 9f until land except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 7,
+      "onHit": 11,
+      "onPerfectParry": -6,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.93,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "marisa",
+      "chipDamage": null,
+      "damage": 1500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 15000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "marisa__nj2[hp]",
+      "input": {
+        "numpad": "nj.2[HP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Caelum Arc (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hit Cross-up; releasing the button on frames 5-19 results in uncharged version with 4f startup; causes spike knockdown; lower body projectile invuln 28f until land except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 14,
+      "onHit": 71,
+      "onPerfectParry": -6,
+      "onPunishCounter": 71,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
+      },
+      "startup": 28,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    }
+  ],
+  "name": {
+    "en": "Marisa",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

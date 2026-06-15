@@ -1,0 +1,4180 @@
+{
+  "aliases": [],
+  "id": "jp",
+  "moves": [
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break (all)",
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "jp",
+      "chipDamage": 75,
+      "damage": 500,
+      "damageText": "500x4 (2000)",
+      "dmgScaling": "40% Minimum; 25% Starter (3rd hit); 25% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": 41,
+      "id": "jp__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1x4",
+        "limit": "100x4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Lovushka",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spawns 4 separate 1-hit Super projectiles that track the opponent; starter scaling applies to 3rd attack in the combo; immediate scaling applies to the SA2 projectiles if comboed into; total startup for each hit of the sequence is 34f, 71f, 108f, 145f; leaves a 17f gap between each projectile on block; hitstun/blockstun values include the 13f hitstop inflicted on the defender",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 13
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 1800,
+      "damageText": "1800 (2070)",
+      "dmgScaling": "10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__214k",
+      "input": {
+        "numpad": "214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Embrace",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile command grab; clashes with non-OD projectiles; can be comboed into against grounded opponents; minimum 72f total animation; startup increases at long range due to projectile grab travel time; cannot be performed if SA2 or a Departure portal are active on the screen; projectile speed decelerates by 0.01/frame when in proximity of opponent",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 18,
+      "onPerfectParry": null,
+      "onPunishCounter": 18,
+      "projectileSpeed": 0.13,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 44,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 72
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 2600,
+      "damageText": "2600 (2990)",
+      "dmgScaling": "10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Embrace",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit OD projectile command grab; clashes with OD projectiles (can destroy non-OD projectiles, allowing the throw to continue); can be comboed into against grounded opponents; minimum 72f total animation; startup increases at long range due to projectile grab travel time; cannot be performed if SA2 or a Departure portal are active on the screen; projectile speed decelerates by 0.01/frame when in proximity of opponent",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 18,
+      "onPerfectParry": null,
+      "onPunishCounter": 18,
+      "projectileSpeed": 0.13,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 44,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 72
+    },
+    {
+      "active": "[10]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 31,
+      "cancel": [],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "jp__214p",
+      "input": {
+        "numpad": "214P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0 / 1",
+        "limit": "50",
+        "start": "0"
+      },
+      "name": {
+        "en": "Departure",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spawns a portal in the air according to button strength (LP close, MP mid, HP far); while the portal is active, JP cannot use 214P command grab; portal disappears if JP is hit or thrown; can manually input 214LP/MP or 214HP follow-up while portal is active; if no follow-up is input, the portal automatically spawns a 1-hit spike projectile toward the opponent 100f after JP recovers (150f total startup); spike puts opponents into a free juggle state; the automatic spike activation allows for strong mixups, as JP is free to move while it occurs (unlike 214P~214HP version where he snaps his fingers); cannot spawn another portal until the first has disappeared; Juggle Increase value becomes 1 when connecting mid-combo against opponent in a Free Juggle state (ensures that opponent will have Juggle Count 1 after the spike connects)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 50,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 50,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "[10(20)10]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 31,
+      "cancel": [],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "jp__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0 / 1",
+        "limit": "50,50",
+        "start": "0,0"
+      },
+      "name": {
+        "en": "Departure",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spawns 2 portals in the air according to button strengths used (LP close, MP mid, HP far); while the portals are active, JP cannot use 214P command grab; portals disappear if JP is hit or thrown; can manually input 214LP/MP or 214HP follow-up while portals are active; if no follow-up is input, each portal automatically spawns a 1-hit OD spike projectile (starting with the closest portal) angled toward the opponent 70f after JP recovers (110f total startup); spikes put opponents into a free juggle state; the automatic spike activation allows for strong mixups, as JP is free to move while it occurs (unlike 214PP~214HP version where he snaps his fingers); cannot spawn another portal until both have disappeared; Juggle Increase value becomes 1 when connecting mid-combo against opponent in a Free Juggle state (ensures that opponent will have Juggle Count 1 after the spikes connect)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 40,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 40,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "[10(20)10]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 31,
+      "cancel": [],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "jp__214pp214hp",
+      "input": {
+        "numpad": "214PP~214HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0 / 1",
+        "limit": "50,50",
+        "start": "0,0"
+      },
+      "name": {
+        "en": "OD Departure: Shadow",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spawns 2 separate OD projectile spikes beginning from the closest portal; spikes are angled downward toward the opponent; for each spike, 1st active frame only hits airborne or tall standing characters; 2nd active frame reaches regular-size standing characters; 3rd active frame reaches all crouching characters; useful tool for zoning, juggles, chip damage, and oki; puts opponent into free juggle state on hit; opponent builds 40% extra Drive meter when parrying the spikes; Juggle Increase value becomes 1 when connecting mid-combo against opponent in a Free Juggle state (ensures that opponent will have Juggle Count 1 after the spikes connect); can be canceled into from 2LK / 5MP / 2MK / 5HK despite not usually being cancelable",
+        "ja": null
+      },
+      "onBlock": 39,
+      "onHit": 92,
+      "onPerfectParry": 20,
+      "onPunishCounter": 92,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "[10]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 31,
+      "cancel": [],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "jp__214p214hp",
+      "input": {
+        "numpad": "214P~214HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0 / 1",
+        "limit": "50",
+        "start": "0"
+      },
+      "name": {
+        "en": "Departure: Shadow",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spawns a 1-hit projectile spike from the active portal; spike is angled downward toward the opponent; 1st active frame only hits airborne or tall standing characters; 2nd active frame reaches regular-size standing characters; 3rd active frame reaches all crouching characters; useful tool for zoning, juggles, chip damage, and oki; puts opponent into free juggle state on hit; opponent builds 50% extra Drive meter when parrying the spike; Juggle Increase value becomes 1 when connecting mid-combo against opponent in a Free Juggle state (ensures that opponent will have Juggle Count 1 after the spike connects); can be canceled into from 2LK / 5MP / 2MK / 5HK despite not usually being cancelable",
+        "ja": null
+      },
+      "onBlock": 9,
+      "onHit": 58,
+      "onPerfectParry": -9,
+      "onPunishCounter": 58,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "[20]",
+      "afterDriveRush": null,
+      "airborne": "26-41 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__214p214lp/mp",
+      "input": {
+        "numpad": "214P~214LP/MP",
+        "official": null
+      },
+      "invuln": "6-25 Full",
+      "juggle": null,
+      "name": {
+        "en": "Departure: Window",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fully invincible while off-screen; Punish Counter state while airborne; teleports to portal location and causes portal to disappear (after OD Departure, LP version goes to close portal while MP version goes to far portal); JP can act in the air on frames 31-41; JP always faces the opponent after reappearing; if no air attack is used, JP has 1 punishable landing frame, then can block on the next 2 landing frames",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": null,
+      "totalFrames": 44
+    },
+    {
+      "active": "18",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": 10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__22k",
+      "input": {
+        "numpad": "22K",
+        "official": null
+      },
+      "invuln": "3-20 Strike",
+      "juggle": null,
+      "name": {
+        "en": "Amnesia",
+        "ja": null
+      },
+      "notes": {
+        "en": "Counters strikes (but not projectiles or throws) on frames 3-20; JP is in a counter-hit state on frames 1-2, then a Punish Counter state until end of recovery; 17f recovery on a successful counter is fully invincible; resulting frame advantage depends on which move the opponent used (JP can be at frame disadvantage); successful counter places a bomb near the opponent that tracks their location; prevents the opponent from canceling their attack, similar to a Perfect Parry; cannot be input again until bomb detonates",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 55
+    },
+    {
+      "active": "20",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__22kk",
+      "input": {
+        "numpad": "22KK",
+        "official": null
+      },
+      "invuln": "1-20 Strike/Throw",
+      "juggle": null,
+      "name": {
+        "en": "Amnesia",
+        "ja": null
+      },
+      "notes": {
+        "en": "Counters strikes and throws (but not projectiles) on frames 1-20; JP is in a Punish Counter state until end of recovery; 17f recovery on a successful counter is fully invincible; resulting frame advantage depends on which move the opponent used (JP can be at frame disadvantage); successful counter places 2 bombs near the opponent that track their location; prevents the opponent from canceling their attack, similar to a Perfect Parry; cannot be input again until both bombs detonate",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 55
+    },
+    {
+      "active": "10(32)10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 28,
+      "cancel": [],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600x2",
+      "dmgScaling": "50% Starter; 60% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__22kk(bomb)",
+      "input": {
+        "numpad": "22KK (Bomb)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0",
+        "limit": "100,100",
+        "start": "0,0"
+      },
+      "name": {
+        "en": "Amnesia Bomb",
+        "ja": null
+      },
+      "notes": {
+        "en": "Projectile hitbox; bombs track the opponent's location; before detonating, bombs destroy any non-Super projectile; bombs are destroyed if they interact with Super projectile; bombs cause proximity guard, limiting the opponent's movement until they explode; bombs detonate immediately if JP cancels a move into SA3 while active (preventing him from bypassing the damage scaling); opponent builds 50% extra Drive meter from parrying the bombs",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 59,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 28,
+      "cancel": [],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "50% Starter; 60% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__22k(bomb)",
+      "input": {
+        "numpad": "22K (Bomb)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "100",
+        "start": "0"
+      },
+      "name": {
+        "en": "Amnesia Bomb",
+        "ja": null
+      },
+      "notes": {
+        "en": "Projectile hitbox; bomb tracks the opponent's location; before detonating, bomb destroys any non-Super projectile; bomb is destroyed if it interacts with Super projectile; bomb causes proximity guard, limiting the opponent's movement until it explodes; bomb detonates immediately if JP cancels a move into SA3 while active (preventing him from bypassing the damage scaling)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 59,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 32,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "jp__22p",
+      "input": {
+        "numpad": "22P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "6",
+        "limit": "26",
+        "start": "1"
+      },
+      "name": {
+        "en": "Triglav",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; button strength determines spike position (LP close, MP mid, HP far); spike appears from the ground and travels upward (takes 3f to reach max height); in the corner, all versions stop at the edge of the screen; puts opponent into limited juggle state on hit; useful tool for zoning, juggles, and block pressure (can be very plus on block with meaty timing)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 44,
+      "onPerfectParry": -23,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 55
+    },
+    {
+      "active": "10,10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 37,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 0,
+      "hitstun": null,
+      "id": "jp__22pp",
+      "input": {
+        "numpad": "22PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10,10",
+        "limit": "10,20",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Triglav",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spawns two separate 1-hit OD projectiles; spike position depends on button combination (LP+MP close, LP+HP mid, MP+HP far); each spike appears from the ground and travels upward (takes 3f to reach max height); in the corner, all versions stop at the edge of the screen; puts opponent into limited juggle state on hit; useful tool for zoning, juggles, and block pressure (can be very plus on block with meaty timing); frame advantage can increase slightly if the 2 spike hits are staggered; Punish Counter causes first spike to launch higher for increased KD Adv",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 53,
+      "onPerfectParry": 3,
+      "onPunishCounter": 57,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 53
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "jp",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "jp__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-23 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "100",
+        "start": null
+      },
+      "name": {
+        "en": "Interdiction",
+        "ja": null
+      },
+      "notes": {
+        "en": "Teleports to the opponent's location; extends a high combo-only hitbox but can still whiff if opponent is juggled too high; can be comboed into from anywhere on the screen; cinematic time regenerates ~1.8 Drive bars for JP; leaves opponent 3/4 screen away after cinematic",
+        "ja": null
+      },
+      "onBlock": -50,
+      "onHit": 23,
+      "onPerfectParry": -66,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 62,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 85
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "jp",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "jp__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-23 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "100",
+        "start": null
+      },
+      "name": {
+        "en": "Interdiction (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Teleports to the opponent's location; extends a high combo-only hitbox but can still whiff if opponent is juggled too high; can be comboed into from anywhere on the screen; available at 25% HP or below; cinematic time regenerates ~2.2 Drive bars for JP; leaves opponent fullscreen after cinematic with enough time to set up a Departure portal",
+        "ja": null
+      },
+      "onBlock": -50,
+      "onHit": 44,
+      "onPerfectParry": -66,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 62,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 85
+    },
+    {
+      "active": "14,1~",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.5,
+      "blockstun": 44,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "jp",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,1600 (2000)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "jp__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-10 Strike/Throw",
+      "juggle": {
+        "increase": "10,100",
+        "limit": "90,100",
+        "start": "10,100"
+      },
+      "name": {
+        "en": "Chornobog",
+        "ja": null
+      },
+      "notes": {
+        "en": "Super projectile hitbox; 1st hit (active frames 1-14) can be Perfect Parried like a strike; 2nd hit travels fullscreen; has high juggle potential, making it especially useful in combos where JP is close enough for the initial hit to connect; 8f hitstop when clashing with opponent's projectile",
+        "ja": null
+      },
+      "onBlock": -33,
+      "onHit": 22,
+      "onPerfectParry": -52,
+      "onPunishCounter": 22,
+      "projectileSpeed": 0.3,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 62,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 84
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 31,
+      "id": "jp__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Torbalan",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spawns a \"ghost\" that travels toward opponent and clashes with 1-hit non-OD projectiles; upon reaching the opponent, begins an 12f low-hitting projectile attack; if the opponent moves forward quickly, it is possible to dodge the projectile entire since it is not active while traveling; from longer range, total startup increases and grants better frame advantage; cannot be used while SA2 is active; cancel into SA3 won't combo at close range without CH/PC; projectile speed decelerates by 0.01/frame when in proximity of opponent",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 6,
+      "onPerfectParry": -14,
+      "onPunishCounter": 10,
+      "projectileSpeed": 0.13,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 50,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "3(9)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.8,
+      "blockstun": 36,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,500",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "jp__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,2",
+        "limit": "1,2",
+        "start": "1,3"
+      },
+      "name": {
+        "en": "Stribog",
+        "ja": null
+      },
+      "notes": {
+        "en": "1st hit is a strike hitbox that clashes with non-OD projectiles; 2nd hit is a 1-hit non-OD projectile (but can be Perfect Parried like a strike); together, both hits can nullify a 2-hit non-OD projectile (though the large gap between hits makes this impractical); 2nd hit has more range than the 1st hit; causes a wall bounce on hit (limited juggle state); cannot hit cross-up (behind JP); direct SA3 cancel will not usually juggle; 8f hitstop when clashing with opponent's projectile; 1st hit has 3f extra recovery when Perfect Parried, allowing a Drive Impact punish (recovery is unchanged if the 2nd attack hits opponent); 2nd hit expands if the 1st hit connects (for combo consistency)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 67,
+      "onPerfectParry": -35,
+      "onPunishCounter": 67,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 28,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "6(14)6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 54,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "jp__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,6",
+        "limit": "10,11",
+        "start": "1,6"
+      },
+      "name": {
+        "en": "Torbalan",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spawns a \"ghost\" that travels toward opponent with 2-hit OD projectile priority; upon reaching the opponent, begins an OD projectile attack with 8f startup; after clashing with 1-hit OD projectile, only the 1st hit of the projectile attack will come out; SA2 cancel is a true blockstring or combo into the projectile attacks; if the opponent moves forward quickly, it is possible to dodge the projectile entire since it is not active while traveling; from longer range, total startup increases and grants better frame advantage; cannot be used while SA2 is active; if 1st hit is Perfect Parried, leaves a large gap where JP can be punished if close enough; projectile speed decelerates by 0.01/frame when in proximity of opponent",
+        "ja": null
+      },
+      "onBlock": 25,
+      "onHit": 66,
+      "onPerfectParry": -18,
+      "onPunishCounter": 66,
+      "projectileSpeed": 0.13,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 50,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__236[k]",
+      "input": {
+        "numpad": "236[K]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Torbalan Feint",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great tool for baiting the opponent into whiffing Parry, jumping, or using anti-projectile attack",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 34,
+      "superGauge": null,
+      "totalFrames": 34
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 23,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "jp__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Torbalan",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spawns a \"ghost\" that travels toward opponent and clashes with 1-hit non-OD projectiles; upon reaching the opponent, begins an 8f projectile attack; if the opponent moves forward quickly, it is possible to dodge the projectile entire since it is not active while traveling; from longer range, total startup increases and grants better frame advantage; cannot be used while SA2 is active; projectile speed decelerates by 0.01/frame when in proximity of opponent",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 42,
+      "onPerfectParry": -18,
+      "onPunishCounter": 42,
+      "projectileSpeed": 0.13,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 50,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "3,3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.56,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,700",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "jp__236lp",
+      "input": {
+        "numpad": "236LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "1,50",
+        "start": "2,1"
+      },
+      "name": {
+        "en": "Stribog",
+        "ja": null
+      },
+      "notes": {
+        "en": "1st hit is a strike hitbox that clashes with non-OD projectiles; 2nd hit is a 1-hit non-OD projectile (but can be Perfect Parried like a strike; together, both hits can nullify a 2-hit non-OD projectile; 2nd hit has more range than the 1st hit; puts opponents into limited juggle state on hit; cannot hit cross-up (behind JP); 8f hitstop when clashing with opponent's projectile; 2nd hit expands if the 1st hit connects (for combo consistency)",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 38,
+      "onPerfectParry": -32,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 31,
+      "id": "jp__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Torbalan",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spawns a \"ghost\" that travels toward opponent and clashes with 1-hit non-OD projectiles; upon reaching the opponent, begins an 12f overhead projectile attack; if the opponent moves forward quickly, it is possible to dodge the projectile entire since it is not active while traveling; from longer range, total startup increases and grants better frame advantage; cannot be used while SA2 is active; cancel into SA3 won't combo at close range without CH/PC; projectile speed decelerates by 0.01/frame when in proximity of opponent",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 6,
+      "onPerfectParry": -14,
+      "onPunishCounter": 10,
+      "projectileSpeed": 0.13,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 50,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "3(1)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.66,
+      "blockstun": 26,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,800",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "jp__236mp",
+      "input": {
+        "numpad": "236MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "1,50",
+        "start": "2,1"
+      },
+      "name": {
+        "en": "Stribog",
+        "ja": null
+      },
+      "notes": {
+        "en": "1st hit is a strike hitbox that clashes with non-OD projectiles; 2nd hit is a 1-hit non-OD projectile (but can be Perfect Parried like a strike; together, both hits can nullify a 2-hit non-OD projectile; 2nd hit has more range than the 1st hit; puts opponents into limited juggle state on hit; in the corner, launched high enough to juggle into the first hit of SA1; cannot hit cross-up (behind JP); 8f hitstop when clashing with opponent's projectile; 2nd hit expands if the 1st hit connects (for combo consistency)",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 42,
+      "onPerfectParry": -32,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 53
+    },
+    {
+      "active": "3(6)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.8,
+      "blockstun": 36,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "jp",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600,400(2nd: 800)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "jp__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,2",
+        "limit": "1,2",
+        "start": "1,3"
+      },
+      "name": {
+        "en": "Stribog",
+        "ja": null
+      },
+      "notes": {
+        "en": "1st hit is a strike hitbox that clashes with OD projectiles; 2nd hit is a 1-hit OD projectile (but can be Perfect Parried like a strike); together, both hits can nullify a 2-hit OD projectile; 2nd hit has more range than the 1st hit; causes a wall bounce on hit (limited juggle state); cannot hit cross-up (behind JP); SA3 cancel will whiff at point blank (but works consistently after canceling normals into 236PP); 8f hitstop when clashing with opponent's projectile; 1st hit has 3f extra recovery when Perfect Parried, allowing a Drive Impact punish (recovery is unchanged if the 2nd attack hits opponent); 2nd hit expands if the 1st hit connects (for combo consistency); 2nd hit does double damage when the 1st hit whiffs",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 56,
+      "onPerfectParry": -35,
+      "onPunishCounter": 56,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 52
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 27
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.38,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "jp__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "6",
+        "limit": "6",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Short ranged sweep with good hitbox priority; very difficult for most characters to punish if well spaced; has juggle potential even without Drive Rush",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 27,
+      "onPerfectParry": -22,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "6",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.87,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 10,
+        "onHit": 17
+      },
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "jp__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "4",
+        "limit": "6",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Solid anti-air but cannot hit cross-up; arm hurtbox is anti-air invuln on active frames 2-6; very short horizontal range; fastest of JP's heavy normals, making it useful in some Drive Rush combo routes; high juggle potential even without Drive Rush",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 1,
+      "onPerfectParry": -24,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.19,
+      "blockstun": 10,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "jp__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; cancelable into 214HP projectile when Departure portal is active",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -10,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 17
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.07,
+      "blockstun": 12,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "jp__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; JP's only 4f normal, making it an important defensive option; DR cancel is delayed until after 2nd active frame; topmost hurtbox on frames 1-5 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -11,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.325",
+        "onHit": "0.371"
+      },
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 16
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.74,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "jp__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range low poke that moves JP forward; after Drive Rush or Punish Counter, can confirm into 2MP; has an extended hurtbox on whiff until the end of recovery; cancelable into 214HP projectile when Departure portal is active",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -18,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 500
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.22,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 3,
+        "onHit": 11
+      },
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "jp__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good poke and combo/buffer tool; special/DR cancel is delayed until after active frames; has an extended hurtbox on whiff until the end of recovery; topmost hurtbox on frames 1-10 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 6,
+      "onPerfectParry": -16,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 500
+      },
+      "totalFrames": 24
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -10,
+        "onHit": 17
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.414,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "jp__3hp",
+      "input": {
+        "numpad": "3HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "20",
+        "limit": "20",
+        "start": "1"
+      },
+      "name": {
+        "en": "Malice",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range advancing sweep; can be difficult to punish if well spaced; high juggle potential even without Drive Rush; no longer a Hard Knockdown if juggled into",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 17,
+      "onPerfectParry": -32,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": null,
+        "start": "0"
+      },
+      "name": {
+        "en": "Uragan",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switch; throws opponent almost full screen away; after throwing opponent into corner, can dash to become +14 (no true strike/throw oki without Drive Rush); opponent can be juggled into SA2, Departure spike, or Amnesia projectiles before damage is applied, in which case there is no additional damage scaling; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 36,
+      "onPerfectParry": null,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.15,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 14
+      },
+      "hitstop": 13,
+      "hitstun": 24,
+      "id": "jp__4mp",
+      "input": {
+        "numpad": "4MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Grom Strelka 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cancelable to Grom Strelka Target Combo with a very lenient hitconfirm window (1f blockstring gap if canceled into TC)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -17,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 26
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3000,
+        "gain": 800
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 16
+      },
+      "hitstop": 11,
+      "hitstun": 26,
+      "id": "jp__4mpmp",
+      "input": {
+        "numpad": "4MP~MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Grom Strelka 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cancelable combo tool that can be hitconfirmed from 4MP; 1f gap between hits on block",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 32
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Is this fight not what you wanted?\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 202,
+      "superGauge": null,
+      "totalFrames": 202
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 6,
+        "onHit": 11
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.62,
+      "blockstun": 23,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "jp__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": "9-15 Air (Head), 12-17 Air (Leg)",
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Useful anti-air and combo/pressure starter with a confirmable Target Combo follow-up; whiffs on crouching opponents from farther away unless they extend a vertical hurtbox; pushback on block keeps JP out of throw range even after Drive Rush; cancelable into 214HP projectile when Departure portal is active",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 7,
+      "onPerfectParry": -19,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 32
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 9,
+        "onHit": 15
+      },
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "jp__5hkhp",
+      "input": {
+        "numpad": "5HK~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Zilant",
+        "ja": null
+      },
+      "notes": {
+        "en": "True blockstring from 5HK (up to 1f gap on block if delayed to final cancel frame); safe on block and easily confirmed into a follow-up special or Drive Rush on hit; TC follow-ups cannot be comboed into unless the HP itself lands as a Counter-hit/Punish Counter; special/DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "jp__5hkhphk",
+      "input": {
+        "numpad": "5HK~HP~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Zilant Low",
+        "ja": null
+      },
+      "notes": {
+        "en": "TC low ender; does not combo naturally from 5HK~HP; 8f blockstring gap makes it easily interruptible",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 3,
+      "onPerfectParry": -23,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "jp__5hkhphp",
+      "input": {
+        "numpad": "5HK~HP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Zilant High",
+        "ja": null
+      },
+      "notes": {
+        "en": "TC overhead ender; does not combo naturally from 5HK~HP; 8f blockstring gap makes it easily interruptible",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 3,
+      "onPerfectParry": -23,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.58,
+      "blockstun": 21,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 11,
+        "onHit": 17
+      },
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "jp__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "4",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "JP's main combo/juggle/punish tool (essentially a cancelable version of 5MP with less range); Punish Counter allows a 1-bar Drive Rush follow-up, or a cancel into 214PP with enough frame advantage to link 2MP afterwards; has juggle potential even without Drive Rush; puts airborne opponents into a limited juggle state; extends a large hurtbox 1f before active that is vulnerable to projectiles; hurtbox is extended horizontally during all active and recovery frames for easier whiff punishability",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 25,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.12,
+      "blockstun": 12,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "jp__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -12,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.22,
+      "blockstun": 11,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "jp__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -11,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.47,
+      "blockstun": 19,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 13
+      },
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "jp__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cancelable poke and combo tool; special/DR cancel is delayed until after active frames; foot hurtbox does not extend until frame 11 (useful vs. low pokes)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -20,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 500
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.9,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "jp__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long-range poke with great hitbox priority; cancelable into 214HP projectile when Departure portal is active",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 1,
+      "onPerfectParry": -22,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 500
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Is... something the matter?\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 220,
+      "superGauge": null,
+      "totalFrames": 220
+    },
+    {
+      "active": "2,4",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 38
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.86,
+      "blockstun": 25,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": "300,600",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 1250
+      },
+      "driveRushCancel": {
+        "onBlock": 12,
+        "onHit": 55
+      },
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "jp__6hk",
+      "input": {
+        "numpad": "6HK",
+        "official": null
+      },
+      "invuln": "8-16 Air (Head/Leg)",
+      "juggle": {
+        "increase": "0,1",
+        "limit": "1,1",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Bylina",
+        "ja": null
+      },
+      "notes": {
+        "en": "Solid anti-air (but a little slow and cannot hit cross-up); launches opponent into limited juggle state; 1st hit forces stand on hit; 2nd hit whiffs on crouching opponents for 3f worse advantage on crouch block; only 2nd hit is cancelable, so JP cannot make himself safe on a crouch blocking opponent (but if 6HK hits and the 2nd hit whiffs, the cancel can still come out); useful in many Drive Rush juggle routes; special/DR cancel is delayed until after 4th active frame (2nd active frame of 2nd hit)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 38,
+      "onPerfectParry": -28,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 500
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.62,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "jp",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "jp__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Exilio (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.62,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "jp",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "jp__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Exilio (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.5,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "jp__6mk",
+      "input": {
+        "numpad": "6MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Guillotinna",
+        "ja": null
+      },
+      "notes": {
+        "en": "Safe overhead that can link into 2LP with a meaty connect, or 2MP with a Drive Rush or Punish Counter",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -19,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 500
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Do you need to take a rest?\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 395,
+      "superGauge": null,
+      "totalFrames": 395
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.535,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "jp",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "jp__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Espada",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.24,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "jp__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "JP's best overall jump-in tool with decent hitbox priority; extends a hurtbox 1f before active, making it susceptible to being counterpoked out of the air; lower body projectile invuln 11-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -8,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.79,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "jp__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes spike knockdown vs. airborne opponents on Counter-hit/Punish Counter; good downwards hitbox priority; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -8,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.05,
+      "blockstun": 11,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "jp__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; can be used as a fuzzy instant overhead (requires perfect safe jump timing)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 4,
+      "onPerfectParry": -8,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.1,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "jp__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -3,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__jlplk",
+      "input": {
+        "numpad": "j.LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Tornado",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switch; can get oki if throwing opponent backwards into the corner; midscreen oki is very weak (better to set up Departure or throw a projectile)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 32,
+      "onPerfectParry": null,
+      "onPunishCounter": 32,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.2,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "jp__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into a limited juggle state (similar to j.MP for most characters); useful for air-to-airs and juggles; lower body projectile invuln 7-20f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -6,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.84,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "jp__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Very long horizontal range; extends a large hurtbox 2f before active that makes it easily counterpoked out of the air; lower body projectile invuln 12-22f (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 8,
+      "onHit": 12,
+      "onPerfectParry": -3,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "40% Starter; 20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": null,
+        "start": "2"
+      },
+      "name": {
+        "en": "Ravina",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can dash forward for weak corner pressure (+1 after dash, throw loses to 4f lights), or Drive Rush for a manually timed strike/throw mixup (2MP is best, 5HK is auto-timed +7 oB but far out of throw range); throws opponent almost full screen away; damage scaling is applied when juggling into SA2, Departure spike, or Amnesia projectiles; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 23,
+      "onPerfectParry": null,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "jp",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "jp__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.525 (min/throw), 1.857 (min/block), 3.628 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/JP/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "JP",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

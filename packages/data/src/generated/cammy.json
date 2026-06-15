@@ -1,0 +1,4861 @@
+{
+  "aliases": [],
+  "id": "cammy",
+  "moves": [
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.5,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "cammy",
+      "chipDamage": 750,
+      "damage": 3000,
+      "damageText": "3000 (220x6)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "cammy__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "30",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Killer Bee Spin",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can escape grounded meaty attacks, but usually results in Cammy whiffing over opponent's head; puts airborne opponents into limited juggle state (no cinematic), number of airborne hits varies based on juggle height; Drive Damage distribution: 900x3-x7,3000; only deals 250 damage on the first hit if it trades",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 12,
+      "onPerfectParry": -42,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 37,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 58
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.36,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 9000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "cammy__214hp",
+      "input": {
+        "numpad": "214HP",
+        "official": null
+      },
+      "invuln": "9-27 Projectile",
+      "juggle": {
+        "increase": "3",
+        "limit": "0",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Quick Spin Knuckle",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 5,
+      "onPerfectParry": -19,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 28,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.131,
+      "blockstun": 17,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 22,
+      "id": "cammy__214lp",
+      "input": {
+        "numpad": "214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "1",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Quick Spin Knuckle",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state (keeps opponents closer than other versions and has some juggle potential); good frame trap from 5HP (2f gap) that leads to Counter-hit confirm",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -18,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.76,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 23,
+      "id": "cammy__214mp",
+      "input": {
+        "numpad": "214MP",
+        "official": null
+      },
+      "invuln": "9-23 Projectile",
+      "juggle": {
+        "increase": "3",
+        "limit": "0",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Quick Spin Knuckle",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -18,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.29,
+      "blockstun": 19,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "cammy__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": "9-24(20) Projectile",
+      "juggle": {
+        "increase": "3",
+        "limit": "0",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Quick Spin Knuckle",
+        "ja": null
+      },
+      "notes": {
+        "en": "No collision box on frames 1-10 (can cross-up from close range); puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 7,
+      "onPerfectParry": -19,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "4,3,3,3,3",
+      "afterDriveRush": null,
+      "airborne": "12-27 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 4.278,
+      "blockstun": 30,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "cammy",
+      "chipDamage": 100,
+      "damage": 2000,
+      "damageText": null,
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "cammy__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-11 Strike/Throw",
+      "juggle": {
+        "increase": null,
+        "limit": "100",
+        "start": null
+      },
+      "name": {
+        "en": "Spin Drive Smasher",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great combo tool with high juggle potential and corner carry; 5th hits transitions into launching follow-up on hit only; damage distribution: 100,200x3,100,200,1000",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 10,
+      "onPerfectParry": -37,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 38,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "15",
+      "afterDriveRush": null,
+      "airborne": "9-27 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 5.09,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "cammy",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "cammy__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-13 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "100",
+        "start": null
+      },
+      "name": {
+        "en": "Delta Red Assault",
+        "ja": null
+      },
+      "notes": {
+        "en": "Full screen anti-projectile move (can lose to slow projectiles at max range); combos from charged 623[HP], 214P, or 236HK 1st hit when canceled into; cinematic time regenerates ~1.9 Drive bars for Cammy; only deals 500 damage on the first hit if it trades (only the first 5 active frames are invincible)",
+        "ja": null
+      },
+      "onBlock": -33,
+      "onHit": 17,
+      "onPerfectParry": -51,
+      "onPunishCounter": 17,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 38,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "15",
+      "afterDriveRush": null,
+      "airborne": "9-27 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 5.09,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "cammy",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "cammy__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-13 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "100",
+        "start": null
+      },
+      "name": {
+        "en": "Delta Red Assault (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Full screen anti-projectile move (can lose to slow projectiles at max range); combos from charged 623[HP], 214P, or 236HK 1st hit when canceled into; available at 25% HP or below; cinematic time regenerates ~1.9 Drive bars for Cammy; only deals 500 damage on the first hit if it trades (only the first 5 active frames are invincible)",
+        "ja": null
+      },
+      "onBlock": -33,
+      "onHit": 22,
+      "onPerfectParry": -51,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 38,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "3(1)12",
+      "afterDriveRush": null,
+      "airborne": "18-33 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.058,
+      "blockstun": 25,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,700",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2500,
+        "gain": 600
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "cammy__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": "18-33 Throw",
+      "juggle": {
+        "increase": "1,3",
+        "limit": "0,3",
+        "start": "1 (2nd hit)"
+      },
+      "name": {
+        "en": "Spiral Arrow",
+        "ja": null
+      },
+      "notes": {
+        "en": "Only 1st hit is super cancelable (very low damage route); holding HK results in a powered up version",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 29,
+      "onPerfectParry": -28,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "3(1)12",
+      "afterDriveRush": null,
+      "airborne": "30-45 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.55,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 37,
+      "damage": 150,
+      "damageText": "150x4,200",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 300,
+        "dealtOnHit": 1000,
+        "gain": 150
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "cammy__236[hk]",
+      "input": {
+        "numpad": "236[HK]",
+        "official": null
+      },
+      "invuln": "29-45 Throw",
+      "juggle": {
+        "increase": "0x4,21",
+        "limit": "10x5",
+        "start": "4 (1,21 air)"
+      },
+      "name": {
+        "en": "Spiral Arrow",
+        "ja": null
+      },
+      "notes": {
+        "en": "Switches sides on hit; puts opponent into limited juggle state; super cancel comes out on 4th hit; holding HK for 9-15f gives regular 236HK with slower startup; holding 16-17f results in a full charge 2f faster than normal (allows it to combo from CH 5HP or PC 2MP)",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 47,
+      "onPerfectParry": -20,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 27,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "27-60 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__236[hp]",
+      "input": {
+        "numpad": "236[HP]",
+        "official": null
+      },
+      "invuln": "27-60 Lower Body Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Hooligan Combination",
+        "ja": null
+      },
+      "notes": {
+        "en": "Startup refers to earliest/latest follow-up input timings; holding HP for 18-19f results in a full charge up to 2f faster than normal; can cross over crouching opponents; follow-ups gain properties of OD versions (except for SA2 cancelability)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 40,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "4(14)4",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 33,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2500,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 43,
+      "id": "cammy__236[hp]2k",
+      "input": {
+        "numpad": "236[HP]~2K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,5",
+        "limit": "4,5",
+        "start": "0,1 air"
+      },
+      "name": {
+        "en": "Reverse Edge",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; causes OTG bounce vs. airborne opponents that can juggle into 623MK/HK/KK or SA1/SA3 Super (low height juggle connect will not allow time for follow-up); does not autocorrect toward opponent after crossing over; crouching state during landing recovery; can be up to 2f faster if HP is held for only 18f",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 8,
+      "onPerfectParry": -15,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 40,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 92
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 22,
+      "id": "cammy__236[hp]k",
+      "input": {
+        "numpad": "236[HP]~K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "5",
+        "start": "2 air"
+      },
+      "name": {
+        "en": "Hooligan Cannon Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Startup refers to earliest timing from Hooligan; button strength does not affect divekick trajectory; puts airborne opponents into limited juggle state; autocorrects toward opponent after crossing over; can be up to 2f faster if HP is held for only 18f",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": -1,
+      "onPerfectParry": -16,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 40,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 74
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": "1000 (1150)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__236[hp]lplk",
+      "input": {
+        "numpad": "236[HP]~LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": null,
+        "start": "1"
+      },
+      "name": {
+        "en": "Fatal Leg Twister",
+        "ja": null
+      },
+      "notes": {
+        "en": "Throws standing opponents only; puts opponent into limited juggle state; 15% damage increase on Punish Counter; up to 2f more total recovery before landing (depends on activation height); crouching state during landing recovery; can be up to 2f faster if HP is held for only 18f; extends a proximity guard box that immediately forces a crouch blocking opponent's hurtbox to reach its crouching height, preventing uncrouchable meaty setups (but can still throw opponents that hold straight down on wakeup)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 60,
+      "onPerfectParry": null,
+      "onPunishCounter": 60,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 40,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "9(10)5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 43,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800,400",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 3500,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cammy__236[hp]noinput",
+      "input": {
+        "numpad": "236[HP]~No Input",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10,10",
+        "limit": "10,10",
+        "start": "1 (2nd hit)"
+      },
+      "name": {
+        "en": "Razor's Edge Slicer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit; low profile 70-98f; can be up to 2f faster if HP is held for only 18f; crouching state during recovery",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 48,
+      "onPerfectParry": -20,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 70,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 110
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__236[hp]p",
+      "input": {
+        "numpad": "236[HP]~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Silent Step",
+        "ja": null
+      },
+      "notes": {
+        "en": "Stops forward trajectory; recovery before landing depends on activation height; Cammy is in crouching state during recovery; useful for baiting reversals in setups where throw/overhead/divekick could hit meaty; can be up to 2f faster if HP is held for only 18f",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 4,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 40,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3(1)12",
+      "afterDriveRush": null,
+      "airborne": "16-31 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.55,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 37,
+      "damage": 150,
+      "damageText": "150x4,200",
+      "dmgScaling": "Combo (5% extra)",
+      "driveGauge": {
+        "dealtOnBlock": 300,
+        "dealtOnHit": 1000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "cammy__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": "15-31 Throw",
+      "juggle": {
+        "increase": "0x4,21",
+        "limit": "10x5",
+        "start": "4 (1,21 air)"
+      },
+      "name": {
+        "en": "Spiral Arrow",
+        "ja": null
+      },
+      "notes": {
+        "en": "Switches sides on hit; puts opponent into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 47,
+      "onPerfectParry": -20,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "13",
+      "afterDriveRush": null,
+      "airborne": "9-24 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.574,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cammy__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": "9-24 Throw",
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Spiral Arrow",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be spaced safely; useful in corner juggle routes after 5HP~HK, DR~4HK > 4HK, or blocked Drive Impact",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 26,
+      "onPerfectParry": -32,
+      "onPunishCounter": 26,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "15",
+      "afterDriveRush": null,
+      "airborne": "9-26 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.051,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cammy__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": "9-26 Throw",
+      "juggle": {
+        "increase": "3",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Spiral Arrow",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be spaced safely; best version for buffers in neutral; useful in corner juggle routes into 623K",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 26,
+      "onPerfectParry": -34,
+      "onPunishCounter": 26,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "7-40 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__236p",
+      "input": {
+        "numpad": "236P",
+        "official": null
+      },
+      "invuln": "7-40 Lower Body Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Hooligan Combination",
+        "ja": null
+      },
+      "notes": {
+        "en": "Startup refers to earliest/latest follow-up input timings; trajectory depends on button strength (LP short/high, MP middle, HP far/low); LP and MP versions can cross over close standing opponents; HP version can cross over close crouching opponents",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "7-40 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": "7-40 Lower Body Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Hooligan Combination",
+        "ja": null
+      },
+      "notes": {
+        "en": "Startup refers to earliest/latest follow-up input timings; button combination affects trajectory (LP+MP=LP, LP+HP=MP, MP+HP=HP); follow-ups have enhanced OD properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "4(14)4",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 33,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 3500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 43,
+      "id": "cammy__236pp2k",
+      "input": {
+        "numpad": "236PP~2K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "4,5",
+        "start": "0,1 air"
+      },
+      "name": {
+        "en": "Reverse Edge",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; causes OTG bounce vs. airborne opponents that can juggle into 623MK/HK/KK or any Super (low height juggle connect will only allow canceled Air SA2 to connect); does not autocorrect toward opponent after crossing over; crouching state during landing recovery",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 8,
+      "onPerfectParry": -15,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 72
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 22,
+      "id": "cammy__236ppk",
+      "input": {
+        "numpad": "236PP~K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "5",
+        "start": "2 air"
+      },
+      "name": {
+        "en": "Hooligan Cannon Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Startup refers to earliest timing from Hooligan; button strength does not affect divekick trajectory; puts airborne opponents into limited juggle state; autocorrects toward opponent after crossing over",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": -1,
+      "onPerfectParry": -16,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 54
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": "1000 (1150)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__236pplplk",
+      "input": {
+        "numpad": "236PP~LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": null,
+        "start": "1"
+      },
+      "name": {
+        "en": "Fatal Leg Twister",
+        "ja": null
+      },
+      "notes": {
+        "en": "Throws standing opponents only; puts opponent into limited juggle state; 15% damage increase on Punish Counter; up to 8f more recovery before landing (depends on activation height); crouching state during landing recovery; extends a proximity guard box that immediately forces a crouch blocking opponent's hurtbox to reach its crouching height, preventing uncrouchable meaty setups (but can still throw opponents that hold straight down on wakeup)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 60,
+      "onPerfectParry": null,
+      "onPunishCounter": 60,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "9(10)5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 43,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800,400",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 3500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cammy__236ppnoinput",
+      "input": {
+        "numpad": "236PP~No Input",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10,10",
+        "limit": "10,10",
+        "start": "1 (2nd hit)"
+      },
+      "name": {
+        "en": "Razor's Edge Slicer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit; low profile 50-80f; crouching state during recovery",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 48,
+      "onPerfectParry": -20,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 50,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 90
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__236ppp",
+      "input": {
+        "numpad": "236PP~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Silent Step",
+        "ja": null
+      },
+      "notes": {
+        "en": "Stops forward trajectory; recovery before landing depends on activation height; Cammy is in crouching state during recovery; useful for baiting reversals in setups where throw/overhead/divekick could hit meaty",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 4,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "cammy__236p2k",
+      "input": {
+        "numpad": "236P~2K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "10",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Reverse Edge",
+        "ja": null
+      },
+      "notes": {
+        "en": "236P trajectory affects frame advantage (lower height is better); up to 3f more recovery before landing (depends on activation height); does not autocorrect toward opponent after crossing over; crouching state during landing recovery",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 5,
+      "onPerfectParry": -18,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 56
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 22,
+      "id": "cammy__236pk",
+      "input": {
+        "numpad": "236P~K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10",
+        "limit": "10",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Hooligan Cannon Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Startup refers to earliest timing from Hooligan; button strength affects divekick trajectory (LK short, MK medium, HK far); spike knockdown vs. airborne opponents; autocorrects toward opponent after crossing over",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": -1,
+      "onPerfectParry": -20,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 54
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 1800,
+      "damageText": "1800 (2070)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__236plplk",
+      "input": {
+        "numpad": "236P~LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Fatal Leg Twister",
+        "ja": null
+      },
+      "notes": {
+        "en": "Throws standing opponents only; 15% damage increase on Punish Counter; up to 8f more total recovery before landing (depends on activation height); crouching state during landing recovery; extends a proximity guard box that immediately forces a crouch blocking opponent's hurtbox to reach its crouching height, preventing uncrouchable meaty setups (but can still throw opponents that hold straight down on wakeup)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 18,
+      "onPerfectParry": null,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 7000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cammy__236pnoinput",
+      "input": {
+        "numpad": "236P~No Input",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Razor's Edge Slicer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit; low profile 50-63f; crouching state during recovery",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 48,
+      "onPerfectParry": -20,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 50,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 71
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__236pp",
+      "input": {
+        "numpad": "236P~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Silent Step",
+        "ja": null
+      },
+      "notes": {
+        "en": "Stops forward trajectory; recovery before landing depends on activation height; Cammy is in crouching state during recovery; useful for baiting reversals in setups where throw/overhead/divekick could hit meaty",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 4,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -6,
+        "onHit": 38
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.73,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cammy__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Grounded Sweep",
+        "ja": null
+      },
+      "notes": {
+        "en": "Disjointed hitbox gives it some neutral utility; has juggle potential (KD +37~39); extended hurtbox remains for 6f after active frames",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 38,
+      "onPerfectParry": -25,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 11
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.08,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "cammy__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand; Good for starting pressure, especially with meaty timing (236HK + Dash 2HP sets gives enough advantage to link 5HP); extended hurtbox appears for 2f before active; situationally useful anti-air",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 7,
+      "onPerfectParry": -17,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.14,
+      "blockstun": 8,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "cammy__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; low hitconfirm starter; extended hurtbox appears for 2f before active and remains 5f after active",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -8,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.05,
+      "blockstun": 8,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -3,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "cammy__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; extended hurtbox appears for 2f before active; DR cancel is delayed until after active frames",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 5,
+      "onPerfectParry": -8,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.304",
+        "onHit": "0.352"
+      },
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 13
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.49,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 10
+      },
+      "hitstop": 9,
+      "hitstun": 22,
+      "id": "cammy__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great ranged cancelable low poke; very useful when canceled to DR; extended hurtbox appears for 1f before active and remains 6f after active; special/DR cancel is delayed until after active frames; Range: 1.49",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 1,
+      "onPerfectParry": -19,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.335,
+      "blockstun": 15,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 5,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "cammy__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good counterpoke and useful combo filler after 2HP or CH 5LP/2LP/5MP; 3f extra recovery on whiff; extends a wide hurtbox during recovery on whiff",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 5,
+      "onPerfectParry": -15,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 23
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -3,
+        "onHit": null
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.09,
+      "blockstun": 14,
+      "cancel": [
+        "special",
+        "super",
+        "jmp"
+      ],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2500
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 65
+      },
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cammy__4hk",
+      "input": {
+        "numpad": "4HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Assault Blade",
+        "ja": null
+      },
+      "notes": {
+        "en": "Whiffs on crouching opponents; jump cancelable on hit only; puts opponents into limited juggle state on hit (free juggle if started from Drive Rush)",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": 54,
+      "onPerfectParry": -19,
+      "onPunishCounter": 54,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Delta Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "No throw oki after corner side switch; can use Drive Rush 5MP (+3 oB, links to 5HP on hit), or Drive Rush 2MP to set up trade combo vs. reversal 4f normals; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 14,
+      "onPerfectParry": null,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.826,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 6,
+        "onHit": 11
+      },
+      "hitstop": 11,
+      "hitstun": 21,
+      "id": "cammy__4mp",
+      "input": {
+        "numpad": "4MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Lift Uppercut",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand (required for 4MP~HK TC); useful anti-air starting on frame 6 but can often trade or whiff against close jumps; extended arm hurtbox on active frames 3-5 is anti-air invulnerable; combos naturally from 5LP/2LP/5MP at close range",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -15,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 21
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [
+        "special",
+        "super",
+        "jmp"
+      ],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 65
+      },
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cammy__4mphk",
+      "input": {
+        "numpad": "4MP~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Lift Combination",
+        "ja": null
+      },
+      "notes": {
+        "en": "Whiffs on crouch blocking opponents (works on crouching hit because 4MP forces stand); jump cancelable on hit only; puts opponent into limited juggle state; has 5f more recovery than 4HK on its own, resulting in more limited juggle follow-ups",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 49,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"(Biiiig stretch)\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 340,
+      "superGauge": null,
+      "totalFrames": 340
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.879,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 24,
+      "id": "cammy__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on whiff; great ranged poke; Punish Counter knockdown does not lead to follow-up combo, but gives great corner carry; extends a hurtbox 1f before active that is vulnerable to projectiles; crouch-sized hurtbox on frames 1-28; particularly vulnerable to Drive Impact in neutral; can anti-air some long range jump-ins; has high juggle potential (causes air reset when juggled into)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -20,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 32
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.39,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 10,
+        "onHit": 15
+      },
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "cammy__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great disjointed hitbox; moves Cammy far forward during startup, giving it good range but making it easier to whiff punish; good Drive Rush starter (good momentum, links into 4MP~HK if close enough or frame traps into 5LP/2LP)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -21,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "4(12)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 8,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400,400",
+      "dmgScaling": "Combo (2 hits, 2nd hit only); each hit scales separately",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 7000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 1,
+        "onHit": 39
+      },
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "cammy__5hphk",
+      "input": {
+        "numpad": "5HP~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "1,2",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Swing Combination",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; leaves a 9f gap between 1st and 2nd hit on block; 1st hit of HK is cancelable into j.214K (9f gap) or SA2; 2nd hit acts as a cancelable grounded normal; 2nd hit is cancelable into Supers after 5 recovery frames and into specials/DI/DR after 7 recovery frames",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 26,
+      "onPerfectParry": -30,
+      "onPunishCounter": 26,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 29,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.27,
+      "blockstun": 10,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "cammy__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good range for 5f punishes and light conversions; extended hurtbox appears for 2f before active; special cancel is delayed until after active frames (prevents OD Spiral Arrow combo); DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -11,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 17
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.05,
+      "blockstun": 8,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -3,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "cammy__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; extended hurtbox appears for 2f before active; DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 5,
+      "onPerfectParry": -8,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.304",
+        "onHit": "0.352"
+      },
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 13
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.57,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "cammy__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great ranged poke, vulnerable to DI if predicted; extended hurtbox remains for 7f after active frames, making it somewhat more whiff punishable",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 3,
+      "onPerfectParry": -19,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.04,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "cammy__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can get frame advantage with meaty timing and leads to good conversions on counter-hit; decent Drive Rush starter (links to 5HP on hit, frame traps into itself) but doesn't carry much forward momentum; extended hurtbox remains for 4f after active frames",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 6,
+      "onPerfectParry": -15,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 22
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Sigh... Do you plan to fight at all?\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 335,
+      "superGauge": null,
+      "totalFrames": 335
+    },
+    {
+      "active": "12",
+      "afterDriveRush": null,
+      "airborne": "9-46 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.05,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": "1200(800)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "cammy__623hk",
+      "input": {
+        "numpad": "623HK",
+        "official": null
+      },
+      "invuln": "1-8 Air",
+      "juggle": {
+        "increase": "40",
+        "limit": "4/40",
+        "start": "1"
+      },
+      "name": {
+        "en": "Cannon Spike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Longest horizontal range (good for long range anti-airs and neutral jumps; best grounded combo ender); () refers to damage and juggle limit on active frames 3-12; SA3 cancel whiffs on hit; cannot anti-air cross-ups",
+        "ja": null
+      },
+      "onBlock": -36,
+      "onHit": 22,
+      "onPerfectParry": -50,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "12",
+      "afterDriveRush": null,
+      "airborne": "26-64 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.09,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": "1100,100x4 (900)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 700
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "cammy__623[hk]",
+      "input": {
+        "numpad": "623[HK]",
+        "official": null
+      },
+      "invuln": "1-7 Air, 20-25 Full",
+      "juggle": {
+        "increase": "1,0x3,40",
+        "limit": "4/40,40x4",
+        "start": "1x5"
+      },
+      "name": {
+        "en": "Cannon Spike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long horizontal range (but can drop when canceled from 5HP outside close range); () refers to damage and juggle limit on active frames 5-12 (becomes 1 hit if these frames connect); switches sides on hit; first hit can successfully juggle to SA3; holding HK for 15-16f results in a full charge up to 2f faster (full invuln window shifts 2f earlier, and allows it to combo from CH 2MP); cannot anti-air cross-ups",
+        "ja": null
+      },
+      "onBlock": -40,
+      "onHit": 16,
+      "onPerfectParry": -54,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 29,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 80
+    },
+    {
+      "active": "12",
+      "afterDriveRush": null,
+      "airborne": "8-47 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.04,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 275,
+      "damage": 600,
+      "damageText": "600,100x3,600 (900)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "cammy__623kk",
+      "input": {
+        "numpad": "623KK",
+        "official": null
+      },
+      "invuln": "1-7 Full",
+      "juggle": {
+        "increase": "1,0x3,40",
+        "limit": "4/40,40x4",
+        "start": "1x5"
+      },
+      "name": {
+        "en": "Cannon Spike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long horizontal range (good for punishes and long range anti-airs); () refers to damage and juggle limit on active frames 4-12 (becomes 1 hit); cannot anti-air cross-ups",
+        "ja": null
+      },
+      "onBlock": -40,
+      "onHit": 19,
+      "onPerfectParry": -54,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 63
+    },
+    {
+      "active": "12",
+      "afterDriveRush": null,
+      "airborne": "7-40 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.88,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": "900(800)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "cammy__623lk",
+      "input": {
+        "numpad": "623LK",
+        "official": null
+      },
+      "invuln": "1-14 Air",
+      "juggle": {
+        "increase": "40",
+        "limit": "4/40",
+        "start": "1"
+      },
+      "name": {
+        "en": "Cannon Spike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shortest horizontal range (good close-range anti-air but can whiff in grounded combos); () refers to damage and juggle limit on active frames 3-12; SA3 cancel whiffs on hit; cannot anti-air cross-ups",
+        "ja": null
+      },
+      "onBlock": -36,
+      "onHit": 20,
+      "onPerfectParry": -50,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 56
+    },
+    {
+      "active": "12",
+      "afterDriveRush": null,
+      "airborne": "8-42 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.3,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": "1000(800)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "cammy__623mk",
+      "input": {
+        "numpad": "623MK",
+        "official": null
+      },
+      "invuln": "1-9 Air",
+      "juggle": {
+        "increase": "40",
+        "limit": "4/40",
+        "start": "1"
+      },
+      "name": {
+        "en": "Cannon Spike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Medium horizontal range (good all-purpose anti-air and juggle ender); () refers to damage and juggle limit on active frames 3-12; SA3 cancel whiffs on hit; cannot anti-air cross-ups",
+        "ja": null
+      },
+      "onBlock": -36,
+      "onHit": 21,
+      "onPerfectParry": -50,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 58
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -8,
+        "onHit": 31
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.443,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 42
+      },
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "cammy__6hk",
+      "input": {
+        "numpad": "6HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Delayed Ripper",
+        "ja": null
+      },
+      "notes": {
+        "en": "5f extra recovery on whiff/block; pulls back hurtbox on frame 5-14 (auto-shimmy tool); low blockstun means that DR Cancel is the only way to make it safe; extended hurtbox remains for 9f after active frames; special cancel is delayed until after 2nd recovery frame; DR cancel is delayed until after active frames; can juggle into DRC~5HP~HK on normal hit or 214LP on Punish Counter for strong juggle routes",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 31,
+      "onPerfectParry": -26,
+      "onPunishCounter": 52,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.39,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "cammy",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "cammy__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Countersnipe (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.39,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "cammy",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "cammy__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Countersnipe (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Time to meet your maker.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 255,
+      "superGauge": null,
+      "totalFrames": 255
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.544,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "cammy",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "cammy__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Spin Raider",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "cammy",
+      "chipDamage": 750,
+      "damage": 3000,
+      "damageText": "3000 (220x8)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "cammy__j214214p",
+      "input": {
+        "numpad": "j.214214P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "30",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Aerial Killer Bee Spin",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forward jump only; puts airborne opponents into limited juggle state (no cinematic), number of airborne hits varies based on juggle height; non-cinematic Drive Damage distribution: 900x3-x7,3700; only deals 250 damage on the first hit if it trades",
+        "ja": null
+      },
+      "onBlock": -23,
+      "onHit": 12,
+      "onPerfectParry": -41,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 37,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "11 (until land)",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 22,
+      "id": "cammy__j214k",
+      "input": {
+        "numpad": "j.214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10",
+        "limit": "10",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Cannon Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forward jump only; cancelable from j.MP; button strength affects dive trajectory (LK short, MK mid, HK far); spike knockdown vs. airborne opponents; HK version worst-case frame advantage is 1f better than LK/MK versions; 2f extra hitstun and blockstun if it connects on the final 2 active frames before landing (screen shake occurs, guaranteeing an advantage of at least +10/+4)",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": -2,
+      "onPerfectParry": -22,
+      "onPunishCounter": 2,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "12 (until land)",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "cammy",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 22,
+      "id": "cammy__j214kk",
+      "input": {
+        "numpad": "j.214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "5",
+        "start": "2 air"
+      },
+      "name": {
+        "en": "Cannon Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forward jump only; cancelable from j.MP; puts airborne opponents into limited juggle state; hitconfirm reaction time is longer the higher the divekick connects (cancelable until landing); frame advantage on hit/block is fixed when connecting on the first active frame (e.g. as a corner throw escape); 2f extra hitstun and blockstun if it connects on the final 2 active frames before landing (screen shake occurs, guaranteeing an advantage of at least +10/+6)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 0,
+      "onPerfectParry": -20,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.16,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "cammy__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good jump-in from long range, especially mixed with empty jump or j.214K to bait anti-airs; can air-to-air from long range; lower body projectile invuln 10-35f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 7,
+      "onHit": 11,
+      "onPerfectParry": -6,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "cammy__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes spike knockdown vs. airborne opponents; good hitbox disjoint near Cammy's fists; lower body projectile invuln 8-35f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -9,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.52,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "cammy__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; can be used as a fuzzy instant overhead (except vs. Blanka)",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 6,
+      "onPerfectParry": -6,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.65,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "cammy__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Quick air-to-air",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 6,
+      "onPerfectParry": -5,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__jlplk",
+      "input": {
+        "numpad": "j.LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Leg Scissors Choke",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can get throw oki if opponent is near the corner (no oki midscreen even with Drive Rush)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 22,
+      "onPerfectParry": null,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.16,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1200
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "cammy__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long hitbox can work as a ranged air-to-air; lower body projectile invuln 7-30f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 8,
+      "onHit": 12,
+      "onPerfectParry": -3,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": 8,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1200
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "cammy__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "4",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state; cancels into j.214K/j.214214P on forward jump only; low blockstun means there will always be a blockstring gap if canceled; lower body projectile invuln 6-28f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 10,
+      "onPerfectParry": -5,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Rough Landing",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can walk for a manually-timed corner throw loop; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 17,
+      "onPerfectParry": null,
+      "onPunishCounter": 17,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "cammy",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "cammy__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.603 (min/throw), 2.027 (min/block), 2.796 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Cammy/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "Cammy",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

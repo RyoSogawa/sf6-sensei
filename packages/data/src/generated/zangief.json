@@ -1,0 +1,4382 @@
+{
+  "aliases": [],
+  "id": "zangief",
+  "moves": [
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.02,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 1500,
+      "damageText": "1500 (2550)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__1lplk",
+      "input": {
+        "numpad": "1LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Russian Drop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Switches sides; recovers too far away for any follow-up oki; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 9,
+      "onPerfectParry": null,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "50",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 2400,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 15000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__22hk",
+      "input": {
+        "numpad": "22HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Tundra Storm",
+        "ja": null
+      },
+      "notes": {
+        "en": "Counter is active 6-55f; only activates vs. kick attacks that connect with the hitbox between Zangief's arms (can work against normals, specials, and Drive moves); cannot counter low-hitting kicks; on successful counter, the attack uses a throw hitbox, causing it to whiff vs. airborne or throw invincible opponents",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 5,
+      "onPerfectParry": null,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 79
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.304,
+      "blockstun": 17,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "zangief__22mk",
+      "input": {
+        "numpad": "22MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Power Stomp 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can perform TC follow-ups on whiff; 2f blockstring gap between 22MK~MK TC hits",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -18,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 5,
+        "onHit": 6
+      },
+      "hitstop": 11,
+      "hitstun": 19,
+      "id": "zangief__22mkmk",
+      "input": {
+        "numpad": "22MK~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Power Stomps 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "Combos from 22MK naturally, but requires counter-hit to continue into 3rd hit of TC; counter-hit/Punish Counter bonus advantage does not carry over from initial 22MK; can be performed on whiff; 2f blockstring gap between 22MK~MK hits",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": -3,
+      "onPerfectParry": -20,
+      "onPunishCounter": 1,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 6,
+        "onHit": 14
+      },
+      "hitstop": 12,
+      "hitstun": 25,
+      "id": "zangief__22mkmkmk",
+      "input": {
+        "numpad": "22MK~MK~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Power Stomps 3",
+        "ja": null
+      },
+      "notes": {
+        "en": "Special cancelable, allowing Drive Rush extensions and safety on block (meterless Lariat will not combo on final cancelable frame); requires counter-hit on 2nd hit of 22MK~MK to combo into this attack; 2f blockstring gap between 2nd and 3rd hits of 22MK~MK~MK TC (can catch opponents trying to take back their turn, or use Drive Rush after 3rd hit to bail out safely); special/DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": -2,
+      "onPerfectParry": -25,
+      "onPunishCounter": 2,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": "2-30 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.764,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 3500,
+      "damageText": null,
+      "dmgScaling": "30% Minimum; 20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-17 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Aerial Russian Slam",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can only hit airborne opponents; cannot anti-air cross-ups",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 29,
+      "onPerfectParry": null,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": -10000
+      },
+      "totalFrames": 77
+    },
+    {
+      "active": "102",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 3,
+      "blockstun": 119,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "zangief",
+      "chipDamage": 50,
+      "damage": 3160,
+      "damageText": "3160(3060)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 0,
+      "hitstun": null,
+      "id": "zangief__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-18 Full, 19-119 Projectile",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "1,4x9,5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Cyclone Lariat",
+        "ja": null
+      },
+      "notes": {
+        "en": "Switches sides on hit; can hold forward/back on hit to move in that direction, dealing 100 less damage; holding forward keeps opponent on the same side with 4f worse KD Advantage; too slow to work as a reversal against many attacks, but half-screen suction makes it powerful as a projectile counter; can hold button for a fully charged launching version; plays out the held version on block or when juggled into; active frame distribution: vacuum 91f, juggle 1(4)2(7)2(8)2(7)2(8)2(9)2(7)2(9)2(8)3 starting on frame 33",
+        "ja": null
+      },
+      "onBlock": -35,
+      "onHit": 5,
+      "onPerfectParry": -53,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 52,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 171
+    },
+    {
+      "active": "105",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 3,
+      "blockstun": 122,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "zangief",
+      "chipDamage": 50,
+      "damage": 0,
+      "damageText": "0,60x9,560 (1100)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 0,
+      "hitstun": null,
+      "id": "zangief__236236[p]",
+      "input": {
+        "numpad": "236236[P]",
+        "official": null
+      },
+      "invuln": "1-18 Full, 19-122 Projectile",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "1,4x9,5",
+        "start": "0 (1 air)"
+      },
+      "name": {
+        "en": "Cyclone Lariat (hold P)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Launches opponent into free juggle state on grounded hit, limited juggle state if juggled into; too slow to work as a reversal against many attacks, but half-screen suction makes it powerful as a projectile counter; 25f recovery on hit, 52f recovery on whiff/block; active frame distribution: vacuum 94f, juggle 3(5)2(7)2(8)2(7)2(8)2(9)2(7)2(9)2(8)3 starting on frame 33",
+        "ja": null
+      },
+      "onBlock": -35,
+      "onHit": 87,
+      "onPerfectParry": -53,
+      "onPunishCounter": 87,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 172
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -9,
+        "onHit": 36
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.955,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3500
+      },
+      "driveRushCancel": null,
+      "hitstop": 14,
+      "hitstun": null,
+      "id": "zangief__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Big Stampede",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long-range sweep; has some natural juggle potential without Drive Rush; Punish Counter causes a Hard Knockdown",
+        "ja": null
+      },
+      "onBlock": -13,
+      "onHit": 36,
+      "onPerfectParry": -28,
+      "onPunishCounter": 45,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "9",
+      "afterDriveRush": {
+        "onBlock": -16,
+        "onHit": 20
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.68,
+      "blockstun": 24,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 7000,
+        "dealtOnHit": 11000,
+        "gain": 4000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "zangief__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": "10-19 Air (Head)",
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1 air[0 PC Ground/Air]"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Active frames 4-8 cannot hit grounded opponents, but can anti-air cross-ups; useful anti-air with slow startup; puts airborne opponents into limited juggle state; Punish Counter puts grounded/airborne opponents into free juggle state, followed by OTG bounce which can be followed up with Drive Rush buttons midscreen or an auto-timed 3MP in the corner",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 20,
+      "onPerfectParry": -42,
+      "onPunishCounter": 58,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 54
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.39,
+      "blockstun": 12,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 250,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "zangief__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK with no blockstring gap into 2LP/2LK; 3f startup when chained into; Zangief's only 4f normal",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 0,
+      "onPerfectParry": -13,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": {
+        "onBlock": "0.433",
+        "onHit": "0.373"
+      },
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.52,
+      "blockstun": 11,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "zangief__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK with no blockstring gap into 2LP/2LK; 3f startup when chained into; topmost hurtbox on frames 1-7 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 6,
+      "onPerfectParry": -8,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 15
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.02,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 1500,
+      "damageText": "1500 (2550)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__2lplk",
+      "input": {
+        "numpad": "2LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Brain Buster",
+        "ja": null
+      },
+      "notes": {
+        "en": "Switches sides; no follow-up throw oki after putting opponent into corner, but can connect with meaty strike; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 14,
+      "onPerfectParry": null,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.777,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "zangief__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long-range low poke with incredible hitbox priority; can confirm into 3MP after a Drive Rush starter",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -19,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.49,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "zangief__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Useful in combos due to its cancelability, especially into SA2; decent hitbox priority in neutral; topmost hurtbox is vulnerable only to aerial strikes on frames 1-7 (preventing its use as an anti-air), and is projectile invincible on frames 1-15 to avoid High Tiger Shot (frames 16-26 are still vulnerable)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 3,
+      "onPerfectParry": -17,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 26
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__2pppkkk",
+      "input": {
+        "numpad": "2PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Down Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"The power of Zangief is limitless!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 210,
+      "superGauge": null,
+      "totalFrames": 210
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.22,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 3300,
+      "damageText": "3300 (3795)",
+      "dmgScaling": "10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 7000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__360+hp",
+      "input": {
+        "numpad": "360+HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Screw Piledriver",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be input up to 6th jump frame; () refers to Punish Counter damage; highest damage for meterless SPD but shortest range",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 28,
+      "onPerfectParry": null,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 4000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.62,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 2500,
+      "damageText": "2500 (2875)",
+      "dmgScaling": "10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 7000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__360+lp",
+      "input": {
+        "numpad": "360+LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Screw Piledriver",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be input up to 6th jump frame; () refers to Punish Counter damage; longest range SPD but least damage",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 30,
+      "onPerfectParry": null,
+      "onPunishCounter": 30,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 4000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.47,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 2900,
+      "damageText": "2900 (3335)",
+      "dmgScaling": "10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 7000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__360+mp",
+      "input": {
+        "numpad": "360+MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Screw Piledriver",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be input up to 6th jump frame; () refers to Punish Counter damage; middle ground for range and damage",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 28,
+      "onPerfectParry": null,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 4000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.58,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 3400,
+      "damageText": "3400 (3910)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__360+pp",
+      "input": {
+        "numpad": "360+PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Screw Piledriver",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be input up to 6th jump frame; () refers to Punish Counter damage; highest damage SPD, slightly less range than LP version",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 28,
+      "onPerfectParry": null,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 4000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": -14,
+        "onHit": 21
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.964,
+      "blockstun": 26,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 11000,
+        "gain": 4000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "zangief__3hk",
+      "input": {
+        "numpad": "3HK",
+        "official": null
+      },
+      "invuln": "5-26 Throw/Lower Body",
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1 air[0 PC Ground]"
+      },
+      "name": {
+        "en": "Smetana Dropkick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Low crushes during throw/lower body invuln frames 5-26, but not airborne; great hitbox priority, but long recovery makes it a risky counterpoke; puts airborne opponents into limited juggle state; has juggle potential; Punish Counter causes wallsplat after tumble if it reaches the corner; wallsplat keeps opponent grounded and throwable (strikes still put opponent into limited juggle state)",
+        "ja": null
+      },
+      "onBlock": -18,
+      "onHit": 21,
+      "onPerfectParry": -42,
+      "onPunishCounter": 60,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 40,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 59
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.02,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__3lplk",
+      "input": {
+        "numpad": "3LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Spinebuster",
+        "ja": null
+      },
+      "notes": {
+        "en": "Gives access to corner throw loop, but less damaging throw overall; can still give decent oki even midscreen (but no throw loop without Drive Rush); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 28,
+      "onPerfectParry": null,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 3
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.334,
+      "blockstun": 21,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 6000,
+        "gain": 3000
+      },
+      "driveRushCancel": {
+        "onBlock": 9,
+        "onHit": 11
+      },
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "zangief__3mp",
+      "input": {
+        "numpad": "3MP",
+        "official": null
+      },
+      "invuln": "7-12 Air (Arm)",
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Hellstab",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand; puts airborne opponents into limited juggle state; lenient cancel window (final cancelable frame will not combo to meterless Lariat); the arm anti-air invincibility is not very useful due to Zangief's large head hurtbox (will only work against long range jumps with extended hurtbox); special/DR cancel is delayed until after active frames",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": -1,
+      "onPerfectParry": -22,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.02,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 1400,
+      "damageText": "1400 (2380)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Capture Suplex",
+        "ja": null
+      },
+      "notes": {
+        "en": "Switches sides; after back throwing opponent into the corner, can mix between SPD and ranged strike; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 8,
+      "onPerfectParry": null,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"You're lacking, just bring it!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 202,
+      "superGauge": null,
+      "totalFrames": 202
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.892,
+      "blockstun": 26,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 7000,
+        "dealtOnHit": 11000,
+        "gain": 4000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "zangief__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": "13-22 Air (Leg)",
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1 air[0 PC Ground/Air]"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit crouching opponents; puts airborne opponents into limited juggle state; Punish Counter puts grounded/airborne opponents into free juggle state; extends a hurtbox 1f before active that is vulnerable to projectiles; good anti-air but slow to startup",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 3,
+      "onPerfectParry": -23,
+      "onPunishCounter": 51,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 37
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": "4-release (Upper Body)",
+      "attackRange": 2.186,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 8000,
+        "gain": 3500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "zangief__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button can be held up to 22f for armored partial charge (armor loses to hitboxes that connect on Zangief's lower body); 10f startup after button release (total startup 16-32f); 2 extra recovery frames on whiff; counter-hit also gives KD +32; puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -23,
+      "onPunishCounter": 32,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": null,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 7,
+        "onHit": 40
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": "4-34 (Upper Body)",
+      "attackRange": 2.446,
+      "blockstun": 28,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 1400,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 13000,
+        "gain": 6000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "zangief__5[hp]",
+      "input": {
+        "numpad": "5[HP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch (hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Armor loses to hitboxes that connect on Zangief's lower body; button must be held 23f for full charge; 2 extra recovery frames on whiff; Counter-hit gives HKD +40; Punish Counter causes opponent to slide far along the ground",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 40,
+      "onPerfectParry": -23,
+      "onPunishCounter": 54,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 32,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 56
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 2
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.668,
+      "blockstun": 15,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 5,
+        "onHit": 7
+      },
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "zangief__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Very long range for a light normal (slightly longer than 5MP)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": -2,
+      "onPerfectParry": -17,
+      "onPunishCounter": 2,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 6,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.56,
+      "blockstun": 14,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "zangief__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK with no gap on blockstring; 4f startup when chained into; sets up a true mixup on block between strike and command throw",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 4,
+      "onPerfectParry": -10,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.02,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200,600 (2040,600)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__5lplk",
+      "input": {
+        "numpad": "5LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Bodyslam",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to follow-up attack used by holding Throw buttons; by omitting the follow-up attack, Zangief can manually time a corner throw loop; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 22,
+      "onPerfectParry": null,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 1800
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.778,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "zangief__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong poke due to its range and hitbox priority",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": -21,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 450,
+        "onHit": 900
+      },
+      "totalFrames": 32
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.66,
+      "blockstun": 19,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 6000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "zangief__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great poke due to its range and hitbox; TC follow-up is extremely lenient, but only works after counter-hit, Punish Counter, or Drive Rush; can perform TC follow-up on whiff; 6f blockstring gap when canceling to 5MP~MP",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -19,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 26,
+      "id": "zangief__5mpmp",
+      "input": {
+        "numpad": "5MP~MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Machine Gun Chops 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can combo from 5MP on counter-hit, Punish Counter, or Drive Rush with lenient confirm timing; combos into a third MP with no counter-hit required; can perform TC on whiff; 2nd hit may whiff if 5MP connects from too far away; 6f blockstring gap between 5MP~MP hits",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 2,
+      "onPerfectParry": -22,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 32
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "zangief__5mpmpmp",
+      "input": {
+        "numpad": "5MP~MP~MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Machine Gun Chops 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "Combos naturally from 5MP~MP; can be performed on whiff; 7f blockstring gap between 2nd and 3rd hits of TC; puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -17,
+      "onHit": 27,
+      "onPerfectParry": -33,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"My beautiful body is built better!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 194,
+      "superGauge": null,
+      "totalFrames": 194
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.14,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 3200,
+      "damageText": "3200 (3680)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__63214kk(close)",
+      "input": {
+        "numpad": "63214KK (Close)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Russian Suplex",
+        "ja": null
+      },
+      "notes": {
+        "en": "Only activates from close proximity; switches sides on hit; () refers to Punish Counter damage",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 27,
+      "onPerfectParry": null,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 50,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2500
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "3~ (2-hit)",
+      "attackRange": 1.64,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 3000,
+      "damageText": "3000 (3450)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__63214kk(far)",
+      "input": {
+        "numpad": "63214KK (Far)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Siberian Express",
+        "ja": null
+      },
+      "notes": {
+        "en": "Activates from beyond ~1/2 screen; 2-hit armor lasts until throw becomes active; startup increases at farther range; Zangief throws his arms up at the beginning, creating a noticeable visual cue; () refers to Punish Counter damage; immediately transitions to grab animation after absorbing a strike; Run Speed: 0.045 (28-30f) / 0.094 (31-37f) / 0.090 (38f~) / 0.099 (close proximity or after absorbing strike)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 29,
+      "onPerfectParry": null,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 40,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 54,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 4000
+      },
+      "totalFrames": 95
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.93,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 3000,
+      "damageText": "3000 (3450)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__63214kk(mid)",
+      "input": {
+        "numpad": "63214KK (Mid)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Siberian Express",
+        "ja": null
+      },
+      "notes": {
+        "en": "Activates when out of Russian Suplex range but within ~1/2 screen; less damage than Suplex but better KD Adv. and no side switch; () refers to Punish Counter damage; Run Speed: 0.086",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 29,
+      "onPerfectParry": null,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 44,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 4000
+      },
+      "totalFrames": 68
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.14,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 2900,
+      "damageText": "2900 (3335)",
+      "dmgScaling": "10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 3250
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__63214k(close)",
+      "input": {
+        "numpad": "63214K (Close)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Russian Suplex",
+        "ja": null
+      },
+      "notes": {
+        "en": "Only activates from close proximity; switches sides on hit; () refers to Punish Counter damage",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 26,
+      "onPerfectParry": null,
+      "onPunishCounter": 26,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 50,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "11~",
+      "attackRange": 1.64,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 2700,
+      "damageText": "2700 (3105)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__63214k(far)",
+      "input": {
+        "numpad": "63214K (Far)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Siberian Express",
+        "ja": null
+      },
+      "notes": {
+        "en": "Activates from beyond ~1/2 screen; armor lasts until throw becomes active; startup increases at farther range; Zangief throws his arms up at the beginning, creating a noticeable visual cue; () refers to Punish Counter damage; immediately transitions to grab animation after absorbing a strike; Run Speed: 0.094 (31-37f) / 0.090 (38f~) / 0.099 (close proximity)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 29,
+      "onPerfectParry": null,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 40,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 55,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 4000
+      },
+      "totalFrames": 96
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.93,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 2700,
+      "damageText": "2700 (3105)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__63214k(mid)",
+      "input": {
+        "numpad": "63214K (Mid)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Siberian Express",
+        "ja": null
+      },
+      "notes": {
+        "en": "Activates when out of Russian Suplex range but within ~1/2 screen; less damage than Suplex but better KD Adv. and no side switch; () refers to Punish Counter damage; Run Speed: 0.086",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 29,
+      "onPerfectParry": null,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 41,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 28,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 4000
+      },
+      "totalFrames": 70
+    },
+    {
+      "active": "7(5)",
+      "afterDriveRush": {
+        "onBlock": -8,
+        "onHit": 28
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.936,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 1300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 11000,
+        "gain": 4000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "zangief__6hk",
+      "input": {
+        "numpad": "6HK",
+        "official": null
+      },
+      "invuln": "13-28 Lower Body",
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1 air[0 PC Ground/Air]"
+      },
+      "name": {
+        "en": "Cyclone Wheel Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range overhead with high pushback (moves back during recovery and can be hard to punish at max range); low crushes during lower body invuln frames 13-28, but not airborne; active frames 1-2 can only hit airborne; active frames 3-4 whiff on crouching opponents unless they extend a vertical hurtbox, making it effectively 26f vs. crouching; +2 better KD Adv. vs. crouching; Punish Counter puts opponent into OTG free juggle state; puts airborne opponents into limited juggle state; has some juggle potential",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 28,
+      "onPerfectParry": -28,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 53
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": 8,
+        "onHit": 12
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.601,
+      "blockstun": 24,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 11000,
+        "gain": 4500
+      },
+      "driveRushCancel": {
+        "onBlock": 12,
+        "onHit": 16
+      },
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "zangief__6hp",
+      "input": {
+        "numpad": "6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Headbutt",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 extra recovery frames on whiff; great oki tool due to frame advantage, cancelability, and high active frame count; puts airborne opponents into limited juggle state spike knockdown; special/DR cancel is delayed until after 3rd active frame",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -18,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.1,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "zangief",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "zangief__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Reverse Russian Kick (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.1,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "zangief",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "zangief__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Reverse Russian Kick (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.02,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 1500,
+      "damageText": "1500 (2550)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__6lplk",
+      "input": {
+        "numpad": "6LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "German Suplex",
+        "ja": null
+      },
+      "notes": {
+        "en": "High damage, but poor oki; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 10,
+      "onPerfectParry": null,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "7",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.734,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 6000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 21,
+      "id": "zangief__6mk",
+      "input": {
+        "numpad": "6MK",
+        "official": null
+      },
+      "invuln": "7-23 Lower Body",
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Knee Hammer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Better advantage if well-spaced; final active frame has more range, making it easier to space at max distance for best frame advantage; low crushes during lower body invuln frames 7-23, but not airborne; extends a wide hurtbox from frame 2 onward making it susceptible to counterpokes",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": -18,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"You'd be right at home in the ring!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 227,
+      "superGauge": null,
+      "totalFrames": 227
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.6,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 4800,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__720+p",
+      "input": {
+        "numpad": "720+P",
+        "official": null
+      },
+      "invuln": "1-7 Full",
+      "juggle": null,
+      "name": {
+        "en": "Bolshoi Storm Buster",
+        "ja": null
+      },
+      "notes": {
+        "en": "Command grab Super; opponent cannot jump after the freeze; can only be comboed into with OD Lariat (1st hit), Punish Counter 3HK wall splat, or grounded crumple state; cinematic time regenerates ~2.2 Drive bars for Zangief; Range: 1.56 (2nd active frame, jumpable: 1.60)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 26,
+      "onPerfectParry": null,
+      "onPunishCounter": 26,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 116,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": -30000
+      },
+      "totalFrames": 123
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.65,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 5300,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__720+p",
+      "input": {
+        "numpad": "720+P",
+        "official": null
+      },
+      "invuln": "1-7 Full",
+      "juggle": null,
+      "name": {
+        "en": "Bolshoi Storm Buster (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Command grab Super; opponent cannot jump after the freeze; can only be comboed into with OD Lariat (1st hit), Punish Counter 3HK wall splat, or grounded crumple state; available at 25% HP or below; cinematic time regenerates ~2.7 Drive bars for Zangief; Range: 1.61 (2nd active frame, jumpable: 1.65)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 26,
+      "onPerfectParry": null,
+      "onPunishCounter": 26,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 116,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": -30000
+      },
+      "totalFrames": 123
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.496,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "zangief",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "zangief__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Double Russian Chop",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.81,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "zangief__j2hp",
+      "input": {
+        "numpad": "j.2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Flying Body Press",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; can be done from any jump direction; spike knockdown on counter-hit/Punish Counter vs. airborne opponents; more recovery on landing than other air normals (always punishable when Perfect Parried even at latest timing); legs (behind Zangief) are projectile invuln 9f~land",
+        "ja": null
+      },
+      "onBlock": 10,
+      "onHit": 14,
+      "onPerfectParry": -11,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.46,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 2900,
+      "damageText": "2900 (3260)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__j360+k",
+      "input": {
+        "numpad": "j.360+K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": "0 (1 from j.8HP)",
+        "start": null
+      },
+      "name": {
+        "en": "Borscht Dynamite",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be performed on first airborne jump frame (very low to the ground); grabs airborne opponents only; () refers to Punish Counter damage; Zangief is in a crouching state during landing recovery; juggle-only hitbox expands to match the OD version in combos",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 19,
+      "onPerfectParry": null,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 4000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.64,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 3000,
+      "damageText": "3000 (3375)",
+      "dmgScaling": "10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__j360+kk",
+      "input": {
+        "numpad": "j.360+KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Borscht Dynamite",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be performed on first airborne jump frame (very low to the ground); grabs airborne opponents only; can be juggled into; () refers to Punish Counter damage; Zangief is in a crouching state during landing recovery",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 19,
+      "onPerfectParry": null,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 4000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.98,
+      "blockstun": 20,
+      "cancel": [
+        "special"
+      ],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "zangief__j8hp",
+      "input": {
+        "numpad": "j.8HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Flying Headbutt",
+        "ja": null
+      },
+      "notes": {
+        "en": "Combos to j.360+KK when canceled; puts airborne opponents into limited juggle state; short range but good air-to-air hitbox",
+        "ja": null
+      },
+      "onBlock": 13,
+      "onHit": 18,
+      "onPerfectParry": -5,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.26,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "zangief__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be held for a powered up version (holding less than 20f gives a regular j.HK with delayed timing); long horizontal range; lower body projectile invuln 10-21f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 8,
+      "onHit": 12,
+      "onPerfectParry": -5,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.32,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 1500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "zangief__j[hk]",
+      "input": {
+        "numpad": "j.[HK]",
+        "official": null
+      },
+      "invuln": "32~ Projectile (Body)",
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "0"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick (hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button must be held for 20f; wall splats on hit; wall bounce on PC allows follow-up juggles; KD Advantage depends on height and distance from corner; projectile invulnerable on Zangief's body (not legs) while active until landing; landing recovery on whiff is 20f if fully charged, or 12f if only partially charged; whiff landing recovery is cancelable into attacks (but not movement) starting on 2nd frame; if active frames 2-6 connect right as Zangief lands, he does not bounce away and the landing recovery becomes cancelable into attacks (-1 oB if not canceled); lower body projectile invuln 32f~land except around attack hitbox",
+        "ja": null
+      },
+      "onBlock": -30,
+      "onHit": null,
+      "onPerfectParry": -48,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 32,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.27,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "zangief__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes spike knockdown vs. airborne opponents; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 7,
+      "onHit": 15,
+      "onPerfectParry": -8,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.64,
+      "blockstun": 12,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "zangief__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; can be used as a fuzzy instant overhead",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 2,
+      "onPerfectParry": -11,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.34,
+      "blockstun": 12,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "zangief__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Decent air-to-air",
+        "ja": null
+      },
+      "onBlock": 8,
+      "onHit": 11,
+      "onPerfectParry": -2,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.12,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 18,
+      "id": "zangief__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good jump-in with long horizontal and vertical reach; can be used as a fuzzy instant overhead vs. JP/Marisa/Zangief only (requires deep j.2HP or opponent in Burnout for true blockstring); lower body projectile invuln 8-25f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 6,
+      "onPerfectParry": -10,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.33,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 18,
+      "id": "zangief__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1 CH/PC Air"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state on counter-hit/Punish Counter; lower body projectile invuln 8-21f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 7,
+      "onHit": 10,
+      "onPerfectParry": -6,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "zangief",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "zangief__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.327 (min/throw), 1.455 (min/block), 3.040 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    },
+    {
+      "active": "2(3)2(4)2(8)2(6)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.9,
+      "blockstun": 17,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "zangief",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 4000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "zangief__pp",
+      "input": {
+        "numpad": "PP",
+        "official": null
+      },
+      "invuln": "6-16 Air, 6-45 Projectile",
+      "juggle": {
+        "increase": "10x3,0",
+        "limit": "1",
+        "start": "10x3,0"
+      },
+      "name": {
+        "en": "Double Lariat",
+        "ja": null
+      },
+      "notes": {
+        "en": "First hit can anti-air but cannot hit cross-ups; head hurtbox disappears on frames 1-5 of startup, then further shrinks hurtbox on frames 6-16; all hits (except 1st) whiff vs. crouch (only connects once on hit); can hold left/right to move during animation; cancel into SA3 is only useful vs. armor; final hit puts opponent into free juggle state (useful combo starter after stun)",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 27,
+      "onPerfectParry": -27,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 800,
+        "onHit": 1600
+      },
+      "totalFrames": 72
+    },
+    {
+      "active": "2(1)3(3)2(6)2(4)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.06,
+      "blockstun": 17,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "zangief",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": "700,1000 (1700)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "zangief__ppp",
+      "input": {
+        "numpad": "PPP",
+        "official": null
+      },
+      "invuln": "6-13 Air, 1-36 Projectile",
+      "juggle": {
+        "increase": "1,10x4",
+        "limit": "1,3x4",
+        "start": "1,10x4"
+      },
+      "name": {
+        "en": "Double Lariat",
+        "ja": null
+      },
+      "notes": {
+        "en": "First hit can anti-air but cannot hit cross-ups; head hurtbox disappears on frames 1-5 of startup, then further shrinks hurtbox on frames 6-13; can hold left/right to move during animation; connects twice on hit, 5 times vs. stand block (true blockstring), or 3 times vs. crouch block (1f gap between final 2 hits if not in Burnout); fairly strong chip-out tool on burned out opponents (high pushback on block makes it very difficult for most characters to punish when the final hit is spaced out); 1st hit crumples grounded opponents (allows SA3 combo); faster startup makes it more consistent than meterless Lariat in combos; in juggles, can combo into j.360+KK or SA1 if the juggling hits are staggered; 1st active frame of 2nd hit only connects on grounded opponents",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 38,
+      "onPerfectParry": -25,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 62
+    }
+  ],
+  "name": {
+    "en": "Zangief",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

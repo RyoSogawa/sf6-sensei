@@ -1,0 +1,4364 @@
+{
+  "aliases": [],
+  "id": "terry",
+  "moves": [
+    {
+      "active": "13",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 40,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "terry",
+      "chipDamage": 750,
+      "damage": 2600,
+      "damageText": null,
+      "dmgScaling": "50% Starter; 40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "terry__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": "1-17 Full, 18-25 Air",
+      "juggle": {
+        "increase": "0",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Power Geyser",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit Super-priority projectile hitbox with good anti-air and anti-projectile properties; can follow up with Twin Geyser (3 Drive bars) and Triple Geyser (1 Super bar) on hit only; starter scaling means that follow-ups will be heavily scaled after a reversal or anti-air SA2; can be performed during the last 4 recovery frames of 236MK for a juggle anywhere on screen; can also be input with 21416+MK+HP (cosmetic difference only)",
+        "ja": null
+      },
+      "onBlock": -27,
+      "onHit": 24,
+      "onPerfectParry": -56,
+      "onPunishCounter": 24,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 79
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 1100,
+      "damageText": "1100(440 scaled)",
+      "dmgScaling": "20% Immediate; 40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 0,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "terry__214214ppp",
+      "input": {
+        "numpad": "214214P~PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Twin Geyser",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up to Power Geyser for 3 Drive bars (on hit only); can also be followed up with SA1, 214MP, Drive Rush juggles, or more in the corner; the damage on non-Super follow-ups is extremely low when starting from raw SA2 due to starter scaling; attempting to input Triple Geyser follow-up without enough meter results in a whiffed attack that leaves Terry at -3 KD Advantage; no invincibility at all (can be hit by lingering moves like Kimberly's spraycan)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 55,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 43,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": null,
+      "totalFrames": 70
+    },
+    {
+      "active": "1",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 2500,
+      "damageText": "2500(1000 scaled)",
+      "dmgScaling": "20% Immediate; 40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 2000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "terry__214214ppppp",
+      "input": {
+        "numpad": "214214P~PP~PP",
+        "official": null
+      },
+      "invuln": "1-139 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "99",
+        "start": "100"
+      },
+      "name": {
+        "en": "Triple Geyser",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up to Twin Geyser for 1 extra Super bar; attempting to input without a full Super meter results in a whiffed attack that leaves Terry at -3 KD Advantage",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 18,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 125,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 139
+    },
+    {
+      "active": "3,3,2,3",
+      "afterDriveRush": null,
+      "airborne": "12-34 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x3,800 (900~1400)",
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "terry__214hk",
+      "input": {
+        "numpad": "214HK",
+        "official": null
+      },
+      "invuln": "14-31 Lower Body Projectile",
+      "juggle": {
+        "increase": "1,1,0,1",
+        "limit": "5,5,6,(6)",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crack Shoot",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits vs. grounded, up to 3 hits vs. airborne; first 7 active frames can only hit airborne opponents (functionally 30f startup); cannot hit cross-up; puts airborne opponent into limited juggle state; kicking leg is anti-air invuln on frames 28-30; can be spaced out to hit once with 2f better advantage; technically has 4 hits, but up to 3 can land at once; damage is highly variable depending on which hits connect (last hit does most damage, but landing all 3 airborne hits allows strong juggle extensions); can hop over many grounded attacks (even some standing); can be used for a sideswitch mid-combo or a corpse hop on downed opponents; strong vs. Burnout, dealing chip while staying close range with frame advantage (but too slow to cancel into for Burnout loops); last hit is lower to the ground than other versions and can beat moves that low profile other versions",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 43,
+      "onPerfectParry": -21,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 1,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 52
+    },
+    {
+      "active": "14",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.908,
+      "blockstun": 23,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "terry__214hp",
+      "input": {
+        "numpad": "214HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "20",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Burning Knuckle",
+        "ja": null
+      },
+      "notes": {
+        "en": "Travels about 80% of the screen; can be spaced to be plus on block from farther ranges (causing a screen shake); good approach tool vs. opponents in Burnout, but no screen shake when +1~4 vs. Burnout; useful approach when following behind Power Wave; Terry raises his hands for a reactable visual cue; only cancelable on active frames 1-5 (cannot cancel on a farther range connect); puts airborne opponents into limited juggle state (can juggle after very late connect)",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 28,
+      "onPerfectParry": -29,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": 275,
+        "onHit": 1200
+      },
+      "totalFrames": 53
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": "8-25 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "terry__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "8",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crack Shoot",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle OTG state; first active frame does not connect on grounded opponents (functionally 21f startup); first 2 active frames have a good anti-air hitbox; can hop over many grounded attacks (even some standing); very strong vs. Burnout, dealing chip while staying close range with frame advantage (often required to get point blank after 2 reps of meterless Burnout loop)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 29,
+      "onPerfectParry": -20,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 1000
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": "7-23 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 8000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 21,
+      "id": "terry__214lk",
+      "input": {
+        "numpad": "214LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crack Shoot",
+        "ja": null
+      },
+      "notes": {
+        "en": "First 2 active frames can only hit airborne opponents (functionally 18f startup); cannot hit cross-up; causes spike knockdown vs. airborne opponents; causes Hard Knockdown on Punish Counter (prevents follow-up links); can hop over many grounded attacks (especially crouching); can be used for a sideswitch mid-combo or a corpse hop on downed opponents; very strong vs. Burnout, dealing chip while staying close range with frame advantage",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -18,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 4,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 800
+      },
+      "totalFrames": 37
+    },
+    {
+      "active": "2(10)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.82,
+      "blockstun": 32,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500,400 (900)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 39,
+      "id": "terry__214lp",
+      "input": {
+        "numpad": "214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "8,9",
+        "start": "3"
+      },
+      "name": {
+        "en": "Quick Burn",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; functionally 22f startup as an overhead; on hit, leaves Terry at close range for a strike/throw/shimmy mixup; short range, primarily used in light confirms",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 2,
+      "onPerfectParry": -23,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "2(10)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.87,
+      "blockstun": 32,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2,600 (1400)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "terry__214lpmpor214lphp",
+      "input": {
+        "numpad": "214LPMP or 214LPHP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1x3",
+        "limit": "8,9,10",
+        "start": "3"
+      },
+      "name": {
+        "en": "Quick Burn",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits that transition to a 3rd attack on hit only; functionally 22f startup as an overhead",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 33,
+      "onPerfectParry": -23,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "4,3",
+      "afterDriveRush": null,
+      "airborne": "9-25 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 175,
+      "damage": 900,
+      "damageText": "900 / 450x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3500,
+        "dealtOnHit": 8000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 23,
+      "id": "terry__214mk",
+      "input": {
+        "numpad": "214MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "5,5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crack Shoot",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits vs. airborne, 1 hit vs. grounded (different damage values accordingly); first 5 active frames can only hit airborne opponents (functionally 22f startup); cannot hit cross-up; puts airborne opponents into limited juggle state; causes Hard Knockdown on Counter-hit/Punish Counter (prevents follow-up links); can hop over many grounded attacks (even some standing); can be used for a sideswitch mid-combo or a corpse hop on downed opponents; very strong vs. Burnout, dealing chip while staying close range with frame advantage",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -18,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.862,
+      "blockstun": 23,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "terry__214mp",
+      "input": {
+        "numpad": "214MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Burning Knuckle",
+        "ja": null
+      },
+      "notes": {
+        "en": "Travels about 50% of the screen; can be spaced to be plus on block from farther ranges (causing a screen shake); good approach tool vs. opponents in Burnout, but no screen shake when +1~4 vs. Burnout; only cancelable on 1st active frame (cannot cancel on a farther range connect); grants a safe jump on hit if final active frame connects; puts airborne opponents into limited juggle state (can juggle after very late connect); topmost hitbox whiffs on standard-sized crouching opponents making it easier to space in neutral vs. crouch block",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 30,
+      "onPerfectParry": -27,
+      "onPunishCounter": 30,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 275,
+        "onHit": 1000
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "14",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.908,
+      "blockstun": 23,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "terry__214mphp",
+      "input": {
+        "numpad": "214MPHP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Burning Knuckle",
+        "ja": null
+      },
+      "notes": {
+        "en": "Punish Counter puts opponent into tumbling OTG state (wall splat if opponent reaches the corner); only cancelable on active frames 1-7; can be spaced to be plus on block from farther ranges (causing a screen shake); good approach tool vs. opponents in Burnout, but no screen shake when +1~4 vs. Burnout; puts airborne opponents into limited juggle state (can juggle after very late connect)",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 60,
+      "onPerfectParry": -29,
+      "onPunishCounter": 70,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "12",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 3.862,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "terry",
+      "chipDamage": 500,
+      "damage": 2000,
+      "damageText": null,
+      "dmgScaling": "30% Starter; 30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 30,
+      "hitstun": null,
+      "id": "terry__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-8 Strike/Throw",
+      "juggle": {
+        "increase": "20",
+        "limit": "99",
+        "start": "20"
+      },
+      "name": {
+        "en": "Buster Wolf",
+        "ja": null
+      },
+      "notes": {
+        "en": "Incurs a fixed 45f recovery on block (advantage is not affected by meaty timing); transitions to projectile follow-up on hit only; fast and long range, making it great for combos and punishes; puts opponent into limited juggle state and can combo into another SA1 if juggled high enough; if first hit trades, deals 500 damage and puts the opponent into a free juggle crumple state (may be able to follow up with moves like 214HP, Dash/DR normals, or another SA1)",
+        "ja": null
+      },
+      "onBlock": -26,
+      "onHit": 22,
+      "onPerfectParry": -44,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 60,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 78
+    },
+    {
+      "active": "27",
+      "afterDriveRush": null,
+      "airborne": "9-63 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.585,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "terry",
+      "chipDamage": 1100,
+      "damage": 4000,
+      "damageText": "4000(2650-3000)",
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "terry__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-16 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Rising Fang",
+        "ja": null
+      },
+      "notes": {
+        "en": "Only the first 3 active frames cause cinematic hit; damage distribution on non-cinematic hit is 350(x6-7),550 with no HKD and less KD advantage; cinematic time regenerates ~2.1 Drive bars for Terry; faster 2f startup when canceled from Rising Tackle, Quick Burn, or Burning Knuckle; final hit whiffs on crouch block (reduced chip and Drive damage)",
+        "ja": null
+      },
+      "onBlock": -50,
+      "onHit": 22,
+      "onPerfectParry": -75,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 29,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 91
+    },
+    {
+      "active": "27",
+      "afterDriveRush": null,
+      "airborne": "9-63 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.585,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "terry",
+      "chipDamage": 1350,
+      "damage": 4500,
+      "damageText": "4500(3150-3500)",
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "terry__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-16 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Rising Fang (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Available at 25% HP or below; only the first 3 active frames cause cinematic hit; damage distribution on non-cinematic hit is 350(x6-7),1050 with no HKD and less KD advantage; cinematic time regenerates ~2.1 Drive bars for Terry; faster 2f startup when canceled from Rising Tackle, Quick Burn, or Burning Knuckle; final hit whiffs on crouch block (reduced chip and Drive damage)",
+        "ja": null
+      },
+      "onBlock": -50,
+      "onHit": 37,
+      "onPerfectParry": -75,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 29,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 91
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.895,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "terry__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Power Charge",
+        "ja": null
+      },
+      "notes": {
+        "en": "Farthest travel distance; cancelable on frames 26-45 into special moves (except Power Charge) on hit only; delaying the special cancel allows different conversions or more optimal damage; puts opponent into limited juggle state (airborne opponents are not launched as high, resulting in more limited follow-ups); only combos naturally from the first hit of 5HP",
+        "ja": null
+      },
+      "onBlock": -16,
+      "onHit": 37,
+      "onPerfectParry": -34,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 28,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 7000,
+        "dealtOnHit": 2000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 31,
+      "id": "terry__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Round Wave",
+        "ja": null
+      },
+      "notes": {
+        "en": "Stationary 1-hit projectile hitbox that can dissipate fireballs or apply meaty pressure; can be perfect parried like a low strike (screen freeze); puts airborne opponents into limited juggle state; no head hurtbox on frames 24-48 (while leaning over)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 8,
+      "onPerfectParry": -21,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 29,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.871,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "terry__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "5",
+        "start": "3"
+      },
+      "name": {
+        "en": "Power Charge",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes Wall Bounce on hit; cancelable on frames 20-39 into special moves (except Power Charge) on hit only (useful for midscreen positioning or keeping opponent cornered after wall bounce); if used twice in a combo, 2nd hit will cause a quick wall splat that drops straight to the ground; KD advantage varies based on distance from wall (farther away gives higher advantage)",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 55,
+      "onPerfectParry": -30,
+      "onPunishCounter": 55,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.96,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 32,
+      "id": "terry__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Power Charge",
+        "ja": null
+      },
+      "notes": {
+        "en": "Short travel distance; comboable from lights except 5LP; keeps opponent standing for strike/throw mixup on hit; can be spaced out to allow a follow-up combo on hit; puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 3,
+      "onPerfectParry": -27,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 33,
+      "id": "terry__236lp",
+      "input": {
+        "numpad": "236LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Power Wave",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; travels fullscreen, moving slowly along the ground; can pass underneath standard projectiles without clashing; puts airborne opponents into limited juggle state; no head hurtbox on frames 11-41 (while leaning over); extended arm hurtbox on frames 14-37 is projectile invuln",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": -3,
+      "onPerfectParry": -25,
+      "onPunishCounter": 1,
+      "projectileSpeed": 0.06,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.441,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "terry__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Power Charge",
+        "ja": null
+      },
+      "notes": {
+        "en": "Medium travel distance; comboable from 2MP or heavy normals; puts opponent into limited juggle state (airborne opponents are launched higher than the HK version); can juggle SA1 anywhere on screen; final 4 recovery frames are cancelable into SA2 on hit, allowing a juggle anywhere on screen; sets up a safe jump setup on a close range grounded hit",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 42,
+      "onPerfectParry": -27,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "[14]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 33,
+      "id": "terry__236mp",
+      "input": {
+        "numpad": "236MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Power Wave",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; travels more quickly than LP version but dissipates at ~60% screen distance; causes knockdown on Counter-hit/Punish Counter (KD +33~46); hitbox is at ground level but reaches high enough to clash with standard projectiles; projectile speed starts slow and accelerates each active frame; puts airborne opponents into limited juggle state; no head hurtbox on frames 11-41 (while leaning over); extended arm hurtbox on frames 21-39 is projectile invuln",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 0,
+      "onPerfectParry": -22,
+      "onPunishCounter": 33,
+      "projectileSpeed": 0.02,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 31,
+      "id": "terry__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Power Wave",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit OD projectile; travels fullscreen, moving slowly along the ground; hitbox is at ground level but reaches high enough to clash with standard OD projectiles; acts as a shield allowing Terry to Drive Rush for pressure; no head hurtbox on frames 13-36 (while leaning over); extended arm hurtbox on frames 21-25 is projectile invuln; Counter-hit/Punish Counter advantage carries through both hits; puts airborne opponents into limited juggle state (can pop opponents up twice at certain juggle spacings)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -7,
+      "onPunishCounter": 6,
+      "projectileSpeed": 0.055,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -7,
+        "onHit": 40
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.629,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "terry__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Sliding Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good hitbox priority for counterpoking, but large extended hurtbox on whiff; can situationally anti-air some airborne moves at longer ranges; has juggle potential",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 40,
+      "onPerfectParry": -24,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "6(4)",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.79,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 10,
+        "onHit": 15
+      },
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "terry__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand; good anti-air on frames 10-13 but cannot hit cross-up; very short horizontal range; only first 2 active frames are cancelable; if the attack connects on the first 2 active frames, it has 2 fewer active and recovery frames (meaty timing can be up to 2f worse on hit/block if 3rd active frame connects); active frames 4-6 whiff on crouching opponents unless they extend a vertical hurtbox; delaying the cancel into 236PP can grant better frame advantage for combo extensions",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": -22,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.1,
+      "blockstun": 11,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "terry__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; good range, hitbox priority, and low pushback for a 2LK make it a great combo/blockstring starter or Drive Rush starter that can link into 2MP/5MP on hit",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -11,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 17
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.91,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "terry__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; shortest range of Terry's light normals, but naturally combos into 236LP, 214MP, and 236LK; topmost hurtbox on frames 1-6 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -9,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.330",
+        "onHit": "0.299"
+      },
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 2
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.501,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 8
+      },
+      "hitstop": 9,
+      "hitstun": 20,
+      "id": "terry__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Very long range low poke with a launching TC extension; DR cancel is delayed until after active frames; moves Terry forward during cancelable frames (makes 2MK~2HK more consistent, keeps Terry closer for Crack Shoot burnout pressure, but makes Power Wave cancels more unsafe)",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": -2,
+      "onPerfectParry": -20,
+      "onPunishCounter": 2,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 500
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": "500 (400)",
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 500
+      },
+      "driveRushCancel": {
+        "onBlock": 1,
+        "onHit": 52
+      },
+      "hitstop": 14,
+      "hitstun": null,
+      "id": "terry__2mk2hk",
+      "input": {
+        "numpad": "2MK~2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "2"
+      },
+      "name": {
+        "en": "Fire Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state; () refers to scaled damage from 2MK combo starter; can always be interrupted by an invincible reversal if DR canceled on block; DR cancel is delayed until after 2nd recovery frame; special cancel is delayed until after 3rd recovery frame",
+        "ja": null
+      },
+      "onBlock": -16,
+      "onHit": 35,
+      "onPerfectParry": null,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 300
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.16,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "terry__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on whiff; 1f extra recovery on block; great poke, counterpoke, meaty, and combo tool that can be up to +3 on block; topmost hurtbox on frames 1-9 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -16,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 600
+      },
+      "totalFrames": 22
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "terry__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Buster Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switches; cannot walk or dash for a corner throw loops; can use immediate DR~2MP for corner oki, but this is susceptible to invincible reversals on reaction; midscreen, chasing with Drive Rush gives very weak oki; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 18,
+      "onPerfectParry": null,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "terry__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"We gonna fight or what? I don't have all day. *whistle* Jeez.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 499,
+      "superGauge": null,
+      "totalFrames": 499
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.802,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "terry__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1[-1 PC]"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Solid poke for chipping the opponent's Drive gauge with its good range and hitbox priority; Punish Counter puts grounded opponents into a free juggle crumple state (+18 before opponent is knocked down); Punish Counter puts airborne opponents into limited juggle state; extends a hurtbox 1f before active that is vulnerable to projectiles; decent anti-air on frames 14-15 (strict timing to use effectively)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": -23,
+      "onPunishCounter": 59,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "1,3",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.245,
+      "blockstun": 21,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 11,
+        "onHit": 17
+      },
+      "hitstop": 12,
+      "hitstun": 27,
+      "id": "terry__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; 2f less recovery on block; both hits are cancelable, making it easy to hitconfirm; 1st hit has more hitstun, allowing combos into 236HK; Counter-hit/Punish Counter advantage carries through both hits; short range but good hitbox priority for counterpoking; 1st hit has much less range (only 2nd hit will connect as a ranged poke); when used out of Drive Rush on block, Terry is left slightly out of throw range but can microwalk + throw to beat 4f light normals",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 2,
+      "onPerfectParry": -20,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.19,
+      "blockstun": 12,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "terry__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Terry's longest range light normal for 5f punishes (but below average for a 5LK); useful in LK Power Charge loops when spaced; DR cancel is delayed until after 1st recovery frame",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -12,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.01,
+      "blockstun": 9,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "terry__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; faster chain timing than 2LP (better vs. DI); more range than 2LP, but less hitstun (cannot combo naturally into 236LP, 214MP, or 236LK)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -8,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.333",
+        "onHit": "0.289"
+      },
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 13
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.542,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 26,
+      "id": "terry__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Terry's main mid-range poke that can also link to 5LK at closer ranges; can easily link to SA1 on Counter-hit; front leg hurtbox is raised on frames 3-20 making it strong against low pokes",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 5,
+      "onPerfectParry": -19,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.297,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 6,
+        "onHit": 11
+      },
+      "hitstop": 11,
+      "hitstun": 21,
+      "id": "terry__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Moves Terry slightly forward; cancelable into 3 different Target Combo routes; good against opponents in Burnout due to its low pushback",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -17,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 4000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "terry__5mphk",
+      "input": {
+        "numpad": "5MP~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "45",
+        "limit": "4",
+        "start": "45"
+      },
+      "name": {
+        "en": "Power Shoot",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state; does not combo naturally on grounded opponents (requires at least Counter-hit or meaty timing); can be used in juggle routes; can follow up with Power Dunk on hit only; 5f gap between hits if blocked",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 39,
+      "onPerfectParry": -32,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "3(21)6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 1050,
+      "damageText": "1050 (910)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "terry__5mphkhk",
+      "input": {
+        "numpad": "5MP~HK~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": "50,60",
+        "start": null
+      },
+      "name": {
+        "en": "Power Dunk",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage from CH 5MP combo starter; this standard version occurs when buffering Power Dunk early or within the final 2f of the cancel window; KD advantage varies depending on timing (early input gives better advantage); can only be performed on hit; useful for corner carry and oki",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 25,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 1750
+      },
+      "totalFrames": 80
+    },
+    {
+      "active": "3(21)6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (1040)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "terry__5mphkhk",
+      "input": {
+        "numpad": "5MP~HK~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": "50,60",
+        "start": null
+      },
+      "name": {
+        "en": "Power Dunk (Just Frame)",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage from CH 5MP combo starter; extra damage when performed within a strict 2f timing window (success indicated by screen shake); can only be performed on hit; useful for corner carry and oki",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 24,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2250
+      },
+      "totalFrames": 80
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 1100,
+      "damageText": "1100(770)",
+      "dmgScaling": "30% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 600
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "terry__5mphp",
+      "input": {
+        "numpad": "5MP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Power Drive",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage when comboed from 5MP; puts opponent into limited juggle state (no follow-up juggles possible); high pushback on block keeps Terry safe if well-spaced; 3f gap on block for a frame trap (but can lose to 3f startup counters/armor moves)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 29,
+      "onPerfectParry": -23,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 37,
+      "id": "terry__5mpmk",
+      "input": {
+        "numpad": "5MP~MK",
+        "official": null
+      },
+      "invuln": "20-40 Full (hit)",
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Passing Sway",
+        "ja": null
+      },
+      "notes": {
+        "en": "Invuln applies during recovery on hit only; no collision box during invuln frames; can be followed up with Jumping Lariat or Jumping Knee; follow-ups cause invuln to be extended until the attack active frames (can significantly delay the follow-up for much longer invincibility); 1f gap between hits on block (can be delayed for a 2f gap)",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": -3,
+      "onPerfectParry": -27,
+      "onPunishCounter": 1,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": "16-25",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": null,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "terry__5mpmkmk",
+      "input": {
+        "numpad": "5MP~MK~MK",
+        "official": null
+      },
+      "invuln": "1-25 Full",
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Knee",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up from Passing Sway on hit (does not combo unless juggled into); can only hit cross-up (must be holding forward); -25~31 on whiff if Terry does not cross-up; full invincibility and no collision box from 5MP~MK is extended until end of active frames; can significantly delay the input to disrupt Perfect Parry timing while the extended invincibility window can beat normals and nearly all reversals (3-9f gap between hits); Terry recovers point blank on hit for a strike/throw mixup, and safely out of throw range on block; will counter-hit a 4f normal but can lose to specials with early anti-air invuln regardless of which side Terry recovers; does not cross up against cornered opponents, but if the opponent holds forward they will automatically block the cross-up (leaving Terry at point blank); this also applies midscreen if the opponent walks forward with a walk speed of 0.045 or faster (though this does not avoid the Jumping Lariat ender midscreen)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -20,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": "14-25",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": null,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 24,
+      "id": "terry__5mpmkmp",
+      "input": {
+        "numpad": "5MP~MK~MP",
+        "official": null
+      },
+      "invuln": "1-25 Full",
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Lariat",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up from Passing Sway on hit only (does not combo unless juggled into); can only hit on the same side (whiffs if holding forward for cross-up); -23~29 on whiff if Terry crosses up; full invincibility and no collision box from 5MP~MK is extended until end of active frames; can significantly delay the input to disrupt Perfect Parry timing while the extended invincibility window can beat normals and nearly all reversals (3-9f gap between hits); leaves Terry close enough for follow-up link on hit, and slightly out of throw range on block; will counter-hit a 4f normal but can lose to specials with early anti-air invuln regardless of which side Terry recovers; in the corner, Terry will still connect even if attempting to whiff a cross-up Jumping Lariat; if the opponent walks forward while cornered, Jumping Lariat will whiff regardless of which side Terry chooses (and will also block Jumping Knee); midscreen, Jumping Lariat will whiff if the opponent walks forward with a walkspeed of 0.045 or faster (if the input is delayed, all characters can walk forward to make it whiff)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 4,
+      "onPerfectParry": -18,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 1000
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "terry__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Hey, come on, come on!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 300,
+      "superGauge": null,
+      "totalFrames": 300
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "terry__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt (Burnout)",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Hey buddy, I got tons of fight left in me!\"; only occurs when Terry is in Burnout",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 370,
+      "superGauge": null,
+      "totalFrames": 370
+    },
+    {
+      "active": "2,4,14",
+      "afterDriveRush": null,
+      "airborne": "8-53 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.318,
+      "blockstun": 26,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": "700,300x2 (1300)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1400,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "terry__623hp",
+      "input": {
+        "numpad": "623HP",
+        "official": null
+      },
+      "invuln": "1-8 Air",
+      "juggle": {
+        "increase": "0x3",
+        "limit": "6(8),8,8",
+        "start": "1"
+      },
+      "name": {
+        "en": "Rising Tackle",
+        "ja": null
+      },
+      "notes": {
+        "en": "Farthest horizontal range (most consistent for combos, but may whiff under close jumps); cannot hit cross-up; only 1st active frame is cancelable (cancel may be impossible in combos from too far away); 3rd hit whiffs on crouch block (reduced chip and Drive damage); if Perfect Parried, opponent must crouch to avoid 2nd hit; puts opponent into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -36,
+      "onHit": 27,
+      "onPerfectParry": -60,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 68
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": "6-35 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.71,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": "1000(700)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "terry__623lp",
+      "input": {
+        "numpad": "623LP",
+        "official": null
+      },
+      "invuln": "1-14 Air",
+      "juggle": {
+        "increase": "5",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Rising Tackle",
+        "ja": null
+      },
+      "notes": {
+        "en": "Very short horizontal range (hits straight above Terry to anti-air close jumps); cannot hit cross-up; active frames 3-10 do reduced damage; only 1st active frame is cancelable (cancel may be impossible in combos from too far away); puts opponent into limited juggle state (allows follow-up juggles on a high connect)",
+        "ja": null
+      },
+      "onBlock": -23,
+      "onHit": 33,
+      "onPerfectParry": -41,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "4,6",
+      "afterDriveRush": null,
+      "airborne": "7-43 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.248,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "terry__623mp",
+      "input": {
+        "numpad": "623MP",
+        "official": null
+      },
+      "invuln": "1-10 Air",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "5(6),6",
+        "start": "1"
+      },
+      "name": {
+        "en": "Rising Tackle",
+        "ja": null
+      },
+      "notes": {
+        "en": "Medium horizontal range; cannot hit cross-up; only 1st active frame is cancelable (cancel may be impossible in combos from too far away); if Perfect Parried, opponent must crouch to avoid 2nd hit; puts opponent into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -26,
+      "onHit": 25,
+      "onPerfectParry": -48,
+      "onPunishCounter": 25,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 600
+      },
+      "totalFrames": 55
+    },
+    {
+      "active": "2,3,2,2,3,3",
+      "afterDriveRush": null,
+      "airborne": "7-54 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.248,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "special",
+      "characterId": "terry",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,200x4,400 (1600)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "terry__623pp",
+      "input": {
+        "numpad": "623PP",
+        "official": null
+      },
+      "invuln": "1-10 Full",
+      "juggle": {
+        "increase": "0x5,100",
+        "limit": "9x5,10",
+        "start": "100"
+      },
+      "name": {
+        "en": "Rising Tackle",
+        "ja": null
+      },
+      "notes": {
+        "en": "Horizontal range is between MP/HP versions (good anti-air for mid range jumps, as well as a strong juggle ender); cannot hit cross-up; can miss several hits of damage against high airborne opponent",
+        "ja": null
+      },
+      "onBlock": -42,
+      "onHit": 27,
+      "onPerfectParry": -62,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 34,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 600
+      },
+      "totalFrames": 69
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.468,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 4000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "terry__6hp",
+      "input": {
+        "numpad": "6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Hammer Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can link into 5LP/2LP with perfect meaty timing; leaves Terry slightly out of throw range when used from Drive Rush",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -20,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 1000
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.85,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "terry",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "terry__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Back Knuckle (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.85,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "terry",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "terry__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Back Knuckle (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "terry__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"No line here? Alright\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 205,
+      "superGauge": null,
+      "totalFrames": 205
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.5,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "terry",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "terry__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Back Spin Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.15,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "terry__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strongest all-purpose jump-in with good range and horizontal/vertical hitbox priority; lower body projectile invuln 10-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -8,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.78,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "terry__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes spike knockdown vs. airborne opponents on Counter-hit/Punish Counter; good hitbox priority for close-range jump-ins; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -8,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.92,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "terry__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fast air-to-air that hits above Terry",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 7,
+      "onPerfectParry": -4,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.08,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "terry__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fast air-to-air",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 6,
+      "onPerfectParry": -5,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.14,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "terry__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up with good horizontal range and forward hitbox priority; lower body projectile invuln 7-20f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -7,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.81,
+      "blockstun": 11,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "terry__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state; has a large air-to-air hitbox; only the last active frame can connect on grounded opponents (standing only, strict timing); lower body projectile invuln 6-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 7,
+      "onHit": 11,
+      "onPerfectParry": -2,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "terry__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Grasping Upper",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can dash for a +3 corner throw loop that leaves Terry point blank; can also walk forward with manual frame-perfect timing that allows a shimmy (4f timing vs. Zangief, 3f vs. Blanka/E. Honda, 2f vs. Marisa/Sagat); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 22,
+      "onPerfectParry": null,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "terry__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "terry__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "terry",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "terry__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.634 (min/throw), 2.416 (min/block), 3.181 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "Terry",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

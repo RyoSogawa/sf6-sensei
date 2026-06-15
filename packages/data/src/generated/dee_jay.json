@@ -1,0 +1,6190 @@
+{
+  "aliases": [],
+  "id": "dee_jay",
+  "moves": [
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.613,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "dee_jay__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": "1-13 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Weekend Pleasure",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; cinematic time regenerates ~2 Drive bars for Dee Jay",
+        "ja": null
+      },
+      "onBlock": -28,
+      "onHit": 26,
+      "onPerfectParry": -51,
+      "onPunishCounter": 26,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 48,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.613,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "dee_jay__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": "1-13 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Weekend Pleasure (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; available at 25% HP or below; cinematic time regenerates ~2.3 Drive bars for Dee Jay",
+        "ja": null
+      },
+      "onBlock": -28,
+      "onHit": 22,
+      "onPerfectParry": -51,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 48,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.641,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 25,
+      "damage": 2200,
+      "damageText": "2200 (800)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2600,
+        "gain": 200
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "dee_jay__214hp",
+      "input": {
+        "numpad": "214HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1x12,20",
+        "limit": "3x4,8x5,15x3,20",
+        "start": "20 (1 air)"
+      },
+      "name": {
+        "en": "Machine Gun Uppercut",
+        "ja": null
+      },
+      "notes": {
+        "en": "Damage Distribution: 100x4,150x4,100x4,180x3,260; () refers to damage on high juggle (puts opponent into limited juggle state, and can potentially link SA3 for huge damage); combo/juggle tool; requires CH/PC/DR 5HP or 4HK(1st) to combo on the ground; doesn't play out full animation on block or on high juggle connect; cancels on 1st or 13th hit; Punish Counter Drive dmg refers to before and after Super cancelable hit; good anti-air hitbox but cannot hit cross-up and is too slow for practical AA purposes",
+        "ja": null
+      },
+      "onBlock": -19,
+      "onHit": 40,
+      "onPerfectParry": -37,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 28,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 2500600
+      },
+      "totalFrames": 66
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__214k",
+      "input": {
+        "numpad": "214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Jus Cool",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can input follow-ups on frames 13-25 (variable timing allows stronger mixups and reaction to opponent's response); useful shimmy tool that can be canceled into to bait the opponent's defensive button press; Distance: 0.602 back",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": null,
+      "totalFrames": 37
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.819,
+      "blockstun": 24,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "dee_jay__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jus Cool",
+        "ja": null
+      },
+      "notes": {
+        "en": "1f extra recovery on block; can input attack follow-ups on frames 25-37 (frames 13-25 of the sway itself), and can input 6P dash follow-up after frame 19; puts opponent into limited juggle state; attack follow-ups can be input 3f earlier on block, allowing for 4f frame trap with LK follow-up; Distance: 0.74 back",
+        "ja": null
+      },
+      "onBlock": -18,
+      "onHit": 33,
+      "onPerfectParry": -40,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 36,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__214kk6p",
+      "input": {
+        "numpad": "214KK~6P",
+        "official": null
+      },
+      "invuln": "1-17 Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Juggling Dash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be input after 19f of 214KK (startup refers to this pre-dash period); hit/block adv. refers to data after 214KK attack connects (fastest timing); can cancel into 4P backdash on frames 18-23 of dash; can low profile under many high attacks while dashing; after 214KK launch, can dash to switch sides and follow up with a juggled [2]8K or SA1; Distance: 2.0 forward",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 40,
+      "onPerfectParry": null,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": null,
+      "totalFrames": 41
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__214kk6p4p",
+      "input": {
+        "numpad": "214KK~6P~4P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Juggling Sway",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hit/block advantage refers to data after 214KK attack connects (fastest timing); only 1f faster than letting 6P dash finish and ending with regular backdash; Distance: 1.0 back; can follow up with OD Jus Cool LK / MK / HK follow-ups (but not another Juggling Dash)",
+        "ja": null
+      },
+      "onBlock": -31,
+      "onHit": 24,
+      "onPerfectParry": null,
+      "onPunishCounter": 24,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": null,
+      "totalFrames": 57
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 14,
+      "hitstun": null,
+      "id": "dee_jay__214kkhk",
+      "input": {
+        "numpad": "214KK~HK",
+        "official": null
+      },
+      "invuln": "6-36 Upper Body",
+      "juggle": {
+        "increase": "2",
+        "limit": "10",
+        "start": "2[0 PC Ground]"
+      },
+      "name": {
+        "en": "Maximum Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts the opponent into limited juggle state (free juggle state on grounded Punish Counter; requires initial 214KK to whiff); the upper hitbox whiffs on crouching opponents unless they extend a vertical hurtbox (can only hit crouchers at very close range); can work as an anti-air if opponent jumps during Sway startup, and can hit cross-up",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 55,
+      "onPerfectParry": -24,
+      "onPunishCounter": 65,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 28,
+      "id": "dee_jay__214kklk",
+      "input": {
+        "numpad": "214KK~LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Funky Slicer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Safe low ender; 5f extra recovery on whiff or vs. armor; good for whiff punishing after baiting opponent with 214KK; earliest timing on block gives 4f gap that can set up trade combos into 5HP",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 6,
+      "onPerfectParry": -20,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 27,
+      "id": "dee_jay__214kkmk",
+      "input": {
+        "numpad": "214KK~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "4",
+        "limit": "10",
+        "start": "4 air[1 PC]"
+      },
+      "name": {
+        "en": "Waning Moon",
+        "ja": null
+      },
+      "notes": {
+        "en": "Safe overhead ender that can lead to follow-up combos on hit; 12-22f low crush (not airborne); first 2 active frames can only hit airborne; +7 on hit vs. standing; +6 on hit vs. all crouching characters (most likely scenario due to being an overhead); causes OTG bounce vs. airborne opponents (can juggle into any Super, OD Jackknife, or MK/HK Sobat); Punish Counter vs. airborne gives a more lenient juggle state on ground bounce",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 6,
+      "onPerfectParry": -18,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__214k6p",
+      "input": {
+        "numpad": "214K~6P",
+        "official": null
+      },
+      "invuln": "1-20 Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Juggling Dash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Startup refers to fastest 214K animation before 6P can be input, recovery refers to 6P dash animation; cancelable into 4P backdash on frames 18-23 of dash; can low profile under many high attacks while dashing; Distance: 2.36 forward",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": null,
+      "totalFrames": 40
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__214k6p4p",
+      "input": {
+        "numpad": "214K~6P~4P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Juggling Sway",
+        "ja": null
+      },
+      "notes": {
+        "en": "Startup refers to fastest 214K + 6P animation before 4P can be input, recovery refers to the 4P dash animation; only 1f faster than letting 6P dash finish and ending with regular backdash; Distance: 1.0 back; can follow up with Jus Cool LK / MK / HK follow-ups (but not another Juggling Dash)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 29,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": null,
+      "totalFrames": 59
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 14,
+      "hitstun": null,
+      "id": "dee_jay__214khk",
+      "input": {
+        "numpad": "214K~HK",
+        "official": null
+      },
+      "invuln": "15-19 Air (Leg)",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Maximum Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Upper body hurtbox shrinks down on frames 6-14 and 20-44; puts the opponent into limited juggle state; can work as an anti-air if opponent jumps during Sway startup and can hit cross-up; the upper hitbox whiffs on crouching opponents unless they extend a vertical hurtbox (can only hit crouchers at very close range)",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 45,
+      "onPerfectParry": -28,
+      "onPunishCounter": 45,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 27,
+      "id": "dee_jay__214klk",
+      "input": {
+        "numpad": "214K~LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Funky Slicer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Safe low ender; 2f extra recovery on hit, 5f extra recovery on whiff or vs. armor; good for whiff punishing after baiting opponent with 214K; against opponents in Burnout, canceling from 5HP into 214K~LK allows for a frame trap that leads to counter-hit combos",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -21,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": null,
+      "id": "dee_jay__214kmk",
+      "input": {
+        "numpad": "214K~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": null
+      },
+      "name": {
+        "en": "Waning Moon",
+        "ja": null
+      },
+      "notes": {
+        "en": "12-22f low crush (not airborne); gives great oki on hit or additional pressure on block; causes spike knockdown vs. airborne opponents; causes limited juggle OTG bounce on Punish Counter",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 27,
+      "onPerfectParry": -17,
+      "onPunishCounter": 51,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.035,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 37,
+      "damage": 1650,
+      "damageText": "1650 (800)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2000,
+        "gain": 200
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "dee_jay__214lp",
+      "input": {
+        "numpad": "214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Machine Gun Uppercut",
+        "ja": null
+      },
+      "notes": {
+        "en": "Damage Distribution: 150x5,200x3,300; () refers to damage on high juggle (puts opponent into limited juggle state); combo/juggle tool; combos naturally from 2MP; doesn't play out full animation on block or on high juggle connect; cancels on 1st or 8th hit; Punish Counter Drive Dmg refers to before and after Super cancelable hit; good anti-air hitbox but cannot hit cross-up and is too slow for practical AA purposes",
+        "ja": null
+      },
+      "onBlock": -19,
+      "onHit": 34,
+      "onPerfectParry": -37,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 1700600
+      },
+      "totalFrames": 53
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.275,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 25,
+      "damage": 1900,
+      "damageText": "1900 (800)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2750,
+        "gain": 200
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "dee_jay__214mp",
+      "input": {
+        "numpad": "214MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Machine Gun Uppercut",
+        "ja": null
+      },
+      "notes": {
+        "en": "Damage Distribution: 100x5,150x3,200x3,350; () refers to damage on high juggle (puts opponent into limited juggle state); combo/juggle tool; combos naturally from 5HP; doesn't play out full animation on block or on high juggle connect; cancels on 1st or 11th hit; Punish Counter Drive dmg refers to before and after Super cancelable hit; good anti-air hitbox but cannot hit cross-up and is too slow for practical AA purposes",
+        "ja": null
+      },
+      "onBlock": -19,
+      "onHit": 32,
+      "onPerfectParry": -37,
+      "onPunishCounter": 32,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 1700600
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.641,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 25,
+      "damage": 2500,
+      "damageText": "2500 (800)",
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 3000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "dee_jay__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1x16",
+        "limit": "5x4,10x4,12x4,15x3,20,99",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Machine Gun Uppercut",
+        "ja": null
+      },
+      "notes": {
+        "en": "Damage Distribution: 100x12,150x3,200,650; () refers to damage on high juggle; combo/juggle tool; only combos naturally from 5HP or 4HK (1st hit), or from 2MP after Punish Counter or Drive Rush; doesn't play out full animation on block or on high juggle connect; cancel occurs on 1st or 2nd to last hit; Punish Counter Drive dmg refers to before and after Super cancelable hit; good anti-air hitbox but cannot hit cross-up and is too slow for practical AA purposes",
+        "ja": null
+      },
+      "onBlock": -19,
+      "onHit": 23,
+      "onPerfectParry": -37,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 2100
+      },
+      "totalFrames": 64
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__22pp",
+      "input": {
+        "numpad": "22PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Speedy Maracas",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hold buttons to extend dance; counter-hit state for entire duration; can be canceled into from any version of [4]6P (remains in a Punish Counter state afterwards); builds Super Art gauge (2000 after 88f, then 49 per frame beginning on frame 109 when held); recovery starts after 88f when tapped or when buttons are released; takes 272f to build 1 bar; if Dee Jay reaches 2 bars of Super Gauge, transitions to a new dance animation with more recovery",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 38,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 88,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 126
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__22pp",
+      "input": {
+        "numpad": "22PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Speedy Maracas (2+ Bars)",
+        "ja": null
+      },
+      "notes": {
+        "en": "If Dee Jay reaches 2 bars of meter, he enters a second dance animation that lasts an extra 73f; can hold buttons to extend dance; counter-hit state for entire duration; can be canceled into from any version of [4]6P (remains in a Punish Counter state afterwards); builds Super Art gauge (2000 after 68f, then 49 per frame beginning on frame 96 when held); recovery starts after 95f when tapped (168f if tapping puts Dee Jay at 2 bars), or when buttons are released; takes 259f to go from 2 to 3 bars",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 38,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 95,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 133
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.477,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": 750,
+      "damage": 200,
+      "damageText": "200(1700~3000)",
+      "dmgScaling": "40% Minimum; 25% Starter; Combo (3 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": 48,
+      "id": "dee_jay__236236hp",
+      "input": {
+        "numpad": "236236HP",
+        "official": null
+      },
+      "invuln": "1-16 Full",
+      "juggle": {
+        "increase": "0",
+        "limit": "99",
+        "start": "0"
+      },
+      "name": {
+        "en": "Headliner Sunrise Festival",
+        "ja": null
+      },
+      "notes": {
+        "en": "LP~MP~HP~LK~MK~HK follow-ups (on hit only) must be manually timed (HP sequence gives highest damage with hardest difficulty); perfect rhythm gives more damage; non-perfect rhythm ender cannot follow up after the crumple knockdown; all follow-ups up to MK are +6 on hit with no additional damage scaling; full invincibility extended 1-29f on hit; KD +27 when juggled into; forces stand; cannot hit cross-up; applies 30% scaling to Super Art gain until end of combo",
+        "ja": null
+      },
+      "onBlock": -29,
+      "onHit": 6,
+      "onPerfectParry": -49,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 46,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 100,
+      "damageText": "100(200)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 35,
+      "id": "dee_jay__lp(1)",
+      "input": {
+        "numpad": "~LP (1)",
+        "official": null
+      },
+      "invuln": "1-25(26) Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+LP (Headliner Hit 1)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; 9f timing window after 236236HP; KD +41~42 when juggled into (can juggle afterward)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 100,
+      "damageText": "100(200)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": 32,
+      "id": "dee_jay__mp(2)",
+      "input": {
+        "numpad": "~MP (2)",
+        "official": null
+      },
+      "invuln": "1-21(23) Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+MP (Headliner Hit 2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; () refers to correct rhythm timing; 9f timing window after 236236HP~LP; KD +57 OTG Bounce when juggled into",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 100,
+      "damageText": "100(200)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 33,
+      "id": "dee_jay__hp(3)",
+      "input": {
+        "numpad": "~HP (3)",
+        "official": null
+      },
+      "invuln": "1-27(28) Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+HP (Headliner Hit 3)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; () refers to correct rhythm timing; 9f timing window after 236236HP~LP~MP; KD +49 when juggled into (can juggle afterward)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 100,
+      "damageText": "100(250)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": 45,
+      "id": "dee_jay__lk(4)",
+      "input": {
+        "numpad": "~LK (4)",
+        "official": null
+      },
+      "invuln": "1-29(31) Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+LK (Headliner Hit 4)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; () refers to correct rhythm timing; 9f timing window after 236236HP~LP~MP~HP; KD +41 when juggled into",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 100,
+      "damageText": "100(250)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 0,
+      "hitstun": 56,
+      "id": "dee_jay__mk(5)",
+      "input": {
+        "numpad": "~MK (5)",
+        "official": null
+      },
+      "invuln": "1-38 Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+MK (Headliner Hit 5)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; () refers to correct rhythm timing; 13f timing window after 236236HP~LP~MP~HP~LK; KD +32 when juggled into",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 47,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3(5)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400,600(250x2)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 1000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": null,
+      "id": "dee_jay__hk(6)",
+      "input": {
+        "numpad": "~HK (6)",
+        "official": null
+      },
+      "invuln": "1-28(36) Projectile",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+HK (Headliner Hit 6)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; () refers to correct rhythm timing; 15f timing window after 236236HP~LP~MP~HP~LK~MK; KD +26~27 when juggled into",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 19,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 79,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__hk(end)",
+      "input": {
+        "numpad": "~HK (End)",
+        "official": null
+      },
+      "invuln": "1-151 Full",
+      "juggle": null,
+      "name": {
+        "en": "Encore Beat",
+        "ja": null
+      },
+      "notes": {
+        "en": "Stays on same side; only possible after landing all rhythm timings; () refers to KD Adv. when juggled into; 42f timing window after 236236HP~LP~MP~HP~LK~MK~HK",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 34,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 151,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400,800",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__hp(end)",
+      "input": {
+        "numpad": "~HP (End)",
+        "official": null
+      },
+      "invuln": "1-181 Full",
+      "juggle": null,
+      "name": {
+        "en": "Climactic Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Switches sides; only possible after landing all rhythm timings; () refers to KD Adv. when juggled into; 42f timing window after 236236HP~LP~MP~HP~LK~MK~HK",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 24,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 181,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.82,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": 500,
+      "damage": 2000,
+      "damageText": null,
+      "dmgScaling": "30% Minimum; 40% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 18,
+      "hitstun": null,
+      "id": "dee_jay__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "19",
+        "start": "1 air[-1 CH/PC Ground][0 PC Air]"
+      },
+      "name": {
+        "en": "The Greatest Sobat",
+        "ja": null
+      },
+      "notes": {
+        "en": "Crumples on Counter-hit (HKD +66) and on Punish Counter (HKD +79); after crumple, Dee Jay is +4 on CH and +6 on PC before opponent becomes airborne, after which opponent is in a juggle state; causes sliding Hard Knockdown vs. airborne opponents; Punish Counter vs. airborne opponents causes a wall bounce and free juggle state (opponent can fly over Dee Jay's head if near the corner); 4-14f low crush (not airborne); does not extend hurtbox during attack (can force a trade vs. some projectiles for a follow-up combo); cannot be used as a reversal like most Lv.1 Supers; high pushback on block makes it safe against most characters when spaced",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 44,
+      "onPerfectParry": -35,
+      "onPunishCounter": 79,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.477,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": 750,
+      "damage": 300,
+      "damageText": "300(~2600)",
+      "dmgScaling": "40% Minimum; 25% Starter; Combo (3 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 1000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 48,
+      "id": "dee_jay__236236lp",
+      "input": {
+        "numpad": "236236LP",
+        "official": null
+      },
+      "invuln": "1-16 Full",
+      "juggle": {
+        "increase": "0",
+        "limit": "99",
+        "start": "0"
+      },
+      "name": {
+        "en": "Lowkey Sunrise Festival",
+        "ja": null
+      },
+      "notes": {
+        "en": "LP~MP~HP~LK~MK~HK follow-ups (on hit only) must be manually timed (LP sequence is easiest but lowest damage and cannot use cinematic HP/HK enders); all follow-ups up to MK are +6 on hit with no additional damage scaling; full invincibility extended 1-29f on hit; KD +27 when juggled into; forces stand; cannot hit cross-up; applies 30% scaling to Super Art gain until end of combo",
+        "ja": null
+      },
+      "onBlock": -29,
+      "onHit": 6,
+      "onPerfectParry": -49,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 46,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 175,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 800,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 35,
+      "id": "dee_jay__lp(1)",
+      "input": {
+        "numpad": "~LP (1)",
+        "official": null
+      },
+      "invuln": "1-25 Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+LP (Lowkey Hit 1)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; 45f timing window after 236236LP; KD +41 when juggled into (can juggle afterwards)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 175,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 800,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": 32,
+      "id": "dee_jay__mp(2)",
+      "input": {
+        "numpad": "~MP (2)",
+        "official": null
+      },
+      "invuln": "1-21 Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+MP (Lowkey Hit 2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; f timing window after 236236LP~LP; KD +57 OTG Bounce when juggled into",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 175,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 800,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 33,
+      "id": "dee_jay__hp(3)",
+      "input": {
+        "numpad": "~HP (3)",
+        "official": null
+      },
+      "invuln": "1-28 Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+HP (Lowkey Hit 3)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; f timing window after 236236LP~LP~MP; KD +49 when juggled into (can juggle afterwards)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 175,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 800,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": 45,
+      "id": "dee_jay__lk(4)",
+      "input": {
+        "numpad": "~LK (4)",
+        "official": null
+      },
+      "invuln": "1-31 Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+LK (Lowkey Hit 4)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; f timing window after 236236LP~LP~MP~HP; KD +41 when juggled into",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 800,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 0,
+      "hitstun": 56,
+      "id": "dee_jay__mk(5)",
+      "input": {
+        "numpad": "~MK (5)",
+        "official": null
+      },
+      "invuln": "1-38 Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+MK (Lowkey Hit 5)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; f timing window after 236236LP~LP~MP~HP~LK; KD +32 when juggled into",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 47,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3(5)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": "500,900",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 2500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": null,
+      "id": "dee_jay__hk(end)",
+      "input": {
+        "numpad": "~HK (End)",
+        "official": null
+      },
+      "invuln": "1-28 Projectile",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+HK (Lowkey Hit End)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; f timing window after 236236LP~LP~MP~HP~LK~MK; HKD +28 when juggled into",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 29,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 79,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.477,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": 750,
+      "damage": 300,
+      "damageText": "300(1700~2800)",
+      "dmgScaling": "40% Minimum; 25% Starter; Combo (3 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": 48,
+      "id": "dee_jay__236236mp",
+      "input": {
+        "numpad": "236236MP",
+        "official": null
+      },
+      "invuln": "1-16 Full",
+      "juggle": {
+        "increase": "0",
+        "limit": "99",
+        "start": "0"
+      },
+      "name": {
+        "en": "Marvelous Sunrise Festival",
+        "ja": null
+      },
+      "notes": {
+        "en": "LP~MP~HP~LK~MK~HK follow-ups (on hit only) must be manually timed (MP sequence gives medium damage with medium difficulty); perfect rhythm gives more damage; non-perfect rhythm ender cannot follow up after the crumple knockdown; all follow-ups up to MK are +6 on hit with no additional damage scaling; full invincibility extended 1-29f on hit; KD +27 when juggled into; forces stand; cannot hit cross-up; applies 30% scaling to Super Art gain until end of combo",
+        "ja": null
+      },
+      "onBlock": -29,
+      "onHit": 6,
+      "onPerfectParry": -49,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 46,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 100,
+      "damageText": "100(200)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 35,
+      "id": "dee_jay__lp(1)",
+      "input": {
+        "numpad": "~LP (1)",
+        "official": null
+      },
+      "invuln": "1-25(27) Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+LP (Marvelous Hit 1)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; () refers to correct rhythm timing; 11f timing window after 236236MP; KD +41 when juggled into (can juggle afterward)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 100,
+      "damageText": "100(200)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": 32,
+      "id": "dee_jay__mp(2)",
+      "input": {
+        "numpad": "~MP (2)",
+        "official": null
+      },
+      "invuln": "1-21(23) Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+MP (Marvelous Hit 2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; () refers to correct rhythm timing; 18f timing window after 236236MP~LP; KD +57 OTG Bounce when juggled into",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 100,
+      "damageText": "100(200)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 33,
+      "id": "dee_jay__hp(3)",
+      "input": {
+        "numpad": "~HP (3)",
+        "official": null
+      },
+      "invuln": "1-27(28) Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+HP (Marvelous Hit 3)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; () refers to correct rhythm timing; 16f timing window after 236236MP~LP~MP; KD +48~49 when juggled into (can juggle afterward)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 100,
+      "damageText": "100(200)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": 45,
+      "id": "dee_jay__lk(4)",
+      "input": {
+        "numpad": "~LK (4)",
+        "official": null
+      },
+      "invuln": "1-29(31) Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+LK (Marvelous Hit 4)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; () refers to correct rhythm timing; 19f timing window after 236236MP~LP~MP~HP; KD +40~41 when juggled into",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 100,
+      "damageText": "100(200)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 0,
+      "hitstun": 56,
+      "id": "dee_jay__mk(5)",
+      "input": {
+        "numpad": "~MK (5)",
+        "official": null
+      },
+      "invuln": "1-38 Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+MK (Marvelous Hit 5)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; () refers to correct rhythm timing; 19f timing window after 236236MP~LP~MP~HP~LK; KD +32 when juggled into",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 47,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3(5)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400,600(200x2)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 1000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": null,
+      "id": "dee_jay__hk(6)",
+      "input": {
+        "numpad": "~HK (6)",
+        "official": null
+      },
+      "invuln": "1-28(34) Projectile",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "+HK (Marvelous Hit 6)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Comes out on hit only; () refers to correct rhythm timing; 22f timing window after 236236MP~LP~MP~HP~LK~MK; KD +26 when juggled into",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 19,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 79,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__hk(end)",
+      "input": {
+        "numpad": "~HK (End)",
+        "official": null
+      },
+      "invuln": "1-151 Full",
+      "juggle": null,
+      "name": {
+        "en": "Encore Beat",
+        "ja": null
+      },
+      "notes": {
+        "en": "Stays on same side; only possible after landing all rhythm timings; () refers to KD Adv. when juggled into; 42f timing window after 236236MP~LP~MP~HP~LK~MK~HK",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 34,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 151,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 151
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400,700",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__hp(end)",
+      "input": {
+        "numpad": "~HP (End)",
+        "official": null
+      },
+      "invuln": "1-181 Full",
+      "juggle": null,
+      "name": {
+        "en": "Climactic Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Switches sides; only possible after landing all rhythm timings; () refers to KD Adv. when juggled into; 42f timing window after 236236MP~LP~MP~HP~LK~MK~HK",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 24,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 181,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 181
+    },
+    {
+      "active": "3(18)4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.353,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": "700x2 (1400)",
+      "dmgScaling": "25% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 21,
+      "id": "dee_jay__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "13,14",
+        "start": "1"
+      },
+      "name": {
+        "en": "Double Rolling Sobat",
+        "ja": null
+      },
+      "notes": {
+        "en": "Stays close to opponent for +2 strike/throw mixup on hit; Counter-hit/Punish Counter bonus frame advantage carries through both hits; when canceled to SA3, weaker than MK version due to missing the 2nd hit",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 2,
+      "onPerfectParry": -26,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 375,
+        "onHit": 750
+      },
+      "totalFrames": 63
+    },
+    {
+      "active": "2(9)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.405,
+      "blockstun": 11,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": "700,600 (1300)",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "dee_jay__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "13,14",
+        "start": "10,10"
+      },
+      "name": {
+        "en": "Double Rolling Sobat",
+        "ja": null
+      },
+      "notes": {
+        "en": "Low crush 14-28f (not airborne); puts opponent into limited juggle state (can only combo into SA2/SA3 vs. grounded, but much more lenient juggle state vs. airborne opponents); somewhat weak to Drive Impact because only 2nd hit is Super cancelable",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 39,
+      "onPerfectParry": -20,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 375,
+        "onHit": 750
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Roll Through Feint",
+        "ja": null
+      },
+      "notes": {
+        "en": "Useful feint for mixups and for frame-kill setups; Distance: 0.945",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 26
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.128,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "dee_jay__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Quick Rolling Sobat",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good neutral and whiff punish tool, especially against low pokes; can be spaced to be safe on block",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 34,
+      "onPerfectParry": -24,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 37
+    },
+    {
+      "active": "5(7)5(8)4",
+      "afterDriveRush": null,
+      "airborne": "5-50 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.59,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600,200,500 (1300)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "dee_jay__[2]8hk",
+      "input": {
+        "numpad": "[2]8HK",
+        "official": null
+      },
+      "invuln": "1-9 Air, 5 Throw",
+      "juggle": {
+        "increase": "1,3,99",
+        "limit": "4,3,12",
+        "start": "1,1,1"
+      },
+      "name": {
+        "en": "Jackknife Maximum",
+        "ja": null
+      },
+      "notes": {
+        "en": "40f charge time (holds charge for 12f after release); whiffs on crouching opponents unless they extend a vertical attack hurtbox; gives a perfect safe jump setup when connecting vs. grounded opponents; when juggled after [2]8MK, the +37 KD Adv. sets up a safe jump with j.2LK; last hit ends juggle state due to +100 juggle count increase; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -44,
+      "onHit": 42,
+      "onPerfectParry": -59,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 65
+    },
+    {
+      "active": "6(7)3(9)3",
+      "afterDriveRush": null,
+      "airborne": "5-62 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.75,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x5 (1500)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4200,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "dee_jay__[2]8kk",
+      "input": {
+        "numpad": "[2]8KK",
+        "official": null
+      },
+      "invuln": "1-11 Full",
+      "juggle": {
+        "increase": "1,1,10x3",
+        "limit": "6,7,50x3",
+        "start": "1,1,10x3"
+      },
+      "name": {
+        "en": "Jackknife Maximum",
+        "ja": null
+      },
+      "notes": {
+        "en": "40f charge time (holds charge for 12f after release); 2nd/3rd hits whiff on crouching opponents unless they extend a vertical hurtbox; puts opponent into limited juggle state; cannot hit cross-up; at close range, may cross over opponents on whiff/block; on hit only, Dee Jay performs 2 extra hits that spike the opponent to the ground",
+        "ja": null
+      },
+      "onBlock": -55,
+      "onHit": 23,
+      "onPerfectParry": -70,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 29,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 77
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "6-45 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__[2]8lk",
+      "input": {
+        "numpad": "[2]8LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Jackknife Maximum",
+        "ja": null
+      },
+      "notes": {
+        "en": "40f charge time (holds charge for 12f after release); startup refers to earliest air normal timing; 6f landing recovery only applies to empty jump version (air normals have the usual 3f landing recovery)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": null,
+      "totalFrames": 51
+    },
+    {
+      "active": "4(9)4",
+      "afterDriveRush": null,
+      "airborne": "5-44 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.595,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600,500 (1100)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 2500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "dee_jay__[2]8mk",
+      "input": {
+        "numpad": "[2]8MK",
+        "official": null
+      },
+      "invuln": "1-5 Air, 5-6 Throw",
+      "juggle": {
+        "increase": "1,3",
+        "limit": "1,3",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Jackknife Maximum",
+        "ja": null
+      },
+      "notes": {
+        "en": "40f charge time (holds charge for 12f after release); whiffs on crouching opponents unless they extend a vertical attack hurtbox; puts opponent into limited juggle state (can follow up with [2]8HK/KK or SA1 depending on distance from opponent); can trade with jump-ins due to short invincibility window; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -32,
+      "onHit": 41,
+      "onPerfectParry": -47,
+      "onPunishCounter": 41,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 54
+    },
+    {
+      "active": "10",
+      "afterDriveRush": {
+        "onBlock": -7,
+        "onHit": 33
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.186,
+      "blockstun": 14,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "dee_jay__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": "12-23 Air (Legs/Upper Body)",
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Sliding Heel Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can anti-air (solid hitbox, but slow startup); puts airborne opponents into limited juggle state (better juggle adv. on CH/PC)",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 33,
+      "onPerfectParry": -23,
+      "onPunishCounter": 52,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.449,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "dee_jay__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces Stand on hit (important combo starter for [2]8K routes); good combo/punish starter; Punish Counter vs. airborne causes limited juggle state and Hard Knockdown (but generally no juggle follow-up)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 6,
+      "onPerfectParry": -20,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.22,
+      "blockstun": 10,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "dee_jay__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -10,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 16
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.18,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "dee_jay__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; [4]6LP cancel: -7/-12; 236LK cancel: -12/-17; topmost hurtbox on frames 1-7 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -9,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 15
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 29
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.52,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "dee_jay__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Acts like a sweep, but safer (difficult for many characters to punish); HKD on Punish Counter only; good hitbox priority; has an extended hurtbox on whiff until the end of recovery",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 29,
+      "onPerfectParry": -21,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.225,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 13
+      },
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "dee_jay__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "1f extra recovery on whiff; good combo/buffer tool and meaty normal; good hitbox priority against low pokes; very long special hitconfirm window (but only 13f when canceling to 214MP or 16f into 236KK); when used out of Drive Rush, can link to 5HP on crouching opponents; [4]6LP cancel: +1/-5; 236LK cancel: -4/-10",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -16,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 23
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 24,
+      "cancel": [
+        "super",
+        "22pp"
+      ],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 1500,
+        "gain": 750
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 30,
+      "id": "dee_jay__[4]6hp",
+      "input": {
+        "numpad": "[4]6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "1,1",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Air Slasher",
+        "ja": null
+      },
+      "notes": {
+        "en": "45 charge time (holds charge for 10f after release); throws two 1-hit projectiles; useful option in fireball wars but very vulnerable to jumps and anti-projectile moves; Counter-hit/Punish Counter bonus advantage applies to both hits; () refers to startup of 2nd fireball; recovery is counted after first projectile startup; 2nd projectile moves faster than the 1st; can be canceled into Speedy Maracas after 35f even on whiff",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -16,
+      "onPunishCounter": 7,
+      "projectileSpeed": 0.03,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 43,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 225,
+        "onHit": 450
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__[4]6lp",
+      "input": {
+        "numpad": "[4]6LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Air Slasher",
+        "ja": null
+      },
+      "notes": {
+        "en": "45 charge time (holds charge for 10f after release); feint that can be used to bait opponent's reaction or extend close range combos/blockstrings",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 21
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 23,
+      "cancel": [
+        "super",
+        "22pp"
+      ],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 28,
+      "id": "dee_jay__[4]6mp",
+      "input": {
+        "numpad": "[4]6MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Air Slasher",
+        "ja": null
+      },
+      "notes": {
+        "en": "45 charge time (holds charge for 10f after release); 1-hit projectile; safest zoning option against jumps and anti-projectile moves; can be canceled into Speedy Maracas after 23f even on whiff",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 0,
+      "onPerfectParry": -17,
+      "onPunishCounter": 4,
+      "projectileSpeed": 0.03,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "[11(1)~]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 26,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dee_jay",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 29,
+      "id": "dee_jay__[4]6pp",
+      "input": {
+        "numpad": "[4]6PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,2",
+        "limit": "7,8 close / 8,10 far",
+        "start": "1 far"
+      },
+      "name": {
+        "en": "Air Slasher",
+        "ja": null
+      },
+      "notes": {
+        "en": "45 charge time (holds charge for 10f after release); throws two 1-hit projectiles at close range; Counter-hit/Punish Counter bonus advantage carries through both hits; from farther ranges, they merge into a single 2-hit projectile that knocks down on hit (puts opponent into limited juggle state); powerful option for zoning, pressure, Burnout chip sequences, and fireball wars; very low pushback on block, allowing for corner loops and pressure; puts airborne opponents into limited juggle state; projectile starts moving forward on frame 22; can be canceled into Speedy Maracas after 31f even on whiff",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 5,
+      "onPerfectParry": -13,
+      "onPunishCounter": 9,
+      "projectileSpeed": 0.15,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "2,4",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.962,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": "500,300 (800)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 17
+      },
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "dee_jay__4hk",
+      "input": {
+        "numpad": "4HK",
+        "official": null
+      },
+      "invuln": "4-12 Air (Head)",
+      "juggle": {
+        "increase": "1",
+        "limit": "0(1)",
+        "start": "1"
+      },
+      "name": {
+        "en": "Face Breaker",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces Stand on hit; good anti-air but cannot hit cross-up; 1st hit puts airborne opponents into limited juggle state; 2nd hit causes air reset (Punish Counter causes both hits to juggle); if only 2nd hit connects, it deals the full 800 damage and Drive/Super meter gain; CH/PC advantage carries through both hits; [4]6LP cancel: +5/-5 1st hit, 0/-6 2nd hit; 236LK cancel: 0/-10 1st hit, -5/-11 2nd hit; 2nd hit special/DR cancel is delayed until after active frames; juggle limit of the 2nd hit is increased by 1 only when the first hit connects",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 1,
+      "onPerfectParry": -24,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 32
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Flip Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "After back throw into corner, Dee Jay is +3 after dash (out of throw range but can beat wakeup buttons with 2MP); must Drive Rush for true strike/throw oki; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 22,
+      "onPerfectParry": null,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Ey, wah gwan? Ya feelin' down?\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 429,
+      "superGauge": null,
+      "totalFrames": 429
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.939,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "dee_jay__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great poke that leads to full Drive Rush conversions on Punish Counter (or a spinning limited juggle state on airborne Punish Counter); 4f extra recovery on whiff; extends a hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 1,
+      "onPerfectParry": -23,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "6",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.796,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": "800(700)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 10,
+        "onHit": 17
+      },
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "dee_jay__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "The first 2 active frames are cancelable, can hit crouching, and force stand (important for [2]8HK combo routes); active frames 3-6 deal 100 less damage and have much longer range, but are not cancelable and whiff on crouching opponents (unless they extend a vertical hurtbox); much better frame advantage on a long-range connect (useful as a shimmy tool and punish starter); [4]6LP cancel: +5/-2; 236LK cancel: 0/-7",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 32
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.239,
+      "blockstun": 12,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 1,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "dee_jay__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good buffer tool; combos into 236HK on hit, or 236KK on Punish Counter making it a useful 5f punish tool; [4]6LP cancel: -6/-10; 236LK cancel: -11/-15; DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -12,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.04,
+      "blockstun": 8,
+      "cancel": [
+        "chain",
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -2,
+        "onHit": 3
+      },
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "dee_jay__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; very low recovery makes it safer than most lights when Perfect Parried; [4]6LP cancel: -9/-14; 236LK cancel: -14/-19",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -7,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.428",
+        "onHit": "0.409"
+      },
+      "recovery": 6,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 12
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400(320)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "dee_jay__5lpmk",
+      "input": {
+        "numpad": "5LP~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Threebeat Combo 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-3f blockstring gap between hits; () refers to scaled damage after 5LP combo starter; can whiff on crouching opponents at max range (will not whiff if 5LP hits as a Punish Counter)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -19,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 31
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 625,
+      "damageText": "625(438)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "dee_jay__5lpmkmk",
+      "input": {
+        "numpad": "5LP~MK~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Threebeat Combo 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "Leaves opponent in range for a strike/throw mixup on hit; always a true blockstring after 5LP~MK; () refers to scaled damage from 5LP combo starter, but also is scaled to 500 damage if the first MK begins the combo",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 3,
+      "onPerfectParry": null,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.618,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "dee_jay__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Decent neutral poke that can lead to combos at close range",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 6,
+      "onPerfectParry": -17,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 6,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.18,
+      "blockstun": 18,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 21,
+      "id": "dee_jay__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good combo/frame trap starter with 2 different Target Combo follow-ups",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 5,
+      "onPerfectParry": -14,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 22
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 29,
+      "id": "dee_jay__5mphp",
+      "input": {
+        "numpad": "5MP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Dee Jay Special 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "At max 5MP range, HP hits late for improved frame advantage (but active frames 5-7 whiff on crouching opponents); always a true blockstring from 5MP; continues limited juggle state if juggled into (after Drive Rush, airborne crumple, or wall splat)",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": -2,
+      "onPerfectParry": null,
+      "onPunishCounter": 2,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": "600(480)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": null,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "dee_jay__5mphphk",
+      "input": {
+        "numpad": "5MP~HP~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Dee Jay Special 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage after 5MP combo starter; puts opponent into spinning limited juggle state; Super cancel is delayed until after 1st recovery frame",
+        "ja": null
+      },
+      "onBlock": -13,
+      "onHit": 34,
+      "onPerfectParry": null,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 19,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 4000,
+        "gain": 400
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 21,
+      "id": "dee_jay__5mpmp",
+      "input": {
+        "numpad": "5MP~MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "1",
+        "start": null
+      },
+      "name": {
+        "en": "Funky Dance 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "True blockstring from 5MP, but can be delayed significantly (up to 4f blockstring gap); landing a counter-hit allows 5MP~MP~HP to fully combo; continues limited juggle state if juggled into (after Drive Rush, airborne crumple, or wall splat); great in Drive Rush juggles that can get fullscreen corner carry; 2f extra recovery on block",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -19,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__5mpmp4hp",
+      "input": {
+        "numpad": "5MP~MP~4HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Funky Dance Feint",
+        "ja": null
+      },
+      "notes": {
+        "en": "Similar animation to 5MP~MP~HP; used to bait opponents that expect Dee Jay to stop at 5MP~MP or frame trap with the HP ender; Dee Jay is in a counter-hit state for entire feint duration",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": -3,
+      "onPerfectParry": null,
+      "onPunishCounter": 1,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 22
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 7000,
+        "dealtOnHit": 7000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "dee_jay__5mpmphp",
+      "input": {
+        "numpad": "5MP~MP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Funky Dance 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "Doesn't combo on grounded hit unless 5MP~MP lands as a counter-hit; unsafe ender on block with a 3f blockstring gap (can frame trap opponent's button if they try to challenge); works will in Drive Rush juggles; puts opponent into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 43,
+      "onPerfectParry": -24,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Come on, let's dance!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 264,
+      "superGauge": null,
+      "totalFrames": 264
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.66,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "dee_jay",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "dee_jay__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Leg Scratch (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.66,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "dee_jay",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "dee_jay__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Leg Scratch (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.234,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 24,
+      "id": "dee_jay__6mk",
+      "input": {
+        "numpad": "6MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Sunrise Heel",
+        "ja": null
+      },
+      "notes": {
+        "en": "The first 2 active frames only hit airborne opponents (great vertical hitbox that causes a spike knockdown); () refers to startup vs. grounded opponents and 1f better advantage vs. crouching opponents; not an overhead despite the animation; good tool for oki or approaching in neutral with long range and forward movement",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -17,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Seriously, your rhythm is not cool mon. *whistles*\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 550,
+      "superGauge": null,
+      "totalFrames": 550
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.52,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "dee_jay",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "dee_jay__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Wild Beat",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 12,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "dee_jay__j2lk",
+      "input": {
+        "numpad": "j.2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Knee Shot",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forward Jump only; alters jump trajectory (up to 5f faster than normal jump depending on timing); can get better advantage when spaced out or vs. crouching opponents (non-meaty Knee Shot vs. crouching is usually around +9 oH / +6 oB); Punish Counter state from 2nd active frame until end of landing recovery; lower body projectile invuln 6f~land around back leg only (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 5,
+      "onPerfectParry": -8,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.19,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "dee_jay__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Decent jump-in that hits in front of Dee Jay before swinging his leg downward; lower body projectile invuln 10-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -9,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.78,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "dee_jay__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes spike knockdown vs. airborne opponents; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -9,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.95,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "dee_jay__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Decent air-to-air normal",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 6,
+      "onPerfectParry": -5,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.02,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "dee_jay__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be used as a fuzzy instant overhead",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 4,
+      "onPerfectParry": -7,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.35,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "dee_jay__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; lower body projectile invuln 8-21f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -6,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.91,
+      "blockstun": 11,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "dee_jay__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10",
+        "limit": "2",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state; can chain to j.HP for a spike knockdown (very lenient 25f cancel window); lower body projectile invuln 6-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 10,
+      "onPerfectParry": -3,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "dee_jay__jmphp",
+      "input": {
+        "numpad": "j.MP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "99",
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "Party in the Air",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes spike knockdown vs. airborne opponents",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Diss Track",
+        "ja": null
+      },
+      "notes": {
+        "en": "Allows corner throw loop by walking or dashing; dash + whiff 5LP sets up +3 situation; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 34,
+      "onPerfectParry": null,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "dee_jay",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dee_jay__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.763 (min/throw), 2.535 (min/block), 2.713 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "Dee_Jay",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

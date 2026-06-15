@@ -1,0 +1,4544 @@
+{
+  "aliases": [],
+  "id": "dhalsim",
+  "moves": [
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -3,
+        "onHit": 33
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.29,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "dhalsim__1hk",
+      "input": {
+        "numpad": "1HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Karma Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Traditional sweep; can be difficult to punish if well spaced (much better block advantage than most sweeps)",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": 33,
+      "onPerfectParry": -23,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.46,
+      "blockstun": 21,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 11,
+        "onHit": 17
+      },
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "dhalsim__1hp",
+      "input": {
+        "numpad": "1HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Nirvana Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Decent range cancelable attack, primarily used out of Drive Rush; extends a hurtbox 1f before active and hurtbox lingers 12f after recovery making it susceptible to whiff punishes",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.05,
+      "blockstun": 10,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "dhalsim__1lk",
+      "input": {
+        "numpad": "1LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Agile Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/1LK",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -11,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 17
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -3,
+        "onHit": 1
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.19,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 8
+      },
+      "hitstop": 9,
+      "hitstun": 20,
+      "id": "dhalsim__1mk",
+      "input": {
+        "numpad": "1MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Thrust Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Acts like a standard cancelable 2MK but with below-average range; Range: 1.19; DR cancel is delayed until after active frames",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": -3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 1,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "[142+20]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 61,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dhalsim",
+      "chipDamage": 150,
+      "damage": 450,
+      "damageText": "450x4,1000 (2800)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "dhalsim__214214k",
+      "input": {
+        "numpad": "214214K",
+        "official": null
+      },
+      "invuln": "1-9 Full",
+      "juggle": {
+        "increase": "6x4,100",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoga Sunburst",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button strength determines trajectory; 5-hit projectile; cannot hit crouching opponents on the way up unless they extend a vertical hurtbox (opponent can safely pressure Dhalsim with a crouching meaty attack); automatically releases if the hitbox above Dhalsim's head connects; can hold the button to charge into a more powerful version; upon hitting the floor, creates a larger stationary hitbox that lasts 20f; [] refers to active projectile time after release",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 50,
+      "onPerfectParry": -4,
+      "onPunishCounter": 50,
+      "projectileSpeed": 0.014,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 60,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 67
+    },
+    {
+      "active": "[142+20]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 89,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dhalsim",
+      "chipDamage": 100,
+      "damage": 375,
+      "damageText": "375x8,1000 (4000)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "dhalsim__214214[k]",
+      "input": {
+        "numpad": "214214[K]",
+        "official": null
+      },
+      "invuln": "1-9 Full",
+      "juggle": {
+        "increase": "6x8,100",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoga Sunburst",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button strength determines trajectory; 9-hit projectile; cannot hit crouching opponents on the way up; larger hitbox than partially charged version; automatically releases if the hitbox above Dhalsim's head connects; upon hitting the floor, creates a larger stationary hitbox that lasts 20f; [] refers to active projectile time after release; Dhalsim can hold the fireball for 20f after fully charged (no benefit for doing this)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": 0.014,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 58,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 71,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 129
+    },
+    {
+      "active": "[142+20]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 75,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dhalsim",
+      "chipDamage": 120,
+      "damage": 400,
+      "damageText": "400x6,700 (3100)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "dhalsim__214214{k}",
+      "input": {
+        "numpad": "214214{K}",
+        "official": null
+      },
+      "invuln": "1-9 Full",
+      "juggle": {
+        "increase": "6x6,100",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoga Sunburst",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button strength determines trajectory; 7-hit projectile; cannot hit crouching opponents on the way up; larger hitbox than uncharged version; automatically releases if the hitbox above Dhalsim's head connects; upon hitting the floor, creates a larger stationary hitbox that lasts 20f; [] refers to active projectile time after release",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": 0.014,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 58,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 81
+    },
+    {
+      "active": "84",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 102,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dhalsim",
+      "chipDamage": 492,
+      "damage": 2040,
+      "damageText": "2040(792 rec oB)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 420,
+        "dealtOnHit": 420,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "dhalsim__236236hp",
+      "input": {
+        "numpad": "236236HP",
+        "official": null
+      },
+      "invuln": "1-11 Throw",
+      "juggle": {
+        "increase": "1x12",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoga Inferno",
+        "ja": null
+      },
+      "notes": {
+        "en": "Upward anti-air angle; crouching hurtbox on frames 1-12; whiffs on crouching opponents unless they extend a vertical hurtbox; deals 792 recoverable damage on block",
+        "ja": null
+      },
+      "onBlock": -22,
+      "onHit": 27,
+      "onPerfectParry": -36,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 40,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 133
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.356,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dhalsim",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "dhalsim__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-14 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "10",
+        "start": null
+      },
+      "name": {
+        "en": "Merciless Yoga",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cinematic time regenerates ~2 Drive bars for Dhalsim; 2f startup when canceled from 63214P; *Self-hitstop does not occur until 3rd active frame on block (incorrectly appears to have 7 active frames and 20f blockstun)",
+        "ja": null
+      },
+      "onBlock": -62,
+      "onHit": 19,
+      "onPerfectParry": -78,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 75,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 89
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.356,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dhalsim",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "dhalsim__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-14 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "10",
+        "start": null
+      },
+      "name": {
+        "en": "Merciless Yoga (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Available at 25% HP or below; cinematic time regenerates ~2.4 Drive bars for Dhalsim; 2f startup when canceled from 63214P",
+        "ja": null
+      },
+      "onBlock": -62,
+      "onHit": 19,
+      "onPerfectParry": -78,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 75,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 89
+    },
+    {
+      "active": "104",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 109,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dhalsim",
+      "chipDamage": 492,
+      "damage": 1920,
+      "damageText": "1920(792 rec oB)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 420,
+        "dealtOnHit": 420,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "dhalsim__236236lp",
+      "input": {
+        "numpad": "236236LP",
+        "official": null
+      },
+      "invuln": "1-11 Throw",
+      "juggle": {
+        "increase": "1x12",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoga Inferno",
+        "ja": null
+      },
+      "notes": {
+        "en": "Flames are low to the ground with ~1/2 screen range; deals 792 recoverable damage on block; high pushback on block makes it useful for mid-range block pressure against most characters",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 29,
+      "onPerfectParry": -31,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 128
+    },
+    {
+      "active": "104",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 109,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "dhalsim",
+      "chipDamage": 492,
+      "damage": 2100,
+      "damageText": "2100(792 rec oB)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 420,
+        "dealtOnHit": 420,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "dhalsim__236236mp",
+      "input": {
+        "numpad": "236236MP",
+        "official": null
+      },
+      "invuln": "1-11 Throw",
+      "juggle": {
+        "increase": "1x12",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoga Inferno",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shorter range than LP version (~1/3 screen), ends with upward angled flame and deals more damage; deals 792 recoverable damage on block",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 29,
+      "onPerfectParry": -31,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 128
+    },
+    {
+      "active": "[81+10]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 3000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 29,
+      "id": "dhalsim__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "3",
+        "start": "0"
+      },
+      "name": {
+        "en": "Yoga Arch",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile thrown upward before coming down; button strength determines projectile speed and max distance (LK short, MK mid, HK far); upon hitting the floor, creates a larger stationary hitbox that lasts 10f; frame advantage refers to point blank upward hit",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 1,
+      "onPerfectParry": -17,
+      "onPunishCounter": 5,
+      "projectileSpeed": 0.0195,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "[190+10]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 25,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500x2",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": 29,
+      "id": "dhalsim__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0",
+        "limit": "3,3",
+        "start": "0,0"
+      },
+      "name": {
+        "en": "Yoga Arch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit OD projectile thrown upward before coming down; button combination determines projectile speed and max distance (LKMK short, LKHK mid, MKHK far); projectile bounces twice toward the opponent upon hitting the floor (can only change direction on the first bounce); after the final bounce, creates a larger stationary hitbox that lasts 10f; projectile dissipates if completely off-screen; frame advantage refers to point blank upward hit, and varies significantly depending on range (canceling into 236KK can create enough pushback for much better frame advantage)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -6,
+      "onPunishCounter": 5,
+      "projectileSpeed": 0.0195,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 28,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 3000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 32,
+      "id": "dhalsim__236p",
+      "input": {
+        "numpad": "236P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoga Fire",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; can hold the button for charged 2-hit version (releasing the button before 27f throws the regular version with 9f additional startup); speed depends on button strength (LP slowest, MP mid, HP fastest); frame advantage increases significantly outside of close range",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": -2,
+      "onPerfectParry": -23,
+      "onPunishCounter": 2,
+      "projectileSpeed": 0.033,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 31,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "dhalsim__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "6,7",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoga Fire",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit OD projectile; speed depends on button combination (LP+MP slowest, LP+HP mid, MP+HP fastest); frame advantage increases significantly outside of close range",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 49,
+      "onPerfectParry": -11,
+      "onPunishCounter": 49,
+      "projectileSpeed": 0.033,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 30,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": 200,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 1500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "dhalsim__236[p]",
+      "input": {
+        "numpad": "236[P]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "6,7",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoga Fire (hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit projectile; speed depends on button strength (LP slowest, MP mid, HP fastest); button must be held 27 frames for full charge; frame advantage increases significantly outside of close range",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 51,
+      "onPerfectParry": -9,
+      "onPunishCounter": 51,
+      "projectileSpeed": 0.033,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 43,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 73
+    },
+    {
+      "active": "16",
+      "afterDriveRush": {
+        "onBlock": -12,
+        "onHit": 22
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.057,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "dhalsim__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": "Projectile 8-27 (Upper Body)",
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Long Sliding Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range slide; low profile 8-39f; best version of slide for countering projectiles; has juggle potential (no longer a Hard Knockdown if juggled into)",
+        "ja": null
+      },
+      "onBlock": -16,
+      "onHit": 22,
+      "onPerfectParry": -34,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": -4,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.95,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 8000,
+        "gain": 3500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "dhalsim__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": "11-39 Projectile (Upper Body)",
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Low Profile 11-46f (until recovery); can be used to punish projectiles from long range; 4f extra recovery on whiff and Perfect Parry",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 3,
+      "onPerfectParry": -26,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "(91)",
+      "afterDriveRush": null,
+      "airborne": "13~Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dhalsim__2kkor3kk",
+      "input": {
+        "numpad": "2KK or 3KK",
+        "official": null
+      },
+      "invuln": "17~ Projectile (Legs)",
+      "juggle": null,
+      "name": {
+        "en": "Yoga Float",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can use aerial normals/specials and move left/right after 30f rising animation; 3KK versions moves Dhalsim forward before rising; Counter-hit state on frame 1 until landing; active time refers to the airborne period in which Dhalsim can move (can input air attacks during his 20f descent); crouching state on final landing frame; Movement Speed: 0.04 forward / 0.03 back",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 30,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": {
+        "onBlock": -6,
+        "onHit": -1
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.44,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 18,
+      "id": "dhalsim__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": "Projectile 4-10 (Upper Body)",
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Short range slide; semi-low profile 2-26f (until recovery)",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": -5,
+      "onPerfectParry": -21,
+      "onPunishCounter": -1,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "invincible"
+      ],
+      "pushback": {
+        "onBlock": "0.431",
+        "onHit": "0.422"
+      },
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 26
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.14,
+      "blockstun": 11,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "dhalsim__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/1LK",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -10,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 16
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dhalsim__2lplk",
+      "input": {
+        "numpad": "2LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Yoga Splash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Throws opponent full screen; allows for a corner throw loop with manual timing (+10 after dash, or walk); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 35,
+      "onPerfectParry": null,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "13",
+      "afterDriveRush": {
+        "onBlock": -6,
+        "onHit": 1
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.51,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "dhalsim__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": "Projectile 10-22 (Upper Body), 10-28 (Foot)",
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Medium range slide; semi-low profile 10-30f; can lead to follow-up combos or pressure if well spaced; opponent has a different reeling animation when spaced to be +4 or better on hit",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": -3,
+      "onPerfectParry": -25,
+      "onPunishCounter": 1,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.96,
+      "blockstun": 15,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 5,
+        "onHit": 9
+      },
+      "hitstop": 11,
+      "hitstun": 19,
+      "id": "dhalsim__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range cancelable poke; extends hurtbox 1f before active so it can be counterpoked",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 0,
+      "onPerfectParry": -17,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "6",
+      "afterDriveRush": {
+        "onBlock": -5,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "dhalsim__4hk",
+      "input": {
+        "numpad": "4HK",
+        "official": null
+      },
+      "invuln": "14-27 Air (Leg)",
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1 CH/PC Air"
+      },
+      "name": {
+        "en": "Yoga Mountain",
+        "ja": null
+      },
+      "notes": {
+        "en": "Slow anti-air (cannot hit cross-up); low profile 10-13f and 33-38f; Counter-hit/Punish Counter puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 0,
+      "onPerfectParry": -24,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "7",
+      "afterDriveRush": {
+        "onBlock": -12,
+        "onHit": -5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.52,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2500
+      },
+      "driveRushCancel": {
+        "onBlock": 10,
+        "onHit": 17
+      },
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "dhalsim__4hp",
+      "input": {
+        "numpad": "4HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1 CH/PC Air"
+      },
+      "name": {
+        "en": "Yoga Lance",
+        "ja": null
+      },
+      "notes": {
+        "en": "Whiffs on crouching opponents unless they extend a vertical hurtbox; long-range anti-air (cannot hit cross-up); Counter-hit/Punish Counter puts airborne opponents into limited juggle state; canceling anti-air into a projectile can lead to juggles on CH/PC or meaty/teleport pressure",
+        "ja": null
+      },
+      "onBlock": -16,
+      "onHit": -9,
+      "onPerfectParry": -34,
+      "onPunishCounter": -5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 29,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dhalsim__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Yoga Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switch; no meaty throw after throwing opponent into corner, but can meaty with 2MK (0 oB) or DR 4MK (+6 oB); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 19,
+      "onPerfectParry": null,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 4,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.18,
+      "blockstun": 21,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 11,
+        "onHit": 14
+      },
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "dhalsim__4mk",
+      "input": {
+        "numpad": "4MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Divine Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Important combo tool; good meaty option due to high active frame count and safety on block",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 3,
+      "onPerfectParry": -19,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "6",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.079,
+      "blockstun": 19,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 6,
+        "onHit": 11
+      },
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "dhalsim__4mp",
+      "input": {
+        "numpad": "4MP",
+        "official": null
+      },
+      "invuln": "8-13 Air (Head/Arm)",
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoga Uppercut",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand on hit; good close-range anti-air but cannot hit cross-up; active frames 2-6 whiff on crouching opponents unless they extend a vertical hurtbox (making it a poor meaty option); all active frames are cancelable giving it a lenient hitconfirm window; special/DR cancel is delayed until after 4th active frame",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -20,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dhalsim__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"I am in no hurry. Everything flows as one.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 430,
+      "superGauge": null,
+      "totalFrames": 430
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.34,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 8000,
+        "gain": 2500
+      },
+      "driveRushCancel": {
+        "onBlock": 3,
+        "onHit": 12
+      },
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "dhalsim__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "6",
+        "limit": "1",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Only the closest hitbox can hit crouching opponents; mid-range hitbox whiffs on crouching opponents unless they extend a vertical hurtbox; the 2 farthest hitboxes whiff on all crouching opponents (even with an extended vertical hurtbox); extremely long range cancelable poke and anti-air; puts airborne opponents into limited juggle state; stagger on Punish Counter can combo into 5HP at most ranges, or can confirm into Drive Rush for stronger punishes; leg has an extended hurtbox 2f before active that is vulnerable to projectiles, and 1f before active that can be counterpoked; tip of Dhalsim's foot hurtbox is anti-air invincible on frames 16-23; special/DR cancel is delayed until after 2nd recovery frame",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 24,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": -7,
+        "onHit": -2
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.624,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 4000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "dhalsim__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range poke; extended hurtbox lingers for the first 16 recovery frames (slightly retracts on 12-16f of recovery), making it easily whiff punished even at max range",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": -6,
+      "onPerfectParry": -29,
+      "onPunishCounter": 32,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.55,
+      "blockstun": 9,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -2,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "dhalsim__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Extremely long range for a light normal, but has startup similar to a medium poke; DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 2,
+      "onPerfectParry": -13,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 23
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.88,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "dhalsim__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/1LK",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -9,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.385",
+        "onHit": "0.373"
+      },
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 2
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.5,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 19,
+      "id": "dhalsim__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range poke; extends hurtbox 1f before active so it can be counterpoked",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": -2,
+      "onPerfectParry": -19,
+      "onPunishCounter": 2,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 32
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.983,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "dhalsim__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range poke; extends hurtbox 1f before active so it can be counterpoked",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 0,
+      "onPerfectParry": -20,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dhalsim__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"What is it... already finished?\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 190,
+      "superGauge": null,
+      "totalFrames": 190
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 6000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "dhalsim__63214hk",
+      "input": {
+        "numpad": "63214HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoga Blast",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox with 1-hit projectile nullification; head hurtbox disappears on frames 3-44 (hurtbox shrinks even lower on frames 17-26 while active); useful anti-air that can hit cross-up; steps forward during startup; puts opponent into limited juggle state on hit; whiffs on crouching opponents unless they extend a vertical hurtbox; can always juggle into SA1 on hit (MP for damage, LP if spaced at max range for consistency)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 47,
+      "onPerfectParry": -26,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "17",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 29,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x3",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 1500,
+        "gain": 1300
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "dhalsim__63214hp",
+      "input": {
+        "numpad": "63214HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1x3",
+        "limit": "5x3",
+        "start": "1x3"
+      },
+      "name": {
+        "en": "Yoga Flame",
+        "ja": null
+      },
+      "notes": {
+        "en": "3-hit projectile hitbox (only 1-hit if final active frame connects, otherwise all 3 hits come out); hitbox range increases until reaching max range on 3rd active frame; slightly better advantage at max range; on Perfect Parry, opponent only has 1f recovery despite no screen freeze; SA3 cancel has 2f startup to ensure combo consistency",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 45,
+      "onPerfectParry": -30,
+      "onPunishCounter": 45,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": 175,
+        "onHit": 350
+      },
+      "totalFrames": 58
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 30,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "dhalsim__63214kk",
+      "input": {
+        "numpad": "63214KK",
+        "official": null
+      },
+      "invuln": "12-21 Air (Upper Body)",
+      "juggle": {
+        "increase": "0,1",
+        "limit": "2,3",
+        "start": "0,1"
+      },
+      "name": {
+        "en": "Yoga Blast",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox with 2-hit OD projectile nullification; head hurtbox disappears on frames 3-41 (hurtbox shrinks even lower on frames 12-21 while active); useful anti-air that can hit cross-up; steps forward during startup; puts opponent into limited juggle state on hit; both hits come out even if final active frame connects; whiffs on crouching opponents unless they extend a vertical hurtbox",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 42,
+      "onPerfectParry": -21,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 6000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "dhalsim__63214lk",
+      "input": {
+        "numpad": "63214LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoga Blast",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox with 1-hit projectile nullification; head hurtbox disappears on frames 3-44 (hurtbox shrinks even lower on frames 12-21 while active); useful anti-air that can hit cross-up; does not move during startup; puts opponent into limited juggle state on hit; whiffs on crouching opponents unless they extend a vertical hurtbox",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 39,
+      "onPerfectParry": -31,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "15",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 26,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "dhalsim__63214lp",
+      "input": {
+        "numpad": "63214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "3"
+      },
+      "name": {
+        "en": "Yoga Flame",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit stationary projectile hitbox; on Perfect Parry, opponent only has 1f recovery despite no screen freeze; SA3 cancel has 2f startup to ensure combo consistency",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 33,
+      "onPerfectParry": -29,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 450,
+        "onHit": 900
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 6000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "dhalsim__63214mk",
+      "input": {
+        "numpad": "63214MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoga Blast",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox with 1-hit projectile nullification; head hurtbox disappears on frames 3-44 (hurtbox shrinks even lower on frames 15-24 while active); useful anti-air that can hit cross-up; steps slightly forward during startup; puts opponent into limited juggle state on hit; whiffs on crouching opponents unless they extend a vertical hurtbox",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 42,
+      "onPerfectParry": -28,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "15",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 28,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": 112,
+      "damage": 450,
+      "damageText": "450x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2500,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "dhalsim__63214mp",
+      "input": {
+        "numpad": "63214MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "2,3",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Yoga Flame",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit stationary projectile hitbox (both hits come out even if final active frame connects); on Perfect Parry, opponent only has 1f recovery despite no screen freeze; SA3 cancel has 2f startup to ensure combo consistency",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 33,
+      "onPerfectParry": -41,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "5,5,5,5,5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 38,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": 25,
+      "damage": 100,
+      "damageText": "100x2,200x3 (800)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 1000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "dhalsim__63214pp",
+      "input": {
+        "numpad": "63214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x4,1",
+        "limit": "1x5",
+        "start": "0(1)"
+      },
+      "name": {
+        "en": "Yoga Flame",
+        "ja": null
+      },
+      "notes": {
+        "en": "5-hit OD projectile hitbox that launches opponent upward into a limited juggle state; 5f extra recovery on whiff/block; causes free juggle state if only the 5th hit connects vs. airborne opponent; 5th hit does not connect on grounded opponents (only 4 hits on block); SA3 cancel has 2f startup to ensure combo consistency; can juggle into immediate j.MP to extend the combo",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 51,
+      "onPerfectParry": -38,
+      "onPunishCounter": 51,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "3(6)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break (1st hit)",
+      "attackRange": 1.3,
+      "blockstun": 32,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "dhalsim",
+      "chipDamage": 62,
+      "damage": 250,
+      "damageText": "250x2 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "dhalsim__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "1,100",
+        "limit": "1,2",
+        "start": "200"
+      },
+      "name": {
+        "en": "Yoga Illusion (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; performed by inputting 6HPHK during blockstun; 6f extra recovery on hit; both hits knock down; freezes the screen for 4f during startup; if 1st hit is Perfect Parried, opponent can interrupt with a move 7f or faster; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 24,
+      "onPerfectParry": -27,
+      "onPunishCounter": 24,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 57
+    },
+    {
+      "active": "3(6)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break (1st hit)",
+      "attackRange": 1.3,
+      "blockstun": 32,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "dhalsim",
+      "chipDamage": 62,
+      "damage": 250,
+      "damageText": "250x2 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "dhalsim__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "1,100",
+        "limit": "1,2",
+        "start": "200"
+      },
+      "name": {
+        "en": "Yoga Illusion (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; performed by holding 6HPHK on wakeup; 6f extra recovery on hit; both hits knock down; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); if 1st hit is Perfect Parried, opponent can interrupt with a move 7f or faster; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 24,
+      "onPerfectParry": -27,
+      "onPunishCounter": 24,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 55
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dhalsim__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Unleash your heart!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 380,
+      "superGauge": null,
+      "totalFrames": 380
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dhalsim__4or6+ppp/kkk",
+      "input": {
+        "numpad": "4 or 6 + PPP/KKK",
+        "official": null
+      },
+      "invuln": "5-15 Full",
+      "juggle": null,
+      "name": {
+        "en": "Yoga Teleport",
+        "ja": null
+      },
+      "notes": {
+        "en": "6PPP version crosses up (but cannot switch sides with fully cornered opponent); 6KKK version stays on same side next to opponent; 4PPP and 4KKK versions are identical; 7f extra recovery on backward version",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": null,
+      "totalFrames": 39
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.258,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "dhalsim",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "dhalsim__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Yoga Rise",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 18,
+      "id": "dhalsim__j2hk",
+      "input": {
+        "numpad": "j.2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Drill Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Steep trajectory; advantage depends on connect height; 5f extra landing recovery on whiff; Dhalsim is in a crouching state during landing recovery; can come out on 8th airborne jump frame at the earliest; foot projectile invuln 9f~land; can be used after air-to-air j.MP to land safely",
+        "ja": null
+      },
+      "onBlock": -22,
+      "onHit": -17,
+      "onPerfectParry": -35,
+      "onPunishCounter": -13,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 6,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "(81)",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dhalsim__j2kk",
+      "input": {
+        "numpad": "j.2KK",
+        "official": null
+      },
+      "invuln": "1~ Projectile (Legs)",
+      "juggle": null,
+      "name": {
+        "en": "Aerial Yoga Float",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can come out on 8th airborne jump frame at the earliest; can use aerial normals/specials and move left/right during float; Counter-hit state on frame 1 until landing; active time refers to airborne period in which Dhalsim can move (can input air attacks during his descent, which depends on float height; 18f at minimum height); crouching state on final landing frame; can only be used once per jump even after using OD Yoga Comet to regain air control; Movement Speed: 0.04 forward / 0.03 back",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 20,
+      "id": "dhalsim__j2lk",
+      "input": {
+        "numpad": "j.2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Drill Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shallow trajectory; advantage depends on connect height; 5f extra landing recovery on whiff; Dhalsim is in a crouching state during landing recovery; can come out on 8th airborne jump frame at the earliest; foot and lower body projectile invuln 9f~land; can be used after air-to-air j.MP to land safely",
+        "ja": null
+      },
+      "onBlock": -30,
+      "onHit": -23,
+      "onPerfectParry": -42,
+      "onPunishCounter": -19,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 6,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [
+        "special"
+      ],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 18,
+      "id": "dhalsim__j2lp",
+      "input": {
+        "numpad": "j.2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Yoga Mummy",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cancelable into Air Teleport or Yoga Comet until the final 6 active frames before landing; can come out on 8th airborne jump frame at the earliest; puts airborne opponent into limited juggle state; can be used after OD Yoga Flame ~ j.MP to extend the juggle into any Super after landing",
+        "ja": null
+      },
+      "onBlock": -22,
+      "onHit": -18,
+      "onPerfectParry": -34,
+      "onPunishCounter": -14,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 18,
+      "id": "dhalsim__j2mk",
+      "input": {
+        "numpad": "j.2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Drill Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Medium trajectory; advantage depends on connect height; 5f extra landing recovery on whiff; Dhalsim is in a crouching state during landing recovery; can come out on 8th airborne jump frame at the earliest; foot projectile invuln 9f~land; can be used after air-to-air j.MP to land safely",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": -15,
+      "onPerfectParry": -32,
+      "onPunishCounter": -11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 6,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "[~55]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 35,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 3000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 33,
+      "id": "dhalsim__j63214lp",
+      "input": {
+        "numpad": "j.63214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "0 air"
+      },
+      "name": {
+        "en": "Yoga Comet",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button strength affects projectile speed (LP slowest, HP fastest); frame advantage refers to close range minimum height version; can come out on 2nd airborne jump frame at the earliest; disappears after 55f if no contact is made; if projectile hits the floor, creates a stationary hitbox that lasts 10f on the ground (more likely to happen with faster versions); the last 5f of landing recovery is in a crouching state; can be performed from any jump direction",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": -4,
+      "onPerfectParry": -26,
+      "onPunishCounter": 0,
+      "projectileSpeed": 0.03,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 30,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 38,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 37,
+      "id": "dhalsim__j63214pp",
+      "input": {
+        "numpad": "j.63214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "3,4",
+        "start": "0,0 air"
+      },
+      "name": {
+        "en": "Yoga Comet",
+        "ja": null
+      },
+      "notes": {
+        "en": "Frame advantage refers to close range minimum height version; Dhalsim can perform air normals and specials mid-air after throwing projectile on frame 50 onward (cannot perform multiple Yoga Floats or Air Teleports in one jump, and cannot throw another OD Yoga Comet until the first has disappeared); can come out on 2nd airborne jump frame at the earliest; at minimum height, Dhalsim is too low to follow up with Float, j.2LP, or j.2K (but can still teleport); if projectile hits the floor, creates a stationary hitbox that lasts 10f on the ground; can be performed from any jump direction",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 5,
+      "onPerfectParry": -10,
+      "onPunishCounter": 9,
+      "projectileSpeed": 0.04,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 30,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dhalsim__4or6+jppp/jkkk",
+      "input": {
+        "numpad": "4 or 6 + j.PPP/j.KKK",
+        "official": null
+      },
+      "invuln": "10-15 Full",
+      "juggle": null,
+      "name": {
+        "en": "Aerial Yoga Teleport",
+        "ja": null
+      },
+      "notes": {
+        "en": "Punish Counter state until landing; recovery refers to vulnerable air recovery time before Dhalsim can act (air moves can be used after 29f forward, 35f back); total recovery time depends on activation height; j.6PPP version crosses up (but cannot switch sides with fully cornered opponent); j.6KKK version stays on same side; j.4KKK version travels back slightly farther (2.5 units) than j.4PPP version (1.5 units); 4f extra air recovery on backward version",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.82,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 6000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "dhalsim__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "2"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great horizontal range at an upward angle for air-to-airs (especially out of Float); lower body projectile invuln 10-22f (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -12,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.68,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 6000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 23,
+      "id": "dhalsim__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes spike knockdown vs. airborne opponents; very long horizontal range on 2nd active frame, then hits far below Dhalsim (hurtbox extends outside the hitbox, making it prone to trading/losing to anti-airs); can hit as an instant overhead (but slow startup makes this incredibly risky; too slow for fuzzy overhead setups); always safe on block if performed from Yoga Float; extends a large hurtbox in front and below Dhalsim during active frames 2-4 (projectile invuln farther back, allowing Dhalsim to punish fireballs more reliably while floating at close range)",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": -5,
+      "onPerfectParry": -26,
+      "onPunishCounter": -1,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.03,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 750
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 12,
+      "id": "dhalsim__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; can be used as an instant overhead (no fuzzy setup required; works on all crouchers)",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": -12,
+      "onPerfectParry": -22,
+      "onPunishCounter": -8,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.84,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 750
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "dhalsim__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be used as a fuzzy instant overhead vs. JP/Marisa/Zangief only",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 8,
+      "onPerfectParry": -7,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.76,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "dhalsim__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "2"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good horizontal range and a downward angle (very effective at stopping approaches when used out of Float); can be used as an instant overhead vs. Dee Jay/JP/Marisa/Zangief, or as a fuzzy instant overhead vs. opponents in Burnout",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": -7,
+      "onPerfectParry": -22,
+      "onPunishCounter": -3,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.36,
+      "blockstun": 11,
+      "cancel": [
+        "special"
+      ],
+      "category": "normal",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "dhalsim__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1(2)",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cancelable into Float, Air Teleport, Yoga Comet, Drill Kick, or Yoga Mummy; great horizontal range for use as an air-to-air; does not hit overhead and cannot hit crouching opponents unless they extend a vertical hurtbox; lower body projectile invuln 9-25f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs); when juggled into, puts opponent into a limited juggle state (has a higher Juggle Increase value mid-juggle); can be comboed into after OD Yoga Flame (then canceled into Yoga Mummy to keep the opponent juggled)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -10,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dhalsim__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Yoga Smash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Allows for a corner throw loop; walk for manual timing, dash (+6) and delay throw by 1-4f, or whiff 2LK (+5) for auto-timing; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 31,
+      "onPerfectParry": null,
+      "onPunishCounter": 31,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dhalsim__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dhalsim__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "dhalsim",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "dhalsim__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.471 (min/throw), 1.787 (min/block), 2.700 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "Dhalsim",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

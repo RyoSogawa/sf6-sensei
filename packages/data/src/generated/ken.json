@@ -1,0 +1,4948 @@
+{
+  "aliases": [],
+  "id": "ken",
+  "moves": [
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.587,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ken",
+      "chipDamage": 500,
+      "damage": 2000,
+      "damageText": null,
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ken__214214k",
+      "input": {
+        "numpad": "214214K",
+        "official": null
+      },
+      "invuln": "1-9 Strike/Throw",
+      "juggle": {
+        "increase": "30",
+        "limit": "99",
+        "start": "30"
+      },
+      "name": {
+        "en": "Dragonlash Flame",
+        "ja": null
+      },
+      "notes": {
+        "en": "Switches sides with opponent on hit; Full Dmg distribution: 500,300x2,900",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 9,
+      "onPerfectParry": -42,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 41,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "2(13)2(13)2",
+      "afterDriveRush": null,
+      "airborne": "10-61 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.935,
+      "blockstun": 51,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x2,400 (1000)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 1700,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "ken__214hk",
+      "input": {
+        "numpad": "214HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,2",
+        "limit": "1,1,1",
+        "start": "0,0,2"
+      },
+      "name": {
+        "en": "Tatsumaki Senpu-kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "2nd and 3rd hits whiff on crouching opponents (unsafe on crouching hit or block); same knockdown advantage regardless of which hit initially connects; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 36,
+      "onPerfectParry": -31,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 78
+    },
+    {
+      "active": "4(5)3(6)3(6)3(15)3",
+      "afterDriveRush": null,
+      "airborne": "10-77 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.795,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,200x3,800 (1700)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 1000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "ken__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x4,1",
+        "limit": "6x4,8",
+        "start": "0x4,1"
+      },
+      "name": {
+        "en": "Tatsumaki Senpu-kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great range and speed, useful in whiff punishes and juggles; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -61,
+      "onHit": 28,
+      "onPerfectParry": -80,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 90
+    },
+    {
+      "active": "2(6)3",
+      "afterDriveRush": null,
+      "airborne": "5-28 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.4,
+      "blockstun": 29,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,400 (700)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "ken__214lk",
+      "input": {
+        "numpad": "214LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1 / 1 (2nd)",
+        "limit": "0,1 / 4 (2nd)",
+        "start": "0,1 / 2 (2nd)"
+      },
+      "name": {
+        "en": "Tatsumaki Senpu-kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state if 1st hit connects; if the first hit whiffs the second hit will always do 700 damage, but has worse KD Adv.; both hits connect on crouching opponents; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 46,
+      "onPerfectParry": -33,
+      "onPunishCounter": 46,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "2(13)2",
+      "afterDriveRush": null,
+      "airborne": "8-41 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.98,
+      "blockstun": 36,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 112,
+      "damage": 450,
+      "damageText": "450x2 (900)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "ken__214mk",
+      "input": {
+        "numpad": "214MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "1,1",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Tatsumaki Senpu-kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Better KD Adv. if first hit connects; both hits connect on crouching opponents; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 44,
+      "onPerfectParry": -31,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "2(10)3(10)3(12)3(11)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 3.631,
+      "blockstun": 79,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ken",
+      "chipDamage": 150,
+      "damage": 2800,
+      "damageText": "2800 (3360)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 1000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "ken__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shippu Jinrai-kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fast startup and good range, making it good for punishes and juggle combos; completely safe on block due to pushback; great chip tool vs. opponents in Burnout (can continue dealing more chip after being safely blocked); benefits from 20% Counter-hit/Punish Counter damage increase unlike most Supers; Full Dmg distribution: 300x4,200x5,600",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 36,
+      "onPerfectParry": -28,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 89
+    },
+    {
+      "active": "3(1)6(16)13",
+      "afterDriveRush": null,
+      "airborne": "10-27, 35-75 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.131,
+      "blockstun": 54,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ken",
+      "chipDamage": 1200,
+      "damage": 4000,
+      "damageText": "4000 (1800~2400)",
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "ken__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-18 Full",
+      "juggle": {
+        "increase": "[0]",
+        "limit": "99 [99]",
+        "start": "[1]"
+      },
+      "name": {
+        "en": "Shinryu Reppa",
+        "ja": null
+      },
+      "notes": {
+        "en": "1st hit leads to full animation (non-cinematic damage varies based on juggle height, and allows a follow-up juggle); 2 hits whiff on crouch block (reduced chip, slightly worse advantage); cinematic time regenerates ~2 Drive bars for Ken",
+        "ja": null
+      },
+      "onBlock": -40,
+      "onHit": 15,
+      "onPerfectParry": -66,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 100
+    },
+    {
+      "active": "3(1)6(16)13",
+      "afterDriveRush": null,
+      "airborne": "10-27, 35-75 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.131,
+      "blockstun": 54,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "ken",
+      "chipDamage": 1450,
+      "damage": 4500,
+      "damageText": "4500 (2000~2600)",
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "ken__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-18 Full",
+      "juggle": {
+        "increase": "[0]",
+        "limit": "99 [99]",
+        "start": "[1]"
+      },
+      "name": {
+        "en": "Shinryu Reppa (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "1st hit leads to full animation (non-cinematic damage varies based on juggle height, and allows a follow-up juggle); 2 hits whiff on crouch block (reduced chip, slightly worse advantage); available at 25% HP or below; cinematic time regenerates ~2.1 Drive bars for Ken",
+        "ja": null
+      },
+      "onBlock": -40,
+      "onHit": 21,
+      "onPerfectParry": -66,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 100
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.221,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "ken__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jinrai Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponents into limited juggle state; follow-up can be delayed up to 5f if input as late as possible (affecting frame trap and juggle opportunities); follow-ups can also be input on whiff; good approach tool that doesn't extend a hurtbox until active",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 42,
+      "onPerfectParry": -20,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 275,
+        "onHit": 550
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 33,
+      "id": "ken__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": -5,
+      "onPerfectParry": -27,
+      "onPunishCounter": -1,
+      "projectileSpeed": 0.08,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 37,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.851,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 24,
+      "id": "ken__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jinrai Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up can be delayed up to 6f if input as late as possible (affecting frame trap and juggle opportunities); follow-ups can also be input on whiff",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": -4,
+      "onPerfectParry": -26,
+      "onPunishCounter": 0,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.31,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 7000,
+        "dealtOnHit": 7000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ken__236kk6hk",
+      "input": {
+        "numpad": "236KK~6HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "6",
+        "start": "1"
+      },
+      "name": {
+        "en": "Senka Snap Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up can be input on hit/block/whiff; whiffs on crouching opponents (-18 vs. crouch block); true blockstring vs. stand block, can be delayed to create up to 3f gap or to connect on high-juggled opponents",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 37,
+      "onPerfectParry": -22,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.2,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500(400)",
+      "dmgScaling": "40% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "ken__236kk6hk6k",
+      "input": {
+        "numpad": "236KK~6HK~6K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Kasai Thrust Kick (HK)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up can be input on hit/block/whiff; only combos on standing opponents because the 6HK whiffs on crouchers; 7f gap between final 2 hits on stand block (20f if 2nd hit whiffs vs. crouching); (refers to scaled damage); starter scaling reduces the effectiveness of fishing for frame trap into SA2 cancel",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 42,
+      "onPerfectParry": -38,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 37,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 54
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.08,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 26,
+      "id": "ken__236kk6lk",
+      "input": {
+        "numpad": "236KK~6LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "6",
+        "start": "1"
+      },
+      "name": {
+        "en": "Kazekama Shin Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up can be input on hit/block/whiff; +7 Punish Counter only possible if first hit whiffs; always a true blockstring even if delayed",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.2,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500(400)",
+      "dmgScaling": "40% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "ken__236kk6lk6k",
+      "input": {
+        "numpad": "236KK~6LK~6K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Kasai Thrust Kick (LK)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up can be input on hit/block/whiff; 2f gap between final 2 hits on block; (refers to scaled damage); starter scaling reduces the effectiveness of fishing for frame trap into SA2 cancel",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 31,
+      "onPerfectParry": -30,
+      "onPunishCounter": 31,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 29,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.31,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 24,
+      "id": "ken__236kk6mk",
+      "input": {
+        "numpad": "236KK~6MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "6",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gorai Axe Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up can be input on hit/block/whiff; 4f gap between hits on block, good for setting up trade combos (up to 10f gap if delayed); causes OTG bounce vs. airborne opponents; lifts Ken's leg hurtbox on frames 5-18, allowing it to dodge some low attacks",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": -3,
+      "onPerfectParry": -25,
+      "onPunishCounter": 1,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.2,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500(400)",
+      "dmgScaling": "40% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "ken__236kk6mk6k",
+      "input": {
+        "numpad": "236KK~6MK~6K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Kasai Thrust Kick (MK)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up can be input on hit/block/whiff; final 2 hits are a true blockstring; (refers to scaled damage)",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 34,
+      "onPerfectParry": -30,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 29,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.31,
+      "blockstun": 25,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 7000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ken__236k6hk",
+      "input": {
+        "numpad": "236K~6HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Senka Snap Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up can be input on hit/block/whiff; better KD Adv. after 236HK launch; whiffs on crouching opponents unless they extend a vertical hurtbox (236LK -23/-35; 236MK -22/-31; 236HK KD/-26)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 33,
+      "onPerfectParry": -26,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 37
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.08,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 125,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (5% extra)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 26,
+      "id": "ken__236k6lk",
+      "input": {
+        "numpad": "236K~6LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Kazekama Shin Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up can be input on hit/block/whiff; using 236MK~6LK will counter-hit any opponent button; causes a +32 Hard Knockdown on Counter-hit/Punish Counter (gives good oki but prevents follow-up links)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 32,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.36,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 26,
+      "id": "ken__236k6mk",
+      "input": {
+        "numpad": "236K~6MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "100",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gorai Axe Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up can be input on hit/block/whiff; lifts Ken's leg hurtbox on frames 4-21, allowing it to dodge some low attacks; due to its slow startup, opponent can easily switch from low block to high block to cover both mixup options; puts airborne opponents into limited juggle OTG bounce state (can only follow up with SA3 cancel if the juggle was started with the 6MK follow-up)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.711,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 32,
+      "id": "ken__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Jinrai Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up can be delayed up to 3f if input as late as possible (affecting frame trap and juggle opportunities); follow-ups can also be input on whiff",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 1,
+      "onPerfectParry": -29,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 275,
+        "onHit": 550
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 33,
+      "id": "ken__236lp",
+      "input": {
+        "numpad": "236LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; puts airborne opponents into limited juggle state; useful for meaty corner setups if well-spaced, preventing wakeup SA1",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": -1,
+      "onPerfectParry": -23,
+      "onPunishCounter": 3,
+      "projectileSpeed": 0.06,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.851,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 29,
+      "id": "ken__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Jinrai Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Follow-up can be delayed up to 2f if input as late as possible (affecting frame trap and juggle opportunities); best starter for frame trapping into 6LK follow-up; follow-ups can also be input on whiff",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": 2,
+      "onPerfectParry": -25,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 275,
+        "onHit": 550
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 33,
+      "id": "ken__236mp",
+      "input": {
+        "numpad": "236MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": -3,
+      "onPerfectParry": -25,
+      "onPunishCounter": 1,
+      "projectileSpeed": 0.07,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 31,
+      "id": "ken__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1,6",
+        "start": "1"
+      },
+      "name": {
+        "en": "Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit OD projectile with extremely fast recovery; at some ranges, Ken can follow up with Drive Rush to combo afterwards; puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -7,
+      "onPunishCounter": 6,
+      "projectileSpeed": 0.095,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -6,
+        "onHit": 40
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.645,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ken__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Low Spinning Sweep",
+        "ja": null
+      },
+      "notes": {
+        "en": "Has juggle potential; on block, always plays out a fixed 27f recovery (cannot be made safer with meaty timing)",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 40,
+      "onPerfectParry": -26,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": -3,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.148,
+      "blockstun": 21,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 11,
+        "onHit": 21
+      },
+      "hitstop": 13,
+      "hitstun": 31,
+      "id": "ken__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand; decent anti-air (cannot hit cross-up); only first 2 active frames are cancelable; cancel into 236HK on block leaves a 5f gap and is DI-safe; Run~Stop cancel: +3/-7",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": 3,
+      "onPerfectParry": -26,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.04,
+      "blockstun": 10,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "ken__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -11,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 17
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.89,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -2,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "ken__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Primary combo starter; chains into 5LP/2LP/2LK; Run~Stop cancel: -12/-18; DR cancel is delayed until after 1st recovery frame; topmost hurtbox on frames 1-5 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -9,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.330",
+        "onHit": "0.351"
+      },
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 2
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.46,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 8
+      },
+      "hitstop": 9,
+      "hitstun": 20,
+      "id": "ken__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Run~Stop cancel: -8/-12; Range: 1.46; DR cancel is delayed until after active frames",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": -2,
+      "onPerfectParry": -20,
+      "onPunishCounter": 2,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 4,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.12,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 10
+      },
+      "hitstop": 11,
+      "hitstun": 20,
+      "id": "ken__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good buffer tool and great for pressure out of Drive Rush; Run~Stop cancel: -8/-11; 2f extra recovery on whiff and extends a wider hurtbox until the end of recovery; topmost hurtbox on frames 1-8 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 3,
+      "onPerfectParry": -15,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 600
+      },
+      "totalFrames": 22
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ken__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Hell Wheel",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switches, has great corner carry; does not allow throw/strike oki after back throwing opponent into corner; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 6,
+      "onPerfectParry": null,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ken__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Now's not the time for jokes.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 215,
+      "superGauge": null,
+      "totalFrames": 215
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.921,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "ken__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Excellent ranged poke and whiff punish tool; even at max range, can convert Punish Counter spinning juggle state into 623KK or Drive Rush 5HP juggles; 2 extra recovery frames on whiff; extends a hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 1,
+      "onPerfectParry": -25,
+      "onPunishCounter": 56,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.491,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 10,
+        "onHit": 15
+      },
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "ken__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great poke in neutral; large number of active frames make it a great meaty; when used out of Drive Rush, links into 2MK on hit or gives pressure on block; Run~Stop cancel: -3/-8",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -20,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 31
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.32,
+      "blockstun": 12,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 1,
+        "onHit": 3
+      },
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "ken__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Incredible range for a light normal and a great whiff punish; Run~Stop cancel: -14/-16; DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 0,
+      "onPerfectParry": -12,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.01,
+      "blockstun": 9,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "ken__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; Run~Stop cancel: -14/-19",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -8,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.333",
+        "onHit": "0.375"
+      },
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 13
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.73,
+      "blockstun": 18,
+      "cancel": [
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 26,
+      "id": "ken__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Has good forward movement; whiffs on crouching opponents at farther ranges unless they extend a vertical hurtbox; hitconfirmable Target Combo follow-up makes it strong in neutral; Super is much harder to hitconfirm but can buffer into a safe SA2 in neutral; front leg hurtbox is raised on frames 4-15, allowing it to dodge some low attacks",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400(320)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "ken__5mkmk",
+      "input": {
+        "numpad": "5MK~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Triple Flash Kicks 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "(refers to scaled damage); great forward movement, will combo even if 5MK hits an extended limb hurtbox; true blockstring even at max delay",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 28,
+      "onPerfectParry": null,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": "700(490)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": null,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ken__5mkmkhk",
+      "input": {
+        "numpad": "5MK~MK~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Triple Flash Kicks 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "(refers to scaled damage); 2f gap between final 2 hits on block; whiffs on crouch blocking opponents (much more unsafe); 2f worse KD Adv. if only the final hit connects",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 32,
+      "onPerfectParry": -29,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 500
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.914,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 6,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "ken__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Easily hitconfirmable into Target Combo; farthest ~40% of hitbox is shifted upward (can whiff against some crouching attack hurtboxes in whiff punish scenarios); extends a forward leg hurtbox until end of recovery; Run~Stop cancel: -6/-12",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -16,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 22
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 4000,
+        "gain": 400
+      },
+      "driveRushCancel": {
+        "onBlock": 6,
+        "onHit": 48
+      },
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "ken__5mphp",
+      "input": {
+        "numpad": "5MP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Chin Buster",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state; Run~Stop cancel: KD+30/-12",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 28,
+      "onPerfectParry": -28,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ken__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Bring it!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 96,
+      "superGauge": null,
+      "totalFrames": 96
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": "19-37 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.254,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": "30% Starter; Combo (3 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 27,
+      "id": "ken__623hk",
+      "input": {
+        "numpad": "623HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "8",
+        "start": "3"
+      },
+      "name": {
+        "en": "Dragonlash Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can dodge lows until frame 40; first 2 active frames only hit airborne, causing spike knockdown on hit or OTG bounce on Punish Counter; 1f better hit/block advantage vs. crouching opponents; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 28,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 53
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": "9-51 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.326,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800,300x2 (1400)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1400,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "ken__623hp",
+      "input": {
+        "numpad": "623HP",
+        "official": null
+      },
+      "invuln": "1-9 Air, 5-11 Projectile",
+      "juggle": {
+        "increase": "1,0,0",
+        "limit": "6,8,8",
+        "start": "1x3"
+      },
+      "name": {
+        "en": "Shoryuken",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good anti-air; 3rd hit whiffs vs. crouch block (2f worse advantage, 75 less chip dmg); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -36,
+      "onHit": 25,
+      "onPerfectParry": -58,
+      "onPunishCounter": 25,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 66
+    },
+    {
+      "active": "2(7)6",
+      "afterDriveRush": null,
+      "airborne": "10-26 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.299,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 175,
+      "damage": 500,
+      "damageText": "500,700",
+      "dmgScaling": "Combo (5% extra); both hits apply scaling",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 31,
+      "id": "ken__623kk",
+      "input": {
+        "numpad": "623KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,2",
+        "limit": "3,11",
+        "start": "2,1 air"
+      },
+      "name": {
+        "en": "Dragonlash Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can dodge lows until frame 32; initial active frames 2(7)1 only hit airborne opponents for an OTG bounce and side switch; next 3 active frames only hit standing opponents; 3f better hit/block advantage vs. crouching opponents (allows link into 2LP); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 1,
+      "onPerfectParry": -27,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": "9-27 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.685,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 237,
+      "damage": 1000,
+      "damageText": "1000(950)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 26,
+      "id": "ken__623lk",
+      "input": {
+        "numpad": "623LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "8",
+        "start": "3"
+      },
+      "name": {
+        "en": "Dragonlash Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can dodge lows until frame 32; first 3 active frames only hit airborne and do 1000 damage, causing spike knockdown on hit or OTG bounce on Punish Counter; hits standing and crouching opponents on 4th active frame onward, dealing 950 damage; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 2,
+      "onPerfectParry": -22,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 4,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": "7-35 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.87,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 225,
+      "damage": 1100,
+      "damageText": "1100(800)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ken__623lp",
+      "input": {
+        "numpad": "623LP",
+        "official": null
+      },
+      "invuln": "1-14 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shoryuken",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good anti-air; cannot hit cross-up; reduced damage on high anti-air connect (active frames 3-10)",
+        "ja": null
+      },
+      "onBlock": -23,
+      "onHit": 33,
+      "onPerfectParry": -41,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": "14-32 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.092,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": "30% Starter; Combo (3 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 31,
+      "id": "ken__623mk",
+      "input": {
+        "numpad": "623MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "8",
+        "start": "3"
+      },
+      "name": {
+        "en": "Dragonlash Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can dodge lows until frame 37; first 2 active frames only hit airborne, causing spike knockdown on hit or OTG bounce on Punish Counter; 1f better hit/block advantage vs. crouching opponents; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 3,
+      "onPerfectParry": -26,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 52
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": "8-43 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.93,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": "700,600 (1300)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "ken__623mp",
+      "input": {
+        "numpad": "623MP",
+        "official": null
+      },
+      "invuln": "1-8 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "3,4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shoryuken",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good anti-air; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -28,
+      "onHit": 33,
+      "onPerfectParry": -48,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 55
+    },
+    {
+      "active": "10(14)10",
+      "afterDriveRush": null,
+      "airborne": "9-24, 33-74 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.976,
+      "blockstun": 44,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 75,
+      "damage": 200,
+      "damageText": "200x5,600 (1600)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "ken__623pp",
+      "input": {
+        "numpad": "623PP",
+        "official": null
+      },
+      "invuln": "1-10 Full",
+      "juggle": {
+        "increase": "0x5,100",
+        "limit": "6,6,7,6,7,7",
+        "start": "0x5,100"
+      },
+      "name": {
+        "en": "Shoryuken",
+        "ja": null
+      },
+      "notes": {
+        "en": "All hits are a true blockstring; Ken's best reversal option; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -40,
+      "onHit": 22,
+      "onPerfectParry": -58,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 200
+      },
+      "totalFrames": 89
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.58,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ken",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "ken__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Lightning Crack (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.58,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ken",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "ken__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Lightning Crack (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ken__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"What's up, having second thoughts?\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 205,
+      "superGauge": null,
+      "totalFrames": 205
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.09,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "ken__8hk",
+      "input": {
+        "numpad": "8HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Neutral Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong and fast air-to-air; lower body projectile invuln 6-19f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 9,
+      "onHit": 13,
+      "onPerfectParry": -4,
+      "onPunishCounter": 17,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.47,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ken",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "ken__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Flame Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "2(5)2(6)2",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.1,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "ken__j214k",
+      "input": {
+        "numpad": "j.214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "15",
+        "start": "1"
+      },
+      "name": {
+        "en": "Aerial Tatsumaki Senpu-kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forward jump only; can hit cross-up; puts opponent into limited juggle state; the last 11f of recovery puts Ken in a crouching state",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 42,
+      "onPerfectParry": -18,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2(1)2(2)2(2)2(3)2",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.1,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": "900(700) each",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 25,
+      "id": "ken__j214kk",
+      "input": {
+        "numpad": "j.214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "15,15",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Aerial Tatsumaki Senpu-kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forward jump only; 7f extra landing recovery on whiff; can hit twice vs. airborne opponents; can hit cross-up (deals 5f less hitstun, 200 less damage); Ken is in a crouching state from 4th landing recovery frame onward",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 5,
+      "onPerfectParry": -18,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500300,
+        "onHit": 1000600
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.17,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "ken__7hkor9hk",
+      "input": {
+        "numpad": "7HK or 9HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great horizontal range for a jump-in; lower body projectile invuln 10-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 7,
+      "onHit": 11,
+      "onPerfectParry": -6,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.61,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "ken__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spike Knockdown on counter-hit/Punish Counter vs. airborne opponents; great downward hitbox for close jump-ins and neutral jump throw baits; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 7,
+      "onPerfectParry": -10,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.55,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "ken__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -7,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.6,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "ken__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -2,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.18,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "ken__jmk",
+      "input": {
+        "numpad": "j.mK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; lower body projectile invuln 7-20f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -6,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.09,
+      "blockstun": 11,
+      "cancel": [
+        "special"
+      ],
+      "category": "normal",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "ken__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state; cancels to j.214K with a long cancel window; lower body projectile invuln 6-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -4,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ken__kk",
+      "input": {
+        "numpad": "KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Quick Dash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can input follow-ups from 11-31f; follow-ups will not reverse direction if crossing under opponent; Ken is in counter-hit state for entire duration; when inputting with 5KKK takes priority over OD special moves (does not apply when inputting with 5KK after performing a special move input); Run Distance: 1.37 (early stop) / 2.92 (max)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "[2(2)3(2)]x4,2(5)3",
+      "afterDriveRush": null,
+      "airborne": "10-61 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.04,
+      "blockstun": 57,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200x4,400 (1200)",
+      "dmgScaling": "15% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1200,
+        "dealtOnHit": 5000,
+        "gain": 700
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 69,
+      "id": "ken__kk214k",
+      "input": {
+        "numpad": "KK~214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x4,2",
+        "limit": "1x5",
+        "start": "0x2,4 air"
+      },
+      "name": {
+        "en": "Run~Tatsumaki Senpukyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Meterless only, does not vary by button strength; alternates between forward/backward hits; backwards hitbox can pull opponent towards Ken from behind; CH/PC advantage carries through all hits, making it a great punish starter against very unsafe moves; leaves Ken at close range for a strike/throw mixup on grounded hits; () refers to knockdown advantage when canceled from 5MP~HP",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 3,
+      "onPerfectParry": -28,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 78
+    },
+    {
+      "active": "4(5)6",
+      "afterDriveRush": null,
+      "airborne": "10-32 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.25,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 175,
+      "damage": 500,
+      "damageText": "500,700",
+      "dmgScaling": "Combo (5% extra); both hits apply scaling",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 30,
+      "id": "ken__kk623k",
+      "input": {
+        "numpad": "KK~623K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,2",
+        "limit": "3,10",
+        "start": "2,1 air"
+      },
+      "name": {
+        "en": "Run~Dragonlash Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Meterless only, does not vary by button strength; properties similar to 623KK (startup, hits twice in juggles, side switch, 2f better advantage vs. crouch); lower OTG bounce height than 623KK; functional startup vs. standing opponents is 11+20f",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 2,
+      "onPerfectParry": -26,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "11",
+      "afterDriveRush": null,
+      "airborne": "12-52 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.75,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": 100,
+      "damage": 500,
+      "damageText": "500,450,250x3 (1700)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 800,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "ken__kk623p",
+      "input": {
+        "numpad": "KK~623P",
+        "official": null
+      },
+      "invuln": "1-19 Air, 3-12 Projectile",
+      "juggle": {
+        "increase": "0,2,0x3",
+        "limit": "6,6,8x3",
+        "start": "0,2,1x3"
+      },
+      "name": {
+        "en": "Run~Shoryuken",
+        "ja": null
+      },
+      "notes": {
+        "en": "Meterless only, does not vary by button strength; final hit whiffs vs. crouch block (1f worse advantage, 75 less chip dmg); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -35,
+      "onHit": 25,
+      "onPerfectParry": -57,
+      "onPunishCounter": 25,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 67
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.83,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 7000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 27,
+      "id": "ken__kkhk",
+      "input": {
+        "numpad": "KK~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Forward Step Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Acts like a Normal Attack for Super canceling (including no extra damage scaling when canceled to SA3); puts airborne opponents into limited juggle state; can be spaced safely in neutral, or used as a frame trap out of 5HP~Run (allowing a link on counter-hit); extends a forward hurtbox during recovery",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ken__kklk",
+      "input": {
+        "numpad": "KK~LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Emergency Stop",
+        "ja": null
+      },
+      "notes": {
+        "en": "27f is fastest total Run~Stop time; Ken is in counter-hit state for entire duration",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": null,
+      "totalFrames": 27
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.9,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 26,
+      "id": "ken__kkmk",
+      "input": {
+        "numpad": "KK~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Thunder Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Ken's only overhead outside of Jinrai Kick follow-ups; notably can't benefit from Drive Rush like other overheads, but can be used in meaty setups (+4) to link afterwards; lifts Ken's leg hurtbox on frames 10-20, allowing it to dodge some low attacks",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ken__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Knee Strikes",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can walk forward for a corner throw loop with 1f timing vs. standard size characters (2f vs. Marisa, 3f vs. Blanka/E.Honda, 4f vs. Zangief); can also Drive Rush for easy manual timing (can whiff DR~5LP to bait 5f reversals, but is punished by reversal 4f lights); only +1 after forward dash (can pressure with jabs, but throw loses to 4f); can use Drive Rush meaty normals after a midscreen throw; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 20,
+      "onPerfectParry": null,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ken__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ken__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "ken",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "ken__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.745 (min/throw), 2.449 (min/block), 3.721 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ken/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "Ken",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

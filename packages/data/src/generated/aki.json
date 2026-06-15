@@ -1,0 +1,4166 @@
+{
+  "aliases": [],
+  "id": "aki",
+  "moves": [
+    {
+      "active": "53(28)12",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 116,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "aki",
+      "chipDamage": 125,
+      "damage": 300,
+      "damageText": "300,200x6,1000 (2500)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 625,
+        "dealtOnHit": 1500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,99",
+        "limit": "99",
+        "start": "0,99"
+      },
+      "name": {
+        "en": "Tainted Talons",
+        "ja": null
+      },
+      "notes": {
+        "en": "No invincibility; Super-priority projectile hitboxes; button strength determines distance (LP close/mid range, MP mid range to full screen, HP full screen); poisons the opponent on hit; creates a pool that lasts 700f, poisoning opponent while in close proximity; reapplies poison as long as opponent is close to pool; pool placement depends on button strength used; poison pool moves forward after MP/HP versions; SA2 poison pool can exist simultaneously with 214MP pool (poison does not stack); MP version can be used to counter projectiles (if too far, may drop out; if too close, A.K.I. will be hit before projectile dissipates); heavier versions can whiff if used from close range, especially vs. crouching; opponent cannot Drive Reversal until the 2nd to last hit (right before poison detonation)",
+        "ja": null
+      },
+      "onBlock": -19,
+      "onHit": 30,
+      "onPerfectParry": -19,
+      "onPunishCounter": 30,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 54,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 153
+    },
+    {
+      "active": "2(5)2(4)2(5)2",
+      "afterDriveRush": null,
+      "airborne": "18-54 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 37,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200x3,400 (1000)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 1250,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 44,
+      "id": "aki__214hk",
+      "input": {
+        "numpad": "214HK",
+        "official": null
+      },
+      "invuln": "26-32 Lower Body Projectile",
+      "juggle": {
+        "increase": "0x3,1",
+        "limit": "5x4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Cruel Fate",
+        "ja": null
+      },
+      "notes": {
+        "en": "Farthest trajectory; cannot hit cross-up; Counter-hit/Punish Counter bonus advantage applies to all hits; landing recovery has a crouch-sized hurtbox despite being in a standing state; first 2 hits will whiff on crouching opponents (less damage, chip, Drive Dmg); can link naturally into 2LP for a follow-up combo; pushback on block keeps A.K.I. out of throw range but also weakens her Burnout pressure",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -18,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 33,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 72
+    },
+    {
+      "active": "3(14)9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.77,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200,600",
+      "dmgScaling": "15% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "aki__214hp",
+      "input": {
+        "numpad": "214HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "1,2",
+        "start": "1,2"
+      },
+      "name": {
+        "en": "Toxic Wreath",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox (no projectile durability); poisons opponent on hit; puts opponent into limited juggle state; extended arm is projectile invincible 13-21f; useful combo and juggle tool; relatively safe blockstring ender, but can whiff in cancels outside close range; can get significantly better frame advantage on a late meaty connect (up to +4 on block); leaves a 2f blockstring gap when canceled from 5LK, or a 4f gap (trade combo) when canceled from 2LP; 6f hitconfirm window into SA3 refers to 2nd hit only",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 40,
+      "onPerfectParry": -20,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "3(4)2(4)2(5)2",
+      "afterDriveRush": null,
+      "airborne": "13-49 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 42,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200,200x4,600 (1600)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 9000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "aki__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": "23-27 Lower Body Projectile",
+      "juggle": {
+        "increase": "0x3,1",
+        "limit": "5x4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Cruel Fate",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hold left/right to steer trajectory; cannot hit cross-up; Counter-hit/Punish Counter bonus advantage applies to all hits on non-cinematic version; landing recovery has a crouch-sized hurtbox despite being in a standing state; goes into grab animation on a grounded hit for full damage and follow-up oki, but 3rd/4th hits can get a non-cinematic hit late in the active frames (400~640 damage); poisons opponent on hit (cinematic or non-cinematic); puts airborne opponents into a limited juggle OTG state (KD +51~58); Super cancel works only on non-cinematic version; SA2 cancel will not combo unless LP version lands as a counter-hit or Punish Counter",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 42,
+      "onPerfectParry": -18,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 28,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 1200
+      },
+      "totalFrames": 67
+    },
+    {
+      "active": "2(5)2(4)2(5)2",
+      "afterDriveRush": null,
+      "airborne": "9-45 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 37,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200x4 (800)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 1250,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 41,
+      "id": "aki__214lk",
+      "input": {
+        "numpad": "214LK",
+        "official": null
+      },
+      "invuln": "19-23 Lower Body Projectile",
+      "juggle": {
+        "increase": "0x4",
+        "limit": "5,5,7,8",
+        "start": "1"
+      },
+      "name": {
+        "en": "Cruel Fate",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shortest trajectory; cannot hit cross-up; Counter-hit/Punish Counter bonus advantage applies to all hits; landing recovery has a crouch-sized hurtbox despite being in a standing state; first 2 hits will whiff on crouching opponents (less damage, chip, Drive Dmg)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -18,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 63
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 26,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": 31,
+      "id": "aki__214lp",
+      "input": {
+        "numpad": "214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Nightshade Pulse",
+        "ja": null
+      },
+      "notes": {
+        "en": "Slow-moving 1-hit projectile; can be extremely plus on hit/block from longer ranges or when used with meaty timing; poisons the opponent on hit; extended arm hurtbox is projectile invincible 16-41f; 6P follow-up can be input on frames 30-36 (detonates bubble if it hasn't yet collided with opponent); cancelable into 236KK from frame 36 until end of recovery (can help avoid punishes or advance forward for pressure)",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": -5,
+      "onPerfectParry": -25,
+      "onPunishCounter": -1,
+      "projectileSpeed": 0.04,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 52
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500[800]",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": 32,
+      "id": "aki__214lp6p",
+      "input": {
+        "numpad": "214LP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "6",
+        "start": "[1]"
+      },
+      "name": {
+        "en": "Nightshade Chaser",
+        "ja": null
+      },
+      "notes": {
+        "en": "Poisons opponent on hit; refers to the non-burst version (projectile dissipates, causing the whip to strike the opponent rather than the bubble); [] refers to data when whip connects during Toxic Blossom, causing a limited juggle state; the whip is a 1-hit projectile that will detonate the 214LP bubble if still active on-screen (despite being a projectile, a perfect parry gives screen freeze like a strike); at close range, there is a 1f gap between the projectile and whip on block (can be delayed to create frame traps from farther ranges)",
+        "ja": null
+      },
+      "onBlock": -16,
+      "onHit": -4,
+      "onPerfectParry": -34,
+      "onPunishCounter": 0,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 34,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 31,
+      "cancel": [],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "aki__214lp6p",
+      "input": {
+        "numpad": "214LP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "8",
+        "start": "1"
+      },
+      "name": {
+        "en": "Nightshade Chaser (Burst)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Poisons opponent on hit; striking the bubble projectile before it makes contact with the opponent causes it to burst, dealing more damage; the burst itself is a large stationary 1-hit projectile hitbox with 6 active frames",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 42,
+      "onPerfectParry": -24,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 29,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "2(5)2(4)2(5)2",
+      "afterDriveRush": null,
+      "airborne": "13-49 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 37,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200x3,300 (900)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 1250,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 43,
+      "id": "aki__214mk",
+      "input": {
+        "numpad": "214MK",
+        "official": null
+      },
+      "invuln": "21-27 Lower Body Projectile",
+      "juggle": {
+        "increase": "0x3,1",
+        "limit": "5x4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Cruel Fate",
+        "ja": null
+      },
+      "notes": {
+        "en": "Medium trajectory; cannot hit cross-up; Counter-hit/Punish Counter bonus advantage applies to all hits; landing recovery has a crouch-sized hurtbox despite being in a standing state; first 2 hits will whiff on crouching opponents (less damage, chip, Drive Dmg)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -18,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 28,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 67
+    },
+    {
+      "active": "[160]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__214mp",
+      "input": {
+        "numpad": "214MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Orchid Spring",
+        "ja": null
+      },
+      "notes": {
+        "en": "Places a pool of poison on the ground that poisons the opponent; poison cannot be blocked, and is constantly reapplied as long as the opponent is in close proximity; cannot use another 214MP until the first one has dissipated (can exist alongside SA2 poison pool, but the poison damage does not stack between them); A.K.I. is in a counter-hit state for entire 46f attack animation",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 26,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 30,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,400",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,2",
+        "limit": "2,2",
+        "start": "0,1"
+      },
+      "name": {
+        "en": "Nightshade Pulse",
+        "ja": null
+      },
+      "notes": {
+        "en": "Slow-moving 2-hit OD projectile; can be extremely plus on block from longer ranges or when used with meaty timing; poisons the opponent on hit; 2nd hit knocks opponent into limited juggle state; extended arm hurtbox is projectile invincible 16-36f; 6P follow-up can be input on frames 34-35 (detonates bubble if both hits haven't yet collided with opponent); cancelable into 236KK on frames 32-33 (can help avoid punishes)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 45,
+      "onPerfectParry": -7,
+      "onPunishCounter": 45,
+      "projectileSpeed": 0.02,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600[800]",
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2000,
+        "gain": 0
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "aki__214pp6p",
+      "input": {
+        "numpad": "214PP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "6",
+        "start": "[1]"
+      },
+      "name": {
+        "en": "Nightshade Chaser",
+        "ja": null
+      },
+      "notes": {
+        "en": "Poisons opponent on hit; refers to the non-burst version (projectile dissipates, causing the whip to strike the opponent rather than the bubble); [] refers to data when whip connects during Toxic Blossom; the whip is a projectile that will detonate the 214PP bubble if still active on-screen (despite being a projectile, a perfect parry gives screen freeze like a strike)",
+        "ja": null
+      },
+      "onBlock": -13,
+      "onHit": 25,
+      "onPerfectParry": -31,
+      "onPunishCounter": 25,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "12",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 30,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3500,
+        "dealtOnHit": 2500,
+        "gain": 0
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "aki__214pp6p",
+      "input": {
+        "numpad": "214PP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "8",
+        "start": "2(1~4)"
+      },
+      "name": {
+        "en": "Nightshade Chaser (Burst)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Poisons opponent on hit; striking the bubble projectile before it makes contact with the opponent causes it to burst, dealing more damage; the burst itself is a large stationary 2-hit OD projectile hitbox; damage/chip/KD Advantage are changed if only 1 hit of the detonation connects on opponent (this can happen when detonating from max range, or immediately after the first hit of 214PP connects); opponent is launched higher on hit, allowing follow-up juggles (much more juggle potential if only the 1 hit of 214PP Burst connects)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 43,
+      "onPerfectParry": -21,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 450,
+        "onHit": 900
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.853,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "aki",
+      "chipDamage": 500,
+      "damage": 850,
+      "damageText": "850,950 (1800)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-12 Strike/Throw",
+      "juggle": {
+        "increase": "0,99",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Deadly Implication",
+        "ja": null
+      },
+      "notes": {
+        "en": "Poisons opponent on hit; good anti-air hitbox but cannot hit cross-up; transition to a cinematic on hit; very short horizontal range; if SA1 trades with a projectile right as it hits, opponent will be launched into a high limited juggle float state, allowing a follow-up juggle",
+        "ja": null
+      },
+      "onBlock": -46,
+      "onHit": 30,
+      "onPerfectParry": -69,
+      "onPunishCounter": 30,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 68,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 80
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.948,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "aki",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "aki__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-12 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Claws of Ya Zi",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; cinematic time regenerates ~2.2 Drive bars for A.K.I.",
+        "ja": null
+      },
+      "onBlock": -36,
+      "onHit": 30,
+      "onPerfectParry": -59,
+      "onPunishCounter": 30,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 58,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 70
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.948,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "aki",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "aki__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-12 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Claws of Ya Zi",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; available at 25% HP or below; cinematic time regenerates ~2.2 Drive bars for A.K.I.",
+        "ja": null
+      },
+      "onBlock": -36,
+      "onHit": 21,
+      "onPerfectParry": -59,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 58,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 70
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": "11-40(50) Upper Body Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Snake Step",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can switch sides with opponent (cross-up version usually has a fixed 23f recovery after passing through; total time depends on distance from opponent); at a very specific spacing, A.K.I. can cross-up with 43f move duration (extremely ambiguous left/right mixup); counter-hit state for entire move duration; projectile invincibility lasts longer on cross-up version; semi-low profile 11-17f (crouch height); crouching state 17f until end of recovery; low profile 18f until end of recovery; collision box disappears 20-31f to allow cross-up; Distance: 3.18 (3.84 cross-up)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 43,
+      "superGauge": null,
+      "totalFrames": 43
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": "700[800]",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 8000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "aki__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": "6-16 Air",
+      "juggle": {
+        "increase": "5 / [2]",
+        "limit": "2",
+        "start": "1 / [1]"
+      },
+      "name": {
+        "en": "Serpent Lash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox (no projectile clash); poisons opponent on hit; [Toxic Blossom] causes a higher launch on hit; no head hurtbox on frames 4-8; semi-low profile 9-30f (crouch height); only 1st active frame can realistically hit grounded opponents at close range; can anti-air vs. cross-ups; sets up a strong safe jump on non-TB hit midscreen or in the corner (must use cross-up j.2HP if opponent does not back rise midscreen)",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 44,
+      "onPerfectParry": -36,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 48
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": "1-34 Strike, 1-42 Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Snake Step",
+        "ja": null
+      },
+      "notes": {
+        "en": "Entire animation is vulnerable to Punish Counter Throws; crouching state 17f until end of recovery; Same-side version: 42f total animation, 8 recovery frames at the end that are vulnerable to strikes; Cross-up version: the entire animation is strike/projectile invincible; total duration of cross-up version depends on distance from opponent (23f fixed recovery time after passing through); collision box disappears 7-33f to allow cross-up; Distance: 4.06 (3.52 cross-up)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 42,
+      "superGauge": null,
+      "totalFrames": 42
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": "8-37 Upper Body Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Snake Step",
+        "ja": null
+      },
+      "notes": {
+        "en": "Feint (starts moving forward before retreating); counter-hit state for entire move duration; 8-13f semi-low profile (crouch height); 14-37f low profile; 14-36f crouching state (4f forced standing after recovery unless a crouching attack is input); Distance: -0.965",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 37,
+      "superGauge": null,
+      "totalFrames": 37
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500[800]",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 24,
+      "id": "aki__236lp",
+      "input": {
+        "numpad": "236LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1 / [1][-1 PC]"
+      },
+      "name": {
+        "en": "Serpent Lash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox with 1-hit projectile durability; poisons opponent on hit; [Toxic Blossom] hit launches opponent into a limited juggle state (can follow up with corner 236HP from close range); 6f extra recovery on whiff; slightly better frame advantage from longer ranges; extended arm is projectile invincible 13-16f; sets up a strong corner safe jump on Toxic Blossom hit but requires sacrificing the extra juggle; Punish Counter crumple puts opponent into limited juggle state (cannot follow up with grounded combo); Toxic Blossom PC juggle gives much stronger juggle follow-ups midscreen",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 1,
+      "onPerfectParry": -27,
+      "onPunishCounter": 55,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": "9-38 Upper Body Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Snake Step",
+        "ja": null
+      },
+      "notes": {
+        "en": "Stays on same side; counter-hit state for entire move duration; semi-low profile (crouch height) 9-15f and 39f; crouching state 14f until end of recovery; low profile 16-38f; Distance: 1.94",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 39,
+      "superGauge": null,
+      "totalFrames": 39
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600[700]",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "aki__236mp",
+      "input": {
+        "numpad": "236MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1 / [-1 ground]"
+      },
+      "name": {
+        "en": "Serpent Lash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox with 1-hit projectile durability; poisons opponent on hit; [Toxic Blossom] causes limited juggle crumple state on grounded hit, and a higher juggle (KD +60~72) on airborne hit; cannot hit crouching opponents (close-range hitbox can hit extended vertical hurtbox); can hit standing opponents from close range only; has a good anti-air hitbox but slow startup; sets up a strong corner safe jump on non-TB hit",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 44,
+      "onPerfectParry": -28,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [
+        "[tb:",
+        "super",
+        "sa3]"
+      ],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600[800]",
+      "dmgScaling": "20%[10%] Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "aki__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "2 / [-1]"
+      },
+      "name": {
+        "en": "Serpent Lash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox with 1-hit OD projectile durability; poisons opponent on hit; A.K.I. pulls herself toward opponent on hit (fully invincible during pull animation); [Toxic Blossom] causes crumple on grounded hit (+5 before opponent becomes airborne, or +9 on Punish Counter) and resets the juggle counter vs. airborne opponents (free juggle state); only the [Toxic Blossom] follow-up is Super cancelable; slightly better block advantage if spaced out (cannot hit on final active frame in neutral, as hitbox doesn't move after 4th active frame); extended arm is projectile invincible 20-25f (great anti-projectile tool due to speed and range); Counter-hit/Punish Counter bonus advantage carries through the follow-up hit; mid-combo damage scaling does not apply to Toxic Blossom version; refunds 2000 Drive gauge on Toxic Blossom hit (after spending the initial 20000, so it will not prevent Burnout if A.K.I. has just under 2 Drive bars)",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 4,
+      "onPerfectParry": -28,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "6",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.601,
+      "blockstun": 23,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "aki__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Upper body and kicking leg are anti-air invuln 10-15f (during active frames); decent anti-air but cannot hit cross-up; puts airborne opponents into limited juggle state on Counter-hit/Punish Counter; Punish Counter puts grounded opponents into limited juggle state; has high juggle potential, causing an air reset; Super cancel is delayed until after 2nd active frame; extends a hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 0,
+      "onPerfectParry": -24,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -4,
+        "onHit": 27
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.923,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "aki__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Xiu She",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hitbox does not move during active frames (cannot space to make it safer in neutral); very disjointed hitbox, but easily punished in neutral; has some juggle potential",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 27,
+      "onPerfectParry": -29,
+      "onPunishCounter": 49,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.19,
+      "blockstun": 9,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "aki__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 2LP/2LK; highest range light normal, can be used in 4-hit blockstrings and to stuff grounded approaches",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -9,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 15
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.96,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "aki__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 2LP/2LK (true blockstring into 2LP); Sinister Slide cancel: +3/-2; topmost hurtbox on frames 1-5 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -9,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.286",
+        "onHit": "0.277"
+      },
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.34,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "10% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 24,
+      "id": "aki__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Solid low poke that can be buffered into Super or linked into light normals; good option out of Drive Rush, granting block advantage and a link into 5HK or 5MK",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -17,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.375,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "aki__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Sinister Slide cancel: +10/+6; combo/buffer tool with good range; topmost hurtbox on frames 1-20 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -19,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "[185]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__2pp",
+      "input": {
+        "numpad": "2PP",
+        "official": null
+      },
+      "invuln": "Upper Body Projectile 10-197",
+      "juggle": null,
+      "name": {
+        "en": "Sinister Slide",
+        "ja": null
+      },
+      "notes": {
+        "en": "Semi-low profile 10-15f (crouch height); low profile 16-197f; Cancelable into follow-ups after 11f; can input up to exit stance after 28f (stance exit takes 21f on its own); automatically exits stance after 216f if no input is made (no low profile or projectile invincibility)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 11,
+      "superGauge": null,
+      "totalFrames": 216
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__2pp8",
+      "input": {
+        "numpad": "2PP~8",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Sinister Slide Exit",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be input after 28f of Sinister Slide; maintains low profile 1-10f and semi-low profile 11-21f (crouch height); fastest total Stance + Exit time is 49f; shortest Slide~Exit travel distance: 0.78",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 21
+    },
+    {
+      "active": "3(9)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 32,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3500,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 36,
+      "id": "aki__2ppk",
+      "input": {
+        "numpad": "2PP~K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "2,3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Heel Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "During Sinister Slide; 3f extra recovery on whiff; low profile 1-15f, semi-low profile 16-27f, crouch-sized hurtbox 28-35f; Counter-hit/Punish Counter bonus advantage carries through both hits; good combo tool that is also safe on block; both hits put airborne opponent into limited juggle state; 15f hitconfirm window into SA3 refers to 2nd hit only",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -21,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.59,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 1852,
+      "damageText": "1852 (2222)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10010,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__2pplplk",
+      "input": {
+        "numpad": "2PP~LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Entrapment",
+        "ja": null
+      },
+      "notes": {
+        "en": "During Sinister Slide; () refer to Punish Counter damage; good range but slow startup",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 16,
+      "onPerfectParry": null,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 55,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 80
+    },
+    {
+      "active": "15",
+      "afterDriveRush": null,
+      "airborne": "19-33 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "aki",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "aki__2ppp",
+      "input": {
+        "numpad": "2PP~P",
+        "official": null
+      },
+      "invuln": "Projectile 1-19 (Upper Body), 20-33 (Full)",
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1 / [-1 ground]"
+      },
+      "name": {
+        "en": "Venomous Fang",
+        "ja": null
+      },
+      "notes": {
+        "en": "During Sinister Slide; poisons the opponent on hit; triggers Toxic Blossom for a crumple state vs. grounded opponents, or a tumbling OTG state vs. airborne opponents; low profile 1-17f; low crush 20-31f; good anti-zoning tool, but can lose to slower projectiles at some ranges; sets up high damage punish combos (but does not combo naturally when canceled from any grounded normals)",
+        "ja": null
+      },
+      "onBlock": -25,
+      "onHit": 20,
+      "onPerfectParry": -43,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 63
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.44,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "aki__3mp",
+      "input": {
+        "numpad": "3MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Pu Lao",
+        "ja": null
+      },
+      "notes": {
+        "en": "Relatively slow overhead that leads to combos with meaty timing or Drive Rush",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -19,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Gluttony",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switch; after corner side switch, can Drive Rush for a true strike/throw mixup (auto-timed 5MP becomes +11 oH / +5 oB); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 20,
+      "onPerfectParry": null,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "32",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 26,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "aki",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "aki__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "2"
+      },
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Isn't he wonderful? Ahhh~\"; \"Ugh, you're a trifling little pest.\" bubbles have a large projectile hitbox behind A.K.I.; if popped, A.K.I. says a second line and enters a different recovery animation; puts opponent into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -239,
+      "onHit": null,
+      "onPerfectParry": -254,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 258,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 175,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 464
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.376,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 9,
+        "onHit": 16
+      },
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "aki__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand on hit; active frames 3-4 whiff on crouching opponents unless they extend a vertical hurtbox; important combo and juggle tool (combos into 2PP~K naturally, and 2PP~P on Punish Counter); staggers opponent on grounded Punish Counter and launches into a high limited juggle state on airborne Punish Counter; good anti-air on frames 10-12 but cannot hit cross-up; head hurtbox is anti-air invuln 5-12f; kicking leg and upper body hurtbox is anti-air invuln on frame 10-12; extends a hurtbox 1f before active that is vulnerable to projectiles; Sinister Slide cancel: +15/+8; DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -21,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 31
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.782,
+      "blockstun": 20,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "aki__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Very good poke that can avoid some low attacks; hitconfirmable into 5HP~HP Target Combo, which is especially strong vs. poisoned opponents",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": -22,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "aki__5hphp",
+      "input": {
+        "numpad": "5HP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Qiong Qi",
+        "ja": null
+      },
+      "notes": {
+        "en": "5f extra recovery on block; poisons the opponent on hit; triggers Toxic Blossom, launching opponent into limited juggle state; always a true blockstring even at max delay; hitconfirmable from 5HP",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 34,
+      "onPerfectParry": null,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.04,
+      "blockstun": 12,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 18,
+      "id": "aki__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Sinister Slide cancel: +6/0; DR cancel is delayed until after 1st recovery frame",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -13,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.379",
+        "onHit": "0.211"
+      },
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.9,
+      "blockstun": 8,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -2,
+        "onHit": 3
+      },
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "aki__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Sinister Slide cancel: +1/-4; short range and not chainable, primarily used for the 5LP~LP Target Combo",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -7,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 13
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": "300(240)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 4000,
+        "gain": 500
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 6
+      },
+      "hitstop": 10,
+      "hitstun": 18,
+      "id": "aki__5lplp",
+      "input": {
+        "numpad": "5LP~LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Hun Dun",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on block; 2nd LP can be input with any non-crouching direction; () refers to scaled damage from 5LP combo starter; has a 3f blockstring gap between hits; combos into 236LP/MP/HP, 214HP, 214PP, or close range 214LP; Sinister Slide cancel: +6/+4; DR cancel is delayed until after 1st recovery frame",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -17,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 24
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.48,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "aki__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 extra recovery frames on whiff; useful poke and combo starter",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 6,
+      "onPerfectParry": -16,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.269,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 11
+      },
+      "hitstop": 12,
+      "hitstun": 22,
+      "id": "aki__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 extra recovery frames on whiff/block; Sinister Slide cancel: +9/+5; moves A.K.I. forward; useful combo tool after 5MK or in counter-hit routes but does not combo into 236PP; high active frame count makes it useful as a meaty (up to +7/+1); special/DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -17,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"The master's prized poison... ahh, a perfect, beautiful, most brilliantly crafted poison! Now you'll get a taste.\"; builds 1 bar of Super gauge after 411f (1000 Super gauge on frames 303, 324, 346, 363, 383, then 5000 Super gauge on frame 411)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 611,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 1000
+      },
+      "totalFrames": 611
+    },
+    {
+      "active": "3(5)3",
+      "afterDriveRush": {
+        "onBlock": 6,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.736,
+      "blockstun": 29,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 31,
+      "id": "aki__6hk",
+      "input": {
+        "numpad": "6HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0,1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Qiu Niu",
+        "ja": null
+      },
+      "notes": {
+        "en": "8f extra recovery on whiff; Low Crush 11-26f (not airborne); 1st hit puts airborne opponents into limited juggle state (2nd hit causes air reset); excellent pressure tool, especially using Drive Rush forward momentum; Counter-hit/Punish Counter bonus advantage carries through both hits",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 4,
+      "onPerfectParry": -17,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.162,
+      "blockstun": 19,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 6000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "aki__6hp",
+      "input": {
+        "numpad": "6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Chi Wen",
+        "ja": null
+      },
+      "notes": {
+        "en": "1f extra recovery on whiff; great poke that is safe on block due to pushback; hitconfirmable into Super",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.98,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "aki",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "aki__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Feng Shi (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.98,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "aki",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "aki__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Feng Shi (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Time for some experimentation... I bet poison would work wonders on you.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 484,
+      "superGauge": null,
+      "totalFrames": 484
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.5,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "aki",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "aki__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Zao Chi",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.46,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "aki__j2hp",
+      "input": {
+        "numpad": "j.2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gong Fu",
+        "ja": null
+      },
+      "notes": {
+        "en": "During forward jump only; can only hit as a cross-up; causes spike knockdown vs. airborne opponents; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -12,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.23,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "aki__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good jump-in that doesn't extend hurtbox as much as j.HP; lower body projectile invuln 8-19f except around the attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -9,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.99,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "aki__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes spike knockdown vs. airborne opponents on Counter-hit/Punish Counter; strong jump-in that doesn't extend hurtbox before active frames; lower body projectile invuln 11-23f except around the attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -12,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.14,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "aki__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; good air-to-air (A.K.I.'s longest horizontal jump-in)",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 4,
+      "onPerfectParry": -8,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.68,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "aki__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be used as a fuzzy instant overhead",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -9,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.03,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "aki__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Solid jump-in attack; can be used as a fuzzy instant overhead (opponent must be in Burnout for true blockstring); lower body projectile invuln 7-20f except around the attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 4,
+      "onPerfectParry": -11,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.93,
+      "blockstun": 11,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "aki__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "1",
+        "start": "2"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state; useful air-to-air but aims very high; lower body projectile invuln 7-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -4,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Whisper",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can walk 16-17f for a corner throw loop (strict timing to beat 4f normals); 1f more lenient vs. Marisa and 2f more lenient vs. Blanka/E.Honda/Zangief; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 19,
+      "onPerfectParry": null,
+      "onPunishCounter": 19,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelabe into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "aki",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "aki__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelabe into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.907 (min/throw), 2.437 (min/block), 4.049 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "A.K.I.",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.451Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

@@ -150,13 +150,34 @@ SA1/SA2/SA3 のレベルは**取得元データに無い**（`moveType` は `sup
 | `hitAdv` | `onHit` | **HTML/`'''` 除去して数値化**（例 `<span>'''+4'''</span>`→`4`） |
 | `blockAdv` | `onBlock` | 同上 |
 | `punishAdv` | `onPunishCounter` | 同上 |
-| `perfParryAdv` | （拡張） | パーフェクトパリィ時有利。必要なら追加 |
+| `perfParryAdv` | `onPerfectParry` | パーフェクトパリィ時有利 |
 | `guard` | `properties` | `LH`→low/high 等のコードを属性に展開 |
 | `cancel` | `cancel` | `Chn Sp SA TC`→`[chain, special, super, target_combo]` |
-| `DRcancelHit` / `DRcancelBlock` | `driveRush.onHit/onBlock` | 数値化 |
+| `chip` / `dmgScaling` | `chipDamage` / `dmgScaling` | チップ数値化 / 補正は string 保持 |
+| `DRcancelHit/Blk` | `driveRushCancel{onHit,onBlock}` | この技を DR キャンセルした時の有利 |
+| `afterDRHit/Blk` | `afterDriveRush{onHit,onBlock}` | DR 後にこの技を出した時の有利 |
+| `driveGain` / `driveDmgHit/Blk` | `driveGauge{gain,dealtOnHit,dealtOnBlock}` | `[8000]` の括弧を除去して数値化 |
+| `superGainHit/Blk` | `superGauge{onHit,onBlock}` | `1000 (700)` の先頭値 |
+| `hitstun`/`blockstun`/`hitstop` | 同名 | 数値化 |
+| `invuln`/`armor`/`airborne` | 同名（string）+ `properties` タグ | 例 `"1-8 Air"`。有無を `invincible`/`armor`/`airborne` タグにも展開 |
+| `atkRange` / `projSpeed` | `attackRange` / `projectileSpeed` | 小数数値化 |
+| `jugStart/Increase/Limit` | `juggle{start,increase,limit}` | string 保持（`"1,2"` 等のリスト） |
+| `pushbackHit/Blk` | `pushback{onHit,onBlock}` | string 保持 |
+| `notes` | `notes.en` | マークアップ除去（攻略メモ本文） |
 
-> マークアップ除去・コード解析は `packages/scraper` の正規化ステップで行い、
-> `packages/core` の型に詰める。取得元に無い値は `null`/省略。
+> マークアップ除去・コード解析は `apps/scraper` の正規化ステップで行い、`packages/core` の型に詰める。
+> 取得元に無い値（`{{{fieldName}}}` テンプレ）は `null`/省略。複合ダメージ `500x2`/`1400(800)` は
+> `damage`(先頭値) + `damageText`(原文) に分けて保持する。
+
+## 生成データのレイアウト（キャラ別分割）
+
+`packages/data/src/generated/` に **キャラ別 JSON**（`<charId>.json`）を出力する。1ファイルだと巨大になり
+再スクレイプ差分が見づらいため。`apps/scraper` が同時に **`generated/index.ts`（自動生成）** を書き、各 JSON を
+静的 import して結合配列を default export する。`packages/data` はこれを読み込み、実行時に1配列へ結合して
+メモリ常駐する（クエリはメモリ上の `filter`/`find`。2306技規模では µs オーダーで SQLite 等より速い）。
+
+- バンドル: esbuild が全 JSON を inline（Worker バンドル gzip 約 580KB / 無料枠上限 1024KB）。
+- 速度ではなく**バンドル上限・可変データ（将来のプレイヤー別メモ）・大規模化**が D1(SQLite) 移行のトリガー。
 
 ## 正規化の難所（probe 検証済み 2026-06-13 / 全 2306 行）
 

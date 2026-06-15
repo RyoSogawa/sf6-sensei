@@ -1,0 +1,4243 @@
+{
+  "aliases": [],
+  "id": "e_honda",
+  "moves": [
+    {
+      "active": "3(8)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.4,
+      "blockstun": 31,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "e_honda",
+      "chipDamage": 500,
+      "damage": 4000,
+      "damageText": "4000 (2500)",
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 3750,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "e_honda__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": "1-11 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "The Final Bout",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to non-cinematic hit when 1st hit whiffs (1500 less damage, Drive Dmg is unaffected); cinematic time regenerates ~2.4 Drive bars for E. Honda; cinematic hit has around 1/2 screen range (2/3 screen for non-cinematic hit); can use the first hit to force Burnout to ensure a chip KO the 2nd hit",
+        "ja": null
+      },
+      "onBlock": -34,
+      "onHit": 11,
+      "onPerfectParry": -52,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 51,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 73
+    },
+    {
+      "active": "3(8)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.4,
+      "blockstun": 31,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "e_honda",
+      "chipDamage": 500,
+      "damage": 4500,
+      "damageText": "4500 (2750)",
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "e_honda__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": "1-11 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "The Final Bout (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to non-cinematic hit when 1st hit whiffs (1750 less damage, Drive Dmg is unaffected); available at 25% HP or below; cinematic time regenerates ~2.2 Drive bars for E. Honda; cinematic hit has around 1/2 screen range (2/3 screen for non-cinematic hit); can use the first hit to force Burnout to ensure a chip KO the 2nd hit",
+        "ja": null
+      },
+      "onBlock": -34,
+      "onHit": 34,
+      "onPerfectParry": -52,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 51,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 73
+    },
+    {
+      "active": "2(4)2(3)1(3)1(3)1(3)1(3)1(3)1(2)1(2)1(2)1(1)2[2(4)2(3)1(3)1(3)1(3)1(3)1(3)1(1)1(1)1(14)2]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.237,
+      "blockstun": 53,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 300,
+      "damage": 80,
+      "damageText": "80x11,320 (1200)[80x10,450 (1250)]",
+      "dmgScaling": "[Combo (2 hits)]",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 1,
+      "hitstun": 63,
+      "id": "e_honda__214hp",
+      "input": {
+        "numpad": "214HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x11,5",
+        "limit": "10x12",
+        "start": "0x11,1"
+      },
+      "name": {
+        "en": "Hundred Hand Slap",
+        "ja": null
+      },
+      "notes": {
+        "en": "[] refers to enhanced Sumo Spirit version (extra damage, +2 Hit advantage, +4 Block advantage); Counter-hit/Punish Counter bonus advantage carries through all hits; only final hit is Super cancelable; puts airborne opponents into limited juggle state (Enhanced version: causes OTG bounce); combo scaling only applies to Enhanced version",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 2,
+      "onPerfectParry": -19,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 79
+    },
+    {
+      "active": "2(4)2(2)1(2)2(1)1(1)2[2(4)2(2)1(1)2(1)1(10)2]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.649,
+      "blockstun": 30,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 200,
+      "damage": 80,
+      "damageText": "80x5,400 (800)[80x5,450 (850)]",
+      "dmgScaling": "[Combo (2 hits)]",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 1,
+      "hitstun": 34,
+      "id": "e_honda__214lp",
+      "input": {
+        "numpad": "214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x5,5",
+        "limit": "10x6",
+        "start": "0x5,1"
+      },
+      "name": {
+        "en": "Hundred Hand Slap",
+        "ja": null
+      },
+      "notes": {
+        "en": "[] refers to enhanced Sumo Spirit version (extra damage, +2 Hit advantage, +4 Block advantage); Counter-hit/Punish Counter bonus advantage carries through all hits; only final hit is Super cancelable; puts airborne opponents into limited juggle state (Enhanced version: causes OTG bounce); combo scaling only applies to Enhanced version",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 2,
+      "onPerfectParry": -18,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "2(4)2(1)1(3)1(2)1(3)1(3)1(2)1(2)2[2(4)2(2)1(3)1(2)1(4)1(1)1(14)2]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.949,
+      "blockstun": 41,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 250,
+      "damage": 80,
+      "damageText": "80x8,360 (1000)[80x7,490 (1050)]",
+      "dmgScaling": "[Combo (2 hits)]",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 1,
+      "hitstun": 51,
+      "id": "e_honda__214mp",
+      "input": {
+        "numpad": "214MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x8,5",
+        "limit": "10x9",
+        "start": "0x8,1"
+      },
+      "name": {
+        "en": "Hundred Hand Slap",
+        "ja": null
+      },
+      "notes": {
+        "en": "[] refers to enhanced Sumo Spirit version (extra damage, +2 Hit advantage, +4 Block advantage); Counter-hit/Punish Counter bonus advantage carries through all hits; only final hit is Super cancelable; puts airborne opponents into limited juggle state (Enhanced version: causes OTG bounce); combo scaling only applies to Enhanced version; combos from 5LP/2LP",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 2,
+      "onPerfectParry": -17,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 64
+    },
+    {
+      "active": "4(6)2(3)2(3)2(4)2(2)2(2)2(2)2(1)2[4(6)2(3)2(3)2(4)2(1)2(1)1(1)1(10)2]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.137,
+      "blockstun": 52,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 200,
+      "damage": 80,
+      "damageText": "80x8,160 (800)[80x9,130 (850)]",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 1,
+      "hitstun": 59,
+      "id": "e_honda__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x8,5",
+        "limit": "10x9",
+        "start": "0x8,1"
+      },
+      "name": {
+        "en": "Hundred Hand Slap",
+        "ja": null
+      },
+      "notes": {
+        "en": "[] refers to enhanced Sumo Spirit version (extra damage, +2 Hit advantage, +4 Block advantage); Counter-hit/Punish Counter bonus advantage carries through all hits; only final hit is Super cancelable; puts airborne opponents into limited juggle state (Enhanced version: causes OTG bounce)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -12,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 73
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "e_honda__22k",
+      "input": {
+        "numpad": "22K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Sumo Spirit",
+        "ja": null
+      },
+      "notes": {
+        "en": "Enhances the next Hundred Hand Slap (increases damage and improves frame advantage by +2 on hit and +4 on block); allows 5HP (all active frames), 2HP, and 22P to cancel into Hundred Hand Slap",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 1,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 51,
+      "superGauge": null,
+      "totalFrames": 52
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.422,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 22,
+      "id": "e_honda__22p",
+      "input": {
+        "numpad": "22P",
+        "official": null
+      },
+      "invuln": "1-14 Air (Head)",
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Neko Damashi",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand (allows Sumo Smash confirm on meaty/Counter-hit); has a 1-hit projectile clash hitbox during active frames; useful anti-air for horizontal approaches but cannot hit cross-up; can be spaced out for better hit/block advantage (can lead to extended combos); cancelable into enhanced 214P with Sumo Spirit; 8f hitstop when clashing with projectile",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -17,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.048,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "e_honda",
+      "chipDamage": 500,
+      "damage": 2000,
+      "damageText": null,
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "e_honda__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-11 Strike/Throw",
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Show of Force",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good range makes it useful as a 7f punish tool; KD Adv. depends on distance from the opposite wall",
+        "ja": null
+      },
+      "onBlock": -33,
+      "onHit": 13,
+      "onPerfectParry": -51,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 48,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 59
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "e_honda__236k",
+      "input": {
+        "numpad": "236K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Sumo Dash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can cancel into P or 2P follow-ups on frames 14-43; Movement Speed: 0.052",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 51,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": null,
+      "totalFrames": 51
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "e_honda__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Sumo Dash",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can cancel into P follow-up on frames 13-27, or the 2P follow-up on frames 11-27; Movement Speed: 0.067",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 34,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": null,
+      "totalFrames": 34
+    },
+    {
+      "active": "2(17)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 32,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "e_honda__236kk2p",
+      "input": {
+        "numpad": "236KK~2P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,3",
+        "limit": "0,5",
+        "start": "0,1"
+      },
+      "name": {
+        "en": "Taiho Cannon Lift",
+        "ja": null
+      },
+      "notes": {
+        "en": "Launches opponent into a limited juggle state; reduced recovery on hit only; leaves opponent closer than the meterless version with a more lenient juggle state",
+        "ja": null
+      },
+      "onBlock": -22,
+      "onHit": 64,
+      "onPerfectParry": -33,
+      "onPunishCounter": 64,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 65
+    },
+    {
+      "active": "3(13)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 39,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 39,
+      "id": "e_honda__236kkp",
+      "input": {
+        "numpad": "236KK~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "15,16",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Teppo Triple Slap 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Honda advances forward with frame advantage on hit or block for more mixups/pressure; incredibly disjointed hitbox for neutral approaches; puts airborne opponents into limited juggle state; always a true blockstring into the follow-up attack (should only be done on hit unless it will chip out)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 3,
+      "onPerfectParry": -18,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "e_honda__236kkpp",
+      "input": {
+        "numpad": "236KK~P~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "20",
+        "start": "1"
+      },
+      "name": {
+        "en": "Teppo Triple Slap 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "Easily hitconfirmable ender after a safe 236KK~P starter; ender cannot be performed on whiff; true blockstring from 236KK~P",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 54,
+      "onPerfectParry": -39,
+      "onPunishCounter": 54,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 38,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 54
+    },
+    {
+      "active": "2(17)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 32,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "e_honda__236k2p",
+      "input": {
+        "numpad": "236K~2P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,3",
+        "limit": "0,5",
+        "start": "0,3"
+      },
+      "name": {
+        "en": "Taiho Cannon Lift",
+        "ja": null
+      },
+      "notes": {
+        "en": "Launches opponent into a limited juggle state; reduced recovery on hit only",
+        "ja": null
+      },
+      "onBlock": -22,
+      "onHit": 64,
+      "onPerfectParry": -33,
+      "onPunishCounter": 64,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 65
+    },
+    {
+      "active": "3(13)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 38,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2500,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": null,
+      "id": "e_honda__236kp",
+      "input": {
+        "numpad": "236K~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "15,16",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Teppo Triple Slap 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponents into limited juggle state on hit, allowing for Super or P follow-up to juggle; incredibly disjointed hitbox for neutral approaches; safe but minus on block (recovers outside the opponent's throw range if well spaced); canceling into the final P follow-up creates a 2f frame trap that can punish opponents trying to retake their turn; sets up a safe jump anywhere on screen",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 42,
+      "onPerfectParry": -23,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "e_honda__236kpp",
+      "input": {
+        "numpad": "236K~P~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "20",
+        "start": "1"
+      },
+      "name": {
+        "en": "Teppo Triple Slap 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "Easily hitconfirmable ender after a safe 236K~P starter; can be used to frame trap opponent trying to take back their turn from the -3 situation (2f gap on block); ender cannot be performed on whiff",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 22,
+      "onPerfectParry": -39,
+      "onPunishCounter": 25,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 38,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 54
+    },
+    {
+      "active": "4(22)6",
+      "afterDriveRush": null,
+      "airborne": "7-42 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,1000 [800]",
+      "dmgScaling": "25% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "e_honda__[2]8hk",
+      "input": {
+        "numpad": "[2]8HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "10,11",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Sumo Smash",
+        "ja": null
+      },
+      "notes": {
+        "en": "[] refers to damage on cross-up version of downward smash; () refers to total startup on the overhead downward smash vs. standing opponents (2nd hit becomes active mid-air on frame 37); downward smash has 1f better KD Adv. vs. crouching opponents; 40f charge time (holds charge for 12f after releasing down direction); 1st hit whiffs on crouching opponents and cannot hit cross-up; can alter trajectory on the way up by holding forward/back",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 23,
+      "onPerfectParry": -19,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 59
+    },
+    {
+      "active": "12(13~17)9",
+      "afterDriveRush": null,
+      "airborne": "5-39(43) (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,1000 [800]",
+      "dmgScaling": "25% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "e_honda__[2]8kk",
+      "input": {
+        "numpad": "[2]8KK",
+        "official": null
+      },
+      "invuln": "5-17 Air, 5-13 Throw",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "20,21",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Sumo Smash",
+        "ja": null
+      },
+      "notes": {
+        "en": "[] refers to damage on cross-up version of downward smash; () refers to total startup on the overhead downward smash vs. standing opponents (2nd hit becomes active mid-air on frame 31); downward smash has 1f better KD Adv. vs. crouching opponents; 40f charge time (holds charge for 12f after releasing down direction); 1st hit whiffs on crouching opponents and cannot hit cross-up; can alter trajectory on the way up by holding forward/back; holding LK or MK will cause Honda to hang mid-air before starting his descent (LK 4f longer, MK 2f longer)",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 23,
+      "onPerfectParry": -19,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 56
+    },
+    {
+      "active": "4(26)8",
+      "afterDriveRush": null,
+      "airborne": "7-48 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,1000 [800]",
+      "dmgScaling": "25% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "e_honda__[2]8lk",
+      "input": {
+        "numpad": "[2]8LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "10,11",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Sumo Smash",
+        "ja": null
+      },
+      "notes": {
+        "en": "[] refers to damage on cross-up version of downward smash; () refers to total startup on the overhead downward smash vs. standing opponents (2nd hit becomes active mid-air on frame 41); downward smash has 1f better KD Adv. vs. crouching opponents; 40f charge time (holds charge for 12f after releasing down direction); 1st hit whiffs on crouching opponents and cannot hit cross-up; can alter trajectory on the way up by holding forward/back",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 23,
+      "onPerfectParry": -19,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 65
+    },
+    {
+      "active": "4(24)7",
+      "afterDriveRush": null,
+      "airborne": "7-45 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,1000 [800]",
+      "dmgScaling": "25% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "e_honda__[2]8mk",
+      "input": {
+        "numpad": "[2]8MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "10,11",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Sumo Smash",
+        "ja": null
+      },
+      "notes": {
+        "en": "[] refers to damage on cross-up version of downward smash; () refers to total startup on the overhead downward smash vs. standing opponents (2nd hit becomes active mid-air on frame 39); downward smash has 1f better KD Adv. vs. crouching opponents; 40f charge time (holds charge for 12f after releasing down direction); 1st hit whiffs on crouching opponents and cannot hit cross-up; can alter trajectory on the way up by holding forward/back",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 23,
+      "onPerfectParry": -19,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "3(6)5",
+      "afterDriveRush": {
+        "onBlock": -6,
+        "onHit": 30
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.605,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "e_honda__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "5,5",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Dohyo Sweep",
+        "ja": null
+      },
+      "notes": {
+        "en": "Has juggle potential; 2nd hit is behind E. Honda (safe on block and better KD Adv. if it connects); 2nd hit puts airborne opponents into limited juggle state (useful in some side-switch juggles)",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 30,
+      "onPerfectParry": -26,
+      "onPunishCounter": 45,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.917,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 24,
+      "id": "e_honda__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on whiff or if armor absorbed; not a low attack despite the animation; can be spaced to hit on later active frames for improved advantage; cancelable into 214P with Sumo Spirit enhancement (combos into any strength version)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -19,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 31
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.11,
+      "blockstun": 8,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "e_honda__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 2LP/2LK; cancelable into 214P with Sumo Spirit enhancement (combos into LP version only)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -9,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 15
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.23,
+      "blockstun": 12,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "e_honda__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 2LP/2LK; true blockstring when chained into 2LP; topmost hurtbox on frames 1-6 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -11,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.412",
+        "onHit": "0.402"
+      },
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 16
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.43,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 26,
+      "id": "e_honda__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Low poke that can combo after hit (much stronger combo opportunities when used out of Drive Rush); cancelable into 214P with Sumo Spirit enhancement (combos into any strength version)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 6,
+      "onPerfectParry": -18,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.37,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 13
+      },
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "e_honda__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great bufferable poke with strong hitbox priority; topmost hurtbox on frames 1-11 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -18,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "6",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.95,
+      "blockstun": 21,
+      "cancel": [
+        "kara"
+      ],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "e_honda__3hk",
+      "input": {
+        "numpad": "3HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Power Stomp",
+        "ja": null
+      },
+      "notes": {
+        "en": "Overhead with startup that can kara-cancel into specials/supers on frames 15-16 (can start buffering the cancel beginning on frame 9); Honda lifts up his front leg hurtbox on frames 4-20, making it strong vs. low pokes; slams juggled opponents down for an OTG bounce and Hard Knockdown (+59~65)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "2(2),1~21",
+      "afterDriveRush": null,
+      "airborne": "14~land (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 5.758,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "e_honda",
+      "chipDamage": 10,
+      "damage": 2850,
+      "damageText": "2850(2800)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": null,
+      "id": "e_honda__[4]646k",
+      "input": {
+        "numpad": "[4]646K",
+        "official": null
+      },
+      "invuln": "1-18 Full, 19-36 Projectile",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Ultimate Killer Head Ram",
+        "ja": null
+      },
+      "notes": {
+        "en": "40f charge (charge lasts 28f after releasing back direction); travels full screen, making it a useful anti-projectile tool; becomes projectile invincible on hit up until the fully invincible cinematic ender (ensures a full connect even against slow projectiles); first hit has very short range (slightly less damage and Drive damage from longer ranges); from frame 24 onward, Honda transitions to his 45f recovery animation if he switches sides with the opponent; if Honda whiffs entire SA2 without crossing under the opponent, landing recovery becomes 12+33 (total recovery time is unchanged); full dmg distribution: 50,500,100x14,900; detailed charge requirements: first Forward input must be within 28f of releasing charge, next Back input must be within the next 6 frames, next Forward input must be within the next 6 frames, final K input must be within the next 6 frames (slowest possible input takes 48f after releasing charge)",
+        "ja": null
+      },
+      "onBlock": -27,
+      "onHit": 13,
+      "onPerfectParry": -48,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "1~34",
+      "afterDriveRush": null,
+      "airborne": "18-30(49) (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 6.85,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 375,
+      "damage": 1500,
+      "damageText": "1500(1300)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 12500,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "e_honda__[4]6hp",
+      "input": {
+        "numpad": "[4]6HP",
+        "official": null
+      },
+      "invuln": "6-16 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "20",
+        "start": "1"
+      },
+      "name": {
+        "en": "Sumo Headbutt",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to reduced damage on active frame 5 onward; 2f extra landing recovery on block; 40f charge time (charge lasts 10f after releasing back direction); continues until it reaches opponent or edge of screen (variable Active and Total frame count); only first 4 active frames are cancelable into SA3; always -3 on block regardless of how meaty it connects, and usually in range for opponent's 4f normal to connect; extra pushback on block when opponent is in Burnout; good for chipping at opponent's Drive gauge; if Honda switches sides, he will start landing recovery (11+9 land) after 15 active frames (cannot safely fly under neutral jumps)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 40,
+      "onPerfectParry": -21,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "1~22",
+      "afterDriveRush": null,
+      "airborne": "14-33 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.861,
+      "blockstun": 17,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": "1400(1000)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 12500,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "e_honda__[4]6lp",
+      "input": {
+        "numpad": "[4]6LP",
+        "official": null
+      },
+      "invuln": "4-13 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "20",
+        "start": "1"
+      },
+      "name": {
+        "en": "Sumo Headbutt",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to reduced damage on active frame 5 onward; 1f less landing recovery on block; 40f charge time (charge lasts 10f after releasing back direction); travels ~50% screen length; only first 4 active frames are cancelable into SA3; always -3 on block regardless of how meaty it connects, and usually in range for opponent's 4f normal to connect; extra pushback on block when opponent is in Burnout; good for chipping at opponent's Drive gauge",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 40,
+      "onPerfectParry": -18,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "1~24",
+      "afterDriveRush": null,
+      "airborne": "14-35 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.877,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": "1400(1100)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 12500,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "e_honda__[4]6mp",
+      "input": {
+        "numpad": "[4]6MP",
+        "official": null
+      },
+      "invuln": "5-13 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "20",
+        "start": "1"
+      },
+      "name": {
+        "en": "Sumo Headbutt",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to reduced damage on active frame 5 onward; 2f extra landing recovery on block; 40f charge time (charge lasts 10f after releasing back direction); travels ~80% screen length; only first 4 active frames are cancelable into SA3; always -3 on block regardless of how meaty it connects, and usually in range for opponent's 4f normal to connect; extra pushback on block when opponent is in Burnout; good for chipping at opponent's Drive gauge",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 40,
+      "onPerfectParry": -21,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "5,1~30",
+      "afterDriveRush": null,
+      "airborne": "14-25(34) (FKD)",
+      "aliases": [],
+      "armor": "1-8, 9-34",
+      "attackRange": 6.793,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600,1000",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 3000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "e_honda__[4]6pp",
+      "input": {
+        "numpad": "[4]6PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,100",
+        "limit": "20,21",
+        "start": "1,100"
+      },
+      "name": {
+        "en": "Sumo Headbutt",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits if used from close range; 2nd hit continues until it reaches opponent or edge of screen (variable Active and Total frame count); 7f extra landing recovery on block; 40f charge time (charge lasts 10f after releasing back direction); 1 hit of armor before active frames, then another hit of armor that lasts until end of active frames; armor has fixed 7f hitstop that allows it to punish safe jumps using Medium/Heavy air normals (Light safe jumps can still block OD Headbutt); always -20 on block regardless of how meaty it connects; from frame 26 onward, Honda transitions to his 30f recovery animation if he switches sides with the opponent",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 36,
+      "onPerfectParry": -41,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.9,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "e_honda__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Tawara Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switch; after throwing opponent into corner, can Dash (+5) into LK/OD Oicho Throw or a ranged meaty, or use Drive Rush for strike/throw mixup (DR~2HP is +10/+4 auto-timed); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 24,
+      "onPerfectParry": null,
+      "onPunishCounter": 24,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "e_honda__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"You know what? I'm all fired up!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 205,
+      "superGauge": null,
+      "totalFrames": 205
+    },
+    {
+      "active": "2(1)4",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 3
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.554,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 17
+      },
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "e_honda__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "0,1",
+        "start": "0,1"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "1st hit forces stand (can only connect on crouchers at close range); 2nd hit whiffs vs. crouching opponents unless they extend a vertical hurtbox; if 1st hit connects on crouch block and the 2nd hit whiffs, the cancel window of the first hit is extended, making it possible to confirm into a safe special move; 1st hit puts airborne opponents into a free juggle state; 2nd hit puts airborne opponents into a limited juggle state; Counter-hit/Punish Counter advantage carries through both hits; gives Honda a meterless combo into 236K~2P launcher (weaker than 5HP starter, but required in some routes like CH 5MP/2MK or DR~2LP)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": -1,
+      "onPerfectParry": -27,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "7",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.46,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 10,
+        "onHit": 17
+      },
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "e_honda__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": "8-10 Air (Upper Body)",
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "-1 PC ground / 0 PC air"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "1st active frame only hits above Honda, and 2nd active frame only hits point blank (realistically 10f startup vs. grounded opponents in most scenarios); first 3 active frames are cancelable and a solid anti-air (cannot hit cross-up); Punish Counter causes a crumple vs. grounded opponents, or slams airborne opponents down into a free OTG juggle state (5HP must be canceled to combo afterwards); only the first 3 active frames are cancelable (with Sumo Spirit, later active frames can be canceled into 214P); final 4 active frames make 5HP a solid poke in neutral; extends a hurtbox on frame 10 (1f before longer-range active frames) that is vulnerable to projectiles; special/DR cancel is delayed until after 2nd active frame; Honda's most important meterless route into 236K~2P launcher (higher damage and identical range compared to 5HK 1st hit)",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 1,
+      "onPerfectParry": -24,
+      "onPunishCounter": 77,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.12,
+      "blockstun": 10,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "e_honda__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "4f normal with less range than 2LP, but allows a link into 5LP on hit",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -9,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.550",
+        "onHit": "0.531"
+      },
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.28,
+      "blockstun": 12,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "e_honda__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good range for a light normal; very lenient hitconfirm window into 5LP~MP Target Combo for a light normal (though the MP can whiff at max range)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -11,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 17
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": "600(480)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 48
+      },
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "e_honda__5lpmp",
+      "input": {
+        "numpad": "5LP~MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Double Slaps",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit; MP follow-up can whiff at max range; very lenient hitconfirm window from a light starter",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 34,
+      "onPerfectParry": null,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.543,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "e_honda__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "No leg hurtbox (except for back foot) on frames 7-13, making it useful vs. low pokes; cancelable into 214P with Sumo Spirit enhancement (combos into any strength version)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -18,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.687,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 13
+      },
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "e_honda__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on whiff; good poke and pressure starter due to its hitbox priority, distance traveled, and block advantage",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 6,
+      "onPerfectParry": -15,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 26
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 21,
+      "cancel": [
+        "kara"
+      ],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "e_honda__5mp3hk",
+      "input": {
+        "numpad": "5MP~3HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Toko Shizume",
+        "ja": null
+      },
+      "notes": {
+        "en": "Overhead Target Combo with a 6f gap between hits on block and 2f gap on hit (requires Drive Rush or Punish Counter to combo); 3HK startup can kara-cancel into specials/supers on frames 14-15 (can start buffering the cancel beginning on frame 9); kara-cancel into 63214K command throw also has a 7f interruptible gap; Honda lifts up his front leg hurtbox on frames 4-20; slams juggled opponents down for a Hard Knockdown (+43~46); the 3HK is cancelable into Sumo Spirit on hit by inputting 2HK (-30 vs. grounded opponents, only useful in juggles, HKD +11~14)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "[178]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "88-266",
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "e_honda__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Just bring it!\"; active frames refer to armored period",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 45,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 88,
+      "superGauge": null,
+      "totalFrames": 310
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.99,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 2400,
+      "damageText": "2400 (2760)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "e_honda__63214hk",
+      "input": {
+        "numpad": "63214HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Oicho Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot be canceled into from normals; () refers to Punish Counter damage; Range: 0.99",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 7,
+      "onPerfectParry": null,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 52,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.19,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 2800,
+      "damageText": "2800 (3220)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "e_honda__63214kk",
+      "input": {
+        "numpad": "63214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Oicho Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot be canceled into from normals; () refers to Punish Counter damage; Range: 1.19",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 7,
+      "onPerfectParry": null,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 52,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.19,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 2000,
+      "damageText": "2000 (2300)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "e_honda__63214lk",
+      "input": {
+        "numpad": "63214LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Oicho Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot be canceled into from normals; () refers to Punish Counter damage; Range: 1.19",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 7,
+      "onPerfectParry": null,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 52,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.09,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 2200,
+      "damageText": "2200 (2645)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "e_honda__63214mk",
+      "input": {
+        "numpad": "63214MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Oicho Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot be canceled into from normals; () refers to Punish Counter damage; Range: 1.09",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 7,
+      "onPerfectParry": null,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 52,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 61
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.114,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "e_honda__6hk",
+      "input": {
+        "numpad": "6HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Harai Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Ranged low poke that knocks down on Punish Counter; can be made safe due to pushback",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 1,
+      "onPerfectParry": -22,
+      "onPunishCounter": 45,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 37
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.02,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "e_honda",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "e_honda__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Raiden-Ho (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.02,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "e_honda",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "e_honda__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Raiden-Ho (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "e_honda__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"You ready to rumble, chump?\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 100,
+      "superGauge": null,
+      "totalFrames": 100
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.23,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "e_honda__8hp",
+      "input": {
+        "numpad": "8HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Neutral Jump Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be steered forward or backward in the air (forward movement is faster than backward); great air-to-air hitbox; lower body projectile invuln 10-29f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 8,
+      "onHit": 12,
+      "onPerfectParry": -5,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.539,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "e_honda",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "e_honda__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Sumo Crunch",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.64,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "e_honda__j2mk",
+      "input": {
+        "numpad": "j.2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Flying Sumo Press",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; can only be performed during forward jump; lower body projectile invuln 11-23f on center of body only (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 10,
+      "onPerfectParry": -5,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.13,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "e_honda__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Farthest downward-reaching jump-in; lower body projectile invuln 10-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -9,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.3,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "e_honda__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong horizontal jump-in hitbox; causes spike knockdown vs. airborne opponents on Counter-hit/Punish Counter; lower body projectile invuln 9-27f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -8,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.53,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "e_honda__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -7,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.31,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "e_honda__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong horizontal jump-in hitbox; can be used as a fuzzy instant overhead",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 3,
+      "onPerfectParry": -8,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.14,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "e_honda__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Decent air-to-air; lower body projectile invuln 9-20f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -7,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.38,
+      "blockstun": 11,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "e_honda__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state; lower body projectile invuln 6-22f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -8,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.9,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "e_honda__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Saba Ori",
+        "ja": null
+      },
+      "notes": {
+        "en": "No corner throw loop, but can Drive Rush and meaty with any normal 9f or faster; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 17,
+      "onPerfectParry": null,
+      "onPunishCounter": 17,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "e_honda__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "e_honda__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "e_honda",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "e_honda__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.213 (min/throw), 1.769 (min/block), 3.375 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "E.Honda",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

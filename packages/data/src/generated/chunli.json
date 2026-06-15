@@ -1,0 +1,5275 @@
+{
+  "aliases": [],
+  "id": "chunli",
+  "moves": [
+    {
+      "active": "2(24)1(7)1",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.939,
+      "blockstun": 51,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "chunli",
+      "chipDamage": 500,
+      "damage": 4000,
+      "damageText": "4000 (500x2)",
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 6500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "chunli__214214k",
+      "input": {
+        "numpad": "214214K",
+        "official": null
+      },
+      "invuln": "1-9 Full",
+      "juggle": {
+        "increase": "(1,1)",
+        "limit": "99,0,0",
+        "start": "(1,1)"
+      },
+      "name": {
+        "en": "Soten Ranka",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hits 3 times on block (true blockstring); no cinematic if 1st hit whiffs (1000 dmg total); cinematic time regenerates ~1.8 Drive bars for Chun-Li",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 6,
+      "onPerfectParry": -39,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 40,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 82
+    },
+    {
+      "active": "2(24)1(7)1",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.939,
+      "blockstun": 51,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "chunli",
+      "chipDamage": 750,
+      "damage": 4500,
+      "damageText": "4500 (500x2)",
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 9000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "chunli__214214k",
+      "input": {
+        "numpad": "214214K",
+        "official": null
+      },
+      "invuln": "1-9 Full",
+      "juggle": {
+        "increase": "(1,1)",
+        "limit": "99,0,0",
+        "start": "(1,1)"
+      },
+      "name": {
+        "en": "Soten Ranka (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hits 3 times on block (true blockstring); no cinematic if 1st hit whiffs (1000 dmg total); available at 25% HP or below; cinematic time regenerates ~2 Drive bars for Chun-Li",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 18,
+      "onPerfectParry": -39,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 40,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 82
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "6-29 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.549,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "chunli__214hk",
+      "input": {
+        "numpad": "214HK",
+        "official": null
+      },
+      "invuln": "7-26 Lower Body Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Hazanshu",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on whiff; crouching state during recovery; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 6,
+      "onPerfectParry": -19,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 32,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "6-23 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.09,
+      "blockstun": 14,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "chunli__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": "7-21 Lower Body Projectile, 22-28 Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "0 ground / 1 air"
+      },
+      "name": {
+        "en": "Hazanshu",
+        "ja": null
+      },
+      "notes": {
+        "en": "Bounces for an OTG juggle state on hit; crouching state during recovery; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 52,
+      "onPerfectParry": -17,
+      "onPunishCounter": 52,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "5-20 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.512,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 4000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 23,
+      "id": "chunli__214lk",
+      "input": {
+        "numpad": "214LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Hazanshu",
+        "ja": null
+      },
+      "notes": {
+        "en": "Crouching state during recovery; cannot hit cross-up; safe overhead vs. Burnout and can be spaced safely at max range depending on the opponent's 5-frame normal range; SA3 cancel does not combo (but still useful for chip damage or reacting to armor); gives a very short OTG bounce when juggled into for improved KD advantage (not enough for SA3 cancel to connect)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 21,
+      "onPerfectParry": -21,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "6-24 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.084,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 21,
+      "id": "chunli__214mk",
+      "input": {
+        "numpad": "214MK",
+        "official": null
+      },
+      "invuln": "7-21 Lower Body Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Hazanshu",
+        "ja": null
+      },
+      "notes": {
+        "en": "Crouching state during recovery; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -17,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 27,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "[57~]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "chunli__214p",
+      "input": {
+        "numpad": "214P",
+        "official": null
+      },
+      "invuln": "23-71 Head Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Serenity Stream",
+        "ja": null
+      },
+      "notes": {
+        "en": "Crouching state 14-22f, then low profiles until exiting stance; follow-ups can be input on frame 15 at the earliest; counter-hit state for entire animation; if no follow-up, stays crouched for 57f (hold crouch to extend); can block while crouching (cannot block overheads, as this leads to Stance Exit); blocking an attack immediately exits stance and allows a Drive Reversal; can take longer to enter stance when canceled from heavy normals, giving much worse frame advantage if a follow-up is not used immediately",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "chunli__214p214p",
+      "input": {
+        "numpad": "214P~214P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Serenity Stream Exit",
+        "ja": null
+      },
+      "notes": {
+        "en": "Input 214P again to manually exit stance (fastest total Serenity Stream time is 37f); cannot block while exiting stance; counter-hit state for entire animation; final 14f of recovery is in a standing state; 18f version occurs automatically after 14+57f (can delay by holding crouch); when Stance Exit occurs automatically after LP/LK/MK stance attacks, the total exit duration is increased and Chun can stand block before the final 18f recovery period",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.09,
+      "blockstun": 20,
+      "cancel": [
+        "jmp"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "chunli__214phk",
+      "input": {
+        "numpad": "214P~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tenku Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Jump cancelable on hit only; puts opponent into limited juggle state; exits Serenity Stream upon use; 1-6f crouching state",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 41,
+      "onPerfectParry": -27,
+      "onPunishCounter": 41,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2(6)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.677,
+      "blockstun": 26,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400,500",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 13
+      },
+      "hitstop": 4,
+      "hitstun": 31,
+      "id": "chunli__214php",
+      "input": {
+        "numpad": "214P~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Lotus Fist",
+        "ja": null
+      },
+      "notes": {
+        "en": "No charge required to cancel into Kikoken or Spinning Bird Kick; exits Serenity Stream upon use; only first hit is an overhead; 1-2f low profile, 1-5f crouching state; 29-42f no head hurtbox",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -19,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.519,
+      "blockstun": 14,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 8
+      },
+      "hitstop": 9,
+      "hitstun": 18,
+      "id": "chunli__214plk",
+      "input": {
+        "numpad": "214P~LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Forward Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "No charge required to cancel into Kikoken or Spinning Bird Kick; [] refers to recovery when exiting Serenity Stream; on Perfect Parry, Chun-Li is forced to exit the stance (5f less total recovery on PP) and is in a Punish Counter state during the entire stance exit animation; when automatically transitioning into Stance Exit, Chun-Li can block for the first 5 transition frames (except on Perfect Parry)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 0,
+      "onPerfectParry": -34,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.84,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": {
+        "onBlock": 5,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 19,
+      "id": "chunli__214plp",
+      "input": {
+        "numpad": "214P~LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Orchid Palm",
+        "ja": null
+      },
+      "notes": {
+        "en": "No charge required to cancel into Kikoken or Spinning Bird Kick; [] refers to recovery when exiting Serenity Stream; slight low profile for entire move duration; special/DR cancel is delayed until after 4th active frame; on Perfect Parry, Chun-Li is forced to exit the stance (2f less total recovery on PP) and is in a Punish Counter state during the entire stance exit animation; when automatically transitioning into Stance Exit, Chun-Li can block for the first 2 transition frames (except on Perfect Parry)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": -2,
+      "onPerfectParry": -37,
+      "onPunishCounter": 2,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.715,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 5,
+        "onHit": 11
+      },
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "chunli__214pmk",
+      "input": {
+        "numpad": "214P~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Senpu Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "No charge required to cancel into Kikoken or Spinning Bird Kick; [] refers to recovery when exiting Serenity Stream; puts airborne opponents into limited juggle state; special/DR cancel is delayed until after 4th active frame; on Perfect Parry, Chun-Li is forced to exit the stance (6f less total recovery on PP) and is in a Punish Counter state during the entire stance exit animation; when automatically transitioning into Stance Exit, Chun-Li can block for the first 6 transition frames (except on Perfect Parry)",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": -3,
+      "onPerfectParry": -43,
+      "onPunishCounter": 1,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "12",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.3,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 750,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "chunli__214pmp",
+      "input": {
+        "numpad": "214P~MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Snake Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Low profile/upper body projectile invuln: 1-31f (exit stance) / 1-36f (remain crouched); extra-low profile 8-21f (can even go under Drive Impact); [] refers to recovery when exiting Serenity Stream; () refers to KD Adv. when exiting Serenity Stream on hit; on Perfect Parry, Chun-Li is forced to exit the stance and is in a Punish Counter state during the entire stance exit animation (1f worse PP disadvantage if she holds downback); the final active frame does not move forward (can only achieve the highest frame advantage with meaty timing, not with spacing)",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 34,
+      "onPerfectParry": null,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "3(7)2(8)2(11)2",
+      "afterDriveRush": null,
+      "airborne": "8-69 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.128,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200x3,600 (1200)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "chunli__22hk",
+      "input": {
+        "numpad": "22HK",
+        "official": null
+      },
+      "invuln": "1-10 Air",
+      "juggle": {
+        "increase": "0x3,10",
+        "limit": "2x3,4",
+        "start": "1x3,10"
+      },
+      "name": {
+        "en": "Tensho Kicks",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; the final landing recovery frame is in a crouching state",
+        "ja": null
+      },
+      "onBlock": -57,
+      "onHit": 37,
+      "onPerfectParry": -71,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 81
+    },
+    {
+      "active": "3(5)3",
+      "afterDriveRush": null,
+      "airborne": "8-32 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.025,
+      "blockstun": 12,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 45,
+      "damage": 180,
+      "damageText": "180x5,500 (1400)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "chunli__22kk",
+      "input": {
+        "numpad": "22KK",
+        "official": null
+      },
+      "invuln": "1-7 Full",
+      "juggle": {
+        "increase": "0x5,10",
+        "limit": "10x6",
+        "start": "0x5,10"
+      },
+      "name": {
+        "en": "Tensho Kicks",
+        "ja": null
+      },
+      "notes": {
+        "en": "Active/Recovery frames listed are for whiff/block (follow-up attack only occurs after 2nd hit connects); cannot hit cross-up; the final landing recovery frame is in a crouching state",
+        "ja": null
+      },
+      "onBlock": -40,
+      "onHit": 30,
+      "onPerfectParry": -50,
+      "onPunishCounter": 30,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 57
+    },
+    {
+      "active": "3(9)2",
+      "afterDriveRush": null,
+      "airborne": "8-45 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.898,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 113,
+      "damage": 450,
+      "damageText": "450x2 (900)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "chunli__22lk",
+      "input": {
+        "numpad": "22LK",
+        "official": null
+      },
+      "invuln": "1-10 Air",
+      "juggle": {
+        "increase": "1,10",
+        "limit": "1,1",
+        "start": "1,10"
+      },
+      "name": {
+        "en": "Tensho Kicks",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; the final landing recovery frame is in a crouching state",
+        "ja": null
+      },
+      "onBlock": -37,
+      "onHit": 29,
+      "onPerfectParry": -51,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 57
+    },
+    {
+      "active": "3(9)2",
+      "afterDriveRush": null,
+      "airborne": "8-51 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.038,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 113,
+      "damage": 450,
+      "damageText": "450,550 (1000)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "chunli__22mk",
+      "input": {
+        "numpad": "22MK",
+        "official": null
+      },
+      "invuln": "1-10 Air",
+      "juggle": {
+        "increase": "1,10",
+        "limit": "1,2",
+        "start": "1,10"
+      },
+      "name": {
+        "en": "Tensho Kicks",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; the final landing recovery frame is in a crouching state",
+        "ja": null
+      },
+      "onBlock": -41,
+      "onHit": 25,
+      "onPerfectParry": -55,
+      "onPunishCounter": 25,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 63
+    },
+    {
+      "active": "[2(1)x3],2(2),[2(1)x3],2(11),[2(2)x6],2(23)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.588,
+      "blockstun": 76,
+      "cancel": [
+        "jmp"
+      ],
+      "category": "super_art",
+      "characterId": "chunli",
+      "chipDamage": 30,
+      "damage": 2000,
+      "damageText": "2000(1000)",
+      "dmgScaling": "40% Minimum; 40% Starter; Combo (3 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 312,
+        "dealtOnHit": 625,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "chunli__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-12 Full",
+      "juggle": {
+        "increase": "0",
+        "limit": "99",
+        "start": "0 / 1 air"
+      },
+      "name": {
+        "en": "Hoyoku-sen",
+        "ja": null
+      },
+      "notes": {
+        "en": "12f blockstring gap before final hit (8f in Burnout); 1000 damage if only the last hit connects; last hit is forward jump cancelable and puts opponent into free juggle state on grounded hit (limited juggle state if juggled into); applies 30% scaling to Super Art gain until end of combo; Full active frame distribution: 2(1)2(1)2(1)2(2)2(1)2(1)2(1)2(11)2(2)2(2)2(2)2(2)2(2)2(2)2(23)3",
+        "ja": null
+      },
+      "onBlock": -35,
+      "onHit": 29,
+      "onPerfectParry": -49,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 48,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 144
+    },
+    {
+      "active": "70",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 66,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "chunli",
+      "chipDamage": 100,
+      "damage": 300,
+      "damageText": "300x4,500 (1700)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 1000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": null,
+      "id": "chunli__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-7 Strike/Throw",
+      "juggle": {
+        "increase": "1x4,99",
+        "limit": "99x5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Kikosho",
+        "ja": null
+      },
+      "notes": {
+        "en": "5-hit Super projectile; can hit cross-up (behind Chun-Li)",
+        "ja": null
+      },
+      "onBlock": -22,
+      "onHit": 22,
+      "onPerfectParry": -35,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 46,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 122
+    },
+    {
+      "active": "2(3)2(2)2(4)2(6)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.88,
+      "blockstun": 37,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200x5 (1000)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 800,
+        "dealtOnHit": 5000,
+        "gain": 400
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "chunli__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x4,1",
+        "limit": "1x5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Hundred Lightning Kicks",
+        "ja": null
+      },
+      "notes": {
+        "en": "5 hits; puts opponents into limited juggle state; can juggle into 22K in the corner or SA1/SA3 anywhere (optimal for SA3 damage, skipping the additional damage scaling when canceled); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 50,
+      "onPerfectParry": -15,
+      "onPunishCounter": 50,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": 80,
+        "onHit": 160
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "2(4)2(4)2(4)2(4)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.635,
+      "blockstun": 44,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200x5 (1000)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 800,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": 50,
+      "id": "chunli__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x4,1",
+        "limit": "1x5",
+        "start": "0x4,1[-1 PC Ground] / [0 PC Air]"
+      },
+      "name": {
+        "en": "Hundred Lightning Kicks",
+        "ja": null
+      },
+      "notes": {
+        "en": "5 hits; can follow-up with KK on hit/block for no extra Drive cost; Counter-hit bonus advantage carries over through all hits; cannot hit cross-up; Punish Counter crumple state gives 11 frames to link a grounded hit, then an additional 23 frames to land a juggle before the opponent is knocked down; airborne Punish Counter puts the opponent into a spinning free juggle state",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -20,
+      "onPunishCounter": 73,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 80,
+        "onHit": 160
+      },
+      "totalFrames": 54
+    },
+    {
+      "active": "2(5)2(4)2(5)2(13)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 50,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 25,
+      "damage": 700,
+      "damageText": "700(560)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": null,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "chunli__236kkkk",
+      "input": {
+        "numpad": "236KK~KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x4,10",
+        "limit": "2x5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Lightning Kick Barrage",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage from 236KK combo starter; 10 hits total; does not cost additional Drive meter; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -13,
+      "onHit": 29,
+      "onPerfectParry": null,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 100
+      },
+      "totalFrames": 73
+    },
+    {
+      "active": "2(5)2(5)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.485,
+      "blockstun": 28,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 62,
+      "damage": 250,
+      "damageText": "250x2,300 (800)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 5000,
+        "gain": 666
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": 39,
+      "id": "chunli__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,1",
+        "limit": "1x3",
+        "start": "0,0,1 air"
+      },
+      "name": {
+        "en": "Hundred Lightning Kicks",
+        "ja": null
+      },
+      "notes": {
+        "en": "3 hits; Counter-hit bonus advantage carries through all hits; Punish Counter knockdown puts opponent into a free juggle state (can air reset with a 4f normal in the corner); useful as a 5f punish starter (similar to a shoto 5LK in terms of range); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 3,
+      "onPerfectParry": -20,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "2(4)2(4)2(5)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.69,
+      "blockstun": 35,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 56,
+      "damage": 225,
+      "damageText": "225x4 (900)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 5000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": 46,
+      "id": "chunli__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x3,1",
+        "limit": "1x4",
+        "start": "0x3,1 air"
+      },
+      "name": {
+        "en": "Hundred Lightning Kicks",
+        "ja": null
+      },
+      "notes": {
+        "en": "4 hits; counter-hit/Punish Counter bonus advantage carries over through all hits; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 54
+    },
+    {
+      "active": "2(4)2(8)2(6)2(5)2(5)2(3)2",
+      "afterDriveRush": null,
+      "airborne": "18-72 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.725,
+      "blockstun": 57,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 45,
+      "damage": 180,
+      "damageText": "180x6,320 (1400)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 600,
+        "dealtOnHit": 5000,
+        "gain": 285
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "chunli__[2]8hk",
+      "input": {
+        "numpad": "[2]8HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x6,1",
+        "limit": "1x7",
+        "start": "0x7"
+      },
+      "name": {
+        "en": "Spinning Bird Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "30f charge time (charge lasts 12f after releasing down direction); no charge required if canceled from Stance normals; combos from 2HP, 4HP, 2MP, 5MK, Stance HP, and Stance MK; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -18,
+      "onHit": 33,
+      "onPerfectParry": -35,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 75,
+        "onHit": 150
+      },
+      "totalFrames": 94
+    },
+    {
+      "active": "2(4)2(4)2(5)2(4)2(5)2(4)2",
+      "afterDriveRush": null,
+      "airborne": "14-63 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.51,
+      "blockstun": 51,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 25,
+      "damage": 100,
+      "damageText": "100x6,200 (800)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 600,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "chunli__[2]8kk",
+      "input": {
+        "numpad": "[2]8KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x6,1",
+        "limit": "5x7",
+        "start": "1 ground / 0x6,1 air"
+      },
+      "name": {
+        "en": "Spinning Bird Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "30f charge time (charge lasts 12f after releasing down direction); no charge required if canceled from Stance normals; puts opponent into limited juggle state (juggle follow-up only possible vs. grounded opponents); combos from medium normals; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 55,
+      "onPerfectParry": -28,
+      "onPunishCounter": 55,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 75,
+        "onHit": 150
+      },
+      "totalFrames": 78
+    },
+    {
+      "active": "2(6)2(6)2",
+      "afterDriveRush": null,
+      "airborne": "8-32 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.166,
+      "blockstun": 30,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 84,
+      "damage": 333,
+      "damageText": "333x2,334 (1000)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 5000,
+        "gain": 666
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "chunli__[2]8lk",
+      "input": {
+        "numpad": "[2]8LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,1",
+        "limit": "1x3",
+        "start": "0x3"
+      },
+      "name": {
+        "en": "Spinning Bird Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "30f charge time (charge lasts 12f after releasing down direction); no charge required if canceled from Stance normals; combos from light normals; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -18,
+      "onHit": 33,
+      "onPerfectParry": -30,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 6,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 56
+    },
+    {
+      "active": "2(6)2(6)2(7)2(4)2",
+      "afterDriveRush": null,
+      "airborne": "15-56 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.275,
+      "blockstun": 45,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200x4,400 (1200)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 800,
+        "dealtOnHit": 5000,
+        "gain": 400
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "chunli__[2]8mk",
+      "input": {
+        "numpad": "[2]8MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x4,1",
+        "limit": "1x5",
+        "start": "0x5"
+      },
+      "name": {
+        "en": "Spinning Bird Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "30f charge time (charge lasts 12f after releasing down direction); no charge required if canceled from Stance normals; combos from medium normals; cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -17,
+      "onHit": 34,
+      "onPerfectParry": -28,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 120,
+        "onHit": 240
+      },
+      "totalFrames": 77
+    },
+    {
+      "active": "6",
+      "afterDriveRush": {
+        "onBlock": -5,
+        "onHit": 40
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.715,
+      "blockstun": 18,
+      "cancel": [
+        "ss"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "chunli__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gen Assassin Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on block; more active frames than most sweeps (can be as safe as -4 with meaty timing); puts airborne opponents into limited juggle state (can juggle after late anti-air 2HK); Stance Cancel: KD/-11 into follow-up, KD/-21 into blocking",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 40,
+      "onPerfectParry": -25,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "3(5)5",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.537,
+      "blockstun": 28,
+      "cancel": [
+        "ss",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 450,
+      "damageText": "450x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 10,
+        "onHit": 14
+      },
+      "hitstop": 5,
+      "hitstun": 32,
+      "id": "chunli__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0",
+        "limit": "0,1",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits (only 2nd is cancelable); forces stand on hit; solid anti-air on frames 12-13 and 21-23 (cannot hit cross-up); 1st hit puts airborne opponent into limited juggle state (2nd hit causes air reset, but can whiff for a knockdown); counter-hit/Punish Counter bonus advantage applies to both hits; Stance Cancel: +8/+4 into follow-up, -6/-10 into blocking",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -21,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": 10,
+      "cancel": [
+        "ss",
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 2
+      },
+      "hitstop": 9,
+      "hitstun": 12,
+      "id": "chunli__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; fully cancelable (rare for a 2LK); Stance Cancel: -3/-4",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 0,
+      "onPerfectParry": -10,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": {
+        "onBlock": "0.330",
+        "onHit": "0.325"
+      },
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 15
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.91,
+      "blockstun": 8,
+      "cancel": [
+        "ss",
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -2,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "chunli__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; Stance Cancel: -1/-6",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -8,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.338",
+        "onHit": "0.321"
+      },
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 13
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 2
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.477,
+      "blockstun": 16,
+      "cancel": [
+        "ss",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 8
+      },
+      "hitstop": 9,
+      "hitstun": 20,
+      "id": "chunli__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good range for a cancelable low poke; Stance Cancel: +5/+2; Range: 1.477; DR cancel is delayed until after active frames",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": -2,
+      "onPerfectParry": -20,
+      "onPunishCounter": 2,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.1,
+      "blockstun": 15,
+      "cancel": [
+        "ss",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 5,
+        "onHit": 11
+      },
+      "hitstop": 11,
+      "hitstun": 21,
+      "id": "chunli__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "1f extra recovery on whiff; decent range and hitbox disjoint for a poke; Stance Cancel: +6/+1; topmost hurtbox on frames 1-9 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -15,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 22
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 7,
+        "onHit": 11
+      },
+      "airborne": "7-39 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 22,
+      "id": "chunli__3hk",
+      "input": {
+        "numpad": "3HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Falling Crane",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side-switching overhead; can only hit cross-up (does not work on fully cornered opponents); puts airborne opponents into limited juggle state; 1f better hit advantage vs. most crouching characters; has extremely long range when performed out of Drive Rush",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 7,
+      "onPerfectParry": -13,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 37,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 51
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.4,
+      "blockstun": 15,
+      "cancel": [
+        "ss"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 20,
+      "id": "chunli__3hp",
+      "input": {
+        "numpad": "3HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Water Lotus Fist",
+        "ja": null
+      },
+      "notes": {
+        "en": "Stance Cancel: +3/-2 into follow-up, -5/-10 into blocking; 1-8f crouching state; does not allow a follow-up link (except for Punish Counter 3HP into Stance LP); puts airborne opponent into limited juggle state (e.g. after Wallsplat)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -16,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "[25]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 31,
+      "id": "chunli__[4]6hp",
+      "input": {
+        "numpad": "[4]6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Kikoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "50f charge (charge lasts 10f after releasing back direction); no charge required if canceled from Stance normals; travels ~60% screen; Super cancel timing is very strict",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": -2,
+      "onPerfectParry": -22,
+      "onPunishCounter": 2,
+      "projectileSpeed": 0.07,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "[90]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 26,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 30,
+      "id": "chunli__[4]6lp",
+      "input": {
+        "numpad": "[4]6LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Kikoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "50f charge (charge lasts 10f after releasing back direction); no charge required if canceled from Stance normals; travels ~90% screen; Super cancel timing is very strict",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": -3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 1,
+      "projectileSpeed": 0.037,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "[55]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 31,
+      "id": "chunli__[4]6mp",
+      "input": {
+        "numpad": "[4]6MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Kikoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "50f charge (charge lasts 10f after releasing back direction); no charge required if canceled from Stance normals; travels ~80% screen; Super cancel timing is very strict",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": -3,
+      "onPerfectParry": -23,
+      "onPunishCounter": 1,
+      "projectileSpeed": 0.05,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 29,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 34,
+      "id": "chunli__[4]6pp",
+      "input": {
+        "numpad": "[4]6PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,2",
+        "limit": "0,6",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Kikoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "45f charge (charge lasts 10f after releasing back direction); no charge required if canceled from Stance normals; 2-hit projectile; counter-hit/Punish Counter bonus advantage applies after both hits; 2nd hit with higher juggle limit only comes out if 1st hit connects",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 5,
+      "onPerfectParry": -7,
+      "onPunishCounter": 9,
+      "projectileSpeed": 0.095,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "6",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.97,
+      "blockstun": 19,
+      "cancel": [
+        "ss",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 9,
+        "onHit": 15
+      },
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "chunli__4hp",
+      "input": {
+        "numpad": "4HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Hakkei",
+        "ja": null
+      },
+      "notes": {
+        "en": "Short range combo and frame trap tool; high active frame count makes it amazing as a meaty option; Stance Cancel: +9/+3 into follow-up, -5/-11 into blocking",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -18,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "chunli__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Taiji Fan",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switches; in the corner, does not allow true strike/throw oki without Drive Rush; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 13,
+      "onPerfectParry": null,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "chunli__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Yawn... are you ready yet?\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 401,
+      "superGauge": null,
+      "totalFrames": 401
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 4,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.841,
+      "blockstun": 21,
+      "cancel": [
+        "ss"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "chunli__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1 air[0 PC Air]"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit crouching opponents; slow but rewarding mid-range anti-air (leg/head are invulnerable to airborne strikes 14-16f); cannot hit cross-up; puts airborne opponents into limited juggle state; Stance Cancel: +10/+6 into follow-up, -3/-7 into blocking",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 4,
+      "onPerfectParry": -19,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.756,
+      "blockstun": 20,
+      "cancel": [
+        "ss"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 8000,
+        "gain": 4000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "chunli__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great long-ranged poke and whiff punish tool; cancelable into Stance and can input follow-ups after 16f; combos naturally to Stance LP if close enough, or stance MK/HK on Punish Counter; Stance Cancel: +6/+1 into follow-up, -4/-9 into blocking",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -21,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.13,
+      "blockstun": 11,
+      "cancel": [
+        "ss",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "chunli__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Stance Cancel: 0/-3; DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -11,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 17
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.05,
+      "blockstun": 7,
+      "cancel": [
+        "ss",
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -3,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "chunli__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; combos naturally to 5MP; Stance Cancel: -1/-8; special/DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 5,
+      "onPerfectParry": -8,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.343",
+        "onHit": "0.320"
+      },
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 13
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.73,
+      "blockstun": 18,
+      "cancel": [
+        "ss",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 14
+      },
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "chunli__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit crouching opponents; good anti-air (cannot hit cross-up); Stance Cancel: +9/+4",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -18,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 26
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.803,
+      "blockstun": 15,
+      "cancel": [
+        "ss",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "hitstop": 11,
+      "hitstun": 20,
+      "id": "chunli__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good combo/frame trap starter; Stance Cancel: +3/-1; special/DR cancel is delayed until after 3rd active frame",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 6,
+      "onPerfectParry": -12,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.79,
+      "blockstun": 7,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 600,
+        "dealtOnHit": 5000,
+        "gain": 300
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "chunli__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Sorry!\"; Punish Counter crumple is the only way to keep it safe, but does not allow follow-up combo",
+        "ja": null
+      },
+      "onBlock": -65,
+      "onHit": -58,
+      "onPerfectParry": -70,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 70,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 35,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 106
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 3
+      },
+      "airborne": "8-28 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.897,
+      "blockstun": 21,
+      "cancel": [
+        "ss"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 24,
+      "id": "chunli__6hk",
+      "input": {
+        "numpad": "6HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "1",
+        "start": "0 air[-1 PC Ground]"
+      },
+      "name": {
+        "en": "Yokusen Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Punish Counter crumple state can lead to Stance HK launch or Stance LP grounded combo; causes spinning free juggle state on Punish Counter vs. airborne opponents; great hitbox priority; Stance Cancel: +2/-1 into follow-up, -6/-9 into blocking; extends a lower-body hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": -1,
+      "onPerfectParry": -23,
+      "onPunishCounter": 72,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3(10)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break (1st hit)",
+      "attackRange": 2.07,
+      "blockstun": 36,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "chunli",
+      "chipDamage": 65,
+      "damage": 250,
+      "damageText": "250x2 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "chunli__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "1,200"
+      },
+      "name": {
+        "en": "Hoyoku Kick (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; performed by inputting 6HPHK during blockstun; 7f extra recovery on hit; freezes the screen for 4f during startup; if 1st hit is Perfect Parried, opponent can interrupt with a move 11f or faster; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 61
+    },
+    {
+      "active": "3(10)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break (1st hit)",
+      "attackRange": 2.07,
+      "blockstun": 36,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "chunli",
+      "chipDamage": 65,
+      "damage": 250,
+      "damageText": "250x2 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "chunli__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "1,200"
+      },
+      "name": {
+        "en": "Hoyoku Kick (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; performed by inputting 6HPHK on wakeup; 7f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); if 1st hit is Perfect Parried, opponent can interrupt with a move 11f or faster; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 59
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.397,
+      "blockstun": 15,
+      "cancel": [
+        "ss",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "hitstop": 11,
+      "hitstun": 20,
+      "id": "chunli__4/6mp",
+      "input": {
+        "numpad": "4/6MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Swift Thrust",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great poke and neutral buffer tool with a disjointed hitbox and lenient hitconfirm window; Stance Cancel: +5/+1; DR cancel is delayed until after active frames",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -16,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "chunli__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Welcome!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 273,
+      "superGauge": null,
+      "totalFrames": 273
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.96,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 20,
+      "id": "chunli__8hk",
+      "input": {
+        "numpad": "8HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Neutral Jump Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Hits on both sides, preventing the opponent from walking under for a punish; useful air-to-air; lower body projectile invuln 8-19f and 8-25f on kicking legs (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 11,
+      "onPerfectParry": -7,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.506,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "chunli",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "chunli__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Hosen Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "50",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 72,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "chunli",
+      "chipDamage": 100,
+      "damage": 300,
+      "damageText": "300x4,800 (2000)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 1000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": null,
+      "id": "chunli__j236236p",
+      "input": {
+        "numpad": "j.236236P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1x4,99",
+        "limit": "99x5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Aerial Kikosho",
+        "ja": null
+      },
+      "notes": {
+        "en": "5-hit Super projectile; can hit cross-up (behind Chun-Li); higher activation height causes longer recovery before reaching the ground",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 14,
+      "onPerfectParry": -37,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 103
+    },
+    {
+      "active": "2(4)2(3)2(4)2(3)2",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 55,
+      "damage": 220,
+      "damageText": "220x5 (1100)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 5000,
+        "gain": 400
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": 24,
+      "id": "chunli__j236hk",
+      "input": {
+        "numpad": "j.236HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1x5",
+        "limit": "10x4,11",
+        "start": "0 air"
+      },
+      "name": {
+        "en": "Aerial Hundred Lightning Kicks",
+        "ja": null
+      },
+      "notes": {
+        "en": "5 hits; Forward/Neutral Jump only; 3f extra landing recovery on whiff; cannot hit crouching; final 5f landing recovery is in crouching state; very strict timing required to hit standing opponent (can hit twice vs. tall characters)",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": -5,
+      "onPerfectParry": -29,
+      "onPunishCounter": -1,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 80,
+        "onHit": 160
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2(4)2(2)2(3)2(2)2(3)2",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 54,
+      "damage": 250,
+      "damageText": "250x5,350 (1600)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 666,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 1,
+      "hitstun": null,
+      "id": "chunli__j236kk",
+      "input": {
+        "numpad": "j.236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1x6",
+        "limit": "10x5,11",
+        "start": "1 ground / 0x5,1 air"
+      },
+      "name": {
+        "en": "Aerial Hundred Lightning Kicks",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra landing recovery on block/whiff; 6 hits; Forward/Neutral Jump only; cannot hit crouching; no minimum height requirement; better KD Adv. when used in air juggles; entire landing recovery is in crouching state; puts opponent into a limited juggle state (can follow up with grounded juggle after some air connects); safe vs. stand block when input at earliest timing (Tiger Knee motion)",
+        "ja": null
+      },
+      "onBlock": -26,
+      "onHit": 47,
+      "onPerfectParry": -40,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 100
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2(4)2(4)2",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x3 (900)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 5000,
+        "gain": 666
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": 20,
+      "id": "chunli__j236lk",
+      "input": {
+        "numpad": "j.236LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1x3",
+        "limit": "10,10,11",
+        "start": "0 air"
+      },
+      "name": {
+        "en": "Aerial Hundred Lightning Kicks",
+        "ja": null
+      },
+      "notes": {
+        "en": "3 hits; Forward/Neutral Jump only; 3f extra landing recovery on whiff; cannot hit crouching; final 5f landing recovery is in crouching state",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": -4,
+      "onPerfectParry": -24,
+      "onPunishCounter": 0,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2(4)2(4)2(5)2",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": 62,
+      "damage": 250,
+      "damageText": "250x4 (1000)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 5000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": 22,
+      "id": "chunli__j236mk",
+      "input": {
+        "numpad": "j.236MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1x4",
+        "limit": "10x3,11",
+        "start": "0 air"
+      },
+      "name": {
+        "en": "Aerial Hundred Lightning Kicks",
+        "ja": null
+      },
+      "notes": {
+        "en": "4 hits; Forward/Neutral Jump only; 3f extra landing recovery on whiff; cannot hit crouching; final 5f landing recovery is in crouching state",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": -4,
+      "onPerfectParry": -25,
+      "onPunishCounter": 0,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "11",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD after bounce)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.25,
+      "blockstun": 10,
+      "cancel": [
+        "target_combo",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "15% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "chunli__j2mk",
+      "input": {
+        "numpad": "j.2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoso Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Not an overhead, but can hit immediately on the way up to bait throw techs; cancelable into itself on hit/block (up to 3 total uses) or into other air moves; puts airborne opponents into limited juggle state; can hit cross-up (bounces away from wall if opponent is fully cornered); lower body projectile invuln 3f~land (if used immediately on the way up and whiffs, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": -26,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "11",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD after bounce)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 10,
+      "cancel": [
+        "target_combo",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "chunli__j2mkj2mk",
+      "input": {
+        "numpad": "j.2MK~j.2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoso Kick 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cancelable into itself on hit/block (up to 3 total uses) or into other air moves; puts airborne opponents into limited juggle state; can hit cross-up (bounces away from wall if opponent is fully cornered)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "11",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD after bounce)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "chunli__j2mkj2mkj2mk",
+      "input": {
+        "numpad": "j.2MK~j.2MK~j.2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Yoso Kick 3",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cancelable into other air moves on hit/block but cannot chain into any further Yoso Kicks; causes spike knockdown vs. airborne opponents; can hit cross-up (bounces away from wall if opponent is fully cornered)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.73,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 20,
+      "id": "chunli__7hkor9hk",
+      "input": {
+        "numpad": "7HK or 9HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be used as a fuzzy instant overhead vs. JP/Marisa/Zangief (opponent must be in Burnout for true blockstring); lower body projectile invuln 8-19f and 8-25f on kicking leg (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 8,
+      "onPerfectParry": -10,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.04,
+      "blockstun": 15,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": "800(500)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 20,
+      "id": "chunli__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state (300 less damage vs. airborne); cancelable into j.HP~j.HP even on whiff; lower body projectile invuln 9-23f (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 7,
+      "onHit": 12,
+      "onPerfectParry": -6,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 24,
+      "id": "chunli__jhpjhp",
+      "input": {
+        "numpad": "j.HP~j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "20",
+        "start": "1"
+      },
+      "name": {
+        "en": "Soaring Eagle Punches",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be performed on whiff; puts airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.62,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "chunli__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fast upward-angled air-to-air",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 7,
+      "onPerfectParry": -4,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "chunli__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fast downward-angled air-to-air; can be used as a fuzzy instant overhead vs. Dee Jay/JP/Marisa/Zangief",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 4,
+      "onPerfectParry": -7,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.79,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "chunli__jlplk",
+      "input": {
+        "numpad": "j.LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Ryuseiraku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Throw height doesn't affect KD advantage, but higher connect will throw opponent farther; no throw oki but can use a ranged meaty strike against cornered opponent",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 10,
+      "onPerfectParry": null,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.02,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "chunli__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; lower body projectile invuln 6-20f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 7,
+      "onPerfectParry": -8,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4(6)5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": 13,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": "300x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 15,
+      "id": "chunli__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,3",
+        "limit": "1,2",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits, can only connect once vs. grounded opponents; both hits put airborne opponents into limited juggle state; cancels to Air Lightning Legs or Air SA1 from either hit; lower body projectile invuln 7-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -7,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "chunli__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Koshuto",
+        "ja": null
+      },
+      "notes": {
+        "en": "Has large pushback during throw animation, preventing corner throw loops (with frame-perfect timing, can throw loop vs. Blanka, E. Honda, and Zangief); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 11,
+      "onPerfectParry": null,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "chunli__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "chunli__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "chunli__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 1.044 (min/throw), 2.222 (min/block), 3.163 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "chunli",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "chunli__9(againstwall)",
+      "input": {
+        "numpad": "9 (against wall)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Wall Jump",
+        "ja": null
+      },
+      "notes": {
+        "en": "Counter-hit state during entire duration; can be done from Back or Neutral jump if fully against the wall, or after Forward Jump against a cornered opponent",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": null
+    }
+  ],
+  "name": {
+    "en": "Chun-Li",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

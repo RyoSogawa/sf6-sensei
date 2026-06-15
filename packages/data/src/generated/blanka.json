@@ -1,0 +1,5489 @@
+{
+  "aliases": [],
+  "id": "blanka",
+  "moves": [
+    {
+      "active": "[1500 total]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Lightning Beast",
+        "ja": null
+      },
+      "notes": {
+        "en": "Improves properties/damage special moves (except 236K) and SA1; gains access to Rolling Cannon after ball-type specials ([4]6P, j.[4]6P, [2]8K, 63214K); all ball-type specials gain electricity to activate Blanka-Chan bomb; while active, Blanka no longer requires charge when canceling into charge specials; using any ball-type special depletes install time by 100f (6.7%), and Rolling Cannon depletes timer by 200f (13.3%)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": -20000
+      },
+      "totalFrames": 10
+    },
+    {
+      "active": "2(3)2(3)2~",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.07,
+      "blockstun": 13,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800 [900]",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 18,
+      "hitstun": null,
+      "id": "blanka__214p",
+      "input": {
+        "numpad": "214P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Electric Thunder",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox; 2f extra recovery on whiff; can hold button to extend active frame duration on whiff only (later hits have shorter range); activates Blanka-chan doll with electricity (meterless 1-hit version); [] refers to SA2 install version with slightly more damage",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 39,
+      "onPerfectParry": -14,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "2(3)2(3)2~",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.15,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,600 [500,600]",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "blanka__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3/0",
+        "limit": "1/10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Electric Thunder",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox with forward movement during startup; 2f extra recovery on whiff; on block, connects only once for good frame advantage (recovers slightly out of throw range); on hit, transitions to a follow-up attack that puts opponent into limited juggle state (also extends hitconfirm window); can hold button to extend active frame duration on whiff only (later hits have shorter range); activates Blanka-chan doll with electricity (3-hit OD version); [] refers to SA2 install version with slightly more damage; SA2 cancel: KD +54(+60)/+9",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 40,
+      "onPerfectParry": -14,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "[1000]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__22p",
+      "input": {
+        "numpad": "22P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Blanka-chan Bomb",
+        "ja": null
+      },
+      "notes": {
+        "en": "Doll is consumed on frame 25, and spawns on frame 39 (if Blanka is hit between frames 25-38, loses the doll completely); after spawning, takes 35f to reach the ground and become active; doll despawns after 1000f or if completely off-screen; Blanka is in a counter-hit state for entire move duration; starts each round with 3 dolls (only 1 can be active at a time); Back Taunt is the only way to restore dolls mid-round; button strength determines throw distance (LP close, MP mid, HP far); doll can be activated with any source of electricity, with different effects depending on meterless/OD/SA1 electricity type (SA2 install specials count as meterless or OD moves for this purpose); once activated, doll is considered a projectile; doll disappears if Blanka is hit after activating (does not apply to un-activated doll)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 39,
+      "superGauge": null,
+      "totalFrames": 50
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 30,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 3000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__22p214p",
+      "input": {
+        "numpad": "22P~214P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "99",
+        "start": "0"
+      },
+      "name": {
+        "en": "Blanka-chan Bomb (Charge)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Activated by meterless electricity source (214P or SA2 meterless ball special); puts opponent into free juggle state or maintains existing juggle state; doll disappears if Blanka is hit at any time after electricity activation; startup refers to time in between electricity activation and attack hitbox appearing",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": 0.04,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 36,
+      "superGauge": {
+        "onBlock": 575,
+        "onHit": 1150
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 30,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x3",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 5000,
+        "gain": 800
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__22p214pp",
+      "input": {
+        "numpad": "22P~214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "99",
+        "start": "0"
+      },
+      "name": {
+        "en": "Blanka-chan Bomb (OD Charge)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Activated by OD electricity source (214PP or SA2 install OD ball special); puts opponent into free juggle state or maintains existing juggle state; bounces 3 times before running toward opponent; bounces away on block (can connect twice at some spacings); doll can change directions if opponent switches sides before the final bounce ends; doll disappears if Blanka is hit at any time after electricity activation; startup refers to time in between electricity activation and attack hitbox appearing; allows a combo after Forward Throw with specific timing (follow-up juggle will be scaled to 50% when accounting for all damage scaling)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": 0.012,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 36,
+      "superGauge": {
+        "onBlock": 225,
+        "onHit": 450
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 52,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200x5",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 1000,
+        "gain": 200
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__22p236236p",
+      "input": {
+        "numpad": "22P~236236P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0/99",
+        "limit": "99",
+        "start": "0"
+      },
+      "name": {
+        "en": "Blanka-chan Bomb (SA1 Charge)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Activated by SA1 electricity; puts opponent into free juggle state or maintains existing juggle state; shoots straight forward and connects 5 times; doll disappears if Blanka is hit at any time after electricity activation; startup refers to time in between electricity activation and attack hitbox appearing",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": 0.1,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "2-12",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.7,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "blanka",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "blanka__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-12 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Ground Shave Cannonball",
+        "ja": null
+      },
+      "notes": {
+        "en": "Reaches ~60% screen length; cannot hit cross-up; cinematic time regenerates ~1.8 Drive bars for Blanka",
+        "ja": null
+      },
+      "onBlock": -46,
+      "onHit": 50,
+      "onPerfectParry": -62,
+      "onPunishCounter": 50,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 61,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 73
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "2-12",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.66,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "blanka",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "blanka__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-12 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Ground Shave Cannonball (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Reaches ~60% screen length (slightly less range than standard SA3); cannot hit cross-up; available at 25% HP or below; cinematic time regenerates ~2.3 Drive bars for Blanka",
+        "ja": null
+      },
+      "onBlock": -46,
+      "onHit": 14,
+      "onPerfectParry": -62,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 61,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 73
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 42,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "blanka",
+      "chipDamage": 500,
+      "damage": 2000,
+      "damageText": "2000 [2200]",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-9 Strike/Throw",
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shout of Earth",
+        "ja": null
+      },
+      "notes": {
+        "en": "Projectile hitbox that hits on both sides of Blanka; hitbox is low to the ground (opponent can safely empty jump safely vs. anti-air SA1); [] refers to SA2 install; during install, range is extended to full screen and deals 200 extra damage; significantly better KD Advantage when juggled into; activates Blanka-chan doll on contact (rapidly shoots forward for 5 hits); Blanka-chan doll activation makes it safe on block (minimum +8 oB)",
+        "ja": null
+      },
+      "onBlock": -29,
+      "onHit": 15,
+      "onPerfectParry": -60,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 62,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 78
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "19-36 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.24,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 1800,
+      "damageText": "1800 (2070)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__236hk",
+      "input": {
+        "numpad": "236HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Wild Hunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "Slow hopping command grab; Range: 4.24 (longest)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 35,
+      "onPerfectParry": null,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 57,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 43,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 102
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "9-28 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.58,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 2000,
+      "damageText": "2000 (2300)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Wild Hunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "Slow hopping command grab; hurtbox is pulled much higher up than meterless versions, making it better at avoiding attacks; can hold forward/back to control distance (forward momentum is faster than backwards momentum); can be comboed into on grounded or airborne opponents (allows Blanka-chan setups with its high KD Advantage); Range: 2.68~3.58",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 64,
+      "onPerfectParry": null,
+      "onPunishCounter": 64,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 57,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 32,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 91
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "9-26 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.49,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 1600,
+      "damageText": "1600 (1840)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__236lk",
+      "input": {
+        "numpad": "236LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Wild Hunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "Slow hopping command grab; Range: 2.49 (shortest)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 35,
+      "onPerfectParry": null,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 57,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 34,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 93
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "14-33 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.41,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 1700,
+      "damageText": "1700 (1955)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__236mk",
+      "input": {
+        "numpad": "236MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Wild Hunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "Slow hopping command grab; Range: 3.41 (mid-range)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 35,
+      "onPerfectParry": null,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 57,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 39,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 98
+    },
+    {
+      "active": "19",
+      "afterDriveRush": null,
+      "airborne": "6-57 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.5,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "blanka__[2]8hk",
+      "input": {
+        "numpad": "[2]8HK",
+        "official": null
+      },
+      "invuln": "8-26 Air",
+      "juggle": {
+        "increase": "3",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Vertical Rolling Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "Trajectory: straight vertical; 40f charge time (charge lasts 12f after releasing down direction); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -27,
+      "onHit": 42,
+      "onPerfectParry": -43,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 74
+    },
+    {
+      "active": "19",
+      "afterDriveRush": null,
+      "airborne": "6-57 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.5,
+      "blockstun": 18,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 375,
+      "damage": 1500,
+      "damageText": null,
+      "dmgScaling": "10% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "blanka__[2]8hk",
+      "input": {
+        "numpad": "[2]8HK",
+        "official": null
+      },
+      "invuln": "8-26 Air",
+      "juggle": {
+        "increase": "3",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Vertical Rolling Attack (SA2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "SA2 install version (drains 100f/6.7% from install timer); trajectory: straight vertical; 40f charge time (charge lasts 12f after releasing down direction); no charge required if canceled into; cannot hit cross-up; activates Blanka-chan doll with electricity (meterless 1-hit version); if opponent crouch blocks, cannot create a true blockstring into Rolling Cannon; difficult to land a grounded punish on block due to only 1f landing recovery (juggle punishes are more consistent); safer on block and bounces farther away then regular version",
+        "ja": null
+      },
+      "onBlock": -19,
+      "onHit": 42,
+      "onPerfectParry": -35,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 74
+    },
+    {
+      "active": "8(2)6",
+      "afterDriveRush": null,
+      "airborne": "4-53 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 14,
+      "hitstun": null,
+      "id": "blanka__[2]8kk",
+      "input": {
+        "numpad": "[2]8KK",
+        "official": null
+      },
+      "invuln": "1-10 Full",
+      "juggle": {
+        "increase": "1/10",
+        "limit": "6/8",
+        "start": "1"
+      },
+      "name": {
+        "en": "Vertical Rolling Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "Trajectory: up and slightly forward (less horizontal distance than MK version); 40f charge time (charge lasts 12f after releasing down direction); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -40,
+      "onHit": 28,
+      "onPerfectParry": -56,
+      "onPunishCounter": 28,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 70
+    },
+    {
+      "active": "8(2)6",
+      "afterDriveRush": null,
+      "airborne": "4-53 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": 18,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": "900,850",
+      "dmgScaling": "40% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 14,
+      "hitstun": null,
+      "id": "blanka__[2]8kk",
+      "input": {
+        "numpad": "[2]8KK",
+        "official": null
+      },
+      "invuln": "1-10 Full",
+      "juggle": {
+        "increase": "1/10",
+        "limit": "6/8",
+        "start": "1"
+      },
+      "name": {
+        "en": "Vertical Rolling Attack (SA2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "SA2 install version (drains 100f/6.7% from install timer); trajectory: up and slightly forward (less horizontal distance than MK version); 40f charge time (charge lasts 12f after releasing down direction); no charge required if canceled into; cannot hit cross-up; activates Blanka-chan doll with electricity (3-hit OD version); can only cancel into Rolling Cannon on hit (no way to make it safe on block)",
+        "ja": null
+      },
+      "onBlock": -40,
+      "onHit": 27,
+      "onPerfectParry": -56,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 70
+    },
+    {
+      "active": "19",
+      "afterDriveRush": null,
+      "airborne": "6-57 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.63,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "blanka__[2]8lk",
+      "input": {
+        "numpad": "[2]8LK",
+        "official": null
+      },
+      "invuln": "8-26 Air",
+      "juggle": {
+        "increase": "3",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Vertical Rolling Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "Trajectory: ~45 degrees; 40f charge time (charge lasts 12f after releasing down direction); cannot hit cross-up; most useful version in grounded combos due to consistency (but can only chain 2 lights vs. standard height crouching opponents)",
+        "ja": null
+      },
+      "onBlock": -27,
+      "onHit": 35,
+      "onPerfectParry": -43,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 74
+    },
+    {
+      "active": "19",
+      "afterDriveRush": null,
+      "airborne": "6-57 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.63,
+      "blockstun": 18,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 325,
+      "damage": 1300,
+      "damageText": null,
+      "dmgScaling": "10% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "blanka__[2]8lk",
+      "input": {
+        "numpad": "[2]8LK",
+        "official": null
+      },
+      "invuln": "8-26 Air",
+      "juggle": {
+        "increase": "3",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Vertical Rolling Attack (SA2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "SA2 install version (drains 100f/6.7% from install timer); trajectory: ~45 degrees; 40f charge time (charge lasts 12f after releasing down direction); no charge required if canceled into; cannot hit cross-up; activates Blanka-chan doll with electricity (meterless 1-hit version); if normal-height opponent crouch blocks, cannot create a true blockstring into Rolling Cannon (true blockstring can occur vs. taller characters); difficult to land a grounded punish on block due to only 1f landing recovery (juggle punishes are more consistent); safer on block and bounces farther away then regular version",
+        "ja": null
+      },
+      "onBlock": -18,
+      "onHit": 35,
+      "onPerfectParry": -34,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 74
+    },
+    {
+      "active": "19",
+      "afterDriveRush": null,
+      "airborne": "6-57 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.59,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 325,
+      "damage": 1300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "blanka__[2]8mk",
+      "input": {
+        "numpad": "[2]8MK",
+        "official": null
+      },
+      "invuln": "8-26 Air",
+      "juggle": {
+        "increase": "3",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Vertical Rolling Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "Trajectory: up and slightly forward; 40f charge time (charge lasts 12f after releasing down direction); cannot hit cross-up",
+        "ja": null
+      },
+      "onBlock": -27,
+      "onHit": 42,
+      "onPerfectParry": -43,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 74
+    },
+    {
+      "active": "19",
+      "afterDriveRush": null,
+      "airborne": "6-57 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.59,
+      "blockstun": 18,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": null,
+      "dmgScaling": "10% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "blanka__[2]8mk",
+      "input": {
+        "numpad": "[2]8MK",
+        "official": null
+      },
+      "invuln": "8-26 Air",
+      "juggle": {
+        "increase": "3",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Vertical Rolling Attack (SA2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "SA2 install version (drains 100f/6.7% from install timer); trajectory: up and slightly forward; 40f charge time (charge lasts 12f after releasing down direction); no charge required if canceled into; cannot hit cross-up; activates Blanka-chan doll with electricity (meterless 1-hit version); if opponent crouch blocks, cannot create a true blockstring into Rolling Cannon; difficult to land a grounded punish on block due to only 1f landing recovery (juggle punishes are more consistent); safer on block and bounces farther away then regular version",
+        "ja": null
+      },
+      "onBlock": -19,
+      "onHit": 37,
+      "onPerfectParry": -35,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 74
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": -8,
+        "onHit": 25
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.865,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "blanka__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Has juggle potential even without Drive Rush",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 25,
+      "onPerfectParry": -25,
+      "onPunishCounter": 46,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 37
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.137,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 4000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "blanka__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Knocks down on Counter-hit (KD +40) and Punish Counter (HKD +80) with follow-up juggles possible on airborne opponents (limited juggle state); 1f extra recovery on block; forces stand; long range poke that can anti-air near its max range (but is likely to lose or trade due to poor hitbox priority); extends a hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 0,
+      "onPerfectParry": -24,
+      "onPunishCounter": 80,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.23,
+      "blockstun": 9,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "blanka__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LK/2LP/2LK; leaves a 4f blockstring gap when chained into 2LP (opponent can trade with their own 4f normal)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -10,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 16
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.4,
+      "blockstun": 9,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "blanka__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LK/2LP/2LK; longest range of Blanka's light normals; SA2 cancel: +5/-2; Forward Hop cancel: -12/-19; Coward Crouch cancel: -3/-10",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 5,
+      "onPerfectParry": -9,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 16
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.48,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 6,
+        "onHit": 14
+      },
+      "hitstop": 9,
+      "hitstun": 24,
+      "id": "blanka__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on block/whiff; cancelable low poke with good frame advantage on hit (can link after Drive Rush into 2MK without spending extra meter); SA2 cancel: +13/+5; Forward Hop cancel: -4/-12; Coward Crouch cancel: +5/-3; Range: 1.48 (this is Absolute Range; Blanka's wide hurtbox gives him worse Relative Range, so characters with less 2MK range may still be able to outpoke Blanka in neutral)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 5,
+      "onPerfectParry": -17,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 26
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 3
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.72,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 6,
+        "onHit": 10
+      },
+      "hitstop": 11,
+      "hitstun": 20,
+      "id": "blanka__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range cancelable poke with a lenient hitconfirm window; can be spaced to hit up to 3rd active frame (2f better advantage, 2f harder hitconfirm window); situational anti-air on active frames 4-5 but cannot hit cross-up; SA2 cancel: +9/+5; Forward Hop cancel: -8/-12; Coward Crouch cancel: +1/-3",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": -1,
+      "onPerfectParry": -19,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "[1~102]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__2pp",
+      "input": {
+        "numpad": "2PP",
+        "official": null
+      },
+      "invuln": "9-29(130) Upper Body Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Coward Crouch",
+        "ja": null
+      },
+      "notes": {
+        "en": "9-29(130)f low profile (lasts until final 18f of recovery); can input Surprise Hop or P/K follow-ups beginning on frame 19, and can tap Up to exit stance beginning on frame 20; if no input is made, Blanka stays crouching for 52f (98f total animation); can hold down to extend crouch by an extra 50f (148f total animation); counter-hit state during entire animation; the variable follow-up timing allows Blanka to react to opponent's movements and mix up timing",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 47
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "9-43",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__2ppk",
+      "input": {
+        "numpad": "2PP~K",
+        "official": null
+      },
+      "invuln": "1-9 Upper Body Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Raid Jump",
+        "ja": null
+      },
+      "notes": {
+        "en": "Short hop with a lower trajectory than a regular jump; 12f landing recovery on empty jump (standard 3f landing recovery after inputting air normal); counter-hit state during entire animation (but no Forced Knockdown while airborne)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 55
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "blanka__2ppp",
+      "input": {
+        "numpad": "2PP~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Wild Lift",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponents into limited juggle state on hit; can combo from 5HP; the final 3 active frames have a great disjointed vertical hitbox for anti-air purposes",
+        "ja": null
+      },
+      "onBlock": -21,
+      "onHit": 55,
+      "onPerfectParry": -36,
+      "onPunishCounter": 55,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "10",
+      "afterDriveRush": {
+        "onBlock": -14,
+        "onHit": 29
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.1,
+      "blockstun": 14,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "blanka__3hp",
+      "input": {
+        "numpad": "3HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "5",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Amazon River Run",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long range slide; low profile 10-29f (avoids most projectiles); very useful when used out of Drive Rush",
+        "ja": null
+      },
+      "onBlock": -18,
+      "onHit": 29,
+      "onPerfectParry": -30,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "20",
+      "afterDriveRush": null,
+      "airborne": "20-43 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.02,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 325,
+      "damage": 1300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "blanka__[4]6hp",
+      "input": {
+        "numpad": "[4]6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Rolling Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "40f charge time (charge lasts 10f after releasing back direction); safe against most characters unless Perfect Parried; Punish Counter sends opponent tumbling into a limited juggle OTG state (can follow up with Drive Rush 3HP anywhere on screen); only the first 6 active frames are cancelable into SA3; on hit, Blanka's recovery is in a crouching state",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 19,
+      "onPerfectParry": -33,
+      "onPunishCounter": 86,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 66
+    },
+    {
+      "active": "22",
+      "afterDriveRush": null,
+      "airborne": "18-43 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.79,
+      "blockstun": 20,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 350,
+      "damage": 1400,
+      "damageText": null,
+      "dmgScaling": "20% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "blanka__[4]6hp",
+      "input": {
+        "numpad": "[4]6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "3"
+      },
+      "name": {
+        "en": "Rolling Attack (SA2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "SA2 install version (drains 100f/6.7% from install timer); 40f charge time (charge lasts 10f after releasing back direction); no charge required if canceled into; worse on block than regular version and leaves Blanka closer; activates Blanka-chan doll with electricity (meterless 1-hit version); if opponent crouch blocks, cannot create a true blockstring into Rolling Cannon",
+        "ja": null
+      },
+      "onBlock": -21,
+      "onHit": 19,
+      "onPerfectParry": -46,
+      "onPunishCounter": 81,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 66
+    },
+    {
+      "active": "11",
+      "afterDriveRush": null,
+      "airborne": "10-23 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.537,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "blanka__[4]6lp",
+      "input": {
+        "numpad": "[4]6LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Rolling Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "40f charge time (charge lasts 10f after releasing back direction); useful for baiting a block/parry by whiffing attack into an immediate throw; all active frames are cancelable into SA3; on hit, Blanka's recovery is in a crouching state",
+        "ja": null
+      },
+      "onBlock": -23,
+      "onHit": 13,
+      "onPerfectParry": -41,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 31
+    },
+    {
+      "active": "12",
+      "afterDriveRush": null,
+      "airborne": "10-23 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.67,
+      "blockstun": 20,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": "10% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "blanka__[4]6lp",
+      "input": {
+        "numpad": "[4]6LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "3"
+      },
+      "name": {
+        "en": "Rolling Attack (SA2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "SA2 install version (drains 100f/6.7% from install timer); 40f charge time (charge lasts 10f after releasing back direction); no charge required if canceled into; slightly safer on block than regular version, and bounces farther away; activates Blanka-chan doll with electricity (meterless 1-hit version); if opponent crouch blocks, cannot create a true blockstring into Rolling Cannon",
+        "ja": null
+      },
+      "onBlock": -21,
+      "onHit": 13,
+      "onPerfectParry": -39,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 31
+    },
+    {
+      "active": "19",
+      "afterDriveRush": null,
+      "airborne": "12-33 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.252,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "blanka__[4]6mp",
+      "input": {
+        "numpad": "[4]6MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Rolling Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "40f charge time (charge lasts 10f after releasing back direction); Punish Counter sends opponent tumbling into a limited juggle OTG state (can follow up with SA1 in the corner); only the first 11 active frames are cancelable into SA3; on hit, Blanka's recovery is in a crouching state",
+        "ja": null
+      },
+      "onBlock": -23,
+      "onHit": 14,
+      "onPerfectParry": -41,
+      "onPunishCounter": 66,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "19",
+      "afterDriveRush": null,
+      "airborne": "12-33 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.556,
+      "blockstun": 20,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 325,
+      "damage": 1300,
+      "damageText": null,
+      "dmgScaling": "10% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "blanka__[4]6mp",
+      "input": {
+        "numpad": "[4]6MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "3"
+      },
+      "name": {
+        "en": "Rolling Attack (SA2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "SA2 install version (drains 100f/6.7% from install timer); 40f charge time (charge lasts 10f after releasing back direction); no charge required if canceled into; Punish Counter sends opponent tumbling into a limited juggle OTG state (can follow up with enhanced SA1 or 3P Rolling Cannon anywhere on screen); slightly safer on block than regular version; activates Blanka-chan doll with electricity (meterless 1-hit version); if opponent crouch blocks, cannot create a true blockstring into Rolling Cannon",
+        "ja": null
+      },
+      "onBlock": -21,
+      "onHit": 14,
+      "onPerfectParry": -39,
+      "onPunishCounter": 66,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "22",
+      "afterDriveRush": null,
+      "airborne": "18-41 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.94,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 17,
+      "hitstun": null,
+      "id": "blanka__[4]6pp",
+      "input": {
+        "numpad": "[4]6PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "2"
+      },
+      "name": {
+        "en": "Rolling Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "40f charge time (charge lasts 10f after releasing back direction); side switch on hit unless too close to the corner; puts opponent into limited juggle state; only the first 2 active frames are cancelable into SA2/SA3; completely safe unless Perfect Parried; SA2 cancel: KD +74/+9",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": 57,
+      "onPerfectParry": -25,
+      "onPunishCounter": 57,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 56
+    },
+    {
+      "active": "22",
+      "afterDriveRush": null,
+      "airborne": "18-46 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.94,
+      "blockstun": 20,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 17,
+      "hitstun": null,
+      "id": "blanka__[4]6pp",
+      "input": {
+        "numpad": "[4]6PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "2"
+      },
+      "name": {
+        "en": "Rolling Attack (SA2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "SA2 install version (drains 100f/6.7% from install timer); 40f charge time (charge lasts 10f after releasing back direction); no charge required if canceled into; completely safe unless Perfect Parried; less pushback on block than the regular version; can only cancel into Rolling Cannon on block; activates Blanka-chan doll with electricity (3-hit OD version); can lead to true blockstring into Rolling Cannon",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": 57,
+      "onPerfectParry": -25,
+      "onPunishCounter": 57,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 56
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "11-21 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__4kkk",
+      "input": {
+        "numpad": "4KKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Surprise Back Hop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Distance: 186.108; () refers to 4KKK done from Coward Crouch (3f extra recovery)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 32,
+      "superGauge": null,
+      "totalFrames": 32
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.9,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Jungle Flip",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switch; after throwing opponent into corner, can Forward Dash to be +8 (grants 4MK pressure but no true throw oki except against Blanka/E.Honda/Zangief); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 27,
+      "onPerfectParry": null,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "6",
+      "afterDriveRush": {
+        "onBlock": 6,
+        "onHit": 12
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.519,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 10,
+        "onHit": 16
+      },
+      "hitstop": 11,
+      "hitstun": 26,
+      "id": "blanka__4mk",
+      "input": {
+        "numpad": "4MK",
+        "official": null
+      },
+      "invuln": "1-3 (Head), 4-14 Air (Head)",
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Wild Edge",
+        "ja": null
+      },
+      "notes": {
+        "en": "Important tool for combos, frame traps, and anti-airs; high active frame count makes it a great meaty option; very lenient cancel window for hitconfirms; good horizontal anti-air; most of the leg hitbox whiffs on crouching opponents unless they extend a vertical hurtbox (only hits crouchers at point blank); SA2 cancel: +15/+9; Forward Hop cancel: -2/-8; Coward Crouch cancel: +7/+1",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 8,
+      "onPerfectParry": -16,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 26
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "*Starts juggling*; startup refers to time until 1 Blanka-chan is replenished",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 45,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 188,
+      "superGauge": null,
+      "totalFrames": 233
+    },
+    {
+      "active": "9",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.435,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 33,
+      "id": "blanka__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand; great anti-air that can hit cross-up on active frames 7-9 unlike most AAs; Counter-hit/Punish Counter launches airborne opponents into a limited juggle state (very high float state); high active frame count makes it useful as a meaty tool, and the fast startup + hit advantage makes it useful in combos; 3f less recovery on block; extends a hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 6,
+      "onPerfectParry": -22,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "7",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.561,
+      "blockstun": 21,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 11,
+        "onHit": 17
+      },
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "blanka__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Combo tool with enough hitstun to follow up with Coward Crouch + Wild Lift; forces stand; 5f extra recovery on whiff; final 2 active frames only hit airborne opponents above Blanka; SA2 cancel: +16/+10; Forward Hop cancel: -1/-7; Coward Crouch cancel: +8/+2",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -27,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.11,
+      "blockstun": 9,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "blanka__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LK/2LP/2LK; Blanka's fastest light normal; SA2 cancel: +5/-2; Forward Hop cancel: -12/-19; Coward Crouch cancel: -3/-10",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 5,
+      "onPerfectParry": -9,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.522",
+        "onHit": "0.499"
+      },
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.36,
+      "blockstun": 10,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "blanka__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Mostly used for special cancels (cannot link or chain into other normals); SA2 cancel: +5/-1; Forward Hop cancel: -12/-18; Coward Crouch cancel: -3/-9",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -11,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 17
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.494,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 15
+      },
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "blanka__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f extra recovery on whiff; forward movement makes it more consistent in cancels like OD Backstep Roll; SA2 cancel: +14/+7; Forward Hop cancel: -3/-10; Coward Crouch cancel: +6/-1",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 5,
+      "onPerfectParry": -18,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.64,
+      "blockstun": 14,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 21,
+      "id": "blanka__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Solid neutral poke; SA2 cancel: +10/+3",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 3,
+      "onPerfectParry": -16,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Peekaboo!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 145,
+      "superGauge": null,
+      "totalFrames": 145
+    },
+    {
+      "active": "29",
+      "afterDriveRush": null,
+      "airborne": "8-12, 27-69 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": 19,
+      "id": "blanka__63214hk",
+      "input": {
+        "numpad": "63214HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Backstep Rolling Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "Farthest trajectory; can steer forward/backward (forward momentum is faster than backward); can hit cross-up",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 7,
+      "onPerfectParry": -10,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 41,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 74
+    },
+    {
+      "active": "29",
+      "afterDriveRush": null,
+      "airborne": "8-12, 27-69 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": "10% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": 19,
+      "id": "blanka__63214hk",
+      "input": {
+        "numpad": "63214HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Backstep Rolling Attack (SA2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "SA2 install version (drains 100f/6.7% from install timer); farthest trajectory; can steer forward/backward (forward momentum is faster than backward); can hit cross-up; hitconfirm time refers to Rolling Cannon cancel vs. grounded opponents; activates Blanka-chan doll with electricity (meterless 1-hit version)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 7,
+      "onPerfectParry": -10,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 41,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 74
+    },
+    {
+      "active": "5(28)21(1)4",
+      "afterDriveRush": null,
+      "airborne": "8-12, 27-66 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.733,
+      "blockstun": 17,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,350x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 1000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 21,
+      "id": "blanka__63214kk",
+      "input": {
+        "numpad": "63214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1/1/1",
+        "limit": "3/5/7",
+        "start": "1"
+      },
+      "name": {
+        "en": "Backstep Rolling Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can steer forward/backward (forward momentum is faster than backward); can hit cross-up on the way down; 1st hit is SA2/SA3 cancelable, works in juggles, and only connects at very close range; () startup refers to the downward hit; downward hit connects twice vs. standing opponents or once vs. crouching opponents; SA2 cancel: KD +68/+6",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 10,
+      "onPerfectParry": -61,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 4,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 70
+    },
+    {
+      "active": "5(28)21(1)4",
+      "afterDriveRush": null,
+      "airborne": "8-12, 27-66 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.733,
+      "blockstun": 17,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,450x2",
+      "dmgScaling": "10% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 1000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 21,
+      "id": "blanka__63214kk",
+      "input": {
+        "numpad": "63214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1/1/1",
+        "limit": "3/5/7",
+        "start": "1"
+      },
+      "name": {
+        "en": "Backstep Rolling Attack (SA2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "SA2 install version (drains 100f/6.7% from install timer); can steer forward/backward (forward momentum is faster than backward); can hit cross-up on the way down; 1st hit is SA2/SA3 cancelable, works in juggles, and only connects at very close range; () startup refers to the downward hit; downward hit connects twice vs. standing opponents or once vs. crouching opponents; hitconfirm time refers to Rolling Cannon cancel vs. grounded opponents; activates Blanka-chan doll with electricity (3-hit OD version)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 10,
+      "onPerfectParry": -61,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 4,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 70
+    },
+    {
+      "active": "24",
+      "afterDriveRush": null,
+      "airborne": "8-12, 27-64 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": 20,
+      "id": "blanka__63214lk",
+      "input": {
+        "numpad": "63214LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Backstep Rolling Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shortest trajectory; can steer forward/backward (forward momentum is faster than backward); can hit cross-up",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 8,
+      "onPerfectParry": -10,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 41,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 69
+    },
+    {
+      "active": "24",
+      "afterDriveRush": null,
+      "airborne": "8-12, 27-64 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": "10% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": 20,
+      "id": "blanka__63214lk",
+      "input": {
+        "numpad": "63214LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Backstep Rolling Attack (SA2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "SA2 install version (drains 100f/6.7% from install timer); shortest trajectory; can steer forward/backward (forward momentum is faster than backward); can hit cross-up; hitconfirm time refers to Rolling Cannon cancel vs. grounded opponents; activates Blanka-chan doll with electricity (meterless 1-hit version)",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 8,
+      "onPerfectParry": -10,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 41,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 69
+    },
+    {
+      "active": "27",
+      "afterDriveRush": null,
+      "airborne": "8-12, 27-67 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": 20,
+      "id": "blanka__63214mk",
+      "input": {
+        "numpad": "63214MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Backstep Rolling Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "Medium trajectory; can steer forward/backward (forward momentum is faster than backward); can hit cross-up",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 7,
+      "onPerfectParry": -11,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 41,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 72
+    },
+    {
+      "active": "27",
+      "afterDriveRush": null,
+      "airborne": "8-12, 27-67 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": "10% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": 20,
+      "id": "blanka__63214mk",
+      "input": {
+        "numpad": "63214MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Backstep Rolling Attack (SA2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "SA2 install version (drains 100f/6.7% from install timer); medium trajectory; can steer forward/backward (forward momentum is faster than backward); can hit cross-up; hitconfirm time refers to Rolling Cannon cancel vs. grounded opponents; activates Blanka-chan doll with electricity (meterless 1-hit version)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 7,
+      "onPerfectParry": -11,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 41,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 72
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": -11,
+        "onHit": 27
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.07,
+      "blockstun": 20,
+      "cancel": [
+        "2pp"
+      ],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "blanka__6hp",
+      "input": {
+        "numpad": "6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "5",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Wild Nail",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f extra recovery on whiff/block; Low Crush 10-20f (not airborne); causes spike knockdown vs. airborne opponents (or OTG bounce on Punish Counter vs. airborne); recovery is in a crouching state on frames 21-43; cancelable into Coward Crouch until frame 34 on hit/block (this version of Coward Crouch can input P/K follow-up after only 11f, or Up to exit stance after 10f); Coward Crouch cancel: KD+23(Crumple+81)/-7; after Punish Counter 6HP > Coward Crouch > Hold Up for fastest recovery, Blanka can juggle any attack 6f or faster as a free juggle; extends a hurtbox 1f before active that is vulnerable to projectiles; active frames 3-4 cannot hit airborne opponents; can get point blank +2 oki on hit by canceling into Coward Crouch ~ Forward Hop",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 27,
+      "onPerfectParry": -33,
+      "onPunishCounter": 76,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.91,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "blanka",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "blanka__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Quick Rolling Attack (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.91,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "blanka",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "blanka__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Quick Rolling Attack (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__6kkk",
+      "input": {
+        "numpad": "6KKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Surprise Forward Hop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Distance: 230.945; () refers to 6KKK done from Coward Crouch (3f extra recovery); no collision box on frames 4-22 (can pass through opponents); no head hurtbox on frames 4-11; semi-low crush on frames 12-22 (will not go over all low attacks)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 27,
+      "superGauge": null,
+      "totalFrames": 27
+    },
+    {
+      "active": "3(7)2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.73,
+      "blockstun": 28,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": "300x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 36,
+      "id": "blanka__6mk",
+      "input": {
+        "numpad": "6MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0/1",
+        "limit": "0",
+        "start": "0/1"
+      },
+      "name": {
+        "en": "Double Knee Bombs",
+        "ja": null
+      },
+      "notes": {
+        "en": "Low Crush 9-23f (not airborne); forward moving attack that can easily confirm into a combo on hit; Forces stand (ensuring that Vertical Roll can be comboed into); Counter-hit/Punish Counter bonus advantage carries through both hits; cannot hit behind Blanka; 1st hit puts airborne opponents into limited juggle state, allowing both hits to connect safely",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 6,
+      "onPerfectParry": -18,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "2,1",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.783,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": "300x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2500,
+        "gain": 750
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 26,
+      "id": "blanka__6mp",
+      "input": {
+        "numpad": "6MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Rock Crusher",
+        "ja": null
+      },
+      "notes": {
+        "en": "2nd hit is no longer an overhead if the first hit connects; Counter-hit/Punish Counter bonus advantage carries through both hits",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Ha ha... uhuhuhuhuh\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 150,
+      "superGauge": null,
+      "totalFrames": 150
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.29,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "blanka__8hp",
+      "input": {
+        "numpad": "8HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Neutral Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state; lower body projectile invuln 7-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 10,
+      "onPerfectParry": -7,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.523,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "blanka",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "blanka__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Wild Scratch",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "blanka__j[4]6p",
+      "input": {
+        "numpad": "j.[4]6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "5",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Aerial Rolling Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "40f charge time (charge lasts 10f after releasing back direction); can be done from any jump direction or after Coward Crouch > Raid Jump; button strength determines trajectory (LP close, MP mid, HP far); can be canceled into from j.MP; can hit cross-up; puts grounded opponents into limited juggle state; spike knockdown vs. airborne opponents",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 38,
+      "onPerfectParry": -23,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "blanka__j[4]6pp",
+      "input": {
+        "numpad": "j.[4]6PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1/0",
+        "limit": "6/7",
+        "start": "1"
+      },
+      "name": {
+        "en": "Aerial Rolling Attack",
+        "ja": null
+      },
+      "notes": {
+        "en": "40f charge time (charge lasts 10f after releasing back direction); can be done from any jump direction or after Coward Crouch > Raid Jump; can be canceled into from j.MP; can hit cross-up (2nd hit whiffs unless near corner); powerful defensive option, especially vs. throw loops; automatically performs 2nd attack on hit only",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 29,
+      "onPerfectParry": -21,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 450,
+        "onHit": 900
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": "700x2",
+      "dmgScaling": "10% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "blanka__j[4]6pp",
+      "input": {
+        "numpad": "j.[4]6PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1/0",
+        "limit": "6/7",
+        "start": "1"
+      },
+      "name": {
+        "en": "Aerial Rolling Attack (SA2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "SA2 install version (drains 100f/6.7% from install timer); 40f charge time (charge lasts 10f after releasing back direction); no charge required if canceled into from j.MP; can be done from any jump direction or after Coward Crouch > Raid Jump; can hit cross-up (2nd hit whiffs unless near corner); powerful defensive option, especially vs. throw loops; automatically performs 2nd attack on hit only; hitconfirm time refers to Rolling Cannon cancel vs. grounded opponents (cannot cancel on block if it connects at minimum height); activates Blanka-chan doll with electricity (3-hit OD version)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 29,
+      "onPerfectParry": -21,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 450,
+        "onHit": 900
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "blanka",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": "10% Starter; 10% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "blanka__j[4]6p",
+      "input": {
+        "numpad": "j.[4]6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "5",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Aerial Rolling Attack (SA2)",
+        "ja": null
+      },
+      "notes": {
+        "en": "SA2 install version (drains 100f/6.7% from install timer); 40f charge time (charge lasts 10f after releasing back direction); no charge required if canceled into from j.MP; can be done from any jump direction or after Coward Crouch > Raid Jump; button strength determines trajectory (LP close, MP mid, HP far); can hit cross-up; puts grounded opponents into limited juggle state; spike knockdown vs. airborne opponents; hitconfirm time refers to Rolling Cannon cancel vs. grounded opponents (cannot cancel if it connects at minimum height); activates Blanka-chan doll with electricity (meterless 1-hit version); POTENTIAL BUG: at minimum height, canceling into downward Rolling Cannon reduces landing recovery and gives frame advantage without consuming any additional SA2 Install timer",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 38,
+      "onPerfectParry": -23,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.28,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "blanka__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Blanka's main horizontal jump-in tool; lower body projectile invuln 11-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -9,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.46,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "blanka__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes spike knockdown vs. airborne opponents; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -12,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.4,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "blanka__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Decent air-to-air",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -6,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.49,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "blanka__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Decent air-to-air",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 3,
+      "onPerfectParry": -8,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__jlplk",
+      "input": {
+        "numpad": "j.LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Wild Bites",
+        "ja": null
+      },
+      "notes": {
+        "en": "No meaty throw oki after corner Air Throw, but can Drive Rush for meaty pressure into a tick throw",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 22,
+      "onPerfectParry": null,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.11,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "blanka__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; lower body projectile invuln 7-17f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 7,
+      "onPerfectParry": -8,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.21,
+      "blockstun": 11,
+      "cancel": [
+        "special"
+      ],
+      "category": "normal",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "blanka__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state; cancelable into Aerial Rolling Attack; lower body projectile invuln 7-22f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -8,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.9,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Starter (3rd hit); 20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": null,
+        "start": "5 (DR: 0)"
+      },
+      "name": {
+        "en": "Wild Fang",
+        "ja": null
+      },
+      "notes": {
+        "en": "Allows for a corner throw loop; Forward Hop to is +3 (easiest timing but no shimmy possible), Forward Dash is +11 (can walk back to avoid reversal throw from everyone except Zangief), or walk for manual throw timing (best version for shimmy); midscreen, Forward Hop allows for meaty strike pressure but needs to walk ~6f for a second throw; at a specific timing/spacing, can juggle into OD-activated Blanka-chan (scaling applies to the 3rd hit of the combo after doll juggles, plus the 2-hit scaling from the doll itself); Drive Rush + Throw has a reduced Juggle Start value, allowing more juggle routes when comboed into Blanka-chan; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 30,
+      "onPerfectParry": null,
+      "onPunishCounter": 30,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "blanka",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "blanka__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.476 (min/throw), 2.082 (min/block), 2.867 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    },
+    {
+      "active": "25",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "special"
+      ],
+      "category": "super_art",
+      "characterId": "blanka",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "blanka__anydirection+p(duringsa2)",
+      "input": {
+        "numpad": "Any Direction + P (during SA2)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2 each",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Rolling Cannon",
+        "ja": null
+      },
+      "notes": {
+        "en": "Special move follow-up available during SA2 only (depletes 200f or 13.3% of install time); input with any direction; usable after [4]6P, j.[4]6P, [2]8K, or 63214K; puts opponent into limited juggle state; can chain into itself up to 3 times consecutively if the hits connect (this limit resets if Blanka lands before starting another juggle); frame advantage on KD/block/parry varies significantly depending on height and attack angle (can lead to significant block advantage on 3P or 2P versions); total recovery varies significantly based on input direction, but landing recovery is always 7f for 8P/7P/4P/1P and 9f for 2P/3P/6P/9P; activates Blanka-chan doll with electricity (meterless 1-hit version); POTENTIAL BUG: 2P version canceled from minimum-height Aerial Rolling Attack will grant significant frame advantage without consuming any additional install time",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": null
+    }
+  ],
+  "name": {
+    "en": "Blanka",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

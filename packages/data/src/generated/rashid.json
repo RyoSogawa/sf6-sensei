@@ -1,0 +1,5178 @@
+{
+  "aliases": [],
+  "id": "rashid",
+  "moves": [
+    {
+      "active": "[349]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 56,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "rashid",
+      "chipDamage": 80,
+      "damage": 200,
+      "damageText": "200x5",
+      "dmgScaling": "40% Minimum; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__214214k",
+      "input": {
+        "numpad": "214214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x5",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Ysaar",
+        "ja": null
+      },
+      "notes": {
+        "en": "No invincibility; puts opponent into limited juggle state; spawns a 5-hit Super projectile tornado; travels fullscreen on its own, and Rashid can kick it with 214P to make it travel faster (can also kick tornado in the opposite direction after a side switch); tornado remains active even if it disappears off-screen; creates Air Current that lasts until 120f after Super dissipates (enhances many of Rashid's moves); listed KD Advantage is from point blank connect; cannot use 236K Whirlwind Shot while Super is active; cannot gain Super Art gauge while the projectile hitbox is active",
+        "ja": null
+      },
+      "onBlock": 33,
+      "onHit": 104,
+      "onPerfectParry": 32,
+      "onPunishCounter": 104,
+      "projectileSpeed": 0.01,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "13",
+      "afterDriveRush": null,
+      "airborne": "15-44 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 5.379,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 375,
+      "damage": 1500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "rashid__214hk",
+      "input": {
+        "numpad": "214HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Eagle Spike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit; on block, bounces off opponent with extra recovery (frame advantage unaffected by which active frame connects); on hit, Rashid gets better KD Advantage on later active frames; opponent slides on the ground for great corner carry; can be affected by Air Current on frames 6-30",
+        "ja": null
+      },
+      "onBlock": -36,
+      "onHit": 56,
+      "onPerfectParry": -54,
+      "onPunishCounter": 56,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 6,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 65
+    },
+    {
+      "active": "15",
+      "afterDriveRush": null,
+      "airborne": "8-36 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 5.13,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 375,
+      "damage": 1500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "rashid__214hk(aircurrent)",
+      "input": {
+        "numpad": "214HK (Air Current)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Eagle Spike (Air Current)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Functions identically to enhanced 214MK; puts opponent into limited juggle state on hit; on hit/block, bounces off opponent with extra recovery (frame advantage unaffected by which active frame connects); opponent slides on the ground for great corner carry; Punish Counter tumble allows for a follow-up 214K for even more damage and corner carry",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 59,
+      "onPerfectParry": -33,
+      "onPunishCounter": 113,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 81
+    },
+    {
+      "active": "3(1)15",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.593,
+      "blockstun": 41,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 200,
+      "damage": 400,
+      "damageText": "400,300x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 8,
+      "id": "rashid__214hp",
+      "input": {
+        "numpad": "214HP",
+        "official": null
+      },
+      "invuln": "27-29 Projectile (Leg)",
+      "juggle": {
+        "increase": "1,1,3",
+        "limit": "1,5,5",
+        "start": "5 ground / 1,1,1 air"
+      },
+      "name": {
+        "en": "Arabian Cyclone",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox; spawns a tornado with 2 hits of projectile durability; first hit puts opponent into limited juggle state; the 2-hit tornado does not cause a knockdown on its own, and carries Counter-hit/Punish Counter advantage through both hits if it connects; cancelable into 4K Wing Stroke or 6K Rolling Assault on frames 33-34; high active frame count makes it great for oki; 29f recovery is total time after the tornado's 2nd hit occurs; 24f recovery is total time after tornado disappears; advantage when canceled into 6K Roll: KD+43/+1",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 40,
+      "onPerfectParry": -41,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 29,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 27,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 69
+    },
+    {
+      "active": "13",
+      "afterDriveRush": null,
+      "airborne": "12-40 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.959,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 8000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "rashid__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "4",
+        "limit": "4",
+        "start": "4"
+      },
+      "name": {
+        "en": "Eagle Spike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit and side switches if the opponent is not cornered; on block, bounces off opponent with extra recovery (frame advantage unaffected by which active frame connects); on hit, Rashid gets better KD Advantage on later active frames; can be affected by Air Current on frames 6-29",
+        "ja": null
+      },
+      "onBlock": -36,
+      "onHit": 53,
+      "onPerfectParry": -54,
+      "onPunishCounter": 53,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 59
+    },
+    {
+      "active": "14",
+      "afterDriveRush": null,
+      "airborne": "9-37 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 5.657,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 325,
+      "damage": 1300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 8000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "rashid__214kk(aircurrent)",
+      "input": {
+        "numpad": "214KK (Air Current)",
+        "official": null
+      },
+      "invuln": "7-37 Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Eagle Spike (Air Current)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit and side switches if the opponent is not cornered; on block, bounces off opponent with extra recovery (frame advantage unaffected by which active frame connects); on hit, Rashid gets better KD Advantage on later active frames",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 53,
+      "onPerfectParry": -42,
+      "onPunishCounter": 53,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 53
+    },
+    {
+      "active": "13",
+      "afterDriveRush": null,
+      "airborne": "9-38 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.723,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "rashid__214lk",
+      "input": {
+        "numpad": "214LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Eagle Spike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit (can lead to follow-up juggles if well spaced); on block, bounces off opponent with extra recovery (frame advantage unaffected by which active frame connects); on hit, Rashid gets better KD Advantage on later active frames; can be affected by Air Current on frames 4-14; SA3 cancel occurs on hit only, allowing it to be freely buffered for extra damage",
+        "ja": null
+      },
+      "onBlock": -36,
+      "onHit": 30,
+      "onPerfectParry": -50,
+      "onPunishCounter": 30,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 58
+    },
+    {
+      "active": "13",
+      "afterDriveRush": null,
+      "airborne": "8-37 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.318,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 325,
+      "damage": 1300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "rashid__214lk(aircurrent)",
+      "input": {
+        "numpad": "214LK (Air Current)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Eagle Spike (Air Current)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit; on block, bounces off opponent with extra recovery (frame advantage unaffected by which active frame connects); on hit, Rashid gets better KD Advantage on later active frames; SA3 cancel occurs on hit only, allowing it to be freely buffered for extra damage",
+        "ja": null
+      },
+      "onBlock": -24,
+      "onHit": 35,
+      "onPerfectParry": -38,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 59
+    },
+    {
+      "active": "3(1)15",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.561,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 150,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 35,
+      "id": "rashid__214lp",
+      "input": {
+        "numpad": "214LP",
+        "official": null
+      },
+      "invuln": "15-17 Projectile (Leg)",
+      "juggle": {
+        "increase": "3,1",
+        "limit": "4,5",
+        "start": "1,1 air"
+      },
+      "name": {
+        "en": "Arabian Cyclone",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox; spawns a tornado with 1 hit of projectile durability; cancelable into 4K Wing Stroke or 6K Rolling Assault on frames 21-22; Counter-hit/Punish Counter bonus advantage applies to both hits; high active frame count makes it great for oki; 28f recovery is total time after the tornado spawns; 14f recovery is total time after tornado disappears; advantage when canceled into 6K Roll: -5/-13",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 2,
+      "onPerfectParry": -27,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "13",
+      "afterDriveRush": null,
+      "airborne": "12-38 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 4.067,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 325,
+      "damage": 1300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "rashid__214mk",
+      "input": {
+        "numpad": "214MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Eagle Spike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state on hit; on block, bounces off opponent with extra recovery (frame advantage unaffected by which active frame connects); on hit, Rashid gets better KD Advantage on later active frames; opponent slides on the ground for great corner carry; can be affected by Air Current on frames 6-27",
+        "ja": null
+      },
+      "onBlock": -36,
+      "onHit": 52,
+      "onPerfectParry": -54,
+      "onPunishCounter": 52,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 550,
+        "onHit": 1100
+      },
+      "totalFrames": 59
+    },
+    {
+      "active": "15",
+      "afterDriveRush": null,
+      "airborne": "8-36 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 5.13,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 375,
+      "damage": 1500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 8000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "rashid__214mk(aircurrent)",
+      "input": {
+        "numpad": "214MK (Air Current)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Eagle Spike (Air Current)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Functions identically to enhanced 214HK; puts opponent into limited juggle state on hit; on hit/block, bounces off opponent with extra recovery (frame advantage unaffected by which active frame connects); opponent slides on the ground for great corner carry; Punish Counter tumble allows for a follow-up 214K for even more damage and corner carry",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 59,
+      "onPerfectParry": -33,
+      "onPunishCounter": 113,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 81
+    },
+    {
+      "active": "3(1)15",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.561,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 175,
+      "damage": 400,
+      "damageText": "400,500",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 35,
+      "id": "rashid__214mp",
+      "input": {
+        "numpad": "214MP",
+        "official": null
+      },
+      "invuln": "20-22 Projectile (Leg)",
+      "juggle": {
+        "increase": "3,1",
+        "limit": "4,5",
+        "start": "1,1 air"
+      },
+      "name": {
+        "en": "Arabian Cyclone",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox; spawns a tornado with 1 hit of projectile durability; cancelable into 4K Wing Stroke or 6K Rolling Assault on frames 26-27; Counter-hit/Punish Counter bonus advantage applies to both hits; high active frame count makes it great for oki; in the corner, Rashid can consistently link 5LK on hit; 26f recovery is total time after the tornado spawns; 12f recovery is total time after tornado disappears; safe against Drive Reversal if the opponent blocks the 2nd hit; advantage when canceled into 6K Roll: -5/-13",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 4,
+      "onPerfectParry": -25,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "3(1)29",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.953,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 24,
+      "id": "rashid__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": "20-22 Projectile (Leg)",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "1,6",
+        "start": "1,0"
+      },
+      "name": {
+        "en": "Arabian Cyclone",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strike hitbox (making it vulnerable to opponent's wakeup SA1); spawns a tornado with 1 hit of OD projectile durability; first hit puts opponent into limited juggle state; the tornado does not cause a knockdown on its own; cancelable into 4K Wing Stroke or 6K Rolling Assault on frames 26-27; creates an Air Current on frame 53 (after the first tornado dissipates) that lasts 60f and enhances many of Rashid's moves; 4f extra recovery on block; the listed recovery time begins after the tornado's first active frame (Rashid recovers before the tornado disappears); advantage when canceled into 6K Roll: KD+39/-16",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 49,
+      "onPerfectParry": -28,
+      "onPunishCounter": 49,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 49
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "22-61 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__214p4k",
+      "input": {
+        "numpad": "214P~4K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Wing Stroke",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cancelable into air normals/specials on frames 32-51; can be affected by Air Current on frames 23-47; 6f landing recovery occurs if no air move is used",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 6,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 32,
+      "superGauge": null,
+      "totalFrames": 67
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__214p6k",
+      "input": {
+        "numpad": "214P~6K",
+        "official": null
+      },
+      "invuln": "5-30 Upper Body Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Rolling Assault",
+        "ja": null
+      },
+      "notes": {
+        "en": "Crouching state 6-33f; cancelable into Nail Assault follow-up on frames 17-20; can be affected by Air Current on frames 8-25; can roll under most projectiles (loses to low ones like Juri 236LK or Rashid 236KK); Hit/Block Advantage after 214P connects: 214LP/214MP -5/-13; 214HP KD+43/+1; 214PP KD+39/-16",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 33
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.811,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "rashid__214p6kk",
+      "input": {
+        "numpad": "214P~6K~K",
+        "official": null
+      },
+      "invuln": "1-19 Upper Body Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Nail Assault",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state; crouching state for entire move duration; cannot hit cross-ups behind Rashid; outside of juggles, only combos naturally from 214HP/214PP versions",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 44,
+      "onPerfectParry": -27,
+      "onPunishCounter": 44,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": "9-35 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.684,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "rashid",
+      "chipDamage": 500,
+      "damage": 2100,
+      "damageText": "2100(1800)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "rashid__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-15 Strike/Throw",
+      "juggle": {
+        "increase": "1",
+        "limit": "20",
+        "start": "1"
+      },
+      "name": {
+        "en": "Super Rashid Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Useful anti-air and combo/juggle tool; deals 300 less damage vs. airborne opponents with variable KD Advantage based on juggle height; grounded hit gives a cinematic that switches sides; bounces far away on block, but easily punished with dash or Drive Rush starter; listed recovery is on whiff/(block); only 500 damage on first hit if it trades",
+        "ja": null
+      },
+      "onBlock": -53,
+      "onHit": 1,
+      "onPerfectParry": -76,
+      "onPunishCounter": 1,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 91
+    },
+    {
+      "active": "18",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.746,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "rashid",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "rashid__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-15 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Altair",
+        "ja": null
+      },
+      "notes": {
+        "en": "Reaches about half screen; cinematic time regenerates ~1.8 Drive bars for Rashid; only deals 10 damage when trading with opponent's attack",
+        "ja": null
+      },
+      "onBlock": -75,
+      "onHit": 17,
+      "onPerfectParry": -98,
+      "onPunishCounter": 17,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 82,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 110
+    },
+    {
+      "active": "18",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.746,
+      "blockstun": 25,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "rashid",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "rashid__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-15 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Altair (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Reaches about half screen; 1f better KD Advantage over non-CA version; available at 25% HP or below; cinematic time regenerates ~1.9 Drive bars for Rashid; only deals 10 damage when trading with opponent's attack",
+        "ja": null
+      },
+      "onBlock": -75,
+      "onHit": 18,
+      "onPerfectParry": -98,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 82,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 110
+    },
+    {
+      "active": "2(2)3(3)3(4)3(4)3(4)3",
+      "afterDriveRush": null,
+      "airborne": "8-63 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.98,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 25,
+      "damage": 100,
+      "damageText": "100x5,700 (1200)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 200
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "rashid__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": "6-12 Air, 8-10 Throw",
+      "juggle": {
+        "increase": "0x5,99",
+        "limit": "5x5,7",
+        "start": "1x5,5"
+      },
+      "name": {
+        "en": "Spinning Mixer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good anti-air that can hit cross-ups; can be affected by Air Current on frames 2-5; if the final hit whiffs as an anti-air, Rashid can get a follow-up juggle",
+        "ja": null
+      },
+      "onBlock": -55,
+      "onHit": 33,
+      "onPerfectParry": -70,
+      "onPunishCounter": 33,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 100
+      },
+      "totalFrames": 77
+    },
+    {
+      "active": "2(2)3(3)3(4)3(3)3(2)3(2)3(2)3(3)3",
+      "afterDriveRush": null,
+      "airborne": "7-90 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.98,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 31,
+      "damage": 125,
+      "damageText": "125x8,800 (1800)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 200
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "rashid__236hp(aircurrent)",
+      "input": {
+        "numpad": "236HP (Air Current)",
+        "official": null
+      },
+      "invuln": "5-11 Air, 7-9 Throw",
+      "juggle": {
+        "increase": "0x8,99",
+        "limit": "10x9",
+        "start": "1x8,5"
+      },
+      "name": {
+        "en": "Spinning Mixer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good anti-air that can hit cross-ups",
+        "ja": null
+      },
+      "onBlock": -83,
+      "onHit": 27,
+      "onPerfectParry": -98,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 39,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 55,
+        "onHit": 110
+      },
+      "totalFrames": 104
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": 35,
+      "id": "rashid__236k",
+      "input": {
+        "numpad": "236K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Whirlwind Shot",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile that travels forward before arcing upward; can hold button to charge for a powered-up version; trajectory depends on button strength (LK = farthest/horizontal, MK = middle, HK = shortest/vertical); projectile comes out in 6f if button is released from frames 11-27 (total startup 17-33f); cannot use if SA2 is active",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": -1,
+      "onPerfectParry": -25,
+      "onPunishCounter": 3,
+      "projectileSpeed": 0.03,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 52
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 34,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,400",
+      "dmgScaling": "25% Starter; Combo (extra 15%)",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 1500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "2,7",
+        "start": "0,2"
+      },
+      "name": {
+        "en": "Whirlwind Shot",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit OD projectile; 2nd hit puts opponent into limited juggle state on hit; travels fullscreen; hitbox is low to the ground, making many low-profile anti-projectile moves ineffective; projectile comes out in 6f if button is released from frames 11-34 (total startup 17-40f); cannot use if SA2 is active",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 49,
+      "onPerfectParry": -14,
+      "onPunishCounter": 49,
+      "projectileSpeed": 0.03,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 52
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 46,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x3",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 800,
+        "dealtOnHit": 1000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__236[kk]",
+      "input": {
+        "numpad": "236[KK]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,1",
+        "limit": "3,3,3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Whirlwind Shot (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "3-hit OD projectile; 3rd hit puts opponent into limited juggle state on hit; must hold button 32f for fully charged version; travels fullscreen; cancelable into Wing Stroke (4K) and Rolling Assault (6K) follow-ups on frame 55 (can be buffered on frame 37 onward); cancel into Roll is -4 oB from point blank but massively plus on block from farther away; hitbox is low to the ground, making many low-profile anti-projectile moves ineffective; creates Air Current effect on frame 38 next to Rashid that lasts 70f and enhances many of his moves; cannot use if SA2 is active",
+        "ja": null
+      },
+      "onBlock": 10,
+      "onHit": 65,
+      "onPerfectParry": -3,
+      "onPunishCounter": 65,
+      "projectileSpeed": 0.03,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 38,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 73
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 44,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x2,200",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 800,
+        "dealtOnHit": 1000,
+        "gain": 300
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": 52,
+      "id": "rashid__236[k]",
+      "input": {
+        "numpad": "236[K]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,0,0",
+        "limit": "5,7,7",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Whirlwind Shot (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "3-hit projectile; trajectory depends on button strength (LK = farthest/horizontal, MK = middle, HK = shortest/vertical); must hold button 48f for fully charged version; counter-hit/Punish Counter bonus advantage applies to all hits; creates Air Current effect on frame 51 next to Rashid that lasts 60f and enhances many of his moves; cannot use if SA2 is active",
+        "ja": null
+      },
+      "onBlock": 8,
+      "onHit": 16,
+      "onPerfectParry": -3,
+      "onPunishCounter": 20,
+      "projectileSpeed": 0.03,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 53,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 88
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 36,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600,300",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 1500,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": 41,
+      "id": "rashid__236{k}",
+      "input": {
+        "numpad": "236{K}",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2,0",
+        "limit": "4,7",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Whirlwind Shot (Partial Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit projectile; trajectory depends on button strength (LK = farthest/horizontal, MK = middle, HK = shortest/vertical); must hold button 28f; counter-hit/Punish Counter bonus advantage applies to both hits; projectile comes out in 6f if button is released from frames 28-47 (total startup 34-53f); cannot use if SA2 is active",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 5,
+      "onPerfectParry": -14,
+      "onPunishCounter": 9,
+      "projectileSpeed": 0.03,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 28,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 69
+    },
+    {
+      "active": "3(5)2(4)2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.248,
+      "blockstun": 32,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,200x2 (700)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 1500,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 37,
+      "id": "rashid__236lp",
+      "input": {
+        "numpad": "236LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1,1",
+        "limit": "5,5,5",
+        "start": "1,1,1 air"
+      },
+      "name": {
+        "en": "Spinning Mixer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great pressure tool that is safe on block and can blow throw armor; 5f extra recovery on whiff; Counter-hit/Punish Counter bonus advantage applies through all hits (allows for follow-up combo); can be affected by Air Current on frames 2-16; if the 3rd hit whiffs in a Burnout pressure sequence, Rashid is safe at -3 oB",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -19,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "2(4)3(3)3(4)3(3)3(4)3(3)3(4)3(3)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 7.58,
+      "blockstun": 71,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200,100x8 (1000)",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 500,
+        "gain": 100
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 73,
+      "id": "rashid__236lp(aircurrent)",
+      "input": {
+        "numpad": "236LP (Air Current)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x8,7",
+        "limit": "9x9",
+        "start": "0x8,7 air"
+      },
+      "name": {
+        "en": "Spinning Mixer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fullscreen advancing move that gives a combo on hit and frame advantage on block; counter-hit/Punish Counter bonus advantage applies through all hits (allows for a stronger follow-up combo)",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 4,
+      "onPerfectParry": -15,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 100
+      },
+      "totalFrames": 74
+    },
+    {
+      "active": "1,2(2)2(5)2(3)2",
+      "afterDriveRush": null,
+      "airborne": "13-60 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.956,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,100x3,200 (800)",
+      "dmgScaling": "10% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 400
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "rashid__236mp",
+      "input": {
+        "numpad": "236MP",
+        "official": null
+      },
+      "invuln": "6-14 Air",
+      "juggle": {
+        "increase": "0x4,6",
+        "limit": "5x5",
+        "start": "1x4,6"
+      },
+      "name": {
+        "en": "Spinning Mixer",
+        "ja": null
+      },
+      "notes": {
+        "en": "The last 11f of landing recovery is cancelable into special moves or supers on hit only; 4f worse advantage and 1 less hit when crouch blocked; cannot anti-air cross-ups; can be affected by Air Current on frames 2-8",
+        "ja": null
+      },
+      "onBlock": -45,
+      "onHit": 31,
+      "onPerfectParry": -65,
+      "onPunishCounter": 31,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 34,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 300
+      },
+      "totalFrames": 74
+    },
+    {
+      "active": "1,2(2)2(4)2(3)2(6)2(3)2(5)2(3)2(5)2(3)2",
+      "afterDriveRush": null,
+      "airborne": "9-96 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.956,
+      "blockstun": 41,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 75,
+      "damage": 200,
+      "damageText": "200x2,100x8,200 (1400)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 5000,
+        "gain": 150
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "rashid__236mp(aircurrent)",
+      "input": {
+        "numpad": "236MP (Air Current)",
+        "official": null
+      },
+      "invuln": "3-11 Air",
+      "juggle": {
+        "increase": "0x10,1",
+        "limit": "10x2,20x9",
+        "start": "1,0x9,1"
+      },
+      "name": {
+        "en": "Spinning Mixer",
+        "ja": null
+      },
+      "notes": {
+        "en": "On block, gets +1 hit vs. tall standing characters, and -1 hit vs. crouching characters (affects block data, chip, meter gain, etc.); cannot anti-air cross-ups; travels fullscreen",
+        "ja": null
+      },
+      "onBlock": -75,
+      "onHit": 37,
+      "onPerfectParry": -90,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 37,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 75,
+        "onHit": 150
+      },
+      "totalFrames": 120
+    },
+    {
+      "active": "1,2(2)3(2)4(2)4(2)4(2)4(2)4(2)3",
+      "afterDriveRush": null,
+      "airborne": "10-86 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.956,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x2,100x6,200 (1400)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "rashid__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": "1-8 Full, 9-13 Air",
+      "juggle": {
+        "increase": "0x8,99",
+        "limit": "10x2,20x7",
+        "start": "1x8,99"
+      },
+      "name": {
+        "en": "Spinning Mixer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shorter animation with less landing recovery on block only; cannot anti-air cross-ups; can only hit twice vs. grounded opponents (will not break DI armor); 5f extra knockdown advantage if the final hit whiffs (keeps Rashid safe); can be affected by Air Current on frames 2-8",
+        "ja": null
+      },
+      "onBlock": -53,
+      "onHit": 9,
+      "onPerfectParry": -70,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 38,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 100
+      },
+      "totalFrames": 110
+    },
+    {
+      "active": "1,2(2)3(2)4(2)4(2)4(2)4(2)4(2)4(2)4",
+      "afterDriveRush": null,
+      "airborne": "8-95 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.956,
+      "blockstun": 39,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200x2,100x8,200 (1400)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": null,
+      "id": "rashid__236pp(aircurrent)",
+      "input": {
+        "numpad": "236PP (Air Current)",
+        "official": null
+      },
+      "invuln": "1-6 Full",
+      "juggle": {
+        "increase": "0x10,1",
+        "limit": "10x2,20x9",
+        "start": "1x2,0x8,1"
+      },
+      "name": {
+        "en": "Spinning Mixer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot anti-air cross-ups; 12f worse advantage and 2 fewer hits when crouch blocked; on hit or block, Rashid can cancel into j.214K on frames 67-71 after the active period",
+        "ja": null
+      },
+      "onBlock": -77,
+      "onHit": 42,
+      "onPerfectParry": -91,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 36,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 100
+      },
+      "totalFrames": 119
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -7,
+        "onHit": 31
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.711,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "rashid__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Cyclone Slicer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be juggled into even without Drive Rush; 4f extra recovery on block; disadvantage on block is fixed regardless of which active frame connects (cannot make it safer when meaty)",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 31,
+      "onPerfectParry": -27,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.748,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 29,
+      "id": "rashid__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Decent poke that can be buffered into supers; good close range Punish Counter starter (combos into 5HP), but high pushback makes it less reliable at longer ranges; 2 extra recovery frames on whiff; topmost hurtboxes on frames 8-14 are projectile invincible (avoids Sagat's MP/HP Tiger Shot)",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 5,
+      "onPerfectParry": -22,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.1,
+      "blockstun": 10,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "rashid__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 3,
+      "onPerfectParry": -9,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 15
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.02,
+      "blockstun": 9,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -2,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "rashid__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; DR cancel is delayed until after 2nd active frame; topmost hurtbox on frames 1-7 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -8,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 3
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.405,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 8
+      },
+      "hitstop": 9,
+      "hitstun": 20,
+      "id": "rashid__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Standard cancelable low poke; Range: 1.405; DR cancel is delayed until after active frames",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": -1,
+      "onPerfectParry": -19,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.168,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 11
+      },
+      "hitstop": 11,
+      "hitstun": 21,
+      "id": "rashid__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Combo and pressure tool with many active frames for easy oki; can anti-air on frames 7-9 but cannot hit opponents behind Rashid; whiffs on crouching opponents at longer ranges unless they extend a vertical hurtbox",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 4,
+      "onPerfectParry": -15,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 22
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Sunset Drop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switches; Rashid can pressure with DR~6HK (+1 oB) midscreen or corner; or DR~2HP in the corner (huge pushback, links to SA1); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 24,
+      "onPerfectParry": null,
+      "onPunishCounter": 24,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Check this out! Now you try.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 220,
+      "superGauge": null,
+      "totalFrames": 220
+    },
+    {
+      "active": "8",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 3
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.964,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 4000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "rashid__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "1",
+        "start": "2 air[3 PC Ground]"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state; Punish Counter launches grounded opponents into limited juggle state and causes airborne opponents to fall closer to Rashid; decent anti-air hitbox, but very slow and cannot hit cross-up; high pushback on hit and block; forces stand on hit; final 2 active frames whiff on crouching opponents unless they extend a vertical hurtbox; has an extended hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": -1,
+      "onPerfectParry": -24,
+      "onPunishCounter": 49,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.449,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 9,
+        "onHit": 14
+      },
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "rashid__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Decent mid-range button with a strong hitbox for counterpoking; can combo to 214HK after Drive Rush or Punish Counter; special/DR cancel is delayed until after 2nd active frame",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": -22,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 32
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.01,
+      "blockstun": 12,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "rashid__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Highest hitstun light normal makes it useful for special cancels (the only light normal that can combo into 214LK naturally); DR cancel is delayed until after active frames",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 3,
+      "onPerfectParry": -11,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.271",
+        "onHit": "0.266"
+      },
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 16
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.11,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "rashid__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -9,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.418",
+        "onHit": "0.405"
+      },
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.578,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 26,
+      "id": "rashid__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Combo starter that links into 5MP or into itself on counter-hit; 2 extra recovery frames on whiff",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 6,
+      "onPerfectParry": -18,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.132,
+      "blockstun": 18,
+      "cancel": [
+        "target_combo",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "rashid__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Useful for starting combos and block pressure; has a Target Combo follow-up that can be canceled into 236LP for safety on block or into higher damage routes on hit",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -15,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 22
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 3,
+        "onHit": 65
+      },
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "rashid__5mphk",
+      "input": {
+        "numpad": "5MP~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Rising Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state; both hits form a true blockstring and can cancel to 236LP for safety; special/DR cancel is delayed until after 4th recovery frame",
+        "ja": null
+      },
+      "onBlock": -20,
+      "onHit": 42,
+      "onPerfectParry": null,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 36,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 600
+      },
+      "totalFrames": 52
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Do this... and this... and this. It's easy as pie.\"; hurtbox shifts as Rashid moves (lower body invuln frames 52-74, 83-107, 208-236; low profile 121-141, 169-186)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 534,
+      "superGauge": null,
+      "totalFrames": 534
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__6[6]",
+      "input": {
+        "numpad": "6[6]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Run",
+        "ja": null
+      },
+      "notes": {
+        "en": "Input by holding forward after a forward dash; cancelable into 6P or 6K follow-ups on frames 18-72; after 72f, Rashid has 18f stopping recovery if no follow-up is input (90f total); stopping the run early has 5f recovery; no stopping recovery if jumping forward out of the run animation (neutral/back jump still plays out the 5f recovery); counter-hit state during entire run animation; affected by Air Current for entire duration except for 18f recovery, causing Rashid to run faster",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 5,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 90
+    },
+    {
+      "active": "2(4)3",
+      "afterDriveRush": null,
+      "airborne": "6-21 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.597,
+      "blockstun": 26,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": "600x2",
+      "dmgScaling": "15% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 33,
+      "id": "rashid__6[6]6k",
+      "input": {
+        "numpad": "6[6]~6K",
+        "official": null
+      },
+      "invuln": "6-21 Throw",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "10,10",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Tempest Moon",
+        "ja": null
+      },
+      "notes": {
+        "en": "Counter-hit/Punish Counter bonus advantage applies to both hits; frames 1-3 can be affected by Air Current, becoming the Enhanced version",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "3(21)2(3)3",
+      "afterDriveRush": null,
+      "airborne": "21-36 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.89,
+      "blockstun": 49,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400x2,600",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "rashid__6[6]6k(aircurrent)",
+      "input": {
+        "numpad": "6[6]~6K (Air Current)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1,1",
+        "limit": "4,10,10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tempest Moon (Air Current)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle OTG state if first hit connects (regular knockdown if first hit doesn't connect)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 56,
+      "onPerfectParry": -21,
+      "onPunishCounter": 56,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.728,
+      "blockstun": 17,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 48,
+      "id": "rashid__6[6]6p",
+      "input": {
+        "numpad": "6[6]~6P",
+        "official": null
+      },
+      "invuln": "1-19 Upper Body Projectile",
+      "juggle": {
+        "increase": "0,1",
+        "limit": "10,10",
+        "start": "0,1"
+      },
+      "name": {
+        "en": "Backup",
+        "ja": null
+      },
+      "notes": {
+        "en": "Crouching state for entire move duration; on hit, connects twice and switches sides, remaining projectile invincible throughout the entire animation; on block, connects once and stays on the same side; if opponent is cornered, Rashid is close enough for a follow-up combo; counter-hit/Punish Counter bonus advantage applies to both hits; frames 1-17 can be affected by Air Current",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 7,
+      "onPerfectParry": -25,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.892,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "rashid__6hk",
+      "input": {
+        "numpad": "6HK",
+        "official": null
+      },
+      "invuln": "7-19 Lower Body",
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crescent Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f extra recovery on whiff; useful for hopping over low pokes and comboing into MP normals on Punish Counter, but not actually airborne; good option out of Drive Rush; can be spaced to hit on later active frames for better advantage; can be affected by Air Current on frames 6-19 (travels fullscreen)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -22,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.863,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "rashid__6hp",
+      "input": {
+        "numpad": "6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Beak Assault",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long-ranged overhead that can lead to combos if well-spaced; not actually airborne despite the animation; can be affected by Air Current on frames 4-25 (travels nearly fullscreen)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.25,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "rashid",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "rashid__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Eagle Slash (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.25,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "rashid",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "rashid__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Eagle Slash (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__6kk",
+      "input": {
+        "numpad": "6KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Side Flip",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can input 4KK/5KK/6KK follow-up on frames 19-25; collision box disappears frames 8-23, allowing Rashid to pass through opponents; can be affected by Air Current on frames 2-20, traveling nearly fullscreen; travel distance: 1.7 (3.62 enhanced)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 32,
+      "superGauge": null,
+      "totalFrames": 32
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "11-43 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__6kkkk",
+      "input": {
+        "numpad": "6KK~KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Front Flip",
+        "ja": null
+      },
+      "notes": {
+        "en": "Input during 6KK; holding forward/back/neutral direction affects flip distance; can use any air attack frames 22-40; can be affected by Air Current on frames 1-36, traveling forward fullscreen",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 51
+    },
+    {
+      "active": "2(14)2",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.436,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": "300x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2500,
+        "gain": 750
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 13
+      },
+      "hitstop": 8,
+      "hitstun": 23,
+      "id": "rashid__6mp",
+      "input": {
+        "numpad": "6MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "4,4",
+        "start": "1 air (1st)"
+      },
+      "name": {
+        "en": "Flapping Spin",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to startup of 2nd hit; 1st hit puts airborne opponents into limited juggle state (or maintains juggle state when used mid-combo); 2nd hit causes air reset; counter-hit/Punish Counter bonus advantage applies to both hits; decent range for whiff punishing; can be affected by Air Current on frames 3-10 (travels fullscreen)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -18,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Hmm? Hey look, just relax and have fun, alright?\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 545,
+      "superGauge": null,
+      "totalFrames": 545
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.579,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "rashid",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "rashid__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Eagle Edge",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 9000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "rashid__j214hk",
+      "input": {
+        "numpad": "j.214HK",
+        "official": null
+      },
+      "invuln": "1-29 Projectile (Leg)",
+      "juggle": {
+        "increase": "1",
+        "limit": "15",
+        "start": "1"
+      },
+      "name": {
+        "en": "Arabian Skyhigh",
+        "ja": null
+      },
+      "notes": {
+        "en": "From forward jump or 6KK~KK only; 1st active frame can only connect in juggles; puts opponent into limited juggle state on hit; has minimum height restriction (will not activate after low-height j.2HP); KD Advantage varies greatly based on the height it connects; performs a double-jump after the initial flip kick (longest trajectory); can be affected by Air Current on frames 1-21",
+        "ja": null
+      },
+      "onBlock": -43,
+      "onHit": 20,
+      "onPerfectParry": -63,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": "1000,500",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 7000,
+        "dealtOnHit": 4500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "rashid__j214kk",
+      "input": {
+        "numpad": "j.214KK",
+        "official": null
+      },
+      "invuln": "1-21 Projectile (Leg)",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "15,99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Arabian Skyhigh",
+        "ja": null
+      },
+      "notes": {
+        "en": "From forward jump or 6KK~KK only; 1st active frame can only connect in juggles; puts opponent into limited juggle OTG state on hit; has minimum height restriction (will not activate after low-height j.2HP); performs a double-jump after the initial flip kick; on hit, transitions into a follow-up divekick that is projectile invincible; can be affected by Air Current on frames 1-13",
+        "ja": null
+      },
+      "onBlock": -25,
+      "onHit": 34,
+      "onPerfectParry": -47,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 9000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "rashid__j214lk",
+      "input": {
+        "numpad": "j.214LK",
+        "official": null
+      },
+      "invuln": "1-21 Projectile (Leg)",
+      "juggle": {
+        "increase": "1",
+        "limit": "15",
+        "start": "1"
+      },
+      "name": {
+        "en": "Arabian Skyhigh",
+        "ja": null
+      },
+      "notes": {
+        "en": "From forward jump or 6KK~KK only; 1st active frame can only connect in juggles; puts opponent into limited juggle state on hit; has minimum height restriction (will not activate after low-height j.2HP); KD Advantage varies greatly based on the height it connects; performs a double-jump after the initial flip kick (shortest trajectory); can be affected by Air Current on frames 1-13",
+        "ja": null
+      },
+      "onBlock": -32,
+      "onHit": 16,
+      "onPerfectParry": -53,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 9000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "rashid__j214mk",
+      "input": {
+        "numpad": "j.214MK",
+        "official": null
+      },
+      "invuln": "1-26 Projectile (Leg)",
+      "juggle": {
+        "increase": "1",
+        "limit": "15",
+        "start": "1"
+      },
+      "name": {
+        "en": "Arabian Skyhigh",
+        "ja": null
+      },
+      "notes": {
+        "en": "From forward jump or 6KK~KK only; 1st active frame can only connect in juggles; puts opponent into limited juggle state on hit; has minimum height restriction (will not activate after low-height j.2HP); KD Advantage varies greatly based on the height it connects; performs a double-jump after the initial flip kick (medium trajectory, similar to normal jump); can be affected by Air Current on frames 1-18",
+        "ja": null
+      },
+      "onBlock": -35,
+      "onHit": 18,
+      "onPerfectParry": -56,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD after bounce)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.63,
+      "blockstun": 17,
+      "cancel": [
+        "special"
+      ],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 850,
+      "damageText": null,
+      "dmgScaling": "15% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 37,
+      "id": "rashid__j2hp",
+      "input": {
+        "numpad": "j.2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1(0)",
+        "limit": "12(16)",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Blitz Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be performed during forward jump or after j.214K; causes spike knockdown and OTG juggle state vs. airborne opponents; cancelable into j.214K; bounces off opponent on hit/block/parry, allowing Rashid to follow up with another airborne move (except another j.2HP) on frames 12-23; if Rashid hits airborne opponent 1f before landing, he lands immediately rather than bouncing; listed frame advantage assumes a grounded opponent and no follow-up air attack; juggle data in () refers to version after j.214K; lower body projectile invuln 10-19f except around attack hitbox",
+        "ja": null
+      },
+      "onBlock": -29,
+      "onHit": -9,
+      "onPerfectParry": -44,
+      "onPunishCounter": -5,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.02,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "rashid__j8hk",
+      "input": {
+        "numpad": "j.8HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Aerial Shot",
+        "ja": null
+      },
+      "notes": {
+        "en": "During neutral jump only; puts airborne opponents into limited juggle state, making it a useful air-to-air; lower body projectile invuln 8-19f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 8,
+      "onHit": 12,
+      "onPerfectParry": -5,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.02,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "rashid__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "When used after j.214K or 214P~4K, causes a spike knockdown vs. airborne opponents; lower body projectile invuln 10-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -9,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4(2)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.07,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2500,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": 19,
+      "id": "rashid__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0,1",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "1st hit puts airborne opponents into limited juggle state, 2nd hit causes spike knockdown; if 1st hit is stand blocked, the 2nd hit will not hit overhead against crouch block; lower body projectile invuln 8-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 7,
+      "onHit": 11,
+      "onPerfectParry": -6,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.17,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "rashid__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Longest horizontal range of Rashid's jump normals",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 7,
+      "onPerfectParry": -4,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "rashid__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Quick air-to-air",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -3,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__jlplk",
+      "input": {
+        "numpad": "j.LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Desert Slider",
+        "ja": null
+      },
+      "notes": {
+        "en": "Useful air-to-air against close range jumps; in the corner, can get oki with Drive Rush",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 27,
+      "onPerfectParry": null,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.72,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "rashid__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; lower body projectile invuln 7-20f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 7,
+      "onPerfectParry": -8,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.93,
+      "blockstun": 11,
+      "cancel": [
+        "special"
+      ],
+      "category": "normal",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "rashid__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10",
+        "limit": "5",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state; cancels into j.214K from forward jumps; lower body projectile invuln 9-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -4,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Riding Glider",
+        "ja": null
+      },
+      "notes": {
+        "en": "Allows for a corner throw loop by holding Run for 18-20f, then letting go before throwing (17-20f for Blanka/E.Honda/Zangief); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 27,
+      "onPerfectParry": null,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.796 (min/throw), 2.253 (min/block), 2.998 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "rashid",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "rashid__9(againstwall)",
+      "input": {
+        "numpad": "9 (against wall)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Wall Jump",
+        "ja": null
+      },
+      "notes": {
+        "en": "Counter-hit state during entire duration; can be done from Back or Neutral jump if fully against the wall, or after Forward Jump against a cornered opponent; cannot be performed after j.2HP or j.214K",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:10.772Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": null
+    }
+  ],
+  "name": {
+    "en": "Rashid",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

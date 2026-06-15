@@ -5,7 +5,7 @@
 //   - 低頻度の手動バッチ + キャッシュ、出典明記 + CC-BY-SA 継承
 
 import { mkdirSync, writeFileSync } from 'node:fs'
-import { dirname } from 'node:path'
+import { join } from 'node:path'
 import { type Character, characterSchema, type Move, normalizeInput } from '@repo/core'
 
 const API = 'https://srk.shib.live/api.php'
@@ -354,6 +354,51 @@ export function getCharacterSlug(charaName: string): string {
   return lower.replace(/\./g, '').replace(/[\s-]/g, '_')
 }
 
+/**
+ * Parse a leading numeric value, tolerating wiki markup, brackets and parenthetical
+ * secondary values. Examples:
+ *   "2000" → 2000, "[8000]" → 8000, "1000 (700)" → 1000, "1.545" → 1.545,
+ *   "500x2" → 500, "{{{field}}}" / "-" / "" → null
+ */
+export function parseNumber(raw: string): number | null {
+  const text = stripMarkup(raw)
+  if (!text || text === '-' || text.includes('{{{')) return null
+  const match = text.replace(/[[\]]/g, '').match(/-?\d+(?:\.\d+)?/)
+  return match ? Number(match[0]) : null
+}
+
+export interface ParsedDamage {
+  value: number | null
+  text: string | null
+}
+
+/**
+ * Parse a damage value, keeping the raw text only when it is a compound expression.
+ *   "800" → { value: 800, text: null }
+ *   "500x2" → { value: 500, text: "500x2" }
+ *   "1400(800)" → { value: 1400, text: "1400(800)" }
+ *   "{{{damage}}}" / "-" → { value: null, text: null }
+ */
+export function parseDamage(raw: string): ParsedDamage {
+  const text = stripMarkup(raw)
+  if (!text || text === '-' || text.includes('{{{')) return { text: null, value: null }
+  const match = text.match(/^(\d+)/)
+  const value = match ? Number(match[1]) : null
+  return { text: value !== null && text === String(value) ? null : text, value }
+}
+
+// 任意テキスト列をクリーンな文字列 or null に正規化する（未入力テンプレ/ハイフンは null）。
+function textOrNull(raw: unknown): string | null {
+  const text = stripMarkup(String(raw ?? ''))
+  if (!text || text === '-' || text.includes('{{{')) return null
+  return text
+}
+
+// オブジェクトの全フィールドが null なら null を返す（疎なグループ列をまとめる）。
+function nullIfAllEmpty<T extends Record<string, unknown>>(obj: T): T | null {
+  return Object.values(obj).some((value) => value !== null) ? obj : null
+}
+
 export interface SF6FrameDataRow {
   moveId?: string
   moveType?: string
@@ -361,6 +406,8 @@ export interface SF6FrameDataRow {
   input?: string
   name?: string
   damage?: string
+  chip?: string
+  dmgScaling?: string
   startup?: string
   active?: string
   recovery?: string
@@ -368,8 +415,32 @@ export interface SF6FrameDataRow {
   hitAdv?: string
   blockAdv?: string
   punishAdv?: string
+  perfParryAdv?: string
+  DRcancelHit?: string
+  DRcancelBlk?: string
+  afterDRHit?: string
+  afterDRBlk?: string
+  hitstun?: string
+  blockstun?: string
+  hitstop?: string
+  driveDmgHit?: string
+  driveDmgBlk?: string
+  driveGain?: string
+  superGainHit?: string
+  superGainBlk?: string
+  invuln?: string
+  armor?: string
+  airborne?: string
+  jugStart?: string
+  jugIncrease?: string
+  jugLimit?: string
+  projSpeed?: string
+  atkRange?: string
+  pushbackHit?: string
+  pushbackBlk?: string
   guard?: string
   cancel?: string
+  notes?: string
   [key: string]: unknown
 }
 
@@ -380,58 +451,89 @@ export interface SF6CharacterDataRow {
   [key: string]: unknown
 }
 
+// 行から指定列を文字列で取り出す（未定義は空文字）。?? をここに閉じ込め toMove の複雑度を下げる。
+function col(row: SF6FrameDataRow, key: string): string {
+  return String(row[key] ?? '')
+}
+
 /**
  * Convert a SF6_FrameData row to a Move object
  */
 export function toMove(row: SF6FrameDataRow, characterId: string, fetchedAt: string): Move {
-  const input = String(row.input ?? '').trim()
+  const input = col(row, 'input').trim()
   const inputNorm = normalizeInput(input) || input.toLowerCase()
-  const moveId = `${characterId}__${inputNorm}`
+  const damageParsed = parseDamage(col(row, 'damage'))
+  const invuln = textOrNull(row.invuln)
+  const armor = textOrNull(row.armor)
+  const airborne = textOrNull(row.airborne)
 
-  const startupParsed = parseFrameValue(String(row.startup ?? ''))
-  const activeParsed = parseFrameValue(String(row.active ?? ''))
-  const recoveryParsed = parseFrameValue(String(row.recovery ?? ''))
-
-  const hitAdvParsed = parseAdvantage(String(row.hitAdv ?? ''))
-  const blockAdvParsed = parseAdvantage(String(row.blockAdv ?? ''))
-
-  const cancelList = parseCancel(String(row.cancel ?? ''))
-  const guardList = parseGuard(String(row.guard ?? ''))
-
-  const properties: string[] = [...guardList]
+  // properties = ガード方向タグ + 無敵/アーマー/空中の有無タグ（search_moves の属性検索用）。
+  const properties: string[] = [...parseGuard(col(row, 'guard'))]
+  if (invuln) properties.push('invincible')
+  if (armor) properties.push('armor')
+  if (airborne) properties.push('airborne')
 
   // 出典は正典の SuperCombo ページを指す（取得は mirror API 経由だが attribution は本家を示す）
-  const pageName = String(row.chara ?? '')
-    .trim()
-    .replace(/ /g, '_')
+  const pageName = col(row, 'chara').trim().replace(/ /g, '_')
   const sourceUrl = `https://wiki.supercombo.gg/w/Street_Fighter_6/${pageName}/Frame_data`
 
   return {
-    active: activeParsed.text,
+    active: parseFrameValue(col(row, 'active')).text,
+    afterDriveRush: nullIfAllEmpty({
+      onBlock: parseAdvantage(col(row, 'afterDRBlk')).value,
+      onHit: parseAdvantage(col(row, 'afterDRHit')).value,
+    }),
+    airborne,
     aliases: [],
-    cancel: cancelList,
-    category: mapMoveType(String(row.moveType ?? 'normal')),
+    armor,
+    attackRange: parseNumber(col(row, 'atkRange')),
+    blockstun: parseFrameValue(col(row, 'blockstun')).value,
+    cancel: parseCancel(col(row, 'cancel')),
+    category: mapMoveType(col(row, 'moveType') || 'normal'),
     characterId,
-    id: moveId,
-    input: {
-      numpad: input,
-      official: null,
-    },
-    name: {
-      en: String(row.name ?? '').trim(),
-      ja: null,
-    },
-    onBlock: blockAdvParsed.value,
-    onHit: hitAdvParsed.value,
+    chipDamage: parseNumber(col(row, 'chip')),
+    damage: damageParsed.value,
+    damageText: damageParsed.text,
+    dmgScaling: textOrNull(row.dmgScaling),
+    driveGauge: nullIfAllEmpty({
+      dealtOnBlock: parseNumber(col(row, 'driveDmgBlk')),
+      dealtOnHit: parseNumber(col(row, 'driveDmgHit')),
+      gain: parseNumber(col(row, 'driveGain')),
+    }),
+    driveRushCancel: nullIfAllEmpty({
+      onBlock: parseAdvantage(col(row, 'DRcancelBlk')).value,
+      onHit: parseAdvantage(col(row, 'DRcancelHit')).value,
+    }),
+    hitstop: parseFrameValue(col(row, 'hitstop')).value,
+    hitstun: parseFrameValue(col(row, 'hitstun')).value,
+    id: `${characterId}__${inputNorm}`,
+    input: { numpad: input, official: null },
+    invuln,
+    juggle: nullIfAllEmpty({
+      increase: textOrNull(row.jugIncrease),
+      limit: textOrNull(row.jugLimit),
+      start: textOrNull(row.jugStart),
+    }),
+    name: { en: col(row, 'name').trim(), ja: null },
+    notes: nullIfAllEmpty({ en: textOrNull(row.notes), ja: null }),
+    onBlock: parseAdvantage(col(row, 'blockAdv')).value,
+    onHit: parseAdvantage(col(row, 'hitAdv')).value,
+    onPerfectParry: parseAdvantage(col(row, 'perfParryAdv')).value,
+    onPunishCounter: parseAdvantage(col(row, 'punishAdv')).value,
+    projectileSpeed: parseNumber(col(row, 'projSpeed')),
     properties,
-    recovery: recoveryParsed.value,
-    source: {
-      fetchedAt,
-      license: 'CC-BY-SA',
-      url: sourceUrl,
-    },
-    startup: startupParsed.value,
-    totalFrames: parseFrameValue(String(row.total ?? '')).value,
+    pushback: nullIfAllEmpty({
+      onBlock: textOrNull(row.pushbackBlk),
+      onHit: textOrNull(row.pushbackHit),
+    }),
+    recovery: parseFrameValue(col(row, 'recovery')).value,
+    source: { fetchedAt, license: 'CC-BY-SA', url: sourceUrl },
+    startup: parseFrameValue(col(row, 'startup')).value,
+    superGauge: nullIfAllEmpty({
+      onBlock: parseNumber(col(row, 'superGainBlk')),
+      onHit: parseNumber(col(row, 'superGainHit')),
+    }),
+    totalFrames: parseFrameValue(col(row, 'total')).value,
   }
 }
 
@@ -553,8 +655,18 @@ async function fetchFrameData(characters: Map<string, Character>, limit: number)
   console.log('Fetching frame data...')
 
   const frameDataUrl = buildCargoQueryUrl({
-    fields:
-      'moveId,moveType,chara,input,name,damage,startup,active,recovery,total,hitAdv,blockAdv,punishAdv,guard,cancel',
+    fields: [
+      'moveId,moveType,chara,input,name',
+      'damage,chip,dmgScaling',
+      'startup,active,recovery,total',
+      'hitAdv,blockAdv,punishAdv,perfParryAdv',
+      'DRcancelHit,DRcancelBlk,afterDRHit,afterDRBlk',
+      'hitstun,blockstun,hitstop',
+      'driveDmgHit,driveDmgBlk,driveGain,superGainHit,superGainBlk',
+      'invuln,armor,airborne',
+      'jugStart,jugIncrease,jugLimit,projSpeed,atkRange,pushbackHit,pushbackBlk',
+      'guard,cancel,notes',
+    ].join(','),
     tables: 'SF6_FrameData',
   })
 
@@ -589,30 +701,47 @@ export async function fetchAllFrameData(): Promise<Character[]> {
   return result
 }
 
+// キャラ id を JS の識別子に変換（import 名用。snake_case のみだが念のため正規化）。
+function importName(id: string): string {
+  return `c_${id.replace(/[^a-zA-Z0-9_]/g, '_')}`
+}
+
 /**
- * Write characters to JSON file and validate with zod schema
+ * Write characters as per-character JSON files + an auto-generated index.ts barrel.
+ * 1ファイルだと巨大になり再スクレイプ差分が見づらいので、キャラ単位に分割する。
+ * index.ts が各 JSON を静的 import して結合配列を default export する（実行時に1配列へ）。
  */
-export function writeCharactersJSON(characters: Character[], outputPath: string): void {
-  // Validate all characters
+export function writeCharactersData(characters: Character[], outDir: string): void {
   for (const character of characters) {
     characterSchema.parse(character)
   }
 
-  // Ensure directory exists
-  mkdirSync(dirname(outputPath), { recursive: true })
+  mkdirSync(outDir, { recursive: true })
 
-  // Write with pretty formatting
-  writeFileSync(outputPath, JSON.stringify(characters, null, 2))
-  console.log(`Wrote ${characters.length} characters to ${outputPath}`)
+  const sorted = [...characters].sort((a, b) => a.id.localeCompare(b.id))
+  for (const character of sorted) {
+    writeFileSync(join(outDir, `${character.id}.json`), `${JSON.stringify(character, null, 2)}\n`)
+  }
+
+  const imports = sorted.map((c) => `import ${importName(c.id)} from './${c.id}.json'`).join('\n')
+  const entries = sorted.map((c) => `  ${importName(c.id)},`).join('\n')
+  const indexTs = `// AUTO-GENERATED by apps/scraper (pnpm --filter @repo/scraper fetch). Do not edit by hand.
+${imports}
+
+export default [
+${entries}
+]
+`
+  writeFileSync(join(outDir, 'index.ts'), indexTs)
+  console.log(`Wrote ${sorted.length} character files + index.ts to ${outDir}`)
 }
 
 // Main CLI entry point
 if (import.meta.url === `file://${process.argv[1]}`) {
-  const outputPath = new URL('../../../packages/data/src/generated/sf6.json', import.meta.url)
-    .pathname
+  const outDir = new URL('../../../packages/data/src/generated/', import.meta.url).pathname
 
   fetchAllFrameData()
-    .then((characters) => writeCharactersJSON(characters, outputPath))
+    .then((characters) => writeCharactersData(characters, outDir))
     .then(() => {
       console.log('Done!')
       process.exit(0)

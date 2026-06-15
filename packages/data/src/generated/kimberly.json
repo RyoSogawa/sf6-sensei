@@ -1,0 +1,5420 @@
+{
+  "aliases": [],
+  "id": "kimberly",
+  "moves": [
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "2-20 (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 2.74,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "kimberly",
+      "chipDamage": 750,
+      "damage": 2800,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": "100",
+        "start": null
+      },
+      "name": {
+        "en": "Bushin Scramble",
+        "ja": null
+      },
+      "notes": {
+        "en": "Becomes airborne during screen freeze (can dodge grounded attacks despite not having invincibility); screen freeze causes active spraycans to disappear; first hit before cinematic does 300 damage",
+        "ja": null
+      },
+      "onBlock": -26,
+      "onHit": 22,
+      "onPerfectParry": -44,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 39,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 59
+    },
+    {
+      "active": "6(1)6(1)6(8)3",
+      "afterDriveRush": null,
+      "airborne": "9-49 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.05,
+      "blockstun": 24,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 112,
+      "damage": 450,
+      "damageText": "450,360x2 (1170)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 5000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__214hk",
+      "input": {
+        "numpad": "214HK",
+        "official": null
+      },
+      "invuln": "7-13 Air, 9-13 Throw, 9-49 Lower Body Projectile",
+      "juggle": {
+        "increase": "1/1/1",
+        "limit": "4/8/9",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bushin Senpukyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; often too slow to work in juggles; if first hit (active frames 1-6) whiffs, still hits 3 times but the first hit only does 180 damage",
+        "ja": null
+      },
+      "onBlock": -35,
+      "onHit": 21,
+      "onPerfectParry": -57,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 66
+    },
+    {
+      "active": "6(1)6(1)6(1)6(1)2",
+      "afterDriveRush": null,
+      "airborne": "7-47 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.05,
+      "blockstun": 19,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 112,
+      "damage": 450,
+      "damageText": "450,200x3,360 (1410)",
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 5000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": "1-11 Air, 7-11 Throw, 7-47 Lower Body Projectile",
+      "juggle": {
+        "increase": "1/1/1/1/1",
+        "limit": "10/11/12/13/14",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bushin Senpukyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; higher juggle potential than other versions; other than SA2 cancel, starter scaling only occurs if Spraycan detonates immediately after first grounded hit, or after a high-connect 4-hit 214KK",
+        "ja": null
+      },
+      "onBlock": -40,
+      "onHit": 21,
+      "onPerfectParry": -57,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 64
+    },
+    {
+      "active": "6(1)6(1)6(8)3",
+      "afterDriveRush": null,
+      "airborne": "7-42 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.95,
+      "blockstun": 24,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 90,
+      "damage": 360,
+      "damageText": "360,270,360 (990)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 5000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__214lk",
+      "input": {
+        "numpad": "214LK",
+        "official": null
+      },
+      "invuln": "5-11 Air, 7-11 Throw, 7-42 Lower Body Projectile",
+      "juggle": {
+        "increase": "1/1/1",
+        "limit": "4/8/9",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bushin Senpukyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; if first hit (active frames 1-6) whiffs, still hits 3 times but the first hit only does 90 damage",
+        "ja": null
+      },
+      "onBlock": -30,
+      "onHit": 23,
+      "onPerfectParry": -52,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 6,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 59
+    },
+    {
+      "active": "6(1)6(1)6(8)3",
+      "afterDriveRush": null,
+      "airborne": "8-45 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1,
+      "blockstun": 24,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 90,
+      "damage": 360,
+      "damageText": "360x3 (1080)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 5000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__214mk",
+      "input": {
+        "numpad": "214MK",
+        "official": null
+      },
+      "invuln": "6-12 Air, 8-12 Throw, 8-45 Lower Body Projectile",
+      "juggle": {
+        "increase": "1/1/1",
+        "limit": "4/8/9",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bushin Senpukyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot hit cross-up; if first hit (active frames 1-6) whiffs, still hits 3 times but the first hit only does 90 damage",
+        "ja": null
+      },
+      "onBlock": -32,
+      "onHit": 22,
+      "onPerfectParry": -54,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__214p",
+      "input": {
+        "numpad": "214P",
+        "official": null
+      },
+      "invuln": "19-26 Full",
+      "juggle": null,
+      "name": {
+        "en": "Hidden Variable",
+        "ja": null
+      },
+      "notes": {
+        "en": "After reappearing, 7f recovery is cancelable into any attack except Parry or another 214P (otherwise 17f recovery); grants forward momentum when canceled into attacks, unlocking some unique combo routes due to pushback (slower attacks do not benefit from this momentum); normals (except 2HK or command normals) performed after reappearing add +3 to the move's Juggle Limit and put airborne opponents into a limited juggle state (similar to Drive Rush juggles except that the attacks still increase the juggle counter by the usual amount)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": null,
+      "totalFrames": 43
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": "22-42 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": "19-26 Full",
+      "juggle": null,
+      "name": {
+        "en": "Hidden Variable",
+        "ja": null
+      },
+      "notes": {
+        "en": "After reappearing, can act after 7f recovery; air follow-ups have the same properties as regular jump attacks (including 3 landing recovery frames); if Kimberly does not act, she has 1 punishable landing recovery frame, then 2 landing frames where she can block or cancel into an attack; cannot use j.236P after reappearing mid-air",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__22pp(refill)",
+      "input": {
+        "numpad": "22PP (refill)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Genius at Play",
+        "ja": null
+      },
+      "notes": {
+        "en": "Refills 2 spray cans; cannot reload if a spray can is currently stocked or is active on-screen",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 42,
+      "superGauge": null,
+      "totalFrames": 44
+    },
+    {
+      "active": "[10 each]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 30,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 112,
+      "damage": 450,
+      "damageText": "450x2 (900)",
+      "dmgScaling": "10% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__22pp(2stock)",
+      "input": {
+        "numpad": "22PP (2 stock)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "4",
+        "start": "0"
+      },
+      "name": {
+        "en": "Shuriken Bomb Spread",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button strengths determine distance of each can (each strength of spraycan reaches the ground with the same timing as the 1-stock version); cannot reload while spraycans are active on-screen; spraycans spawn on frame 18 (if Kimberly is hit before this, they will not be thrown); LP+HP gives near-simultaneous explosions (6f gap between hits); LP+HP version can be useful in corner setups with Drive Impact that will break armor on the opponent's counter-DI; LP+MP and MP+HP versions result in a staggered explosion (explode on frames 122/170 or 124/174 respectively); staggered explosions combo on hit, and leave a blockstring gap of 19f for LP+MP and 20f for MP+HP; the staggered version generally gives stronger combos and allows for multiple mixups in one sequence; staggered version allows for extended blockstring sequences that can deal incredible Drive damage; many non-cinematic reversals can be punished after landing even when hitting Kimberly; the first explosion can juggle if opponent is thrown immediately afterwards; puts opponent into free juggle state, or maintains the current juggle state if comboed into; spraycan disappears if SA2 is activated; the 2nd can does not add any extra hits of damage scaling, but will take on the scaling level of any other hits that occur between the spraycan explosions (e.g. 1st can 70%, j.HP 60%, 2nd can 60%)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__22p(refill)",
+      "input": {
+        "numpad": "22P (refill)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Genius at Play",
+        "ja": null
+      },
+      "notes": {
+        "en": "Refills 1 spray can; cannot reload if a spray can is currently stocked or is active on-screen",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 42,
+      "superGauge": null,
+      "totalFrames": 44
+    },
+    {
+      "active": "[10]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 30,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 112,
+      "damage": 450,
+      "damageText": null,
+      "dmgScaling": "10% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__22p(1stock)",
+      "input": {
+        "numpad": "22P (1 stock)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "4",
+        "start": "0"
+      },
+      "name": {
+        "en": "Shuriken Bomb",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button strength determines distance; can throw a second can even while one is active on-screen (but cannot reload during this time); spraycan spawns on frame 18 (if Kimberly is hit before this, it will not be thrown); LP can hits the ground on frame 24 and explodes on frame 122; MP can hits the ground on frame 26 and explodes on frame 124; HP can hits the ground on frame 30 and explodes on frame 128; explosion can juggle if opponent is thrown immediately afterwards (MP/HP cans give more time for juggle follow-ups); puts opponent into free juggle state, or maintains the current juggle state if comboed into; important tool for corner oki scenarios; spraycan disappears if SA2 is activated",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 88,
+      "onPerfectParry": null,
+      "onPunishCounter": 88,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "15",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 3.564,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "kimberly",
+      "chipDamage": 500,
+      "damage": 1800,
+      "damageText": null,
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-12 Strike/Throw",
+      "juggle": {
+        "increase": "100",
+        "limit": "100",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bushin Beats",
+        "ja": null
+      },
+      "notes": {
+        "en": "Travels ~75% screen length; does not throw spraycan without holding the button",
+        "ja": null
+      },
+      "onBlock": -25,
+      "onHit": 22,
+      "onPerfectParry": -39,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 40,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 66
+    },
+    {
+      "active": "15",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 3.564,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "kimberly",
+      "chipDamage": 500,
+      "damage": 2200,
+      "damageText": null,
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5001,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__236236[k]",
+      "input": {
+        "numpad": "236236[K]",
+        "official": null
+      },
+      "invuln": "1-12 Strike/Throw",
+      "juggle": {
+        "increase": "100",
+        "limit": "100",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bushin Thunderous Beats",
+        "ja": null
+      },
+      "notes": {
+        "en": "Holding the button consumes 1 can for better damage and oki; travels ~75% screen length; spraycan only does 1 Drive damage to prevent opponent from recovering Drive meter too quickly",
+        "ja": null
+      },
+      "onBlock": -25,
+      "onHit": 38,
+      "onPerfectParry": -39,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 40,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 66
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.842,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "kimberly",
+      "chipDamage": 1110,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "kimberly__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-13 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "100",
+        "start": null
+      },
+      "name": {
+        "en": "Bushin Ninjastar Cypher",
+        "ja": null
+      },
+      "notes": {
+        "en": "Immediately upon activation, Kimberly gains 11% buff to attack damage and walk speed for the rest of the match; cinematic time regenerates ~1.9 Drive bars for Kimberly",
+        "ja": null
+      },
+      "onBlock": -35,
+      "onHit": 16,
+      "onPerfectParry": -55,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 51,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 64
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.842,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "kimberly",
+      "chipDamage": 1387,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "kimberly__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-13 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "100",
+        "start": null
+      },
+      "name": {
+        "en": "Bushin Ninjastar Cypher (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Immediately upon activation, Kimberly gains 11% buff to attack damage and walk speed for the rest of the match; available at 25% HP or below; cinematic time regenerates ~2.1 Drive bars for Kimberly",
+        "ja": null
+      },
+      "onBlock": -35,
+      "onHit": 16,
+      "onPerfectParry": -55,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 51,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 64
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.747,
+      "blockstun": 21,
+      "cancel": [
+        "super",
+        "/",
+        "jmp"
+      ],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 90,
+      "damage": 360,
+      "damageText": "360,180 (540)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1/1",
+        "limit": "1/2",
+        "start": "1/2"
+      },
+      "name": {
+        "en": "Vagabond Edge",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state; very limited juggle potential, so it won't combo from 5MP~HP; 2nd hit only comes out on hit; forward jump cancelable on hit only; (note: frame display shows 3f extra block recovery, but this is a bug - total frame count remains unchanged)",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 56,
+      "onPerfectParry": -28,
+      "onPunishCounter": 56,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 53
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__236k",
+      "input": {
+        "numpad": "236K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Sprint",
+        "ja": null
+      },
+      "notes": {
+        "en": "Holding forward causes Kimberly to continue running without activating Arc Step (must not let go of forward input at any point); can hold forward + button to activate follow-up at the earliest possible timing; Movement speed: 0.112/frame during cancelable frames",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": null,
+      "totalFrames": 55
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Sprint",
+        "ja": null
+      },
+      "notes": {
+        "en": "Holding forward causes Kimberly to continue running without activating Arc Step (must not let go of forward input at any point); cancels into follow-ups after 8 frames minimum (can cancel into Emergency Stop 2f earlier); Movement speed: 0.135/frame during cancelable frames",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": null,
+      "totalFrames": 54
+    },
+    {
+      "active": "2,3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.287,
+      "blockstun": 23,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 202,
+      "damage": 810,
+      "damageText": "810,270 (1080)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "kimberly__236kkhk",
+      "input": {
+        "numpad": "236KK~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0/1",
+        "limit": "10",
+        "start": "0/1"
+      },
+      "name": {
+        "en": "Neck Hunter",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into short OTG juggle state (only SA2/SA3 cancels can follow up); Super cancels whiff vs. grounded opponents",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 25,
+      "onPerfectParry": -22,
+      "onPunishCounter": 25,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "2,5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.128,
+      "blockstun": 26,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 135,
+      "damage": 540,
+      "damageText": "540x2",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "kimberly__236kklk",
+      "input": {
+        "numpad": "236KK~LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0/1",
+        "limit": "7/8",
+        "start": "0/1"
+      },
+      "name": {
+        "en": "Torso Cleaver",
+        "ja": null
+      },
+      "notes": {
+        "en": "Kicking legs are Anti-Air Invuln 14-23f (cannot hit cross-up); active frames 3-7 only hit airborne opponents above Kimberly (only active frames 1-2 are useful for meaty pressure); 2nd hit will expand its hitbox if the 1st hit connects, allowing both to connect on hit/block; puts opponent into limited juggle state (launches high in juggles, allowing Drive Rush 2HP loops); () refers to higher KD advantage when juggled into",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 43,
+      "onPerfectParry": -21,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 39
+    },
+    {
+      "active": "8,4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.61,
+      "blockstun": 19,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": "700,200 (900)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 4,
+      "hitstun": 26,
+      "id": "kimberly__236kkmk",
+      "input": {
+        "numpad": "236KK~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0/1",
+        "limit": "3/4",
+        "start": "0/1"
+      },
+      "name": {
+        "en": "Shadow Slide",
+        "ja": null
+      },
+      "notes": {
+        "en": "4-19f low profile and upper body projectile invuln (only on the Slide itself); puts opponent into limited juggle state; advantage varies significantly depending on which active frame of the 2nd hit connects; () refers to KD advantage when juggled into (KD +49 from 5MP~HP unless delayed); 1st hit forces stand vs. grounded opponents (ensures SA2 cancel can connect); if the 1st hit connects with the opponent, the 2nd hit has a greatly expanded vertical hitbox to ensure juggle consistency",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 47,
+      "onPerfectParry": -21,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__236kkp",
+      "input": {
+        "numpad": "236KK~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Emergency Stop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Allows combo extensions from 5HP or 2HP, like a Drive Rush cancel for 2 bars with no damage scaling; latest possible stop occurs after 41f (54f total animation); shortest OD Run~Stop distance: 1.48",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": null,
+      "totalFrames": 19
+    },
+    {
+      "active": "2(6)2(Whiff: 1)",
+      "afterDriveRush": null,
+      "airborne": "20-54 (FKD), hit/block only",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 45,
+      "damage": 180,
+      "damageText": "180,90 (270)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2500,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 43,
+      "id": "kimberly__236kk(close)",
+      "input": {
+        "numpad": "236KK (close)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1/0",
+        "limit": "1/2",
+        "start": "1/0"
+      },
+      "name": {
+        "en": "Arc Step",
+        "ja": null
+      },
+      "notes": {
+        "en": "True blockstring when canceled from 2HP; can frame trap vs. 4f normals when canceled from 5HP, 5MP, 5MK, or 5MP~HP; only comes out if there is an opponent at close range on or near the ground after the 13th frame of OD Sprint; if opponent becomes airborne after startup, the whiffed attack has 1f active + 25f recovery; if Perfect Parried, Kimberly becomes airborne before opponent can Throw punish (can be punished with Drive Impact airborne connect or a Forced Knockdown normal up to 6f startup)",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 3,
+      "onPerfectParry": -30,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 100
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 105,
+      "damage": 420,
+      "damageText": "420,210 (630)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__236kk(close)k",
+      "input": {
+        "numpad": "236KK (close)~K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1/1",
+        "limit": "3/5",
+        "start": "3/1"
+      },
+      "name": {
+        "en": "Bushin Hojin Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes Wall Splat on hit near the corner; 2nd hit of the divekick occurs on hit only (1 hit on whiff or block); SA2 cancel works on either hit",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 43,
+      "onPerfectParry": -21,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__236kk(close)p",
+      "input": {
+        "numpad": "236KK (close)~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": null,
+        "start": "2"
+      },
+      "name": {
+        "en": "Bushin Izuna Otoshi",
+        "ja": null
+      },
+      "notes": {
+        "en": "Throw connects against grounded opponents, whiffs vs. airborne or backdash; opponent is put into a limited juggle OTG state (slightly less time for juggle follow-ups than j.236PP)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 94,
+      "onPerfectParry": null,
+      "onPunishCounter": 94,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 40,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 1000
+      },
+      "totalFrames": 58
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.287,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__236khk",
+      "input": {
+        "numpad": "236K~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Neck Hunter",
+        "ja": null
+      },
+      "notes": {
+        "en": "SA3 cancel can only combo in high connect juggles, or if overhead is absorbed by armor",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 23,
+      "onPerfectParry": -22,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.128,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__236klk",
+      "input": {
+        "numpad": "236K~LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Torso Cleaver",
+        "ja": null
+      },
+      "notes": {
+        "en": "Kicking legs are Anti-Air Invuln 18-27f (cannot hit cross-up); active frames 3-7 only hit airborne opponents above Kimberly (only active frames 1-2 are useful for meaty pressure); puts opponent into limited juggle state; () refers to higher KD advantage when juggled into",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 41,
+      "onPerfectParry": -21,
+      "onPunishCounter": 41,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "12",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.61,
+      "blockstun": 19,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 180,
+      "damage": 720,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "kimberly__236kmk",
+      "input": {
+        "numpad": "236K~MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Shadow Slide",
+        "ja": null
+      },
+      "notes": {
+        "en": "6-21f low profile and upper body projectile invuln (only on the Slide itself); puts opponent into limited juggle state; advantage varies significantly depending on which active frame connects; () refers to KD advantage when juggled into (KD +47 from 5MP~HP unless delayed); cancel to SA3 can whiff when used from longer range",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 39,
+      "onPerfectParry": -29,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__236kp",
+      "input": {
+        "numpad": "236K~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Emergency Stop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Latest possible stop occurs after 41f (55f total animation); shortest Run~Stop distance: 1.64",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": null,
+      "totalFrames": 22
+    },
+    {
+      "active": "2(6)2(Whiff: 1)",
+      "afterDriveRush": null,
+      "airborne": "22-56 (FKD), hit/block only",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 67,
+      "damage": 270,
+      "damageText": "270,180 (450)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2500,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": 43,
+      "id": "kimberly__236k(close)",
+      "input": {
+        "numpad": "236K (close)",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1/0",
+        "limit": "1/2",
+        "start": "1/0"
+      },
+      "name": {
+        "en": "Arc Step",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can frame trap vs. 4f normals when canceled from 2HP, 5HP, or 5MP; only comes out if there is an opponent at close range on or near the ground after the 15th frame of Sprint; if opponent becomes airborne after startup, the whiffed attack has 1f active + 25f recovery; if Perfect Parried, Kimberly becomes airborne before opponent can Throw punish (can be punished with Drive Impact airborne connect or a Forced Knockdown normal up to 6f startup)",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 3,
+      "onPerfectParry": -30,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 100
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 157,
+      "damage": 630,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__236k(close)k",
+      "input": {
+        "numpad": "236K (close)~K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bushin Hojin Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "KD Adv. is +31 if Arc Step is blocked, +30 on hit midscreen, +29 on hit in the corner",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 29,
+      "onPerfectParry": -21,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 1440,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__236k(close)p",
+      "input": {
+        "numpad": "236K (close)~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bushin Izuna Otoshi",
+        "ja": null
+      },
+      "notes": {
+        "en": "Grabs standing/crouching opponents, whiffs vs. airborne (can be backdashed)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 31,
+      "onPerfectParry": null,
+      "onPunishCounter": 31,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 40,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 58
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.838,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 202,
+      "damage": 810,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 27,
+      "id": "kimberly__236lp",
+      "input": {
+        "numpad": "236LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Vagabond Edge",
+        "ja": null
+      },
+      "notes": {
+        "en": "Has juggle potential; good for safe pressure against opponents in Burnout (0 oB, setting up a follow-up 2LP that trades with 4f normals and can kara cancel into Parry/Super if the opponent performs a reversal Super); strongest 236P version when Super canceling; () refers to KD Adv. when juggled into (lower height gives lower KD Adv.); 3rd active frame has extra range, allowing it to be spaced for safety or combo extensions; extends a large hurtbox on whiff until the end of recovery",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 3,
+      "onPerfectParry": -22,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.19,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 135,
+      "damage": 540,
+      "damageText": "540x2 (1080)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 4000,
+        "gain": 1200
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__236mp",
+      "input": {
+        "numpad": "236MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1/1",
+        "limit": "20/21",
+        "start": "1"
+      },
+      "name": {
+        "en": "Vagabond Edge",
+        "ja": null
+      },
+      "notes": {
+        "en": "2nd hit only comes out on hit; () refers to reduced KD Adv. when juggled into; (note: frame display shows 3f extra block recovery, but this is a bug - total frame count remains unchanged)",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 37,
+      "onPerfectParry": -28,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.375,
+      "blockstun": 21,
+      "cancel": [
+        "super",
+        "/",
+        "jmp"
+      ],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 90,
+      "damage": 360,
+      "damageText": "360,180 (540)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 3000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1/1",
+        "limit": "1/2",
+        "start": "1/2"
+      },
+      "name": {
+        "en": "Vagabond Edge",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state; 2nd hit only comes out on hit; forward jump cancelable on hit only; gives the launch of 236HP with the startup and juggle potential of 236MP; (note: frame display shows 3f extra block recovery, but this is a bug - total frame count remains unchanged)",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 56,
+      "onPerfectParry": -28,
+      "onPunishCounter": 56,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -6,
+        "onHit": 38
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.52,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 810,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Water Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Has some juggle potential; can be used in place of 236LP in some juggles for extra meter build and higher KD advantage",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 38,
+      "onPerfectParry": -25,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 600,
+        "onHit": 1200
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "6",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.62,
+      "blockstun": 21,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 720,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2500
+      },
+      "driveRushCancel": {
+        "onBlock": 11,
+        "onHit": 16
+      },
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "kimberly__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand on hit; good anti-air but cannot hit cross-up; in Drive Rush juggles, opponent is kept high enough to connect instant j.236PP for a ground bounce; can be up to +8/+3 meaty; best button for Run pressure (cancel into Arc Step beats 4f light normals); Run~Stop cancel: +3/-2 (OD: +6/+1)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.03,
+      "blockstun": 8,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 180,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "kimberly__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; slightly more pushback than other combo-starting lights, but can still chain 3 lights if starting point blank; can link to 5MP/2MP on Counter-hit or into 2HP out of close range Drive rush",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -8,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.01,
+      "blockstun": 9,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 270,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "kimberly__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; Run~Stop cancel: -9/-14 (OD: -6/-11)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -8,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.259",
+        "onHit": "0.289"
+      },
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 13
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.17,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 540,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 1200
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "kimberly__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Non-cancelable, but can combo afterward and is a great option out of Drive Rush",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -17,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 25
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 11
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.11,
+      "blockstun": 15,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 1200
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "kimberly__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on whiff; important combo tool; Run~Stop cancel: -1/-9 (OD: +2/-6); special/DR cancel is delayed until after 2nd active frame; extends a hurtbox on whiff until the end of recovery (feet 6-23f, arm 6-15f with partial retraction 16-23f)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 7,
+      "onPerfectParry": -14,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 13,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 21
+    },
+    {
+      "active": "10",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.564,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 450,
+      "damageText": null,
+      "dmgScaling": "15% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "kimberly__3mk",
+      "input": {
+        "numpad": "3MK",
+        "official": null
+      },
+      "invuln": "9-21 Upper Body Projectile",
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Water Slicer Slide",
+        "ja": null
+      },
+      "notes": {
+        "en": "Low profile 9-21f (combined with upper body projectile invuln, great at avoiding projectiles); the large extended hurtbox above her leg is also projectile invuln (more susceptible to mid counter-pokes in neutral); if it connects in a free juggle, puts airborne opponents into limited juggle state; the first 4 active frames have a set recovery that locks the frame advantage to +1/-5, and also cause a knockdown on Punish Counter (does not apply to later active frames, allowing combo extensions after punishing projectiles)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 1,
+      "onPerfectParry": -24,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.195,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 720,
+      "damageText": null,
+      "dmgScaling": "25% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 25,
+      "id": "kimberly__4hk",
+      "input": {
+        "numpad": "4HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "10",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Windmill Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces crouch on hit, making opponents wider for easier follow-up links; causes spike KD vs. airborne opponents; allows link to 2LP naturally, and 5MP link out of Drive Rush (DR momentum does not allow 2MP, 5MP or 2HP to reach opponent)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -19,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 1082,
+      "damageText": "1082 (1839)",
+      "dmgScaling": "20% Starter; 20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": null,
+        "start": "0,1"
+      },
+      "name": {
+        "en": "Bell Ringer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switches; no throw oki after back throwing opponent into corner, but can meaty with strikes; starter scaling applies to Spraycan juggle follow-ups (requires staggered 2x Spraycans, follow-up juggles very limited); damage distribution is 401,681 (PC: 451,1388) and only the first hit will apply damage when comboing into Spraycan; Punish Counter also splits Meter data into 2 equal hits (only deals +50 damage and 0.5 bars of Drive Damage on spraycan juggles); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 8,
+      "onPerfectParry": null,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 1000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Rin Pyo To Sha Kai Jin Retsu Zai Zen!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 328,
+      "superGauge": null,
+      "totalFrames": 328
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 6,
+        "onHit": 11
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.42,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 630,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "kimberly__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Whiffs vs. crouching opponents if not point blank unless they extend a vertical hurtbox; good combo and pressure starter; upper body is Air Invuln 10-15f (decent anti-air, but a little slow and cannot hit cross-up); the small hitbox on Kimberly's foot can only hit airborne opponents",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 7,
+      "onPerfectParry": -19,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 32
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.41,
+      "blockstun": 19,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 630,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 9,
+        "onHit": 16
+      },
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "kimberly__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "In punishes, can cancel to Run~Stop or Teleport to maintain close position, then link into 5HK or 5HP; single hit confirmable, but will not combo to 236HP on the final cancel frame; Run~Stop cancel: +3/-4 (OD: +6/-1); can frame trap into meterless Arc Step; edge of hitbox is raised to make the attack more vulnerable to low-profile attacks; extends a hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 31
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.2,
+      "blockstun": 11,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 270,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": 1,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "kimberly__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good range for a cancelable light normal; possible to chain 4 lights (2LP, 2LP, 5LP, 5LK) into 236LP/Super or into 214HK vs. standing; Run~Stop cancel: -8/-12 (OD: -5/-9)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -12,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.97,
+      "blockstun": 8,
+      "cancel": [
+        "chain",
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 270,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -2,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "kimberly__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK or into Bushin Prism Strikes; Run~Stop cancel: -8/-15 (OD: -5/-12)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 5,
+      "onPerfectParry": -8,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 360,
+      "damageText": "360(288)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 800
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 22,
+      "id": "kimberly__5lpmp",
+      "input": {
+        "numpad": "5LP~MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bushin Prism Strikes 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage from 5LP combo starter; difficult for most characters to punish if well spaced (e.g. 2LP, 5LP, 5LP~MP)",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 1,
+      "onPerfectParry": null,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 26
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 580,
+      "damageText": "580(406)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": null,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 29,
+      "id": "kimberly__5lpmp2hp",
+      "input": {
+        "numpad": "5LP~MP~2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bushin Hellchain 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage from 5LP combo starter; useful against Drive Impacts, as this hit will land as a +4 counter-hit at point blank range; on hit, leaves Kimberly close for a strike/throw mixup",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 2,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 750,
+      "damageText": "750(450)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": null,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__5lpmp2hp2hk",
+      "input": {
+        "numpad": "5LP~MP~2HP~2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bushin Hellchain Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage from 5LP combo starter; throws opponent backwards for a side switch; very useful when Kimberly is cornered; cannot hit airborne opponents; true blockstring even at max delay; leads to a 9f safejab setup with immediate DR~2LP",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 16,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 700
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 750,
+      "damageText": "750(450)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": null,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__5lpmp2hphk",
+      "input": {
+        "numpad": "5LP~MP~2HP~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bushin Hellchain 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage from 5LP combo starter; knocks opponent far away on hit; true blockstring even at max delay; (better KD Adv. after a DR juggle, maintains limited juggle state)",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 26,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 440,
+      "damageText": "440(308)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": null,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": null,
+      "id": "kimberly__5lpmphp",
+      "input": {
+        "numpad": "5LP~MP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bushin Prism Strikes 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage from 5LP combo starter; puts opponent into limited juggle state; can juggle with Bushin Senpukyaku in the corner; gives strong KD Adv. for oki, such as Spray Can setups",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 47,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 520,
+      "damageText": "520(312)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "kimberly__5lpmphphk",
+      "input": {
+        "numpad": "5LP~MP~HP~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bushin Prism Strikes 3",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage from 5LP combo starter; 5f extra recovery on block; 10f gap between final 2 hits on block; airborne hit causes a small ground bounce that increases knockdown advantage, allowing for a spraycan setup (will always occur unless the first 3 hits are blocked before the final hit connects)",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 49,
+      "onPerfectParry": -25,
+      "onPunishCounter": 26,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.458,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 540,
+      "damageText": null,
+      "dmgScaling": "15% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 22,
+      "id": "kimberly__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Most important normal in footsies, particularly canceled into Drive Rush; Run~Stop cancel: -1/-6 (OD: +2/-3)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": -19,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.169,
+      "blockstun": 19,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 540,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 9,
+        "onHit": 14
+      },
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "kimberly__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Important combo tool with a Target Combo follow-up; Run~Stop cancel: +1/-4 (OD: +4/-1); collision box extends forward, allowing Kimberly to set up a tricky auto-shimmy with whiffed 5MP on a knocked down opponent; cancel into Run~Stop leaves Kim at +0 oB vs. Burnout (against reversal Super, sets up timing to kara cancel her next attack into Parry/Super)",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 3,
+      "onPerfectParry": -19,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 26
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 360,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 8000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 47
+      },
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__5mphp",
+      "input": {
+        "numpad": "5MP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bushin Tiger Fangs",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into a limited juggle state; will not combo into 236HP; Run~Stop cancel: KD+34/-6 (OD: KD+37/-3)",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 28,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 38
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Man, come on, I'm ready to go!\"; during SA3 install, this taunt can be input with 2PPPKKK instead",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 200,
+      "superGauge": null,
+      "totalFrames": 200
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "(Dance animation during SA3 only)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 545,
+      "superGauge": null,
+      "totalFrames": 545
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 5
+      },
+      "airborne": "18-32 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.923,
+      "blockstun": 13,
+      "cancel": [
+        "jmp"
+      ],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 720,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 17,
+      "hitstun": 25,
+      "id": "kimberly__6hk",
+      "input": {
+        "numpad": "6HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Hisen Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can hop over low pokes for a Punish Counter combo; puts airborne opponents into limited juggle state; can cancel into forward, neutral, or back jump on hit or block; 8f less recovery on block only; 1f more hitstun vs. crouching opponents; much shorter range on the final active frame",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -14,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 27,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 50
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__6hk7",
+      "input": {
+        "numpad": "6HK~7",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Step Up (backward hop)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Startup refers to earliest frame that Kimberly can perform air follow-ups after Hop",
+        "ja": null
+      },
+      "onBlock": -22,
+      "onHit": -10,
+      "onPerfectParry": null,
+      "onPunishCounter": -6,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": null,
+      "totalFrames": 33
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__6hk8",
+      "input": {
+        "numpad": "6HK~8",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Step Up (neutral hop)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Startup refers to earliest frame that Kimberly can perform air follow-ups after Hop",
+        "ja": null
+      },
+      "onBlock": -22,
+      "onHit": -10,
+      "onPerfectParry": null,
+      "onPunishCounter": -6,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 33
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__6hk9",
+      "input": {
+        "numpad": "6HK~9",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Step Up (forward hop)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Crosses over the opponent; startup refers to earliest frame that Kimberly can perform air follow-ups after Hop",
+        "ja": null
+      },
+      "onBlock": -22,
+      "onHit": -10,
+      "onPerfectParry": null,
+      "onPunishCounter": -6,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 33
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.51,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "kimberly",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "kimberly__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Shapeless State (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]]; SA3 install increases recoverable damage to 555",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.51,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "kimberly",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "kimberly__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Shapeless State (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); SA3 install increases recoverable damage to 555; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Dōmo arigatō, from the Bushinryu!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 290,
+      "superGauge": null,
+      "totalFrames": 290
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.543,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "kimberly",
+      "chipDamage": 180,
+      "damage": 720,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "kimberly__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Steadfast Strike",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "kimberly",
+      "chipDamage": 750,
+      "damage": 2800,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "kimberly__j214214p",
+      "input": {
+        "numpad": "j.214214P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": "100",
+        "start": null
+      },
+      "name": {
+        "en": "Soaring Bushin Scramble",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can only be used from Forward Jump; screen freeze causes active spraycans to disappear; first hit before cinematic does 300 damage; 2f startup when canceled from OD special moves only",
+        "ja": null
+      },
+      "onBlock": -26,
+      "onHit": 22,
+      "onPerfectParry": -43,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 39,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2(7)2(7)2",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 56,
+      "damage": 225,
+      "damageText": "225x2,450 (900)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 1700,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 21,
+      "id": "kimberly__j214k",
+      "input": {
+        "numpad": "j.214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1/1/1",
+        "limit": "15/16/17",
+        "start": "1"
+      },
+      "name": {
+        "en": "Aerial Bushin Senpukyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Only possible during forward jump or after 6HK Forward Hop; can be done immediately with Tiger Knee motion (2149K); inputting at the end of Kimberly's jump arc allows 3 hits vs. standing, 1 hit vs. crouching (otherwise, 1 hit vs. standing and whiffs on crouching); listed () KD advantage refers to air juggled version",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -16,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2(2)3(2)2(2)3(2)2",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": 112,
+      "damage": 450,
+      "damageText": "450,90x2,270,450 (1350)",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 1000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 21,
+      "id": "kimberly__j214kk",
+      "input": {
+        "numpad": "j.214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1/1/1/1/1",
+        "limit": "10/11/12/13/14",
+        "start": "1"
+      },
+      "name": {
+        "en": "Aerial Bushin Senpukyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Only possible during forward jump or after 6HK Forward Hop; can be done immediately with Tiger Knee motion (2149K); inputting at the end of Kimberly's jump arc allows 3 hits vs. standing, 1 hit vs. crouching (otherwise, 1 hit vs. standing and whiffs on crouching); can cross-up at close range vs. standing opponents (useful to escape corner throw loops if opponent is at +2 or worse); listed () KD advantage refers to air juggled version; can cancel into SA2 mid-air, or follow up with SA3 after landing in the corner",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -19,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 1440,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__j236p",
+      "input": {
+        "numpad": "j.236P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "2",
+        "start": "2"
+      },
+      "name": {
+        "en": "Nue Twister",
+        "ja": null
+      },
+      "notes": {
+        "en": "Air throw that can be comboed into; good combo ender due to damage and decent okizeme, especially in the corner; no minimum height requirement; the first 15 landing recovery frames put Kimberly in a crouching state; Range: 1.0",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 22,
+      "onPerfectParry": null,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__j236pp",
+      "input": {
+        "numpad": "j.236PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "2",
+        "start": "2"
+      },
+      "name": {
+        "en": "Nue Twister",
+        "ja": null
+      },
+      "notes": {
+        "en": "Air throw that can be comboed into; causes OTG bounce (limited juggle state); no minimum height requirement; the first 15 landing recovery frames put Kimberly in a crouching state; Range: 1.0",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 98,
+      "onPerfectParry": null,
+      "onPunishCounter": 98,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.6,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 540,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 17,
+      "id": "kimberly__j2mp",
+      "input": {
+        "numpad": "j.2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Elbow Drop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can only be performed from Forward Jump; spike KD vs. airborne opponents; stops Kimberly's air momentum (useful for baiting anti-airs); maximum advantage is only possible when input at the latest possible timing (frame 30 of jump; otherwise, connects with 2nd to last active frame); minimum advantage is more likely to apply to tall standing characters, but is usually at least +5/-2",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -11,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 8,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.09,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 630,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 20,
+      "id": "kimberly__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "5",
+        "limit": "5",
+        "start": "2"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Great horizontal range and a good downward hitbox; useful for air resets after corner wallsplat into 6HK; lower body projectile invuln 9-35f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 6,
+      "onHit": 11,
+      "onPerfectParry": -7,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.68,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 630,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 20,
+      "id": "kimberly__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "5",
+        "start": "0"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Causes spike knockdown vs. airborne opponents; best hitbox for opponents directly below Kimberly; useful in juggles with 2 spraycans as it does not increase the opponent's juggle count; lower body projectile invuln 8-30f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 9,
+      "onPerfectParry": -9,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.55,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 270,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "kimberly__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "2"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; can be used as a fuzzy instant overhead (vs. Blanka, will not work after perfect safe jump j.HP/j.HK timing, making it useless in corner spraycan setup)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -7,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.75,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 270,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "kimberly__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Quick air-to-air",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 7,
+      "onPerfectParry": -4,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.06,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 540,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "kimberly__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "2"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; lower body projectile invuln 7-30f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -7,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.9,
+      "blockstun": 13,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 450,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "kimberly__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "4",
+        "limit": "4",
+        "start": "4"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state; lower body projectile invuln 6-28f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 7,
+      "onHit": 11,
+      "onPerfectParry": -4,
+      "onPunishCounter": 15,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": 1082,
+      "damageText": "1082 (1838)",
+      "dmgScaling": "20% Starter; 20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": null,
+        "start": "0,1"
+      },
+      "name": {
+        "en": "Ripcord Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can walk forward for a strong manually-timed corner throw loop; starter scaling applies to Spraycan juggle follow-ups; damage distribution is 501,581 (PC: 700,1138) and only the first hit will apply damage when comboing into Spraycan; Punish Counter also splits Meter data into 2 equal hits (only deals +199 damage and 0.5 bars of Drive Damage on spraycan setups vs. Parry); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 17,
+      "onPerfectParry": null,
+      "onPunishCounter": 17,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 1000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "kimberly",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "kimberly__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.817 (min/throw), 2.479 (min/block), 3.565 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:09.475Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Kimberly/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "Kimberly",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}

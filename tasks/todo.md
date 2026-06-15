@@ -39,11 +39,16 @@
   - [x] 体系的な通常技を入力から自動導出（`deriveNormalJaName`: 5/2/j.+強度+P/K → 立ち弱パンチ等、538件）
   - [ ] 必殺技/SA/CA の固有名（波動拳・昇竜拳…）。英語のみのソースのため手動キュレーション要（保留）
   - [ ] 挑発の体系的命名（Back/Neutral/Forward/Down Taunt → 後ろ/N/前/下挑発）。任意
+- [x] フレームデータのエンリッチ（ダメージ/無敵/アーマー/Drive・SAゲージ/PC・PP有利/DRキャンセル/notes 等を取得）
+  - [x] core `moveSchema` 拡張（全 nullable）、scraper `toMove` + `parseNumber`/`parseDamage` でパース、再スクレイプ（2026-06-15）
+  - [x] `invuln`/`armor`/`airborne` を `properties` タグにも展開（`search_moves` 属性検索用）
+- [x] 生成データをキャラ別 JSON に分割（`generated/<charId>.json` + 自動生成 `index.ts`、実行時に結合）
 - [ ] 差分チェック（既存 JSON との比較）
 - [x] CC-BY-SA の出典表記をデータ（各 Move.source）/ README / spec に明記
 
 ## Phase 3: データストア
-- [ ] D1（SQLite）スキーマ設計（検索インデックス含む）
+- メモリ常駐で十分（2306技は µs オーダー、バンドル gzip 約580KB < 上限1024KB）。下記トリガーで D1 移行:
+- [ ] D1（SQLite）スキーマ設計（検索インデックス含む）← 可変データ（将来のプレイヤー別メモ）/ 大規模化 / バンドル上限接近時
 - [ ] JSON → D1 投入スクリプト（マイグレーション）
 
 ## Phase 4: MCP サーバー — 完了 2026-06-13

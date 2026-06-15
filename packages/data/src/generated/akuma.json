@@ -1,0 +1,5934 @@
+{
+  "aliases": [],
+  "id": "akuma",
+  "moves": [
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 33,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "akuma",
+      "chipDamage": 750,
+      "damage": 2900,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "akuma__214214k",
+      "input": {
+        "numpad": "214214K",
+        "official": null
+      },
+      "invuln": "1-11 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "50",
+        "start": null
+      },
+      "name": {
+        "en": "Misogi",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shin Akuma only (Back Taunt~Down Taunt); teleports above opponent from anywhere on screen; 3f less recovery on whiff or Perfect Parry; startup is functionally 9f on grounded opponents (10f vs. standard-height crouchers); much less KD advantage and 2f more recovery vs. airborne opponents; cannot be canceled into from OD specials like other Level 2 Supers; cannot be beaten with anti-air invincibility since Akuma is fully invuln and technically never goes airborne",
+        "ja": null
+      },
+      "onBlock": -58,
+      "onHit": 25,
+      "onPerfectParry": -86,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 88,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 99
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.873,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "akuma",
+      "chipDamage": 750,
+      "damage": 2800,
+      "damageText": null,
+      "dmgScaling": "40% Starter; Combo (4 hits); 40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "akuma__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": "1-11 Full",
+      "juggle": {
+        "increase": "1",
+        "limit": "100",
+        "start": "1 (Forced)"
+      },
+      "name": {
+        "en": "Empyrean’s End",
+        "ja": null
+      },
+      "notes": {
+        "en": "Sends the opponent tumbling ~1/3 screen; causes wallsplat near corner (unless 214PP~6P wallsplat occurred earlier in the combo); the cinematic resets the opponent's juggle counter, allowing a follow-up wallsplat juggle regardless of previous juggle state; wallsplat is similar to Drive Impact, allowing moves to juggle that normally would not be possible; close-range opponent cannot jump away after the Super freeze to avoid chip damage",
+        "ja": null
+      },
+      "onBlock": -35,
+      "onHit": 29,
+      "onPerfectParry": -53,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 52,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 63
+    },
+    {
+      "active": "3(6)3(9)3(18)3",
+      "afterDriveRush": null,
+      "airborne": "8-72 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,300x2,600 (1600)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 1000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "akuma__214hk",
+      "input": {
+        "numpad": "214HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,0,1",
+        "limit": "5,5,5,8",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tatsumaki Zanku-Kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "6f extra recovery on block/whiff; can hit crouching opponents; upward angle, primarily used as a juggle ender for damage and corner carry",
+        "ja": null
+      },
+      "onBlock": -59,
+      "onHit": 34,
+      "onPerfectParry": -78,
+      "onPunishCounter": 34,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 250
+      },
+      "totalFrames": 86
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.316,
+      "blockstun": 19,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "akuma__214hp",
+      "input": {
+        "numpad": "214HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "3",
+        "start": "0"
+      },
+      "name": {
+        "en": "Adamant Flame",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on whiff; extra advantage on Punish Counter (+12) makes it a strong shimmy tool; 6P follow-up is a true blockstring even at max delay; can be spaced in neutral for +1f better advantage (very precise); foot hurtbox is pulled back on frames 6-18 (can make low attacks whiff); has more pushback on block vs. Burnout",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -20,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 44
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "Combo (3 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "akuma__214hp6p",
+      "input": {
+        "numpad": "214HP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Adamant Flame Follow-Up",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot come out on whiff; true blockstring from 214HP even at max delay; puts opponents into limited juggle state with follow-up juggles possible in the corner",
+        "ja": null
+      },
+      "onBlock": -14,
+      "onHit": 47,
+      "onPerfectParry": -30,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 28,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "2(4)2(4)2(3)2(4)2",
+      "afterDriveRush": null,
+      "airborne": "5-44 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 50,
+      "damage": 200,
+      "damageText": "200x3,100,300 (1000)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 800,
+        "dealtOnHit": 1000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "akuma__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1,0,0,1",
+        "limit": "10,11,12,13,14",
+        "start": "3"
+      },
+      "name": {
+        "en": "Tatsumaki Zanku-Kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Whiffs on crouching opponents; if 1st hit is stand blocked, opponent can crouch block after 2nd hit resulting in much worse disadvantage; cannot hit cross-up; puts opponent into limited juggle state (combos into 623LP/MP/PP); performs final kick on hit only",
+        "ja": null
+      },
+      "onBlock": -17,
+      "onHit": 47,
+      "onPerfectParry": -25,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 1000
+      },
+      "totalFrames": 63
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": "5-27 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "akuma__214lk",
+      "input": {
+        "numpad": "214LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "2"
+      },
+      "name": {
+        "en": "Tatsumaki Zanku-Kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "6f extra recovery on block/whiff; whiffs on crouching opponents (for consistency, cancel from 5MK or 2HP); cannot hit cross-up; puts opponent into limited juggle state; allows juggle into 623P (close range), 2HK (safe jump setup), or any Super",
+        "ja": null
+      },
+      "onBlock": -13,
+      "onHit": 50,
+      "onPerfectParry": -27,
+      "onPunishCounter": 50,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.714,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 6000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 27,
+      "id": "akuma__214lp",
+      "input": {
+        "numpad": "214LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "3",
+        "start": "0"
+      },
+      "name": {
+        "en": "Adamant Flame",
+        "ja": null
+      },
+      "notes": {
+        "en": "6P follow-up is a true blockstring even at max delay; can be spaced in neutral for +1f better advantage (very precise); foot hurtbox is pulled back on frames 6-12 (can make low attacks whiff); only version of 214P that can combo from 2LP/5LK",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 1,
+      "onPerfectParry": -24,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 40
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 16,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": 25,
+      "id": "akuma__214lp6p",
+      "input": {
+        "numpad": "214LP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1 air"
+      },
+      "name": {
+        "en": "Adamant Flame Follow-Up",
+        "ja": null
+      },
+      "notes": {
+        "en": "4f extra recovery on block; cannot come out on whiff; true blockstring from 214LP even at max delay; keeps opponent grounded for strike/throw mixup (requires microwalk if midscreen)",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 3,
+      "onPerfectParry": -24,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 28
+    },
+    {
+      "active": "2(13)3",
+      "afterDriveRush": null,
+      "airborne": "5-38 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500x2 (1000)",
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "akuma__214mk",
+      "input": {
+        "numpad": "214MK",
+        "official": null
+      },
+      "invuln": "8-38 Lower Body Projectile",
+      "juggle": {
+        "increase": "0,2",
+        "limit": "5,5",
+        "start": "2"
+      },
+      "name": {
+        "en": "Tatsumaki Zanku-Kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; whiffs on crouching opponents; cannot hit cross-up; puts opponent into limited juggle state (follow-up requires higher juggle connect, like after wallsplat); 2nd hit has 3f worse KD advantage; -28 oB refers to fuzzy guard scenario where 1st hit can connect vs. crouch block",
+        "ja": null
+      },
+      "onBlock": -13,
+      "onHit": 41,
+      "onPerfectParry": -31,
+      "onPunishCounter": 41,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 58
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.064,
+      "blockstun": 19,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 25,
+      "id": "akuma__214mp",
+      "input": {
+        "numpad": "214MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "3",
+        "start": "0"
+      },
+      "name": {
+        "en": "Adamant Flame",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f extra recovery on whiff; extra advantage on Punish Counter (+10) makes it a strong shimmy tool; 6P follow-up is a true blockstring even at max delay; can be spaced in neutral for +1f better advantage (very precise); foot hurtbox is pulled back on frames 6-15 (can make low attacks whiff)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 2,
+      "onPerfectParry": -21,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 7000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "akuma__214mp6p",
+      "input": {
+        "numpad": "214MP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "10",
+        "start": "1"
+      },
+      "name": {
+        "en": "Adamant Flame Follow-Up",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot come out on whiff; true blockstring from 214MP even at max delay; puts opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": -18,
+      "onHit": 32,
+      "onPerfectParry": -34,
+      "onPunishCounter": 32,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.134,
+      "blockstun": 23,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 10000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 27,
+      "id": "akuma__214pp",
+      "input": {
+        "numpad": "214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "3",
+        "start": "0"
+      },
+      "name": {
+        "en": "Adamant Flame",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be spaced in neutral for +2f better advantage (very precise); grounded Punish Counter crumple is +16 before opponent becomes airborne; foot hurtbox is pulled back on frames 6-14 (can make low attacks whiff); combos from Punish Counter 5LK/2LP; 2f slower startup when canceled from 2MK to prevent it from comboing naturally",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -24,
+      "onPunishCounter": 78,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "4(4)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,400 (240,320)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 7000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "akuma__214pp6p",
+      "input": {
+        "numpad": "214PP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "10,15",
+        "start": "0 / 2 air"
+      },
+      "name": {
+        "en": "Adamant Flame Follow-Up",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage from 214PP combo starter; 6f extra recovery on block; cannot come out on whiff; true blockstring from 214PP even at max delay; sends opponent to the edge of the screen for a wallsplat unless SA2 wallsplat occurred earlier in the combo (much less KD advantage, around +26~33); grounded wallsplat puts opponent into free juggle state (limited juggle state vs. airborne); allows a follow-up juggle if near the corner; KD advantage varies significantly depending on distance from corner",
+        "ja": null
+      },
+      "onBlock": -18,
+      "onHit": 45,
+      "onPerfectParry": -32,
+      "onPunishCounter": 45,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "30",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 32,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "akuma",
+      "chipDamage": 82,
+      "damage": 330,
+      "damageText": "330x8,360 (3000)",
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 1000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "akuma__22ppp",
+      "input": {
+        "numpad": "22PPP",
+        "official": null
+      },
+      "invuln": "1-11 Full",
+      "juggle": {
+        "increase": "0",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Kongou-Kokuretsuzan",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shin Akuma only (Back Taunt~Down Taunt); 9-hit Super projectile with a massive vertical hitbox; cannot be canceled into from OD specials like other Level 2 Supers; puts opponent into limited juggle state (but very difficult to launch high enough for a follow-up)",
+        "ja": null
+      },
+      "onBlock": -39,
+      "onHit": 38,
+      "onPerfectParry": -62,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 41,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 78
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.628,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "akuma",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "akuma__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-11 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Sip of Calamity",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cinematic time regenerates ~1.9 Drive bars for Akuma; close-range opponent cannot jump away after the Super freeze to avoid chip damage; only 2f startup when canceled from 623P/214P/214P~6P; leaves opponent in range for microwalk 6HP pressure or Drive Rush oki",
+        "ja": null
+      },
+      "onBlock": -41,
+      "onHit": 18,
+      "onPerfectParry": -60,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 58,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 69
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.628,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "akuma",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": null,
+      "id": "akuma__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-11 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
+      "name": {
+        "en": "Sip of Calamity (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Available at 25% HP or below; cinematic time regenerates ~2.3 Drive bars for Akuma; close-range opponent cannot jump away after the Super freeze to avoid chip damage; only 2f startup when canceled from 623P/214P/214P~6P; leaves opponent in range for microwalk 6HP pressure or Drive Rush oki",
+        "ja": null
+      },
+      "onBlock": -41,
+      "onHit": 18,
+      "onPerfectParry": -60,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 58,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 69
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 56,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "akuma",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x4,600 (2200)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 1000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 39,
+      "hitstun": null,
+      "id": "akuma__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-14 Strike/Throw",
+      "juggle": {
+        "increase": "1x4,100",
+        "limit": "99",
+        "start": "100"
+      },
+      "name": {
+        "en": "Messatsu Gohado",
+        "ja": null
+      },
+      "notes": {
+        "en": "5-hit Super projectile; projectile speed is not affected by button strength; can be used while OD projectiles are on-screen; slower startup allows opponents (except Dhalsim/Lily/Zangief) to avoid with a jump after the screen freeze",
+        "ja": null
+      },
+      "onBlock": -41,
+      "onHit": 9,
+      "onPerfectParry": -42,
+      "onPunishCounter": 9,
+      "projectileSpeed": 0.12,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 96,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 106
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 31,
+      "id": "akuma__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gou Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; fastest movement speed and startup but slowest recovery; can hold button to charge fireball to a higher level for more hits (25f for Lv.2, 49f for Lv.3); puts airborne opponents into limited juggle state; slight hurtbox extension on legs from frame 12~ and on arms (projectile invuln) from frame 14~",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": -4,
+      "onPerfectParry": -24,
+      "onPunishCounter": 0,
+      "projectileSpeed": 0.095,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 34,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "7-45 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__236k",
+      "input": {
+        "numpad": "236K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Demon Raid",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button strength determines trajectory (LK short, MK mid, HK far); counter-hit state for entire duration; cancelable into follow-ups on frames 18-40; on frame 41, automatically transitions to Demon Low Slash (or Demon Swoop if holding Down)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "7-45 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Demon Raid",
+        "ja": null
+      },
+      "notes": {
+        "en": "Tracks opponent's location regardless of distance; counter-hit state for entire duration; cancelable into follow-ups on frames 16-40 (16-38 for Fireball/Tatsu and Air SA1 follow-ups); on frame 41, automatically transitions to Demon Low Slash (or Demon Swoop if holding Down)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__236kk[2]",
+      "input": {
+        "numpad": "236KK~[2]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Demon Swoop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Acts like an empty jump (with the same 45f duration) that puts Akuma point blank; 5f extra landing recovery when crossing over opponent; useful for baiting opponent's Drive Impact or Parry; must be inputting any Down direction on frame 41 of 236KK; cannot block during landing recovery, and Akuma is in a counter-hit state for entire duration; crouching state on final recovery frame",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 40,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "2(2)3(2)3(1)3(1)2",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": "200x4,500 (1300)",
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 1000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "akuma__236kkj214k",
+      "input": {
+        "numpad": "236KK~j.214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,0,0,1",
+        "limit": "10,11,12,13,8",
+        "start": "2"
+      },
+      "name": {
+        "en": "Demon Gou Rasen",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can be input on frame 16-38 of 236KK (unless Gou Hadoken is on-screen); does not consume additional Drive gauge; cannot hit cross-up or against grounded opponents; stops Akuma's air momentum; performs final kick on hit only, which slams opponent down into a limited juggle OTG state; KD advantage depends on how high it connects (useful after 4HK launch, allowing most juggle enders to combo); Akuma is in a crouching state on frames 4-10 of landing recovery; lower foot/leg hurtbox is projectile invuln 1f~land",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 46,
+      "onPerfectParry": null,
+      "onPunishCounter": 46,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 200
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 29,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x3 (900)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "akuma__236kkj236p",
+      "input": {
+        "numpad": "236KK~j.236P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,0",
+        "limit": "5,5,5",
+        "start": "1 / 0 air"
+      },
+      "name": {
+        "en": "Demon Gou Zanku",
+        "ja": null
+      },
+      "notes": {
+        "en": "3-hit OD projectile; can be input on frame 16-38 of 236KK (unless Gou Hadoken is on-screen); does not consume additional Drive gauge; dissipates if Akuma is hit; creates stationary projectile on frames 6-20, then shoots downward at ~50 degree angle (this projectile will only have 2 hits if the initial hitbox collided with opponent); on hit only, landing recovery after 2f is cancelable into any action except walking/jumping; projectile hitbox is considered an airborne attack (can be avoided with anti-air invuln moves); puts airborne opponents into free juggle state (or maintains existing juggle state); puts grounded opponents into limited juggle state; advantage varies significantly depending on timing/spacing/angle; foot hurtbox is projectile invuln 1f~land",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": null,
+      "onPerfectParry": 0,
+      "onPunishCounter": null,
+      "projectileSpeed": 0.075,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 20,
+      "id": "akuma__236kkk",
+      "input": {
+        "numpad": "236KK~K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Demon Blade Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "5f extra recovery on whiff; button strength determines angle (LK short, MK mid, HK far); puts airborne opponents into limited juggle state (or maintains juggle state if used mid-combo); extends a large projectile invincible hurtbox on frame 11 until landing (making the divekick easier to anti-air while still being useful for avoiding fireballs)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 0,
+      "onPerfectParry": -18,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "akuma__236kknoinput",
+      "input": {
+        "numpad": "236KK~No Input",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Demon Low Slash",
+        "ja": null
+      },
+      "notes": {
+        "en": "4f extra recovery on whiff; recovery is in a crouching state until the final frame (final 5f on whiff); causes Akuma to auto-correct if Demon Raid crosses up",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 39,
+      "onPerfectParry": -17,
+      "onPunishCounter": 54,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 53,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 71
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 325,
+      "damage": 1300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "akuma__236kkp",
+      "input": {
+        "numpad": "236KK~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Demon Guillotine",
+        "ja": null
+      },
+      "notes": {
+        "en": "Overhead with many active frames, making it good for meaty pressure; strong hitbox and mid-air pause makes it more difficult to anti-air; cannot hit cross-up; frames 4-8 of landing recovery have a crouch-sized hurtbox (but still standing)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 37,
+      "onPerfectParry": -15,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__236k[2]",
+      "input": {
+        "numpad": "236K~[2]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Demon Swoop",
+        "ja": null
+      },
+      "notes": {
+        "en": "Acts like an empty jump (with the same 45f duration) with adjustable distance; 5f extra landing recovery when crossing over opponent; useful for baiting opponent's anti-air, Drive Impact, or Parry; must be inputting any Down direction on frame 41 of 236K; cannot block during landing recovery, and Akuma is in a counter-hit state for entire duration; crouching state on final recovery frame",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 2,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 40,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": "30% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 20,
+      "id": "akuma__236kk",
+      "input": {
+        "numpad": "236K~K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "4",
+        "start": "1"
+      },
+      "name": {
+        "en": "Demon Blade Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "5f extra recovery on whiff; button strength determines angle (LK short, MK mid, HK far); puts airborne opponents into limited juggle state (or maintains juggle state if used mid-combo); extends a large projectile invincible hurtbox on frame 11 until landing (making the divekick easier to anti-air while still being useful for avoiding fireballs)",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 0,
+      "onPerfectParry": -18,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "akuma__236knoinput",
+      "input": {
+        "numpad": "236K~No Input",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Demon Low Slash",
+        "ja": null
+      },
+      "notes": {
+        "en": "4f extra recovery on whiff; recovery is in a crouching state until the final frame (final 5f on whiff); causes Akuma to auto-correct if Demon Raid crosses up; can be spaced for better frame advantage",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 39,
+      "onPerfectParry": -17,
+      "onPunishCounter": 54,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 53,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 71
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 325,
+      "damage": 1300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "akuma__236kp",
+      "input": {
+        "numpad": "236K~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Demon Guillotine",
+        "ja": null
+      },
+      "notes": {
+        "en": "Overhead with many active frames, making it good for meaty pressure; strong hitbox and mid-air pause makes it more difficult to anti-air; cannot hit cross-up; frames 4-8 of landing recovery have a crouch-sized hurtbox (but still standing)",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 37,
+      "onPerfectParry": -15,
+      "onPunishCounter": 37,
+      "projectileSpeed": null,
+      "properties": [
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 31,
+      "id": "akuma__236lp",
+      "input": {
+        "numpad": "236LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gou Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; slowest movement speed and startup but fastest recovery; can hold button to charge fireball to a higher level for more hits (25f for Lv.2, 49f for Lv.3); puts airborne opponents into limited juggle state; slight hurtbox extension on legs from frame 16~ and on arms (projectile invuln) from frame 18~",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 0,
+      "onPerfectParry": -20,
+      "onPunishCounter": 4,
+      "projectileSpeed": 0.055,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 27,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 31,
+      "id": "akuma__236mp",
+      "input": {
+        "numpad": "236MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gou Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "1-hit projectile; middle ground for startup, movement speed, and recovery; can hold button to charge fireball to a higher level for more hits (25f for Lv.2, 49f for Lv.3); puts airborne opponents into limited juggle state; slight hurtbox extension on legs from frame 14~ and on arms (projectile invuln) from frame 16~",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": -2,
+      "onPerfectParry": -22,
+      "onPunishCounter": 2,
+      "projectileSpeed": 0.075,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 32,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 32,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,600",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2500,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": null,
+      "id": "akuma__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,2",
+        "limit": "1,6",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gou Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit OD projectile; holding buttons for 24f gives the fully charged 3-hit version; holding button 9-23f extends the startup while still giving uncharged version; projectile hitbox comes out 4f after button release; puts airborne opponents into limited juggle state; slight hurtbox extension on legs from frame 12~ and on arms (projectile invuln) from frame 16~",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 55,
+      "onPerfectParry": -8,
+      "onPunishCounter": 55,
+      "projectileSpeed": 0.095,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 29,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 42,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 62,
+      "damage": 250,
+      "damageText": "250x3,600 (1350)",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "akuma__236[pp]",
+      "input": {
+        "numpad": "236[PP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,0,2",
+        "limit": "1,1,1,6",
+        "start": "1"
+      },
+      "name": {
+        "en": "OD Gou Hadoken Lv.2",
+        "ja": null
+      },
+      "notes": {
+        "en": "4-hit OD projectile; 5f extra recovery if projectile does not make contact within the first 21 active frames; buttons must be held 24f to perform full charge; puts opponents into limited juggle state; extended arm hurtbox is projectile invuln while charging; has an extended leg hurtbox on frames 10~",
+        "ja": null
+      },
+      "onBlock": 20,
+      "onHit": 69,
+      "onPerfectParry": 22,
+      "onPunishCounter": 69,
+      "projectileSpeed": 0.145,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 31,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 52
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 42,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 62,
+      "damage": 250,
+      "damageText": "250x3,600 (1350)",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 5,
+      "hitstun": null,
+      "id": "akuma__236[p]",
+      "input": {
+        "numpad": "236[P]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,0,2",
+        "limit": "1,1,1,6",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gou Hadoken Lv.3",
+        "ja": null
+      },
+      "notes": {
+        "en": "4-hit projectile; 5f extra recovery if projectile does not make contact within the first 21 active frames; projectile speed depends on button strength; button must be held 49f to perform full charge; puts opponents into limited juggle state; extended arm hurtbox is projectile invuln while charging; has an extended leg hurtbox on frames 13~",
+        "ja": null
+      },
+      "onBlock": 20,
+      "onHit": 69,
+      "onPerfectParry": 22,
+      "onPunishCounter": 69,
+      "projectileSpeed": 0.09,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 56,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 77
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 32,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400,600",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2500,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": null,
+      "id": "akuma__236{p}",
+      "input": {
+        "numpad": "236{P}",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,2",
+        "limit": "1,6",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gou Hadoken Lv.2",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hit projectile; projectile speed depends on button strength; button must be held at least 25f and up to 48f for Lv.2 version (total startup 31~54f); projectile hitbox comes out 6f after button release; puts opponents into limited juggle state; useful in certain combo/juggle routes and for zoning; extended arm hurtbox is projectile invuln while charging; has an extended leg hurtbox on frames 13~",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 55,
+      "onPerfectParry": -8,
+      "onPunishCounter": 55,
+      "projectileSpeed": 0.07,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 29,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": null,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 60
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -8,
+        "onHit": 40
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.783,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "akuma__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Low Cutter",
+        "ja": null
+      },
+      "notes": {
+        "en": "6f extra recovery on block; good range and hitbox priority; has some juggle potential (no Hard Knockdown when juggled into); KD +37 when juggled into (like after 214LK); on block, always plays out a fixed 29f recovery (cannot be made safer with meaty timing)",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 40,
+      "onPerfectParry": -28,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "8",
+      "afterDriveRush": {
+        "onBlock": -4,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.9,
+      "blockstun": 19,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": {
+        "onBlock": 9,
+        "onHit": 18
+      },
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "akuma__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand (important combo/punish tool for 214LK); head/arm hurtbox is anti-air invuln while active on frames 8-15; good anti-air for vertical approaches but cannot hit cross-up (anti-air hitbox takes ~11f to come out, making it slower than average); only cancelable on active frames 1-3 with 1f extra hitstun on these frames",
+        "ja": null
+      },
+      "onBlock": -8,
+      "onHit": 1,
+      "onPerfectParry": -25,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 34
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.05,
+      "blockstun": 9,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 15,
+      "id": "akuma__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -10,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 10,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 16
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1,
+      "blockstun": 10,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 5
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "akuma__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; Akuma's best light normal for combos due to 5LK link and 5MK counter-hit link; DR cancel is delayed until after active frames; topmost hurtbox on frames 1-5 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -9,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.341",
+        "onHit": "0.383"
+      },
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 14
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 4
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.473,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 10
+      },
+      "hitstop": 9,
+      "hitstun": 22,
+      "id": "akuma__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Extends a wide hurtbox 3f before startup and during recovery; special/DR cancel is delayed until after active frames; DI cancel can occur on 1st active frame",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 0,
+      "onPerfectParry": -20,
+      "onPunishCounter": 4,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 29
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 10
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.18,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 6,
+        "onHit": 13
+      },
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "akuma__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on whiff; excellent button for combos, midscreen buffers, and Drive Rush pressure (more rewarding than 5MP); topmost hurtbox on frames 1-8 is vulnerable only to aerial strikes (preventing its use as an anti-air); extends a wider hurtbox until the end of recovery",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 6,
+      "onPerfectParry": -15,
+      "onPunishCounter": 10,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 22
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__2pppkkk",
+      "input": {
+        "numpad": "2PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Down Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"滅 (Metsu!)\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 123,
+      "superGauge": null,
+      "totalFrames": 123
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": -11,
+        "onHit": 47
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.134,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 69
+      },
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "akuma__4hk",
+      "input": {
+        "numpad": "4HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Rago High Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponents into limited juggle state (free juggle if used out of Drive Rush); upper body and kicking leg is anti-air invuln while active (frames 12-16); unreliable anti-air due to slow startup and extended vertical hurtbox before the invuln starts; being a cancelable launcher allows Akuma to juggle into Demon Raid follow-ups or charged fireballs",
+        "ja": null
+      },
+      "onBlock": -15,
+      "onHit": 47,
+      "onPerfectParry": -30,
+      "onPunishCounter": 47,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 43
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__4kkk",
+      "input": {
+        "numpad": "4KKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Ashura Senku (Backward)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot be canceled into; travels back ~1/2 screen; no collision box on frames 15-37; no invincibility whatsoever; counter-hit state for entire duration; Distance: 2.128",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 49,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 49
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Shuretto",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switches; can walk for pseudo-throw loop after throwing opponent into corner (loses to reversal 4f normals); can use immediate DR~5MP for stronger oki (but loses to invincible reversals on reaction); immediate 6HP hits meaty, becoming +6/-1 with a link to 2MP on hit or 2HP on Counter-hit; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"You have piqued my interest. Attack if you dare.\" \"How disappointing.\" (if no attack); inputting a Down Taunt (2PPPKKK) on frames 592-628 causes Akuma to pull out a rice ball (gains 3 bars of Super meter and becomes Shin Akuma if fully consumed)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 765,
+      "superGauge": null,
+      "totalFrames": 765
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__4pppkkk2pppkkk",
+      "input": {
+        "numpad": "4PPPKKK~2PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Back~Down Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "Inputting a Down Taunt on frames 592-628 of Back Taunt causes Akuma to pull out a rice ball; while eating, Akuma gains Super meter on each bite (1/2 bar on frames 931 and 1129, then 1 bar on frames 1353 and 1604); becomes Shin Akuma on frame 1604 (gains access to Hidden Arts: Double Zanku Hadoken, Misogi, and Kongou-Kokuretsuzan); if Akuma is hit before frame 1604, he does not become Shin Akuma",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 186,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 1604,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 5000
+      },
+      "totalFrames": 1790
+    },
+    {
+      "active": "3(8)4",
+      "afterDriveRush": {
+        "onBlock": 7,
+        "onHit": 11
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.532,
+      "blockstun": 33,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": "400x2",
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 37,
+      "id": "akuma__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,1",
+        "start": "1,1 air"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; 1st hit forces stand (important for combos); both the 2nd hit and the farthest-reaching hitbox of 1st hit whiff on crouching opponents unless they extend a vertical hurtbox; if 1st hit is stand blocked, both hits will connect on block; 1f extra recovery when 2nd hit whiffs; Counter-hit/Punish Counter advantage carries through both hits; great punish starter since scaling doesn't apply; both hits put airborne opponents into limited juggle state",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 7,
+      "onPerfectParry": -17,
+      "onPunishCounter": 11,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.483,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 14
+      },
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "akuma__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Long-range hitconfirmable poke with a great hitbox; special/DR cancel is delayed until after 3rd active frame",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 31
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.303,
+      "blockstun": 10,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -2,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "akuma__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Good range for a light normal; useful in light confirms, punishes, and neutral buffers; DR cancel is delayed until after active frames",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 2,
+      "onPerfectParry": -12,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 18
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.02,
+      "blockstun": 9,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "akuma__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chains into 5LP/2LP/2LK; fastest chain timing (more useful vs. DI)",
+        "ja": null
+      },
+      "onBlock": -1,
+      "onHit": 4,
+      "onPerfectParry": -8,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.378",
+        "onHit": "0.364"
+      },
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 13
+    },
+    {
+      "active": "5",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.23,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": {
+        "onBlock": 7,
+        "onHit": 13
+      },
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "akuma__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forces stand (important for 214LK in combos and whiff punishes); high active frame count and good hitbox for counterpoking and for meaty pressure; only 15f to hitconfirm TC cancel without CH/PC/DR",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -18,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 26
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 12,
+      "hitstun": 24,
+      "id": "akuma__5mkhk",
+      "input": {
+        "numpad": "5MK~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "3",
+        "start": "1"
+      },
+      "name": {
+        "en": "Bone Crusher Axe Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Safe overhead Target Combo that's great for chipping Drive gauge; puts airborne opponents into limited juggle OTG state (can be used in juggles where 5MK connects, like wallsplat or DR~5MK routes); interruptible 5f gap between hits on block (up to 8f at max delay); will not combo on final 2 cancelable frames of 5MK without CH/PC/DR starter making it very difficult to hitconfirm",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -21,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.95,
+      "blockstun": 16,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 6,
+        "onHit": 9
+      },
+      "hitstop": 11,
+      "hitstun": 19,
+      "id": "akuma__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f extra recovery on whiff; primary tool for block pressure (high active frame count makes it strong for oki); leads into much stronger combos on counter-hit",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 4,
+      "onPerfectParry": -13,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 11,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 20
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 13
+      },
+      "hitstop": 13,
+      "hitstun": 23,
+      "id": "akuma__5mpmp",
+      "input": {
+        "numpad": "5MP~MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Viscera Piercer",
+        "ja": null
+      },
+      "notes": {
+        "en": "Important combo/hitconfirm tool; always a true blockstring from 5MP",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": -1,
+      "onPerfectParry": null,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Witness the abyss before you.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 433,
+      "superGauge": null,
+      "totalFrames": 433
+    },
+    {
+      "active": "2,3,6",
+      "afterDriveRush": null,
+      "airborne": "9-52 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.124,
+      "blockstun": 25,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600,500,400 (1500)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 700
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "akuma__623hp",
+      "input": {
+        "numpad": "623HP",
+        "official": null
+      },
+      "invuln": "1-8 Air",
+      "juggle": {
+        "increase": "1,1,1",
+        "limit": "5,7,8 [9]",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gou Shoryuken",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state; 3f worse on block and 100 less chip damage vs. crouching; cannot hit cross-up; only the first active frame can cancel into SA3; higher juggle limit on active frame 7~",
+        "ja": null
+      },
+      "onBlock": -36,
+      "onHit": 30,
+      "onPerfectParry": -52,
+      "onPunishCounter": 30,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 67
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": "7-35 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.906,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": "1100(800)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "akuma__623lp",
+      "input": {
+        "numpad": "623LP",
+        "official": null
+      },
+      "invuln": "1-14 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "5 [7]",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gou Shoryuken",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state; 300 less damage and higher juggle limit on active frames 4-10; cannot hit cross-up; only the first active frame can cancel into SA3",
+        "ja": null
+      },
+      "onBlock": -23,
+      "onHit": 38,
+      "onPerfectParry": -41,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 47
+    },
+    {
+      "active": "2,8",
+      "afterDriveRush": null,
+      "airborne": "8-42 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.966,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": "700,600 (1300)",
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 5000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "akuma__623mp",
+      "input": {
+        "numpad": "623MP",
+        "official": null
+      },
+      "invuln": "1-9 Air",
+      "juggle": {
+        "increase": "1,1",
+        "limit": "5,7",
+        "start": "1"
+      },
+      "name": {
+        "en": "Gou Shoryuken",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts opponent into limited juggle state; cannot hit cross-up; only the first active frame can cancel into SA3",
+        "ja": null
+      },
+      "onBlock": -30,
+      "onHit": 32,
+      "onPerfectParry": -50,
+      "onPunishCounter": 32,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 57
+    },
+    {
+      "active": "2,2,7",
+      "afterDriveRush": null,
+      "airborne": "8-53 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.006,
+      "blockstun": 22,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x3,700 (1700)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "akuma__623pp",
+      "input": {
+        "numpad": "623PP",
+        "official": null
+      },
+      "invuln": "1-8 Full",
+      "juggle": {
+        "increase": "1,1,1,10,10",
+        "limit": "7,8,9,50,50",
+        "start": "1(23)"
+      },
+      "name": {
+        "en": "Gou Shoryuken",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can only hit twice vs. grounded opponents (will not break DI armor); cannot hit cross-up; transitions to follow-up slam on hit if either of the first 2 hits connect (active frames 1-4); if only 3rd hit connects, does not perform the slam and does only 300 damage; recovery/total refers to whiff/block version",
+        "ja": null
+      },
+      "onBlock": -41,
+      "onHit": 14,
+      "onPerfectParry": -61,
+      "onPunishCounter": 14,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 37,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 68
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.957,
+      "blockstun": 21,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "akuma__6hp",
+      "input": {
+        "numpad": "6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Kikoku",
+        "ja": null
+      },
+      "notes": {
+        "en": "Solid poke with easy hitconfirm timing; TC follow-up is always a true blockstring even at max delay; more damaging than 5HK when used mid-combo due to lack of damage scaling; useful out of Drive Rush for long-range oki (e.g. after midscreen throw); extends a wider hurtbox until the end of recovery",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -22,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 36
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.74,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "akuma",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "akuma__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Souha Double Palm (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.74,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "akuma",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "akuma__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Souha Double Palm (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 10,
+      "hitstun": null,
+      "id": "akuma__6hp6hp",
+      "input": {
+        "numpad": "6HP~6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Kikoku Combination 1",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f extra recovery on block; always a true blockstring even at max delay; puts opponent into limited juggle state; can finish with HK ender midscreen or 623MP in the corner; stronger extensions possible on a higher juggle (like Wallsplat into 2HK or any Super); easily hitconfirmable combo extension",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 39,
+      "onPerfectParry": null,
+      "onPunishCounter": 39,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 33
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 875,
+      "damageText": "875(700)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": null,
+        "gain": 2500
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "akuma__6hp6hphk",
+      "input": {
+        "numpad": "6HP~6HP~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "2",
+        "start": "1"
+      },
+      "name": {
+        "en": "Kikoku Combination 2",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage after 6HP~6HP combo starter; always a true blockstring even at max delay; puts opponent into limited juggle state; useful midscreen ender (623MP is stronger after a corner 6HP~6HP launch)",
+        "ja": null
+      },
+      "onBlock": -13,
+      "onHit": 35,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 35
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [
+        "special"
+      ],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__6kkk",
+      "input": {
+        "numpad": "6KKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Ashura Senku (Forward)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cannot be canceled into; no collision box on frames 17-35 (can pass through opponent); no invincibility whatsoever, but passing through opponent may cause attack hitbox to whiff; counter-hit state for entire duration; frames 24-38 are cancelable into Oboro Throw follow-up; Distance: 3.663",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 51,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 51
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.076,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 2200,
+      "damageText": "2200 (2900)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__6kkklplk",
+      "input": {
+        "numpad": "6KKK~LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Oboro Throw",
+        "ja": null
+      },
+      "notes": {
+        "en": "Total startup 31-45f depending on input timing; can be activated even after passing through opponent; 1.076 Range does not including 6KKK travel distance (maximum total range of 3.697)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 20,
+      "onPerfectParry": null,
+      "onPunishCounter": 20,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 50,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": null,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 83
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.649,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 23,
+      "id": "akuma__6mk",
+      "input": {
+        "numpad": "6MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Resso Snap Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f extra recovery on block, 4f extra recovery on whiff; whiffed version extends a wider hurtbox during recovery; long-range poke with great hitbox priority; good whiff punish tool that allows a link to 2HK from closer ranges, or into SA2 from around Akuma's 2MK range; safe from all reversal 4f normal even at point blank (except Zangief 2LK, which gets no follow-up)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 5,
+      "onPerfectParry": -19,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 27
+    },
+    {
+      "active": "1(1)3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.861,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": "200,400",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2500,
+        "gain": 750
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 26,
+      "id": "akuma__6mp",
+      "input": {
+        "numpad": "6MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1,1",
+        "limit": "0,0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Skull Splitter",
+        "ja": null
+      },
+      "notes": {
+        "en": "2-hits; fast overhead with excellent reward (5MK) when used out of Drive Rush; if blocked, Akuma is out of throw range (can frame trap with CH 2LP into 5MK to punish reversal 4f jabs); 2nd hit is no longer an overhead if the first hit connects",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 7,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 42
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fullscreen proximity guard box on frames 107-570 (prevents opponent from walking back); \"Are you prepared to tread down this path? If you are afraid... run.\"; \"Hmph... you are a disgrace.\" (after opponent switches sides, resulting in shorter taunt animation)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 570,
+      "superGauge": null,
+      "totalFrames": 570
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.561,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "akuma",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter (Hit)20% Multiplier (Block)",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "akuma__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Oni Goroshi",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "2(5)2(5)2",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": "30% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "akuma__j214k",
+      "input": {
+        "numpad": "j.214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "8",
+        "start": "2"
+      },
+      "name": {
+        "en": "Aerial Tatsumaki Zanku-Kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "During forward jump only; can hit cross-up but does not hit overhead; puts opponent into limited juggle state; KD and block advantage depends on how high it connects; 4f less blockstun on cross-up version; Akuma is in a crouching state on frames 4-16 of landing recovery; lower foot/leg hurtbox is projectile invuln 1f~land",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 46,
+      "onPerfectParry": -22,
+      "onPunishCounter": 46,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "2(1)3(1)3(1)3(2)2",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": "200x4,500 (1300)",
+      "dmgScaling": "Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 1000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "akuma__j214kk",
+      "input": {
+        "numpad": "j.214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,0,0,1",
+        "limit": "10,11,12,13,8",
+        "start": "2"
+      },
+      "name": {
+        "en": "Aerial Tatsumaki Zanku-Kyaku",
+        "ja": null
+      },
+      "notes": {
+        "en": "During forward jump only; cannot hit cross-up or against grounded opponents; stops Akuma's jump momentum; performs final kick on hit only, which slams opponent down into a limited juggle OTG state (combos into 623LP/MP/PP on lower connect, but more lenient after high connect like j.MP > j.214KK); KD advantage depends on how high it connects; Akuma is in a crouching state on frames 4-16 of landing recovery; lower foot/leg hurtbox is projectile invuln 1f~land",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 40,
+      "onPerfectParry": null,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 16,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 200
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 26,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600x2",
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 28,
+      "id": "akuma__j214pp",
+      "input": {
+        "numpad": "j.214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0",
+        "limit": "3,3",
+        "start": "0"
+      },
+      "name": {
+        "en": "Double Zanku Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "Shin Akuma only (Back Taunt~Down Taunt); forward Jump only on airborne frame 9-33; throws 2 consecutive 1-hit fireballs (2nd fireball travels faster and farther); dissipates if Akuma is hit; fireballs travel downward at ~45 degree angle; on hit only, landing recovery after 2f is cancelable into any action except walking/jumping; projectile hitbox is considered an airborne attack (can be avoided with anti-air invuln moves); puts airborne opponents into free juggle state (or maintains existing juggle state); advantage varies significantly depending on timing/spacing/angle (at worst, approximately +5 oB vs. tall characters, +7 oB vs. standard characters, and unsafe on Perfect Parry; always enough hit advantage to link); foot hurtbox is projectile invuln 1f~land; upper half of hitbox only connects on opponents mid-combo",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": -10,
+      "onPunishCounter": null,
+      "projectileSpeed": 0.04,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 39,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "akuma",
+      "chipDamage": 100,
+      "damage": 400,
+      "damageText": "400x5 (2000)",
+      "dmgScaling": "10% Starter; Combo (5% extra); 30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 1000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "akuma__j236236k",
+      "input": {
+        "numpad": "j.236236K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,0,0,1",
+        "limit": "5,5,5,5,5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tenma Gozanku",
+        "ja": null
+      },
+      "notes": {
+        "en": "5-hit Super projectile; during Forward or Neutral Jump only; 10f extra landing recovery on block/whiff; KD advantage varies significantly depending on angle and distance from opponent; puts airborne opponents into limited juggle state; travels down at ~45 degree angle; projectile speed/angle is not affected by button strength; projectile hitbox is considered an airborne attack (can be avoided with anti-air invuln moves); dissipates if Akuma is hit; can be used while OD projectiles are on-screen; leg hurtbox is projectile invuln until landing; crouching state on final recovery frame",
+        "ja": null
+      },
+      "onBlock": -28,
+      "onHit": 49,
+      "onPerfectParry": -12,
+      "onPunishCounter": 49,
+      "projectileSpeed": 0.075,
+      "properties": [
+        "low",
+        "high",
+        "armor",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 26,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": "40% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 3000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": 28,
+      "id": "akuma__j236p",
+      "input": {
+        "numpad": "j.236P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "3",
+        "start": "0"
+      },
+      "name": {
+        "en": "Zanku Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forward Jump only on airborne frame 9-33; 1-hit projectile; dissipates if Akuma is hit; button strength determines fireball trajectory (LP ~35 degrees / MP ~45 degrees, HP ~50 degrees); on hit only, landing recovery after 2f is cancelable into any action except walking/jumping; projectile hitbox is considered an airborne attack (can be avoided with anti-air invuln moves); puts airborne opponents into free juggle state (or maintains existing juggle state); advantage varies significantly depending on timing/spacing/angle (at worst, approximately -5 oB vs. tall characters, -3 oB vs. standard characters, and unsafe on Perfect Parry; always enough hit advantage to link); foot hurtbox is projectile invuln 1f~land; upper half of hitbox only connects on opponents mid-combo",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": -20,
+      "onPunishCounter": null,
+      "projectileSpeed": 0.04,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": "Until Land (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 29,
+      "cancel": [],
+      "category": "special",
+      "characterId": "akuma",
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x3",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 2000,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "akuma__j236pp",
+      "input": {
+        "numpad": "j.236PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,0",
+        "limit": "5,5,5",
+        "start": "1 / 0 air"
+      },
+      "name": {
+        "en": "Zanku Hadoken",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forward/Neutral Jump only on airborne frame 9-33; 3-hit OD projectile; dissipates if Akuma is hit; creates stationary projectile on frames 6-20, then shoots downward at ~50 degree angle (this projectile will only have 2 hits if the initial hitbox collided with opponent); on hit only, landing recovery after 2f is cancelable into any action except walking/jumping; projectile hitbox is considered an airborne attack (can be avoided with anti-air invuln moves); puts airborne opponents into free juggle state (or maintains existing juggle state); puts grounded opponents into limited juggle state; advantage varies significantly depending on timing/spacing/angle (at worst, approximately -3 oB vs. tall characters, -1 oB vs. standard characters, but +1~3 if all hits Perfect Parried); foot hurtbox is projectile invuln 1f~land; upper half of hitbox only connects on opponents mid-combo",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": 1,
+      "onPunishCounter": null,
+      "projectileSpeed": 0.075,
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
+      "pushback": null,
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "until land",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 14,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 3000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "akuma__j2mk",
+      "input": {
+        "numpad": "j.2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Tenmaku Blade Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Forward Jump only; 6f extra landing recovery on whiff; great tool for mixing up jump timings, especially against characters that rely on non-invincible anti-airs; much stronger hurtbox compared to other divekicks; cannot hit cross-up; all landing recovery after the first 2 frames has a crouch-sized hurtbox, and the final recovery frame is in a crouching state; kicking leg is projectile invuln on frame 14 until landing",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": -16,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 7,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.2,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "akuma__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Most horizontal range of Akuma's air normals; lower body projectile invuln 12-19f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -8,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.06,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "akuma__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Spike knockdown vs. airborne opponents on Counter-hit/Punish Counter; good hitbox priority for air approaches; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -9,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.55,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 14,
+      "id": "akuma__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -7,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "akuma__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fast air-to-air; can be used as a fuzzy instant overhead",
+        "ja": null
+      },
+      "onBlock": 0,
+      "onHit": 4,
+      "onPerfectParry": -7,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.15,
+      "blockstun": 13,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 500,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 17,
+      "id": "akuma__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up; lower body projectile invuln 7-20f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -7,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.97,
+      "blockstun": 11,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "akuma__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into limited juggle state but no juggle potential on its own; lenient cancel window to juggle into j.214K/j.236P/Air SA1; lower body projectile invuln 8-23f (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -4,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.8,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Goshoha",
+        "ja": null
+      },
+      "notes": {
+        "en": "Can walk or Dash + walk for manually-timed corner throw loop; immediate TK OD Air Fireball can stuff some wakeup reversals and leave Akuma plus on block; midscreen, cannot get strike/throw mixup but can Drive Rush into delayed 6HP to beat wakeup 4f normals (+1 oB); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "21",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 0.765,
+      "blockstun": null,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": 4700,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__lplp6lkhp",
+      "input": {
+        "numpad": "LP~LP~6LK~HP",
+        "official": null
+      },
+      "invuln": "1 Full, 6-27 Projectile",
+      "juggle": null,
+      "name": {
+        "en": "Shun Goku Satsu (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Available at 25% HP or below; cinematic time regenerates ~2.3 Drive bars for Akuma; command grab that can be comboed into on grounded opponents; entire startup happens before the Super freeze, making the grab inescapable if the opponent is within throw range; very short range makes it unable to punish most -6 attacks; Range does not include travel distance (max total distance 2.927); generally impractical as a fireball counter due to the slow travel speed and input requirement (unless opponent has a much slower fireball recovery, or a chargeable fireball that can easily be reacted to)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": 18,
+      "projectileSpeed": null,
+      "properties": [
+        "throw",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 57,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": -30000
+      },
+      "totalFrames": 84
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "akuma",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "akuma__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.880 (min/throw), 2.121 (min/block), 3.425 (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "Akuma",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-06-15T12:42:04.452Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}
