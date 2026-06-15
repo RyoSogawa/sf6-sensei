@@ -80,6 +80,23 @@ SF6 フレームデータの正規化 JSON スキーマ。`packages/core` の型
 - **通称辞書**: `2強→2HP` `昇竜→各キャラの昇竜系 special` `真空→真空波動拳系` など
   - キャラ非依存（汎用スラング）とキャラ依存（固有技名）の 2 層
 
+### 技名の日本語化（`name.ja`）
+
+取得元（SuperCombo）は英語名のみ。`name.ja` は読み込み時に次の順で補完する（`packages/data/src/index.ts`）:
+
+1. **通常技は入力から自動導出** — `deriveNormalJaName`（core）。`5/2/j.` + 強度 + P/K → 立ち弱パンチ等。
+2. **挑発は名前から自動導出** — `deriveTauntJaName`（core）。`(Back|Neutral|Forward|Down) Taunt` → 後ろ/N/前/下挑発。
+3. **固有名は手動翻訳レイヤー** — `packages/data/src/translations.json`（`{ characterId: { 基底技名(en): 日本語名 } }`）。
+   - 必殺技/SA の公式日本語名を全30体キュレーション。接尾辞（`Lv.N`/`(CA)`/`~派生`/強度接頭辞/`<br>`）は
+     `baseMoveName` で除いて照合するので、強度違い・派生は基底名 1 エントリでまとめて当たる。
+   - 出典は **frame-search.com**（公式準拠の日本語フレームデータ）。JS-SPA のため WebFetch では取得不可で、
+     chrome-devtools 実ブラウザでレンダリング後のデータを取得し、入力モーションで英語名と照合した。
+   - 英語名（SuperCombo）と公式日本語名が異なる例も正確化: `The Final Prison → ファイナルキャプチュード`、
+     `Goddess of the Hunt → アポロウーサ`、`Interdiction → ザプリェット` 等。
+
+> カバレッジは ja 62%（残りは特殊技/派生/スタンス連携の長い尻尾。`translations.json` に追記すれば伸ばせる）。
+> 消費側 LLM が英語名や notes を読んで日本語で答えられるため、未訳でも実用上は致命的でない。
+
 ### 別名（aliases）の手動管理（重要）
 
 - `Move.aliases` は **数に上限なく手動で追加・編集できる**こと（人手キュレーション前提）。

@@ -35,10 +35,13 @@
     - `SA3` と `CA` を別レコードとして分離。`(CA)` は SA モーションに紐づかなくても CA 登録（瞬獄殺対応）
     - ボス版/派生（Bison `Final Psycho Crusher`、Ingrid `Sun Octopus` 等）は SA クエリで非ヒット
   - [ ] キャラ固有の俗称（`2強`/`昇竜`/`真空` 等 P/K 省略・JP 技名）
-- [x] 技名の日本語化（`name.ja`）
+- [x] 技名の日本語化（`name.ja`）— ja カバレッジ 34%→62%
   - [x] 体系的な通常技を入力から自動導出（`deriveNormalJaName`: 5/2/j.+強度+P/K → 立ち弱パンチ等、538件）
-  - [ ] 必殺技/SA/CA の固有名（波動拳・昇竜拳…）。英語のみのソースのため手動キュレーション要（保留）
-  - [ ] 挑発の体系的命名（Back/Neutral/Forward/Down Taunt → 後ろ/N/前/下挑発）。任意
+  - [x] 挑発を名前から自動導出（`deriveTauntJaName`: Back/Neutral/Forward/Down Taunt → 後ろ/N/前/下挑発）
+  - [x] 必殺技/SA の固有名を全30体キュレーション（`translations.json`）。frame-search.com を chrome-devtools
+        実ブラウザで取得し入力モーションで照合（WebFetch/サブエージェントは JS-SPA で全キャラ=ケンになり不可だった）
+  - [x] 全30体の sa-levels も frame-search 公式データで再検証（cammy の SA1/SA2 取り違えを修正）
+  - [ ] 特殊技/派生/スタンス連携などの長い尻尾（残り 38%）← 継続作業。translations.json に足すだけ
 - [x] フレームデータのエンリッチ（ダメージ/無敵/アーマー/Drive・SAゲージ/PC・PP有利/DRキャンセル/notes 等を取得）
   - [x] core `moveSchema` 拡張（全 nullable）、scraper `toMove` + `parseNumber`/`parseDamage` でパース、再スクレイプ（2026-06-15）
   - [x] `invuln`/`armor`/`airborne` を `properties` タグにも展開（`search_moves` 属性検索用）
