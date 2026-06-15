@@ -164,9 +164,24 @@ export function normalizeInput(raw: string): string | null {
   return normalized
 }
 
+// numpad 入力のマッチ。強度(l/m/h)を省いたクエリ "236P" を、強度付きで格納された技
+// 236LP/236MP/236HP に当てる（SF6 のフレームデータは強度ごとに別レコード）。
+// "236LP" のように強度まで指定したクエリは厳密一致のみ。
+function inputMatches(moveNorm: string, queryNorm: string): boolean {
+  if (moveNorm === queryNorm) return true
+  const parsed = queryNorm.match(/^([0-9j]*)([pk])$/)
+  if (!parsed) return false
+  const motion = parsed[1] ?? ''
+  const button = parsed[2]
+  if (!button) return false
+  return new RegExp(`^${motion}[lmh]?${button}$`).test(moveNorm)
+}
+
 function matchesByNumpadInput(move: Move, queryNorm: string | null): boolean {
   if (!queryNorm) return false
-  return normalizeInput(move.input.numpad) === queryNorm
+  const moveNorm = normalizeInput(move.input.numpad)
+  if (!moveNorm) return false
+  return inputMatches(moveNorm, queryNorm)
 }
 
 function matchesByAlias(move: Move, queryLower: string): boolean {
@@ -218,4 +233,70 @@ export function resolveMove(query: string, moves: Move[]): Move[] {
     }
   }
   return results
+}
+
+function matchesExactNameOrAlias(move: Move, queryLower: string): boolean {
+  if (move.name.en.toLowerCase() === queryLower) return true
+  if (move.name.ja !== null && move.name.ja.toLowerCase() === queryLower) return true
+  return move.aliases.some((alias) => alias.toLowerCase() === queryLower)
+}
+
+function matchesSubstring(move: Move, queryLower: string): boolean {
+  if (queryLower.length < 2) return false
+  if (move.name.en.toLowerCase().includes(queryLower)) return true
+  if (move.name.ja?.toLowerCase().includes(queryLower)) return true
+  if (move.aliases.some((alias) => alias.toLowerCase().includes(queryLower))) return true
+  // 自然文クエリ（例「リュウのインパクト」）が alias を内包するケース。
+  // 2 文字以下の alias（"DI" 等）は誤爆するので除外し、それらは exact tier(1) に任せる。
+  return move.aliases.some((alias) => alias.length >= 3 && queryLower.includes(alias.toLowerCase()))
+}
+
+export interface RankedMove {
+  move: Move
+  tier: number
+}
+
+/**
+ * Rank moves against a query by match strength (lower tier = stronger):
+ *   0 = exact numpad input, 1 = exact alias/name, 2 = substring of alias/name.
+ * Unlike resolveMove this does NOT de-duplicate by id (moves sharing an input,
+ * e.g. LP/MP/HP variants, are all kept). Stable within a tier.
+ */
+export function resolveMoveRanked(query: string, moves: Move[]): RankedMove[] {
+  if (!(query && moves.length)) return []
+
+  const queryNorm = normalizeInput(query)
+  const queryLower = query.toLowerCase().trim()
+
+  const ranked: RankedMove[] = []
+  for (const move of moves) {
+    let tier: number | null = null
+    if (matchesByNumpadInput(move, queryNorm)) {
+      tier = 0
+    } else if (matchesExactNameOrAlias(move, queryLower)) {
+      tier = 1
+    } else if (matchesSubstring(move, queryLower)) {
+      tier = 2
+    }
+    if (tier !== null) {
+      ranked.push({ move, tier })
+    }
+  }
+
+  ranked.sort((a, b) => a.tier - b.tier)
+  return ranked
+}
+
+/**
+ * Resolve a query to the strongest-tier matches only.
+ * If an exact input or exact alias/name matches, weaker substring matches are
+ * dropped — so e.g. "DI" returns the Drive Impact move, not every normal whose
+ * English name happens to contain "di" ("Standing", "Medium", ...).
+ */
+export function resolveMoveBest(query: string, moves: Move[]): Move[] {
+  const ranked = resolveMoveRanked(query, moves)
+  const first = ranked[0]
+  if (!first) return []
+  const bestTier = first.tier
+  return ranked.filter((r) => r.tier === bestTier).map((r) => r.move)
 }

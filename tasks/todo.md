@@ -21,8 +21,17 @@
 - [x] Move / Character へマッピング → `packages/data/src/generated/sf6.json`（30 キャラ / 2306 技、出典付き）
 - [x] core の zod スキーマで書き込み時バリデーション
 - [x] `packages/data` を生成 JSON に結線（`characters` / `resolveMove` smoke test）
-- [x] alias 手動レイヤーの仕組み（`packages/data/alias-overrides.json`、再スクレイプで消えない）
-- [ ] alias-overrides の中身を充実（`2強`/`昇竜`/`真空` 等 P/K 省略・通称・JP 技名の付与）← 継続作業
+- [x] alias 手動レイヤーの仕組み（`packages/data/src/alias-overrides.json`、再スクレイプで消えない）
+  - [x] 結線を実装（`packages/data/src/index.ts` が読み込み時にマージ。`input.numpad` キー + `"all"` 一括付与）
+  - [x] core に `resolveMoveBest`（入力 > 完全一致 > 部分一致のティア順、最強ティアのみ。"DI" 誤爆を解消）
+  - [x] `getMoveImpl`/`find_punish` を `resolveMoveBest` に置換（旧: 素の部分一致）
+  - [x] 入力マッチを強度非依存に（"236P" → 236LP/MP/HP に展開。SF6 は強度ごと別レコード）
+- [ ] alias-overrides の中身を充実 ← 継続作業
+  - [x] 共通システム技: DI / ドライブリバーサル / ドライブパリィ / ドライブラッシュ（全キャラ `all`）
+  - [x] 投げ系: 前投げ・裏投げ/後ろ投げ・空投げ・空中裏投げ（全キャラ `all`、Zangief 5LPLK も対応）
+  - [x] 方向コマ投げ: `N投げ`(1〜6投げ) + 下投げ/2投げ（`2LPLK`= alex/dhalsim/zangief、`1/3/6`= zangief）
+  - [ ] キャラ固有の俗称（`2強`/`昇竜`/`真空` 等 P/K 省略・JP 技名）
+- [ ] 差分チェック（既存 JSON との比較）
 - [ ] 差分チェック（既存 JSON との比較）
 - [x] CC-BY-SA の出典表記をデータ（各 Move.source）/ README / spec に明記
 

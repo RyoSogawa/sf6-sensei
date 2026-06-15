@@ -1,4 +1,4 @@
-import type { Character, Move } from '@repo/core'
+import { type Character, type Move, resolveMoveBest } from '@repo/core'
 
 export interface ToolResult {
   success: boolean
@@ -105,21 +105,9 @@ export function getMoveImpl(
     }
   }
 
-  const matches = resolvedChar.moves.filter((m) => {
-    const moveQueryLower = move.toLowerCase()
-    const moveNameEn = m.name.en.toLowerCase()
-    const moveNameJa = m.name.ja ? m.name.ja.toLowerCase() : ''
-    const inputNumpad = m.input.numpad.toLowerCase()
-    const inputOfficial = m.input.official ? m.input.official.toLowerCase() : ''
-
-    return (
-      moveNameEn.includes(moveQueryLower) ||
-      moveNameJa.includes(moveQueryLower) ||
-      inputNumpad.includes(moveQueryLower) ||
-      inputOfficial.includes(moveQueryLower) ||
-      m.aliases.some((alias) => alias.toLowerCase().includes(moveQueryLower))
-    )
-  })
+  // core の解決層に委譲: numpad 正規化（"屈強P"→"2hp"）と入力 > 別名/技名 > 部分一致の
+  // ティア順マッチ。最強ティアのみ返すので "DI" が "Standing/Medium" に誤爆しない。
+  const matches = resolveMoveBest(move, resolvedChar.moves)
 
   return {
     ambiguous: matches.length > 1,
@@ -335,14 +323,7 @@ function resolveOpponentAdvantage(
       suggestions: getCharacterSuggestions(opponentCharacter, characters),
     }
   }
-  const moveQueryLower = opponentMove.toLowerCase()
-  const match = oppChar.moves.find(
-    (m) =>
-      m.name.en.toLowerCase().includes(moveQueryLower) ||
-      m.name.ja?.toLowerCase().includes(moveQueryLower) ||
-      m.input.numpad.toLowerCase().includes(moveQueryLower) ||
-      m.aliases.some((alias) => alias.toLowerCase().includes(moveQueryLower)),
-  )
+  const match = resolveMoveBest(opponentMove, oppChar.moves)[0]
   if (!match) {
     return { error: `Opponent move not found: ${opponentMove}` }
   }

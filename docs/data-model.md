@@ -84,9 +84,34 @@ SF6 フレームデータの正規化 JSON スキーマ。`packages/core` の型
 
 - `Move.aliases` は **数に上限なく手動で追加・編集できる**こと（人手キュレーション前提）。
 - スクレイパが自動生成する別名と、人が手で足した別名を **別レイヤーで管理**し、
-  ビルド時にマージする。**再スクレイプしても手動の別名が消えない**ことを保証する。
-  - 例: `packages/data/alias-overrides.json`（`moveId -> string[]` の追記専用レイヤー）
-  - 最終的な `Move.aliases` = 自動生成 ∪ 手動 override（重複排除）
+  読み込み時にマージする。**再スクレイプしても手動の別名が消えない**ことを保証する。
+- 実装: `packages/data/src/alias-overrides.json` を `packages/data/src/index.ts` が読み込み、
+  `getCharacters()` が返す Character[] にマージする（生成 JSON 自体は書き換えない）。
+
+#### alias-overrides.json の形式
+
+```jsonc
+{
+  // "all" = 全キャラ共通。それ以外は characterId をキーにそのキャラだけへ適用。
+  // 内側のキーは Move.input.numpad の文字列（厳密一致）。
+  "all": {
+    "HPHK":   { "aliases": ["ドライブインパクト", "インパクト", "DI"], "ja": "ドライブインパクト" },
+    "LPLK":   { "aliases": ["投げ", "前投げ"], "ja": "前投げ" }
+  },
+  "ryu": {
+    "623P": { "aliases": ["昇竜", "ショーリュー"] }
+  }
+}
+```
+
+- **入力(numpad)をキーにする理由**: 共通システム技（DI / リバーサル / パリィ / ラッシュ / 各種投げ）は
+  キャラごとに固有の技名（例: リュウの DI = "Shingeki"）で格納されており、技名では横断できない。
+  入力は言語非依存かつキャラ横断で安定なので、`all` の 1 エントリで全キャラに一括付与できる。
+  P/K 省略の俗称（`2強→2HP`, `昇竜→623P`）も同じ仕組みで足せる。
+- 各エントリは `aliases?`（既存と重複排除して結合）と `ja?`（`name.ja` が未設定 null のときだけ補完）。
+- 最終的な `Move.aliases` = 自動生成 ∪ 手動 override（重複排除）。
+- 解決は `packages/core` の `resolveMoveBest`（入力 > 別名/技名の完全一致 > 部分一致のティア順、
+  最強ティアのみ返す）が使う。短いクエリ "DI" が技名の部分一致 "Stan**di**ng" に誤爆しない。
 
 ## 取得元フィールドのマッピング（SuperCombo `SF6_FrameData` → Move）
 

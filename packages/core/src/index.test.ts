@@ -1,5 +1,12 @@
 import { describe, expect, it } from 'vitest'
-import { characterSchema, moveSchema, normalizeInput, resolveMove } from './index'
+import {
+  characterSchema,
+  type Move,
+  moveSchema,
+  normalizeInput,
+  resolveMove,
+  resolveMoveBest,
+} from './index'
 
 describe('normalizeInput', () => {
   it('handles numpad inputs', () => {
@@ -203,6 +210,81 @@ describe('resolveMove', () => {
     ]
     const result = resolveMove('2HP', rankMoves)
     expect(result[0].id).toBe('input_match')
+  })
+})
+
+describe('resolveMoveBest', () => {
+  const src = {
+    fetchedAt: '2026-06-13T00:00:00Z',
+    license: 'CC-BY-SA' as const,
+    url: 'https://example.com',
+  }
+  function mk(overrides: Partial<Move> & Pick<Move, 'id' | 'input' | 'name'>): Move {
+    return {
+      active: null,
+      aliases: [],
+      cancel: [],
+      category: 'normal',
+      characterId: 'ryu',
+      onBlock: null,
+      onHit: null,
+      properties: [],
+      recovery: null,
+      source: src,
+      startup: null,
+      ...overrides,
+    }
+  }
+
+  const di = mk({
+    aliases: ['ドライブインパクト', 'インパクト', 'DI', 'drive impact'],
+    category: 'drive',
+    id: 'ryu__hphk',
+    input: { numpad: 'HPHK', official: null },
+    name: { en: 'Shingeki', ja: 'ドライブインパクト' },
+  })
+  // 英名に "di" を含む通常技（"Stan-di-ng" / "Me-di-um"）。短い "DI" クエリで誤爆しやすい。
+  const standing = mk({
+    id: 'ryu__5hp',
+    input: { numpad: '5HP', official: null },
+    name: { en: 'Standing Heavy Punch', ja: null },
+  })
+  const hadoLP = mk({
+    id: 'ryu__236p',
+    input: { numpad: '236P', official: null },
+    name: { en: 'Hadoken (LP)', ja: '波動拳' },
+  })
+  const hadoHP = mk({
+    id: 'ryu__236p',
+    input: { numpad: '236P', official: null },
+    name: { en: 'Hadoken (HP)', ja: '波動拳' },
+  })
+  const moves = [standing, di, hadoLP, hadoHP]
+
+  it('returns only the exact-alias match for short query "DI", not name-substring junk', () => {
+    const result = resolveMoveBest('DI', moves)
+    expect(result).toHaveLength(1)
+    expect(result[0]?.id).toBe('ryu__hphk')
+  })
+
+  it('finds Drive Impact by Japanese alias インパクト', () => {
+    const result = resolveMoveBest('インパクト', moves)
+    expect(result.map((m) => m.id)).toContain('ryu__hphk')
+  })
+
+  it('keeps all moves sharing an input (no id collapse)', () => {
+    const result = resolveMoveBest('236P', moves)
+    expect(result).toHaveLength(2)
+    expect(result.map((m) => m.name.en).sort()).toEqual(['Hadoken (HP)', 'Hadoken (LP)'])
+  })
+
+  it('falls back to substring matches when nothing matches exactly', () => {
+    const result = resolveMoveBest('standing', moves)
+    expect(result.map((m) => m.id)).toEqual(['ryu__5hp'])
+  })
+
+  it('returns empty for no matches', () => {
+    expect(resolveMoveBest('999Z', moves)).toHaveLength(0)
   })
 })
 

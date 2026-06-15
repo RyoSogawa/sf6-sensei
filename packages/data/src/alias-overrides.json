@@ -1,0 +1,56 @@
+{
+  "all": {
+    "1LPLK": {
+      "aliases": ["1投げ"]
+    },
+    "2LPLK": {
+      "aliases": ["2投げ", "下投げ", "しゃがみ投げ"]
+    },
+    "3LPLK": {
+      "aliases": ["3投げ"]
+    },
+    "4LPLK": {
+      "aliases": ["裏投げ", "後ろ投げ", "4投げ", "バック投げ", "back throw"],
+      "ja": "裏投げ"
+    },
+    "5LPLK": {
+      "aliases": ["投げ", "前投げ", "5投げ", "通常投げ", "ノーマル投げ", "forward throw"],
+      "ja": "前投げ"
+    },
+    "6HPHK": {
+      "aliases": ["ドライブリバーサル", "リバーサル", "ドラリバ", "drive reversal"],
+      "ja": "ドライブリバーサル"
+    },
+    "6LPLK": {
+      "aliases": ["6投げ"]
+    },
+    "HPHK": {
+      "aliases": ["ドライブインパクト", "インパクト", "DI", "drive impact"],
+      "ja": "ドライブインパクト"
+    },
+    "j.4LPLK": {
+      "aliases": ["空中裏投げ", "空裏投げ", "air back throw"],
+      "ja": "空中裏投げ"
+    },
+    "j.LPLK": {
+      "aliases": ["空投げ", "空中投げ", "ジャンプ投げ", "air throw"],
+      "ja": "空投げ"
+    },
+    "LPLK": {
+      "aliases": ["投げ", "前投げ", "5投げ", "通常投げ", "ノーマル投げ", "forward throw"],
+      "ja": "前投げ"
+    },
+    "MPMK": {
+      "aliases": ["ドライブパリィ", "パリィ", "パリー", "drive parry"],
+      "ja": "ドライブパリィ"
+    },
+    "MPMK or 66": {
+      "aliases": ["ドライブラッシュ", "ラッシュ", "DR", "drive rush"],
+      "ja": "ドライブラッシュ"
+    },
+    "MPMK~66": {
+      "aliases": ["パリィドライブラッシュ", "パリィラッシュ", "parry drive rush"],
+      "ja": "パリィドライブラッシュ"
+    }
+  }
+}

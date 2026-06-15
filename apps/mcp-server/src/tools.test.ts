@@ -94,6 +94,24 @@ describe('Tool Functions', () => {
       // English name should always be available
       expect(resultEn.resolvedCharacter?.name).toBe('Ryu')
     })
+
+    it('finds Drive Impact by the common Japanese name インパクト', () => {
+      const result = getMoveImpl('ryu', 'インパクト', characters, 'ja')
+      expect(result.matches.length).toBeGreaterThan(0)
+      expect(result.matches.some((m) => m.input.numpad === 'HPHK')).toBe(true)
+    })
+
+    it('does not return unrelated normals for the short query "DI"', () => {
+      const result = getMoveImpl('ryu', 'DI', characters, 'en')
+      expect(result.matches.length).toBeGreaterThan(0)
+      // 旧実装は "Standing"/"Medium" の "di" に誤爆していた。今は Drive Impact だけ。
+      expect(result.matches.every((m) => m.category === 'drive')).toBe(true)
+    })
+
+    it('finds the back throw by 裏投げ', () => {
+      const result = getMoveImpl('ryu', '裏投げ', characters, 'ja')
+      expect(result.matches.some((m) => m.input.numpad === '4LPLK')).toBe(true)
+    })
   })
 
   describe('getCharacterFrameDataImpl', () => {
