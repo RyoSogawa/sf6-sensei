@@ -300,3 +300,27 @@ export function resolveMoveBest(query: string, moves: Move[]): Move[] {
   const bestTier = first.tier
   return ranked.filter((r) => r.tier === bestTier).map((r) => r.move)
 }
+
+const JA_STANCE: Record<string, string> = { '2': 'しゃがみ', '5': '立ち', j: 'ジャンプ' }
+const JA_STRENGTH: Record<string, string> = { h: '強', l: '弱', m: '中' }
+const JA_BUTTON: Record<string, string> = { k: 'キック', p: 'パンチ' }
+
+/**
+ * Derive the Japanese name of a systematic normal from its numpad input.
+ * Only plain normals — stance(5/2/j.) + strength(L/M/H) + button(P/K) — are
+ * covered (e.g. "5LP" → "立ち弱パンチ", "j.MK" → "ジャンプ中キック").
+ * Command normals, target combos and proper-noun moves (波動拳 等) return null.
+ */
+export function deriveNormalJaName(numpad: string): string | null {
+  const matched = numpad.match(/^(5|2|j\.)([lmh])([pk])$/i)
+  if (!matched) return null
+  const stanceRaw = matched[1]
+  const strengthRaw = matched[2]
+  const buttonRaw = matched[3]
+  if (!(stanceRaw && strengthRaw && buttonRaw)) return null
+  const stance = JA_STANCE[stanceRaw.toLowerCase().replace('.', '')]
+  const strength = JA_STRENGTH[strengthRaw.toLowerCase()]
+  const button = JA_BUTTON[buttonRaw.toLowerCase()]
+  if (!(stance && strength && button)) return null
+  return `${stance}${strength}${button}`
+}

@@ -61,6 +61,16 @@ describe('alias-overrides enrichment (common system moves)', () => {
     expect(resolveMoveBest('下投げ', ryu?.moves ?? [])).toHaveLength(0)
   })
 
+  it('auto-derives Japanese names for systematic normals, leaving proper nouns null', () => {
+    const find = (numpad: string) => ryu?.moves.find((m) => m.input.numpad === numpad)
+    expect(find('5LP')?.name.ja).toBe('立ち弱パンチ')
+    expect(find('2HP')?.name.ja).toBe('しゃがみ強パンチ')
+    expect(find('j.MK')?.name.ja).toBe('ジャンプ中キック')
+    // 固有名（特殊技・必殺技）は導出対象外なので ja は null のまま。
+    expect(find('6MP')?.name.ja).toBeNull() // Collarbone Breaker
+    expect(find('236LP')?.name.ja).toBeNull() // Hadoken
+  })
+
   it('does not enrich moves outside the override input map', () => {
     // 屈強P (2HP) は override 対象外なので通常技のまま（resolveMove は従来どおり動く）。
     const hits = resolveMove('屈強P', ryu?.moves ?? [])

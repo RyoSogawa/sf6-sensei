@@ -1,6 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import {
   characterSchema,
+  deriveNormalJaName,
   type Move,
   moveSchema,
   normalizeInput,
@@ -285,6 +286,24 @@ describe('resolveMoveBest', () => {
 
   it('returns empty for no matches', () => {
     expect(resolveMoveBest('999Z', moves)).toHaveLength(0)
+  })
+})
+
+describe('deriveNormalJaName', () => {
+  it('derives systematic normals from numpad input', () => {
+    expect(deriveNormalJaName('5LP')).toBe('立ち弱パンチ')
+    expect(deriveNormalJaName('2HP')).toBe('しゃがみ強パンチ')
+    expect(deriveNormalJaName('5MK')).toBe('立ち中キック')
+    expect(deriveNormalJaName('j.HK')).toBe('ジャンプ強キック')
+    expect(deriveNormalJaName('2lk')).toBe('しゃがみ弱キック')
+  })
+
+  it('returns null for command normals, target combos and proper-noun moves', () => {
+    expect(deriveNormalJaName('236P')).toBeNull() // special
+    expect(deriveNormalJaName('6HP')).toBeNull() // command normal (固有名)
+    expect(deriveNormalJaName('5HP~HK')).toBeNull() // target combo
+    expect(deriveNormalJaName('HPHK')).toBeNull() // drive impact
+    expect(deriveNormalJaName('4HK')).toBeNull() // directional command normal
   })
 })
 

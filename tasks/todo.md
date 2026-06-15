@@ -31,7 +31,10 @@
   - [x] 投げ系: 前投げ・裏投げ/後ろ投げ・空投げ・空中裏投げ（全キャラ `all`、Zangief 5LPLK も対応）
   - [x] 方向コマ投げ: `N投げ`(1〜6投げ) + 下投げ/2投げ（`2LPLK`= alex/dhalsim/zangief、`1/3/6`= zangief）
   - [ ] キャラ固有の俗称（`2強`/`昇竜`/`真空` 等 P/K 省略・JP 技名）
-- [ ] 差分チェック（既存 JSON との比較）
+- [x] 技名の日本語化（`name.ja`）
+  - [x] 体系的な通常技を入力から自動導出（`deriveNormalJaName`: 5/2/j.+強度+P/K → 立ち弱パンチ等、538件）
+  - [ ] 必殺技/SA/CA の固有名（波動拳・昇竜拳…）。英語のみのソースのため手動キュレーション要（保留）
+  - [ ] 挑発の体系的命名（Back/Neutral/Forward/Down Taunt → 後ろ/N/前/下挑発）。任意
 - [ ] 差分チェック（既存 JSON との比較）
 - [x] CC-BY-SA の出典表記をデータ（各 Move.source）/ README / spec に明記
 

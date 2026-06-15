@@ -1,4 +1,4 @@
-import type { Character, Move } from '@repo/core'
+import { type Character, deriveNormalJaName, type Move } from '@repo/core'
 import overrides from './alias-overrides.json'
 import generated from './generated/sf6.json'
 
@@ -31,6 +31,14 @@ function enrichMove(
   perCharacter: Record<string, AliasOverride>,
 ): Move {
   let result = move
+  // 1. 体系的な通常技は入力から日本語名を自動導出（ja 未設定のときだけ）。
+  if (result.name.ja === null) {
+    const ja = deriveNormalJaName(result.input.numpad)
+    if (ja) {
+      result = { ...result, name: { ...result.name, ja } }
+    }
+  }
+  // 2. 手動 override（ja/aliases）。固有名や共通技は手動レイヤーで補う（手動が優先）。
   const universalOverride = universal[move.input.numpad]
   if (universalOverride) {
     result = applyOverride(result, universalOverride)
