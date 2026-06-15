@@ -71,6 +71,53 @@ describe('alias-overrides enrichment (common system moves)', () => {
     expect(find('236LP')?.name.ja).toBeNull() // Hadoken
   })
 
+  it('adds SA1/SA2/aerial aliases to super arts', () => {
+    const cammy = characters.find((c) => c.id === 'cammy')
+    // SA2 (Spin Drive Smasher, 236236K)
+    expect(
+      resolveMoveBest('SA2', cammy?.moves ?? []).some((m) => m.input.numpad === '236236K'),
+    ).toBe(true)
+    // 空中SA1 (Aerial Killer Bee Spin, j.214214P)
+    expect(
+      resolveMoveBest('空中SA1', cammy?.moves ?? []).some((m) => m.input.numpad.startsWith('j.')),
+    ).toBe(true)
+  })
+
+  it('registers both of Akuma’s Critical Arts (incl. Shun Goku Satsu, which has no SA-level input)', () => {
+    const akuma = characters.find((c) => c.id === 'akuma')
+    const ca = resolveMoveBest('CA', akuma?.moves ?? [])
+    const names = ca.map((m) => m.name.en)
+    expect(names.some((n) => n.includes('Sip of Calamity'))).toBe(true)
+    expect(names.some((n) => n.includes('Shun Goku Satsu'))).toBe(true)
+    // 瞬獄殺（漢字）でも引ける
+    expect(
+      resolveMoveBest('瞬獄殺', akuma?.moves ?? []).some((m) =>
+        m.name.en.includes('Shun Goku Satsu'),
+      ),
+    ).toBe(true)
+  })
+
+  it('excludes non-curated (boss/extra) super arts from SA queries', () => {
+    const bison = characters.find((c) => c.id === 'm_bison')
+    // Final Psycho Crusher (214214P) は SA1/2/3 のどれでもない → SA 系でヒットしない。
+    const hits = ['SA', 'SA1', 'SA2', 'SA3', 'CA'].flatMap((q) =>
+      resolveMoveBest(q, bison?.moves ?? []),
+    )
+    expect(hits.some((m) => m.name.en === 'Final Psycho Crusher')).toBe(false)
+  })
+
+  it('distinguishes SA3 (normal) from CA (low-health enhanced) as separate entries', () => {
+    // SA3 → 通常版（(CA) を含まない）。CA → "(CA)" 版。別レコード。
+    const sa3 = resolveMoveBest('SA3', ryu?.moves ?? [])
+    expect(sa3.length).toBeGreaterThan(0)
+    expect(sa3.every((m) => !m.name.en.includes('(CA)'))).toBe(true)
+    expect(sa3.some((m) => m.name.en === 'Shin Shoryuken')).toBe(true)
+
+    const ca = resolveMoveBest('CA', ryu?.moves ?? [])
+    expect(ca.length).toBeGreaterThan(0)
+    expect(ca.every((m) => m.name.en.includes('(CA)'))).toBe(true)
+  })
+
   it('does not enrich moves outside the override input map', () => {
     // 屈強P (2HP) は override 対象外なので通常技のまま（resolveMove は従来どおり動く）。
     const hits = resolveMove('屈強P', ryu?.moves ?? [])

@@ -30,6 +30,10 @@
   - [x] 共通システム技: DI / ドライブリバーサル / ドライブパリィ / ドライブラッシュ（全キャラ `all`）
   - [x] 投げ系: 前投げ・裏投げ/後ろ投げ・空投げ・空中裏投げ（全キャラ `all`、Zangief 5LPLK も対応）
   - [x] 方向コマ投げ: `N投げ`(1〜6投げ) + 下投げ/2投げ（`2LPLK`= alex/dhalsim/zangief、`1/3/6`= zangief）
+  - [x] SA エイリアス: `SA1`〜`SA3` / `CA` / `空中SA` / 総称`SA`（`packages/data/src/sa-levels.json`、全30体）
+    - SA レベルは取得元データに無いため手動キュレーション（SA3 は `(CA)` マーカーと一致、SA1/2 は web 検証）
+    - `SA3` と `CA` を別レコードとして分離。`(CA)` は SA モーションに紐づかなくても CA 登録（瞬獄殺対応）
+    - ボス版/派生（Bison `Final Psycho Crusher`、Ingrid `Sun Octopus` 等）は SA クエリで非ヒット
   - [ ] キャラ固有の俗称（`2強`/`昇竜`/`真空` 等 P/K 省略・JP 技名）
 - [x] 技名の日本語化（`name.ja`）
   - [x] 体系的な通常技を入力から自動導出（`deriveNormalJaName`: 5/2/j.+強度+P/K → 立ち弱パンチ等、538件）

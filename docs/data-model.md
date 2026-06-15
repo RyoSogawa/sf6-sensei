@@ -113,6 +113,28 @@ SF6 フレームデータの正規化 JSON スキーマ。`packages/core` の型
 - 解決は `packages/core` の `resolveMoveBest`（入力 > 別名/技名の完全一致 > 部分一致のティア順、
   最強ティアのみ返す）が使う。短いクエリ "DI" が技名の部分一致 "Stan**di**ng" に誤爆しない。
 
+### SA（スーパーアーツ）レベルの手動キュレーション
+
+SA1/SA2/SA3 のレベルは**取得元データに無い**（`moveType` は `super`/`Super` のみ、掲載順も入力の
+アルファベット順で SA 順を反映しない）。そのため `packages/data/src/sa-levels.json` に
+**base モーション → レベル**を手動キュレーションする（全30体・web で個別検証済み）。
+
+```jsonc
+{ "ryu": { "sa1": "236236P", "sa2": "214214P", "sa3": "236236K" }, ... }
+```
+
+`packages/data/src/index.ts` が super_art の各技に SA エイリアスを展開する:
+
+- **base モーション正規化**: `j.`/タメ`[]`/`(CA)`/`(hold)`/`+`/`~`派生/強度を除去し
+  `236236LP`→`236236P` のように畳む（強度違い・派生を 1 モーションに集約）。
+- **`SA1`〜`SA3` + 総称`SA`/`スーパーアーツ`**: `sa-levels.json` に一致する技だけに付与。
+- **`CA`（クリティカルアーツ）**: 名前に `(CA)` を含む技。SA3 とは入力が同じでもダメージ/フレームが
+  異なる**別レコード**なので `SA3`（通常版）と `CA`（低体力版）を分離する。
+  `(CA)` 表記は SA モーションに紐づかなくても CA として登録する（例: Akuma の瞬獄殺）。
+- **`空中SA1`/`空中SA2`**: 入力が `j.` で始まる空中版。
+- **ボス版/派生の除外**: `sa-levels.json` に無く `(CA)` でもない super（例: M.Bison `Final Psycho Crusher`、
+  Ingrid `Sun Octopus`、Akuma の Misogi/Kongou）は SA クエリでヒットさせない（技名・入力では引ける）。
+
 ## 取得元フィールドのマッピング（SuperCombo `SF6_FrameData` → Move）
 
 | 取得元フィールド | Move フィールド | 正規化 |

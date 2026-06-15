@@ -1,4 +1,10 @@
 {
+  "akuma": {
+    "LP~LP~6LK~HP": {
+      "aliases": ["瞬獄殺", "しゅんごくさつ", "raging demon"],
+      "ja": "瞬獄殺"
+    }
+  },
   "all": {
     "1LPLK": {
       "aliases": ["1投げ"]
