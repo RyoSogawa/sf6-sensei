@@ -99,9 +99,11 @@ type TranslationMap = Record<string, Record<string, string>>
 //   "Shin Shoryuken (CA)" / "Denjin Hashogeki Lv.1" / "Breakin' ~ Drink" → 基底名
 function baseMoveName(nameEn: string): string {
   return nameEn
+    .replace(/<br>.*$/i, '') // 取得元の HTML 改行アーティファクト以降を除去
     .replace(/\s*\(.*?\)\s*/g, ' ')
     .replace(/\s*Lv\.\d+/gi, '')
     .replace(/\s*~.*$/, '')
+    .replace(/^(HP|MP|LP|HK|MK|LK|OD|EX)\s+/, '') // 強度接頭辞を除去（"HP Flash Knuckle"→"Flash Knuckle"）
     .trim()
 }
 

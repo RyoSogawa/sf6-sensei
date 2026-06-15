@@ -232,6 +232,67 @@
     "Thunderbird": "サンダーバード",
     "Tomahawk Buster": "トマホークバスター"
   },
+  "luke": {
+    "Aerial Flash Knuckle": "エアフラッシュナックル",
+    "Eraser": "イレイザー",
+    "Fatal Shot": "フェイタルショット",
+    "Flash Knuckle": "フラッシュナックル",
+    "Pale Rider": "ペイルライダー",
+    "Sand Blast": "サンドブラスト",
+    "Vulcan Blast": "バルカンブラスト"
+  },
+  "m_bison": {
+    "Backfist Combo": "バックフィストコンボ",
+    "Double Knee Press": "ダブルニープレス",
+    "Knee Press Nightmare": "ニープレスナイトメア",
+    "Psycho Crusher Attack": "サイコクラッシャーアタック",
+    "Psycho Punisher": "サイコパニッシャー",
+    "Unlimited Psycho Crusher": "アンリミテッドサイコクラッシャー"
+  },
+  "mai": {
+    "Air Chou Hissatsu Shinobi Bachi": "空中超必殺忍蜂",
+    "Chou Hissatsu Shinobi Bachi": "超必殺忍蜂",
+    "Hishou Ryuuenjin": "飛翔龍炎陣",
+    "Hissatsu Shinobi Bachi": "必殺忍蜂",
+    "Kachousen": "花蝶扇",
+    "Kagerou no Mai": "陽炎の舞",
+    "Midare Kachousen": "乱れ花蝶扇",
+    "Musasabi no Mai": "ムササビの舞",
+    "Ryuuenbu": "龍炎舞",
+    "Shiranui Ryuu: Enbu Ada Zakura": "不知火流・炎舞仇桜"
+  },
+  "manon": {
+    "Arabesque": "アラベスク",
+    "Dégagé": "デガジェ",
+    "Grand Fouetté": "グラン・フェッテ",
+    "Manège Doré": "マネージュ・ドレ",
+    "Pas de Deux": "パ・ド・ドゥ",
+    "Renversé": "ランヴェルセ",
+    "Rond-point": "ロン・ポワン",
+    "Étoile": "エトワール"
+  },
+  "marisa": {
+    "Dimachaerus": "ディマカイルス",
+    "Enfold": "エンフォルド",
+    "Gladius": "グラディウス",
+    "Goddess of the Hunt": "アポロウーサ",
+    "Javelin of Marisa": "マリーザジャベリン",
+    "Meteorite": "メテオリティス",
+    "Phalanx": "ファランクス",
+    "Procella": "プロケッラ",
+    "Quadriga": "クアドリガ",
+    "Scutum": "スクトゥム",
+    "Tonitrus 1": "トニトルス",
+    "Tonitrus 2": "トニトルス"
+  },
+  "rashid": {
+    "Altair": "アルタイル",
+    "Eagle Spike": "イーグル・スパイク",
+    "Spinning Mixer": "スピニング・ミキサー",
+    "Super Rashid Kick": "スーパー・ラシード・キック",
+    "Whirlwind Shot": "ワールウインド・ショット",
+    "Ysaar": "イウサール"
+  },
   "ryu": {
     "Aerial Tatsumaki Senpu-kyaku": "空中竜巻旋風脚",
     "Collarbone Breaker": "鎖骨割り",
@@ -248,5 +309,45 @@
     "Shoryuken": "昇龍拳",
     "Solar Plexus Strike": "鳩尾砕き",
     "Tatsumaki Senpu-kyaku": "竜巻旋風脚"
+  },
+  "sagat": {
+    "High Tiger Shot": "タイガーショット",
+    "Low Tiger Shot": "グランドタイガーショット",
+    "Mighty Tiger": "タイガーマイト",
+    "Savage Tiger": "サベージタイガー",
+    "Savage Tiger Pendulum": "サベージタイガーペンデュラム",
+    "Savage Tiger Raid": "サベージタイガーレイド",
+    "Savage Tiger Stomp": "サベージタイガースタンプ",
+    "Savage Tiger Zenith": "サベージタイガーゼニス",
+    "Tiger Cannon": "タイガーキャノン",
+    "Tiger Knee Crush": "タイガーニークラッシュ",
+    "Tiger Nexus": "タイガーネクサス",
+    "Tiger Uppercut": "タイガーアッパーカット",
+    "Tiger Vanquisher": "タイガーヴァンキッシュ"
+  },
+  "terry": {
+    "Burning Knuckle": "バーンナックル",
+    "Buster Wolf": "バスターウルフ",
+    "Crack Shoot": "クラックシュート",
+    "Power Charge": "パワーチャージ",
+    "Power Geyser": "パワーゲイザー",
+    "Power Wave": "パワーウェイブ",
+    "Quick Burn": "クイックバーン",
+    "Rising Fang": "ライジングファング",
+    "Rising Tackle": "ライジングタックル",
+    "Round Wave": "ラウンドウェイブ",
+    "Triple Geyser": "トリプルゲイザー",
+    "Twin Geyser": "ツインゲイザー"
+  },
+  "zangief": {
+    "Aerial Russian Slam": "エリアルロシアンスラム",
+    "Bolshoi Storm Buster": "ボリショイストームバスター",
+    "Borscht Dynamite": "ボルシチダイナマイト",
+    "Cyclone Lariat": "サイクロンラリアット",
+    "Double Lariat": "ダブルラリアット",
+    "Russian Suplex": "ロシアンスープレックス",
+    "Screw Piledriver": "スクリューパイルドライバー",
+    "Siberian Express": "シベリアンエクスプレス",
+    "Tundra Storm": "ツンドラストーム"
   }
 }
