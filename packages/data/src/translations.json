@@ -113,6 +113,54 @@
     "Yoga Sunburst": "ヨガサンバースト",
     "Yoga Teleport": "ヨガテレポート"
   },
+  "e_honda": {
+    "Hundred Hand Slap": "百裂張り手",
+    "Oicho Throw": "大銀杏投げ",
+    "Show of Force": "発揮爆砕",
+    "Sumo Headbutt": "スーパー頭突き",
+    "Sumo Smash": "スーパー百貫落とし",
+    "The Final Bout": "千秋楽",
+    "Ultimate Killer Head Ram": "スーパー鬼無双"
+  },
+  "ed": {
+    "Psycho Blitz": "サイコブリッツ",
+    "Psycho Cannon": "サイコキャノン",
+    "Psycho Chamber": "サイコチェンバー",
+    "Psycho Flicker": "サイコフリッカー",
+    "Psycho Shoot": "サイコシュート",
+    "Psycho Spark": "サイコスパーク",
+    "Psycho Storm": "サイコストーム",
+    "Psycho Uppercut": "サイコアッパー"
+  },
+  "elena": {
+    "Harvest Circle": "ハーベストサークル",
+    "Leopard Snap": "レオパードスナップ",
+    "Lynx Song": "リンクシング",
+    "Lynx Whirl": "リンクスワール",
+    "Mallet Smash": "マレットスマッシュ",
+    "Meteor Volley": "ミーティアボレー",
+    "Revival Dance": "リヴァイブダンス",
+    "Rhino Horn": "ライノホーン",
+    "Scratch Wheel": "スクラッチホイール",
+    "Song of the Grasslands": "グラスランドソング"
+  },
+  "guile": {
+    "Crossfire Somersault": "クロスファイアサマーソルト",
+    "Solid Puncher": "ソリッドパンチャー",
+    "Somersault Kick": "サマーソルトキック",
+    "Sonic Blade": "ソニックブレイド",
+    "Sonic Boom": "ソニックブーム",
+    "Sonic Break": "ソニックブレイク",
+    "Sonic Cross": "ソニッククロス",
+    "Sonic Hurricane": "ソニックハリケーン"
+  },
+  "ingrid": {
+    "Cosmic Ray": "コズミックレイ",
+    "Order of the Sun": "サンオーダー",
+    "Shining Sun": "サンシャイン",
+    "Sun Flare": "サンフレア",
+    "Sun Shot": "サンシュート"
+  },
   "ken": {
     "Aerial Tatsumaki Senpu-kyaku": "空中竜巻旋風脚",
     "Chin Buster": "顎撥二連",
