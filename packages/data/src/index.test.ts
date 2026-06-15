@@ -82,13 +82,16 @@ describe('alias-overrides enrichment (common system moves)', () => {
 
   it('adds SA1/SA2/aerial aliases to super arts', () => {
     const cammy = characters.find((c) => c.id === 'cammy')
-    // SA2 (Spin Drive Smasher, 236236K)
+    // SA1 = Spin Drive Smasher (236236K), SA2 = Killer Bee Spin (214214P)（frame-search 公式準拠）
     expect(
-      resolveMoveBest('SA2', cammy?.moves ?? []).some((m) => m.input.numpad === '236236K'),
+      resolveMoveBest('SA1', cammy?.moves ?? []).some((m) => m.input.numpad === '236236K'),
     ).toBe(true)
-    // 空中SA1 (Aerial Killer Bee Spin, j.214214P)
     expect(
-      resolveMoveBest('空中SA1', cammy?.moves ?? []).some((m) => m.input.numpad.startsWith('j.')),
+      resolveMoveBest('SA2', cammy?.moves ?? []).some((m) => m.input.numpad === '214214P'),
+    ).toBe(true)
+    // 空中SA2 = Aerial Killer Bee Spin (j.214214P)
+    expect(
+      resolveMoveBest('空中SA2', cammy?.moves ?? []).some((m) => m.input.numpad.startsWith('j.')),
     ).toBe(true)
   })
 
