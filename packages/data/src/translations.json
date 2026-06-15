@@ -161,6 +161,34 @@
     "Sun Flare": "サンフレア",
     "Sun Shot": "サンシュート"
   },
+  "jamie": {
+    "Arrow Kick": "張弓腿",
+    "Breakin'": "武麗禽",
+    "Getsuga Saiho": "月牙叉炮",
+    "Swagger Step": "酔疾歩",
+    "The Devil Inside": "魔身",
+    "The Devil's Song": "絶唱魔身"
+  },
+  "jp": {
+    "Amnesia": "アムネジア",
+    "Chornobog": "チェルノボーグ",
+    "Interdiction": "ザプリェット",
+    "Lovushka": "ラヴーシュカ",
+    "Stribog": "ストリボーグ",
+    "Triglav": "トリグラフ"
+  },
+  "juri": {
+    "Ankensatsu": "暗剣殺",
+    "Feng Shui Engine": "風水エンジン",
+    "Fuhajin": "風破刃",
+    "Go Ohsatsu": "五黄殺",
+    "Kaisen Dankai Raku": "回旋断界落",
+    "Saihasho": "歳破衝",
+    "Sakkai Fuhazan": "殺界風破斬",
+    "Shiku-sen": "疾空閃",
+    "Shiren-sen": "死連閃",
+    "Tensenrin": "天穿輪"
+  },
   "ken": {
     "Aerial Tatsumaki Senpu-kyaku": "空中竜巻旋風脚",
     "Chin Buster": "顎撥二連",
@@ -176,6 +204,33 @@
     "Shoryuken": "昇龍拳",
     "Tatsumaki Senpu-kyaku": "竜巻旋風脚",
     "Thunder Kick": "紫電カカト落とし"
+  },
+  "kimberly": {
+    "Aerial Bushin Senpukyaku": "空中武神旋風脚",
+    "Arc Step": "弧空",
+    "Bushin Beats": "武神乱拍子",
+    "Bushin Izuna Otoshi": "武神イズナ落とし",
+    "Bushin Ninjastar Cypher": "武神顕現神楽",
+    "Bushin Scramble": "武神天翔亢竜",
+    "Bushin Senpukyaku": "武神旋風脚",
+    "Bushin Thunderous Beats": "武神乱拍子・雷譜",
+    "Emergency Stop": "急停止",
+    "Neck Hunter": "首狩り",
+    "Shadow Slide": "影すくい",
+    "Soaring Bushin Scramble": "空中武神天翔亢竜",
+    "Sprint": "疾駆け",
+    "Torso Cleaver": "胴刎ね"
+  },
+  "lily": {
+    "Breezing Hawk": "ブリージングホーク",
+    "Condor Dive": "コンドルダイブ",
+    "Condor Spire": "コンドルスパイア",
+    "Condor Wind": "コンドルウィンド",
+    "Mexican Typhoon": "メキシカンタイフーン",
+    "Raging Typhoon": "レイジングタイフーン",
+    "Soaring Thunderbird": "スカイサンダーバード",
+    "Thunderbird": "サンダーバード",
+    "Tomahawk Buster": "トマホークバスター"
   },
   "ryu": {
     "Aerial Tatsumaki Senpu-kyaku": "空中竜巻旋風脚",
