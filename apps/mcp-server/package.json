@@ -11,7 +11,8 @@
     "@cloudflare/workers-types": "4.20260605.1",
     "@repo/tsconfig": "workspace:*",
     "typescript": "catalog:",
-    "vitest": "catalog:"
+    "vitest": "catalog:",
+    "wrangler": "^4.98.0"
   },
   "name": "@repo/mcp-server",
   "private": true,
