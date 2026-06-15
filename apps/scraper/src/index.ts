@@ -10,7 +10,7 @@ import { type Character, characterSchema, type Move, normalizeInput } from '@rep
 
 const API = 'https://srk.shib.live/api.php'
 const USER_AGENT =
-  'sf6-frame-data-api/0.1 (+https://github.com/RyoSogawa/sf6-frame-data-api) personal-noncommercial'
+  'sf6-sensei/0.1 (+https://github.com/RyoSogawa/sf6-sensei) personal-noncommercial'
 
 export interface CargoQueryParams {
   tables: string

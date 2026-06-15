@@ -2,5 +2,5 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "compatibility_date": "2026-06-01",
   "main": "src/index.ts",
-  "name": "sf6-frame-data-mcp"
+  "name": "sf6-sensei-mcp"
 }

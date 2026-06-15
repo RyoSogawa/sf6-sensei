@@ -1,4 +1,4 @@
-# sf6-frame-data-api
+# sf6-sensei
 
 Street Fighter 6 のキャラクター/フレームデータを ChatGPT から参照できるようにする MCP サーバー。
 

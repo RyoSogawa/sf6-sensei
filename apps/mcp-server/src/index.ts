@@ -74,7 +74,7 @@ function textResult(data: unknown) {
 // ステートレス運用: リクエストごとに新しい McpServer + transport を生成する。
 // SDK の Server は単一 transport にしか connect できないため、共有インスタンスは使えない。
 function createMcpServer(): McpServer {
-  const mcpServer = new McpServer({ name: 'sf6-frame-data', version: '0.1.0' })
+  const mcpServer = new McpServer({ name: 'sf6-sensei', version: '0.1.0' })
 
   mcpServer.registerTool(
     'get_move',

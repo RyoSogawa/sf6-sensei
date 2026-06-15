@@ -10,7 +10,7 @@
   "engines": {
     "node": ">=22"
   },
-  "name": "sf6-frame-data-api",
+  "name": "sf6-sensei",
   "packageManager": "pnpm@10.30.0",
   "private": true,
   "scripts": {

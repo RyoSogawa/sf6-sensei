@@ -91,7 +91,7 @@ SuperCombo wiki (CC-BY-SA)
   独自 robots は `/api.php` 許可・`/index.php?title=` と `/w/Special:` は Disallow。
 - **アクセス方針（厳守）**:
   1. エンドポイントは `srk.shib.live/api.php` のみ（`/index.php?title=`・`/w/Special:` は使わない＝robots 遵守）
-  2. **正直な識別 UA**（`sf6-frame-data-api/x.y (+repo URL)`）。偽装ブラウザ UA は使わない
+  2. **正直な識別 UA**（`sf6-sensei/x.y (+repo URL)`）。偽装ブラウザ UA は使わない
   3. **低頻度の手動バッチ + 強キャッシュ**。並列連打しない
   4. `ai-train=no` 遵守（学習しない）。`ai-input` はグレーと理解の上で個人・非営利に留める
   5. **出典明記 + CC-BY-SA 継承（share-alike）**
@@ -156,7 +156,7 @@ SuperCombo wiki (CC-BY-SA)
 pnpm workspace モノレポ。想定パッケージ:
 
 ```
-sf6-frame-data-api/
+sf6-sensei/
 ├── apps/
 │   ├── mcp-server/      # Hono on Cloudflare Workers（MCP エンドポイント）
 │   └── scraper/         # SuperCombo cargoquery 取得 + 正規化バッチ（Node CLI）

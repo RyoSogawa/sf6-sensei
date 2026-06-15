@@ -12,7 +12,7 @@
 // アクセス方針: spec.md「取得の許諾とアクセス方針」を厳守。
 // `srk.shib.live/api.php` のみ・正直な識別 UA・低頻度・偽装しない。
 const API = "https://srk.shib.live/api.php";
-const UA = "sf6-frame-data-api/0.1 (+https://github.com/RyoSogawa/sf6-frame-data-api) personal-noncommercial";
+const UA = "sf6-sensei/0.1 (+https://github.com/RyoSogawa/sf6-sensei) personal-noncommercial";
 
 const FIELDS = [
   "moveId", "chara", "input", "name", "moveType", "damage",
