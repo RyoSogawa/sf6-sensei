@@ -61,14 +61,23 @@ describe('alias-overrides enrichment (common system moves)', () => {
     expect(resolveMoveBest('下投げ', ryu?.moves ?? [])).toHaveLength(0)
   })
 
-  it('auto-derives Japanese names for systematic normals, leaving proper nouns null', () => {
+  it('auto-derives Japanese names for systematic normals', () => {
     const find = (numpad: string) => ryu?.moves.find((m) => m.input.numpad === numpad)
     expect(find('5LP')?.name.ja).toBe('立ち弱パンチ')
     expect(find('2HP')?.name.ja).toBe('しゃがみ強パンチ')
     expect(find('j.MK')?.name.ja).toBe('ジャンプ中キック')
-    // 固有名（特殊技・必殺技）は導出対象外なので ja は null のまま。
-    expect(find('6MP')?.name.ja).toBeNull() // Collarbone Breaker
-    expect(find('236LP')?.name.ja).toBeNull() // Hadoken
+  })
+
+  it('fills proper-noun and taunt Japanese names (translations + taunt derivation)', () => {
+    const byName = (en: string) => ryu?.moves.find((m) => m.name.en === en)
+    // 手動翻訳レイヤー（接尾辞付きでも基底名で照合）
+    expect(
+      ryu?.moves.find((m) => m.input.numpad === '236HP' && m.name.en === 'Hadoken')?.name.ja,
+    ).toBe('波動拳')
+    expect(byName('Shin Shoryuken (CA)')?.name.ja).toBe('真・昇龍拳') // Lv/(CA) 接尾辞を除去して照合
+    expect(byName('Collarbone Breaker')?.name.ja).toBe('鎖骨割り')
+    // 挑発は自動導出
+    expect(byName('Down Taunt')?.name.ja).toBe('下挑発')
   })
 
   it('adds SA1/SA2/aerial aliases to super arts', () => {

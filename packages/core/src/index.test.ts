@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import {
   characterSchema,
   deriveNormalJaName,
+  deriveTauntJaName,
   type Move,
   moveSchema,
   normalizeInput,
@@ -304,6 +305,22 @@ describe('deriveNormalJaName', () => {
     expect(deriveNormalJaName('5HP~HK')).toBeNull() // target combo
     expect(deriveNormalJaName('HPHK')).toBeNull() // drive impact
     expect(deriveNormalJaName('4HK')).toBeNull() // directional command normal
+  })
+})
+
+describe('deriveTauntJaName', () => {
+  it('derives directional taunts, ignoring suffixes', () => {
+    expect(deriveTauntJaName('Back Taunt')).toBe('後ろ挑発')
+    expect(deriveTauntJaName('Neutral Taunt')).toBe('ニュートラル挑発')
+    expect(deriveTauntJaName('Forward Taunt')).toBe('前挑発')
+    expect(deriveTauntJaName('Down Taunt')).toBe('下挑発')
+    expect(deriveTauntJaName('Forward Taunt (DL2)')).toBe('前挑発')
+    expect(deriveTauntJaName('Back~Down Taunt')).toBe('後ろ下挑発')
+  })
+
+  it('returns null for non-taunts', () => {
+    expect(deriveTauntJaName('Hadoken')).toBeNull()
+    expect(deriveTauntJaName('Standing Heavy Punch')).toBeNull()
   })
 })
 

@@ -366,3 +366,30 @@ export function deriveNormalJaName(numpad: string): string | null {
   if (!(stance && strength && button)) return null
   return `${stance}${strength}${button}`
 }
+
+const JA_TAUNT_DIR: Record<string, string> = {
+  back: '後ろ',
+  down: '下',
+  forward: '前',
+  neutral: 'ニュートラル',
+}
+
+/**
+ * Derive the Japanese name of a taunt from its English name.
+ * Taunts are systematically named "(Back|Neutral|Forward|Down) Taunt" (with an
+ * optional "~Dir" or "(...)" suffix), e.g. "Forward Taunt (DL2)" → "前挑発".
+ * Returns null for anything that isn't a directional taunt.
+ */
+export function deriveTauntJaName(nameEn: string): string | null {
+  const matched = nameEn.match(
+    /^(Back|Neutral|Forward|Down)(?:~(Back|Neutral|Forward|Down))?\s+Taunt/,
+  )
+  if (!matched) return null
+  const first = matched[1]
+  if (!first) return null
+  const dir1 = JA_TAUNT_DIR[first.toLowerCase()]
+  if (!dir1) return null
+  const second = matched[2]
+  const dir2 = second ? (JA_TAUNT_DIR[second.toLowerCase()] ?? '') : ''
+  return `${dir1}${dir2}挑発`
+}

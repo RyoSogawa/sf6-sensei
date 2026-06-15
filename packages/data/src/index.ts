@@ -1,8 +1,9 @@
-import { type Character, deriveNormalJaName, type Move } from '@repo/core'
+import { type Character, deriveNormalJaName, deriveTauntJaName, type Move } from '@repo/core'
 import overrides from './alias-overrides.json'
 // generated/index.ts は apps/scraper が自動生成（キャラ別 JSON を結合した配列）。
 import generated from './generated'
 import saLevels from './sa-levels.json'
+import translations from './translations.json'
 
 // 生成データ。apps/scraper が SuperCombo Wiki (CC-BY-SA) から cargoquery で取得・正規化し、
 // core の zod スキーマで検証済みの JSON を出力したもの。各 Move の source に出典を明記している。
@@ -90,16 +91,41 @@ function superArtAliases(move: Move, sa: SaLevel): string[] {
   return out
 }
 
+// 固有名の手動翻訳レイヤー: { [characterId]: { [基底技名(en)]: 日本語名 } }。
+// 公式テーブルからキュレーションする。再スクレイプで消えない（詳細は docs/data-model.md）。
+type TranslationMap = Record<string, Record<string, string>>
+
+// translations のキー照合用に接尾辞を除いた基底技名を得る。
+//   "Shin Shoryuken (CA)" / "Denjin Hashogeki Lv.1" / "Breakin' ~ Drink" → 基底名
+function baseMoveName(nameEn: string): string {
+  return nameEn
+    .replace(/\s*\(.*?\)\s*/g, ' ')
+    .replace(/\s*Lv\.\d+/gi, '')
+    .replace(/\s*~.*$/, '')
+    .trim()
+}
+
+// 日本語技名を決める: 通常技は入力から自動導出 → 挑発は名前から自動導出 → 固有名は手動翻訳。
+function deriveJaName(move: Move, translation: Record<string, string> | undefined): string | null {
+  return (
+    deriveNormalJaName(move.input.numpad) ??
+    deriveTauntJaName(move.name.en) ??
+    translation?.[baseMoveName(move.name.en)] ??
+    null
+  )
+}
+
 function enrichMove(
   move: Move,
   universal: Record<string, AliasOverride>,
   perCharacter: Record<string, AliasOverride>,
   sa: SaLevel | undefined,
+  translation: Record<string, string> | undefined,
 ): Move {
   let result = move
-  // 1. 体系的な通常技は入力から日本語名を自動導出（ja 未設定のときだけ）。
+  // 1. 日本語技名を補完（ja 未設定のときだけ）。通常技/挑発は自動導出、固有名は手動翻訳レイヤー。
   if (result.name.ja === null) {
-    const ja = deriveNormalJaName(result.input.numpad)
+    const ja = deriveJaName(result, translation)
     if (ja) {
       result = { ...result, name: { ...result.name, ja } }
     }
@@ -125,14 +151,18 @@ function enrich(
   source: readonly Character[],
   overrideMap: OverrideMap,
   saMap: SaLevelMap,
+  translationMap: TranslationMap,
 ): readonly Character[] {
   const universal = overrideMap.all ?? {}
   return source.map((character) => {
     const perCharacter = overrideMap[character.id] ?? {}
     const sa = saMap[character.id]
+    const translation = translationMap[character.id]
     return {
       ...character,
-      moves: character.moves.map((move) => enrichMove(move, universal, perCharacter, sa)),
+      moves: character.moves.map((move) =>
+        enrichMove(move, universal, perCharacter, sa, translation),
+      ),
     }
   })
 }
@@ -141,6 +171,7 @@ export const characters: readonly Character[] = enrich(
   generatedCharacters,
   overrides as OverrideMap,
   saLevels as SaLevelMap,
+  translations as TranslationMap,
 )
 
 export function getCharacters(): readonly Character[] {

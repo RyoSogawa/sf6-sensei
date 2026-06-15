@@ -1,0 +1,35 @@
+{
+  "ken": {
+    "Aerial Tatsumaki Senpu-kyaku": "空中竜巻旋風脚",
+    "Chin Buster": "顎撥二連",
+    "Dragonlash Flame": "龍尾烈脚",
+    "Dragonlash Kick": "龍尾脚",
+    "Emergency Stop": "急停止",
+    "Forward Step Kick": "踏み込み前蹴り",
+    "Hadoken": "波動拳",
+    "Jinrai Kick": "迅雷脚",
+    "Quick Dash": "奮迅脚",
+    "Shinryu Reppa": "神龍烈破",
+    "Shippu Jinrai-kyaku": "疾風迅雷脚",
+    "Shoryuken": "昇龍拳",
+    "Tatsumaki Senpu-kyaku": "竜巻旋風脚",
+    "Thunder Kick": "紫電カカト落とし"
+  },
+  "ryu": {
+    "Aerial Tatsumaki Senpu-kyaku": "空中竜巻旋風脚",
+    "Collarbone Breaker": "鎖骨割り",
+    "Denjin Charge": "電刃溜め",
+    "Denjin Charge Hadoken": "電刃波動拳",
+    "Denjin Charge Hashogeki": "電刃波掌撃",
+    "Denjin Hadoken": "電刃波動拳",
+    "Denjin Hashogeki": "電刃波掌撃",
+    "Hadoken": "波動拳",
+    "Hashogeki": "波掌撃",
+    "Shin Hashogeki": "真・波掌撃",
+    "Shin Shoryuken": "真・昇龍拳",
+    "Shinku Hadoken": "真空波動拳",
+    "Shoryuken": "昇龍拳",
+    "Solar Plexus Strike": "鳩尾砕き",
+    "Tatsumaki Senpu-kyaku": "竜巻旋風脚"
+  }
+}
