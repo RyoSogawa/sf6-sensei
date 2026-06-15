@@ -1,4 +1,30 @@
 {
+  "aki": {
+    "Claws of Ya Zi": "睚眦",
+    "Cruel Fate": "凶襲突",
+    "Deadly Implication": "死屍累々",
+    "Nightshade Chaser": "紫煙追",
+    "Nightshade Pulse": "紫煙砲",
+    "Orchid Spring": "紫泡泉",
+    "Serpent Lash": "蛇頭鞭",
+    "Snake Step": "蛇軽功",
+    "Tainted Talons": "紫煙裂爪",
+    "Toxic Wreath": "紫泡撒"
+  },
+  "akuma": {
+    "Adamant Flame": "金剛灼火",
+    "Aerial Tatsumaki Zanku-Kyaku": "空中竜巻斬空脚",
+    "Demon Raid": "百鬼襲",
+    "Empyrean's End": "崩天劫火",
+    "Gou Hadoken": "豪波動拳",
+    "Gou Shoryuken": "豪昇龍拳",
+    "Messatsu Gohado": "滅殺豪波動",
+    "Shun Goku Satsu": "瞬獄殺",
+    "Sip of Calamity": "禍坏",
+    "Tatsumaki Zanku-Kyaku": "竜巻斬空脚",
+    "Tenma Gozanku": "天魔豪斬空",
+    "Zanku Hadoken": "斬空波動拳"
+  },
   "alex": {
     "Aerial Knee Smash": "エアニースマッシュ",
     "Flash Axe": "フラッシュアックス",
@@ -10,6 +36,17 @@
     "Raging Spear": "レイジングスピアー",
     "Sledgecross Hammer": "スレッジクロスハンマー",
     "The Final Prison": "ファイナルキャプチュード"
+  },
+  "blanka": {
+    "Aerial Rolling Attack": "エリアルローリング",
+    "Backstep Rolling Attack": "バックステップローリング",
+    "Electric Thunder": "エレクトリックサンダー",
+    "Ground Shave Cannonball": "グランドシェイブキャノンボール",
+    "Lightning Beast": "ライトニングビースト",
+    "Rolling Attack": "ローリングアタック",
+    "Shout of Earth": "シャウトオブアース",
+    "Vertical Rolling Attack": "バーチカルローリング",
+    "Wild Hunt": "ワイルドハント"
   },
   "ken": {
     "Aerial Tatsumaki Senpu-kyaku": "空中竜巻旋風脚",
