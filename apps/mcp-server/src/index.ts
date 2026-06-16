@@ -14,6 +14,16 @@ import {
 const app = new Hono()
 const characters = getCharacters()
 
+// サーバーロゴ。MCP の Icon は画像(URL か data URI)のみで絵文字文字列(🥋)は渡せないため、
+// 絵文字を SVG 化して埋め込む。Workers の btoa は UTF-8 で落ちるので encodeURIComponent を使う。
+const serverIconSvg =
+  '<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><rect width="128" height="128" rx="28" fill="#1a1a2e"/><text x="64" y="92" font-size="72" text-anchor="middle">🥋</text></svg>'
+const serverIcon = {
+  mimeType: 'image/svg+xml',
+  sizes: ['any'],
+  src: `data:image/svg+xml,${encodeURIComponent(serverIconSvg)}`,
+}
+
 // Tool input schemas
 const categorySchema = z
   .enum([
@@ -74,7 +84,12 @@ function textResult(data: unknown) {
 // ステートレス運用: リクエストごとに新しい McpServer + transport を生成する。
 // SDK の Server は単一 transport にしか connect できないため、共有インスタンスは使えない。
 function createMcpServer(): McpServer {
-  const mcpServer = new McpServer({ name: 'sf6-sensei', version: '0.1.0' })
+  const mcpServer = new McpServer({
+    icons: [serverIcon],
+    name: 'sf6-sensei',
+    title: 'SF6 Sensei',
+    version: '0.1.0',
+  })
 
   mcpServer.registerTool(
     'get_move',
