@@ -25,14 +25,12 @@ MCP サーバー(`apps/mcp-server`)を Cloudflare Workers にデプロイし、C
 
 ### 2. workerd の build script を承認 (保護設定・あなたが実施)
 
-`wrangler deploy` には workerd のバイナリが要る。pnpm 10 は build script を既定で保留するので承認が必要。
+`wrangler deploy` には workerd のバイナリが要る。pnpm 11 は build script を既定で保留する
+（`pnpm-workspace.yaml` の `allowBuilds` で全 `false`）ので、デプロイ時のみ承認が必要。
 
-```sh
-pnpm approve-builds   # workerd (と esbuild) を選択
-```
-
-または `pnpm-workspace.yaml` に `onlyBuiltDependencies: [workerd, esbuild]` を追記
-(保護設定なのでフックが確認プロンプトを出す)。
+`pnpm-workspace.yaml` の `allowBuilds` で `workerd: true` にする（必要なら `esbuild: true` も）。
+保護設定なのでフックが確認プロンプトを出す。`pnpm approve-builds` の対話でも同じく `allowBuilds` を更新できる。
+デプロイ後に戻す場合は `false` へ。
 
 ### 3. Cloudflare 認証
 

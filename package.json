@@ -8,10 +8,10 @@
     "vitest": "catalog:"
   },
   "engines": {
-    "node": ">=22"
+    "node": ">=24"
   },
   "name": "sf6-sensei",
-  "packageManager": "pnpm@10.30.0",
+  "packageManager": "pnpm@11.7.0",
   "private": true,
   "scripts": {
     "build": "pnpm -r build",

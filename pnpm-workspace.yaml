@@ -26,11 +26,25 @@ minimumReleaseAgeExclude: []
 # pnpm は range 内の最新を選んでから age チェックで失敗し、自動で成熟版へ下げないため明示固定する。
 #   esbuild      — tsx / vitest(vite) が利用。tsx の ~0.28.0 範囲内の成熟版 0.28.0 に固定。
 #   @types/node  — vitest の peer(^20||^22||>=24) が latest(25.x 若い)を引くため、Node 22 系の成熟版に固定。
+#   obug         — vitest 4.1.8 / astro が利用する debug 代替。2.1.3(2026-06-10 公開)は cooldown 内で
+#                  弾かれるため、cooldown 通過済みの成熟版 2.1.2 に固定（astro も 2.1.2 を使用、patch 差）。
+#                  2.1.3 が成熟したら除去してよい。
 overrides:
   esbuild: 0.28.0
   "@types/node": "22.19.20"
+  obug: 2.1.2
 
 # 依存バージョンの単一ソース
 catalog:
   typescript: 6.0.3
   vitest: 4.1.8
+
+# allowBuilds: pnpm 11 は lifecycle script の実行可否を明示必須にした（pnpm 10 は既定で全保留）。
+# 元の挙動（全保留＝未承認）を維持するため全て false で明示的に拒否する。esbuild/lefthook/sharp/workerd は
+# いずれも prebuilt バイナリを optional dep で同梱するため script 不要で dev は機能する。
+# デプロイ（wrangler）で workerd の build が要るときは、その時に workerd を true へ（docs/deploy.md）。
+allowBuilds:
+  esbuild: false
+  lefthook: false
+  sharp: false
+  workerd: false
