@@ -1,0 +1,334 @@
+:root {
+  --bg: #12121f;
+  --surface: #1a1a2e;
+  --surface-2: #20203a;
+  --border: #2c2c47;
+  --text: #e8e8f2;
+  --muted: #a0a0bb;
+  --accent: #ff5252;
+  --accent-2: #f5b642;
+  --code-bg: #0d0d18;
+  --radius: 12px;
+  --maxw: 760px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family:
+    -apple-system, blinkmacsystemfont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", meiryo,
+    sans-serif;
+  line-height: 1.75;
+  font-size: 16px;
+}
+
+a {
+  color: var(--accent-2);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.wrap {
+  max-width: var(--maxw);
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header {
+  border-bottom: 1px solid var(--border);
+  background: linear-gradient(180deg, var(--surface) 0%, var(--bg) 100%);
+}
+
+.site-header .wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text);
+}
+
+.brand img {
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+}
+
+.nav a {
+  color: var(--muted);
+  margin-left: 18px;
+  font-size: 14px;
+}
+
+.nav a:hover {
+  color: var(--text);
+}
+
+.hero {
+  text-align: center;
+  padding: 56px 0 40px;
+  border-bottom: 1px solid var(--border);
+}
+
+.hero h1 {
+  font-size: 30px;
+  margin: 0 0 12px;
+}
+
+.hero p {
+  color: var(--muted);
+  font-size: 17px;
+  margin: 0 auto;
+  max-width: 560px;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 12px;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  border-radius: 999px;
+  padding: 2px 12px;
+  margin-bottom: 18px;
+  letter-spacing: 0.04em;
+}
+
+main section {
+  padding: 40px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+h2 {
+  font-size: 22px;
+  margin: 0 0 18px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+h2 .num {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  font-size: 14px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: 8px;
+  flex: none;
+}
+
+h3 {
+  font-size: 17px;
+  margin: 28px 0 10px;
+}
+
+ol.steps {
+  counter-reset: step;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ol.steps > li {
+  position: relative;
+  padding: 0 0 4px 44px;
+  margin-bottom: 22px;
+  counter-increment: step;
+}
+
+ol.steps > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 30px;
+  height: 30px;
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  color: var(--accent-2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+code {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1px 6px;
+  font-family: "SF Mono", "JetBrains Mono", menlo, consolas, monospace;
+  font-size: 13.5px;
+  color: #e8e8f2;
+  word-break: break-all;
+}
+
+pre {
+  background: var(--code-bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  overflow-x: auto;
+}
+
+pre code {
+  background: none;
+  border: none;
+  padding: 0;
+  word-break: normal;
+}
+
+.note {
+  background: var(--surface);
+  border-left: 3px solid var(--accent-2);
+  border-radius: 0 8px 8px 0;
+  padding: 12px 16px;
+  margin: 16px 0;
+  color: var(--muted);
+  font-size: 14.5px;
+}
+
+.note strong {
+  color: var(--text);
+}
+
+.tools {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+/* biome-ignore lint/style/noDescendingSpecificity: ol.steps > li とは別コンテナの li で衝突しない */
+.tools li {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+
+.tools code {
+  font-size: 13px;
+}
+
+.tools p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-size: 13.5px;
+}
+
+.shot {
+  border: 1px dashed var(--border);
+  border-radius: var(--radius);
+  background: var(--surface);
+  color: var(--muted);
+  text-align: center;
+  padding: 40px 16px;
+  font-size: 13.5px;
+  margin: 14px 0;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background: var(--surface);
+  color: var(--muted);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 7px 18px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.tabs button[aria-selected="true"] {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
+.panel[hidden] {
+  display: none;
+}
+
+.site-footer {
+  padding: 32px 0 48px;
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.site-footer .wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  justify-content: space-between;
+}
+
+.site-footer a {
+  color: var(--muted);
+}
+
+.legal h2 {
+  font-size: 19px;
+  margin-top: 36px;
+}
+
+.legal ul,
+.legal ol {
+  padding-left: 22px;
+}
+
+/* biome-ignore lint/style/noDescendingSpecificity: ol.steps > li とは別コンテナの li で衝突しない */
+.legal li {
+  margin-bottom: 8px;
+}
+
+.updated {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+@media (max-width: 560px) {
+  .tools {
+    grid-template-columns: 1fr;
+  }
+
+  .hero h1 {
+    font-size: 24px;
+  }
+
+  .nav a {
+    margin-left: 12px;
+  }
+}

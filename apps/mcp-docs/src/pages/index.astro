@@ -1,0 +1,171 @@
+---
+import Base from '../layouts/Base.astro'
+
+const base = import.meta.env.BASE_URL
+---
+
+<Base
+  title="SF6 Sensei — Street Fighter 6 フレームデータ MCP サーバー"
+  description="Street Fighter 6 のフレームデータを ChatGPT / Claude から引ける非公式 MCP サーバー。接続手順を案内します。"
+>
+  <div class="hero">
+    <div class="wrap">
+      <div class="badge">非公式 / UNOFFICIAL</div>
+      <h1>Street Fighter 6 のフレームデータを<br />ChatGPT / Claude から引く</h1>
+      <p>
+        発生・硬直差・確定反撃の候補を、テキストチャットの音声入力でそのまま質問できる MCP
+        サーバーです。データ出典は SuperCombo Wiki（CC-BY-SA）。
+      </p>
+    </div>
+  </div>
+
+  <main>
+    <section id="about">
+      <div class="wrap">
+        <h2><span class="num">?</span>これは何</h2>
+        <p>
+          <strong>SF6 Sensei</strong> は、Street Fighter 6 のフレームデータを Model Context
+          Protocol（MCP）で配信するサーバーです。ChatGPT や Claude
+          にコネクタとして登録すると、「ジュリの2強の発生は？」「この技ガードした、確反ある？」
+          のように自然言語で聞けるようになります。
+        </p>
+        <div class="note">
+          <strong>音声入力で使う前提です。</strong>
+          ChatGPT / Claude の<strong>リアルタイム音声会話（Voice Mode）では MCP
+          ツールが発火しません</strong
+          >。テキストチャット画面の音声入力（ディクテーション）で質問してください。
+        </div>
+      </div>
+    </section>
+
+    <section id="endpoint">
+      <div class="wrap">
+        <h2><span class="num">1</span>接続 URL</h2>
+        <p>下記の URL を、各クライアントのカスタムコネクタに登録します。認証は不要です（読み取り専用）。</p>
+        <pre><code>https://sf6-sensei-mcp.&lt;サブドメイン&gt;.workers.dev/mcp</code></pre>
+        <div class="note">
+          <strong>公開前の注意:</strong> 上記はプレースホルダです。Cloudflare Workers
+          へデプロイ後、実際の URL に差し替えてください。動作確認は <code>/health</code>
+          エンドポイントで行えます。
+        </div>
+      </div>
+    </section>
+
+    <section id="connect">
+      <div class="wrap">
+        <h2><span class="num">2</span>登録手順</h2>
+        <div class="tabs" role="tablist" aria-label="クライアント選択">
+          <button role="tab" id="tab-chatgpt" aria-controls="panel-chatgpt" aria-selected="true">
+            ChatGPT
+          </button>
+          <button role="tab" id="tab-claude" aria-controls="panel-claude" aria-selected="false">
+            Claude
+          </button>
+        </div>
+
+        <div class="panel" id="panel-chatgpt" role="tabpanel" aria-labelledby="tab-chatgpt">
+          <p class="updated">対応プラン: Plus / Pro / Business / Enterprise / Education（2026年6月時点）</p>
+          <ol class="steps">
+            <li>
+              <strong>設定 → Apps → Advanced settings</strong> を開き、<strong>Developer mode</strong>
+              をオンにする。
+            </li>
+            <li>
+              <strong>設定 → Connectors</strong> で <strong>Create</strong>（カスタムコネクタの追加）を選ぶ。
+            </li>
+            <li><strong>Connector URL</strong> に上の <code>…/mcp</code> エンドポイントを貼り付ける。</li>
+            <li>認証は <strong>なし（Authless）</strong> を選択して追加する。</li>
+            <li>
+              ツール一覧が読み込まれたら完了。説明が変わったときは <strong>Refresh</strong> で再取得できる。
+            </li>
+          </ol>
+          <div class="shot">スクリーンショット（ChatGPT のコネクタ登録画面）を後で追加</div>
+        </div>
+
+        <div class="panel" id="panel-claude" role="tabpanel" aria-labelledby="tab-claude" hidden>
+          <p class="updated">
+            対応プラン: Free / Pro / Max / Team / Enterprise（Free はカスタムコネクタ1つまで・2026年6月時点）
+          </p>
+          <ol class="steps">
+            <li><strong>Customize → Connectors</strong> を開く。</li>
+            <li><strong>「+」→ Add custom connector</strong> を選ぶ。</li>
+            <li>リモート MCP サーバー URL に上の <code>…/mcp</code> エンドポイントを入力する。</li>
+            <li>認証情報は不要。<strong>Add</strong> をクリックして追加する。</li>
+            <li>
+              ツールが読み込まれたら完了。サーバーは公開インターネット上にある必要があります（VPN /
+              ファイアウォール内は不可）。
+            </li>
+          </ol>
+          <div class="shot">スクリーンショット（Claude のカスタムコネクタ登録画面）を後で追加</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools">
+      <div class="wrap">
+        <h2><span class="num">3</span>できること</h2>
+        <p>登録すると、次の5つのツールが使えます。</p>
+        <ul class="tools">
+          <li>
+            <code>get_move</code>
+            <p>キャラ名と技名/入力/別名から、その技のフレームデータを引く。</p>
+          </li>
+          <li>
+            <code>get_character_frame_data</code>
+            <p>指定キャラの技一覧をまとめて取得する。</p>
+          </li>
+          <li>
+            <code>search_moves</code>
+            <p>発生やカテゴリなどの条件で技を横断検索する。</p>
+          </li>
+          <li>
+            <code>find_punish</code>
+            <p>ガード時の硬直差から、確定反撃の候補を提示する（候補のみ）。</p>
+          </li>
+          <li>
+            <code>list_characters</code>
+            <p>収録キャラの一覧を返す。</p>
+          </li>
+        </ul>
+        <div class="note">
+          <strong>find_punish は候補提示のみ:</strong>
+          リーチ・距離・状況は考慮しません。完全な確反判定ではない点に注意してください。
+        </div>
+      </div>
+    </section>
+
+    <section id="rights">
+      <div class="wrap">
+        <h2><span class="num">i</span>権利・ライセンスについて</h2>
+        <p>
+          本ツールは Capcom とは一切関係のない、ファンメイドの非公式・非営利プロジェクトです。「Street
+          Fighter」およびキャラクター名・技名は <a href="https://www.capcom.com/">株式会社カプコン</a
+          >の商標・著作物です。
+        </p>
+        <p>
+          フレームデータの出典は <a href="https://wiki.supercombo.gg/w/Street_Fighter_6">SuperCombo Wiki</a
+          >（CC-BY-SA）です。詳細は<a href={`${base}licenses`}>権利・ライセンス</a>と<a
+            href={`${base}terms`}>利用規約</a
+          >をご覧ください。
+        </p>
+      </div>
+    </section>
+  </main>
+</Base>
+
+<script>
+  const tabs = document.querySelectorAll<HTMLButtonElement>('[role="tab"]')
+  for (const tab of tabs) {
+    tab.addEventListener('click', () => {
+      for (const t of tabs) {
+        const selected = t === tab
+        t.setAttribute('aria-selected', String(selected))
+        const id = t.getAttribute('aria-controls')
+        if (id) {
+          const panel = document.getElementById(id)
+          if (panel) panel.hidden = !selected
+        }
+      }
+    })
+  }
+</script>

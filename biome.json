@@ -3,9 +3,29 @@
   "extends": ["@repo/biome-config"],
   "files": {
     "ignoreUnknown": true,
-    "includes": ["**", "!**/dist", "!**/.wrangler", "!**/node_modules", "!scripts", "!**/generated"]
+    "includes": [
+      "**",
+      "!**/dist",
+      "!**/.wrangler",
+      "!**/.astro",
+      "!**/node_modules",
+      "!scripts",
+      "!**/generated"
+    ]
   },
   "overrides": [
+    {
+      "includes": ["**/*.astro"],
+      "linter": {
+        "rules": {
+          "correctness": {
+            "noUnusedFunctionParameters": "off",
+            "noUnusedImports": "off",
+            "noUnusedVariables": "off"
+          }
+        }
+      }
+    },
     {
       "includes": ["apps/scraper/**/*.ts"],
       "linter": {

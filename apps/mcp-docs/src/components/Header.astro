@@ -1,0 +1,18 @@
+---
+const base = import.meta.env.BASE_URL
+---
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href={base}>
+      <img src={`${base}favicon.svg`} alt="" />
+      SF6 Sensei
+    </a>
+    <nav class="nav">
+      <a href={`${base}#connect`}>使い方</a>
+      <a href={`${base}terms`}>利用規約</a>
+      <a href={`${base}licenses`}>権利・ライセンス</a>
+      <a href="https://github.com/RyoSogawa/sf6-sensei">GitHub</a>
+    </nav>
+  </div>
+</header>

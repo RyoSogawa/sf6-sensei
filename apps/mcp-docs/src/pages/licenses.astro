@@ -1,0 +1,104 @@
+---
+import Base from '../layouts/Base.astro'
+---
+
+<Base
+  title="権利・ライセンス — SF6 Sensei"
+  description="SF6 Sensei の権利・ライセンスに関する説明。データ出典（SuperCombo Wiki / CC-BY-SA）、Capcom の権利、当方が取っている措置。"
+>
+  <main class="legal">
+    <div class="wrap">
+      <h1>権利・ライセンスについて</h1>
+      <p class="updated">最終更新: 2026年6月16日</p>
+
+      <p>
+        SF6 Sensei は、株式会社カプコンとは一切提携・関係していない、ファンメイドの<strong
+          >非公式・非営利</strong
+        >プロジェクトです。本ページでは、データの出典・ライセンス・権利の扱いと、当方が取っている措置を説明します。
+      </p>
+
+      <div class="note">
+        本ページは法的助言ではありません。各権利者の最新のガイドライン・規約は、利用者ご自身でご確認ください。
+      </div>
+
+      <h2>1. フレームデータの位置づけ</h2>
+      <ul>
+        <li>
+          本サービスが扱うのは、ゲーム内で計測される<strong>数値（フレームデータ）という事実情報</strong>です。
+          一般に、ゲームの機構や数値などの事実は著作権の保護対象外と理解されています（米国著作権局は「ゲームのアイデア・
+          遊び方・方法・システムは著作権で保護されない」としています。日本法では明確な判例がありません）。
+        </li>
+        <li>
+          一方で、業界の慣例（Dustloop / Mizuumi 等のフレームデータ Wiki と同様）に従い、ゲームの内容に関する権利は
+          各権利者に帰属するものとして扱います。
+        </li>
+      </ul>
+
+      <h2>2. Capcom の権利と、当方が取っている措置</h2>
+      <p>
+        「Street Fighter」「ストリートファイター」、キャラクター名・技名およびゲームに関する名称・要素は、
+        株式会社カプコンの商標または著作物です。本サービスは、Capcom のガイドラインの趣旨を尊重し、次の措置を取っています。
+      </p>
+      <ul>
+        <li><strong>非提携・非公認の明示:</strong> 本サービスは Capcom と一切提携・関係せず、公認されたものでもありません。</li>
+        <li><strong>非営利:</strong> 本サービスを収益化しません。広告・課金・有料化を行いません。</li>
+        <li>
+          <strong>ゲームアセットを使用しない:</strong>
+          ゲーム本体の画像・音声・スプライト等のアセットは一切使用しません。キャラ名・技名は識別・参照の目的でのみ用います。
+        </li>
+        <li>
+          <strong>削除要請への対応:</strong>
+          権利者からの正当な要請があった場合、該当コンテンツを速やかに削除・修正します。
+        </li>
+      </ul>
+      <div class="note">
+        <strong>重要:</strong>
+        上記は当方が取っている措置であり、Capcom のファンコンテンツガイドラインや EULA への「完全な準拠」を保証するものではありません。
+        フレームデータの提供という形態については解釈の余地があり得ます。利用・再配布の前に、
+        <a href="https://www.capcom-games.com/en/fan-content-guidelines/">Capcom ファンコンテンツガイドライン</a>
+        等の最新の公式情報をご確認ください。
+      </div>
+
+      <h2>3. データ出典と CC-BY-SA</h2>
+      <p>フレームデータの出典は SuperCombo Wiki です。Creative Commons 表示-継承（CC-BY-SA）の条件に従って利用しています。</p>
+      <ul>
+        <li>
+          <strong>出典（原作品）:</strong>
+          <a href="https://wiki.supercombo.gg/w/Street_Fighter_6">SuperCombo Wiki — Street Fighter 6 Frame Data</a>
+          （データ取得は同運営の API <code>srk.shib.live</code> 経由）
+        </li>
+        <li>
+          <strong>ライセンス:</strong> Creative Commons 表示-継承（CC-BY-SA）。
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ja">creativecommons.org</a>
+          （正確な版は SuperCombo Wiki の表記に従います）
+        </li>
+        <li>
+          <strong>改変の明示:</strong>
+          本サービスは原データに対し、wiki マークアップの除去、JSON への構造化、フレーム値の数値化・正規化、
+          日本語の技名・別名の付与などの改変を加えています。
+        </li>
+        <li>
+          <strong>継承（ShareAlike）:</strong>
+          本サービスが提供するフレームデータは、出典と同じ CC-BY-SA の下で提供されます。再配布の際は、
+          出典表記・ライセンス表記・改変の明示・同一ライセンスでの継承を維持してください。
+        </li>
+      </ul>
+      <p>
+        なお、MCP の各レスポンスにも出典（source / license / 取得日時）を含めており、回答を引用する際にも出典が辿れるようにしています。
+      </p>
+
+      <h2>4. 商標について</h2>
+      <p>
+        本ページおよび本サービスで言及する製品名・サービス名・会社名は、各社の商標または登録商標です。
+        本サービスはこれらを識別の目的でのみ使用しており、各権利者を表すものではありません。
+      </p>
+
+      <h2>5. お問い合わせ</h2>
+      <p>
+        権利・ライセンスに関するお問い合わせ・削除要請は、<a
+          href="https://github.com/RyoSogawa/sf6-sensei/issues">GitHub の Issue</a
+        > よりご連絡ください。
+      </p>
+    </div>
+  </main>
+</Base>
