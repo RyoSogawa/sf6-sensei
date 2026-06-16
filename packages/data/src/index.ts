@@ -91,9 +91,22 @@ function superArtAliases(move: Move, sa: SaLevel): string[] {
   return out
 }
 
-// 固有名の手動翻訳レイヤー: { [characterId]: { [基底技名(en)]: 日本語名 } }。
+// 固有名の手動翻訳レイヤー: { [characterId]: { [技名(en)]: 日本語名 } }。
 // 公式テーブルからキュレーションする。再スクレイプで消えない（詳細は docs/data-model.md）。
+// キーは「フル名（接尾辞そのまま）」と「基底名（強度/段/括弧を除去）」の両方を許容する。
+// 強度違いをまとめたい技は基底名で、変種ごとに名前が異なる技（"Marisa Style (HK)" 等）は
+// フル名でキー付けする。解決は deriveJaName が フル名 → 基底名 の順に引く。
 type TranslationMap = Record<string, Record<string, string>>
+
+// HTML 改行アーティファクトだけ落とした「フル名」。括弧・強度・段はそのまま残す。
+//   "Sweep Combination 1<br>(Flying...)" → "Sweep Combination 1"
+//   "Marisa Style (HK)" → "Marisa Style (HK)"
+function cleanFullName(nameEn: string): string {
+  return nameEn
+    .replace(/<br>[\s\S]*$/i, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
 
 // translations のキー照合用に接尾辞を除いた基底技名を得る。
 //   "Shin Shoryuken (CA)" / "Denjin Hashogeki Lv.1" / "Breakin' ~ Drink" → 基底名
@@ -107,11 +120,13 @@ function baseMoveName(nameEn: string): string {
     .trim()
 }
 
-// 日本語技名を決める: 通常技は入力から自動導出 → 挑発は名前から自動導出 → 固有名は手動翻訳。
+// 日本語技名を決める: 通常技は入力から自動導出 → 挑発は名前から自動導出 →
+// 固有名は手動翻訳（フル名で先に引き、無ければ強度などを落とした基底名で引く）。
 function deriveJaName(move: Move, translation: Record<string, string> | undefined): string | null {
   return (
     deriveNormalJaName(move.input.numpad) ??
     deriveTauntJaName(move.name.en) ??
+    translation?.[cleanFullName(move.name.en)] ??
     translation?.[baseMoveName(move.name.en)] ??
     null
   )

@@ -86,15 +86,20 @@ SF6 フレームデータの正規化 JSON スキーマ。`packages/core` の型
 
 1. **通常技は入力から自動導出** — `deriveNormalJaName`（core）。`5/2/j.` + 強度 + P/K → 立ち弱パンチ等。
 2. **挑発は名前から自動導出** — `deriveTauntJaName`（core）。`(Back|Neutral|Forward|Down) Taunt` → 後ろ/N/前/下挑発。
-3. **固有名は手動翻訳レイヤー** — `packages/data/src/translations.json`（`{ characterId: { 基底技名(en): 日本語名 } }`）。
-   - 必殺技/SA の公式日本語名を全30体キュレーション。接尾辞（`Lv.N`/`(CA)`/`~派生`/強度接頭辞/`<br>`）は
-     `baseMoveName` で除いて照合するので、強度違い・派生は基底名 1 エントリでまとめて当たる。
-   - 出典は **frame-search.com**（公式準拠の日本語フレームデータ）。JS-SPA のため WebFetch では取得不可で、
-     chrome-devtools 実ブラウザでレンダリング後のデータを取得し、入力モーションで英語名と照合した。
+3. **固有名は手動翻訳レイヤー** — `packages/data/src/translations.json`（`{ characterId: { 技名(en): 日本語名 } }`）。
+   - キーは**フル名と基底名の両方**を許容する。`deriveJaName` は `cleanFullName`（`<br>` アーティファクトのみ除去）→
+     `baseMoveName`（`Lv.N`/`(CA)`/`~派生`/強度接頭辞/括弧を除去）の順で引く。強度違い・派生は基底名 1 エントリで
+     まとめて当て、変種ごとに名前が異なる技（`Marisa Style (HK)`/`(HP)`/`(j.HP)` 等）はフル名で個別に当てる。
+   - 出典は **frame-search.com**（公式準拠の日本語フレームデータ）。実体は Express の SSR で、
+     `?lang=ja-jp&character_name=<JP>&category=<JP>` を叩けば技テーブル入り HTML が返る（各 `<td>` の `title`
+     属性に技名・フレームが構造化されている）。必殺技/SA の固有名は入力モーションで照合（chrome-devtools 実ブラウザ）。
+   - ターゲットコンボ/特殊技派生/スタンス連携の長い尻尾は、frame-search の **フレーム指紋（発生・ダメージ・硬直差）**
+     で我々の技と照合してキュレーションした（英語名と日本語名が乖離する localization 差も拾える）。フレーム衝突による
+     誤マッチは手動 reject し、frame-search に無い技は `null` のまま残す（誤った名前を入れない）。
    - 英語名（SuperCombo）と公式日本語名が異なる例も正確化: `The Final Prison → ファイナルキャプチュード`、
-     `Goddess of the Hunt → アポロウーサ`、`Interdiction → ザプリェット` 等。
+     `Goddess of the Hunt → アポロウーサ`、`Interdiction → ザプリェット`、`Malice → シャーロスチ`(Шалость) 等。
 
-> カバレッジは ja 62%（残りは特殊技/派生/スタンス連携の長い尻尾。`translations.json` に追記すれば伸ばせる）。
+> カバレッジは ja 84%（残りは frame-search 未収録・複数候補で未解決の尻尾）。
 > 消費側 LLM が英語名や notes を読んで日本語で答えられるため、未訳でも実用上は致命的でない。
 
 ### 別名（aliases）の手動管理（重要）

@@ -41,7 +41,10 @@
   - [x] 必殺技/SA の固有名を全30体キュレーション（`translations.json`）。frame-search.com を chrome-devtools
         実ブラウザで取得し入力モーションで照合（WebFetch/サブエージェントは JS-SPA で全キャラ=ケンになり不可だった）
   - [x] 全30体の sa-levels も frame-search 公式データで再検証（cammy の SA1/SA2 取り違えを修正）
-  - [ ] 特殊技/派生/スタンス連携などの長い尻尾（残り 38%）← 継続作業。translations.json に足すだけ
+  - [x] ターゲットコンボ/特殊技派生/スタンス連携などの長い尻尾（ja 62%→84%）。frame-search を SSR で
+        取得し、発生・ダメージ・硬直差の「フレーム指紋」で照合 → 223 キー追加（衝突は手動 reject、frame-search
+        に無い技は null 維持）。`translations.json` はフル名/基底名の両キーを許容（`cleanFullName` を deriveJaName が先引き）
+  - [ ] 残りの尻尾（~連結技 ja 57%）。frame-search 未収録・複数候補で未解決の技 ← 継続作業
 - [x] フレームデータのエンリッチ（ダメージ/無敵/アーマー/Drive・SAゲージ/PC・PP有利/DRキャンセル/notes 等を取得）
   - [x] core `moveSchema` 拡張（全 nullable）、scraper `toMove` + `parseNumber`/`parseDamage` でパース、再スクレイプ（2026-06-15）
   - [x] `invuln`/`armor`/`airborne` を `properties` タグにも展開（`search_moves` 属性検索用）

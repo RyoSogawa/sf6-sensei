@@ -80,6 +80,24 @@ describe('alias-overrides enrichment (common system moves)', () => {
     expect(byName('Down Taunt')?.name.ja).toBe('下挑発')
   })
 
+  it('fills Japanese names for target combos and chained derivatives (frame-search)', () => {
+    // ターゲットコンボ（~連結の通常技）。base 名で照合。
+    const byInput = (id: string, np: string) =>
+      characters.find((c) => c.id === id)?.moves.find((m) => m.input.numpad === np)
+    expect(byInput('ryu', '5HP~HK')?.name.ja).toBe('上段二連撃') // High Double Strike
+    expect(byInput('ryu', '5MP~LK')?.name.ja).toBe('不破三連撃（2段目）') // Fuwa Triple Strike 1
+    expect(byInput('ken', '5MK~MK')?.name.ja).toBe('閃光連脚（2段目）') // Triple Flash Kicks 1
+    expect(byInput('luke', '5LP~MP')?.name.ja).toBe('トリプルインパクト（2段目）') // Triple Impact
+  })
+
+  it('keys variant-specific names by full name (Marisa Style HK/HP/j.HP differ)', () => {
+    const marisa = characters.find((c) => c.id === 'marisa')
+    const byName = (en: string) => marisa?.moves.find((m) => m.name.en === en)
+    // 同じ "Marisa Style" でも (HK)/(HP)/(j.HP) で別名 → フル名キーで解決
+    expect(byName('Marisa Style (HK)')?.name.ja).toBe('立ち強K（リブブレイク）（ホールド）')
+    expect(byName('Marisa Style (j.HP)')?.name.ja).toBe('カエルムアーク（ホールド）')
+  })
+
   it('adds SA1/SA2/aerial aliases to super arts', () => {
     const cammy = characters.find((c) => c.id === 'cammy')
     // SA1 = Spin Drive Smasher (236236K), SA2 = Killer Bee Spin (214214P)（frame-search 公式準拠）
