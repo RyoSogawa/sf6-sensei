@@ -88,6 +88,12 @@ describe('alias-overrides enrichment (common system moves)', () => {
     expect(byInput('ryu', '5MP~LK')?.name.ja).toBe('不破三連撃（2段目）') // Fuwa Triple Strike 1
     expect(byInput('ken', '5MK~MK')?.name.ja).toBe('閃光連脚（2段目）') // Triple Flash Kicks 1
     expect(byInput('luke', '5LP~MP')?.name.ja).toBe('トリプルインパクト（2段目）') // Triple Impact
+    // 複数候補を入力/名前で一意化したもの
+    expect(byInput('zangief', '1LPLK')?.name.ja).toBe('ロシアンドロップ') // Russian Drop
+    expect(byInput('jp', '5HK~HP~HK')?.name.ja).toBe('ジラントナガー') // Zilant Low（最終ボタンで判別）
+    // フレームずれをボタン列で回収したもの（兄弟技の続き番号）
+    expect(byInput('dee_jay', '5LP~MK~MK')?.name.ja).toBe('3ビートコンボ（3段目）') // Threebeat Combo 2
+    expect(byInput('elena', '6HP~HP~HP')?.name.ja).toBe('トランクスラップ（3段目）') // Trunk Slap 3
   })
 
   it('keys variant-specific names by full name (Marisa Style HK/HP/j.HP differ)', () => {

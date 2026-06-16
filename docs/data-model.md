@@ -99,7 +99,7 @@ SF6 フレームデータの正規化 JSON スキーマ。`packages/core` の型
    - 英語名（SuperCombo）と公式日本語名が異なる例も正確化: `The Final Prison → ファイナルキャプチュード`、
      `Goddess of the Hunt → アポロウーサ`、`Interdiction → ザプリェット`、`Malice → シャーロスチ`(Шалость) 等。
 
-> カバレッジは ja 84%（残りは frame-search 未収録・複数候補で未解決の尻尾）。
+> カバレッジは ja 86.5%（~連結技は 62.5%）。残りは frame-search 未収録の特殊技派生や juri の FSE チェーン等。
 > 消費側 LLM が英語名や notes を読んで日本語で答えられるため、未訳でも実用上は致命的でない。
 
 ### 別名（aliases）の手動管理（重要）
