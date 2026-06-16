@@ -14,17 +14,14 @@ MCP サーバー(`apps/mcp-server`)を Cloudflare Workers にデプロイし、C
 
 ## 手順 (いずれも要・あなたの操作)
 
-### 1. wrangler を mcp-server に再追加
+### 1. wrangler は追加済み
 
-install 容易化のため一時的に外してある。デプロイには必要。
-
-```sh
-pnpm add -D wrangler --filter @repo/mcp-server
-```
+`apps/mcp-server` の devDependencies に `wrangler ^4.98.0` と `deploy` スクリプトを追加済みなので
+追加作業は不要。クリーン clone 後は `pnpm install` で入る。
 
 - 注: 一部 transitive(`@emnapi/*` / `sharp` / `miniflare` 等)が公開7日未満だと
-  `minimumReleaseAge` でブロックされ得る。2026-06-20 以降ならクリーンに入る見込み。
-  早く入れたい場合は pnpm `overrides` で成熟版に固定する(esbuild/@types/node と同様)。
+  `minimumReleaseAge` でブロックされ得る。ブロックされたら pnpm `overrides` で成熟版に固定する
+  (esbuild/@types/node と同様)。
 
 ### 2. workerd の build script を承認 (保護設定・あなたが実施)
 
@@ -47,8 +44,14 @@ pnpm --filter @repo/mcp-server exec wrangler login
 ### 4. デプロイ
 
 ```sh
-pnpm --filter @repo/mcp-server exec wrangler deploy
+pnpm --filter @repo/mcp-server run deploy
+# 上は apps/mcp-server の deploy スクリプト(= wrangler deploy)。次の exec 形式と等価:
+# pnpm --filter @repo/mcp-server exec wrangler deploy
 ```
+
+> **注意:** ルートで素の `pnpm deploy` は pnpm 組み込みの deploy コマンドに食われて
+> `ERR_PNPM_NOTHING_TO_DEPLOY` になる。`deploy` という名前のスクリプトを実行するには上記のように
+> `--filter` でパッケージを選び、`run` を付ける(組み込みコマンドとの名前衝突を避けるため)。
 
 - 設定は `apps/mcp-server/wrangler.jsonc`(name=`sf6-sensei-mcp`, main=`src/index.ts`)。
 - デプロイ後の URL: `https://sf6-sensei-mcp.<your-subdomain>.workers.dev`

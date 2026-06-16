@@ -22,7 +22,7 @@ pnpm format            # Biome 自動修正（check --write）
 - 単一テストファイル: `pnpm --filter @repo/core exec vitest run src/index.test.ts`
 - テスト名で絞る: `... exec vitest run -t "normalizeInput"`
 - スクレイパ実行（手動バッチ）: `pnpm --filter @repo/scraper fetch` → `packages/data/src/generated/sf6.json` を再生成
-- デプロイ手順は [`docs/deploy.md`](./docs/deploy.md)（`wrangler` は install 容易化のため一時的に外してあり、デプロイ前に再追加が必要）
+- デプロイ手順は [`docs/deploy.md`](./docs/deploy.md)（`wrangler` は `apps/mcp-server` に追加済み。ルートの素の `pnpm deploy` は pnpm 組み込みコマンドに食われるので `pnpm --filter @repo/mcp-server run deploy`）
 
 ## アーキテクチャ（データの流れ）
 
