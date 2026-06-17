@@ -60,14 +60,15 @@ pnpm --filter @repo/mcp-server run deploy
 curl https://sf6-sensei-mcp.<subdomain>.workers.dev/health   # => {"status":"ok"}
 ```
 
-MCP は `/mcp`(Streamable HTTP)。ローカルでは `apps/mcp-server/src/mcp.e2e.test.ts` が
+MCP はルート `/`(Streamable HTTP)。専用サブドメイン配信なのでパスに `/mcp` を重ねず root を正規とする。
+ローカルでは `apps/mcp-server/src/mcp.e2e.test.ts` が
 initialize→tools/list→tools/call の handshake を検証している(同じ流れが本番でも動く)。
 
 ### 6. ChatGPT に接続
 
 - ChatGPT(Pro/Plus 等)の 設定 → Connectors → Developer mode を有効化
 - カスタム MCP コネクタを追加し、URL に
-  `https://sf6-sensei-mcp.<subdomain>.workers.dev/mcp` を指定
+  `https://sf6-sensei-mcp.<subdomain>.workers.dev/` を指定
 - 認証は無し(読み取り専用のフレームデータ)
 
 ### 7. 使ってみる

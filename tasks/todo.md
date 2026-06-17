@@ -59,11 +59,11 @@
 - [ ] JSON → D1 投入スクリプト（マイグレーション）
 
 ## Phase 4: MCP サーバー — 完了 2026-06-13
-- [x] Hono + `@hono/mcp`(StreamableHTTPTransport) + `@modelcontextprotocol/sdk` の MCP エンドポイント(`/mcp`)
+- [x] Hono + `@hono/mcp`(StreamableHTTPTransport) + `@modelcontextprotocol/sdk` の MCP エンドポイント(root `/`)
   - ステートレス: リクエストごとに McpServer を生成（共有インスタンスは「Already connected」で落ちる）
 - [x] `get_move` / `get_character_frame_data` / `search_moves` / `find_punish` / `list_characters`
 - [x] 全レスポンスに attribution(CC-BY-SA) 付与、曖昧性/未解決時は候補(suggestions/candidates)返却
-- [x] tool ロジックのユニットテスト + `/mcp` ライブ handshake 検証（initialize→tools/list→tools/call、計 31 件）
+- [x] tool ロジックのユニットテスト + root `/` ライブ handshake 検証（initialize→tools/list→tools/call、計 31 件）
 - [x] 依存解決: trustPolicy=no-downgrade、若い dev/型は成熟版へダウングレード、esbuild/@types/node は overrides 固定
 - 注: `wrangler` は Phase 5(デプロイ)まで保留中（mcp-server devDeps から一時除外）。再追加が必要
 
@@ -72,7 +72,7 @@
   `node:` 依存ゼロで `nodejs_compat` 不要、データ(2MB JSON)も inline 済み
 - [x] デプロイ手順書を作成（[`docs/deploy.md`](../docs/deploy.md)）
 - [ ] （要・ユーザー操作）wrangler 再追加 → workerd build script 承認 → `wrangler login` → `wrangler deploy`
-- [ ] （要・ユーザー操作）ChatGPT Developer mode で MCP コネクタ登録（`/mcp` URL）
+- [ ] （要・ユーザー操作）ChatGPT Developer mode で MCP コネクタ登録（root `/` URL）
 - [ ] （要・ユーザー操作）主要ユースケースを音声入力で動作確認
 
 ## 将来（別フェーズ）

@@ -1,7 +1,7 @@
 import { describe, expect, it } from 'vitest'
 import app from './index'
 
-// MCP プロトコルを /mcp 経由でエンドツーエンドに駆動する e2e テスト。
+// MCP プロトコルをルート (/) 経由でエンドツーエンドに駆動する e2e テスト。
 // 共有 McpServer を使うと 2 リクエスト目で "Already connected" になる回帰を、ここで検出する。
 
 const MCP_HEADERS = {
@@ -32,7 +32,7 @@ async function mcpRequest(body: unknown, sessionId?: string) {
   if (sessionId) {
     headers['mcp-session-id'] = sessionId
   }
-  const res = await app.request('/mcp', { body: JSON.stringify(body), headers, method: 'POST' })
+  const res = await app.request('/', { body: JSON.stringify(body), headers, method: 'POST' })
   return {
     rpc: parseRpc(await res.text()),
     sessionId: res.headers.get('mcp-session-id') ?? undefined,
@@ -55,7 +55,7 @@ async function initializeSession(): Promise<string | undefined> {
   return sessionId
 }
 
-describe('MCP /mcp endpoint (e2e)', () => {
+describe('MCP root (/) endpoint (e2e)', () => {
   it('lists all five tools after initialize', async () => {
     const sessionId = await initializeSession()
     const { rpc, status } = await mcpRequest(

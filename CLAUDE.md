@@ -43,7 +43,7 @@ SuperCombo Wiki (CC-BY-SA, srk.shib.live API)
 - **`apps/scraper`** — `srk.shib.live/api.php` の MediaWiki Cargo から取得し、HTML/wiki マークアップを
   剥がして数値化する純粋関数群（`parseAdvantage`/`parseFrameValue`/`parseCancel`/`parseGuard`/`mapMoveType`/
   `getCharacterSlug`）。Move ID は `${characterId}__${normalizeInput(input)}`。
-- **`apps/mcp-server`** — `/mcp`（Streamable HTTP）と `/health`。ツール本体は `src/tools.ts`
+- **`apps/mcp-server`** — ルート `/`（Streamable HTTP）と `/health`。ツール本体は `src/tools.ts`
   （`get_move`/`get_character_frame_data`/`search_moves`/`find_punish`/`list_characters`）。
 
 ### 知っておくべき設計上の判断

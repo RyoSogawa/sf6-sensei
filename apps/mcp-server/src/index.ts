@@ -185,7 +185,9 @@ function createMcpServer(): McpServer {
 
 app.get('/health', (c) => c.json({ status: 'ok' }))
 
-app.all('/mcp', async (c) => {
+// MCP エンドポイントはルート (/) に置く。専用サブドメイン（sf6-sensei-mcp.*）で配信するため、
+// パスに /mcp を重ねると冗長（sf6-sensei-mcp.../mcp）。host 全体が MCP サーバーなので root が正規。
+app.all('/', async (c) => {
   const server = createMcpServer()
   const transport = new StreamableHTTPTransport()
   await server.connect(transport)

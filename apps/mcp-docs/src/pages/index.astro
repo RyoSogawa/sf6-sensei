@@ -42,7 +42,7 @@ const base = import.meta.env.BASE_URL
       <div class="wrap">
         <h2><span class="num">1</span>接続 URL</h2>
         <p>下記の URL を、各クライアントのカスタムコネクタに登録します。認証は不要です（読み取り専用）。</p>
-        <pre><code>https://sf6-sensei-mcp.&lt;サブドメイン&gt;.workers.dev/mcp</code></pre>
+        <pre><code>https://sf6-sensei-mcp.&lt;サブドメイン&gt;.workers.dev/</code></pre>
         <div class="note">
           <strong>公開前の注意:</strong> 上記はプレースホルダです。Cloudflare Workers
           へデプロイ後、実際の URL に差し替えてください。動作確認は <code>/health</code>
@@ -73,7 +73,7 @@ const base = import.meta.env.BASE_URL
             <li>
               <strong>設定 → Connectors</strong> で <strong>Create</strong>（カスタムコネクタの追加）を選ぶ。
             </li>
-            <li><strong>Connector URL</strong> に上の <code>…/mcp</code> エンドポイントを貼り付ける。</li>
+            <li><strong>Connector URL</strong> に上の接続 URL を貼り付ける。</li>
             <li>認証は <strong>なし（Authless）</strong> を選択して追加する。</li>
             <li>
               ツール一覧が読み込まれたら完了。説明が変わったときは <strong>Refresh</strong> で再取得できる。
@@ -89,7 +89,7 @@ const base = import.meta.env.BASE_URL
           <ol class="steps">
             <li><strong>Customize → Connectors</strong> を開く。</li>
             <li><strong>「+」→ Add custom connector</strong> を選ぶ。</li>
-            <li>リモート MCP サーバー URL に上の <code>…/mcp</code> エンドポイントを入力する。</li>
+            <li>リモート MCP サーバー URL に上の接続 URL を入力する。</li>
             <li>認証情報は不要。<strong>Add</strong> をクリックして追加する。</li>
             <li>
               ツールが読み込まれたら完了。サーバーは公開インターネット上にある必要があります（VPN /
