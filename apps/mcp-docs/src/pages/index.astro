@@ -17,6 +17,41 @@ const base = import.meta.env.BASE_URL
         サーバーです。データ出典は SuperCombo Wiki（CC-BY-SA）。
       </p>
     </div>
+    <div class="carousel" data-carousel>
+      <div class="carousel-viewport" data-carousel-viewport>
+        <figure class="carousel-slide active">
+          <img
+            src={`${base}usage-1.png`}
+            alt="Claude で SF6 Sensei を使い、ベガのターゲットコンボのガード時フレームを質問している例"
+            width="1602"
+            height="1170"
+          />
+        </figure>
+        <figure class="carousel-slide">
+          <img
+            src={`${base}usage-2.png`}
+            alt="Claude で SF6 Sensei を使い、ケンの全 SA の無敵性能を質問している例"
+            width="1648"
+            height="886"
+          />
+        </figure>
+        <figure class="carousel-slide">
+          <img
+            src={`${base}usage-3.png`}
+            alt="Claude で SF6 Sensei を使い、キャミィの SA でインパクトが確定しないものを質問している例"
+            width="1656"
+            height="1020"
+          />
+        </figure>
+      </div>
+      <button type="button" class="carousel-arrow prev" data-carousel-prev aria-label="前の画像へ">‹</button>
+      <button type="button" class="carousel-arrow next" data-carousel-next aria-label="次の画像へ">›</button>
+      <div class="carousel-dots" data-carousel-dots>
+        <button type="button" aria-label="1枚目"></button>
+        <button type="button" aria-label="2枚目"></button>
+        <button type="button" aria-label="3枚目"></button>
+      </div>
+    </div>
   </div>
 
   <main>
@@ -42,10 +77,9 @@ const base = import.meta.env.BASE_URL
       <div class="wrap">
         <h2><span class="num">1</span>接続 URL</h2>
         <p>下記の URL を、各クライアントのカスタムコネクタに登録します。認証は不要です（読み取り専用）。</p>
-        <pre><code>https://sf6-sensei-mcp.msnsgw.workers.dev/</code></pre>
-        <div class="note">
-          <strong>注意:</strong> Cloudflare Workers へデプロイ後、この URL で公開されます。
-          動作確認は <code>/health</code> エンドポイントで行えます。
+        <div class="copy-field">
+          <code id="mcp-url">https://sf6-sensei-mcp.msnsgw.workers.dev/</code>
+          <button type="button" class="copy-btn" data-copy-target="mcp-url">コピー</button>
         </div>
       </div>
     </section>
@@ -78,7 +112,6 @@ const base = import.meta.env.BASE_URL
               ツール一覧が読み込まれたら完了。説明が変わったときは <strong>Refresh</strong> で再取得できる。
             </li>
           </ol>
-          <div class="shot">スクリーンショット（ChatGPT のコネクタ登録画面）を後で追加</div>
         </div>
 
         <div class="panel" id="panel-claude" role="tabpanel" aria-labelledby="tab-claude" hidden>
@@ -95,7 +128,6 @@ const base = import.meta.env.BASE_URL
               ファイアウォール内は不可）。
             </li>
           </ol>
-          <div class="shot">スクリーンショット（Claude のカスタムコネクタ登録画面）を後で追加</div>
         </div>
       </div>
     </section>
@@ -166,5 +198,67 @@ const base = import.meta.env.BASE_URL
         }
       }
     })
+  }
+
+  for (const btn of document.querySelectorAll<HTMLButtonElement>('.copy-btn')) {
+    btn.addEventListener('click', async () => {
+      const id = btn.dataset.copyTarget
+      const text = id ? document.getElementById(id)?.textContent?.trim() : null
+      if (!text) return
+      try {
+        await navigator.clipboard.writeText(text)
+        const original = btn.textContent
+        btn.textContent = 'コピーしました'
+        btn.classList.add('copied')
+        setTimeout(() => {
+          btn.textContent = original
+          btn.classList.remove('copied')
+        }, 1800)
+      } catch {
+        // クリップボード API が使えない環境では何もしない
+      }
+    })
+  }
+
+  for (const carousel of document.querySelectorAll<HTMLElement>('[data-carousel]')) {
+    const slides = carousel.querySelectorAll<HTMLElement>('.carousel-slide')
+    const dots = carousel.querySelectorAll<HTMLButtonElement>('[data-carousel-dots] button')
+    if (slides.length === 0) continue
+    const total = slides.length
+    // タイマーIDは要素に保持。dev の HMR で再実行されても多重起動しないよう、常に1本に保つ。
+    const store = carousel as unknown as { carouselTimer?: number }
+    const stop = () => window.clearInterval(store.carouselTimer)
+    stop()
+    let index = 0
+    const update = () => {
+      slides.forEach((slide, i) => slide.classList.toggle('active', i === index))
+      dots.forEach((dot, i) => dot.classList.toggle('active', i === index))
+    }
+    const go = (i: number) => {
+      index = (i + total) % total
+      update()
+    }
+    const start = () => {
+      stop()
+      store.carouselTimer = window.setInterval(() => go(index + 1), 7000)
+    }
+    carousel.querySelector('[data-carousel-prev]')?.addEventListener('click', () => {
+      go(index - 1)
+      start()
+    })
+    carousel.querySelector('[data-carousel-next]')?.addEventListener('click', () => {
+      go(index + 1)
+      start()
+    })
+    dots.forEach((dot, i) =>
+      dot.addEventListener('click', () => {
+        go(i)
+        start()
+      }),
+    )
+    carousel.addEventListener('mouseenter', stop)
+    carousel.addEventListener('mouseleave', start)
+    update()
+    start()
   }
 </script>
