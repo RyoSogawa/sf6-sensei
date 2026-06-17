@@ -4,6 +4,7 @@
   "main": "src/index.ts",
   "name": "sf6-sensei-mcp",
   "observability": {
+    "head_sampling_rate": 0.5,
     "logs": {
       "enabled": true,
       "invocation_logs": true
