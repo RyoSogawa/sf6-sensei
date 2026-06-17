@@ -12,9 +12,12 @@ hooks:
     # gitignored ファイルをメイン worktree から新 worktree へコピー。
     # 'from' はメイン worktree 基準、'to' は新 worktree 基準。
     # コピー元が無いときは警告が出るが worktree 作成は続行する。
-    - type: copy
-      from: .env
-      to: .env
+
+    # .env はまだ無いのでコメントアウト。作成したら有効化する。
+    # - type: copy
+    #   from: .env
+    #   to: .env
+
     - type: copy
       from: .claude/settings.local.json
       to: .claude/settings.local.json
