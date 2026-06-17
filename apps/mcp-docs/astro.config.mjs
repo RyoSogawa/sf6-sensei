@@ -1,8 +1,7 @@
 import { defineConfig } from 'astro/config'
 
-// GitHub Pages: https://ryosogawa.github.io/sf6-sensei/
-// https://docs.astro.build/en/guides/deploy/github/
+// Cloudflare Pages: ドメイン直下（ルート）配信のため base は付けない。
+// https://docs.astro.build/en/guides/deploy/cloudflare/
 export default defineConfig({
-  base: '/sf6-sensei/',
-  site: 'https://ryosogawa.github.io',
+  site: 'https://sf6-sensei-mcp.pages.dev',
 })
