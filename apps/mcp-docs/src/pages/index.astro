@@ -1,7 +1,37 @@
 ---
+import { Image } from 'astro:assets'
+import usage1 from '../assets/usage-1.png'
+import usage2 from '../assets/usage-2.png'
+import usage3 from '../assets/usage-3.png'
+import usage4 from '../assets/usage-4.png'
+import usage5 from '../assets/usage-5.png'
 import Base from '../layouts/Base.astro'
+import '@splidejs/splide/css/core'
 
 const base = import.meta.env.BASE_URL
+
+const slides = [
+  {
+    alt: 'Claude で SF6 Sensei に「マッチング ＜キャラ名＞」とメッセージすると、そのキャラの5項目をまとめさせるカスタム指示の例',
+    src: usage5,
+  },
+  {
+    alt: 'Claude で SF6 Sensei を使い、ベガのターゲットコンボのガード時フレームを質問している例',
+    src: usage1,
+  },
+  {
+    alt: 'Claude で SF6 Sensei を使い、ケンの全 SA の無敵性能を質問している例',
+    src: usage2,
+  },
+  {
+    alt: 'Claude で SF6 Sensei を使い、キャミィの SA でインパクトが確定しないものを質問している例',
+    src: usage3,
+  },
+  {
+    alt: 'Claude で SF6 Sensei を使い、ルークの弱攻撃のジャストパリィ時の有利フレームを質問している例',
+    src: usage4,
+  },
+]
 ---
 
 <Base
@@ -17,41 +47,26 @@ const base = import.meta.env.BASE_URL
         サーバーです。データ出典は SuperCombo Wiki（CC-BY-SA）。
       </p>
     </div>
-    <div class="carousel" data-carousel>
-      <div class="carousel-viewport" data-carousel-viewport>
-        <figure class="carousel-slide active">
-          <img
-            src={`${base}usage-1.png`}
-            alt="Claude で SF6 Sensei を使い、ベガのターゲットコンボのガード時フレームを質問している例"
-            width="1602"
-            height="1170"
-          />
-        </figure>
-        <figure class="carousel-slide">
-          <img
-            src={`${base}usage-2.png`}
-            alt="Claude で SF6 Sensei を使い、ケンの全 SA の無敵性能を質問している例"
-            width="1648"
-            height="886"
-          />
-        </figure>
-        <figure class="carousel-slide">
-          <img
-            src={`${base}usage-3.png`}
-            alt="Claude で SF6 Sensei を使い、キャミィの SA でインパクトが確定しないものを質問している例"
-            width="1656"
-            height="1020"
-          />
-        </figure>
+    <section class="usage-carousel splide" aria-label="利用イメージ">
+      <div class="splide__track">
+        <ul class="splide__list">
+          {
+            slides.map((slide, i) => (
+              <li class="splide__slide">
+                <Image
+                  src={slide.src}
+                  alt={slide.alt}
+                  widths={[440, 720, 1200]}
+                  sizes="(max-width: 760px) 90vw, 700px"
+                  format="webp"
+                  loading={i === 0 ? 'eager' : 'lazy'}
+                />
+              </li>
+            ))
+          }
+        </ul>
       </div>
-      <button type="button" class="carousel-arrow prev" data-carousel-prev aria-label="前の画像へ">‹</button>
-      <button type="button" class="carousel-arrow next" data-carousel-next aria-label="次の画像へ">›</button>
-      <div class="carousel-dots" data-carousel-dots>
-        <button type="button" aria-label="1枚目"></button>
-        <button type="button" aria-label="2枚目"></button>
-        <button type="button" aria-label="3枚目"></button>
-      </div>
-    </div>
+    </section>
   </div>
 
   <main>
@@ -77,9 +92,31 @@ const base = import.meta.env.BASE_URL
       <div class="wrap">
         <h2><span class="num">1</span>接続 URL</h2>
         <p>下記の URL を、各クライアントのカスタムコネクタに登録します。認証は不要です（読み取り専用）。</p>
-        <div class="copy-field">
-          <code id="mcp-url">https://sf6-sensei-mcp.msnsgw.workers.dev/</code>
-          <button type="button" class="copy-btn" data-copy-target="mcp-url">コピー</button>
+        <div
+          class="copy-field"
+          x-data="{
+            copied: false,
+            async copy() {
+              try {
+                await navigator.clipboard.writeText(this.$refs.url.textContent.trim())
+                this.copied = true
+                setTimeout(() => (this.copied = false), 1800)
+              } catch (_) {
+                // クリップボード API が使えない/拒否された環境では何もしない
+              }
+            },
+          }"
+        >
+          <code x-ref="url">https://sf6-sensei-mcp.msnsgw.workers.dev/</code>
+          <button
+            type="button"
+            class="copy-btn"
+            :class="{ copied }"
+            x-text="copied ? 'コピーしました' : 'コピー'"
+            @click="copy()"
+          >
+            コピー
+          </button>
         </div>
       </div>
     </section>
@@ -87,47 +124,65 @@ const base = import.meta.env.BASE_URL
     <section id="connect">
       <div class="wrap">
         <h2><span class="num">2</span>登録手順</h2>
-        <div class="tabs" role="tablist" aria-label="クライアント選択">
-          <button role="tab" id="tab-chatgpt" aria-controls="panel-chatgpt" aria-selected="true">
-            ChatGPT
-          </button>
-          <button role="tab" id="tab-claude" aria-controls="panel-claude" aria-selected="false">
-            Claude
-          </button>
-        </div>
+        <div x-data="{ tab: 'chatgpt' }">
+          <div class="tabs" role="tablist" aria-label="クライアント選択">
+            <button
+              type="button"
+              role="tab"
+              id="tab-chatgpt"
+              aria-controls="panel-chatgpt"
+              :aria-selected="tab === 'chatgpt'"
+              aria-selected="true"
+              @click="tab = 'chatgpt'"
+            >
+              ChatGPT
+            </button>
+            <button
+              type="button"
+              role="tab"
+              id="tab-claude"
+              aria-controls="panel-claude"
+              :aria-selected="tab === 'claude'"
+              aria-selected="false"
+              @click="tab = 'claude'"
+            >
+              Claude
+            </button>
+          </div>
 
-        <div class="panel" id="panel-chatgpt" role="tabpanel" aria-labelledby="tab-chatgpt">
-          <p class="updated">対応プラン: Plus / Pro / Business / Enterprise / Education（2026年6月時点）</p>
-          <ol class="steps">
-            <li>
-              <strong>設定 → Apps → Advanced settings</strong> を開き、<strong>Developer mode</strong>
-              をオンにする。
-            </li>
-            <li>
-              <strong>設定 → Connectors</strong> で <strong>Create</strong>（カスタムコネクタの追加）を選ぶ。
-            </li>
-            <li><strong>Connector URL</strong> に上の接続 URL を貼り付ける。</li>
-            <li>認証は <strong>なし（Authless）</strong> を選択して追加する。</li>
-            <li>
-              ツール一覧が読み込まれたら完了。説明が変わったときは <strong>Refresh</strong> で再取得できる。
-            </li>
-          </ol>
-        </div>
+          <div class="panel" role="tabpanel" id="panel-chatgpt" aria-labelledby="tab-chatgpt" x-show="tab === 'chatgpt'">
+            <p class="updated">対応プラン: Plus / Pro / Business / Enterprise / Education（2026年6月時点）</p>
+            <ol class="steps">
+              <li>
+                <strong>設定 → Apps → Advanced settings</strong> を開き、<strong>Developer mode</strong>
+                をオンにする。
+              </li>
+              <li>
+                <strong>設定 → Connectors</strong> で <strong>Create</strong>（カスタムコネクタの追加）を選ぶ。
+              </li>
+              <li><strong>Connector URL</strong> に上の接続 URL を貼り付ける。</li>
+              <li>認証は <strong>なし（Authless）</strong> を選択して追加する。</li>
+              <li>
+                ツール一覧が読み込まれたら完了。説明が変わったときは <strong>Refresh</strong> で再取得できる。
+              </li>
+            </ol>
+          </div>
 
-        <div class="panel" id="panel-claude" role="tabpanel" aria-labelledby="tab-claude" hidden>
-          <p class="updated">
-            対応プラン: Free / Pro / Max / Team / Enterprise（Free はカスタムコネクタ1つまで・2026年6月時点）
-          </p>
-          <ol class="steps">
-            <li><strong>Customize → Connectors</strong> を開く。</li>
-            <li><strong>「+」→ Add custom connector</strong> を選ぶ。</li>
-            <li>リモート MCP サーバー URL に上の接続 URL を入力する。</li>
-            <li>認証情報は不要。<strong>Add</strong> をクリックして追加する。</li>
-            <li>
-              ツールが読み込まれたら完了。サーバーは公開インターネット上にある必要があります（VPN /
-              ファイアウォール内は不可）。
-            </li>
-          </ol>
+          <div class="panel" role="tabpanel" id="panel-claude" aria-labelledby="tab-claude" x-show="tab === 'claude'" x-cloak>
+            <p class="updated">
+              対応プラン: Free / Pro / Max / Team / Enterprise（Free はカスタムコネクタ1つまで・2026年6月時点）
+            </p>
+            <ol class="steps">
+              <li><strong>Customize → Connectors</strong> を開く。</li>
+              <li><strong>「+」→ Add custom connector</strong> を選ぶ。</li>
+              <li>リモート MCP サーバー URL に上の接続 URL を入力する。</li>
+              <li>認証情報は不要。<strong>Add</strong> をクリックして追加する。</li>
+              <li>
+                ツールが読み込まれたら完了。サーバーは公開インターネット上にある必要があります（VPN /
+                ファイアウォール内は不可）。
+              </li>
+            </ol>
+          </div>
         </div>
       </div>
     </section>
@@ -185,80 +240,22 @@ const base = import.meta.env.BASE_URL
 </Base>
 
 <script>
-  const tabs = document.querySelectorAll<HTMLButtonElement>('[role="tab"]')
-  for (const tab of tabs) {
-    tab.addEventListener('click', () => {
-      for (const t of tabs) {
-        const selected = t === tab
-        t.setAttribute('aria-selected', String(selected))
-        const id = t.getAttribute('aria-controls')
-        if (id) {
-          const panel = document.getElementById(id)
-          if (panel) panel.hidden = !selected
-        }
-      }
-    })
-  }
+  import Splide from '@splidejs/splide'
 
-  for (const btn of document.querySelectorAll<HTMLButtonElement>('.copy-btn')) {
-    btn.addEventListener('click', async () => {
-      const id = btn.dataset.copyTarget
-      const text = id ? document.getElementById(id)?.textContent?.trim() : null
-      if (!text) return
-      try {
-        await navigator.clipboard.writeText(text)
-        const original = btn.textContent
-        btn.textContent = 'コピーしました'
-        btn.classList.add('copied')
-        setTimeout(() => {
-          btn.textContent = original
-          btn.classList.remove('copied')
-        }, 1800)
-      } catch {
-        // クリップボード API が使えない環境では何もしない
-      }
-    })
-  }
-
-  for (const carousel of document.querySelectorAll<HTMLElement>('[data-carousel]')) {
-    const slides = carousel.querySelectorAll<HTMLElement>('.carousel-slide')
-    const dots = carousel.querySelectorAll<HTMLButtonElement>('[data-carousel-dots] button')
-    if (slides.length === 0) continue
-    const total = slides.length
-    // タイマーIDは要素に保持。dev の HMR で再実行されても多重起動しないよう、常に1本に保つ。
-    const store = carousel as unknown as { carouselTimer?: number }
-    const stop = () => window.clearInterval(store.carouselTimer)
-    stop()
-    let index = 0
-    const update = () => {
-      slides.forEach((slide, i) => slide.classList.toggle('active', i === index))
-      dots.forEach((dot, i) => dot.classList.toggle('active', i === index))
-    }
-    const go = (i: number) => {
-      index = (i + total) % total
-      update()
-    }
-    const start = () => {
-      stop()
-      store.carouselTimer = window.setInterval(() => go(index + 1), 7000)
-    }
-    carousel.querySelector('[data-carousel-prev]')?.addEventListener('click', () => {
-      go(index - 1)
-      start()
-    })
-    carousel.querySelector('[data-carousel-next]')?.addEventListener('click', () => {
-      go(index + 1)
-      start()
-    })
-    dots.forEach((dot, i) =>
-      dot.addEventListener('click', () => {
-        go(i)
-        start()
-      }),
-    )
-    carousel.addEventListener('mouseenter', stop)
-    carousel.addEventListener('mouseleave', start)
-    update()
-    start()
+  for (const el of document.querySelectorAll<HTMLElement>('.splide')) {
+    new Splide(el, {
+      type: 'loop',
+      focus: 'center',
+      autoWidth: true,
+      gap: '2rem',
+      autoplay: true,
+      interval: 7000,
+      speed: 500,
+      pauseOnHover: true,
+      height: '460px',
+      breakpoints: {
+        640: { gap: '1rem', height: '300px' },
+      },
+    }).mount()
   }
 </script>

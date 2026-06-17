@@ -9,6 +9,12 @@
     "preview": "astro preview"
   },
   "dependencies": {
+    "@splidejs/splide": "4.1.4",
+    "alpinejs": "3.15.12",
     "astro": "6.4.4"
+  },
+  "devDependencies": {
+    "@astrojs/alpinejs": "0.5.0",
+    "sharp": "0.34.5"
   }
 }
