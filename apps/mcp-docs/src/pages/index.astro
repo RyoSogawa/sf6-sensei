@@ -92,14 +92,28 @@ const slides = [
       <div class="wrap">
         <h2><span class="num">1</span>接続 URL</h2>
         <p>下記の URL を、各クライアントのカスタムコネクタに登録します。認証は不要です（読み取り専用）。</p>
-        <div class="copy-field" x-data="{ copied: false }">
+        <div
+          class="copy-field"
+          x-data="{
+            copied: false,
+            async copy() {
+              try {
+                await navigator.clipboard.writeText(this.$refs.url.textContent.trim())
+                this.copied = true
+                setTimeout(() => (this.copied = false), 1800)
+              } catch (_) {
+                // クリップボード API が使えない/拒否された環境では何もしない
+              }
+            },
+          }"
+        >
           <code x-ref="url">https://sf6-sensei-mcp.msnsgw.workers.dev/</code>
           <button
             type="button"
             class="copy-btn"
             :class="{ copied }"
             x-text="copied ? 'コピーしました' : 'コピー'"
-            @click="navigator.clipboard.writeText($refs.url.textContent.trim()); copied = true; setTimeout(() => (copied = false), 1800)"
+            @click="copy()"
           >
             コピー
           </button>
