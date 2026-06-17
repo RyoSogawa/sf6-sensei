@@ -112,15 +112,31 @@ const slides = [
         <h2><span class="num">2</span>登録手順</h2>
         <div x-data="{ tab: 'chatgpt' }">
           <div class="tabs" role="tablist" aria-label="クライアント選択">
-            <button type="button" role="tab" :aria-selected="tab === 'chatgpt'" aria-selected="true" @click="tab = 'chatgpt'">
+            <button
+              type="button"
+              role="tab"
+              id="tab-chatgpt"
+              aria-controls="panel-chatgpt"
+              :aria-selected="tab === 'chatgpt'"
+              aria-selected="true"
+              @click="tab = 'chatgpt'"
+            >
               ChatGPT
             </button>
-            <button type="button" role="tab" :aria-selected="tab === 'claude'" aria-selected="false" @click="tab = 'claude'">
+            <button
+              type="button"
+              role="tab"
+              id="tab-claude"
+              aria-controls="panel-claude"
+              :aria-selected="tab === 'claude'"
+              aria-selected="false"
+              @click="tab = 'claude'"
+            >
               Claude
             </button>
           </div>
 
-          <div class="panel" role="tabpanel" x-show="tab === 'chatgpt'">
+          <div class="panel" role="tabpanel" id="panel-chatgpt" aria-labelledby="tab-chatgpt" x-show="tab === 'chatgpt'">
             <p class="updated">対応プラン: Plus / Pro / Business / Enterprise / Education（2026年6月時点）</p>
             <ol class="steps">
               <li>
@@ -138,7 +154,7 @@ const slides = [
             </ol>
           </div>
 
-          <div class="panel" role="tabpanel" x-show="tab === 'claude'" x-cloak>
+          <div class="panel" role="tabpanel" id="panel-claude" aria-labelledby="tab-claude" x-show="tab === 'claude'" x-cloak>
             <p class="updated">
               対応プラン: Free / Pro / Max / Team / Enterprise（Free はカスタムコネクタ1つまで・2026年6月時点）
             </p>
