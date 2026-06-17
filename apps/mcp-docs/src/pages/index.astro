@@ -73,20 +73,14 @@ const base = import.meta.env.BASE_URL
       </div>
     </section>
 
-    <section id="endpoint">
+    <section id="connect">
       <div class="wrap">
-        <h2><span class="num">1</span>接続 URL</h2>
-        <p>下記の URL を、各クライアントのカスタムコネクタに登録します。認証は不要です（読み取り専用）。</p>
+        <h2><span class="num">1</span>登録手順</h2>
+        <p>下記の接続 URL を、各クライアントのカスタムコネクタに登録します。認証は不要です（読み取り専用）。</p>
         <div class="copy-field">
           <code id="mcp-url">https://sf6-sensei-mcp.msnsgw.workers.dev/</code>
           <button type="button" class="copy-btn" data-copy-target="mcp-url">コピー</button>
         </div>
-      </div>
-    </section>
-
-    <section id="connect">
-      <div class="wrap">
-        <h2><span class="num">2</span>登録手順</h2>
         <div class="tabs" role="tablist" aria-label="クライアント選択">
           <button role="tab" id="tab-chatgpt" aria-controls="panel-chatgpt" aria-selected="true">
             ChatGPT
@@ -134,7 +128,7 @@ const base = import.meta.env.BASE_URL
 
     <section id="tools">
       <div class="wrap">
-        <h2><span class="num">3</span>できること</h2>
+        <h2><span class="num">2</span>できること</h2>
         <p>登録すると、次の5つのツールが使えます。</p>
         <ul class="tools">
           <li>

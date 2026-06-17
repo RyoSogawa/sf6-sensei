@@ -397,6 +397,18 @@ pre code {
   background: var(--accent-2);
 }
 
+/* SP: コピーボタンを折り返して 100% 幅で表示（URL が長く横に収まらないため） */
+@media (max-width: 640px) {
+  .copy-field {
+    flex-wrap: wrap;
+  }
+
+  .copy-btn {
+    flex-basis: 100%;
+    padding: 12px 20px;
+  }
+}
+
 .tabs {
   display: flex;
   gap: 8px;
