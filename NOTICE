@@ -1,0 +1,31 @@
+SF6 Sensei — NOTICE
+===================
+
+This repository contains two kinds of materials under different licenses.
+
+1. Source code
+   The source code in this repository (TypeScript and related build/config
+   files) is licensed under the MIT License. See the LICENSE file.
+
+2. Street Fighter 6 frame data
+   The frame data distributed by this project (under packages/data, the
+   generated JSON, and the data returned in MCP responses) is derived from the
+   SuperCombo Wiki and is licensed under the Creative Commons
+   Attribution-ShareAlike 4.0 International License (CC-BY-SA-4.0).
+
+   - Source (original work): SuperCombo Wiki — Street Fighter 6 Frame Data
+     https://wiki.supercombo.gg/w/Street_Fighter_6
+     (retrieved via the operator's MediaWiki API at https://srk.shib.live/api.php)
+   - License: CC-BY-SA-4.0
+     https://creativecommons.org/licenses/by-sa/4.0/
+   - Modifications: the original wiki markup has been stripped, values have
+     been normalized into a structured JSON schema, and Japanese move-name and
+     alias translations have been added.
+   - ShareAlike: redistributions of this frame data must preserve the
+     attribution and license above, indicate changes, and be offered under
+     CC-BY-SA-4.0.
+
+Trademarks
+   "Street Fighter", character names, move names, and related marks are
+   trademarks or copyrights of CAPCOM CO., LTD. This is an unofficial,
+   non-commercial fan project and is not affiliated with or endorsed by Capcom.
