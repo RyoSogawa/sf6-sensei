@@ -2,5 +2,11 @@
   "$schema": "node_modules/wrangler/config-schema.json",
   "compatibility_date": "2026-06-01",
   "main": "src/index.ts",
-  "name": "sf6-sensei-mcp"
+  "name": "sf6-sensei-mcp",
+  "observability": {
+    "logs": {
+      "enabled": false,
+      "invocation_logs": true
+    }
+  }
 }
