@@ -12,3 +12,6 @@ coverage/
 .vscode
 *.swp
 .tmp
+
+# wtp (Worktree Plus) のワークツリー置き場（.wtp.yml の base_dir）
+.claude/worktrees/
