@@ -110,16 +110,10 @@ a:hover {
   max-width: 560px;
 }
 
-.badge {
-  display: inline-block;
-  font-size: 12px;
-  font-weight: 700;
-  color: var(--accent-3);
-  border: 1px solid var(--accent-3);
-  border-radius: 999px;
-  padding: 2px 12px;
-  margin-bottom: 18px;
-  letter-spacing: 0.08em;
+.hero .source {
+  font-size: 13px;
+  margin-top: 14px;
+  opacity: 0.8;
 }
 
 main section {
@@ -406,6 +400,26 @@ pre code {
 
 .copy-btn.copied {
   background: var(--accent-2);
+}
+
+/* SP: コピーボタンを折り返して 100% 幅で表示（URL が長く横に収まらないため） */
+@media (max-width: 640px) {
+  .copy-field {
+    flex-wrap: wrap;
+  }
+
+  .copy-btn {
+    flex-basis: 100%;
+    padding: 12px 20px;
+  }
+
+  /* SP: 横長スクショが画面幅いっぱいに広がるので、幅を絞って画面端に余白を作る
+     （高さ基準 → 幅基準に切り替え。縦横比は max-height/max-width で維持） */
+  .usage-carousel .splide__slide img {
+    height: auto;
+    max-height: 100%;
+    max-width: 86vw;
+  }
 }
 
 .tabs {
