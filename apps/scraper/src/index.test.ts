@@ -239,6 +239,15 @@ describe('getCharacterSlug', () => {
   it('defaults to lowercase+underscore for unknown', () => {
     expect(getCharacterSlug('Test Name')).toBe('test_name')
   })
+
+  it('sanitizes unsafe characters (path / codegen safety)', () => {
+    // slug は出力ファイル名と生成 index.ts の import パスに入るため、/ ' ; などを残さない。
+    // ドットは除去・/ は _ 化されるので ../ 連鎖もパス遡上に使える形では残らない。
+    expect(getCharacterSlug('foo/bar')).toBe('foo_bar')
+    expect(getCharacterSlug("o'brien")).toBe('o_brien')
+    expect(getCharacterSlug('../../etc/passwd')).toBe('__etc_passwd')
+    expect(getCharacterSlug('safe_123')).toBe('safe_123')
+  })
 })
 
 describe('parseNumber', () => {

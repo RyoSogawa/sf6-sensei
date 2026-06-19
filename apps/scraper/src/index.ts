@@ -350,8 +350,14 @@ export function getCharacterSlug(charaName: string): string {
     return slugMap[lower] ?? lower
   }
 
-  // Default: lowercase, remove dots, replace spaces/hyphens with underscore
-  return lower.replace(/\./g, '').replace(/[\s-]/g, '_')
+  // Default: lowercase, remove dots, replace spaces/hyphens with underscore.
+  // 末尾の置換で残った非英数字(/ ' ; 改行 等)も _ にする。slug は出力ファイル名と
+  // 生成 index.ts の import パスにそのまま入るため、取得元(wiki)由来の想定外文字で
+  // パス・コードが壊れる/逸脱するのを防ぐ（path traversal / コード混入の多層防御）。
+  return lower
+    .replace(/\./g, '')
+    .replace(/[\s-]/g, '_')
+    .replace(/[^a-z0-9_]/g, '_')
 }
 
 /**
@@ -714,6 +720,11 @@ function importName(id: string): string {
 export function writeCharactersData(characters: Character[], outDir: string): void {
   for (const character of characters) {
     characterSchema.parse(character)
+    // id は出力ファイル名と生成 index.ts の import パスに使うので、安全な文字種に限定する。
+    // getCharacterSlug は正規化済みだが、書き込み境界でも不変条件を担保する（多層防御）。
+    if (!/^[a-z0-9_]+$/.test(character.id)) {
+      throw new Error(`Unsafe character id for file write: "${character.id}"`)
+    }
   }
 
   mkdirSync(outDir, { recursive: true })
