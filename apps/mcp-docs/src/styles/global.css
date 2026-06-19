@@ -413,12 +413,15 @@ pre code {
     padding: 12px 20px;
   }
 
-  /* SP: 横長スクショが画面幅いっぱいに広がるので、幅を絞って画面端に余白を作る
-     （高さ基準 → 幅基準に切り替え。縦横比は max-height/max-width で維持） */
+  /* SP: スライド幅は Splide の fixedWidth(86vw) で固定する（JS 側）。autoWidth は画像の実寸から
+     スライド幅を測るため、画像のデコードが初回表示の瞬間に走る端末（iOS Safari 等）だと測定
+     タイミングのズレで中央位置が右にずれていた（初回だけずれて2回目から直る症状の原因）。
+     画像はスライド(86vw)内に収める。縦横比は維持し、border/影は画像実寸に密着させる。 */
   .usage-carousel .splide__slide img {
     height: auto;
     max-height: 100%;
-    max-width: 86vw;
+    max-width: 100%;
+    width: auto;
   }
 }
 
