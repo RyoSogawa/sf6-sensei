@@ -54,7 +54,7 @@ const searchMovesInputSchema = z.object({
   category: categorySchema,
   character: z.string().optional().nullable(),
   language: z.enum(['ja', 'en']).default('ja'),
-  limit: z.number().int().positive().default(20),
+  limit: z.number().int().positive().max(200).default(20),
   onBlockMax: z.number().optional().nullable(),
   onBlockMin: z.number().optional().nullable(),
   onHitMax: z.number().optional().nullable(),

@@ -91,6 +91,24 @@ describe('MCP root (/) endpoint (e2e)', () => {
     expect(content[0]?.text.toLowerCase()).toContain('hadoken')
   })
 
+  it('rejects search_moves with an over-limit value (input cap)', async () => {
+    const sessionId = await initializeSession()
+    const { rpc } = await mcpRequest(
+      {
+        id: 5,
+        jsonrpc: '2.0',
+        method: 'tools/call',
+        params: { arguments: { limit: 9999 }, name: 'search_moves' },
+      },
+      sessionId,
+    )
+
+    // limit は .max(200)。SDK は inputSchema 違反を JSON-RPC error か isError 結果で返す。
+    const errored =
+      rpc.error !== undefined || (rpc.result as { isError?: boolean } | undefined)?.isError === true
+    expect(errored).toBe(true)
+  })
+
   it('surfaces a not-found error through a tool call', async () => {
     const sessionId = await initializeSession()
     const { rpc } = await mcpRequest(
