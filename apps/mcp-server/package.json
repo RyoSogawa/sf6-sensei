@@ -4,15 +4,15 @@
     "@modelcontextprotocol/sdk": "1.29.0",
     "@repo/core": "workspace:*",
     "@repo/data": "workspace:*",
-    "hono": "4.12.23",
+    "hono": "4.12.25",
     "zod": "4.4.3"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20260605.1",
+    "@cloudflare/workers-types": "4.20260611.1",
     "@repo/tsconfig": "workspace:*",
     "typescript": "catalog:",
     "vitest": "catalog:",
-    "wrangler": "^4.98.0"
+    "wrangler": "^4.100.0"
   },
   "name": "@repo/mcp-server",
   "private": true,

@@ -18,7 +18,8 @@ trustPolicyExclude:
 # minimumReleaseAgeExclude: cooldown を免除するパッケージ。原則として使わず空に保つ。
 # 若くてブロックされる依存は「成熟版(公開7日以上)へダウングレード」で対応する:
 #   - @biomejs/biome 2.4.16 (2.5.0 は若い)
-#   - @cloudflare/workers-types 4.20260605.1 (日次リリースのため明示的に成熟版を固定)
+#   - @cloudflare/workers-types 4.20260611.1 (日次リリースのため明示的に成熟版を固定。
+#     wrangler 4.100 の optional peer ^4.20260611.1 を満たす成熟版がこれ。次の成熟版が出るまで固定)
 #   - esbuild は pnpm overrides で成熟版 0.28.0 に固定（tsx の ~0.28.0 範囲内・若い 0.28.1 を回避）
 minimumReleaseAgeExclude: []
 
@@ -29,9 +30,14 @@ minimumReleaseAgeExclude: []
 #   obug         — vitest 4.1.8 / astro が利用する debug 代替。2.1.3(2026-06-10 公開)は cooldown 内で
 #                  弾かれるため、cooldown 通過済みの成熟版 2.1.2 に固定（astro も 2.1.2 を使用、patch 差）。
 #                  2.1.3 が成熟したら除去してよい。
+#   hono         — セキュリティ修正版 4.12.25(2026-06-09 公開・成熟)へ全 hono を統一。直接依存は上げたが
+#                  @hono/mcp / @modelcontextprotocol/sdk 経由の transitive が 4.12.23 のまま残り audit に出る。
+#                  StreamableHTTPTransport は Worker の実行経路に乗るため patch 版へ寄せる(CORS/serve-static/
+#                  Lambda の脆弱機能は未使用だが衛生と dedup のため固定)。
 overrides:
   esbuild: 0.28.0
   "@types/node": "22.19.20"
+  hono: 4.12.25
   obug: 2.1.2
 
 # 依存バージョンの単一ソース
