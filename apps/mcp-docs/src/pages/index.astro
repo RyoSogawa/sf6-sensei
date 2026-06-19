@@ -61,7 +61,7 @@ const slides = [
                   widths={[440, 720, 1200]}
                   sizes="(max-width: 760px) 90vw, 700px"
                   format="webp"
-                  loading="eager"
+                  loading={i === 0 ? 'eager' : 'lazy'}
                   fetchpriority={i === 0 ? 'high' : 'auto'}
                 />
               </li>
