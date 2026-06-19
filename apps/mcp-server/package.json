@@ -8,7 +8,7 @@
     "zod": "4.4.3"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "4.20260605.1",
+    "@cloudflare/workers-types": "4.20260611.1",
     "@repo/tsconfig": "workspace:*",
     "typescript": "catalog:",
     "vitest": "catalog:",

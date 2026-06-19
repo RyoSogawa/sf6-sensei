@@ -18,7 +18,8 @@ trustPolicyExclude:
 # minimumReleaseAgeExclude: cooldown を免除するパッケージ。原則として使わず空に保つ。
 # 若くてブロックされる依存は「成熟版(公開7日以上)へダウングレード」で対応する:
 #   - @biomejs/biome 2.4.16 (2.5.0 は若い)
-#   - @cloudflare/workers-types 4.20260605.1 (日次リリースのため明示的に成熟版を固定)
+#   - @cloudflare/workers-types 4.20260611.1 (日次リリースのため明示的に成熟版を固定。
+#     wrangler 4.100 の optional peer ^4.20260611.1 を満たす成熟版がこれ。次の成熟版が出るまで固定)
 #   - esbuild は pnpm overrides で成熟版 0.28.0 に固定（tsx の ~0.28.0 範囲内・若い 0.28.1 を回避）
 minimumReleaseAgeExclude: []
 
