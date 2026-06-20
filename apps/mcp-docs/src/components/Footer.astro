@@ -1,14 +1,17 @@
 ---
-const base = import.meta.env.BASE_URL
+import { getLangFromUrl, localizePath, useTranslations } from '../i18n/utils'
+
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
 ---
 
 <footer class="site-footer">
   <div class="wrap">
-    <span>SF6 Sensei — 非公式 SF6 フレームデータ MCP サーバー</span>
+    <span>{t('footer.tagline')}</span>
     <span>
-      <a href={`${base}terms`}>利用規約</a> ·
-      <a href={`${base}licenses`}>権利・ライセンス</a> ·
-      <a href="https://github.com/RyoSogawa/sf6-sensei">GitHub</a>
+      <a href={localizePath('terms', lang)}>{t('nav.terms')}</a> ·
+      <a href={localizePath('licenses', lang)}>{t('nav.licenses')}</a> ·
+      <a href="https://github.com/RyoSogawa/sf6-sensei">{t('nav.github')}</a>
     </span>
   </div>
 </footer>

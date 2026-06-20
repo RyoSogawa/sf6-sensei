@@ -1,0 +1,240 @@
+---
+import { Image } from 'astro:assets'
+import usage1 from '../../assets/usage-1.png'
+import usage2 from '../../assets/usage-2.png'
+import usage3 from '../../assets/usage-3.png'
+import usage4 from '../../assets/usage-4.png'
+import usage5 from '../../assets/usage-5.png'
+import CopyUrl from '../../components/CopyUrl.astro'
+import Base from '../../layouts/Base.astro'
+import '@splidejs/splide/css/core'
+
+const connectUrl = 'https://sf6-sensei-mcp.msnsgw.workers.dev/'
+
+const slides = [
+  {
+    alt: 'Example of a custom instruction in Claude that, when you message SF6 Sensei "matchup <character>", summarizes five key points about that character',
+    src: usage5,
+  },
+  {
+    alt: "Example of asking SF6 Sensei in Claude about the on-block frames of Bison's target combo",
+    src: usage1,
+  },
+  {
+    alt: "Example of asking SF6 Sensei in Claude about the invincibility of all of Ken's Super Arts",
+    src: usage2,
+  },
+  {
+    alt: "Example of asking SF6 Sensei in Claude which of Cammy's Super Arts do not punish Drive Impact",
+    src: usage3,
+  },
+  {
+    alt: "Example of asking SF6 Sensei in Claude about Luke's light attack advantage on a just parry",
+    src: usage4,
+  },
+]
+---
+
+<Base
+  title="SF6 Sensei — Street Fighter 6 frame data MCP server"
+  description="An unofficial MCP server that lets ChatGPT / Claude look up Street Fighter 6 frame data. Step-by-step setup guide."
+>
+  <div class="hero">
+    <div class="wrap">
+      <h1>Turn your AI into a<br class="hero-br" />Street Fighter 6 sensei</h1>
+      <p>
+        An unofficial MCP server that lets you ask about Street Fighter 6 startup, frame advantage,
+        and punish candidates — right from voice dictation in a text chat.
+      </p>
+      <p class="source">Data source: SuperCombo Wiki (CC-BY-SA).</p>
+    </div>
+    <section class="usage-carousel splide" aria-label="Usage examples">
+      <div class="splide__track">
+        <ul class="splide__list">
+          {
+            slides.map((slide, i) => (
+              <li class="splide__slide">
+                <Image
+                  src={slide.src}
+                  alt={slide.alt}
+                  widths={[440, 720, 1200]}
+                  sizes="(max-width: 760px) 90vw, 700px"
+                  format="webp"
+                  loading={i === 0 ? 'eager' : 'lazy'}
+                  fetchpriority={i === 0 ? 'high' : 'auto'}
+                />
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+    </section>
+  </div>
+
+  <main>
+    <section id="about">
+      <div class="wrap">
+        <h2><span class="num">?</span>What it is</h2>
+        <p>
+          <strong>SF6 Sensei</strong> is a server that delivers Street Fighter 6 frame data over the
+          Model Context Protocol (MCP). Register it as a connector in ChatGPT or Claude and you can
+          ask things like "What's the startup of Juri's crouching HP?" or "I blocked this move — is
+          it punishable?" in plain language.
+        </p>
+        <div class="note">
+          <strong>Designed for voice dictation.</strong>
+          MCP tools <strong>do not fire in ChatGPT / Claude realtime Voice Mode</strong>. Ask your
+          questions using voice dictation in the <strong>text chat</strong> instead.
+        </div>
+      </div>
+    </section>
+
+    <section id="connect">
+      <div class="wrap">
+        <h2><span class="num">1</span>Setup</h2>
+        <p>
+          Just register the connection URL in your client's custom connector. No authentication is
+          required (read-only). Pick your client from the tabs below.
+        </p>
+        <div x-data="{ tab: null }">
+          <div class="tabs" role="tablist" aria-label="Choose a client">
+            <button
+              type="button"
+              role="tab"
+              id="tab-chatgpt"
+              aria-controls="panel-chatgpt"
+              :aria-selected="tab === 'chatgpt'"
+              aria-selected="false"
+              @click="tab = 'chatgpt'"
+            >
+              ChatGPT
+            </button>
+            <button
+              type="button"
+              role="tab"
+              id="tab-claude"
+              aria-controls="panel-claude"
+              :aria-selected="tab === 'claude'"
+              aria-selected="false"
+              @click="tab = 'claude'"
+            >
+              Claude
+            </button>
+          </div>
+
+          <div class="panel" role="tabpanel" id="panel-chatgpt" aria-labelledby="tab-chatgpt" x-show="tab === 'chatgpt'" x-cloak>
+            <p class="updated">Supported plans: Plus / Pro / Business / Enterprise / Education (as of June 2026)</p>
+            <ol class="steps">
+              <li>
+                Open <strong>Settings → Apps → Advanced settings</strong> and turn on
+                <strong>Developer mode</strong>.
+              </li>
+              <li>
+                In <strong>Settings → Connectors</strong>, choose <strong>Create</strong> (add a custom connector).
+              </li>
+              <li>
+                Paste the connection URL below into <strong>Connector URL</strong>.
+                <CopyUrl url={connectUrl} />
+              </li>
+              <li>Choose <strong>No authentication (Authless)</strong> and add it.</li>
+              <li>
+                Done once the tool list loads. If a description changes, use <strong>Refresh</strong> to reload it.
+              </li>
+            </ol>
+          </div>
+
+          <div class="panel" role="tabpanel" id="panel-claude" aria-labelledby="tab-claude" x-show="tab === 'claude'" x-cloak>
+            <p class="updated">
+              Supported plans: Free / Pro / Max / Team / Enterprise (Free allows one custom connector; as of June 2026)
+            </p>
+            <ol class="steps">
+              <li>Open <strong>Customize → Connectors</strong>.</li>
+              <li>Choose <strong>"+" → Add custom connector</strong>.</li>
+              <li>
+                Enter the connection URL below as the remote MCP server URL.
+                <CopyUrl url={connectUrl} />
+              </li>
+              <li>No credentials are needed. Click <strong>Add</strong>.</li>
+              <li>
+                Done once the tools load. The server must be on the public internet (not behind a VPN
+                or firewall).
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tools">
+      <div class="wrap">
+        <h2><span class="num">2</span>What you can do</h2>
+        <p>Once registered, the following five tools become available.</p>
+        <ul class="tools">
+          <li>
+            <code>get_move</code>
+            <p>Look up a move's frame data by character name and move name / input / alias.</p>
+          </li>
+          <li>
+            <code>get_character_frame_data</code>
+            <p>Get all of a character's moves at once.</p>
+          </li>
+          <li>
+            <code>search_moves</code>
+            <p>Search moves across the roster by startup, category, and other properties.</p>
+          </li>
+          <li>
+            <code>find_punish</code>
+            <p>Suggest punish candidates from a move's on-block advantage (candidates only).</p>
+          </li>
+          <li>
+            <code>list_characters</code>
+            <p>Return the list of available characters.</p>
+          </li>
+        </ul>
+        <div class="note">
+          <strong>find_punish only suggests candidates:</strong>
+          it does not account for range, distance, or situation. Note that it is not a complete punish check.
+        </div>
+      </div>
+    </section>
+
+    <section id="rights">
+      <div class="wrap">
+        <h2><span class="num">i</span>Rights & License</h2>
+        <p>
+          This tool is a fan-made, unofficial, non-commercial project with no affiliation to Capcom.
+          "Street Fighter" and all character / move names are trademarks and copyrighted works of
+          <a href="https://www.capcom.com/">Capcom Co., Ltd.</a>
+        </p>
+        <p>
+          The frame data comes from the <a href="https://wiki.supercombo.gg/w/Street_Fighter_6">SuperCombo Wiki</a>
+          (CC-BY-SA). See <a href="/en/licenses">Rights & License</a> and <a href="/en/terms">Terms</a> for details.
+        </p>
+      </div>
+    </section>
+  </main>
+</Base>
+
+<script>
+  import Splide from '@splidejs/splide'
+
+  for (const el of document.querySelectorAll<HTMLElement>('.splide')) {
+    new Splide(el, {
+      type: 'loop',
+      focus: 'center',
+      autoWidth: true,
+      gap: '2rem',
+      autoplay: true,
+      interval: 7000,
+      speed: 500,
+      pauseOnHover: true,
+      height: '460px',
+      breakpoints: {
+        // On mobile, fix the slide width with fixedWidth and turn off autoWidth
+        // (which measures the decoded image). The width is known before decoding,
+        // so the slides no longer shift to the right on first paint.
+        640: { arrows: false, autoWidth: false, fixedWidth: '86vw', gap: '1rem', height: '300px' },
+      },
+    }).mount()
+  }
+</script>

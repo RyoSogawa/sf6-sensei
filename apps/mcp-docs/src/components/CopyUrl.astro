@@ -1,34 +1,40 @@
 ---
+import { getLangFromUrl, useTranslations } from '../i18n/utils'
+
 interface Props {
   url: string
 }
 
 const { url } = Astro.props
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
+const labels = { copied: t('copy.copied'), copy: t('copy.copy') }
 ---
 
 <div
   class="copy-field"
-  x-data="{
+  x-data={`{
     copied: false,
+    labels: ${JSON.stringify(labels)},
     async copy() {
       try {
         await navigator.clipboard.writeText(this.$refs.url.textContent.trim())
         this.copied = true
         setTimeout(() => (this.copied = false), 1800)
       } catch (_) {
-        // クリップボード API が使えない/拒否された環境では何もしない
+        // Do nothing when the Clipboard API is unavailable or denied.
       }
     },
-  }"
+  }`}
 >
   <code x-ref="url">{url}</code>
   <button
     type="button"
     class="copy-btn"
     :class="{ copied }"
-    x-text="copied ? 'コピーしました' : 'コピー'"
+    x-text="copied ? labels.copied : labels.copy"
     @click="copy()"
   >
-    コピー
+    {labels.copy}
   </button>
 </div>

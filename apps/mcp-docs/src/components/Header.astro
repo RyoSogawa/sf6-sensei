@@ -1,13 +1,25 @@
 ---
-const base = import.meta.env.BASE_URL
+import { languages } from '../i18n/ui'
+import { alternatePath, getLangFromUrl, useTranslations } from '../i18n/utils'
+
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
+const otherLang = lang === 'ja' ? 'en' : 'ja'
+const switchHref = alternatePath(Astro.url, otherLang)
+const home = lang === 'ja' ? '/' : '/en/'
 ---
 
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href={base}>
-      <img src={`${base}favicon.svg`} alt="" />
+    <a class="brand" href={home}>
+      <img src={`${import.meta.env.BASE_URL}favicon.svg`} alt="" />
       SF6 Sensei
       <span class="badge-version">Alpha</span>
     </a>
+    <nav class="nav">
+      <a href={switchHref} hreflang={otherLang} lang={otherLang} aria-label={t('lang.switchLabel')}>
+        {languages[otherLang]}
+      </a>
+    </nav>
   </div>
 </header>

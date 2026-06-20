@@ -1,6 +1,7 @@
 ---
 import Footer from '../components/Footer.astro'
 import Header from '../components/Header.astro'
+import { alternatePath, getLangFromUrl } from '../i18n/utils'
 import '../styles/global.css'
 
 interface Props {
@@ -10,16 +11,22 @@ interface Props {
 
 const { title, description } = Astro.props
 const base = import.meta.env.BASE_URL
+const lang = getLangFromUrl(Astro.url)
+const jaHref = new URL(alternatePath(Astro.url, 'ja'), Astro.site).href
+const enHref = new URL(alternatePath(Astro.url, 'en'), Astro.site).href
 ---
 
 <!doctype html>
-<html lang="ja">
+<html lang={lang}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title}</title>
     <meta name="description" content={description} />
     <link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" />
+    <link rel="alternate" hreflang="ja" href={jaHref} />
+    <link rel="alternate" hreflang="en" href={enHref} />
+    <link rel="alternate" hreflang="x-default" href={jaHref} />
   </head>
   <body>
     <Header />
