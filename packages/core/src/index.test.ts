@@ -301,7 +301,7 @@ describe('deriveNormalJaName', () => {
 
   it('returns null for command normals, target combos and proper-noun moves', () => {
     expect(deriveNormalJaName('236P')).toBeNull() // special
-    expect(deriveNormalJaName('6HP')).toBeNull() // command normal (proper noun)
+    expect(deriveNormalJaName('6HP')).toBeNull() // command normal
     expect(deriveNormalJaName('5HP~HK')).toBeNull() // target combo
     expect(deriveNormalJaName('HPHK')).toBeNull() // drive impact
     expect(deriveNormalJaName('4HK')).toBeNull() // directional command normal
