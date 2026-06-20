@@ -71,10 +71,27 @@ a:hover {
   color: var(--text);
 }
 
+.brand:hover {
+  text-decoration: none;
+}
+
 .brand img {
   width: 32px;
   height: 32px;
   border-radius: 8px;
+}
+
+/* バージョン段階バッジ（Alpha 等）: ロゴのゴールドと差別化して「別タグ」と分かるようシアン塗り */
+.badge-version {
+  background: var(--accent-2);
+  border-radius: 999px;
+  color: var(--on-accent);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  padding: 1px 7px;
+  text-transform: uppercase;
 }
 
 .nav a {
@@ -101,6 +118,11 @@ a:hover {
 .hero h1 {
   font-size: 30px;
   margin: 0 0 12px;
+}
+
+/* hero 見出しの改行は SP のみ（デスクトップは1行） */
+.hero-br {
+  display: none;
 }
 
 .hero p {
@@ -404,6 +426,11 @@ pre code {
 
 /* SP: コピーボタンを折り返して 100% 幅で表示（URL が長く横に収まらないため） */
 @media (max-width: 640px) {
+  /* SP は hero 見出しを2行に */
+  .hero-br {
+    display: inline;
+  }
+
   .copy-field {
     flex-wrap: wrap;
   }
@@ -413,12 +440,15 @@ pre code {
     padding: 12px 20px;
   }
 
-  /* SP: 横長スクショが画面幅いっぱいに広がるので、幅を絞って画面端に余白を作る
-     （高さ基準 → 幅基準に切り替え。縦横比は max-height/max-width で維持） */
+  /* SP: スライド幅は Splide の fixedWidth(86vw) で固定する（JS 側）。autoWidth は画像の実寸から
+     スライド幅を測るため、画像のデコードが初回表示の瞬間に走る端末（iOS Safari 等）だと測定
+     タイミングのズレで中央位置が右にずれていた（初回だけずれて2回目から直る症状の原因）。
+     画像はスライド(86vw)内に収める。縦横比は維持し、border/影は画像実寸に密着させる。 */
   .usage-carousel .splide__slide img {
     height: auto;
     max-height: 100%;
-    max-width: 86vw;
+    max-width: 100%;
+    width: auto;
   }
 }
 

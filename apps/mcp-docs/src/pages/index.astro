@@ -42,7 +42,7 @@ const slides = [
 >
   <div class="hero">
     <div class="wrap">
-      <h1>対戦中に手放しでフレームを調べる</h1>
+      <h1>あなたの AI を、<br class="hero-br" />Street Fighter 6 の先生に</h1>
       <p>
         Street Fighter 6 の発生・硬直差・確定反撃の候補を、テキストチャットの音声入力でそのまま質問できる非公式
         MCP サーバーです。
@@ -62,6 +62,7 @@ const slides = [
                   sizes="(max-width: 760px) 90vw, 700px"
                   format="webp"
                   loading={i === 0 ? 'eager' : 'lazy'}
+                  fetchpriority={i === 0 ? 'high' : 'auto'}
                 />
               </li>
             ))
@@ -233,7 +234,9 @@ const slides = [
       pauseOnHover: true,
       height: '460px',
       breakpoints: {
-        640: { arrows: false, gap: '1rem', height: '300px' },
+        // SP は fixedWidth でスライド幅を固定し、autoWidth（画像実寸からの測定）を切る。
+        // デコード前でも幅が確定するので、初回表示で右にずれる症状が起きない。
+        640: { arrows: false, autoWidth: false, fixedWidth: '86vw', gap: '1rem', height: '300px' },
       },
     }).mount()
   }
