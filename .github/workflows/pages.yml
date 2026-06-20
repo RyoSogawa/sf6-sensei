@@ -13,7 +13,7 @@ permissions:
   pages: write
   id-token: write
 
-# 同時に1つのデプロイのみ。進行中のランは中断せず完了させる。
+# Only one deployment at a time. Let in-progress runs finish without canceling them.
 concurrency:
   group: pages
   cancel-in-progress: false

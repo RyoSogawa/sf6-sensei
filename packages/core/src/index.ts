@@ -40,7 +40,7 @@ export const moveCategorySchema = z.enum([
   'taunt',
 ])
 
-// ヒット時 / ガード時の有利フレーム（ドライブラッシュ系で共用）
+// Advantage on hit / on block (shared by Drive Rush variants)
 const dualAdvantageSchema = z
   .object({ onBlock: z.number().nullable(), onHit: z.number().nullable() })
   .nullable()
@@ -48,21 +48,21 @@ const dualAdvantageSchema = z
 
 export const moveSchema = z.object({
   active: z.string().nullable(),
-  // ドライブラッシュ後にこの技を出したときの有利（afterDRHit/Blk）
+  // Advantage when this move is performed after a Drive Rush (afterDRHit/Blk)
   afterDriveRush: dualAdvantageSchema,
-  airborne: z.string().nullable().optional(), // 空中判定フレーム（例 "9-50 (FKD)"）
+  airborne: z.string().nullable().optional(), // airborne frames (e.g. "9-50 (FKD)")
   aliases: z.array(z.string()),
-  armor: z.string().nullable().optional(), // アーマー（例 "5-12 (1 hit)"）
-  attackRange: z.number().nullable().optional(), // 攻撃の届く距離
+  armor: z.string().nullable().optional(), // armor frames (e.g. "5-12 (1 hit)")
+  attackRange: z.number().nullable().optional(), // reach of the attack
   blockstun: z.number().nullable().optional(),
   cancel: z.array(z.string()),
   category: moveCategorySchema,
   characterId: z.string(),
   chipDamage: z.number().nullable().optional(),
   damage: z.number().nullable().optional(),
-  damageText: z.string().nullable().optional(), // 複合表記の原文（例 "500x2", "1400(800)"）
-  dmgScaling: z.string().nullable().optional(), // ダメージ補正（例 "20% Starter"）
-  // ドライブゲージ: gain=増加, dealtOnHit/Blk=相手に与えるドライブダメージ
+  damageText: z.string().nullable().optional(), // raw compound notation (e.g. "500x2", "1400(800)")
+  dmgScaling: z.string().nullable().optional(), // damage scaling (e.g. "20% Starter")
+  // Drive gauge: gain=self gain, dealtOnHit/Blk=Drive damage dealt to opponent
   driveGauge: z
     .object({
       dealtOnBlock: z.number().nullable(),
@@ -71,7 +71,7 @@ export const moveSchema = z.object({
     })
     .nullable()
     .optional(),
-  // この技をドライブラッシュキャンセルしたときの有利（DRcancelHit/Blk）
+  // Advantage when this move is Drive Rush cancelled (DRcancelHit/Blk)
   driveRushCancel: dualAdvantageSchema,
   hitstop: z.number().nullable().optional(),
   hitstun: z.number().nullable().optional(),
@@ -80,7 +80,7 @@ export const moveSchema = z.object({
     numpad: z.string(),
     official: z.string().nullable(),
   }),
-  invuln: z.string().nullable().optional(), // 無敵フレーム（例 "1-8 Air", "1-3 Full"）
+  invuln: z.string().nullable().optional(), // invulnerability frames (e.g. "1-8 Air", "1-3 Full")
   juggle: z
     .object({
       increase: z.string().nullable(),
@@ -93,8 +93,8 @@ export const moveSchema = z.object({
   notes: z.object({ en: z.string().nullable(), ja: z.string().nullable() }).nullable().optional(),
   onBlock: z.number().nullable(),
   onHit: z.number().nullable(),
-  onPerfectParry: z.number().nullable().optional(), // パーフェクトパリィ時の有利
-  onPunishCounter: z.number().nullable().optional(), // パニッシュカウンター時の有利
+  onPerfectParry: z.number().nullable().optional(), // advantage on perfect parry
+  onPunishCounter: z.number().nullable().optional(), // advantage on punish counter
   projectileSpeed: z.number().nullable().optional(),
   properties: z.array(z.string()),
   pushback: z
@@ -104,7 +104,7 @@ export const moveSchema = z.object({
   recovery: z.number().nullable(),
   source: moveSourceSchema,
   startup: z.number().nullable(),
-  // SA ゲージ増加: onHit/onBlock（括弧内の副次値は原文 notes 参照）
+  // SA gauge gain: onHit/onBlock (secondary values in parens — see raw notes)
   superGauge: z
     .object({ onBlock: z.number().nullable(), onHit: z.number().nullable() })
     .nullable()
@@ -125,7 +125,7 @@ export const characterSchema = z.object({
 
 export type Character = z.infer<typeof characterSchema>
 
-// MCP ツール get_move の入力スキーマ（詳細は docs/mcp-tools.md）
+// Input schema for the get_move MCP tool (see docs/mcp-tools.md)
 export const getMoveInput = z.object({
   character: z.string().min(1),
   language: z.enum(['ja', 'en']).default('ja'),
@@ -145,8 +145,9 @@ export type GetMoveInput = z.infer<typeof getMoveInput>
  *   "立中K" → "5mk"
  *   "cr.HP" → "2hp"
  *   "2HP" → "2hp"
- * Note: P/K を省いた俗称（例 "2強" → "2h"）は技を一意化できないため、
- * そうしたクエリは alias-overrides 層で補い、resolveMove の alias マッチで解決する。
+ * Note: colloquial forms that omit P/K (e.g. "2強" → "2h") cannot uniquely
+ * identify a move, so such queries are filled in by the alias-overrides layer
+ * and resolved via resolveMove's alias match.
  * Returns null if the input cannot be interpreted as a move command.
  */
 export function normalizeInput(raw: string): string | null {
@@ -206,9 +207,9 @@ export function normalizeInput(raw: string): string | null {
   return normalized
 }
 
-// numpad 入力のマッチ。強度(l/m/h)を省いたクエリ "236P" を、強度付きで格納された技
-// 236LP/236MP/236HP に当てる（SF6 のフレームデータは強度ごとに別レコード）。
-// "236LP" のように強度まで指定したクエリは厳密一致のみ。
+// numpad input matching. A query that omits strength (l/m/h) like "236P" matches
+// the strength-tagged moves 236LP/236MP/236HP (SF6 frame data is a separate record
+// per strength). A query that specifies strength like "236LP" matches exactly only.
 function inputMatches(moveNorm: string, queryNorm: string): boolean {
   if (moveNorm === queryNorm) return true
   const parsed = queryNorm.match(/^([0-9j]*)([pk])$/)
@@ -288,8 +289,9 @@ function matchesSubstring(move: Move, queryLower: string): boolean {
   if (move.name.en.toLowerCase().includes(queryLower)) return true
   if (move.name.ja?.toLowerCase().includes(queryLower)) return true
   if (move.aliases.some((alias) => alias.toLowerCase().includes(queryLower))) return true
-  // 自然文クエリ（例「リュウのインパクト」）が alias を内包するケース。
-  // 2 文字以下の alias（"DI" 等）は誤爆するので除外し、それらは exact tier(1) に任せる。
+  // Case where a natural-language query (e.g. "リュウのインパクト") contains an alias.
+  // Aliases of 2 chars or fewer ("DI" etc.) cause false matches, so exclude them
+  // and leave those to the exact tier(1).
   return move.aliases.some((alias) => alias.length >= 3 && queryLower.includes(alias.toLowerCase()))
 }
 
@@ -351,7 +353,7 @@ const JA_BUTTON: Record<string, string> = { k: 'キック', p: 'パンチ' }
  * Derive the Japanese name of a systematic normal from its numpad input.
  * Only plain normals — stance(5/2/j.) + strength(L/M/H) + button(P/K) — are
  * covered (e.g. "5LP" → "立ち弱パンチ", "j.MK" → "ジャンプ中キック").
- * Command normals, target combos and proper-noun moves (波動拳 等) return null.
+ * Command normals, target combos and proper-noun moves (波動拳 etc.) return null.
  */
 export function deriveNormalJaName(numpad: string): string | null {
   const matched = numpad.match(/^(5|2|j\.)([lmh])([pk])$/i)

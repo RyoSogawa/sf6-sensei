@@ -241,8 +241,8 @@ describe('getCharacterSlug', () => {
   })
 
   it('sanitizes unsafe characters (path / codegen safety)', () => {
-    // slug は出力ファイル名と生成 index.ts の import パスに入るため、/ ' ; などを残さない。
-    // ドットは除去・/ は _ 化されるので ../ 連鎖もパス遡上に使える形では残らない。
+    // The slug goes into output file names and the generated index.ts import paths, so don't leave / ' ; etc.
+    // Dots are removed and / becomes _, so ../ chains don't survive in a form usable for path traversal.
     expect(getCharacterSlug('foo/bar')).toBe('foo_bar')
     expect(getCharacterSlug("o'brien")).toBe('o_brien')
     expect(getCharacterSlug('../../etc/passwd')).toBe('__etc_passwd')
@@ -253,10 +253,10 @@ describe('getCharacterSlug', () => {
 describe('parseNumber', () => {
   it('parses plain, bracketed, parenthetical and decimal values', () => {
     expect(parseNumber('2000')).toBe(2000)
-    expect(parseNumber('[8000]')).toBe(8000) // driveDmg はブラケット付き
-    expect(parseNumber('1000 (700)')).toBe(1000) // 副次値は括弧内
-    expect(parseNumber('1.545')).toBe(1.545) // atkRange は小数
-    expect(parseNumber('500x2')).toBe(500) // 多段は先頭値
+    expect(parseNumber('[8000]')).toBe(8000) // driveDmg is bracketed
+    expect(parseNumber('1000 (700)')).toBe(1000) // secondary value is in parens
+    expect(parseNumber('1.545')).toBe(1.545) // atkRange is a decimal
+    expect(parseNumber('500x2')).toBe(500) // multi-hit uses the first value
   })
 
   it('returns null for unset templates and dashes', () => {

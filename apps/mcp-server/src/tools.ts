@@ -105,8 +105,9 @@ export function getMoveImpl(
     }
   }
 
-  // core の解決層に委譲: numpad 正規化（"屈強P"→"2hp"）と入力 > 別名/技名 > 部分一致の
-  // ティア順マッチ。最強ティアのみ返すので "DI" が "Standing/Medium" に誤爆しない。
+  // Delegate to core's resolution layer: numpad normalization ("屈強P"→"2hp") plus tier-ordered
+  // matching of input > alias/name > substring. It returns only the strongest tier, so "DI" doesn't
+  // false-match "Standing/Medium".
   const matches = resolveMoveBest(move, resolvedChar.moves)
 
   return {
@@ -191,7 +192,7 @@ export interface SearchMovesResult {
   attribution: Attribution
 }
 
-// 数値フィールドが [min, max] に収まるか判定（min/max 未指定なら無制約。値が null で制約ありなら不一致）
+// Check whether a numeric field falls within [min, max] (unbounded if min/max unset; a null value with a constraint set is a non-match)
 function inNumericRange(
   value: number | null,
   min: number | null | undefined,
@@ -300,7 +301,7 @@ export interface FindPunishResult {
   attribution: Attribution
 }
 
-// 相手の技 or onBlock 値から、自分の有利フレームと相手技データを求める（分岐を切り出して複雑度を下げる）。
+// From the opponent's move or an onBlock value, derive your own frame advantage and the opponent move data (split out to lower complexity).
 function resolveOpponentAdvantage(
   opponentCharacter: string | null | undefined,
   opponentMove: string | null | undefined,

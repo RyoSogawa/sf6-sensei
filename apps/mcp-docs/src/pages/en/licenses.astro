@@ -1,0 +1,113 @@
+---
+import Base from '../../layouts/Base.astro'
+---
+
+<Base
+  title="Rights & License — SF6 Sensei"
+  description="How SF6 Sensei handles rights and licensing: the data source (SuperCombo Wiki / CC-BY-SA), Capcom's rights, and the measures we take."
+>
+  <main class="legal">
+    <div class="wrap">
+      <h1>Rights & License</h1>
+      <p class="updated">Last updated: June 16, 2026</p>
+
+      <p>
+        SF6 Sensei is a fan-made, <strong>unofficial and non-commercial</strong> project with no
+        affiliation or relationship to Capcom Co., Ltd. This page explains the source, license, and
+        handling of rights for the data, along with the measures we take.
+      </p>
+
+      <div class="note">
+        This page is not legal advice. Please confirm the latest guidelines and terms of each rights
+        holder yourself.
+      </div>
+
+      <h2>1. Status of the frame data</h2>
+      <ul>
+        <li>
+          What this Service handles is <strong>factual information — the numbers (frame data) measured
+          in-game</strong>. Facts such as game mechanics and numbers are generally understood not to
+          be subject to copyright (the U.S. Copyright Office states that "the idea for a game, its
+          rules, methods, and systems are not protected by copyright"; Japanese law has no clear
+          precedent).
+        </li>
+        <li>
+          That said, following industry custom (as with frame data wikis like Dustloop and Mizuumi),
+          we treat the rights to the game's content as belonging to their respective rights holders.
+        </li>
+      </ul>
+
+      <h2>2. Capcom's rights and the measures we take</h2>
+      <p>
+        "Street Fighter," character names, move names, and other names and elements related to the
+        game are trademarks or copyrighted works of Capcom Co., Ltd. The Service respects the spirit
+        of Capcom's guidelines and takes the following measures.
+      </p>
+      <ul>
+        <li><strong>Stating it is unaffiliated and unofficial:</strong> the Service has no affiliation or relationship with Capcom and is not endorsed by it.</li>
+        <li><strong>Non-commercial:</strong> the Service is not monetized. There is no advertising, billing, or paywall.</li>
+        <li>
+          <strong>No game assets:</strong>
+          no game images, audio, sprites, or other assets are used. Character and move names are used
+          solely for identification and reference.
+        </li>
+        <li>
+          <strong>Responding to takedown requests:</strong>
+          upon a legitimate request from a rights holder, we will promptly delete or correct the
+          content in question.
+        </li>
+      </ul>
+      <div class="note">
+        <strong>Important:</strong>
+        the above are measures we take; they do not guarantee "full compliance" with Capcom's Fan
+        Content Guidelines or EULA. The form of providing frame data is open to interpretation. Before
+        using or redistributing, please check the latest official information such as the
+        <a href="https://www.capcom-games.com/en/fan-content-guidelines/">Capcom Fan Content Guidelines</a>.
+      </div>
+
+      <h2>3. Data source and CC-BY-SA</h2>
+      <p>The frame data is sourced from the SuperCombo Wiki, used under the terms of Creative Commons Attribution-ShareAlike (CC-BY-SA).</p>
+      <ul>
+        <li>
+          <strong>Source (original work):</strong>
+          <a href="https://wiki.supercombo.gg/w/Street_Fighter_6">SuperCombo Wiki — Street Fighter 6 Frame Data</a>
+          (data is fetched via the same operator's API at <code>srk.shib.live</code>)
+        </li>
+        <li>
+          <strong>License:</strong> Creative Commons Attribution-ShareAlike (CC-BY-SA).
+          <a href="https://creativecommons.org/licenses/by-sa/4.0/">creativecommons.org</a>
+          (the exact version follows the SuperCombo Wiki's notice)
+        </li>
+        <li>
+          <strong>Statement of changes:</strong>
+          the Service modifies the original data by removing wiki markup, structuring it into JSON,
+          converting and normalizing frame values into numbers, and adding Japanese move names and aliases.
+        </li>
+        <li>
+          <strong>ShareAlike:</strong>
+          the frame data the Service provides is offered under the same CC-BY-SA as the source. When
+          redistributing, maintain attribution, the license notice, the statement of changes, and
+          inheritance under the same license.
+        </li>
+      </ul>
+      <p>
+        Each MCP response also includes the source (source / license / fetch date), so attribution
+        can be traced when quoting an answer.
+      </p>
+
+      <h2>4. Trademarks</h2>
+      <p>
+        Product, service, and company names mentioned on this page and in the Service are trademarks
+        or registered trademarks of their respective owners. The Service uses them solely for
+        identification and does not represent the respective rights holders.
+      </p>
+
+      <h2>5. Contact</h2>
+      <p>
+        For inquiries or takedown requests regarding rights and licensing, please reach out via <a
+          href="https://github.com/RyoSogawa/sf6-sensei/issues">GitHub Issues</a
+        >.
+      </p>
+    </div>
+  </main>
+</Base>

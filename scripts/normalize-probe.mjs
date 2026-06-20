@@ -1,16 +1,16 @@
-// 使い捨て検証スクリプト（throwaway probe）
-// 目的: SuperCombo `SF6_FrameData` 全行を取得し、正規化の難所
-//   (1) advantage 系の HTML/wiki マークアップ除去・数値化
-//   (2) frames の条件値 "11(13)" 分解
-//   (3) cancel / guard コード解析
-//   (4) moveType -> category マップ
-// が全 2306 技に対して破綻しないかをレポートする。
+// Throwaway probe script.
+// Purpose: fetch all SuperCombo `SF6_FrameData` rows and report whether the tricky
+// normalization steps hold up across all 2306 moves:
+//   (1) strip HTML/wiki markup from advantage fields and convert to numbers
+//   (2) split conditional frame values like "11(13)"
+//   (3) parse cancel / guard codes
+//   (4) map moveType -> category
 //
-// 実行: node scripts/normalize-probe.mjs
-// 本実装ではなく、ここで得た知見を packages/scraper の正規化に落とす。
+// Run: node scripts/normalize-probe.mjs
+// Not the real implementation; the findings here feed into packages/scraper normalization.
 
-// アクセス方針: spec.md「取得の許諾とアクセス方針」を厳守。
-// `srk.shib.live/api.php` のみ・正直な識別 UA・低頻度・偽装しない。
+// Access policy: strictly follow spec.md "取得の許諾とアクセス方針".
+// `srk.shib.live/api.php` only, honest identifying UA, low frequency, no spoofing.
 const API = "https://srk.shib.live/api.php";
 const UA = "sf6-sensei/0.1 (+https://github.com/RyoSogawa/sf6-sensei) personal-noncommercial";
 
@@ -42,9 +42,9 @@ async function fetchAllRows() {
   return rows;
 }
 
-// --- 正規化関数（プロトタイプ） ---
+// --- normalization functions (prototype) ---
 
-// HTML タグと wiki 強調 ''' を除去
+// Strip HTML tags and wiki emphasis '''
 const stripMarkup = (s) =>
   String(s ?? "")
     .replace(/<[^>]*>/g, "")
@@ -52,14 +52,14 @@ const stripMarkup = (s) =>
     .replace(/&nbsp;/g, " ")
     .trim();
 
-// advantage を数値化。数値化できなければ null + rawText を返す
+// Convert advantage to a number; if it can't be parsed, return null + rawText
 function parseAdvantage(raw) {
   const text = stripMarkup(raw);
   const m = text.match(/^[+]?(-?\d+)$/);
   return { value: m ? Number(m[1]) : null, text };
 }
 
-// frames: 主値 + 括弧内の条件値。"11(13)" -> {primary:11, alt:13}
+// frames: primary value + conditional value in parentheses. "11(13)" -> {primary:11, alt:13}
 function parseFrames(raw) {
   const text = stripMarkup(raw);
   const primary = text.match(/-?\d+/);
@@ -90,7 +90,7 @@ function parseGuard(raw) {
     : { value: null, unknown: [text] };
 }
 
-// --- レポート ---
+// --- report ---
 function add(map, key) { map.set(key, (map.get(key) ?? 0) + 1); }
 function topEntries(map, n = 30) {
   return [...map.entries()].sort((a, b) => b[1] - a[1]).slice(0, n)
@@ -105,14 +105,14 @@ async function main() {
   const advFields = ["hitAdv", "blockAdv", "punishAdv", "perfParryAdv", "DRcancelHit", "DRcancelBlk"];
   const frameFields = ["startup", "active", "recovery", "total"];
 
-  const advNonNumeric = new Map();   // フィールド別 数値化できなかった値
-  const advCounts = {};              // フィールド別 numeric / nonNumeric / empty
-  const frameComplex = new Map();    // 複雑な frames 表記
-  const frameNullPrimary = [];       // 主値が取れなかった行
+  const advNonNumeric = new Map();   // per-field values that couldn't be parsed to a number
+  const advCounts = {};              // per-field numeric / nonNumeric / empty
+  const frameComplex = new Map();    // complex frame notations
+  const frameNullPrimary = [];       // rows where the primary value couldn't be extracted
   const moveTypes = new Map();
   const cancelUnknown = new Map();
   const guardUnknown = new Map();
-  const residualMarkup = [];         // 除去後も < > ' が残る = regex 漏れ
+  const residualMarkup = [];         // < > ' still present after strip = regex miss
 
   for (const f of advFields) advCounts[f] = { numeric: 0, nonNumeric: 0, empty: 0 };
 

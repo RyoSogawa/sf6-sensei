@@ -234,8 +234,9 @@ const slides = [
       pauseOnHover: true,
       height: '460px',
       breakpoints: {
-        // SP は fixedWidth でスライド幅を固定し、autoWidth（画像実寸からの測定）を切る。
-        // デコード前でも幅が確定するので、初回表示で右にずれる症状が起きない。
+        // On mobile, fix the slide width with fixedWidth and turn off autoWidth
+        // (which measures the decoded image). The width is known before decoding,
+        // so the slides no longer shift to the right on first paint.
         640: { arrows: false, autoWidth: false, fixedWidth: '86vw', gap: '1rem', height: '300px' },
       },
     }).mount()
