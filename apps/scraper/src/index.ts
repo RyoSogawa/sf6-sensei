@@ -1,8 +1,8 @@
-// SuperCombo (CC-BY-SA) からフレームデータを取得する正攻法クライアント。
-// アクセス方針は docs/spec.md「取得の許諾とアクセス方針」を厳守する:
-//   - エンドポイントは srk.shib.live/api.php のみ（robots 遵守）
-//   - 正直な識別 User-Agent（偽装しない）
-//   - 低頻度の手動バッチ + キャッシュ、出典明記 + CC-BY-SA 継承
+// Above-board client for fetching frame data from SuperCombo (CC-BY-SA).
+// Strictly follows the access policy in docs/spec.md "取得の許諾とアクセス方針":
+//   - Endpoint is srk.shib.live/api.php only (robots-compliant)
+//   - Honest identifying User-Agent (no spoofing)
+//   - Infrequent manual batches + caching, attribution stated + CC-BY-SA inheritance
 
 import { mkdirSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
@@ -45,7 +45,7 @@ export async function cargoQuery(params: CargoQueryParams): Promise<unknown[]> {
   return (json.cargoquery ?? []).map((row) => row.title)
 }
 
-// 取得元の HTML / wiki マークアップ除去（probe で全 2306 行クリーンを確認済み）
+// Strip HTML / wiki markup from the source (probe confirmed all 2306 rows clean)
 export function stripMarkup(value: string): string {
   return value
     .replace(/<[^>]*>/g, '')
@@ -89,8 +89,9 @@ export function parseAdvantage(raw: string): ParsedAdvantage {
     }
   }
 
-  // 先頭が符号付き数値のときだけ採用する。"Crumple (Standing +21, ...)" のような
-  // 複合状況文字列は先頭が数値でないため null になり、text に原文を残す。
+  // Only accept it when it starts with a signed number. Compound situational strings
+  // like "Crumple (Standing +21, ...)" don't start with a number, so they become null
+  // and the original text is kept in text.
   const numberMatch = text.match(/^([+-]?\d+)/)
   if (numberMatch) {
     return {
@@ -351,9 +352,10 @@ export function getCharacterSlug(charaName: string): string {
   }
 
   // Default: lowercase, remove dots, replace spaces/hyphens with underscore.
-  // 末尾の置換で残った非英数字(/ ' ; 改行 等)も _ にする。slug は出力ファイル名と
-  // 生成 index.ts の import パスにそのまま入るため、取得元(wiki)由来の想定外文字で
-  // パス・コードが壊れる/逸脱するのを防ぐ（path traversal / コード混入の多層防御）。
+  // The final replace also turns any remaining non-alphanumerics (/ ' ; newline, etc.) into _.
+  // The slug goes directly into output file names and the generated index.ts import paths,
+  // so this prevents unexpected source-(wiki-)derived characters from breaking/escaping
+  // paths or code (defense-in-depth against path traversal / code injection).
   return lower
     .replace(/\./g, '')
     .replace(/[\s-]/g, '_')
@@ -393,14 +395,14 @@ export function parseDamage(raw: string): ParsedDamage {
   return { text: value !== null && text === String(value) ? null : text, value }
 }
 
-// 任意テキスト列をクリーンな文字列 or null に正規化する（未入力テンプレ/ハイフンは null）。
+// Normalize an arbitrary text column to a clean string or null (unfilled template/hyphen → null).
 function textOrNull(raw: unknown): string | null {
   const text = stripMarkup(String(raw ?? ''))
   if (!text || text === '-' || text.includes('{{{')) return null
   return text
 }
 
-// オブジェクトの全フィールドが null なら null を返す（疎なグループ列をまとめる）。
+// Return null when every field of the object is null (collapses sparse group columns).
 function nullIfAllEmpty<T extends Record<string, unknown>>(obj: T): T | null {
   return Object.values(obj).some((value) => value !== null) ? obj : null
 }
@@ -457,7 +459,7 @@ export interface SF6CharacterDataRow {
   [key: string]: unknown
 }
 
-// 行から指定列を文字列で取り出す（未定義は空文字）。?? をここに閉じ込め toMove の複雑度を下げる。
+// Extract a column from a row as a string (undefined → empty string). Confining ?? here lowers toMove's complexity.
 function col(row: SF6FrameDataRow, key: string): string {
   return String(row[key] ?? '')
 }
@@ -473,13 +475,13 @@ export function toMove(row: SF6FrameDataRow, characterId: string, fetchedAt: str
   const armor = textOrNull(row.armor)
   const airborne = textOrNull(row.airborne)
 
-  // properties = ガード方向タグ + 無敵/アーマー/空中の有無タグ（search_moves の属性検索用）。
+  // properties = guard-direction tags + presence tags for invincible/armor/airborne (for search_moves attribute search).
   const properties: string[] = [...parseGuard(col(row, 'guard'))]
   if (invuln) properties.push('invincible')
   if (armor) properties.push('armor')
   if (airborne) properties.push('airborne')
 
-  // 出典は正典の SuperCombo ページを指す（取得は mirror API 経由だが attribution は本家を示す）
+  // Attribution points to the canonical SuperCombo page (fetched via the mirror API, but attribution names the original)
   const pageName = col(row, 'chara').trim().replace(/ /g, '_')
   const sourceUrl = `https://wiki.supercombo.gg/w/Street_Fighter_6/${pageName}/Frame_data`
 
@@ -707,21 +709,21 @@ export async function fetchAllFrameData(): Promise<Character[]> {
   return result
 }
 
-// キャラ id を JS の識別子に変換（import 名用。snake_case のみだが念のため正規化）。
+// Convert a character id to a JS identifier (for import names; snake_case only, but normalized just in case).
 function importName(id: string): string {
   return `c_${id.replace(/[^a-zA-Z0-9_]/g, '_')}`
 }
 
 /**
  * Write characters as per-character JSON files + an auto-generated index.ts barrel.
- * 1ファイルだと巨大になり再スクレイプ差分が見づらいので、キャラ単位に分割する。
- * index.ts が各 JSON を静的 import して結合配列を default export する（実行時に1配列へ）。
+ * A single file would be huge and make re-scrape diffs hard to read, so it is split per character.
+ * index.ts statically imports each JSON and default-exports the merged array (one array at runtime).
  */
 export function writeCharactersData(characters: Character[], outDir: string): void {
   for (const character of characters) {
     characterSchema.parse(character)
-    // id は出力ファイル名と生成 index.ts の import パスに使うので、安全な文字種に限定する。
-    // getCharacterSlug は正規化済みだが、書き込み境界でも不変条件を担保する（多層防御）。
+    // The id is used in output file names and the generated index.ts import paths, so restrict it to safe characters.
+    // getCharacterSlug already normalizes it, but enforce the invariant at the write boundary too (defense-in-depth).
     if (!/^[a-z0-9_]+$/.test(character.id)) {
       throw new Error(`Unsafe character id for file write: "${character.id}"`)
     }

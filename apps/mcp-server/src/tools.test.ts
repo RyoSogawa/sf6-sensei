@@ -104,7 +104,7 @@ describe('Tool Functions', () => {
     it('does not return unrelated normals for the short query "DI"', () => {
       const result = getMoveImpl('ryu', 'DI', characters, 'en')
       expect(result.matches.length).toBeGreaterThan(0)
-      // 旧実装は "Standing"/"Medium" の "di" に誤爆していた。今は Drive Impact だけ。
+      // The old implementation false-matched the "di" in "Standing"/"Medium". Now only Drive Impact.
       expect(result.matches.every((m) => m.category === 'drive')).toBe(true)
     })
 

@@ -1,8 +1,8 @@
 import { describe, expect, it } from 'vitest'
 import app from './index'
 
-// MCP プロトコルをルート (/) 経由でエンドツーエンドに駆動する e2e テスト。
-// 共有 McpServer を使うと 2 リクエスト目で "Already connected" になる回帰を、ここで検出する。
+// e2e test that drives the MCP protocol end-to-end via the root (/).
+// Detects the regression where a shared McpServer would throw "Already connected" on the 2nd request.
 
 const MCP_HEADERS = {
   accept: 'application/json, text/event-stream',
@@ -14,7 +14,7 @@ interface RpcResponse {
   error?: { message: string }
 }
 
-// Streamable HTTP は素の JSON か SSE(data: {...}) で返す。どちらからも JSON-RPC ペイロードを取り出す。
+// Streamable HTTP responds with either plain JSON or SSE (data: {...}). Extract the JSON-RPC payload from either.
 function parseRpc(text: string): RpcResponse {
   const trimmed = text.trim()
   if (trimmed.startsWith('{')) {
@@ -40,7 +40,7 @@ async function mcpRequest(body: unknown, sessionId?: string) {
   }
 }
 
-// ChatGPT と同様に initialize から始め、払い出されたセッションを後続で使う。
+// Like ChatGPT, start from initialize and use the issued session for subsequent requests.
 async function initializeSession(): Promise<string | undefined> {
   const { sessionId } = await mcpRequest({
     id: 1,
@@ -103,7 +103,7 @@ describe('MCP root (/) endpoint (e2e)', () => {
       sessionId,
     )
 
-    // limit は .max(200)。SDK は inputSchema 違反を JSON-RPC error か isError 結果で返す。
+    // limit is .max(200). The SDK returns inputSchema violations as a JSON-RPC error or an isError result.
     const errored =
       rpc.error !== undefined || (rpc.result as { isError?: boolean } | undefined)?.isError === true
     expect(errored).toBe(true)

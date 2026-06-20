@@ -245,7 +245,7 @@ describe('resolveMoveBest', () => {
     input: { numpad: 'HPHK', official: null },
     name: { en: 'Shingeki', ja: 'ドライブインパクト' },
   })
-  // 英名に "di" を含む通常技（"Stan-di-ng" / "Me-di-um"）。短い "DI" クエリで誤爆しやすい。
+  // Normals whose English name contains "di" ("Stan-di-ng" / "Me-di-um"). Prone to false matches on a short "DI" query.
   const standing = mk({
     id: 'ryu__5hp',
     input: { numpad: '5HP', official: null },
@@ -301,7 +301,7 @@ describe('deriveNormalJaName', () => {
 
   it('returns null for command normals, target combos and proper-noun moves', () => {
     expect(deriveNormalJaName('236P')).toBeNull() // special
-    expect(deriveNormalJaName('6HP')).toBeNull() // command normal (固有名)
+    expect(deriveNormalJaName('6HP')).toBeNull() // command normal (proper noun)
     expect(deriveNormalJaName('5HP~HK')).toBeNull() // target combo
     expect(deriveNormalJaName('HPHK')).toBeNull() // drive impact
     expect(deriveNormalJaName('4HK')).toBeNull() // directional command normal

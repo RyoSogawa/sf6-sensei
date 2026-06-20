@@ -14,8 +14,8 @@ import {
 const app = new Hono()
 const characters = getCharacters()
 
-// サーバーロゴ。MCP の Icon は画像(URL か data URI)のみで絵文字文字列(🥋)は渡せないため、
-// 絵文字を SVG 化して埋め込む。Workers の btoa は UTF-8 で落ちるので encodeURIComponent を使う。
+// Server logo. The MCP Icon only takes an image (URL or data URI), not an emoji string (🥋),
+// so embed the emoji as an SVG. Workers' btoa breaks on UTF-8, so use encodeURIComponent.
 const serverIconSvg =
   '<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128"><rect width="128" height="128" rx="28" fill="#1a1a2e"/><text x="64" y="92" font-size="72" text-anchor="middle">🥋</text></svg>'
 const serverIcon = {
@@ -81,8 +81,8 @@ function textResult(data: unknown) {
   return { content: [{ text: JSON.stringify(data, null, 2), type: 'text' as const }] }
 }
 
-// ステートレス運用: リクエストごとに新しい McpServer + transport を生成する。
-// SDK の Server は単一 transport にしか connect できないため、共有インスタンスは使えない。
+// Stateless operation: create a new McpServer + transport per request.
+// The SDK's Server can connect to only one transport, so a shared instance can't be used.
 function createMcpServer(): McpServer {
   const mcpServer = new McpServer({
     icons: [serverIcon],
@@ -185,8 +185,8 @@ function createMcpServer(): McpServer {
 
 app.get('/health', (c) => c.json({ status: 'ok' }))
 
-// MCP エンドポイントはルート (/) に置く。専用サブドメイン（sf6-sensei-mcp.*）で配信するため、
-// パスに /mcp を重ねると冗長（sf6-sensei-mcp.../mcp）。host 全体が MCP サーバーなので root が正規。
+// Place the MCP endpoint at the root (/). It is served on a dedicated subdomain (sf6-sensei-mcp.*),
+// so adding /mcp to the path would be redundant (sf6-sensei-mcp.../mcp). The whole host is the MCP server, so root is canonical.
 app.all('/', async (c) => {
   const server = createMcpServer()
   const transport = new StreamableHTTPTransport()
