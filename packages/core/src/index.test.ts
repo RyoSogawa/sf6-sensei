@@ -1,11 +1,13 @@
 import { describe, expect, it } from 'vitest'
 import {
+  characterMovementSchema,
   characterSchema,
   deriveNormalJaName,
   deriveTauntJaName,
   type Move,
   moveSchema,
   normalizeInput,
+  parseJumpSpd,
   resolveMove,
   resolveMoveBest,
 } from './index'
@@ -321,6 +323,63 @@ describe('deriveTauntJaName', () => {
   it('returns null for non-taunts', () => {
     expect(deriveTauntJaName('Hadoken')).toBeNull()
     expect(deriveTauntJaName('Standing Heavy Punch')).toBeNull()
+  })
+})
+
+describe('parseJumpSpd', () => {
+  it('parses standard "4+38+3" format', () => {
+    expect(parseJumpSpd('4+38+3')).toEqual({
+      airborne: 38,
+      landing: 3,
+      startup: 4,
+      text: '4+38+3',
+      total: 45,
+    })
+  })
+
+  it('parses longer airborne like Dhalsim "4+68+3"', () => {
+    const result = parseJumpSpd('4+68+3')
+    expect(result?.airborne).toBe(68)
+    expect(result?.total).toBe(75)
+  })
+
+  it('handles <br>(...) alternate values by using primary only', () => {
+    const result = parseJumpSpd('4+38+3<br>(6+40+3)')
+    expect(result).toEqual({
+      airborne: 38,
+      landing: 3,
+      startup: 4,
+      text: '4+38+3',
+      total: 45,
+    })
+  })
+
+  it('returns null for empty or invalid input', () => {
+    expect(parseJumpSpd('')).toBeNull()
+    expect(parseJumpSpd('-')).toBeNull()
+    expect(parseJumpSpd('abc')).toBeNull()
+    expect(parseJumpSpd('4+38')).toBeNull()
+  })
+})
+
+describe('characterMovementSchema', () => {
+  it('validates a complete movement object', () => {
+    const movement = {
+      backwardDashDistance: '0.923',
+      backwardDashFrames: 23,
+      backwardJumpDistance: '1.52',
+      backwardWalkSpeed: '0.032',
+      driveRush: { block: '1.878', max: '3.628', min: '0.525' },
+      forwardDashDistance: '1.252',
+      forwardDashFrames: 19,
+      forwardJumpDistance: '1.90',
+      forwardWalkSpeed: '0.047',
+      jump: { airborne: 38, landing: 3, startup: 4, text: '4+38+3', total: 45 },
+      jumpApex: '2.115',
+      throwHurtbox: null,
+      throwRange: '0.8',
+    }
+    expect(() => characterMovementSchema.parse(movement)).not.toThrow()
   })
 })
 

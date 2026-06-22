@@ -11,6 +11,7 @@ export type MoveCategory =
   | 'throw'
   | 'drive'
   | 'taunt'
+  | 'movement'
 
 // Zod schemas (source of truth)
 
@@ -38,6 +39,7 @@ export const moveCategorySchema = z.enum([
   'throw',
   'drive',
   'taunt',
+  'movement',
 ])
 
 // Advantage on hit / on block (shared by Drive Rush variants)
@@ -114,10 +116,74 @@ export const moveSchema = z.object({
 
 export type Move = z.infer<typeof moveSchema>
 
+export const jumpFramesSchema = z.object({
+  airborne: z.number().nullable(),
+  landing: z.number().nullable(),
+  startup: z.number().nullable(),
+  text: z.string(),
+  total: z.number().nullable(),
+})
+
+export type JumpFrames = z.infer<typeof jumpFramesSchema>
+
+export const characterMovementSchema = z.object({
+  backwardDashDistance: z.string().nullable(),
+  backwardDashFrames: z.number().nullable(),
+  backwardJumpDistance: z.string().nullable(),
+  backwardWalkSpeed: z.string().nullable(),
+  driveRush: z
+    .object({
+      block: z.string().nullable(),
+      max: z.string().nullable(),
+      min: z.string().nullable(),
+    })
+    .nullable(),
+  forwardDashDistance: z.string().nullable(),
+  forwardDashFrames: z.number().nullable(),
+  forwardJumpDistance: z.string().nullable(),
+  forwardWalkSpeed: z.string().nullable(),
+  jump: jumpFramesSchema.nullable(),
+  jumpApex: z.string().nullable(),
+  throwHurtbox: z.string().nullable(),
+  throwRange: z.string().nullable(),
+})
+
+export type CharacterMovement = z.infer<typeof characterMovementSchema>
+
+/**
+ * Parse a jumpSpd string like "4+38+3" into structured frames.
+ * Handles <br>(...) alternate values by using the primary value only.
+ * Returns null for empty or unparseable input.
+ */
+export function parseJumpSpd(raw: string): JumpFrames | null {
+  if (!raw || raw === '-') return null
+
+  const primary = raw.split(/<br\s*\/?>/i)[0]?.trim()
+  if (!primary) return null
+
+  const parts = primary.split('+')
+  if (parts.length !== 3) return null
+
+  const startup = Number(parts[0])
+  const airborne = Number(parts[1])
+  const landing = Number(parts[2])
+
+  if (Number.isNaN(startup) || Number.isNaN(airborne) || Number.isNaN(landing)) return null
+
+  return {
+    airborne,
+    landing,
+    startup,
+    text: primary,
+    total: startup + airborne + landing,
+  }
+}
+
 export const characterSchema = z.object({
   aliases: z.array(z.string()),
   gameVersion: z.string().nullable().optional(),
   id: z.string(),
+  movement: characterMovementSchema.nullable().optional(),
   moves: z.array(moveSchema),
   name: localizedNameSchema,
   source: moveSourceSchema,
