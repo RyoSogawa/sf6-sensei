@@ -1,4 +1,4 @@
-import { type Character, type Move, resolveMoveBest } from '@repo/core'
+import { type Character, type CharacterMovement, type Move, resolveMoveBest } from '@repo/core'
 
 export interface ToolResult {
   success: boolean
@@ -132,6 +132,7 @@ export function getMoveImpl(
 export interface GetCharacterFrameDataResult {
   character: { id: string; name: string }
   moveCount: number
+  movement: CharacterMovement | null
   moves: Move[]
   attribution: Attribution
 }
@@ -169,6 +170,7 @@ export function getCharacterFrameDataImpl(
       name: language === 'en' ? resolvedChar.name.en : resolvedChar.name.ja || resolvedChar.name.en,
     },
     moveCount: moves.length,
+    movement: resolvedChar.movement ?? null,
     moves: moves,
   }
 }
