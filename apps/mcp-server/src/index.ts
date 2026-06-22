@@ -35,6 +35,7 @@ const categorySchema = z
     'throw',
     'drive',
     'taunt',
+    'movement',
   ])
   .optional()
 
@@ -94,8 +95,14 @@ function createMcpServer(): McpServer {
   mcpServer.registerTool(
     'get_move',
     {
-      description:
-        'Get frame data for a specific move by character and move name/input/alias. Supports Japanese and English queries.',
+      description: [
+        'Get frame data for a specific move by character and move name/input/alias.',
+        'Supports Japanese and English queries.',
+        'Movement data (前ダッシュ/バクステ/ジャンプ) is also queryable as pseudo-moves:',
+        '  "66" or "前ステ/前ダッシュ/forward dash" → Forward Dash (totalFrames)',
+        '  "44" or "バクステ/バックダッシュ/back dash" → Back Dash (totalFrames)',
+        '  "j" or "ジャンプ/ジャンプ移行/jump" → Jump (startup=移行, active=滞空, recovery=着地)',
+      ].join('\n'),
       inputSchema: getMoveInputSchema,
     },
     (args: unknown) => {
@@ -107,8 +114,19 @@ function createMcpServer(): McpServer {
   mcpServer.registerTool(
     'get_character_frame_data',
     {
-      description:
-        'Get all frame data for a character, optionally filtered by move category (normal, special, super_art, critical_art, throw, etc.)',
+      description: [
+        'Get all frame data for a character, optionally filtered by move category',
+        '(normal, command_normal, special, super_art, critical_art, throw, drive, taunt, movement).',
+        'Response includes hp (体力/HP) and movement (移動データ) with these fields:',
+        '  forwardWalkSpeed (前歩き速度), backwardWalkSpeed (後ろ歩き速度),',
+        '  forwardDashFrames (前ダッシュF), backwardDashFrames (バックダッシュF),',
+        '  forwardDashDistance (前ダッシュ距離), backwardDashDistance (バックダッシュ距離),',
+        '  jump (ジャンプ: startup=移行, airborne=滞空, landing=着地, total=全体),',
+        '  forwardJumpDistance (前ジャンプ距離), backwardJumpDistance (後ろジャンプ距離),',
+        '  jumpApex (ジャンプ頂点高さ),',
+        '  throwRange (投げ間合い), throwHurtbox (投げやられ判定),',
+        '  driveRush (ドライブラッシュ距離: min/block/max).',
+      ].join('\n'),
       inputSchema: getCharacterFrameDataInputSchema,
     },
     (args: unknown) => {
