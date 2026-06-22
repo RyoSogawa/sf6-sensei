@@ -1,6 +1,31 @@
 {
   "aliases": [],
   "id": "blanka",
+  "movement": {
+    "backwardDashDistance": "1.169",
+    "backwardDashFrames": 23,
+    "backwardJumpDistance": "1.52",
+    "backwardWalkSpeed": "0.032",
+    "driveRush": {
+      "block": "2.082",
+      "max": "2.867",
+      "min": "0.476"
+    },
+    "forwardDashDistance": "1.578",
+    "forwardDashFrames": 19,
+    "forwardJumpDistance": "1.90",
+    "forwardWalkSpeed": "0.047",
+    "jump": {
+      "airborne": 38,
+      "landing": 3,
+      "startup": 4,
+      "text": "4+38+3",
+      "total": 45
+    },
+    "jumpApex": "2.115",
+    "throwHurtbox": "0.43",
+    "throwRange": "0.9"
+  },
   "moves": [
     {
       "active": "[1500 total]",
@@ -45,7 +70,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -112,7 +137,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -179,7 +204,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -233,7 +258,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -295,7 +320,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -360,7 +385,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -425,7 +450,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -493,7 +518,7 @@
       "pushback": null,
       "recovery": 61,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -561,7 +586,7 @@
       "pushback": null,
       "recovery": 61,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -628,7 +653,7 @@
       "pushback": null,
       "recovery": 62,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -689,7 +714,7 @@
       "pushback": null,
       "recovery": 57,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -750,7 +775,7 @@
       "pushback": null,
       "recovery": 57,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -811,7 +836,7 @@
       "pushback": null,
       "recovery": 57,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -872,7 +897,7 @@
       "pushback": null,
       "recovery": 57,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -939,7 +964,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -1008,7 +1033,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -1075,7 +1100,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -1144,7 +1169,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -1211,7 +1236,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -1280,7 +1305,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -1347,7 +1372,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -1416,7 +1441,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -1483,7 +1508,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -1551,7 +1576,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -1620,7 +1645,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -1695,7 +1720,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -1768,7 +1793,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -1842,7 +1867,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -1898,7 +1923,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -1952,7 +1977,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -2014,7 +2039,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -2081,7 +2106,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -2149,7 +2174,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -2217,7 +2242,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -2285,7 +2310,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -2353,7 +2378,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -2421,7 +2446,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -2489,7 +2514,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -2557,7 +2582,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -2625,7 +2650,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -2681,7 +2706,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -2738,7 +2763,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -2813,7 +2838,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -2867,7 +2892,7 @@
       "pushback": null,
       "recovery": 45,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -2932,7 +2957,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -3006,7 +3031,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -3084,7 +3109,7 @@
       },
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -3158,7 +3183,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -3232,7 +3257,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -3302,7 +3327,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -3356,7 +3381,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -3419,7 +3444,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -3487,7 +3512,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -3555,7 +3580,7 @@
       "pushback": null,
       "recovery": 4,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -3623,7 +3648,7 @@
       "pushback": null,
       "recovery": 4,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -3689,7 +3714,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -3757,7 +3782,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -3823,7 +3848,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -3891,7 +3916,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -3961,7 +3986,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4028,7 +4053,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4092,7 +4117,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4143,7 +4168,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4208,7 +4233,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4275,7 +4300,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4329,7 +4354,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4390,7 +4415,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4456,7 +4481,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4522,7 +4547,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4588,7 +4613,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4656,7 +4681,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4724,7 +4749,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4788,7 +4813,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4852,7 +4877,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4916,7 +4941,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -4980,7 +5005,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -5040,7 +5065,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -5104,7 +5129,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -5170,7 +5195,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -5234,7 +5259,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -5294,7 +5319,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -5349,7 +5374,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -5404,7 +5429,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -5468,7 +5493,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:06.758Z",
+        "fetchedAt": "2026-06-22T00:52:31.701Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Blanka/Frame_data"
       },
@@ -5482,7 +5507,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "fetchedAt": "2026-06-22T00:52:29.324Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

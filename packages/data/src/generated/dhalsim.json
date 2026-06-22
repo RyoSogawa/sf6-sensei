@@ -1,6 +1,31 @@
 {
   "aliases": [],
   "id": "dhalsim",
+  "movement": {
+    "backwardDashDistance": "1.00",
+    "backwardDashFrames": 23,
+    "backwardJumpDistance": "1.768",
+    "backwardWalkSpeed": "0.025",
+    "driveRush": {
+      "block": "1.787",
+      "max": "2.700",
+      "min": "0.471"
+    },
+    "forwardDashDistance": "1.467",
+    "forwardDashFrames": 25,
+    "forwardJumpDistance": "2.04",
+    "forwardWalkSpeed": "0.028",
+    "jump": {
+      "airborne": 68,
+      "landing": 3,
+      "startup": 4,
+      "text": "4+68+3",
+      "total": 75
+    },
+    "jumpApex": "2.178",
+    "throwHurtbox": "0.33",
+    "throwRange": "0.8"
+  },
   "moves": [
     {
       "active": "3",
@@ -58,7 +83,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -132,7 +157,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -201,7 +226,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -274,7 +299,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -341,7 +366,7 @@
       "pushback": null,
       "recovery": 60,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -408,7 +433,7 @@
       "pushback": null,
       "recovery": 58,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -475,7 +500,7 @@
       "pushback": null,
       "recovery": 58,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -542,7 +567,7 @@
       "pushback": null,
       "recovery": 40,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -609,7 +634,7 @@
       "pushback": null,
       "recovery": 75,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -676,7 +701,7 @@
       "pushback": null,
       "recovery": 75,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -743,7 +768,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -810,7 +835,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -877,7 +902,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -944,7 +969,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -1011,7 +1036,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -1078,7 +1103,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -1145,7 +1170,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -1213,7 +1238,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -1281,7 +1306,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -1338,7 +1363,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -1406,7 +1431,7 @@
       },
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -1481,7 +1506,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -1541,7 +1566,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -1609,7 +1634,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -1683,7 +1708,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -1752,7 +1777,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -1826,7 +1851,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -1886,7 +1911,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -1960,7 +1985,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -2035,7 +2060,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -2089,7 +2114,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -2160,7 +2185,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -2228,7 +2253,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -2302,7 +2327,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -2380,7 +2405,7 @@
       },
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -2448,7 +2473,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -2516,7 +2541,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -2570,7 +2595,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -2634,7 +2659,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -2701,7 +2726,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -2769,7 +2794,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -2836,7 +2861,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -2903,7 +2928,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -2970,7 +2995,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3037,7 +3062,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3104,7 +3129,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3171,7 +3196,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3235,7 +3260,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3286,7 +3311,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3339,7 +3364,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3402,7 +3427,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3468,7 +3493,7 @@
       "pushback": null,
       "recovery": 6,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3525,7 +3550,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3588,7 +3613,7 @@
       "pushback": null,
       "recovery": 6,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3656,7 +3681,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3722,7 +3747,7 @@
       "pushback": null,
       "recovery": 6,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3787,7 +3812,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3852,7 +3877,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3909,7 +3934,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -3970,7 +3995,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -4034,7 +4059,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -4098,7 +4123,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -4162,7 +4187,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -4226,7 +4251,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -4293,7 +4318,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -4353,7 +4378,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -4413,7 +4438,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -4468,7 +4493,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -4523,7 +4548,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:08.655Z",
+        "fetchedAt": "2026-06-22T00:52:33.539Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dhalsim/Frame_data"
       },
@@ -4537,7 +4562,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "fetchedAt": "2026-06-22T00:52:29.324Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

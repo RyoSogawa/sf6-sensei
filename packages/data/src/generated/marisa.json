@@ -1,6 +1,31 @@
 {
   "aliases": [],
   "id": "marisa",
+  "movement": {
+    "backwardDashDistance": "0.90",
+    "backwardDashFrames": 25,
+    "backwardJumpDistance": "1.52",
+    "backwardWalkSpeed": "0.027",
+    "driveRush": {
+      "block": "1.903",
+      "max": "3.081",
+      "min": "0.544"
+    },
+    "forwardDashDistance": "1.40",
+    "forwardDashFrames": 22,
+    "forwardJumpDistance": "1.90",
+    "forwardWalkSpeed": "0.039",
+    "jump": {
+      "airborne": 38,
+      "landing": 3,
+      "startup": 4,
+      "text": "4+38+3",
+      "total": 45
+    },
+    "jumpApex": "2.115",
+    "throwHurtbox": "0.38",
+    "throwRange": "0.9"
+  },
   "moves": [
     {
       "active": "8(32)3",
@@ -59,7 +84,7 @@
       "pushback": null,
       "recovery": 59,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -127,7 +152,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -192,7 +217,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -248,7 +273,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -305,7 +330,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -368,7 +393,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -434,7 +459,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -498,7 +523,7 @@
       "pushback": null,
       "recovery": 37,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -558,7 +583,7 @@
       "pushback": null,
       "recovery": 54,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -624,7 +649,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -689,7 +714,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -757,7 +782,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -822,7 +847,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -890,7 +915,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -955,7 +980,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -1024,7 +1049,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -1085,7 +1110,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -1152,7 +1177,7 @@
       "pushback": null,
       "recovery": 60,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -1219,7 +1244,7 @@
       "pushback": null,
       "recovery": 60,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -1286,7 +1311,7 @@
       "pushback": null,
       "recovery": 60,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -1353,7 +1378,7 @@
       "pushback": null,
       "recovery": 54,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -1420,7 +1445,7 @@
       "pushback": null,
       "recovery": 60,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -1487,7 +1512,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -1555,7 +1580,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -1623,7 +1648,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -1691,7 +1716,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -1758,7 +1783,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -1826,7 +1851,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -1894,7 +1919,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -1961,7 +1986,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -2029,7 +2054,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -2097,7 +2122,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -2165,7 +2190,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -2233,7 +2258,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -2300,7 +2325,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -2367,7 +2392,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -2436,7 +2461,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -2507,7 +2532,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -2576,7 +2601,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -2654,7 +2679,7 @@
       },
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -2721,7 +2746,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -2795,7 +2820,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -2864,7 +2889,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -2928,7 +2953,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -2997,7 +3022,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -3071,7 +3096,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -3145,7 +3170,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -3205,7 +3230,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -3259,7 +3284,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -3324,7 +3349,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -3392,7 +3417,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -3462,7 +3487,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -3532,7 +3557,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -3597,7 +3622,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -3671,7 +3696,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -3741,7 +3766,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -3812,7 +3837,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -3880,7 +3905,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -3950,7 +3975,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -4021,7 +4046,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -4075,7 +4100,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -4140,7 +4165,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -4208,7 +4233,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -4276,7 +4301,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -4344,7 +4369,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -4419,7 +4444,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -4484,7 +4509,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -4559,7 +4584,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -4626,7 +4651,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -4690,7 +4715,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -4757,7 +4782,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -4824,7 +4849,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -4884,7 +4909,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -4940,7 +4965,7 @@
       "pushback": null,
       "recovery": 72,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5003,7 +5028,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5067,7 +5092,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5131,7 +5156,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5195,7 +5220,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5259,7 +5284,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5323,7 +5348,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5387,7 +5412,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5451,7 +5476,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5517,7 +5542,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5581,7 +5606,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5641,7 +5666,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5701,7 +5726,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5756,7 +5781,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5811,7 +5836,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5872,7 +5897,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5936,7 +5961,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-15T12:42:10.274Z",
+        "fetchedAt": "2026-06-22T00:52:34.855Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Marisa/Frame_data"
       },
@@ -5953,7 +5978,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-06-15T12:42:04.453Z",
+    "fetchedAt": "2026-06-22T00:52:29.324Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }
