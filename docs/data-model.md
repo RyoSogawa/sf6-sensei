@@ -18,6 +18,21 @@ SF6 フレームデータの正規化 JSON スキーマ。`packages/core` の型
     "license": "CC-BY-SA",
     "fetchedAt": "2026-06-13T05:00:00Z"
   },
+  "movement": {                         // SF6_CharacterData 由来の移動データ（nullable）
+    "forwardWalkSpeed": "0.047",
+    "backwardWalkSpeed": "0.032",
+    "forwardDashFrames": 19,
+    "backwardDashFrames": 23,
+    "forwardDashDistance": "1.252",
+    "backwardDashDistance": "0.923",
+    "jump": { "startup": 4, "airborne": 38, "landing": 3, "total": 45, "text": "4+38+3" },
+    "forwardJumpDistance": "1.90",
+    "backwardJumpDistance": "1.52",
+    "jumpApex": "2.115",
+    "throwRange": "0.8",
+    "throwHurtbox": null,
+    "driveRush": { "min": "0.525", "block": "1.878", "max": "3.628" }
+  },
   "moves": [ /* Move[] */ ]
 }
 ```
@@ -70,6 +85,7 @@ SF6 フレームデータの正規化 JSON スキーマ。`packages/core` の型
 | `critical_art` | クリティカルアーツ（CA） |
 | `throw` | 投げ（通常投げ/コマンド投げ） |
 | `drive` | Drive 系（DI / DR / パリィ / DR キャンセル） |
+| `movement` | 移動系の擬似技（前ダッシュ / バックダッシュ / ジャンプ） |
 
 ## alias 解決のための補助データ
 
@@ -156,6 +172,28 @@ SA1/SA2/SA3 のレベルは**取得元データに無い**（`moveType` は `sup
 - **`空中SA1`/`空中SA2`**: 入力が `j.` で始まる空中版。
 - **ボス版/派生の除外**: `sa-levels.json` に無く `(CA)` でもない super（例: M.Bison `Final Psycho Crusher`、
   Ingrid `Sun Octopus`、Akuma の Misogi/Kongou）は SA クエリでヒットさせない（技名・入力では引ける）。
+
+### 移動データの擬似 Move 展開
+
+`Character.movement`（生成 JSON に保持）から `packages/data/src/index.ts` が読み込み時に
+擬似 Move を `moves[]` に展開する（生成 JSON 自体は書き換えない）。
+
+| 擬似 Move | input.numpad | name.ja | totalFrames | startup | active | recovery |
+|---|---|---|---|---|---|---|
+| 前ダッシュ | `66` | 前ダッシュ | `forwardDashFrames` | - | - | - |
+| バックダッシュ | `44` | バックダッシュ | `backwardDashFrames` | - | - | - |
+| ジャンプ | `j` | ジャンプ | `jump.total` | `jump.startup` | `jump.airborne` | `jump.landing` |
+
+- `category: 'movement'`。フレームが null の擬似 Move は生成しない。
+- 中核 alias（生成時付与）: `66`=前ダッシュ/前ステップ/ダッシュ/forward dash、
+  `44`=バックダッシュ/バクステ/後ろステップ/後ろダッシュ/back dash、
+  `j`=ジャンプ/ジャンプ移行/前ジャンプ/後ろジャンプ/垂直ジャンプ/jump。
+- `alias-overrides.json` の `"all"` に `66`/`44`/`j` で追加俗称を足せる。
+
+#### jumpSpd の正規化
+
+取得元 `SF6_CharacterData.jumpSpd` は `"4+38+3"` = 移行+滞空+着地。
+`<br>(6+40+3)` のような代替値併記は主値のみ構造化し、raw を `text` に保持する。
 
 ## 取得元フィールドのマッピング（SuperCombo `SF6_FrameData` → Move）
 

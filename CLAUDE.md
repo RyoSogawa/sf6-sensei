@@ -61,6 +61,9 @@ SuperCombo Wiki (CC-BY-SA, srk.shib.live API)
 - **SA レベルは取得元に無い → 手動キュレーション**: `packages/data/src/sa-levels.json`（全30体の base モーション
   → SA1/2/3）から `index.ts` が `SA1`〜`SA3`/`CA`/`空中SA` エイリアスを展開。`SA3`(通常版)と`CA`(低体力版)は
   別レコード。`(CA)` は SA に紐づかなくても CA 登録（瞬獄殺等）。ボス/派生技は SA クエリで非ヒット。詳細は `docs/data-model.md`。
+- **移動データは擬似 Move として展開**: `Character.movement`（`SF6_CharacterData` 由来）から前ダッシュ(`66`)・
+  バックダッシュ(`44`)・ジャンプ(`j`) の擬似 Move を `packages/data/src/index.ts` が読み込み時に生成し `moves[]`
+  に追加する（SA alias 展開と同じレイヤー）。既存ツール（`get_move`/`search_moves` 等）で自然に引ける。
 - **`find_punish` は候補提示のみ**: リーチ・距離・状況は考慮しない（caveats に明記）。完全な確反判定はしない。
 - **スクレイパのアクセス方針は厳守事項**: `srk.shib.live/api.php` のみ・正直な識別 UA・低頻度バッチ。
   `apps/scraper` を触る前に必ず `docs/spec.md`「取得の許諾とアクセス方針」を読む。
