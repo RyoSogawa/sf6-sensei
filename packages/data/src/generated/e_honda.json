@@ -1,5 +1,6 @@
 {
   "aliases": [],
+  "hp": 10500,
   "id": "e_honda",
   "movement": {
     "backwardDashDistance": "0.601",
@@ -83,7 +84,7 @@
       "pushback": null,
       "recovery": 51,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -150,7 +151,7 @@
       "pushback": null,
       "recovery": 51,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -217,7 +218,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -284,7 +285,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -351,7 +352,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -418,7 +419,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -472,7 +473,7 @@
       "pushback": null,
       "recovery": 1,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -538,7 +539,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -605,7 +606,7 @@
       "pushback": null,
       "recovery": 48,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -659,7 +660,7 @@
       "pushback": null,
       "recovery": 51,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -714,7 +715,7 @@
       "pushback": null,
       "recovery": 34,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -778,7 +779,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -845,7 +846,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -910,7 +911,7 @@
       "pushback": null,
       "recovery": 38,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -977,7 +978,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1044,7 +1045,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1109,7 +1110,7 @@
       "pushback": null,
       "recovery": 38,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1175,7 +1176,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1242,7 +1243,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1308,7 +1309,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1374,7 +1375,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1441,7 +1442,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1509,7 +1510,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1578,7 +1579,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1656,7 +1657,7 @@
       },
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1723,7 +1724,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1797,7 +1798,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1866,7 +1867,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1934,7 +1935,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2003,7 +2004,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2072,7 +2073,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2141,7 +2142,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2208,7 +2209,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2268,7 +2269,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2322,7 +2323,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2393,7 +2394,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2468,7 +2469,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2545,7 +2546,7 @@
       },
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2620,7 +2621,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2691,7 +2692,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2759,7 +2760,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2834,7 +2835,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2900,7 +2901,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2956,7 +2957,7 @@
       "pushback": null,
       "recovery": 45,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3013,7 +3014,7 @@
       "pushback": null,
       "recovery": 52,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3073,7 +3074,7 @@
       "pushback": null,
       "recovery": 52,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3133,7 +3134,7 @@
       "pushback": null,
       "recovery": 52,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3193,7 +3194,7 @@
       "pushback": null,
       "recovery": 52,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3260,7 +3261,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3327,7 +3328,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3391,7 +3392,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3442,7 +3443,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3503,7 +3504,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3569,7 +3570,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3633,7 +3634,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3697,7 +3698,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3761,7 +3762,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3825,7 +3826,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3889,7 +3890,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3953,7 +3954,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -4017,7 +4018,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -4077,7 +4078,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -4137,7 +4138,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -4192,7 +4193,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -4247,7 +4248,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -4261,7 +4262,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-06-22T00:52:29.324Z",
+    "fetchedAt": "2026-06-22T01:04:09.816Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

@@ -1,5 +1,6 @@
 {
   "aliases": [],
+  "hp": 10000,
   "id": "m_bison",
   "movement": {
     "backwardDashDistance": "0.754",
@@ -83,7 +84,7 @@
       "pushback": null,
       "recovery": 52,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -151,7 +152,7 @@
       "pushback": null,
       "recovery": 48,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -218,7 +219,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -285,7 +286,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -352,7 +353,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -419,7 +420,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -486,7 +487,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -553,7 +554,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -620,7 +621,7 @@
       "pushback": null,
       "recovery": 44,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -687,7 +688,7 @@
       "pushback": null,
       "recovery": 44,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -754,7 +755,7 @@
       "pushback": null,
       "recovery": 62,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -821,7 +822,7 @@
       "pushback": null,
       "recovery": 65,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -888,7 +889,7 @@
       "pushback": null,
       "recovery": 65,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -955,7 +956,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1022,7 +1023,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1089,7 +1090,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1156,7 +1157,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1212,7 +1213,7 @@
       "pushback": null,
       "recovery": 4,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1270,7 +1271,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1332,7 +1333,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1397,7 +1398,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1462,7 +1463,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1527,7 +1528,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1592,7 +1593,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1657,7 +1658,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1722,7 +1723,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1789,7 +1790,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1863,7 +1864,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1932,7 +1933,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2010,7 +2011,7 @@
       },
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2083,7 +2084,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2157,7 +2158,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2224,7 +2225,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2293,7 +2294,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2362,7 +2363,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2431,7 +2432,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2500,7 +2501,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2569,7 +2570,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2638,7 +2639,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2707,7 +2708,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2774,7 +2775,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2848,7 +2849,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2908,7 +2909,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2964,7 +2965,7 @@
       "pushback": null,
       "recovery": 43,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3015,7 +3016,7 @@
       "pushback": null,
       "recovery": 202,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3080,7 +3081,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3150,7 +3151,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3227,7 +3228,7 @@
       },
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3302,7 +3303,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3370,7 +3371,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3445,7 +3446,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3509,7 +3510,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3573,7 +3574,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3627,7 +3628,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3678,7 +3679,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3729,7 +3730,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3792,7 +3793,7 @@
       "pushback": null,
       "recovery": 47,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3859,7 +3860,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3926,7 +3927,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3990,7 +3991,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4041,7 +4042,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4103,7 +4104,7 @@
       "pushback": null,
       "recovery": 150,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4169,7 +4170,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4233,7 +4234,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4297,7 +4298,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4361,7 +4362,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4425,7 +4426,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4489,7 +4490,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4555,7 +4556,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4620,7 +4621,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4680,7 +4681,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4740,7 +4741,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4795,7 +4796,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4850,7 +4851,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4912,7 +4913,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4929,7 +4930,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-06-22T00:52:29.324Z",
+    "fetchedAt": "2026-06-22T01:04:09.817Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

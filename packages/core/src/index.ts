@@ -182,6 +182,7 @@ export function parseJumpSpd(raw: string): JumpFrames | null {
 export const characterSchema = z.object({
   aliases: z.array(z.string()),
   gameVersion: z.string().nullable().optional(),
+  hp: z.number().nullable().optional(),
   id: z.string(),
   movement: characterMovementSchema.nullable().optional(),
   moves: z.array(moveSchema),

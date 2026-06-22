@@ -1,5 +1,6 @@
 {
   "aliases": [],
+  "hp": 10000,
   "id": "rashid",
   "movement": {
     "backwardDashDistance": "1.10 (1.91)",
@@ -82,7 +83,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -148,7 +149,7 @@
       "pushback": null,
       "recovery": 6,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -214,7 +215,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -282,7 +283,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -348,7 +349,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -415,7 +416,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -483,7 +484,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -551,7 +552,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -619,7 +620,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -685,7 +686,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -751,7 +752,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -819,7 +820,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -887,7 +888,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -943,7 +944,7 @@
       "pushback": null,
       "recovery": 6,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -996,7 +997,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -1061,7 +1062,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -1129,7 +1130,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -1196,7 +1197,7 @@
       "pushback": null,
       "recovery": 82,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -1263,7 +1264,7 @@
       "pushback": null,
       "recovery": 82,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -1330,7 +1331,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -1397,7 +1398,7 @@
       "pushback": null,
       "recovery": 39,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -1464,7 +1465,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -1531,7 +1532,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -1598,7 +1599,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -1665,7 +1666,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -1732,7 +1733,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -1799,7 +1800,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -1866,7 +1867,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -1935,7 +1936,7 @@
       "pushback": null,
       "recovery": 34,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -2004,7 +2005,7 @@
       "pushback": null,
       "recovery": 37,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -2071,7 +2072,7 @@
       "pushback": null,
       "recovery": 38,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -2140,7 +2141,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -2207,7 +2208,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -2277,7 +2278,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -2346,7 +2347,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -2421,7 +2422,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -2494,7 +2495,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -2568,7 +2569,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -2628,7 +2629,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -2682,7 +2683,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -2747,7 +2748,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -2821,7 +2822,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -2898,7 +2899,7 @@
       },
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -2976,7 +2977,7 @@
       },
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3044,7 +3045,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3119,7 +3120,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3190,7 +3191,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3244,7 +3245,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3295,7 +3296,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3361,7 +3362,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3427,7 +3428,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3495,7 +3496,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3564,7 +3565,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.855Z",
+        "fetchedAt": "2026-06-22T01:04:13.109Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3631,7 +3632,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3698,7 +3699,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3762,7 +3763,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3813,7 +3814,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3866,7 +3867,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3937,7 +3938,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -3991,7 +3992,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -4054,7 +4055,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -4121,7 +4122,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -4188,7 +4189,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -4255,7 +4256,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -4322,7 +4323,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -4389,7 +4390,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -4453,7 +4454,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -4517,7 +4518,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -4581,7 +4582,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -4645,7 +4646,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -4709,7 +4710,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -4769,7 +4770,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -4833,7 +4834,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -4899,7 +4900,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -4959,7 +4960,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -5019,7 +5020,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -5074,7 +5075,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -5129,7 +5130,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -5182,7 +5183,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:35.352Z",
+        "fetchedAt": "2026-06-22T01:04:13.609Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Rashid/Frame_data"
       },
@@ -5196,7 +5197,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-06-22T00:52:29.324Z",
+    "fetchedAt": "2026-06-22T01:04:09.817Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

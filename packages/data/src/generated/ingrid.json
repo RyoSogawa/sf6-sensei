@@ -1,5 +1,6 @@
 {
   "aliases": [],
+  "hp": 10000,
   "id": "ingrid",
   "movement": {
     "backwardDashDistance": "0.90",
@@ -82,7 +83,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -148,7 +149,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -214,7 +215,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -280,7 +281,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -347,7 +348,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -414,7 +415,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -472,7 +473,7 @@
       "pushback": null,
       "recovery": 48,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -536,7 +537,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -603,7 +604,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -670,7 +671,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -737,7 +738,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -800,7 +801,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -863,7 +864,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -928,7 +929,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -996,7 +997,7 @@
       "pushback": null,
       "recovery": 45,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1064,7 +1065,7 @@
       "pushback": null,
       "recovery": 45,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1132,7 +1133,7 @@
       "pushback": null,
       "recovery": 45,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1199,7 +1200,7 @@
       "pushback": null,
       "recovery": 68,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1266,7 +1267,7 @@
       "pushback": null,
       "recovery": 68,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1332,7 +1333,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1399,7 +1400,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1466,7 +1467,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:33.539Z",
+        "fetchedAt": "2026-06-22T01:04:11.819Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1533,7 +1534,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1600,7 +1601,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1667,7 +1668,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1733,7 +1734,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1800,7 +1801,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1867,7 +1868,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1934,7 +1935,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2008,7 +2009,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2074,7 +2075,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2143,7 +2144,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2221,7 +2222,7 @@
       },
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2294,7 +2295,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2368,7 +2369,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2422,7 +2423,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2480,7 +2481,7 @@
       "pushback": null,
       "recovery": 101,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2550,7 +2551,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2620,7 +2621,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2676,7 +2677,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2737,7 +2738,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2807,7 +2808,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2872,7 +2873,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2926,7 +2927,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2993,7 +2994,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3061,7 +3062,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3135,7 +3136,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3213,7 +3214,7 @@
       },
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3287,7 +3288,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3362,7 +3363,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3433,7 +3434,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3487,7 +3488,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3554,7 +3555,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3621,7 +3622,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3685,7 +3686,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3749,7 +3750,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3816,7 +3817,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3873,7 +3874,7 @@
       "pushback": null,
       "recovery": 205,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3939,7 +3940,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4005,7 +4006,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4071,7 +4072,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4131,7 +4132,7 @@
       "pushback": null,
       "recovery": 48,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4194,7 +4195,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4260,7 +4261,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4326,7 +4327,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4392,7 +4393,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4458,7 +4459,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4522,7 +4523,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4586,7 +4587,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4650,7 +4651,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4714,7 +4715,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4778,7 +4779,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4842,7 +4843,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4906,7 +4907,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4973,7 +4974,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5038,7 +5039,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5103,7 +5104,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5168,7 +5169,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5232,7 +5233,7 @@
       "pushback": null,
       "recovery": 53,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5296,7 +5297,7 @@
       "pushback": null,
       "recovery": 41,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5356,7 +5357,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5411,7 +5412,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5466,7 +5467,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T00:52:34.077Z",
+        "fetchedAt": "2026-06-22T01:04:12.334Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5480,7 +5481,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-06-22T00:52:29.324Z",
+    "fetchedAt": "2026-06-22T01:04:09.817Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

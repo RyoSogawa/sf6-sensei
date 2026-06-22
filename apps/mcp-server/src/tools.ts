@@ -131,6 +131,7 @@ export function getMoveImpl(
 
 export interface GetCharacterFrameDataResult {
   character: { id: string; name: string }
+  hp: number | null
   moveCount: number
   movement: CharacterMovement | null
   moves: Move[]
@@ -169,6 +170,7 @@ export function getCharacterFrameDataImpl(
       id: resolvedChar.id,
       name: language === 'en' ? resolvedChar.name.en : resolvedChar.name.ja || resolvedChar.name.en,
     },
+    hp: resolvedChar.hp ?? null,
     moveCount: moves.length,
     movement: resolvedChar.movement ?? null,
     moves: moves,

@@ -638,6 +638,7 @@ async function fetchCharacterData(
     if (!characters.has(slug)) {
       characters.set(slug, {
         aliases: [],
+        hp: parseNumber(String(charRow.hp ?? '')),
         id: slug,
         movement: parseMovement(charRow),
         moves: [],
