@@ -28,6 +28,7 @@ import c_rashid from './rashid.json'
 import c_ryu from './ryu.json'
 import c_sagat from './sagat.json'
 import c_terry from './terry.json'
+import c_yasmine from './yasmine.json'
 import c_zangief from './zangief.json'
 
 export default [
@@ -60,5 +61,6 @@ export default [
   c_ryu,
   c_sagat,
   c_terry,
+  c_yasmine,
   c_zangief,
 ]

@@ -6,7 +6,14 @@
 
 import { mkdirSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { type Character, characterSchema, type Move, normalizeInput } from '@repo/core'
+import {
+  type Character,
+  type CharacterMovement,
+  characterSchema,
+  type Move,
+  normalizeInput,
+  parseJumpSpd,
+} from '@repo/core'
 
 const API = 'https://srk.shib.live/api.php'
 const USER_AGENT =
@@ -407,6 +414,34 @@ function nullIfAllEmpty<T extends Record<string, unknown>>(obj: T): T | null {
   return Object.values(obj).some((value) => value !== null) ? obj : null
 }
 
+export function parseMovement(row: SF6CharacterDataRow): CharacterMovement | null {
+  const fwdDash = parseNumber(String(row.fwdDashSpd ?? ''))
+  const bwdDash = parseNumber(String(row.bwdDashSpd ?? ''))
+  const jump = parseJumpSpd(stripMarkup(String(row.jumpSpd ?? '')))
+
+  const movement: CharacterMovement = {
+    backwardDashDistance: textOrNull(row.bwdDashDist),
+    backwardDashFrames: bwdDash,
+    backwardJumpDistance: textOrNull(row.bwdJumpDist),
+    backwardWalkSpeed: textOrNull(row.bwdWalkSpd),
+    driveRush: nullIfAllEmpty({
+      block: textOrNull(row.dRushBlock),
+      max: textOrNull(row.dRushMax),
+      min: textOrNull(row.dRushMin),
+    }),
+    forwardDashDistance: textOrNull(row.fwdDashDist),
+    forwardDashFrames: fwdDash,
+    forwardJumpDistance: textOrNull(row.fwdJumpDist),
+    forwardWalkSpeed: textOrNull(row.fwdWalkSpd),
+    jump,
+    jumpApex: textOrNull(row.jumpApex),
+    throwHurtbox: textOrNull(row.throwHurtbox),
+    throwRange: textOrNull(row.throwRange),
+  }
+
+  return nullIfAllEmpty(movement) as CharacterMovement | null
+}
+
 export interface SF6FrameDataRow {
   moveId?: string
   moveType?: string
@@ -453,9 +488,24 @@ export interface SF6FrameDataRow {
 }
 
 export interface SF6CharacterDataRow {
+  bwdDashDist?: string
+  bwdDashSpd?: string
+  bwdWalkSpd?: string
   chara?: string
-  name?: string
+  dRushBlock?: string
+  dRushMax?: string
+  dRushMin?: string
+  fwdDashDist?: string
+  fwdDashSpd?: string
+  fwdJumpDist?: string
+  fwdWalkSpd?: string
   hp?: string
+  jumpApex?: string
+  jumpSpd?: string
+  bwdJumpDist?: string
+  name?: string
+  throwHurtbox?: string
+  throwRange?: string
   [key: string]: unknown
 }
 
@@ -556,7 +606,12 @@ async function fetchCharacterData(
 
   while (true) {
     const data = await cargoQuery({
-      fields: 'chara,name,hp',
+      fields: [
+        'chara,name,hp',
+        'fwdWalkSpd,bwdWalkSpd,fwdDashSpd,bwdDashSpd,fwdDashDist,bwdDashDist',
+        'jumpSpd,fwdJumpDist,bwdJumpDist,jumpApex',
+        'throwRange,throwHurtbox,dRushMin,dRushBlock,dRushMax',
+      ].join(','),
       limit,
       offset,
       tables: 'SF6_CharacterData',
@@ -583,7 +638,9 @@ async function fetchCharacterData(
     if (!characters.has(slug)) {
       characters.set(slug, {
         aliases: [],
+        hp: parseNumber(String(charRow.hp ?? '')),
         id: slug,
+        movement: parseMovement(charRow),
         moves: [],
         name: { en: charaName, ja: null },
         source: {
@@ -702,7 +759,10 @@ export async function fetchAllFrameData(): Promise<Character[]> {
   const [characters] = await fetchCharacterData(limit)
   await fetchFrameData(characters, limit)
 
-  const result = Array.from(characters.values())
+  // Drop characters with no frame data (e.g. Yasmine: present in SF6_CharacterData with
+  // default movement values but non-playable, so no SF6_FrameData moves). Keeping them
+  // would emit a moves-empty JSON; movement-only stubs are not meaningful here.
+  const result = Array.from(characters.values()).filter((c) => c.moves.length > 0)
   const totalMoves = result.reduce((sum, c) => sum + c.moves.length, 0)
   console.log(`Built ${result.length} characters with ${totalMoves} total moves`)
 
