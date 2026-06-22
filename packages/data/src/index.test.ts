@@ -1,6 +1,67 @@
-import { resolveMove, resolveMoveBest } from '@repo/core'
+import { type CharacterMovement, resolveMove, resolveMoveBest } from '@repo/core'
 import { describe, expect, it } from 'vitest'
-import { characters, dataVersion } from './index'
+import { characters, dataVersion, generateMovementMoves } from './index'
+
+const SRC = {
+  fetchedAt: '2026-06-13T00:00:00Z',
+  license: 'CC-BY-SA' as const,
+  url: 'https://example.com',
+}
+
+const RYU_MOVEMENT: CharacterMovement = {
+  backwardDashDistance: '0.923',
+  backwardDashFrames: 23,
+  backwardJumpDistance: '1.52',
+  backwardWalkSpeed: '0.032',
+  driveRush: { block: '1.878', max: '3.628', min: '0.525' },
+  forwardDashDistance: '1.252',
+  forwardDashFrames: 19,
+  forwardJumpDistance: '1.90',
+  forwardWalkSpeed: '0.047',
+  jump: { airborne: 38, landing: 3, startup: 4, text: '4+38+3', total: 45 },
+  jumpApex: '2.115',
+  throwHurtbox: null,
+  throwRange: '0.8',
+}
+
+describe('generateMovementMoves', () => {
+  const moves = generateMovementMoves(RYU_MOVEMENT, 'ryu', SRC)
+
+  it('generates forward dash / back dash / jump pseudo-moves', () => {
+    expect(moves.map((m) => m.id)).toEqual(['ryu__66', 'ryu__44', 'ryu__j'])
+    expect(moves.every((m) => m.category === 'movement')).toBe(true)
+  })
+
+  it('maps dash totals to totalFrames', () => {
+    const fdash = moves.find((m) => m.id === 'ryu__66')
+    expect(fdash?.totalFrames).toBe(19)
+    expect(fdash?.name.ja).toBe('前ダッシュ')
+    expect(moves.find((m) => m.id === 'ryu__44')?.totalFrames).toBe(23)
+  })
+
+  it('maps the jump breakdown to startup / active / recovery / total', () => {
+    const jump = moves.find((m) => m.id === 'ryu__j')
+    expect(jump?.startup).toBe(4) // jump transition (移行)
+    expect(jump?.active).toBe('38') // airborne (滞空)
+    expect(jump?.recovery).toBe(3) // landing (着地)
+    expect(jump?.totalFrames).toBe(45)
+  })
+
+  it('is resolvable by alias via core resolveMoveBest', () => {
+    expect(resolveMoveBest('前ダッシュ', moves).map((m) => m.id)).toEqual(['ryu__66'])
+    expect(resolveMoveBest('バクステ', moves).map((m) => m.id)).toEqual(['ryu__44'])
+    expect(resolveMoveBest('ジャンプ移行', moves).map((m) => m.id)).toEqual(['ryu__j'])
+  })
+
+  it('skips a pseudo-move when its frame data is absent', () => {
+    const partial = generateMovementMoves(
+      { ...RYU_MOVEMENT, forwardDashFrames: null, jump: null },
+      'ryu',
+      SRC,
+    )
+    expect(partial.map((m) => m.id)).toEqual(['ryu__44'])
+  })
+})
 
 describe('generated data', () => {
   it('contains the full roster', () => {
