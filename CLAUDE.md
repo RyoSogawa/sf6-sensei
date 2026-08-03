@@ -58,7 +58,7 @@ SuperCombo Wiki (CC-BY-SA, srk.shib.live API)
   結果へマージする（生成 JSON は書き換えない）。`Move.input.numpad` をキーにし、`"all"` で全キャラ一括付与。
   共通技（DI/リバーサル/パリィ/ラッシュ/投げ）はキャラ固有名で格納されるため入力キーで横断する。形式は
   `docs/data-model.md`。技の解決は core の `resolveMoveBest`（入力 > 完全一致 > 部分一致のティア順）。
-- **SA レベルは取得元に無い → 手動キュレーション**: `packages/data/src/sa-levels.json`（全30体の base モーション
+- **SA レベルは取得元に無い → 手動キュレーション**: `packages/data/src/sa-levels.json`（全31体の base モーション
   → SA1/2/3）から `index.ts` が `SA1`〜`SA3`/`CA`/`空中SA` エイリアスを展開。`SA3`(通常版)と`CA`(低体力版)は
   別レコード。`(CA)` は SA に紐づかなくても CA 登録（瞬獄殺等）。ボス/派生技は SA クエリで非ヒット。詳細は `docs/data-model.md`。
 - **移動データは擬似 Move として展開**: `Character.movement`（`SF6_CharacterData` 由来）から前ダッシュ(`66`)・
