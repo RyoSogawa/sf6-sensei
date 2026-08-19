@@ -80,6 +80,7 @@ SuperCombo Wiki (CC-BY-SA, srk.shib.live API)
   `trustPolicy: no-downgrade`。若くてブロックされる依存は **exclude せず成熟版へダウングレード**（`overrides` で固定）。
   これらはセキュリティ設定で、変更は承認プロンプト必須。安易に exclude しない。
 - pre-commit（lefthook）でステージ済みファイルに Biome がかかる。
-- **言語の使い分け**: コードコメント・JSDoc と `CHANGELOG.md` は英語。`docs/` 配下のドキュメントと
-  このファイルは日本語。コミットメッセージは日本語・Conventional Commits。PR のタイトル・本文は英語
-  （public repo なので）。サイトの表示文言は日英両方（`apps/mcp-docs/src/i18n/`）。
+- **言語の使い分け**: public repo なので、外部の人が読む面はすべて**英語**にする
+  — コミットメッセージ（Conventional Commits）・PR のタイトル/本文・コードコメント/JSDoc・`CHANGELOG.md`。
+  **日本語**は `docs/` 配下の運用ドキュメントとこのファイルのみ。サイトの表示文言は日英両方
+  （`apps/mcp-docs/src/i18n/`）。
