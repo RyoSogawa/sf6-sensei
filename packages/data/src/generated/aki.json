@@ -83,7 +83,7 @@
       "pushback": null,
       "recovery": 54,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -101,7 +101,7 @@
       "aliases": [],
       "armor": null,
       "attackRange": null,
-      "blockstun": 37,
+      "blockstun": 17,
       "cancel": [
         "super"
       ],
@@ -118,7 +118,7 @@
       },
       "driveRushCancel": null,
       "hitstop": 6,
-      "hitstun": 44,
+      "hitstun": 20,
       "id": "aki__214hk",
       "input": {
         "numpad": "214HK",
@@ -135,7 +135,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Farthest trajectory; cannot hit cross-up; Counter-hit/Punish Counter bonus advantage applies to all hits; landing recovery has a crouch-sized hurtbox despite being in a standing state; first 2 hits will whiff on crouching opponents (less damage, chip, Drive Dmg); can link naturally into 2LP for a follow-up combo; pushback on block keeps A.K.I. out of throw range but also weakens her Burnout pressure",
+        "en": "Farthest trajectory; cannot hit cross-up; Counter-hit/Punish Counter bonus advantage applies to all hits; landing recovery has a crouch-sized hurtbox despite being in a standing state; first 2 hits will whiff on crouching opponents (less damage, chip, Drive Dmg); can link naturally into 2LP for a follow-up combo; pushback on block keeps A.K.I. out of throw range but also weakens her Burnout pressure; extends a large projectile invincible hurtbox downward on frames 26-32 (makes it easier for opponents to anti-air A.K.I.)",
         "ja": null
       },
       "onBlock": -3,
@@ -152,7 +152,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -219,7 +219,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -237,7 +237,7 @@
       "aliases": [],
       "armor": null,
       "attackRange": null,
-      "blockstun": 42,
+      "blockstun": 17,
       "cancel": [
         "super"
       ],
@@ -254,7 +254,7 @@
       },
       "driveRushCancel": null,
       "hitstop": 6,
-      "hitstun": null,
+      "hitstun": 20,
       "id": "aki__214kk",
       "input": {
         "numpad": "214KK",
@@ -271,7 +271,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Hold left/right to steer trajectory; cannot hit cross-up; Counter-hit/Punish Counter bonus advantage applies to all hits on non-cinematic version; landing recovery has a crouch-sized hurtbox despite being in a standing state; goes into grab animation on a grounded hit for full damage and follow-up oki, but 3rd/4th hits can get a non-cinematic hit late in the active frames (400~640 damage); poisons opponent on hit (cinematic or non-cinematic); puts airborne opponents into a limited juggle OTG state (KD +51~58); Super cancel works only on non-cinematic version; SA2 cancel will not combo unless LP version lands as a counter-hit or Punish Counter",
+        "en": "Hold left/right to steer trajectory; cannot hit cross-up; Counter-hit/Punish Counter bonus advantage applies to all hits on non-cinematic version; landing recovery has a crouch-sized hurtbox despite being in a standing state; goes into grab animation on a grounded hit for full damage and follow-up oki, but 3rd/4th hits can get a non-cinematic hit late in the active frames (400~640 damage); poisons opponent on hit (cinematic or non-cinematic); puts airborne opponents into a limited juggle OTG state (KD +51~58); Super cancel works only on non-cinematic version; SA2 cancel will not combo unless LP version lands as a counter-hit or Punish Counter; extends a large projectile invincible hurtbox downward on frames 23-27 (makes it easier for opponents to anti-air A.K.I.)",
         "ja": null
       },
       "onBlock": 2,
@@ -288,7 +288,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -306,7 +306,7 @@
       "aliases": [],
       "armor": null,
       "attackRange": null,
-      "blockstun": 37,
+      "blockstun": 17,
       "cancel": [
         "super"
       ],
@@ -323,7 +323,7 @@
       },
       "driveRushCancel": null,
       "hitstop": 6,
-      "hitstun": 41,
+      "hitstun": 20,
       "id": "aki__214lk",
       "input": {
         "numpad": "214LK",
@@ -340,13 +340,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Shortest trajectory; cannot hit cross-up; Counter-hit/Punish Counter bonus advantage applies to all hits; landing recovery has a crouch-sized hurtbox despite being in a standing state; first 2 hits will whiff on crouching opponents (less damage, chip, Drive Dmg)",
+        "en": "Shortest trajectory; cannot hit cross-up; Counter-hit/Punish Counter bonus advantage applies to all hits; landing recovery has a crouch-sized hurtbox despite being in a standing state; first 2 hits will whiff on crouching opponents (less damage, chip, Drive Dmg); gives a strike/throw mixup on hit, a light combo extension on counter-hit, and a 5MP combo extension on Punish Counter (very effective as a throw bait); does not extend a large downward hurtbox during startup like other versions (harder for opponent to anti-air with grounded normals)",
         "ja": null
       },
       "onBlock": -3,
-      "onHit": 1,
+      "onHit": 2,
       "onPerfectParry": -18,
-      "onPunishCounter": 5,
+      "onPunishCounter": 6,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -357,7 +357,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -424,7 +424,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -491,7 +491,7 @@
       "pushback": null,
       "recovery": 34,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -556,7 +556,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -574,7 +574,7 @@
       "aliases": [],
       "armor": null,
       "attackRange": null,
-      "blockstun": 37,
+      "blockstun": 17,
       "cancel": [
         "super"
       ],
@@ -591,7 +591,7 @@
       },
       "driveRushCancel": null,
       "hitstop": 6,
-      "hitstun": 43,
+      "hitstun": 20,
       "id": "aki__214mk",
       "input": {
         "numpad": "214MK",
@@ -608,7 +608,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Medium trajectory; cannot hit cross-up; Counter-hit/Punish Counter bonus advantage applies to all hits; landing recovery has a crouch-sized hurtbox despite being in a standing state; first 2 hits will whiff on crouching opponents (less damage, chip, Drive Dmg)",
+        "en": "Medium trajectory; cannot hit cross-up; Counter-hit/Punish Counter bonus advantage applies to all hits; landing recovery has a crouch-sized hurtbox despite being in a standing state; first 2 hits will whiff on crouching opponents (less damage, chip, Drive Dmg); extends a large projectile invincible hurtbox downward on frames 21-27 (makes it easier for opponents to anti-air A.K.I.)",
         "ja": null
       },
       "onBlock": -3,
@@ -625,7 +625,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -679,7 +679,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -743,7 +743,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -795,7 +795,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Poisons opponent on hit; refers to the non-burst version (projectile dissipates, causing the whip to strike the opponent rather than the bubble); [] refers to data when whip connects during Toxic Blossom; the whip is a projectile that will detonate the 214PP bubble if still active on-screen (despite being a projectile, a perfect parry gives screen freeze like a strike)",
+        "en": "Poisons opponent on hit or block (but not parry); refers to the non-burst version (projectile dissipates, causing the whip to strike the opponent rather than the bubble); [] refers to data when whip connects during Toxic Blossom; the whip is a projectile that will detonate the 214PP bubble if still active on-screen (despite being a projectile, a perfect parry gives screen freeze like a strike)",
         "ja": null
       },
       "onBlock": -13,
@@ -810,7 +810,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -862,7 +862,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Poisons opponent on hit; striking the bubble projectile before it makes contact with the opponent causes it to burst, dealing more damage; the burst itself is a large stationary 2-hit OD projectile hitbox; damage/chip/KD Advantage are changed if only 1 hit of the detonation connects on opponent (this can happen when detonating from max range, or immediately after the first hit of 214PP connects); opponent is launched higher on hit, allowing follow-up juggles (much more juggle potential if only the 1 hit of 214PP Burst connects)",
+        "en": "Poisons opponent on hit (does not poison on block unless the whip itself makes contact after the projectile burst); striking the bubble projectile before it makes contact with the opponent causes it to burst, dealing more damage; the burst itself is a large stationary 2-hit OD projectile hitbox; damage/chip/KD Advantage are changed if only 1 hit of the detonation connects on opponent (this can happen when detonating from max range, or immediately after the first hit of 214PP connects); opponent is launched higher on hit, allowing follow-up juggles (much more juggle potential if only the 1 hit of 214PP Burst connects)",
         "ja": null
       },
       "onBlock": -2,
@@ -877,7 +877,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -944,7 +944,7 @@
       "pushback": null,
       "recovery": 68,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1011,7 +1011,7 @@
       "pushback": null,
       "recovery": 58,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1078,7 +1078,7 @@
       "pushback": null,
       "recovery": 58,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1134,7 +1134,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1199,7 +1199,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1259,7 +1259,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1312,7 +1312,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1376,7 +1376,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1432,7 +1432,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1496,7 +1496,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1565,7 +1565,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1635,7 +1635,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1688,7 +1688,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Hitbox does not move during active frames (cannot space to make it safer in neutral); very disjointed hitbox, but easily punished in neutral; has some juggle potential",
+        "en": "Hitbox does not move during active frames (cannot space to make it safer in neutral); very disjointed hitbox, but easily punished in neutral; has some juggle potential; poisons the opponent on Punish Counter",
         "ja": null
       },
       "onBlock": -8,
@@ -1702,7 +1702,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1771,7 +1771,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1849,7 +1849,7 @@
       },
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1918,7 +1918,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -1992,7 +1992,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -2048,7 +2048,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -2099,7 +2099,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -2163,7 +2163,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -2223,7 +2223,7 @@
       "pushback": null,
       "recovery": 55,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -2290,7 +2290,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -2357,7 +2357,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -2417,7 +2417,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -2482,7 +2482,7 @@
       "pushback": null,
       "recovery": 258,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -2556,7 +2556,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -2626,7 +2626,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -2676,13 +2676,13 @@
         "ja": null
       },
       "notes": {
-        "en": "5f extra recovery on block; poisons the opponent on hit; triggers Toxic Blossom, launching opponent into limited juggle state; always a true blockstring even at max delay; hitconfirmable from 5HP",
+        "en": "5f extra recovery on block; poisons the opponent on hit; puts opponent into a limited juggle state; juggles into 2HP/SA1/SA3 midscreen (unless starting too far away) as well as 2HK/236HP in the corner; sets up a safe jump anywhere on screen (unless starting too far away midscreen); triggers Toxic Blossom, launching opponent even higher (gains juggles into 236MP/236PP/SA2/DR~5HK); always a true blockstring even at max delay; hitconfirmable from 5HP",
         "ja": null
       },
       "onBlock": -15,
-      "onHit": 34,
+      "onHit": 44,
       "onPerfectParry": null,
-      "onPunishCounter": 34,
+      "onPunishCounter": 44,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -2691,7 +2691,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -2768,7 +2768,7 @@
       },
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -2843,7 +2843,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -2914,7 +2914,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -2982,7 +2982,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -3056,7 +3056,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -3110,7 +3110,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -3178,7 +3178,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -3190,16 +3190,16 @@
       "totalFrames": 40
     },
     {
-      "active": "3",
+      "active": "4",
       "afterDriveRush": {
-        "onBlock": 0,
+        "onBlock": 1,
         "onHit": 7
       },
       "airborne": null,
       "aliases": [],
       "armor": null,
       "attackRange": 2.162,
-      "blockstun": 19,
+      "blockstun": 20,
       "cancel": [
         "super"
       ],
@@ -3233,12 +3233,12 @@
         "ja": null
       },
       "notes": {
-        "en": "1f extra recovery on whiff; great poke that is safe on block due to pushback; hitconfirmable into Super",
+        "en": "1f extra recovery on whiff; great poke that is safe on block; hitconfirmable into Super",
         "ja": null
       },
-      "onBlock": -4,
+      "onBlock": -3,
       "onHit": 3,
-      "onPerfectParry": -22,
+      "onPerfectParry": -21,
       "onPunishCounter": 7,
       "projectileSpeed": null,
       "properties": [
@@ -3246,9 +3246,9 @@
         "high"
       ],
       "pushback": null,
-      "recovery": 20,
+      "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -3315,7 +3315,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -3379,7 +3379,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -3430,7 +3430,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -3493,7 +3493,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -3557,7 +3557,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -3621,7 +3621,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -3685,7 +3685,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -3749,7 +3749,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -3813,7 +3813,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -3877,7 +3877,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -3941,7 +3941,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -4001,7 +4001,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -4061,7 +4061,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -4116,7 +4116,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -4171,7 +4171,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/A.K.I./Frame_data"
       },
@@ -4185,7 +4185,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-06-22T01:04:09.815Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

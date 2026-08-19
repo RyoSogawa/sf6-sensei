@@ -78,7 +78,7 @@
       "pushback": null,
       "recovery": 54,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -145,7 +145,7 @@
       "pushback": null,
       "recovery": 54,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -212,7 +212,7 @@
       "pushback": null,
       "recovery": 45,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -281,7 +281,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -347,7 +347,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -415,7 +415,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -483,7 +483,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -551,7 +551,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -619,7 +619,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -687,7 +687,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -755,7 +755,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -791,7 +791,7 @@
       },
       "driveRushCancel": null,
       "hitstop": 13,
-      "hitstun": 28,
+      "hitstun": 29,
       "id": "cviper__214lp",
       "input": {
         "numpad": "214LP",
@@ -808,13 +808,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Crouch-sized hurtbox on frames 14-43 (standing state); can be spaced meaty for better advantage (very precise spacing required for the final active frame to connect); can duck under projectiles with precise timing (impractical as a reaction to fast fireballs, and can be clipped on her back during recovery against slow fireballs); combos naturally from medium/heavy normals; punishing a projectile can link into lights, 2MP, or SA2 depending on the range; startup can be canceled into Feint by inputting K (feint occurs after 12 startup frames); cancelable into Tracer Combination (6PP) on hit/block only",
+        "en": "Crouch-sized hurtbox on frames 14-43 (standing state); can be spaced meaty for better advantage (very precise spacing required for the final active frame to connect); can duck under projectiles with precise timing (impractical as a reaction to fast fireballs, and can be clipped on her back during recovery against slow fireballs); combos naturally from medium/heavy normals; punishing a projectile can link into 2MP, SA2, 5MK, or 2HP depending on the range; startup can be canceled into Feint by inputting K (feint occurs after 12 startup frames); cancelable into Tracer Combination (6PP) on hit/block only",
         "ja": null
       },
       "onBlock": -4,
-      "onHit": 1,
+      "onHit": 2,
       "onPerfectParry": -25,
-      "onPunishCounter": 5,
+      "onPunishCounter": 6,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -824,7 +824,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -892,7 +892,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -960,7 +960,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1027,7 +1027,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1094,7 +1094,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1148,7 +1148,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1213,7 +1213,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1280,7 +1280,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1348,7 +1348,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1414,7 +1414,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1480,7 +1480,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1547,7 +1547,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1614,7 +1614,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1659,7 +1659,7 @@
       "invuln": null,
       "juggle": {
         "increase": "1",
-        "limit": "0",
+        "limit": "1",
         "start": "1"
       },
       "name": {
@@ -1667,7 +1667,7 @@
         "ja": null
       },
       "notes": {
-        "en": "4f extra recovery on block; C. Viper's only standard normal that cannot be High Jump canceled; does not have natural juggle potential unlike most sweeps; Punish Counter sets up a safe jump using High Jump (fairly impractical outside the corner, as a forward High Jump usually sails over the opponent)",
+        "en": "4f extra recovery on block; C. Viper's only standard normal that cannot be High Jump canceled; has some juggle potential; Punish Counter sets up a safe jump using High Jump (fairly impractical outside the corner, as a forward High Jump usually sails over the opponent)",
         "ja": null
       },
       "onBlock": -11,
@@ -1681,7 +1681,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1756,7 +1756,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1812,7 +1812,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Chains into 5LP/2LP/2LK; can be High Jump canceled allowing for stronger combo options than most 2LKs; HJC~214HP Feint cancel: -6 oH / -11 oB",
+        "en": "Chains into 5LP/2LP/2LK; can be High Jump canceled allowing for stronger combo options than most 2LKs; can input High Jump Cancel without returning to neutral for easier execution; HJC~214HP Feint cancel: -6 oH / -11 oB",
         "ja": null
       },
       "onBlock": -1,
@@ -1826,7 +1826,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1905,7 +1905,7 @@
       },
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1960,7 +1960,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Amazing range for a low poke that can lead to combos with High Jump cancel; HJC~214HP Feint cancel: +4 oH / -2 oB",
+        "en": "Amazing range for a low poke that can lead to combos with High Jump cancel; can input High Jump Cancel without returning to neutral for easier execution; HJC~214HP Feint cancel: +4 oH / -2 oB",
         "ja": null
       },
       "onBlock": -1,
@@ -1974,7 +1974,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2049,7 +2049,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2098,7 +2098,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Costs 1 bar of Drive gauge (except during SA1 install); jumps slightly higher and over 50% farther than a standard jump; can be input in neutral or canceled on hit/block from all normals (except 2HK/6MP/6HK) and from Seismic Hammer; can be input as a forward or neutral jump (cannot High Jump backwards, but attempting this as a cancel results in neutral jump); cancelable into grounded special moves and Supers during prejump frames 2-6, effectively allowing any HJ-cancelable attack to be special/super cancelable; C. Viper is in a Counter-hit state for the entire duration and in a Forced Knockdown state when airborne; Drive Gauge recovery acts similar to OD specials (can start regaining meter quickly, effectively refunding part of its cost by hitting the opponent afterward; grounded High Jump Cancel into grounded Burning Kick cannot be buffered on the first jump frame (results in a strict 2f window to properly input a combo sequence like juggled 5HK > HJC OD Burning Kick); can be used in safe jump setups with a KD Advantage of +45; the Up direction must be input no later than the 8th frame after initiating the Down direction (holding down before inputting a jump does not result in a High Jump)",
+        "en": "Costs 1 bar of Drive gauge (except during SA1 install); jumps slightly higher and over 50% farther than a standard jump; can be input in neutral or canceled on hit/block from all normals (except 2HK/6MP/6HK) and from Seismic Hammer; can be input as a forward or neutral jump (cannot High Jump backwards, but attempting this as a cancel results in neutral jump); cancelable into grounded special moves and Supers during prejump frames 2-6, effectively allowing any HJ-cancelable attack to be special/super cancelable; C. Viper is in a Counter-hit state for the entire duration and in a Forced Knockdown state when airborne; Drive Gauge recovery acts similar to OD specials (can start regaining meter quickly, effectively refunding part of its cost by hitting the opponent afterward; grounded High Jump Cancel into grounded Burning Kick cannot be buffered on the first jump frame (results in a strict 2f window to properly input a combo sequence like juggled 5HK > HJC OD Burning Kick); can be used in safe jump setups with a KD Advantage of +45; the Up direction must be input no later than the 8th frame after initiating the Down direction (holding down before inputting a jump does not result in a High Jump); when canceled from a normal that is otherwise not special cancelable, execution requirements are relaxed and a neutral input is no longer required before the HJC (most useful for 2MK/2LK)",
         "ja": null
       },
       "onBlock": null,
@@ -2112,7 +2112,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2169,7 +2169,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2223,7 +2223,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2290,7 +2290,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2360,7 +2360,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2435,7 +2435,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2514,7 +2514,7 @@
       },
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2529,7 +2529,7 @@
       "active": "3",
       "afterDriveRush": {
         "onBlock": 1,
-        "onHit": 8
+        "onHit": 9
       },
       "airborne": null,
       "aliases": [],
@@ -2552,7 +2552,7 @@
       },
       "driveRushCancel": null,
       "hitstop": 11,
-      "hitstun": 25,
+      "hitstun": 26,
       "id": "cviper__5mk",
       "input": {
         "numpad": "5MK",
@@ -2569,13 +2569,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Strong poke that can combo into specials with a High Jump cancel (214HP can whiff at farther ranges); 2f extra recovery on whiff; HJC~214HP Feint cancel: +4 oH / -3 oB",
+        "en": "Strong poke that can combo into specials with a High Jump cancel (214HP can whiff at farther ranges); can link into SA2 on counter-hit from around the max range of 2MP; 2f extra recovery on whiff; HJC~214HP Feint cancel: +5 oH / -3 oB",
         "ja": null
       },
       "onBlock": -3,
-      "onHit": 4,
+      "onHit": 5,
       "onPerfectParry": -19,
-      "onPunishCounter": 8,
+      "onPunishCounter": 9,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -2584,7 +2584,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2659,7 +2659,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2713,7 +2713,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2778,7 +2778,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2796,7 +2796,7 @@
       "aliases": [],
       "armor": null,
       "attackRange": null,
-      "blockstun": 26,
+      "blockstun": 28,
       "cancel": [
         "super",
         "hj",
@@ -2825,17 +2825,17 @@
       "juggle": {
         "increase": "1",
         "limit": "1",
-        "start": "2"
+        "start": "1"
       },
       "name": {
         "en": "Seismic Hammer",
         "ja": null
       },
       "notes": {
-        "en": "1-hit OD projectile; covers wide area in front of C. Viper (~50% screen); puts opponents into a limited juggle state; combos from medium normals; cancelable into High Jump on hit or block for 1 extra Drive bar (no extra cost during SA1 install); startup cannot be canceled with Seismo Feint; HJC~214HP Feint cancel: KD +61 / 0 oB; hitbox is very low to the ground, allowing opponent to block when landing from an empty jump; hurtbox expands forward beginning on the 2nd active frame",
+        "en": "1-hit OD projectile; covers wide area in front of C. Viper (~50% screen); puts opponents into a limited juggle state; combos from medium normals; cancelable into High Jump on hit or block for 1 extra Drive bar (no extra cost during SA1 install); startup cannot be canceled with Seismo Feint; HJC~214HP Feint cancel: KD +61 / +2 oB; hitbox is very low to the ground, allowing opponent to block when landing from an empty jump; hurtbox expands forward beginning on the 2nd active frame",
         "ja": null
       },
-      "onBlock": -8,
+      "onBlock": -6,
       "onHit": 53,
       "onPerfectParry": -23,
       "onPunishCounter": 53,
@@ -2846,7 +2846,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2900,7 +2900,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2965,7 +2965,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3032,7 +3032,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3096,7 +3096,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3160,7 +3160,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3214,7 +3214,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3275,7 +3275,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3341,7 +3341,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3408,7 +3408,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3475,7 +3475,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3542,7 +3542,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3609,7 +3609,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3675,7 +3675,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3739,7 +3739,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3803,7 +3803,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3867,7 +3867,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3931,7 +3931,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3997,7 +3997,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -4057,7 +4057,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -4117,7 +4117,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -4172,7 +4172,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -4227,7 +4227,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.304Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -4241,7 +4241,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-06-22T01:04:09.816Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

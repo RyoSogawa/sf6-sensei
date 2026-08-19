@@ -84,7 +84,7 @@
       "pushback": null,
       "recovery": 51,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -151,7 +151,7 @@
       "pushback": null,
       "recovery": 51,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -218,7 +218,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -285,7 +285,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -352,7 +352,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -419,7 +419,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -473,7 +473,7 @@
       "pushback": null,
       "recovery": 1,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -539,7 +539,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -606,7 +606,7 @@
       "pushback": null,
       "recovery": 48,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -648,7 +648,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Can cancel into P or 2P follow-ups on frames 14-43; Movement Speed: 0.052",
+        "en": "Can cancel into 5P on frame 13 or 2P on frame 14 (until the end of recovery); Movement Speed: 0.052",
         "ja": null
       },
       "onBlock": null,
@@ -658,15 +658,15 @@
       "projectileSpeed": null,
       "properties": [],
       "pushback": null,
-      "recovery": 51,
+      "recovery": 44,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
-      "startup": 14,
+      "startup": 13,
       "superGauge": null,
-      "totalFrames": 51
+      "totalFrames": 44
     },
     {
       "active": "-",
@@ -703,7 +703,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Can cancel into P follow-up on frames 13-27, or the 2P follow-up on frames 11-27; Movement Speed: 0.067",
+        "en": "Can cancel into 5P follow-up on frames 13-27 or the 2P follow-up on frames 11-27; Movement Speed: 0.067",
         "ja": null
       },
       "onBlock": null,
@@ -715,7 +715,7 @@
       "pushback": null,
       "recovery": 34,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -779,7 +779,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -846,7 +846,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -911,7 +911,7 @@
       "pushback": null,
       "recovery": 38,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -978,7 +978,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1030,7 +1030,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Puts opponents into limited juggle state on hit, allowing for Super or P follow-up to juggle; incredibly disjointed hitbox for neutral approaches; safe but minus on block (recovers outside the opponent's throw range if well spaced); canceling into the final P follow-up creates a 2f frame trap that can punish opponents trying to retake their turn; sets up a safe jump anywhere on screen",
+        "en": "Puts opponents into limited juggle state on hit, allowing for Super or P follow-up to juggle; incredibly disjointed hitbox for neutral approaches; safe but minus on block (recovers outside the opponent's throw range if well spaced); canceling into the final P follow-up creates a 2f frame trap that can punish opponents trying to retake their turn; sets up a safe jump anywhere on screen if not canceled into the Triple Slap ender; can frame trap from 5HP or 5HK (1st hit) at closer ranges; combos from 5MP for a great neutral threat",
         "ja": null
       },
       "onBlock": -3,
@@ -1045,11 +1045,11 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
-      "startup": 14,
+      "startup": 13,
       "superGauge": {
         "onBlock": 250,
         "onHit": 500
@@ -1110,7 +1110,7 @@
       "pushback": null,
       "recovery": 38,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1176,7 +1176,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1243,7 +1243,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1309,7 +1309,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1375,7 +1375,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1442,7 +1442,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1464,7 +1464,9 @@
       "armor": null,
       "attackRange": 1.917,
       "blockstun": 18,
-      "cancel": [],
+      "cancel": [
+        "super"
+      ],
       "category": "normal",
       "characterId": "e_honda",
       "chipDamage": null,
@@ -1510,7 +1512,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1579,7 +1581,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1657,7 +1659,7 @@
       },
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1724,7 +1726,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1798,7 +1800,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1867,7 +1869,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -1935,7 +1937,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2004,7 +2006,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2073,7 +2075,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2142,7 +2144,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2209,7 +2211,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2269,7 +2271,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2323,7 +2325,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2341,7 +2343,7 @@
       "aliases": [],
       "armor": null,
       "attackRange": 1.554,
-      "blockstun": 18,
+      "blockstun": 20,
       "cancel": [
         "special",
         "super"
@@ -2358,11 +2360,11 @@
         "gain": 1500
       },
       "driveRushCancel": {
-        "onBlock": 8,
+        "onBlock": 10,
         "onHit": 17
       },
       "hitstop": 13,
-      "hitstun": 28,
+      "hitstun": 27,
       "id": "e_honda__5hk",
       "input": {
         "numpad": "5HK",
@@ -2379,7 +2381,7 @@
         "ja": null
       },
       "notes": {
-        "en": "1st hit forces stand (can only connect on crouchers at close range); 2nd hit whiffs vs. crouching opponents unless they extend a vertical hurtbox; if 1st hit connects on crouch block and the 2nd hit whiffs, the cancel window of the first hit is extended, making it possible to confirm into a safe special move; 1st hit puts airborne opponents into a free juggle state; 2nd hit puts airborne opponents into a limited juggle state; Counter-hit/Punish Counter advantage carries through both hits; gives Honda a meterless combo into 236K~2P launcher (weaker than 5HP starter, but required in some routes like CH 5MP/2MK or DR~2LP)",
+        "en": "1st hit forces stand (can only connect on crouchers at close range); 2nd hit whiffs vs. crouching opponents unless they extend a vertical hurtbox; if 1st hit connects on crouch block and the 2nd hit whiffs, the cancel window of the first hit is extended, making it possible to confirm into a safe special move; 1st hit puts airborne opponents into a free juggle state; 2nd hit puts airborne opponents into a limited juggle state; Counter-hit/Punish Counter advantage carries through both hits; gives Honda a meterless combo into 236K~2P launcher (weaker than 5HP starter, but required in some routes like CH 5MP/2MK or DR~2LP); can frame trap when canceled into 236K~P for safe pressure",
         "ja": null
       },
       "onBlock": -5,
@@ -2394,7 +2396,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2469,7 +2471,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2546,7 +2548,7 @@
       },
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2621,7 +2623,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2692,7 +2694,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2760,7 +2762,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2820,7 +2822,7 @@
         "ja": null
       },
       "notes": {
-        "en": "2f extra recovery on whiff; good poke and pressure starter due to its hitbox priority, distance traveled, and block advantage",
+        "en": "4f extra recovery on whiff; good poke and pressure starter due to its hitbox priority, distance traveled, and block advantage",
         "ja": null
       },
       "onBlock": 1,
@@ -2835,7 +2837,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2901,7 +2903,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -2957,7 +2959,7 @@
       "pushback": null,
       "recovery": 45,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3014,7 +3016,7 @@
       "pushback": null,
       "recovery": 52,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3074,7 +3076,7 @@
       "pushback": null,
       "recovery": 52,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3134,7 +3136,7 @@
       "pushback": null,
       "recovery": 52,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3194,7 +3196,7 @@
       "pushback": null,
       "recovery": 52,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3247,13 +3249,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Ranged low poke that knocks down on Punish Counter; can be made safe due to pushback",
+        "en": "Ranged low poke that knocks down on Punish Counter with huge KD advantage; can be made safe due to pushback; Punish Counter can get oki from anywhere with whiffed MP Sumo Headbutt + Forward Dash; if the initial PC 6HK was spaced out, can get sideswitch oki with whiff 5LK + HP Sumo Headbutt (if too close, opponent will Back Rise the wrong direction)",
         "ja": null
       },
       "onBlock": -5,
       "onHit": 1,
       "onPerfectParry": -22,
-      "onPunishCounter": 45,
+      "onPunishCounter": 76,
       "projectileSpeed": null,
       "properties": [
         "low"
@@ -3261,7 +3263,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3328,7 +3330,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3392,7 +3394,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3443,7 +3445,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3504,7 +3506,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3570,7 +3572,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3634,7 +3636,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3698,7 +3700,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3762,7 +3764,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3826,7 +3828,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3890,7 +3892,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -3954,7 +3956,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -4018,7 +4020,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -4078,7 +4080,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -4138,7 +4140,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -4193,7 +4195,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -4248,7 +4250,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/E.Honda/Frame_data"
       },
@@ -4262,7 +4264,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-06-22T01:04:09.816Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

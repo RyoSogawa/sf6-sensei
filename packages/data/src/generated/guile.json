@@ -71,7 +71,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -138,7 +138,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -205,7 +205,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -272,7 +272,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -290,7 +290,7 @@
       "aliases": [],
       "armor": null,
       "attackRange": null,
-      "blockstun": 21,
+      "blockstun": 18,
       "cancel": [
         "super"
       ],
@@ -324,10 +324,10 @@
         "ja": null
       },
       "notes": {
-        "en": "2-hit OD projectile; button combination determines forward movement speed of the projectile (LP+MP slowest, LP+HP mid, MP+HP fastest); [] refers to projectile active time; on grounded connect, 1st hit knocks down and the 2nd hit remains active; either hit puts opponent into limited juggle state; cannot activate SA1 while Sonic Blade is active on-screen; SA2 cancel: KD+68/+11",
+        "en": "2-hit OD projectile; button combination determines forward movement speed of the projectile (LP+MP slowest, LP+HP mid, MP+HP fastest); [] refers to projectile active time; on grounded connect, 1st hit knocks down and the 2nd hit remains active; either hit puts opponent into limited juggle state; cannot activate SA1 while Sonic Blade is active on-screen; gives slight advantage on block and can be extremely plus when used with meaty timing; SA2 cancel: KD+68/+16",
         "ja": null
       },
-      "onBlock": -4,
+      "onBlock": 1,
       "onHit": 57,
       "onPerfectParry": -3,
       "onPunishCounter": 57,
@@ -339,7 +339,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -406,7 +406,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -473,7 +473,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -540,7 +540,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -607,7 +607,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -676,7 +676,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -743,7 +743,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -795,7 +795,7 @@
         "ja": null
       },
       "notes": {
-        "en": "45f charge (charge lasts 12f after releasing down direction); cannot hit cross-ups; input 8+LK within 3f of each other for Perfect timing (better damage); does 200 less damage on active frames 3-6 (800 regular, 1000 perfect)",
+        "en": "45f charge (charge lasts 12f after releasing down direction); cannot hit cross-ups; input 8+LK within 3f of each other for Perfect timing (better damage); does 200 less damage on active frames 3-6 (800 regular, 1000 perfect); 2nd active frame extends a wide combo-only hitbox (important for specific combo routes like CH/PC 2MK~6MP bounce or max range CH 2MP link)",
         "ja": null
       },
       "onBlock": -30,
@@ -812,7 +812,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -881,7 +881,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -901,7 +901,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": 2.037,
+      "attackRange": 2.077,
       "blockstun": 19,
       "cancel": [
         "target_combo"
@@ -950,7 +950,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -1021,7 +1021,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -1095,7 +1095,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -1164,7 +1164,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -1242,7 +1242,7 @@
       },
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -1311,7 +1311,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -1361,13 +1361,13 @@
         "ja": null
       },
       "notes": {
-        "en": "() refers to 20% scaled damage from 2MK combo starter; low into overhead string; has a 5f gap between hits on block that can lead to trade combos; causes spike knockdown vs. airborne opponents; Counter-hit/Punish Counter puts the opponent into a limited juggle OTG bounce state; 2nd hit maintains the CH/PC state from the initial 2MK",
+        "en": "() refers to 20% scaled damage from 2MK combo starter; low into overhead string; has a 5f gap between hits on block that can lead to trade combos; causes spike knockdown vs. airborne opponents; Counter-hit/Punish Counter puts the opponent into a limited juggle OTG bounce state (juggle into [2]8LK is most consistent); 2nd hit maintains the CH/PC state from the initial 2MK",
         "ja": null
       },
       "onBlock": -5,
       "onHit": 1,
       "onPerfectParry": -22,
-      "onPunishCounter": 47,
+      "onPunishCounter": 46,
       "projectileSpeed": null,
       "properties": [
         "high"
@@ -1375,7 +1375,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -1450,7 +1450,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -1521,7 +1521,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -1575,7 +1575,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -1646,7 +1646,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -1696,7 +1696,7 @@
         "ja": null
       },
       "notes": {
-        "en": "45f charge (charge lasts 22f after releasing back direction); 7-hit Super projectile; primarily used in air juggles (whiffs on crouching opponents unless they extend a vertical hurtbox, can hit standing opponents at close range); puts opponent into limited juggle state; KD Adv. can vary depending on juggle height; cannot be used while Sonic Blade projectile is active on-screen",
+        "en": "45f charge (charge lasts 22f after releasing back direction); 7-hit Super projectile; primarily used in air juggles (whiffs on crouching opponents unless they extend a vertical hurtbox, can hit standing opponents at close range); puts opponent into limited juggle state; KD Adv. can vary depending on juggle height; cannot be used while Sonic Blade projectile is active on-screen; can follow up with a LP/MP SA1 after hitting a grounded opponent",
         "ja": null
       },
       "onBlock": -2,
@@ -1712,7 +1712,7 @@
       "pushback": null,
       "recovery": 68,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -1780,7 +1780,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -1848,7 +1848,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -1889,8 +1889,8 @@
       },
       "invuln": "1-8 Strike/Throw",
       "juggle": {
-        "increase": "1x6,99",
-        "limit": "99",
+        "increase": "0x6,101",
+        "limit": "100",
         "start": "1"
       },
       "name": {
@@ -1898,7 +1898,7 @@
         "ja": null
       },
       "notes": {
-        "en": "45f charge (charge lasts 22f after releasing back direction); 7-hit Super projectile; can input this horizontal version with LP or MP; cannot be used while Sonic Blade projectile is active on-screen; active frames 1-3 only hits on the shorter-range hitbox in front of Guile, but extends a combo-only hitbox to its full range that connects if the opponent is in hitstun (essentially has 11f startup as a long-range punish tool, like when used against the opponent's projectile); the upper combo-only hitbox applies to strike-based hitstun (e.g. j.MP air-to-air) while the lower combo-only hitbox applies to projectile-based hitstun (e.g. anti-air Sonic Boom)",
+        "en": "45f charge (charge lasts 22f after releasing back direction); 7-hit Super projectile; can input this horizontal version with LP or MP; cannot be used while Sonic Blade projectile is active on-screen; active frames 1-3 only hits on the shorter-range hitbox in front of Guile, but extends a combo-only hitbox to its full range that connects if the opponent is in hitstun (essentially has 11f startup as a long-range punish tool, like when used against the opponent's projectile); the upper combo-only hitbox applies to strike-based hitstun (e.g. j.MP air-to-air) while the lower combo-only hitbox applies to projectile-based hitstun (e.g. anti-air Sonic Boom); can be juggled into after HP SA1 if the opponent was launched from a grounded state",
         "ja": null
       },
       "onBlock": -26,
@@ -1915,7 +1915,7 @@
       "pushback": null,
       "recovery": 81,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -1982,7 +1982,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -2049,7 +2049,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -2116,7 +2116,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -2183,7 +2183,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -2248,7 +2248,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -2313,7 +2313,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -2387,7 +2387,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -2455,7 +2455,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -2515,7 +2515,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -2583,7 +2583,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -2637,7 +2637,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -2704,16 +2704,16 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
-      "startup": 13,
+      "startup": 12,
       "superGauge": {
         "onBlock": 500,
         "onHit": 1000
       },
-      "totalFrames": 36
+      "totalFrames": 35
     },
     {
       "active": "3",
@@ -2778,7 +2778,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -2852,7 +2852,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -2927,7 +2927,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -2995,7 +2995,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -3070,7 +3070,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -3142,7 +3142,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -3196,7 +3196,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -3262,7 +3262,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -3330,7 +3330,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -3397,7 +3397,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -3461,7 +3461,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -3525,7 +3525,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -3579,7 +3579,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -3642,7 +3642,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -3702,7 +3702,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -3766,7 +3766,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -3830,7 +3830,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -3894,7 +3894,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -3958,7 +3958,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -4018,7 +4018,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -4082,7 +4082,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -4146,7 +4146,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -4206,7 +4206,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -4266,7 +4266,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -4321,7 +4321,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -4376,7 +4376,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -4438,7 +4438,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Guile/Frame_data"
       },
@@ -4455,7 +4455,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-06-22T01:04:09.817Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

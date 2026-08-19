@@ -84,7 +84,7 @@
       "pushback": null,
       "recovery": 73,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -151,7 +151,7 @@
       "pushback": null,
       "recovery": 73,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -218,7 +218,7 @@
       "pushback": null,
       "recovery": 73,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -285,7 +285,7 @@
       "pushback": null,
       "recovery": 73,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -352,7 +352,7 @@
       "pushback": null,
       "recovery": 73,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -419,7 +419,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -486,7 +486,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -553,7 +553,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -571,7 +571,7 @@
       "aliases": [],
       "armor": null,
       "attackRange": 1.73,
-      "blockstun": 20,
+      "blockstun": 22,
       "cancel": [
         "super"
       ],
@@ -605,13 +605,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Mixup tool that is unsafe on block; the threat of overhead makes ~6MK follow-up stronger while the threat of a frame trap makes ~6HK follow-up stronger; safe vs. Burnout but no longer frame traps, making it a weak option; puts airborne opponents into a limited juggle state (e.g. after DI wallsplat juggle); causes immediate knockdown on Counter-hit/Punish Counter; safe to reversal Drive Impact after blocked 214KK unless the 6LK input is delayed",
+        "en": "Mixup tool that is safe on block; +1 vs. Burnout (but no longer frame traps and has no real looping pressure); the threat of overhead makes ~6MK follow-up stronger while the threat of a frame trap makes ~6HK follow-up stronger; puts opponents into limited juggle OTG bounce state on counter-hit or airborne hit (KD +47, can juggle into 623MP, SA2, SA3, 2HK, or 236LPMP which combos to SA1 in the corner); safe to reversal Drive Impact after blocked 214KK unless the 6LK input is delayed",
         "ja": null
       },
-      "onBlock": -5,
+      "onBlock": -3,
       "onHit": 3,
       "onPerfectParry": -23,
-      "onPunishCounter": 25,
+      "onPunishCounter": 47,
       "projectileSpeed": null,
       "properties": [
         "high"
@@ -619,7 +619,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -662,22 +662,22 @@
       },
       "invuln": null,
       "juggle": {
-        "increase": "2",
+        "increase": "1",
         "limit": "5",
-        "start": "3"
+        "start": "2"
       },
       "name": {
         "en": "Greedy Tiger",
         "ja": null
       },
       "notes": {
-        "en": "Whiffs on crouching opponents; 2f extra recovery on whiff; puts opponent into a limited juggle state (only allows 623LP/PP juggle in the corner); frame data vs. crouch from 214KK: -17 oH / -24 oB / -13 onPC; safe to reversal Drive Impact after blocked 214KK; 3f blockstring gap after 214KK (frame trap vs. standing normals but still loses to reversal crouching normals); risky to attempt on block, but the threat of the overhead and frame trap from ~6LK follow-up can condition opponents to stand block or parry; opponent cannot walk back out of throw range on block",
+        "en": "Whiffs on crouching opponents; 2f extra recovery on whiff; puts opponent into a limited juggle state (no midscreen juggle besides SA2/SA3 cancel); in the corner, can juggle into 623MP/PP, 2HK, or SA2 from a grounded hit, in addition to 236LK, 236LPMP, SA1, or SA3 on an airborne connect (e.g. 4HP launch or DI wallsplat); frame data vs. crouch from 214KK: -17 oH / -24 oB / -13 onPC; safe to reversal Drive Impact after blocked 214KK; 3f blockstring gap after 214KK (frame trap vs. standing normals but still loses to reversal crouching normals); risky to attempt on block, but the threat of the overhead and frame trap from ~6LK follow-up can condition opponents to stand block or parry; opponent cannot walk back out of throw range on block",
         "ja": null
       },
       "onBlock": 4,
-      "onHit": 48,
+      "onHit": 50,
       "onPerfectParry": -18,
-      "onPunishCounter": 48,
+      "onPunishCounter": 50,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -686,7 +686,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -753,7 +753,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -819,7 +819,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -886,7 +886,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -938,7 +938,7 @@
         "ja": null
       },
       "notes": {
-        "en": "The only strength of 214K that can combo naturally from 5LP (3-light confirm can reach if point blank, but results in weaker mixup from ~6LK ender); does not frame trap when canceled on block (except from Light normals with Drive Rush or Burnout); combos into 6LK/6MK follow-ups; canceling into the 6HK follow-up leaves a 2f gap on hit / 9f gap on block (loses to 4f normals even in Burnout); Counter-hit/Punish Counter puts the opponent into a limited juggle state that allows the 6HK follow-up to combo; cannot perform follow-up attacks on whiff; opponents can beat all follow-ups with invincible reversals (but standard 6f reversals will not punish 214LK); if the opponent attempts to punish 214LK, the 6LK follow-up will frame trap on block (must delay 6LK vs. Burnout)",
+        "en": "1f extra recovery vs. armor (DI is a guaranteed punish if not canceled to SA3); the only strength of 214K that can combo naturally from 5LP (3-light confirm can reach if point blank, but results in weaker mixup from ~6LK ender); does not frame trap when canceled on block (except from Light normals with Drive Rush or Burnout); combos into 6LK/6MK follow-ups; canceling into the 6HK follow-up leaves a 2f gap on hit / 9f gap on block (loses to 4f normals even in Burnout); Counter-hit/Punish Counter puts the opponent into a limited juggle state that allows the 6HK follow-up to combo; cannot perform follow-up attacks on whiff; opponents can beat all follow-ups with invincible reversals (but standard 6f reversals will not punish 214LK); if the opponent attempts to punish 214LK, the 6LK follow-up will frame trap on block (must delay 6LK vs. Burnout)",
         "ja": null
       },
       "onBlock": -5,
@@ -953,7 +953,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -1005,7 +1005,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Combos into 6LK/6MK follow-ups; canceling into the 6HK follow-up leaves a 2f gap on hit / 9f gap on block (loses to 4f normals even in Burnout); Counter-hit/Punish Counter puts the opponent into a limited juggle state that allows the 6HK follow-up to combo; 214MK combos from canceled 2MP/2HP/5HK (these cancels also frame trap on block, with 2HP/5HK > 214MK being DI-safe); cannot perform follow-up attacks on whiff; lacks natural juggle potential but can juggle after DR~4HP (free juggle state) for a powerful 1-bar corner combo (DR~4HP > 214MK, 4HP > 236HK, 623MP); opponents can beat all follow-ups with invincible reversals (but standard 6f reversals will not punish 214MK); if the opponent attempts to punish 214MK, the 6LK follow-up will frame trap on block (must delay 6LK vs. Burnout)",
+        "en": "1f extra recovery vs. armor (DI is a guaranteed punish if not canceled to SA3); combos into 6LK/6MK follow-ups; canceling into the 6HK follow-up leaves a 2f gap on hit / 9f gap on block (loses to 4f normals even in Burnout); Counter-hit/Punish Counter puts the opponent into a limited juggle state that allows the 6HK follow-up to combo; 214MK combos from canceled 2MP/2HP/5HK (these cancels also frame trap on block); cannot perform follow-up attacks on whiff; lacks natural juggle potential but can juggle after DR~4HP (free juggle state) for a powerful 1-bar corner combo (DR~4HP > 214MK, 4HP > 236HK, 623MP); opponents can beat all follow-ups with invincible reversals (but standard 6f reversals will not punish 214MK); if the opponent attempts to punish 214MK, the 6LK follow-up will frame trap on block (must delay 6LK vs. Burnout)",
         "ja": null
       },
       "onBlock": -5,
@@ -1020,7 +1020,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -1087,7 +1087,7 @@
       "pushback": null,
       "recovery": 67,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -1154,7 +1154,7 @@
       "pushback": null,
       "recovery": 67,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -1221,7 +1221,7 @@
       "pushback": null,
       "recovery": 96,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -1290,7 +1290,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -1357,7 +1357,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -1426,7 +1426,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -1493,7 +1493,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -1560,7 +1560,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -1627,7 +1627,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -1694,7 +1694,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -1761,7 +1761,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -1828,7 +1828,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -1895,7 +1895,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -1969,7 +1969,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -2038,7 +2038,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -2116,7 +2116,7 @@
       },
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -2183,7 +2183,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -2215,7 +2215,7 @@
       "chipDamage": null,
       "damage": 600,
       "damageText": null,
-      "dmgScaling": null,
+      "dmgScaling": "15%",
       "driveGauge": {
         "dealtOnBlock": 3000,
         "dealtOnHit": 4000,
@@ -2258,7 +2258,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -2283,8 +2283,8 @@
       "category": "normal",
       "characterId": "sagat",
       "chipDamage": null,
-      "damage": 1000,
-      "damageText": null,
+      "damage": 1100,
+      "damageText": "1100 (935)",
       "dmgScaling": null,
       "driveGauge": {
         "dealtOnBlock": 5000,
@@ -2310,7 +2310,7 @@
         "ja": null
       },
       "notes": {
-        "en": "3f blockstring gap between hits; harder to confirm into from 2MP but combos naturally; launch only allows a canceled Super but no other follow-up juggles; easily hitconfirmed into Super even if only the 2nd hit connects as a frame trap; higher KD advantage when juggled into",
+        "en": "3f blockstring gap between hits; () refers to scaled damage after 2MP combo starter; harder to confirm into from 2MP but combos naturally; launch only allows a canceled Super but no other follow-up juggles; easily hitconfirmed into Super even if only the 2nd hit connects as a frame trap; higher KD advantage when juggled into",
         "ja": null
       },
       "onBlock": -10,
@@ -2325,7 +2325,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -2351,8 +2351,8 @@
       "category": "normal",
       "characterId": "sagat",
       "chipDamage": null,
-      "damage": 600,
-      "damageText": null,
+      "damage": 700,
+      "damageText": "700 (595)",
       "dmgScaling": null,
       "driveGauge": {
         "dealtOnBlock": 5000,
@@ -2381,7 +2381,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Combos after Punish Counter or Drive Rush 2MP only; causes limited juggle OTG bounce vs. airborne opponents",
+        "en": "Combos after Punish Counter or Drive Rush 2MP only; () refers to scaled damage after 2MP combo starter; causes limited juggle OTG bounce vs. airborne opponents",
         "ja": null
       },
       "onBlock": -14,
@@ -2396,7 +2396,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -2470,7 +2470,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -2530,7 +2530,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -2584,7 +2584,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -2655,7 +2655,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -2725,7 +2725,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -2790,7 +2790,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -2805,7 +2805,7 @@
       "active": "2",
       "afterDriveRush": {
         "onBlock": 0,
-        "onHit": 3
+        "onHit": 4
       },
       "airborne": null,
       "aliases": [],
@@ -2828,11 +2828,11 @@
         "gain": 250
       },
       "driveRushCancel": {
-        "onBlock": 0,
+        "onBlock": -1,
         "onHit": 3
       },
       "hitstop": 9,
-      "hitstun": 16,
+      "hitstun": 17,
       "id": "sagat__5lk",
       "input": {
         "numpad": "5LK",
@@ -2849,13 +2849,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Long range but slow startup (more comparable to a medium normal); 2f extra recovery on whiff; great whiff punish tool that combos consistently into 623HP on Punish Counter; input overlap with 6LK Step Low Kick makes it harder to walk forward and poke in neutral; DR cancel is delayed until after 2nd recovery frame",
+        "en": "Long range but slow startup (more comparable to a medium normal); 2f extra recovery on whiff; great whiff punish tool that combos consistently into 623HP on Punish Counter; input overlap with 6LK Low Step Kick makes it harder to walk forward and poke in neutral; DR cancel is delayed until after 3rd recovery frame",
         "ja": null
       },
       "onBlock": -4,
-      "onHit": -1,
+      "onHit": 0,
       "onPerfectParry": -15,
-      "onPunishCounter": 3,
+      "onPunishCounter": 4,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -2864,7 +2864,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -2939,7 +2939,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -2994,7 +2994,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Very long poke with a semi-hitconfirmable TC follow-up; more range vs. standing opponents (the tip of the hitbox whiffs on crouching opponents); the first 10 recovery frames extend a wide leg hurtbox making it more easily whiff punished by standing normals",
+        "en": "Very long poke with a semi-hitconfirmable TC follow-up; more range vs. standing opponents (the tip of the hitbox whiffs on crouching opponents); the first 10 recovery frames extend a wide leg hurtbox making it more easily whiff punished by standing normals; extends a wider body hurtbox for the entire whiff recovery",
         "ja": null
       },
       "onBlock": -3,
@@ -3009,7 +3009,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -3055,16 +3055,16 @@
         "start": "1"
       },
       "name": {
-        "en": "Step Middle Kick",
+        "en": "Middle Step Kick",
         "ja": null
       },
       "notes": {
-        "en": "3f blockstring gap between hits; somewhat hitconfirmable knockdown from a very strong midrange poke; puts opponent into a limited juggle state (can combo 623LP after DI wallsplat on hit)",
+        "en": "Always a true blockstring even at max delay; somewhat hitconfirmable knockdown from a very strong midrange poke; puts opponent into a limited juggle state (can combo 623LP after DI wallsplat on hit)",
         "ja": null
       },
       "onBlock": -8,
       "onHit": 38,
-      "onPerfectParry": -24,
+      "onPerfectParry": null,
       "onPunishCounter": 39,
       "projectileSpeed": null,
       "properties": [
@@ -3074,16 +3074,16 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
-      "startup": 19,
+      "startup": 16,
       "superGauge": {
         "onBlock": 500,
         "onHit": 1000
       },
-      "totalFrames": 44
+      "totalFrames": 41
     },
     {
       "active": "4",
@@ -3142,7 +3142,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -3196,7 +3196,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -3262,7 +3262,7 @@
       "pushback": null,
       "recovery": 40,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -3331,7 +3331,7 @@
       "pushback": null,
       "recovery": 40,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -3400,7 +3400,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -3469,7 +3469,7 @@
       "pushback": null,
       "recovery": 40,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -3536,7 +3536,7 @@
       "pushback": null,
       "recovery": 38,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -3585,7 +3585,7 @@
         "start": "1[0 PC]"
       },
       "name": {
-        "en": "Step High Kick",
+        "en": "High Step Kick",
         "ja": null
       },
       "notes": {
@@ -3604,7 +3604,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -3671,7 +3671,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -3735,7 +3735,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -3781,7 +3781,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Step Low Kick",
+        "en": "Low Step Kick",
         "ja": null
       },
       "notes": {
@@ -3799,7 +3799,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -3866,7 +3866,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -3920,7 +3920,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -3983,7 +3983,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -4047,7 +4047,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -4111,7 +4111,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -4175,7 +4175,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -4239,7 +4239,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -4303,7 +4303,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -4367,7 +4367,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -4427,7 +4427,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -4487,7 +4487,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -4542,7 +4542,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -4597,7 +4597,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:13.609Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Sagat/Frame_data"
       },
@@ -4611,7 +4611,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-06-22T01:04:09.817Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

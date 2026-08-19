@@ -83,7 +83,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -150,7 +150,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -177,7 +177,7 @@
       "chipDamage": 50,
       "damage": 200,
       "damageText": "200x2,400 (800)",
-      "dmgScaling": null,
+      "dmgScaling": "30% Starter",
       "driveGauge": {
         "dealtOnBlock": 1000,
         "dealtOnHit": 1700,
@@ -202,7 +202,7 @@
         "ja": null
       },
       "notes": {
-        "en": "3 hits; leaves opponent grounded; counter-hit/Punish Counter advantage carries through all hits; puts airborne opponents into limited juggle state",
+        "en": "3 hits; leaves opponent grounded; counter-hit/Punish Counter advantage carries through all hits; puts airborne opponents into limited juggle state; can frame trap when canceled from light normals (only leads to a heavily scaled light combo while being punishable on block)",
         "ja": null
       },
       "onBlock": -5,
@@ -217,7 +217,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -284,7 +284,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -311,7 +311,7 @@
       "chipDamage": 37,
       "damage": 150,
       "damageText": "150x8,200 (1400)",
-      "dmgScaling": "Combo (2 hits)",
+      "dmgScaling": "30% Starter, Combo (2 hits)",
       "driveGauge": {
         "dealtOnBlock": 600,
         "dealtOnHit": 500,
@@ -351,7 +351,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -418,7 +418,7 @@
       "pushback": null,
       "recovery": 56,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -485,7 +485,7 @@
       "pushback": null,
       "recovery": 64,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -552,7 +552,7 @@
       "pushback": null,
       "recovery": 64,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -617,7 +617,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -681,7 +681,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -748,7 +748,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -816,7 +816,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -868,7 +868,7 @@
         "ja": null
       },
       "notes": {
-        "en": "2-hit projectile hitbox (causes screen freeze on Perfect Parry); can grab opponent through 1-hit non-OD projectile or dissipate 2-hit non-OD projectile; pulls opponent in for a strike/throw mixup on block (pulled in half as far when Parried); launches opponent upward on grounded hit; slams opponent down into limited juggle OTG bounce on airborne hit; recovery refers to whiffed version; great oki tool (especially useful after corner throw); cancelable into Kill Rush (forward or back) on frames 16-115; automatically releases attack after 115f charge time; extends a forward hurtbox on frame 1 until the end of recovery (this hurtbox is projectile invuln until the first active frame)",
+        "en": "2-hit projectile hitbox (causes screen freeze on Perfect Parry); can grab opponent through 1-hit non-OD projectile or dissipate 2-hit non-OD projectile; pulls opponent a short distance toward Ed for a strike/throw mixup on block (pulled in half as far when Parried); launches opponent upward on grounded hit; slams opponent down into limited juggle OTG bounce on airborne hit; recovery refers to whiffed version; great oki tool (especially useful after corner throw); cancelable into Kill Rush (forward or back) on frames 16-115; automatically releases attack after 115f charge time; extends a forward hurtbox on frame 1 until the end of recovery (this hurtbox is projectile invuln until the first active frame)",
         "ja": null
       },
       "onBlock": 4,
@@ -883,7 +883,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -951,7 +951,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -1003,7 +1003,7 @@
         "ja": null
       },
       "notes": {
-        "en": "2-hit projectile hitbox (causes screen freeze on Perfect Parry); can grab opponent through 1-hit non-OD projectile or dissipate 2-hit non-OD projectile; pulls opponent in for a strike/throw mixup on block (pulled in half as far when Parried); launches opponent upward on grounded hit; slams opponent down into limited juggle OTG bounce on airborne hit; recovery refers to whiffed version; great oki tool; cancelable into Kill Rush (forward or back) on frames 16-115; automatically releases attack after 115f charge time; extends a forward hurtbox on frame 1 until the end of recovery (this hurtbox is projectile invuln until the first active frame)",
+        "en": "2-hit projectile hitbox (causes screen freeze on Perfect Parry); can grab opponent through 1-hit non-OD projectile or dissipate 2-hit non-OD projectile; pulls opponent a short distance toward Ed for a strike/throw mixup on block (pulled in half as far when Parried); launches opponent upward on grounded hit; slams opponent down into limited juggle OTG bounce on airborne hit; recovery refers to whiffed version; great oki tool; cancelable into Kill Rush (forward or back) on frames 16-115; automatically releases attack after 115f charge time; extends a forward hurtbox on frame 1 until the end of recovery (this hurtbox is projectile invuln until the first active frame)",
         "ja": null
       },
       "onBlock": 4,
@@ -1018,7 +1018,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -1086,7 +1086,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -1154,7 +1154,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -1213,7 +1213,7 @@
       "onHit": 46,
       "onPerfectParry": -7,
       "onPunishCounter": 46,
-      "projectileSpeed": 0.05,
+      "projectileSpeed": 0.04,
       "properties": [
         "low",
         "high"
@@ -1221,7 +1221,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -1288,7 +1288,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -1363,7 +1363,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -1431,7 +1431,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -1498,7 +1498,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -1572,7 +1572,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -1644,7 +1644,7 @@
       },
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -1718,7 +1718,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -1791,7 +1791,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -1845,7 +1845,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -1888,13 +1888,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Side switch; after throwing opponent into corner, can dash to become +5 outside throw range (can microwalk to throw Blanka, E.Honda, and Zangief); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "en": "Side switch; after throwing opponent into corner, Ed can Drive Rush to pressure with buttons like 5MP/2MK/5HP but cannot get into throw range quickly enough for a true strike/throw mixup and cannot block 6f reversals; can also use 6HP or 236MK for basic meterless pressure; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
         "ja": null
       },
       "onBlock": null,
-      "onHit": 24,
+      "onHit": 17,
       "onPerfectParry": null,
-      "onPunishCounter": 24,
+      "onPunishCounter": 17,
       "projectileSpeed": null,
       "properties": [
         "throw"
@@ -1902,7 +1902,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -1956,7 +1956,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -2027,7 +2027,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -2101,7 +2101,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -2171,7 +2171,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -2241,7 +2241,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -2311,7 +2311,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -2378,7 +2378,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -2443,7 +2443,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -2521,7 +2521,7 @@
       },
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -2596,7 +2596,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -2663,7 +2663,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -2728,7 +2728,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -2803,7 +2803,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -2874,7 +2874,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -2928,7 +2928,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -2993,7 +2993,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -3061,7 +3061,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -3129,7 +3129,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -3195,7 +3195,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -3263,7 +3263,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -3330,7 +3330,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -3394,7 +3394,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -3447,7 +3447,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -3511,7 +3511,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -3578,7 +3578,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -3632,7 +3632,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -3695,7 +3695,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -3759,7 +3759,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -3823,7 +3823,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -3887,7 +3887,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -3951,7 +3951,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -4015,7 +4015,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -4079,7 +4079,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -4139,7 +4139,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -4199,7 +4199,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -4254,7 +4254,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -4309,7 +4309,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ed/Frame_data"
       },
@@ -4323,7 +4323,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-06-22T01:04:09.816Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

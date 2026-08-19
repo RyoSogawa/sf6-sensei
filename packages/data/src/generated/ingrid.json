@@ -83,7 +83,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -149,7 +149,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -215,7 +215,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -281,7 +281,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -333,7 +333,7 @@
         "ja": null
       },
       "notes": {
-        "en": "2-hit projectile hitbox; consumes 1 Sun Crest for more hits, extra damage, and longer range compared to the 0-stock MP/HP version; stock is consumed on frame 2; identical to the 0-stock OD version except for projectile priority and Super cancelability; extends a foot hurtbox and a projectile invincible arm hurtbox on frames 19-38",
+        "en": "2-hit projectile hitbox; consumes 1 Sun Crest for more hits, extra damage, and longer range compared to the 0-stock MP/HP version; stock is consumed on frame 2; identical to the 0-stock OD version except for projectile priority and Super cancelability; puts the opponent into a limited juggle state (can follow up in the corner or with a midscreen DR~6HP); extends a foot hurtbox and a projectile invincible arm hurtbox on frames 19-38",
         "ja": null
       },
       "onBlock": 4,
@@ -348,7 +348,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -400,7 +400,7 @@
         "ja": null
       },
       "notes": {
-        "en": "3-hit projectile hitbox; consumes 2 Sun Crests for more hits, extra damage, and longer range compared to the 1-stock HP version; stocks are consumed on frame 2 and the first active frame (only 1 stock is consumed if interrupted on startup); identical to the 1-stock OD version except for projectile priority and Super cancelability; extends a foot hurtbox and a projectile invincible arm hurtbox on frames 19-38",
+        "en": "3-hit projectile hitbox; consumes 2 Sun Crests for more hits, extra damage, and longer range compared to the 1-stock HP version; stocks are consumed on frame 2 and the first active frame (only 1 stock is consumed if interrupted on startup); identical to the 1-stock OD version except for projectile priority and Super cancelability; puts the opponent into a limited juggle state (can follow up anywhere with 6KKK or in the corner with 236HP > 236HP for a safe jump); extends a foot hurtbox and a projectile invincible arm hurtbox on frames 19-38",
         "ja": null
       },
       "onBlock": 5,
@@ -415,7 +415,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -473,7 +473,7 @@
       "pushback": null,
       "recovery": 48,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -522,7 +522,7 @@
         "ja": null
       },
       "notes": {
-        "en": "1-hit projectile hitbox; this version also comes out when input with HP button if Ingrid has 0 Sun Crests; extends a foot hurtbox and a projectile invincible arm hurtbox on frames 22-41",
+        "en": "1-hit projectile hitbox; this version also comes out when input with HP button if Ingrid has 0 Sun Crests; puts the opponent into a limited juggle state (corner follow-ups possible on a high connect like 4HP~HP > 214MP); extends a foot hurtbox and a projectile invincible arm hurtbox on frames 22-41",
         "ja": null
       },
       "onBlock": -4,
@@ -537,7 +537,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -589,7 +589,7 @@
         "ja": null
       },
       "notes": {
-        "en": "2-hit OD projectile hitbox; identical to the 1-stock HP version except for projectile priority and SA2 cancelability; extends a foot hurtbox and a projectile invincible arm hurtbox on frames 19-38; SA2 cancel: KD+75/+11",
+        "en": "2-hit OD projectile hitbox; identical to the 1-stock HP version except for projectile priority and SA2 cancelability; puts the opponent into a limited juggle state (can follow up in the corner or with a midscreen DR~6HP); extends a foot hurtbox and a projectile invincible arm hurtbox on frames 19-38; SA2 cancel: KD+75/+11",
         "ja": null
       },
       "onBlock": 4,
@@ -604,7 +604,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -656,7 +656,7 @@
         "ja": null
       },
       "notes": {
-        "en": "3-hit OD projectile hitbox; identical to the 2-stock HP version except for projectile priority and SA2 cancelability; has more hits, extra damage, and longer range compared to 0-stock OD version; stock is consumed on frame 2; extends a foot hurtbox and a projectile invincible arm hurtbox on frames 19-38; SA2 cancel: KD+83/+12",
+        "en": "3-hit OD projectile hitbox; identical to the 2-stock HP version except for projectile priority and SA2 cancelability; has more hits, extra damage, and longer range compared to 0-stock OD version; stock is consumed on frame 2; puts the opponent into a limited juggle state (can follow up anywhere with 6KKK or in the corner with 236HP > 236HP for a safe jump); extends a foot hurtbox and a projectile invincible arm hurtbox on frames 19-38; SA2 cancel: KD+83/+12",
         "ja": null
       },
       "onBlock": 5,
@@ -671,7 +671,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -716,14 +716,14 @@
       "juggle": {
         "increase": "0x3,1",
         "limit": "99x4",
-        "start": "1x3,0"
+        "start": "0 ground / 1x3,0 air"
       },
       "name": {
         "en": "Sun Flare (2 Stock)",
         "ja": null
       },
       "notes": {
-        "en": "4-hit OD projectile hitbox; has properties greater than the 2-stock HP version or 1-stock OD version for 2 Sun Crests; stocks are consumed on frame 2 and the first active frame (only 1 stock is consumed if interrupted on startup); extends a foot hurtbox and a projectile invincible arm hurtbox on frames 19-38; SA2 cancel: KD+94/+16",
+        "en": "4-hit OD projectile hitbox; has properties greater than the 2-stock HP version or 1-stock OD version for 2 Sun Crests; stocks are consumed on frame 2 and the first active frame (only 1 stock is consumed if interrupted on startup); launches the opponent high into a free juggle state (can follow up with moves like 2KKK, Dash + 236HK, or Walk/Dash + j.HK~j.HK); opponent flies backward ~50% faster on airborne hits (prevents some juggle follow-ups like midscreen 2KKK); extends a foot hurtbox and a projectile invincible arm hurtbox on frames 19-38; SA2 cancel: KD+94/+16",
         "ja": null
       },
       "onBlock": 9,
@@ -738,7 +738,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -801,7 +801,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -864,7 +864,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -929,7 +929,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -997,7 +997,7 @@
       "pushback": null,
       "recovery": 45,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1065,7 +1065,7 @@
       "pushback": null,
       "recovery": 45,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1133,7 +1133,7 @@
       "pushback": null,
       "recovery": 45,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1200,7 +1200,7 @@
       "pushback": null,
       "recovery": 68,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1267,7 +1267,7 @@
       "pushback": null,
       "recovery": 68,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1333,7 +1333,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1400,7 +1400,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1467,7 +1467,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:11.819Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1506,7 +1506,7 @@
         "numpad": "236LK",
         "official": null
       },
-      "invuln": "1-14 Air",
+      "invuln": "1-14 Air; 8-10 Throw",
       "juggle": {
         "increase": "1",
         "limit": "10",
@@ -1534,7 +1534,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1601,7 +1601,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1644,7 +1644,7 @@
       },
       "invuln": null,
       "juggle": {
-        "increase": "0,2",
+        "increase": "1,1",
         "limit": "3,6",
         "start": "0,1"
       },
@@ -1668,7 +1668,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1734,7 +1734,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1801,7 +1801,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1844,7 +1844,7 @@
       },
       "invuln": null,
       "juggle": {
-        "increase": "0,2",
+        "increase": "1,1",
         "limit": "3,6",
         "start": "0,1"
       },
@@ -1868,7 +1868,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -1935,7 +1935,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2009,7 +2009,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2075,7 +2075,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2144,7 +2144,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2222,7 +2222,7 @@
       },
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2295,7 +2295,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2369,7 +2369,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2423,7 +2423,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2481,7 +2481,7 @@
       "pushback": null,
       "recovery": 101,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2551,7 +2551,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2621,7 +2621,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2677,7 +2677,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2738,7 +2738,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2808,7 +2808,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2873,7 +2873,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2927,7 +2927,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -2994,7 +2994,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3062,7 +3062,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3077,7 +3077,7 @@
       "active": "3",
       "afterDriveRush": {
         "onBlock": 1,
-        "onHit": 6
+        "onHit": 7
       },
       "airborne": null,
       "aliases": [],
@@ -3101,10 +3101,10 @@
       },
       "driveRushCancel": {
         "onBlock": -1,
-        "onHit": 4
+        "onHit": 5
       },
       "hitstop": 9,
-      "hitstun": 16,
+      "hitstun": 17,
       "id": "ingrid__5lk",
       "input": {
         "numpad": "5LK",
@@ -3121,13 +3121,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Longest range of Ingrid's light normals (but relatively short for a 5f light); DR cancel is delayed until after active frames; SA2 cancel: +2/-3",
+        "en": "Longest range of Ingrid's light normals (but relatively short for a 5f light); DR cancel is delayed until after active frames; SA2 cancel: +3/-3",
         "ja": null
       },
       "onBlock": -3,
-      "onHit": 2,
+      "onHit": 3,
       "onPerfectParry": -12,
-      "onPunishCounter": 6,
+      "onPunishCounter": 7,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -3136,7 +3136,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3214,7 +3214,7 @@
       },
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3229,7 +3229,7 @@
       "active": "4",
       "afterDriveRush": {
         "onBlock": 1,
-        "onHit": 7
+        "onHit": 8
       },
       "airborne": null,
       "aliases": [],
@@ -3253,10 +3253,10 @@
       },
       "driveRushCancel": {
         "onBlock": 7,
-        "onHit": 13
+        "onHit": 14
       },
       "hitstop": 11,
-      "hitstun": 23,
+      "hitstun": 24,
       "id": "ingrid__5mk",
       "input": {
         "numpad": "5MK",
@@ -3273,13 +3273,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Has forward movement on startup (allows Ingrid to maintain a consistent corner spacing when canceling into Sun Shot); highest damage and hitstun out of Ingrid's cancelable mediums; SA2 cancel: +9/+3",
+        "en": "Has forward movement on startup (allows Ingrid to maintain a consistent corner spacing when canceling into Sun Shot); highest damage and hitstun out of Ingrid's cancelable mediums; DR/PC version combos into 236HK making it a strong whiff punish tool or DR combo extension; SA2 cancel: +10/+3",
         "ja": null
       },
       "onBlock": -3,
-      "onHit": 3,
+      "onHit": 4,
       "onPerfectParry": -18,
-      "onPunishCounter": 7,
+      "onPunishCounter": 8,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -3288,7 +3288,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3363,7 +3363,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3434,7 +3434,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3488,7 +3488,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3555,7 +3555,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3622,7 +3622,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3686,7 +3686,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3750,7 +3750,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3817,7 +3817,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3874,7 +3874,7 @@
       "pushback": null,
       "recovery": 205,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3940,7 +3940,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -3990,7 +3990,7 @@
         "ja": null
       },
       "notes": {
-        "en": "2-hit projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; consumes 1 Sun Crest for more hits, extra damage, and longer range compared to 0-stock MP/HP version; stock is consumed on frame 2; can be canceled into from 6HP (on hit becomes KD +40, on block becomes -10 vs. standing, -9 vs. crouching); puts opponents into a limited juggle state (corner follow-ups possible if input low to the ground); Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible)",
+        "en": "2-hit projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; consumes 1 Sun Crest for more hits, extra damage, and longer range compared to 0-stock MP/HP version; stock is consumed on frame 2; can be canceled into from 6HP (on hit becomes KD +40, on block becomes -10 vs. standing, -9 vs. crouching); puts opponents into a limited juggle state (corner follow-ups possible if input low to the ground); 2f extra landing recovery when performed from a neutral jump; Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible); hitbox is considered both a projectile and an airborne attack (loses to both types of invuln)",
         "ja": null
       },
       "onBlock": -4,
@@ -4004,9 +4004,9 @@
         "airborne"
       ],
       "pushback": null,
-      "recovery": 10,
+      "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4056,7 +4056,7 @@
         "ja": null
       },
       "notes": {
-        "en": "3-hit projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; consumes 2 Sun Crests for more hits, extra damage, and longer range compared to 1-stock HP version; stocks are consumed on frame 2 and the first active frame (only 1 stock is consumed if interrupted on startup or if Ingrid lands before active); can be canceled into from 6HP (on hit becomes KD +55, on block becomes -6 vs. standing, -5 vs. crouching); launches opponents upward into a limited juggle state; Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible)",
+        "en": "3-hit projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; consumes 2 Sun Crests for more hits, extra damage, and longer range compared to 1-stock HP version; stocks are consumed on frame 2 and the first active frame (only 1 stock is consumed if interrupted on startup or if Ingrid lands before active); can be canceled into from 6HP (on hit becomes KD +55, on block becomes -6 vs. standing, -5 vs. crouching); launches opponents upward into a limited juggle state; 3f extra landing recovery when performed from a neutral jump; Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible); hitbox is considered both a projectile and an airborne attack (loses to both types of invuln)",
         "ja": null
       },
       "onBlock": -3,
@@ -4070,9 +4070,9 @@
         "airborne"
       ],
       "pushback": null,
-      "recovery": 8,
+      "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4132,7 +4132,7 @@
       "pushback": null,
       "recovery": 48,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4179,7 +4179,7 @@
         "ja": null
       },
       "notes": {
-        "en": "1-hit projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; this version also comes out when input with HP button if Ingrid has 0 Sun Crests; can be canceled into from 6HP (on hit becomes KD +36, on block becomes -11 vs. standing, -10 vs. crouching); puts opponents into a limited juggle state (corner follow-ups possible if input low to the ground); Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible); can be used after corner 236HK launch (earliest timing), allowing Ingrid to land and build another Sun Crest without losing corner oki",
+        "en": "1-hit projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; this version also comes out when input with HP button if Ingrid has 0 Sun Crests; can be canceled into from 6HP (on hit becomes KD +36, on block becomes -11 vs. standing, -10 vs. crouching); puts opponents into a limited juggle state (corner follow-ups possible if input low to the ground); 2f extra landing recovery when performed from a neutral jump; Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible); can be used after corner 236HK launch (earliest timing), allowing Ingrid to land and build another Sun Crest without losing corner oki; hitbox is considered both a projectile and an airborne attack (loses to both types of invuln)",
         "ja": null
       },
       "onBlock": -5,
@@ -4193,9 +4193,9 @@
         "airborne"
       ],
       "pushback": null,
-      "recovery": 10,
+      "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4245,7 +4245,7 @@
         "ja": null
       },
       "notes": {
-        "en": "2-hit OD projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; has the properties of the 1-stock HP version without spending any Sun Crests; can be canceled into from 6HP (on hit becomes KD +40, on block becomes -10 vs. standing, -9 vs. crouching); puts opponents into a limited juggle state (corner follow-ups possible if input low to the ground); Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible)",
+        "en": "2-hit OD projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; has the properties of the 1-stock HP version without spending any Sun Crests; can be canceled into from 6HP (on hit becomes KD +40, on block becomes -10 vs. standing, -9 vs. crouching); puts opponents into a limited juggle state (corner follow-ups possible if input low to the ground); 2f extra landing recovery when performed from a neutral jump; Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible); hitbox is considered both a projectile and an airborne attack (loses to both types of invuln)",
         "ja": null
       },
       "onBlock": -4,
@@ -4259,9 +4259,9 @@
         "airborne"
       ],
       "pushback": null,
-      "recovery": 10,
+      "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4311,7 +4311,7 @@
         "ja": null
       },
       "notes": {
-        "en": "3-hit OD projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; has the properties of the 2-stock HP version but only costs 1 Sun Crest; stock is consumed on frame 2; can be canceled into from 6HP (on hit becomes KD +55, on block becomes -6 vs. standing, -5 vs. crouching); launches opponents upward into a limited juggle state; Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible)",
+        "en": "3-hit OD projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; has the properties of the 2-stock HP version but only costs 1 Sun Crest; stock is consumed on frame 2; can be canceled into from 6HP (on hit becomes KD +55, on block becomes -6 vs. standing, -5 vs. crouching); launches opponents upward into a limited juggle state; 3f extra landing recovery when performed from a neutral jump; Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible); hitbox is considered both a projectile and an airborne attack (loses to both types of invuln)",
         "ja": null
       },
       "onBlock": -4,
@@ -4325,9 +4325,9 @@
         "airborne"
       ],
       "pushback": null,
-      "recovery": 8,
+      "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4377,7 +4377,7 @@
         "ja": null
       },
       "notes": {
-        "en": "4-hit OD projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; has properties greater than the 2-stock HP version or 1-stock OD version for 2 Sun Crests; stocks are consumed on frame 2 and the first active frame (only 1 stock is consumed if interrupted on startup or if Ingrid lands before active); can be canceled into from 6HP (on hit becomes KD +66, on block becomes +1 vs. standing, +2 vs. crouching); puts opponents into a free juggle OTG bounce state; if the opponent Perfect Parries and Ingrid lands before all 4 hits connect, all remaining hits will fail to come out resulting in worse frame advantage; Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible)",
+        "en": "4-hit OD projectile hitbox; can be used during Forward/Neutral jump only on frames 13-37; Ingrid will land before the projectile comes out if activated on jump frame 30-37; has properties greater than the 2-stock HP version or 1-stock OD version for 2 Sun Crests; stocks are consumed on frame 2 and the first active frame (only 1 stock is consumed if interrupted on startup or if Ingrid lands before active); can be canceled into from 6HP (on hit becomes KD +66, on block becomes +1 vs. standing, +2 vs. crouching); puts opponents into a free juggle OTG bounce state; if the opponent Perfect Parries and Ingrid lands before all 4 hits connect, all remaining hits will fail to come out resulting in worse frame advantage; Ingrid is in a crouching state on the final landing recovery frame; extends a large full-body hurtbox until Ingrid lands (lower body hurtbox is projectile invincible); hitbox is considered both a projectile and an airborne attack (loses to both types of invuln)",
         "ja": null
       },
       "onBlock": 4,
@@ -4393,7 +4393,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4459,7 +4459,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4523,7 +4523,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4587,7 +4587,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4651,7 +4651,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4715,7 +4715,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4779,7 +4779,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4843,7 +4843,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4907,7 +4907,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -4974,7 +4974,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5039,7 +5039,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5104,7 +5104,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5169,7 +5169,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5233,7 +5233,7 @@
       "pushback": null,
       "recovery": 53,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5297,7 +5297,7 @@
       "pushback": null,
       "recovery": 41,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5357,7 +5357,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5412,7 +5412,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5467,7 +5467,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-06-22T01:04:12.334Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Ingrid/Frame_data"
       },
@@ -5481,7 +5481,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-06-22T01:04:09.817Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }
