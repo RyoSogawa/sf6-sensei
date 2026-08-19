@@ -242,6 +242,39 @@ pre code {
   color: var(--text);
 }
 
+.meta-heading {
+  margin: 24px 0 8px;
+  font-size: 15px;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.data-meta {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+}
+
+.data-meta > div {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px 14px;
+}
+
+.data-meta dt {
+  color: var(--muted);
+  font-size: 13px;
+}
+
+.data-meta dd {
+  margin: 2px 0 0;
+  font-size: 16px;
+  font-variant-numeric: tabular-nums;
+}
+
 .tools {
   display: grid;
   grid-template-columns: 1fr 1fr;

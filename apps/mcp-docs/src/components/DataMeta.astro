@@ -1,0 +1,29 @@
+---
+// 配信中のビルドとデータの素性（リリース版・データ取得日・対応パッチ）を明示する。
+// 値は単一の真実から取るので、ここを手で更新することはない。
+import { APP_VERSION, GAME_PATCH } from '@repo/core/version'
+import { dataVersion } from '@repo/data'
+import { getLangFromUrl, useTranslations } from '../i18n/utils'
+
+const lang = getLangFromUrl(Astro.url)
+const t = useTranslations(lang)
+---
+
+<dl class="data-meta">
+  <div>
+    <dt>{t('meta.version')}</dt>
+    <dd>
+      <a href={`https://github.com/RyoSogawa/sf6-sensei/releases/tag/v${APP_VERSION}`}>
+        v{APP_VERSION}
+      </a>
+    </dd>
+  </div>
+  <div>
+    <dt>{t('meta.dataUpdated')}</dt>
+    <dd><time datetime={dataVersion}>{dataVersion}</time></dd>
+  </div>
+  <div>
+    <dt>{t('meta.gamePatch')}</dt>
+    <dd><time datetime={GAME_PATCH}>{GAME_PATCH}</time></dd>
+  </div>
+</dl>
