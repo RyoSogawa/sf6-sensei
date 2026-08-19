@@ -310,7 +310,7 @@ export function getCharacters(): readonly Character[] {
 }
 
 /**
- * 生成済みスナップショットの識別子（取得日 YYYY-MM-DD）。
- * スクレイパーが書き出す ISO タイムスタンプ由来なので、再スクレイプすれば自動で追従する。
+ * Identifier for the generated snapshot (fetch date, YYYY-MM-DD). Derived from the ISO
+ * timestamp the scraper writes out, so it follows along on every re-scrape.
  */
 export const dataVersion = generatedAt.slice(0, 10)

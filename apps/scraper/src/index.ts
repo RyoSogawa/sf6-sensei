@@ -798,8 +798,8 @@ export function writeCharactersData(characters: Character[], outDir: string): vo
 
   const imports = sorted.map((c) => `import ${importName(c.id)} from './${c.id}.json'`).join('\n')
   const entries = sorted.map((c) => `  ${importName(c.id)},`).join('\n')
-  // 取得日はスナップショットの識別子として @repo/data の dataVersion になる。手書きだと
-  // 再スクレイプのたびに更新し忘れて実データとずれるため、ここで必ず書き出す。
+  // Becomes dataVersion in @repo/data. Written out here rather than maintained by hand,
+  // which drifted from the actual data whenever a re-scrape forgot to update it.
   const generatedAt = sorted.reduce(
     (latest, c) => (c.source.fetchedAt > latest ? c.source.fetchedAt : latest),
     '',

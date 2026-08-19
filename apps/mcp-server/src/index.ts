@@ -202,7 +202,7 @@ function createMcpServer(): McpServer {
   return mcpServer
 }
 
-// デプロイ済みのビルドがどのバージョン・どのデータを配信しているかを外から確認できるようにする。
+// Lets the deployed build report which version and which data snapshot it is serving.
 app.get('/health', (c) =>
   c.json({ dataVersion, gamePatch: GAME_PATCH, status: 'ok', version: APP_VERSION }),
 )

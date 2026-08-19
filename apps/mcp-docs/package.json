@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "//build": "@repo/core/version と @repo/data の dist を読むので、依存を先にビルドする。Cloudflare Pages のビルドコマンドはリポジトリ外の設定なので、パッケージ側で自己完結させる。",
+    "//build": "Builds its dependencies first because the site reads the dist of @repo/core/version and @repo/data. Kept self-contained here because the Cloudflare Pages build command lives outside the repo.",
     "build": "pnpm --filter \"@repo/data...\" build && astro build",
     "dev": "astro dev",
     "preview": "astro preview"

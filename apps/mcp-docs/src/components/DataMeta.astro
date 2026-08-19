@@ -1,6 +1,6 @@
 ---
-// 配信中のビルドとデータの素性（リリース版・データ取得日・対応パッチ）を明示する。
-// 値は単一の真実から取るので、ここを手で更新することはない。
+// States what is being served: release version, data fetch date and the SF6 patch it
+// reflects. Every value comes from its single source of truth, so none is edited here.
 import { APP_VERSION, GAME_PATCH } from '@repo/core/version'
 import { dataVersion } from '@repo/data'
 import { getLangFromUrl, useTranslations } from '../i18n/utils'
