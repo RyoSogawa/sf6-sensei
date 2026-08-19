@@ -44,6 +44,12 @@ importers:
 
   apps/mcp-docs:
     dependencies:
+      '@repo/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@repo/data':
+        specifier: workspace:*
+        version: link:../../packages/data
       '@splidejs/splide':
         specifier: 4.1.4
         version: 4.1.4

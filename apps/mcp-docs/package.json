@@ -4,11 +4,14 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "astro build",
+    "//build": "Builds its dependencies first because the site reads the dist of @repo/core/version and @repo/data. Kept self-contained here because the Cloudflare Pages build command lives outside the repo.",
+    "build": "pnpm --filter \"@repo/data...\" build && astro build",
     "dev": "astro dev",
     "preview": "astro preview"
   },
   "dependencies": {
+    "@repo/core": "workspace:*",
+    "@repo/data": "workspace:*",
     "@splidejs/splide": "4.1.4",
     "alpinejs": "3.15.12",
     "astro": "6.4.6"

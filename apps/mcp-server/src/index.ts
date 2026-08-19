@@ -1,6 +1,7 @@
 import { StreamableHTTPTransport } from '@hono/mcp'
 import { McpServer } from '@modelcontextprotocol/sdk/server/mcp.js'
-import { getCharacters } from '@repo/data'
+import { APP_VERSION, GAME_PATCH } from '@repo/core/version'
+import { dataVersion, getCharacters } from '@repo/data'
 import { Hono } from 'hono'
 import { z } from 'zod'
 import {
@@ -89,7 +90,7 @@ function createMcpServer(): McpServer {
     icons: [serverIcon],
     name: 'sf6-sensei',
     title: 'SF6 Sensei',
-    version: '0.1.0',
+    version: APP_VERSION,
   })
 
   mcpServer.registerTool(
@@ -201,7 +202,10 @@ function createMcpServer(): McpServer {
   return mcpServer
 }
 
-app.get('/health', (c) => c.json({ status: 'ok' }))
+// Lets the deployed build report which version and which data snapshot it is serving.
+app.get('/health', (c) =>
+  c.json({ dataVersion, gamePatch: GAME_PATCH, status: 'ok', version: APP_VERSION }),
+)
 
 // Place the MCP endpoint at the root (/). It is served on a dedicated subdomain (sf6-sensei-mcp.*),
 // so adding /mcp to the path would be redundant (sf6-sensei-mcp.../mcp). The whole host is the MCP server, so root is canonical.

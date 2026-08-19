@@ -1,4 +1,6 @@
 ---
+import { APP_VERSION } from '@repo/core/version'
+import { dataVersion } from '@repo/data'
 import { getLangFromUrl, localizePath, useTranslations } from '../i18n/utils'
 
 const lang = getLangFromUrl(Astro.url)
@@ -11,7 +13,10 @@ const t = useTranslations(lang)
     <span>
       <a href={localizePath('terms', lang)}>{t('nav.terms')}</a> ·
       <a href={localizePath('licenses', lang)}>{t('nav.licenses')}</a> ·
-      <a href="https://github.com/RyoSogawa/sf6-sensei">{t('nav.github')}</a>
+      <a href="https://github.com/RyoSogawa/sf6-sensei">{t('nav.github')}</a> ·
+      <a href={`https://github.com/RyoSogawa/sf6-sensei/releases/tag/v${APP_VERSION}`}>
+        v{APP_VERSION}
+      </a> · {t('meta.dataUpdated')} <time datetime={dataVersion}>{dataVersion}</time>
     </span>
   </div>
 </footer>
