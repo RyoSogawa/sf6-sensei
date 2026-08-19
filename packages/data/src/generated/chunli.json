@@ -84,7 +84,7 @@
       "pushback": null,
       "recovery": 40,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -151,7 +151,7 @@
       "pushback": null,
       "recovery": 40,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -219,7 +219,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -287,7 +287,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -305,7 +305,7 @@
       "aliases": [],
       "armor": null,
       "attackRange": 2.512,
-      "blockstun": 18,
+      "blockstun": 19,
       "cancel": [
         "super"
       ],
@@ -339,10 +339,10 @@
         "ja": null
       },
       "notes": {
-        "en": "Crouching state during recovery; cannot hit cross-up; safe overhead vs. Burnout and can be spaced safely at max range depending on the opponent's 5-frame normal range; SA3 cancel does not combo (but still useful for chip damage or reacting to armor); gives a very short OTG bounce when juggled into for improved KD advantage (not enough for SA3 cancel to connect)",
+        "en": "Crouching state during recovery; cannot hit cross-up; safe overhead vs. Burnout and can be spaced safely (leniency depends heavily on the opponent's 4-frame normal range); causes a very short OTG bounce when juggled into for improved KD advantage; SA3 cancel only combos when juggled into and can be useful for chip damage or reacting to DI armor",
         "ja": null
       },
-      "onBlock": -5,
+      "onBlock": -4,
       "onHit": 21,
       "onPerfectParry": -21,
       "onPunishCounter": 21,
@@ -354,7 +354,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -422,7 +422,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -478,7 +478,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -505,9 +505,9 @@
       "driveRushCancel": null,
       "hitstop": null,
       "hitstun": null,
-      "id": "chunli__214p214p",
+      "id": "chunli__214p8",
       "input": {
-        "numpad": "214P~214P",
+        "numpad": "214P~8",
         "official": null
       },
       "invuln": null,
@@ -517,7 +517,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Input 214P again to manually exit stance (fastest total Serenity Stream time is 37f); cannot block while exiting stance; counter-hit state for entire animation; final 14f of recovery is in a standing state; 18f version occurs automatically after 14+57f (can delay by holding crouch); when Stance Exit occurs automatically after LP/LK/MK stance attacks, the total exit duration is increased and Chun can stand block before the final 18f recovery period",
+        "en": "Input Up (or another 214P) to manually exit stance (fastest total Serenity Stream time is 37f); cannot block while exiting stance; counter-hit state for entire animation; final 14f of recovery is in a standing state; 18f version occurs automatically after 14+57f (can delay by holding crouch); when Stance Exit occurs automatically after LP/LK/MK stance attacks, the total exit duration is increased and Chun can stand block before the final 18f recovery period",
         "ja": null
       },
       "onBlock": null,
@@ -529,7 +529,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -593,7 +593,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -611,7 +611,7 @@
       "aliases": [],
       "armor": null,
       "attackRange": 1.677,
-      "blockstun": 26,
+      "blockstun": 16,
       "cancel": [
         "special",
         "super"
@@ -628,11 +628,11 @@
         "gain": 1000
       },
       "driveRushCancel": {
-        "onBlock": 8,
+        "onBlock": 12,
         "onHit": 13
       },
       "hitstop": 4,
-      "hitstun": 31,
+      "hitstun": 20,
       "id": "chunli__214php",
       "input": {
         "numpad": "214P~HP",
@@ -649,10 +649,10 @@
         "ja": null
       },
       "notes": {
-        "en": "No charge required to cancel into Kikoken or Spinning Bird Kick; exits Serenity Stream upon use; only first hit is an overhead; 1-2f low profile, 1-5f crouching state; 29-42f no head hurtbox",
+        "en": "No charge required to cancel into Kikoken or Spinning Bird Kick; exits Serenity Stream upon use; only first hit is an overhead; 1-2f low profile, 1-5f crouching state; 29-42f no head hurtbox; leaves Chun-Li inside throw range after a close range block (very powerful vs. opponents in Burnout)",
         "ja": null
       },
-      "onBlock": -3,
+      "onBlock": 1,
       "onHit": 2,
       "onPerfectParry": -19,
       "onPunishCounter": 6,
@@ -663,7 +663,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -733,7 +733,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -804,7 +804,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -874,7 +874,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -938,7 +938,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -977,7 +977,7 @@
         "numpad": "22HK",
         "official": null
       },
-      "invuln": "1-10 Air",
+      "invuln": "1-10 Air, 8-9 Throw",
       "juggle": {
         "increase": "0x3,10",
         "limit": "2x3,4",
@@ -1005,7 +1005,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -1072,7 +1072,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -1139,7 +1139,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -1168,7 +1168,7 @@
       "driveGauge": {
         "dealtOnBlock": 3000,
         "dealtOnHit": 5000,
-        "gain": 1000
+        "gain": 2000
       },
       "driveRushCancel": null,
       "hitstop": 3,
@@ -1180,8 +1180,8 @@
       },
       "invuln": "1-10 Air",
       "juggle": {
-        "increase": "1,10",
-        "limit": "1,2",
+        "increase": "0,10",
+        "limit": "2,2",
         "start": "1,10"
       },
       "name": {
@@ -1189,7 +1189,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Cannot hit cross-up; the final landing recovery frame is in a crouching state",
+        "en": "Cannot hit cross-up; the final landing recovery frame is in a crouching state; builds twice as much Drive gauge as other strengths (mostly useful in anti-air scenarios, as Drive cooldown would apply in many combo routes)",
         "ja": null
       },
       "onBlock": -41,
@@ -1206,7 +1206,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -1275,7 +1275,7 @@
       "pushback": null,
       "recovery": 48,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -1342,7 +1342,7 @@
       "pushback": null,
       "recovery": 46,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -1359,7 +1359,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": 1.88,
+      "attackRange": 2.02,
       "blockstun": 37,
       "cancel": [
         "super"
@@ -1409,7 +1409,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -1426,7 +1426,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": 1.635,
+      "attackRange": 1.87,
       "blockstun": 44,
       "cancel": [
         "super"
@@ -1461,7 +1461,7 @@
         "ja": null
       },
       "notes": {
-        "en": "5 hits; can follow-up with KK on hit/block for no extra Drive cost; Counter-hit bonus advantage carries over through all hits; cannot hit cross-up; Punish Counter crumple state gives 11 frames to link a grounded hit, then an additional 23 frames to land a juggle before the opponent is knocked down; airborne Punish Counter puts the opponent into a spinning free juggle state",
+        "en": "5 hits; can follow-up with KK on hit/block for no extra Drive cost; Counter-hit bonus advantage carries over through all hits; cannot hit cross-up; Punish Counter crumple state gives 11 frames to link a grounded hit, then an additional 23 frames to land a juggle before the opponent is knocked down; airborne Punish Counter puts the opponent into a spinning free juggle state; juggles midscreen after 236HK for solid damage and corner carry",
         "ja": null
       },
       "onBlock": -3,
@@ -1476,7 +1476,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -1541,7 +1541,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -1558,7 +1558,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": 1.485,
+      "attackRange": 1.49,
       "blockstun": 28,
       "cancel": [
         "super"
@@ -1608,7 +1608,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -1625,7 +1625,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": 1.69,
+      "attackRange": 1.76,
       "blockstun": 35,
       "cancel": [
         "super"
@@ -1675,7 +1675,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -1741,7 +1741,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -1807,7 +1807,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -1873,7 +1873,7 @@
       "pushback": null,
       "recovery": 6,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -1939,7 +1939,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -2008,7 +2008,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -2083,7 +2083,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -2161,7 +2161,7 @@
       },
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -2240,7 +2240,7 @@
       },
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -2314,7 +2314,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -2389,7 +2389,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -2457,7 +2457,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -2526,7 +2526,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -2593,7 +2593,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -2660,7 +2660,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -2727,7 +2727,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -2794,7 +2794,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -2869,7 +2869,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -2929,7 +2929,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -2983,7 +2983,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -3050,7 +3050,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -3120,7 +3120,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -3195,7 +3195,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -3274,7 +3274,7 @@
       },
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -3349,7 +3349,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -3424,7 +3424,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -3489,7 +3489,7 @@
       "pushback": null,
       "recovery": 70,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -3560,7 +3560,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -3627,7 +3627,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -3691,7 +3691,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -3763,7 +3763,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -3817,7 +3817,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -3878,7 +3878,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -3944,7 +3944,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4011,7 +4011,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4077,7 +4077,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4143,7 +4143,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4209,7 +4209,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4275,7 +4275,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4345,7 +4345,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4415,7 +4415,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4484,7 +4484,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4548,7 +4548,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4614,7 +4614,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4678,7 +4678,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4742,7 +4742,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4806,7 +4806,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4866,7 +4866,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4930,7 +4930,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -4997,7 +4997,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -5057,7 +5057,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -5117,7 +5117,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -5172,7 +5172,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -5227,7 +5227,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -5280,7 +5280,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Chun-Li/Frame_data"
       },
@@ -5294,7 +5294,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-08-03T12:56:32.430Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

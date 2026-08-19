@@ -59,7 +59,7 @@
       "invuln": "1-9 Full",
       "juggle": {
         "increase": "1,1,0x3",
-        "limit": "6,6,99x3",
+        "limit": "7,7,99x3",
         "start": null
       },
       "name": {
@@ -85,7 +85,7 @@
       "pushback": null,
       "recovery": 38,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -127,7 +127,7 @@
       "invuln": "9-19 Lower Body",
       "juggle": {
         "increase": "1",
-        "limit": "5",
+        "limit": "6",
         "start": "1"
       },
       "name": {
@@ -150,7 +150,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -191,16 +191,16 @@
       },
       "invuln": "11-24 Throw",
       "juggle": {
-        "increase": "1",
-        "limit": "5",
-        "start": "1"
+        "increase": "3",
+        "limit": "3",
+        "start": "4"
       },
       "name": {
         "en": "OD Dégagé",
         "ja": null
       },
       "notes": {
-        "en": "1st active frame cannot hit crouching opponents (functionally 23f as an overhead); 1f better advantage on hit vs. crouching (allows links into 5MP/2MP for improved damage and oki); blockstun is reduced by 1f on active frames 2-3 (still -3 if stand blocked on frame 23)",
+        "en": "1st active frame cannot hit crouching opponents (functionally 23f as an overhead); 1f better advantage on hit vs. crouching (allows links into 5MP/2MP for improved damage and oki); blockstun is reduced by 1f on active frames 2-3 (still -3 if stand blocked on frame 23); puts airborne opponents into a limited juggle OTG Bounce state",
         "ja": null
       },
       "onBlock": -3,
@@ -216,7 +216,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -258,7 +258,7 @@
       "invuln": null,
       "juggle": {
         "increase": "1,1",
-        "limit": "5,6",
+        "limit": "6,7",
         "start": "1,1"
       },
       "name": {
@@ -280,7 +280,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -322,7 +322,7 @@
       "invuln": null,
       "juggle": {
         "increase": "1,1",
-        "limit": "5,6",
+        "limit": "6,7",
         "start": "1,1"
       },
       "name": {
@@ -346,7 +346,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -388,7 +388,7 @@
       "invuln": "1-13 Strike/Throw",
       "juggle": {
         "increase": "1",
-        "limit": "5",
+        "limit": "6",
         "start": "1"
       },
       "name": {
@@ -412,7 +412,7 @@
       "pushback": null,
       "recovery": 65,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -473,7 +473,7 @@
       "pushback": null,
       "recovery": 72,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -534,7 +534,7 @@
       "pushback": null,
       "recovery": 72,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -602,7 +602,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -643,10 +643,10 @@
         "numpad": "236HP",
         "official": null
       },
-      "invuln": "3-28 Projectile",
+      "invuln": "3-30 Projectile",
       "juggle": {
         "increase": null,
-        "limit": "3",
+        "limit": "6",
         "start": null
       },
       "name": {
@@ -670,7 +670,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -738,7 +738,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -806,7 +806,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -847,10 +847,10 @@
         "numpad": "236LP",
         "official": null
       },
-      "invuln": "3-21 Projectile",
+      "invuln": "3-23 Projectile",
       "juggle": {
         "increase": null,
-        "limit": "3",
+        "limit": "6",
         "start": null
       },
       "name": {
@@ -874,7 +874,7 @@
       "pushback": null,
       "recovery": 37,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -942,7 +942,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -983,10 +983,10 @@
         "numpad": "236MP",
         "official": null
       },
-      "invuln": "3-24 Projectile",
+      "invuln": "3-26 Projectile",
       "juggle": {
         "increase": null,
-        "limit": "3",
+        "limit": "6",
         "start": null
       },
       "name": {
@@ -1010,7 +1010,7 @@
       "pushback": null,
       "recovery": 34,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -1052,7 +1052,7 @@
       "invuln": "3-26 Projectile (All); 3-26 Strike (Upper/Mid Body)",
       "juggle": {
         "increase": null,
-        "limit": "3",
+        "limit": "6",
         "start": null
       },
       "name": {
@@ -1076,7 +1076,7 @@
       "pushback": null,
       "recovery": 34,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -1134,15 +1134,15 @@
         "invincible"
       ],
       "pushback": null,
-      "recovery": 32,
+      "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
       "startup": null,
       "superGauge": null,
-      "totalFrames": 32
+      "totalFrames": 27
     },
     {
       "active": "6",
@@ -1200,7 +1200,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -1256,7 +1256,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -1280,7 +1280,7 @@
       "chipDamage": 200,
       "damage": 800,
       "damageText": null,
-      "dmgScaling": "10% Immediate; 10% Starter (applies to 3rd hit)",
+      "dmgScaling": "20% Starter; 10% Immediate",
       "driveGauge": {
         "dealtOnBlock": 5000,
         "dealtOnHit": 10000,
@@ -1305,22 +1305,22 @@
         "ja": null
       },
       "notes": {
-        "en": "Startup of the initial spin depends on button strength; any invincibility from 236P is lost as soon as the kick follow-up starts (can slightly delay the follow-up to extend invincibility); cancel into SA3 is only useful if the kick is absorbed by armor; puts opponent into limited juggle state (free juggle state on Punish Counter); can be spaced to be safer in neutral",
+        "en": "Startup of the initial spin depends on button strength; any invincibility from 236P is lost as soon as the kick follow-up starts (can slightly delay the follow-up to extend invincibility); cancel into SA3 is only useful if the kick is absorbed by armor; puts opponent into limited juggle state (free juggle state on Punish Counter); can be spaced to be advantageous in neutral",
         "ja": null
       },
-      "onBlock": -5,
-      "onHit": 51,
-      "onPerfectParry": -26,
-      "onPunishCounter": 55,
+      "onBlock": -3,
+      "onHit": 53,
+      "onPerfectParry": -24,
+      "onPunishCounter": 57,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": 22,
+      "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -1329,7 +1329,7 @@
         "onBlock": 575,
         "onHit": 1150
       },
-      "totalFrames": 38
+      "totalFrames": 36
     },
     {
       "active": "2",
@@ -1387,7 +1387,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -1458,7 +1458,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -1523,7 +1523,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -1592,7 +1592,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -1670,7 +1670,7 @@
       },
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -1685,7 +1685,7 @@
       "active": "4",
       "afterDriveRush": {
         "onBlock": 2,
-        "onHit": 7
+        "onHit": 8
       },
       "airborne": null,
       "aliases": [],
@@ -1706,7 +1706,7 @@
       },
       "driveRushCancel": null,
       "hitstop": 11,
-      "hitstun": 23,
+      "hitstun": 24,
       "id": "manon__2mk",
       "input": {
         "numpad": "2MK",
@@ -1723,13 +1723,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Good range low poke that leads to combos and frame advantage when used out of Drive Rush; high pushback on hit and block; after Drive Rush, can link into 5MP at closer ranges",
+        "en": "Good range low poke that can link to 2LP point blank or 4HP out of Drive Rush or Punish Counter; high pushback on hit and block; can give limited DR pressure on block but pushes back too far for a tick throw or any frame trap besides 5LK",
         "ja": null
       },
       "onBlock": -2,
-      "onHit": 3,
+      "onHit": 4,
       "onPerfectParry": -18,
-      "onPunishCounter": 7,
+      "onPunishCounter": 8,
       "projectileSpeed": null,
       "properties": [
         "low"
@@ -1737,7 +1737,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -1811,7 +1811,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -1857,20 +1857,20 @@
       "juggle": {
         "increase": "1",
         "limit": "2",
-        "start": "1"
+        "start": "3"
       },
       "name": {
         "en": "Tomoe Derriére",
         "ja": null
       },
       "notes": {
-        "en": "Not a low attack despite the animation; works as an anti-air to to invincibility on kicking leg; puts opponents into limited juggle state; can hit cross-up; kicks airborne opponents backwards for a side switch; Punish Counter also switches sides and gives a Hard Knockdown, allowing follow-up oki; only the 1st active frame can hit grounded opponents (active frames 2-9 hit airborne)",
+        "en": "Not a low attack despite the animation; works as an anti-air to to invincibility on kicking leg; puts opponents into limited juggle state; can hit cross-up; kicks airborne opponents backwards for a side switch; Punish Counter also switches sides and puts the opponent into a limited juggle tumbling knockdown that can juggle into 2HK, SA1, or SA2; only the 1st active frame can hit grounded opponents (active frames 2-9 hit airborne)",
         "ja": null
       },
       "onBlock": -23,
       "onHit": 26,
       "onPerfectParry": -39,
-      "onPunishCounter": 36,
+      "onPunishCounter": 71,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -1880,7 +1880,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -1954,7 +1954,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2014,7 +2014,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2084,7 +2084,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2154,7 +2154,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2208,7 +2208,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2273,7 +2273,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2344,7 +2344,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2409,7 +2409,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2483,7 +2483,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2561,7 +2561,7 @@
       },
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2576,7 +2576,7 @@
       "active": "3",
       "afterDriveRush": {
         "onBlock": -1,
-        "onHit": 2
+        "onHit": 4
       },
       "airborne": null,
       "aliases": [],
@@ -2600,10 +2600,10 @@
       },
       "driveRushCancel": {
         "onBlock": 4,
-        "onHit": 7
+        "onHit": 9
       },
       "hitstop": 11,
-      "hitstun": 19,
+      "hitstun": 21,
       "id": "manon__5mk",
       "input": {
         "numpad": "5MK",
@@ -2624,9 +2624,9 @@
         "ja": null
       },
       "onBlock": -5,
-      "onHit": -2,
+      "onHit": 0,
       "onPerfectParry": -19,
-      "onPunishCounter": 2,
+      "onPunishCounter": 4,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -2635,7 +2635,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2710,7 +2710,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2771,7 +2771,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2825,7 +2825,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2834,7 +2834,7 @@
       "totalFrames": 252
     },
     {
-      "active": "2",
+      "active": "3",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
@@ -2880,9 +2880,9 @@
         "throw"
       ],
       "pushback": null,
-      "recovery": 54,
+      "recovery": 53,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2894,7 +2894,7 @@
       "totalFrames": 60
     },
     {
-      "active": "2",
+      "active": "3",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
@@ -2940,9 +2940,9 @@
         "throw"
       ],
       "pushback": null,
-      "recovery": 49,
+      "recovery": 48,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -2954,7 +2954,7 @@
       "totalFrames": 60
     },
     {
-      "active": "2",
+      "active": "3",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
@@ -3000,9 +3000,9 @@
         "throw"
       ],
       "pushback": null,
-      "recovery": 51,
+      "recovery": 50,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3014,7 +3014,7 @@
       "totalFrames": 60
     },
     {
-      "active": "2",
+      "active": "3",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
@@ -3060,9 +3060,9 @@
         "throw"
       ],
       "pushback": null,
-      "recovery": 51,
+      "recovery": 50,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3129,7 +3129,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3193,7 +3193,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3244,7 +3244,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3307,7 +3307,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3371,7 +3371,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3435,7 +3435,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3499,7 +3499,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3560,7 +3560,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3624,7 +3624,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3689,7 +3689,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3749,7 +3749,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3809,7 +3809,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3864,7 +3864,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3919,7 +3919,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Manon/Frame_data"
       },
@@ -3933,7 +3933,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-08-03T12:56:32.431Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

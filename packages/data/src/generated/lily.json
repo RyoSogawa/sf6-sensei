@@ -78,7 +78,7 @@
       "pushback": null,
       "recovery": 106,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:37.378Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -139,7 +139,7 @@
       "pushback": null,
       "recovery": 106,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:37.378Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -206,7 +206,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:37.378Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -223,7 +223,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 2.07,
       "blockstun": 21,
       "cancel": [
         "super"
@@ -248,13 +248,17 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
       "name": {
         "en": "Condor Wind (attack)",
         "ja": null
       },
       "notes": {
-        "en": "holding LP for 16f or longer results in non-attack version instead; puts airborne opponents into OTG bounce state; cancel into SA3 does not combo (only useful when absorbed by armor); cancels and self-hitstop do not occur until after the 2nd active frame; head hurtbox shrinks during active frames and the first 16 recovery frames",
+        "en": "Does not grant a Windclad Stock like the MP/HP/OD Attack versions; holding LP for 16f or longer results in non-attack version instead; puts airborne opponents into OTG bounce state (no juggle but greatly improves KD Advantage); cancel into SA3 does not combo (only useful when absorbed by armor); cancels and self-hitstop do not occur until after the 2nd active frame; head hurtbox shrinks on frames 19-38; true blockstring when canceled from 2HP/4HP/6HP and can be spaced safely against most characters",
         "ja": null
       },
       "onBlock": -8,
@@ -269,7 +273,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:37.378Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -278,6 +282,57 @@
         "onBlock": 500,
         "onHit": 1000
       },
+      "totalFrames": 47
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "lily",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "lily__214[lp]",
+      "input": {
+        "numpad": "214[LP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Condor Wind (stock)",
+        "ja": null
+      },
+      "notes": {
+        "en": "LP must be held 16f for the non-attack version to come out; starts recovery after 27 frames if LP is released or any kick button is held; Windclad stock gained on frame 46 (frames 71 and 90 if held longer); LP must be held for 59f/89f for Lv.2/Lv.3 versions (releasing too early extends the animation without building a stock); can build up to 3 Windclad stocks; stocks can be spent for enhanced versions of Condor Spire, Tomahawk Buster, or Condor Dive",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 1,
+      "source": {
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
+      },
+      "startup": 46,
+      "superGauge": null,
       "totalFrames": 47
     },
     {
@@ -336,7 +391,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:37.378Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -403,7 +458,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:37.378Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -461,64 +516,13 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:37.378Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
       "startup": 38,
       "superGauge": null,
       "totalFrames": 40
-    },
-    {
-      "active": "-",
-      "afterDriveRush": null,
-      "airborne": null,
-      "aliases": [],
-      "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
-      "category": "special",
-      "characterId": "lily",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
-      "dmgScaling": null,
-      "driveGauge": null,
-      "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
-      "id": "lily__214[lp]",
-      "input": {
-        "numpad": "214[LP]",
-        "official": null
-      },
-      "invuln": null,
-      "juggle": null,
-      "name": {
-        "en": "Condor Wind (stock)",
-        "ja": null
-      },
-      "notes": {
-        "en": "LP must be held 16f for the non-attack version to come out; starts recovery after 27 frames if LP is released or any kick button is held; Windclad stock gained on frame 46 (frames 71 and 90 if held longer); LP must be held for 59f/89f for Lv.2/Lv.3 versions (releasing too early extends the animation without building a stock); can build up to 3 Windclad stocks; stocks can be spent for enhanced versions of Condor Spire, Tomahawk Buster, or Condor Dive",
-        "ja": null
-      },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
-      "projectileSpeed": null,
-      "properties": [],
-      "pushback": null,
-      "recovery": 1,
-      "source": {
-        "fetchedAt": "2026-08-03T12:56:37.378Z",
-        "license": "CC-BY-SA",
-        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
-      },
-      "startup": 46,
-      "superGauge": null,
-      "totalFrames": 47
     },
     {
       "active": "4,3x6(9)2",
@@ -577,7 +581,7 @@
       "pushback": null,
       "recovery": 39,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:37.378Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -645,7 +649,7 @@
       "pushback": null,
       "recovery": 39,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:37.378Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -712,7 +716,7 @@
       "pushback": null,
       "recovery": 54,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:37.378Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -778,7 +782,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:37.378Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -844,7 +848,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:37.378Z",
+        "fetchedAt": "2026-08-19T04:05:27.533Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -912,7 +916,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:37.378Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -978,7 +982,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -1047,7 +1051,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -1113,7 +1117,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -1179,7 +1183,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -1248,7 +1252,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -1314,7 +1318,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -1381,7 +1385,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -1455,7 +1459,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -1524,7 +1528,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -1599,7 +1603,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -1672,7 +1676,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -1742,7 +1746,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -1802,7 +1806,7 @@
       "pushback": null,
       "recovery": 53,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -1862,7 +1866,7 @@
       "pushback": null,
       "recovery": 53,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -1922,7 +1926,7 @@
       "pushback": null,
       "recovery": 53,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -1982,7 +1986,7 @@
       "pushback": null,
       "recovery": 53,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -2050,7 +2054,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -2124,7 +2128,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -2184,7 +2188,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -2238,7 +2242,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -2303,7 +2307,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -2377,7 +2381,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -2455,7 +2459,7 @@
       },
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -2530,7 +2534,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -2604,7 +2608,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -2672,7 +2676,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -2729,7 +2733,7 @@
       "pushback": null,
       "recovery": 217,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -2793,7 +2797,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -2860,7 +2864,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -2927,7 +2931,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -2994,7 +2998,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -3061,7 +3065,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -3128,7 +3132,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -3197,7 +3201,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -3266,7 +3270,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -3341,7 +3345,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -3408,7 +3412,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -3472,7 +3476,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -3536,7 +3540,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -3601,7 +3605,7 @@
       "pushback": null,
       "recovery": 39,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -3655,7 +3659,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -3718,7 +3722,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -3786,7 +3790,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -3854,7 +3858,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -3918,7 +3922,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -3982,7 +3986,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -4046,7 +4050,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -4110,7 +4114,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -4174,7 +4178,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -4238,7 +4242,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -4306,7 +4310,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -4372,7 +4376,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -4438,7 +4442,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -4504,7 +4508,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -4572,7 +4576,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -4640,7 +4644,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -4706,7 +4710,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -4772,7 +4776,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -4832,7 +4836,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -4892,7 +4896,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -4947,7 +4951,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -5002,7 +5006,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Lily/Frame_data"
       },
@@ -5016,7 +5020,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-08-03T12:56:32.431Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

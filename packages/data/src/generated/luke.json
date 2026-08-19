@@ -40,7 +40,7 @@
       "category": "super_art",
       "characterId": "luke",
       "chipDamage": 750,
-      "damage": 2800,
+      "damage": 3000,
       "damageText": null,
       "dmgScaling": "40% Minimum",
       "driveGauge": {
@@ -67,13 +67,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Extremely fast super that works well in juggles; in the corner, gives Luke an auto-timed strike/throw mixup; on hit, the animation is not invincible until the very end (can be hit by delayed projectiles like Kimberly Spraycan or JP Amnesia orbs); Full Dmg distribution: 300x3,200x6,700",
+        "en": "Extremely fast super that works well in juggles; in the corner, gives Luke an auto-timed strike/throw/shimmy mixup; on hit, the animation is not invincible until the very end (can be hit by delayed projectiles like Kimberly Spraycan or JP Amnesia orbs); Full Dmg distribution: 300x3,200x6,900",
         "ja": null
       },
       "onBlock": -29,
-      "onHit": 2,
+      "onHit": 4,
       "onPerfectParry": -52,
-      "onPunishCounter": 2,
+      "onPunishCounter": 4,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -84,7 +84,7 @@
       "pushback": null,
       "recovery": 51,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -151,7 +151,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -218,7 +218,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -285,7 +285,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -352,7 +352,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -419,7 +419,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -486,7 +486,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -553,7 +553,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -620,7 +620,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -687,7 +687,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -754,7 +754,7 @@
       "pushback": null,
       "recovery": 39,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -816,7 +816,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -883,7 +883,7 @@
       "pushback": null,
       "recovery": 66,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -950,7 +950,7 @@
       "pushback": null,
       "recovery": 66,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -1017,7 +1017,7 @@
       "pushback": null,
       "recovery": 45,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -1069,13 +1069,13 @@
         "ja": null
       },
       "notes": {
-        "en": "1-hit projectile, travels ~91% screen length; [] refers to projectile active time",
+        "en": "1-hit projectile, travels ~91% screen length; [] refers to projectile active time; puts the opponent into a limited juggle state on Counter-hit/Punish Counter (can juggle into 623LP/SA2 deep in the corner or into SA1 from a specific range)",
         "ja": null
       },
       "onBlock": -2,
       "onHit": 3,
       "onPerfectParry": -17,
-      "onPunishCounter": 7,
+      "onPunishCounter": 38,
       "projectileSpeed": 0.12,
       "properties": [
         "low",
@@ -1084,7 +1084,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -1138,7 +1138,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -1195,7 +1195,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -1242,7 +1242,7 @@
         "ja": null
       },
       "notes": {
-        "en": "First 2 active frames can only hit airborne opponents; Luke is in a crouching state for entire recovery duration; puts opponent into limited juggle state",
+        "en": "First 2 active frames can only hit airborne opponents; Luke is in a crouching state for entire recovery duration; puts opponent into limited juggle state (airborne hit will always juggle at least as high as a grounded hit)",
         "ja": null
       },
       "onBlock": -3,
@@ -1257,7 +1257,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -1324,7 +1324,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -1389,7 +1389,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -1456,7 +1456,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -1468,7 +1468,7 @@
       "totalFrames": 37
     },
     {
-      "active": "[5]",
+      "active": "[6]",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
@@ -1508,13 +1508,13 @@
         "ja": null
       },
       "notes": {
-        "en": "1-hit projectile, travels ~48% screen length; [] refers to projectile active time",
+        "en": "1-hit projectile, travels ~50% screen length; [] refers to projectile active time; puts the opponent into a limited juggle state on Counter-hit/Punish Counter",
         "ja": null
       },
       "onBlock": -8,
       "onHit": -3,
       "onPerfectParry": -23,
-      "onPunishCounter": 1,
+      "onPunishCounter": 32,
       "projectileSpeed": 0.12,
       "properties": [
         "low",
@@ -1523,7 +1523,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -1575,13 +1575,13 @@
         "ja": null
       },
       "notes": {
-        "en": "1-hit projectile, travels ~66% screen length; [] refers to projectile active time",
+        "en": "1-hit projectile, travels ~66% screen length; [] refers to projectile active time; puts the opponent into a limited juggle state on Counter-hit/Punish Counter",
         "ja": null
       },
       "onBlock": -5,
       "onHit": 0,
       "onPerfectParry": -20,
-      "onPunishCounter": 4,
+      "onPunishCounter": 35,
       "projectileSpeed": 0.12,
       "properties": [
         "low",
@@ -1590,7 +1590,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -1657,7 +1657,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -1722,7 +1722,7 @@
       "pushback": null,
       "recovery": 42,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -1742,7 +1742,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": 1.661,
+      "attackRange": 1.761,
       "blockstun": 20,
       "cancel": [],
       "category": "normal",
@@ -1789,7 +1789,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -1863,7 +1863,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -1932,7 +1932,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -2010,7 +2010,7 @@
       },
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -2084,7 +2084,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -2146,7 +2146,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -2158,7 +2158,7 @@
       "totalFrames": 36
     },
     {
-      "active": "2",
+      "active": "3",
       "afterDriveRush": {
         "onBlock": 5,
         "onHit": 9
@@ -2205,7 +2205,7 @@
         "ja": null
       },
       "notes": {
-        "en": "3f extra recovery on whiff; great pressure tool with high reward on counter-hit or when canceled to Drive Rush; has an extended hurtbox on whiff until the end of recovery; topmost hurtbox on frames 1-7 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
+        "en": "3f extra recovery on whiff; great pressure tool with high reward on counter-hit or when canceled to Drive Rush; up to +7/+3 with meaty timing; has an extended hurtbox on whiff until the end of recovery; topmost hurtbox on frames 1-7 is vulnerable only to aerial strikes (preventing its use as an anti-air)",
         "ja": null
       },
       "onBlock": 1,
@@ -2218,9 +2218,9 @@
         "high"
       ],
       "pushback": null,
-      "recovery": 14,
+      "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -2288,7 +2288,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -2362,7 +2362,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -2422,7 +2422,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -2476,7 +2476,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -2541,7 +2541,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -2555,14 +2555,14 @@
     {
       "active": "3",
       "afterDriveRush": {
-        "onBlock": -1,
+        "onBlock": 0,
         "onHit": 5
       },
       "airborne": null,
       "aliases": [],
       "armor": null,
       "attackRange": 1.687,
-      "blockstun": 20,
+      "blockstun": 21,
       "cancel": [
         "special",
         "super"
@@ -2579,7 +2579,7 @@
         "gain": 2000
       },
       "driveRushCancel": {
-        "onBlock": 10,
+        "onBlock": 11,
         "onHit": 17
       },
       "hitstop": 13,
@@ -2600,10 +2600,10 @@
         "ja": null
       },
       "notes": {
-        "en": "Good whiff punish tool due to its long range and cancelability; extends a vertical collision box to reduce the risk of whiffing under opponent mid-juggle",
+        "en": "Good whiff punish tool due to its long range and cancelability; extends a vertical collision box to reduce the risk of whiffing under opponent mid-juggle; safe and a true blockstring when canceled into 236MP for solid Drive chip pressure",
         "ja": null
       },
-      "onBlock": -5,
+      "onBlock": -4,
       "onHit": 1,
       "onPerfectParry": -23,
       "onPunishCounter": 5,
@@ -2615,7 +2615,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -2689,7 +2689,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -2764,7 +2764,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -2831,7 +2831,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -2898,7 +2898,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -2966,7 +2966,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -3037,7 +3037,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -3104,7 +3104,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -3167,7 +3167,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -3213,22 +3213,22 @@
         "ja": null
       },
       "notes": {
-        "en": "() refers to scaled damage; full sequence builds significant Drive gauge; knockdown grants a perfect meaty Dash + 5HK (+1 on Block even vs. midscreen Back Rise)",
+        "en": "() refers to scaled damage; 3f extra recovery on block; full sequence builds significant Drive gauge; knockdown grants a perfect meaty Dash + 5HK (+1 on Block even vs. midscreen Back Rise); maintains the Punish Counter state from any of the initial TC hits (puts the opponent into a limited juggle state and sets up a KD +42 safe jump anywhere on-screen); Punish Counter juggles into SA1 midscreen as well as 623P/SA2 in the corner",
         "ja": null
       },
       "onBlock": -12,
       "onHit": 34,
       "onPerfectParry": null,
-      "onPunishCounter": 34,
+      "onPunishCounter": 42,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": 27,
+      "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -3237,7 +3237,7 @@
         "onBlock": 250,
         "onHit": 500
       },
-      "totalFrames": 39
+      "totalFrames": 36
     },
     {
       "active": "-",
@@ -3282,7 +3282,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -3304,8 +3304,8 @@
       "category": "special",
       "characterId": "luke",
       "chipDamage": 300,
-      "damage": 1200,
-      "damageText": "1200(800)",
+      "damage": 1300,
+      "damageText": "1300(800)",
       "dmgScaling": null,
       "driveGauge": {
         "dealtOnBlock": 4000,
@@ -3348,7 +3348,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -3373,8 +3373,8 @@
       "category": "special",
       "characterId": "luke",
       "chipDamage": 225,
-      "damage": 900,
-      "damageText": "900(800)",
+      "damage": 1000,
+      "damageText": "1000(800)",
       "dmgScaling": null,
       "driveGauge": {
         "dealtOnBlock": 4000,
@@ -3417,7 +3417,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -3442,8 +3442,8 @@
       "category": "special",
       "characterId": "luke",
       "chipDamage": 250,
-      "damage": 1000,
-      "damageText": "1000(800)",
+      "damage": 1100,
+      "damageText": "1100(800)",
       "dmgScaling": null,
       "driveGauge": {
         "dealtOnBlock": 4000,
@@ -3486,7 +3486,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -3553,7 +3553,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -3617,7 +3617,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -3687,7 +3687,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -3754,7 +3754,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -3818,7 +3818,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -3886,7 +3886,7 @@
       "pushback": null,
       "recovery": 34,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -3953,7 +3953,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -4007,7 +4007,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -4070,7 +4070,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -4136,7 +4136,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -4202,7 +4202,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -4268,7 +4268,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -4332,7 +4332,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -4396,7 +4396,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -4460,7 +4460,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -4521,7 +4521,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -4585,7 +4585,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -4597,7 +4597,7 @@
       "totalFrames": null
     },
     {
-      "active": "4",
+      "active": "5",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
@@ -4637,7 +4637,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Puts airborne opponents into limited juggle state; has some juggle potential; can significantly delay the cancel into j.214P, allowing unique combos after pf.214[LP]; lower body projectile invuln 9-22f (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "en": "Puts airborne opponents into limited juggle state; has some juggle potential; can significantly delay the cancel into j.214P, allowing unique combos after 214[LP] or 214PP; lower body projectile invuln 8-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
         "ja": null
       },
       "onBlock": 5,
@@ -4651,11 +4651,11 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
-      "startup": 9,
+      "startup": 8,
       "superGauge": {
         "onBlock": 250,
         "onHit": 500
@@ -4711,7 +4711,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -4771,7 +4771,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -4826,7 +4826,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -4881,7 +4881,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Luke/Frame_data"
       },
@@ -4895,7 +4895,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-08-03T12:56:32.431Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

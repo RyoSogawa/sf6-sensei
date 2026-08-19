@@ -77,7 +77,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -135,7 +135,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -158,6 +158,8 @@
       "attackRange": 1.304,
       "blockstun": 17,
       "cancel": [
+        "special",
+        "super",
         "target_combo"
       ],
       "category": "normal",
@@ -165,13 +167,16 @@
       "chipDamage": null,
       "damage": 500,
       "damageText": null,
-      "dmgScaling": null,
+      "dmgScaling": "20% Starter",
       "driveGauge": {
         "dealtOnBlock": 2500,
         "dealtOnHit": 4000,
         "gain": 1500
       },
-      "driveRushCancel": null,
+      "driveRushCancel": {
+        "onBlock": 5,
+        "onHit": 12
+      },
       "hitstop": 11,
       "hitstun": 24,
       "id": "zangief__22mk",
@@ -190,7 +195,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Can perform TC follow-ups on whiff; 2f blockstring gap between 22MK~MK TC hits",
+        "en": "Low Crush 5-9f; 2f blockstring gap between 22MK~MK TC hits; cannot perform the second hit of the TC when the first hit whiffs; acts similar to a short-range 2MK; has synergy with 5[HP] since it can counter lows at a range where they would interrupt Zangief's armor",
         "ja": null
       },
       "onBlock": -3,
@@ -204,7 +209,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -275,7 +280,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -345,7 +350,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -411,7 +416,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -478,7 +483,7 @@
       "pushback": null,
       "recovery": 52,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -545,7 +550,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -612,7 +617,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -681,7 +686,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -753,7 +758,7 @@
       },
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -828,7 +833,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -888,7 +893,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -955,7 +960,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1029,7 +1034,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1083,7 +1088,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1140,7 +1145,7 @@
       "pushback": null,
       "recovery": 54,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1200,7 +1205,7 @@
       "pushback": null,
       "recovery": 54,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1260,7 +1265,7 @@
       "pushback": null,
       "recovery": 54,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1320,7 +1325,7 @@
       "pushback": null,
       "recovery": 54,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1389,7 +1394,7 @@
       "pushback": null,
       "recovery": 40,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1449,7 +1454,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1524,7 +1529,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1584,7 +1589,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1638,7 +1643,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1704,7 +1709,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1773,7 +1778,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1842,7 +1847,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1916,7 +1921,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -1991,7 +1996,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -2051,7 +2056,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -2119,7 +2124,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -2189,7 +2194,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -2256,7 +2261,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -2321,7 +2326,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -2375,7 +2380,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -2432,7 +2437,7 @@
       "pushback": null,
       "recovery": 50,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -2493,7 +2498,7 @@
       "pushback": null,
       "recovery": 40,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -2553,7 +2558,7 @@
       "pushback": null,
       "recovery": 44,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -2576,20 +2581,20 @@
       "category": "special",
       "characterId": "zangief",
       "chipDamage": null,
-      "damage": 2900,
-      "damageText": "2900 (3335)",
+      "damage": 2600,
+      "damageText": "2600(2990) / 2900(3335)",
       "dmgScaling": "10% Immediate",
       "driveGauge": {
         "dealtOnBlock": null,
         "dealtOnHit": 10000,
-        "gain": 3250
+        "gain": 3500
       },
       "driveRushCancel": null,
       "hitstop": null,
       "hitstun": null,
-      "id": "zangief__63214k(close)",
+      "id": "zangief__63214hkor63214k(close)",
       "input": {
-        "numpad": "63214K (Close)",
+        "numpad": "63214HK or 63214K (Close)",
         "official": null
       },
       "invuln": null,
@@ -2599,7 +2604,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Only activates from close proximity; switches sides on hit; () refers to Punish Counter damage",
+        "en": "Can be activated from close proximity with LK/MK or from any range with HK; switches sides on hit; HK version deals 300 less damage but can connect from a range where Siberian Express would normally be triggered; () refers to Punish Counter damage",
         "ja": null
       },
       "onBlock": null,
@@ -2613,14 +2618,14 @@
       "pushback": null,
       "recovery": 50,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
       "startup": 10,
       "superGauge": {
         "onBlock": null,
-        "onHit": 2000
+        "onHit": 2500
       },
       "totalFrames": 61
     },
@@ -2674,7 +2679,7 @@
       "pushback": null,
       "recovery": 40,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -2734,7 +2739,7 @@
       "pushback": null,
       "recovery": 41,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -2802,7 +2807,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -2876,7 +2881,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -2943,7 +2948,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3007,7 +3012,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3064,7 +3069,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3133,7 +3138,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3187,7 +3192,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3245,7 +3250,7 @@
       "pushback": null,
       "recovery": 116,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3306,7 +3311,7 @@
       "pushback": null,
       "recovery": 116,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3372,7 +3377,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3436,7 +3441,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3501,7 +3506,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3566,7 +3571,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3632,7 +3637,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3696,7 +3701,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3761,7 +3766,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3825,7 +3830,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3889,7 +3894,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -3953,7 +3958,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -4017,7 +4022,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -4081,7 +4086,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -4141,7 +4146,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -4196,7 +4201,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -4251,7 +4256,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -4300,7 +4305,7 @@
         "ja": null
       },
       "notes": {
-        "en": "First hit can anti-air but cannot hit cross-ups; head hurtbox disappears on frames 1-5 of startup, then further shrinks hurtbox on frames 6-16; all hits (except 1st) whiff vs. crouch (only connects once on hit); can hold left/right to move during animation; cancel into SA3 is only useful vs. armor; final hit puts opponent into free juggle state (useful combo starter after stun)",
+        "en": "First hit can anti-air but cannot hit cross-ups; head hurtbox disappears on frames 1-5 of startup, then further shrinks hurtbox on frames 6-16; all hits (except 1st) whiff vs. crouch (only connects once on hit); can hold left/right to move during animation; cancel into SA3 is only useful vs. armor; final hit puts opponent into free juggle state (useful combo starter after stun); canceling into Lariat causes Zangief to move forward more quickly and expands the 2nd hit's lower hitbox for combo consistency",
         "ja": null
       },
       "onBlock": -12,
@@ -4316,7 +4321,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -4384,7 +4389,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Zangief/Frame_data"
       },
@@ -4401,7 +4406,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-08-03T12:56:32.431Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

@@ -84,7 +84,7 @@
       "pushback": null,
       "recovery": 46,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -151,7 +151,7 @@
       "pushback": null,
       "recovery": 46,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -218,7 +218,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -285,7 +285,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -352,7 +352,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -419,7 +419,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -486,7 +486,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -553,7 +553,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -570,8 +570,8 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": 1.41,
-      "blockstun": 43,
+      "attackRange": 1.71,
+      "blockstun": 16,
       "cancel": [
         "super"
       ],
@@ -579,8 +579,8 @@
       "characterId": "mai",
       "chipDamage": 50,
       "damage": 200,
-      "damageText": "200,400x2 (1000)",
-      "dmgScaling": null,
+      "damageText": "200,400,700 (1300)",
+      "dmgScaling": "40% Starter; Combo (2 hits)",
       "driveGauge": {
         "dealtOnBlock": 1000,
         "dealtOnHit": 1000,
@@ -605,13 +605,13 @@
         "ja": null
       },
       "notes": {
-        "en": "3 hits; puts opponent into a limited juggle state (free juggle state if only the final hit connects); 2nd/3rd hits (frames 30-34 and 42-46) are strike hitboxes that can dissipate 1-hit OD projectiles; 8f extra recovery on block; Super cancels always whiff or give partial animation (should always manually link the juggle afterward unless the opponent is armoring through your attack)",
+        "en": "3 hits; puts opponent into a limited juggle state (free juggle state if only the final hit connects); can juggle into 623MK/KK or SA1 in the corner, or cancel into SA2/SA3 midscreen; variable KD Advantage (+37~41) if only the 3rd hit connects (in worst case, can only juggle into 4f lights in the corner); 2nd/3rd hits (frames 30-34 and 42-46) are strike hitboxes that can dissipate 1-hit OD projectiles; good Burnout chip tool that leaves Mai +1 oB for looping pressure",
         "ja": null
       },
-      "onBlock": -12,
-      "onHit": 48,
-      "onPerfectParry": -27,
-      "onPunishCounter": 48,
+      "onBlock": -3,
+      "onHit": 39,
+      "onPerfectParry": -19,
+      "onPunishCounter": 39,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -620,7 +620,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -637,8 +637,8 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": 1.41,
-      "blockstun": 43,
+      "attackRange": 1.71,
+      "blockstun": 16,
       "cancel": [
         "super"
       ],
@@ -646,8 +646,8 @@
       "characterId": "mai",
       "chipDamage": 50,
       "damage": 200,
-      "damageText": "200,450x2 (1100)",
-      "dmgScaling": null,
+      "damageText": "200,450,750 (1400)",
+      "dmgScaling": "40% Starter; Combo (2 hits)",
       "driveGauge": {
         "dealtOnBlock": 1000,
         "dealtOnHit": 1000,
@@ -663,7 +663,7 @@
       },
       "invuln": null,
       "juggle": {
-        "increase": "0,0,1",
+        "increase": "0,0,0",
         "limit": "1,2,3",
         "start": "0,0,0"
       },
@@ -672,13 +672,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Enhanced version that costs 1 Flame Stock; 3 hits; puts opponent into a limited juggle state (free juggle state if only the final hit connects); allows more lenient juggle routes than non-flame version (Juggle Increase of 1 instead of 2); 2nd/3rd hits (frames 30-34 and 42-46) are strike hitboxes that can dissipate 1-hit OD projectiles; 8f extra recovery on block; Super cancels always whiff or give partial animation (should always manually link the juggle afterward unless the opponent is armoring through your attack)",
+        "en": "Enhanced version that costs 1 Flame Stock; 3 hits; puts opponent into a free juggle state (can only combo into a canceled SA2/SA3 midscreen); causes a wall splat in the corner (KD +61~82, higher advantage from farther away or when opponent is at the peak of their launch arc); much shorter wall splat time if performed twice in the same combo; variable KD Advantage (+37~41) if only the 3rd hit connects midscreen; 2nd/3rd hits (frames 30-34 and 42-46) are strike hitboxes that can dissipate 1-hit OD projectiles; good Burnout chip tool that leaves Mai +1 oB for looping pressure",
         "ja": null
       },
-      "onBlock": -12,
-      "onHit": 48,
-      "onPerfectParry": -27,
-      "onPunishCounter": 48,
+      "onBlock": -3,
+      "onHit": 39,
+      "onPerfectParry": -19,
+      "onPunishCounter": 39,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -687,7 +687,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -754,7 +754,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -821,7 +821,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -860,7 +860,7 @@
         "numpad": "236236P",
         "official": null
       },
-      "invuln": "1-8 Strike/Throw, 9-39 Air (Upper Body)",
+      "invuln": "1-39 Air",
       "juggle": {
         "increase": "1x7,99",
         "limit": "99",
@@ -871,7 +871,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Grants Mai 5 flame stocks on the last frame of recovery; flame stocks enhance special moves and SA1/SA2 (stocks do not carry over between rounds); short horizontal range but has a good anti-air hitbox that hits on both sides; KD advantage refers to grounded hit (higher advantage vs. airborne but also variable); 8-hit projectile, but Perfect Parry only incurs 1 recovery frame per hit (allows the opponent to interrupt between hits after one Perfect Parry); this projectile hitbox can cause it to lose to projectile invuln options when used as a reversal; on hit/block, the last 2 projectile hits have 1 active frame each, occurring consecutively (the remaining frames are converted to \"recovery frames\")",
+        "en": "Grants Mai 5 flame stocks on the last frame of recovery; flame stocks enhance special moves and SA1/SA2 (stocks do not carry over between rounds); short horizontal range but has a good anti-air hitbox that hits on both sides; KD advantage refers to grounded hit (higher advantage vs. airborne but also variable); 8-hit projectile, but Perfect Parry only incurs 1 recovery frame per hit (allows the opponent to interrupt between hits after one Perfect Parry); on hit/block, the last 2 projectile hits have 1 active frame each, occurring consecutively (the remaining frames are converted to \"recovery frames\")",
         "ja": null
       },
       "onBlock": -31,
@@ -888,7 +888,7 @@
       "pushback": null,
       "recovery": 51,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -927,7 +927,7 @@
         "numpad": "236236P",
         "official": null
       },
-      "invuln": "1-6 Strike/Throw, 7-77 Air (Upper Body)",
+      "invuln": "1-77 Air",
       "juggle": {
         "increase": "0x11,30",
         "limit": "29",
@@ -938,7 +938,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Refills Mai's flame stock count to 5 on the last frame of recovery; flame stocks enhance special moves and SA1/SA2 (stocks do not carry over between rounds); flame-enhanced version has a wider hitbox in both directions and grants better oki; KD advantage refers to grounded hit (higher advantage vs. airborne but also variable); short horizontal range but has a good anti-air hitbox that hits on both sides; puts the opponent into a limited juggle state; 12-hit projectile, but Perfect Parry only incurs 1 recovery frame per hit (allows the opponent to interrupt between hits after one Perfect Parry); this projectile hitbox can cause it to lose to projectile invuln options when used as a reversal; on hit/block, the last projectile hit has 1 active frame, converting the remaining 2 active frames to \"recovery frames\"",
+        "en": "Refills Mai's flame stock count to 5 on the last frame of recovery; flame stocks enhance special moves and SA1/SA2 (stocks do not carry over between rounds); flame-enhanced version has a wider hitbox in both directions and grants better oki; KD advantage refers to grounded hit (higher advantage vs. airborne but also variable); short horizontal range but has a good anti-air hitbox that hits on both sides; puts the opponent into a limited juggle state; 12-hit projectile, but Perfect Parry only incurs 1 recovery frame per hit (allows the opponent to interrupt between hits after one Perfect Parry); on hit/block, the last projectile hit has 1 active frame, converting the remaining 2 active frames to \"recovery frames\"",
         "ja": null
       },
       "onBlock": -26,
@@ -955,7 +955,7 @@
       "pushback": null,
       "recovery": 46,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -1022,7 +1022,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -1089,7 +1089,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -1156,7 +1156,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -1223,7 +1223,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -1291,7 +1291,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -1359,7 +1359,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -1426,7 +1426,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -1493,7 +1493,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -1560,7 +1560,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -1627,7 +1627,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -1694,7 +1694,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -1761,7 +1761,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -1828,7 +1828,7 @@
       "pushback": null,
       "recovery": 34,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -1895,7 +1895,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -1962,7 +1962,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -2029,7 +2029,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -2096,7 +2096,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -2163,7 +2163,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -2228,7 +2228,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -2293,7 +2293,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -2360,7 +2360,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -2427,7 +2427,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -2494,7 +2494,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -2514,7 +2514,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": 1.605,
+      "attackRange": 1.705,
       "blockstun": 29,
       "cancel": [],
       "category": "normal",
@@ -2547,7 +2547,7 @@
         "ja": null
       },
       "notes": {
-        "en": "2 hits; first hit has great hitbox priority for counter-poking and pulls the opponent closer on hit/block; useful as an approach or combo extension with Drive Rush; Counter-hit/Punish Counter advantage carries through both hits",
+        "en": "2 hits; first hit has great hitbox priority for counter-poking and pulls the opponent closer on hit/block; Counter-hit/Punish Counter advantage carries through both hits; pushback on block ensures Mai is always out of throw range (except vs. Marisa/Zangief, but Mai can walk back to escape a reversal throw); if DR~2HP is blocked, Mai is still out of throw range and cannot convert from a 2LK chain starter",
         "ja": null
       },
       "onBlock": -3,
@@ -2562,7 +2562,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -2631,7 +2631,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -2709,7 +2709,7 @@
       },
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -2782,7 +2782,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -2856,7 +2856,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -2926,7 +2926,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -2991,7 +2991,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -3051,7 +3051,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -3116,7 +3116,7 @@
       "pushback": null,
       "recovery": 213,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -3182,7 +3182,7 @@
       "pushback": null,
       "recovery": 213,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -3250,7 +3250,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -3324,7 +3324,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -3402,7 +3402,7 @@
       },
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -3469,7 +3469,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -3538,7 +3538,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -3616,7 +3616,7 @@
       },
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -3684,7 +3684,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -3743,7 +3743,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Great range for a cancelable poke; solid hitbox priority; important combo tool from Punish Counter 2LP (works from max range); has an extended hurtbox on whiff until the end of recovery",
+        "en": "Great range for a cancelable poke; 2f extra recovery on whiff; solid hitbox priority; important combo tool from Punish Counter 2LP (works from max range); has an extended body hurtbox on whiff until the end of recovery and an extended arm hurtbox until frame 15 of recovery",
         "ja": null
       },
       "onBlock": -3,
@@ -3758,7 +3758,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -3812,7 +3812,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -3863,7 +3863,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -3927,7 +3927,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -3994,7 +3994,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4061,7 +4061,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4128,7 +4128,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4195,7 +4195,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4262,7 +4262,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4329,7 +4329,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4396,7 +4396,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4463,7 +4463,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4527,7 +4527,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4591,7 +4591,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4645,7 +4645,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4708,7 +4708,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4774,7 +4774,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4842,7 +4842,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4910,7 +4910,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4935,7 +4935,7 @@
       "chipDamage": 275,
       "damage": 1100,
       "damageText": null,
-      "dmgScaling": null,
+      "dmgScaling": "30% Starter",
       "driveGauge": {
         "dealtOnBlock": 4000,
         "dealtOnHit": 5000,
@@ -4960,13 +4960,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Can only be performed during Forward Jump or after 5LK~LK~LK; enhanced version with better frame advantage and damage; 7f extra landing recovery on whiff (10f extra when crossing behind the opponent); Mai is in a crouching state on the final frame of landing recovery (can affect punish routes); puts grounded opponents into limited juggle state; spike knockdown vs. airborne opponents that causes a very quick OTG bounce state (allows juggle into held 236PP with specific air-to-air timing); cannot hit cross-up; solid hitbox for a divekick but very unsafe if whiffed",
+        "en": "Can only be performed during Forward Jump or after 5LK~LK~LK; enhanced version with better frame advantage and damage (juggle follow-ups are the same as the normal OD version); 7f extra landing recovery on whiff (10f extra when crossing behind the opponent); Mai is in a crouching state on the final frame of landing recovery (can affect punish routes); puts grounded opponents into limited juggle state; spike knockdown vs. airborne opponents that causes a very quick OTG bounce state (allows juggle into held 236PP with specific air-to-air timing); cannot hit cross-up; solid hitbox for a divekick but very unsafe if whiffed",
         "ja": null
       },
       "onBlock": -5,
-      "onHit": 39,
+      "onHit": 44,
       "onPerfectParry": -24,
-      "onPunishCounter": 39,
+      "onPunishCounter": 44,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -4976,7 +4976,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -4999,8 +4999,8 @@
       "category": "super_art",
       "characterId": "mai",
       "chipDamage": 150,
-      "damage": 500,
-      "damageText": "500x4,800 (2800)",
+      "damage": 250,
+      "damageText": "250x4,1800 (2800/3360)",
       "dmgScaling": "40% Minimum; Combo (2 hits)",
       "driveGauge": {
         "dealtOnBlock": 1000,
@@ -5026,7 +5026,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Can be input during forward or neutral jump; good air-to-air and combo tool; no invincibility of any kind, but can be very effective against projectiles when input at minimum height with a Tiger Knee motion (2362369K); deals less damage from long range due to earlier hits whiffing; frame advantage varies drastically depending on the height and distance it connects; very likely to fly over the opponent on block unless they are fully cornered; cannot hit cross-up",
+        "en": "Can be input during forward or neutral jump; deals 20% more damage on counter-hit/Punish Counter (3360 damage / 300x4,2160); good air-to-air and combo tool; no invincibility of any kind, but can be very effective against projectiles when input at minimum height with a Tiger Knee motion (2362369K); deals less damage from long range due to earlier hits whiffing; frame advantage varies drastically depending on the height and distance it connects; very likely to fly over the opponent on block unless they are fully cornered; cannot hit cross-up",
         "ja": null
       },
       "onBlock": -50,
@@ -5043,7 +5043,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -5066,8 +5066,8 @@
       "category": "super_art",
       "characterId": "mai",
       "chipDamage": 50,
-      "damage": 200,
-      "damageText": "200x11,800 (3000)",
+      "damage": 100,
+      "damageText": "100x11,1900 (3000/3600)",
       "dmgScaling": "40% Minimum; Combo (2 hits)",
       "driveGauge": {
         "dealtOnBlock": 410,
@@ -5093,7 +5093,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Enhanced version that costs 1 Flame Stock; can be input during forward or neutral jump; good air-to-air and combo tool; no invincibility of any kind, but can be very effective against projectiles when input at minimum height with a Tiger Knee motion (2362369K); deals less damage from long range due to earlier hits whiffing; frame advantage varies drastically depending on the height and distance it connects; very likely to fly over the opponent on block unless they are fully cornered; cannot hit cross-up",
+        "en": "Enhanced version that costs 1 Flame Stock; can be input during forward or neutral jump; deals 20% more damage on counter-hit/Punish Counter (3600 damage / 120x11,2280); good air-to-air and combo tool; no invincibility of any kind, but can be very effective against projectiles when input at minimum height with a Tiger Knee motion (2362369K); deals less damage from long range due to earlier hits whiffing; frame advantage varies drastically depending on the height and distance it connects; very likely to fly over the opponent on block unless they are fully cornered; cannot hit cross-up",
         "ja": null
       },
       "onBlock": -50,
@@ -5110,7 +5110,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -5174,7 +5174,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -5238,7 +5238,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -5302,7 +5302,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -5366,7 +5366,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -5426,7 +5426,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -5490,7 +5490,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -5543,7 +5543,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Puts airborne opponents into limited juggle state; strong air-to-air hitbox; lower body projectile invuln 7-22f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "en": "Puts airborne opponents into limited juggle state; strong air-to-air hitbox; important juggle tool after 236KK launch (allows midscreen juggles into SA1); lower body projectile invuln 7-22f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
         "ja": null
       },
       "onBlock": 3,
@@ -5557,7 +5557,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -5617,7 +5617,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -5677,7 +5677,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -5732,7 +5732,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -5787,7 +5787,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Mai/Frame_data"
       },
@@ -5801,7 +5801,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-08-03T12:56:32.431Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

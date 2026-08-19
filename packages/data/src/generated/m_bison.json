@@ -84,7 +84,7 @@
       "pushback": null,
       "recovery": 52,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -152,7 +152,7 @@
       "pushback": null,
       "recovery": 48,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -219,7 +219,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -286,7 +286,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -353,7 +353,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -420,7 +420,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -487,7 +487,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -554,7 +554,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -621,7 +621,7 @@
       "pushback": null,
       "recovery": 44,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -647,7 +647,7 @@
       "characterId": "m_bison",
       "chipDamage": 100,
       "damage": 400,
-      "damageText": "400,500,400x2 (1700)",
+      "damageText": "400,500,400,500 (1800)",
       "dmgScaling": null,
       "driveGauge": {
         "dealtOnBlock": 3000,
@@ -673,13 +673,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Detonates Psycho Mine on hit/block; Mine detonation does not count as a hit for damage scaling; launches opponent into a limited juggle state that allows follow-up juggles; 3rd hit triggers Mine detonation even on Perfect Parry (punishable 5f gap before explosion hits); does not let Bison maintain block pressure like the meterless versions; can be timed to plant another Psycho Mine if the previous one detonates during this attack's hitstun",
+        "en": "Detonates Psycho Mine on hit/block; Mine detonation does not count as a hit for damage scaling; launches opponent into a limited juggle state that allows follow-up juggles (most notably 214HP for another Mine or 236KK for extended juggles); 3rd hit triggers Mine detonation even on Perfect Parry (punishable 5f gap before explosion hits); does not let Bison maintain block pressure like the meterless versions; can be timed to plant another Psycho Mine if the previous one detonates during this attack's hitstun",
         "ja": null
       },
       "onBlock": -3,
-      "onHit": 48,
+      "onHit": 55,
       "onPerfectParry": -6,
-      "onPunishCounter": 48,
+      "onPunishCounter": 55,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -688,7 +688,7 @@
       "pushback": null,
       "recovery": 44,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -755,7 +755,7 @@
       "pushback": null,
       "recovery": 62,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -822,7 +822,7 @@
       "pushback": null,
       "recovery": 65,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -889,7 +889,7 @@
       "pushback": null,
       "recovery": 65,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -956,7 +956,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1023,7 +1023,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1090,7 +1090,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1157,7 +1157,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1213,7 +1213,7 @@
       "pushback": null,
       "recovery": 4,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1224,7 +1224,7 @@
     {
       "active": "-",
       "afterDriveRush": null,
-      "airborne": "9-50 (FKD)",
+      "airborne": "9-49 (FKD)",
       "aliases": [],
       "armor": null,
       "attackRange": null,
@@ -1256,7 +1256,7 @@
         "ja": null
       },
       "notes": {
-        "en": "40f charge time (charge lasts 10f after releasing down direction); automatically tracks opponent's location; follow-ups will become their respective OD versions without spending additional Drive gauge; Bison is in a crouching state on the final landing recovery frame",
+        "en": "40f charge time (charge lasts 10f after releasing down direction); automatically tracks opponent's location; horizontal travel speed depends on distance from opponent (much faster than HK Shadow Rise when used from longer ranges); follow-ups will become their respective OD versions without spending additional Drive gauge; Bison is in a crouching state on the final landing recovery frame",
         "ja": null
       },
       "onBlock": null,
@@ -1271,13 +1271,13 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
       "startup": 16,
       "superGauge": null,
-      "totalFrames": 55
+      "totalFrames": 54
     },
     {
       "active": "until land",
@@ -1318,7 +1318,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Can also be input after meterless Shadow Rise; transitions to cinematic follow-up on grounded hit (causing Psycho Mine to disappear); lands near opponent on block (does not bounce like meterless version); puts airborne opponents into limited juggle OTG state, dealing 800 less damage",
+        "en": "Can also be input after meterless Shadow Rise; transitions to cinematic follow-up on grounded hit (causing Psycho Mine to disappear); lands near opponent on block (does not bounce like meterless version); puts airborne opponents into limited juggle OTG state, dealing 800 less damage; can get better block advantage by inputting as late as possible before landing",
         "ja": null
       },
       "onBlock": 4,
@@ -1333,7 +1333,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1398,7 +1398,7 @@
       "pushback": null,
       "recovery": 5,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1463,7 +1463,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1528,7 +1528,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1593,7 +1593,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1658,7 +1658,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1723,7 +1723,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1790,7 +1790,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1864,7 +1864,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -1933,7 +1933,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2011,7 +2011,7 @@
       },
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2084,7 +2084,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2158,7 +2158,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2225,7 +2225,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2294,7 +2294,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2363,7 +2363,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2432,7 +2432,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2501,7 +2501,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2570,7 +2570,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2639,7 +2639,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2708,7 +2708,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2775,7 +2775,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2849,7 +2849,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2909,7 +2909,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -2965,7 +2965,7 @@
       "pushback": null,
       "recovery": 43,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3016,7 +3016,7 @@
       "pushback": null,
       "recovery": 202,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3081,7 +3081,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3119,7 +3119,7 @@
       },
       "driveRushCancel": null,
       "hitstop": 13,
-      "hitstun": 24,
+      "hitstun": 25,
       "id": "m_bison__5hp",
       "input": {
         "numpad": "5HP",
@@ -3136,11 +3136,11 @@
         "ja": null
       },
       "notes": {
-        "en": "Slow advancing poke with good hitbox priority; 3f extra recovery on whiff/armor; can be spaced for better frame advantage; can be hitconfirmed into Super; slams airborne opponents down into limited juggle OTG state (higher bounce on Punish Counter allows more juggle follow-ups); extends a hurtbox 1f before active that is vulnerable to projectiles",
+        "en": "Slow advancing poke with good hitbox priority; 3f extra recovery on whiff/armor; can be spaced for better frame advantage (but gains no links at this range due to pushback); can be hitconfirmed into Super; slams airborne opponents down into limited juggle OTG state (higher bounce on Punish Counter allows more juggle follow-ups); extends a hurtbox 1f before active that is vulnerable to projectiles",
         "ja": null
       },
       "onBlock": 1,
-      "onHit": 4,
+      "onHit": 5,
       "onPerfectParry": -18,
       "onPunishCounter": 17,
       "projectileSpeed": null,
@@ -3151,7 +3151,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3228,7 +3228,7 @@
       },
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3303,7 +3303,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3371,7 +3371,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3446,7 +3446,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3510,7 +3510,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3574,7 +3574,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3628,7 +3628,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3679,7 +3679,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3730,7 +3730,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3793,7 +3793,7 @@
       "pushback": null,
       "recovery": 47,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3860,7 +3860,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3927,7 +3927,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -3991,7 +3991,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4042,7 +4042,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4104,7 +4104,7 @@
       "pushback": null,
       "recovery": 150,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4170,7 +4170,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4234,7 +4234,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4298,7 +4298,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4362,7 +4362,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4426,7 +4426,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4490,7 +4490,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4556,7 +4556,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4621,7 +4621,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4681,7 +4681,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4741,7 +4741,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4796,7 +4796,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4851,7 +4851,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4882,9 +4882,9 @@
       "driveRushCancel": null,
       "hitstop": 5,
       "hitstun": null,
-      "id": "m_bison__-",
+      "id": "m_bison__214pdetonation",
       "input": {
-        "numpad": "-",
+        "numpad": "214P Detonation",
         "official": null
       },
       "invuln": null,
@@ -4898,7 +4898,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Projectile hitbox (can be avoided with projectile invuln moves, including some with upper-body invuln); Mine dissipates if Bison is hit; explosion happens automatically 300f after a mine has been planted by the 2nd hit of Backfist Combo; also triggered by Psycho Crusher, Backfist Combo, and Devil Reverse on hit/block (only Backfist Combo triggers the detonation on Perfect Parry); explosion puts opponent into free juggle state or maintains existing juggle state; performing Forward Taunt causes Bison to start a countdown to trigger the explosion; explosion only counts as a hit for damage scaling when the timer expires (not when automatically activated from a special move)",
+        "en": "Projectile hitbox (can be avoided with projectile invuln moves, including some with upper-body invuln); Mine dissipates if Bison is hit; explosion happens automatically 300f after a mine has been planted by the 2nd hit of Backfist Combo; also triggered by Psycho Crusher, Backfist Combo, and Devil Reverse on hit/block (only Backfist Combo triggers the detonation on Perfect Parry); explosion puts opponent into free juggle state or maintains existing juggle state; performing Forward Taunt causes Bison to start a countdown to trigger the explosion; explosion only counts as a hit for damage scaling when the timer expires (not when automatically activated from a special move); deals increased Drive Damage on block (5000) if detonated with Backfist Combo or Devil Reverse",
         "ja": null
       },
       "onBlock": null,
@@ -4913,7 +4913,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.196Z",
+        "fetchedAt": "2026-08-19T04:05:28.060Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/M.Bison/Frame_data"
       },
@@ -4930,7 +4930,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-08-03T12:56:32.431Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

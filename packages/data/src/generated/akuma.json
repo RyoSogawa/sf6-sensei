@@ -84,7 +84,7 @@
       "pushback": null,
       "recovery": 88,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -151,7 +151,7 @@
       "pushback": null,
       "recovery": 52,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -217,7 +217,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -284,7 +284,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -351,7 +351,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -369,7 +369,7 @@
       "aliases": [],
       "armor": null,
       "attackRange": null,
-      "blockstun": 34,
+      "blockstun": 16,
       "cancel": [],
       "category": "special",
       "characterId": "akuma",
@@ -401,7 +401,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Whiffs on crouching opponents; if 1st hit is stand blocked, opponent can crouch block after 2nd hit resulting in much worse disadvantage; cannot hit cross-up; puts opponent into limited juggle state (combos into 623LP/MP/PP); performs final kick on hit only",
+        "en": "Crouching opponents can only be hit by active frame 4 on the 1st hit (prevents it from comboing naturally from light normals vs. crouching); () refers to disadvantage when crouching on Block or Perfect Parry; if 1st hit is stand blocked, opponent can crouch block after 2nd hit resulting in -29 on Block; cannot hit cross-up; puts opponent into limited juggle state (combos into 623LP/MP/PP); performs final kick on hit only",
         "ja": null
       },
       "onBlock": -17,
@@ -417,7 +417,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -483,7 +483,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -550,7 +550,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -617,7 +617,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -684,7 +684,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -751,7 +751,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -818,7 +818,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -885,7 +885,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -952,7 +952,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1019,7 +1019,7 @@
       "pushback": null,
       "recovery": 41,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1086,7 +1086,7 @@
       "pushback": null,
       "recovery": 58,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1153,7 +1153,7 @@
       "pushback": null,
       "recovery": 58,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1220,7 +1220,7 @@
       "pushback": null,
       "recovery": 96,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1287,7 +1287,7 @@
       "pushback": null,
       "recovery": 34,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1343,7 +1343,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1400,7 +1400,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1453,7 +1453,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1514,7 +1514,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1580,7 +1580,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1646,7 +1646,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1710,7 +1710,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1775,7 +1775,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1831,7 +1831,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1894,7 +1894,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -1958,7 +1958,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -2023,7 +2023,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -2090,7 +2090,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -2157,7 +2157,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -2224,7 +2224,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -2242,7 +2242,7 @@
       "aliases": [],
       "armor": null,
       "attackRange": null,
-      "blockstun": 42,
+      "blockstun": 43,
       "cancel": [
         "super"
       ],
@@ -2276,10 +2276,10 @@
         "ja": null
       },
       "notes": {
-        "en": "4-hit OD projectile; 5f extra recovery if projectile does not make contact within the first 21 active frames; buttons must be held 24f to perform full charge; puts opponents into limited juggle state; extended arm hurtbox is projectile invuln while charging; has an extended leg hurtbox on frames 10~",
+        "en": "4-hit OD projectile; 5f extra recovery if projectile does not make contact within the first 21 active frames; buttons must be held 24f to perform full charge; puts opponents into limited juggle state; Akuma can dash forward on block for a +2 strike/throw mixup; extended arm hurtbox is projectile invuln while charging; has an extended leg hurtbox on frames 10~",
         "ja": null
       },
-      "onBlock": 20,
+      "onBlock": 21,
       "onHit": 69,
       "onPerfectParry": 22,
       "onPunishCounter": 69,
@@ -2291,7 +2291,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -2309,7 +2309,7 @@
       "aliases": [],
       "armor": null,
       "attackRange": null,
-      "blockstun": 42,
+      "blockstun": 43,
       "cancel": [
         "super"
       ],
@@ -2343,10 +2343,10 @@
         "ja": null
       },
       "notes": {
-        "en": "4-hit projectile; 5f extra recovery if projectile does not make contact within the first 21 active frames; projectile speed depends on button strength; button must be held 49f to perform full charge; puts opponents into limited juggle state; extended arm hurtbox is projectile invuln while charging; has an extended leg hurtbox on frames 13~",
+        "en": "4-hit projectile; 5f extra recovery if projectile does not make contact within the first 21 active frames; projectile speed depends on button strength; button must be held 49f to perform full charge; puts opponents into limited juggle state; Akuma can dash forward on block for a +2 strike/throw mixup; extended arm hurtbox is projectile invuln while charging; has an extended leg hurtbox on frames 13~",
         "ja": null
       },
-      "onBlock": 20,
+      "onBlock": 21,
       "onHit": 69,
       "onPerfectParry": 22,
       "onPunishCounter": 69,
@@ -2358,7 +2358,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -2425,7 +2425,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -2492,7 +2492,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -2566,7 +2566,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -2635,7 +2635,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -2713,7 +2713,7 @@
       },
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -2786,7 +2786,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -2860,7 +2860,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -2914,7 +2914,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -2985,7 +2985,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -3039,7 +3039,7 @@
       "pushback": null,
       "recovery": 49,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -3096,7 +3096,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -3150,7 +3150,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -3201,7 +3201,7 @@
       "pushback": null,
       "recovery": 186,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -3269,7 +3269,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -3343,7 +3343,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -3417,7 +3417,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -3495,7 +3495,7 @@
       },
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -3570,7 +3570,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -3634,7 +3634,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -3709,7 +3709,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -3780,7 +3780,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -3834,7 +3834,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -3900,7 +3900,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -3969,7 +3969,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4038,7 +4038,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4105,7 +4105,7 @@
       "pushback": null,
       "recovery": 37,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4160,7 +4160,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Solid poke with easy hitconfirm timing; TC follow-up is always a true blockstring even at max delay; more damaging than 5HK when used mid-combo due to lack of damage scaling; useful out of Drive Rush for long-range oki (e.g. after midscreen throw); extends a wider hurtbox until the end of recovery",
+        "en": "Solid poke with easy hitconfirm timing; TC follow-up is always a true blockstring even at max delay; more damaging than 5HK when used mid-combo due to lack of damage scaling; useful out of Drive Rush for long-range oki (e.g. after midscreen throw); strong whiff punish tool that can link to 2HP at close range or 2MK from nearly any range; extends a wider hurtbox until the end of recovery",
         "ja": null
       },
       "onBlock": -3,
@@ -4175,7 +4175,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4242,7 +4242,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4306,7 +4306,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4370,7 +4370,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4435,7 +4435,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4491,7 +4491,7 @@
       "pushback": null,
       "recovery": 51,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4534,7 +4534,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Total startup 31-45f depending on input timing; can be activated even after passing through opponent; 1.076 Range does not including 6KKK travel distance (maximum total range of 3.697)",
+        "en": "Total startup 29-45f depending on input timing; can be activated even after passing through opponent; 1.076 Range does not including 6KKK travel distance (maximum total range of 3.697)",
         "ja": null
       },
       "onBlock": null,
@@ -4548,7 +4548,7 @@
       "pushback": null,
       "recovery": 50,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4557,7 +4557,7 @@
         "onBlock": null,
         "onHit": 3000
       },
-      "totalFrames": 83
+      "totalFrames": 81
     },
     {
       "active": "3",
@@ -4616,7 +4616,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4683,7 +4683,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4737,7 +4737,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4800,7 +4800,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4866,7 +4866,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4930,7 +4930,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -4996,7 +4996,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5063,7 +5063,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5129,7 +5129,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5195,7 +5195,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5260,7 +5260,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5324,7 +5324,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5388,7 +5388,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5452,7 +5452,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5516,7 +5516,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5580,7 +5580,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5647,7 +5647,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5707,7 +5707,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5769,7 +5769,7 @@
       "pushback": null,
       "recovery": 57,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5829,7 +5829,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5884,7 +5884,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5939,7 +5939,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:34.830Z",
+        "fetchedAt": "2026-08-19T04:05:26.479Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Akuma/Frame_data"
       },
@@ -5953,7 +5953,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-08-03T12:56:32.430Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

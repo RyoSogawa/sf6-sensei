@@ -84,7 +84,7 @@
       "pushback": null,
       "recovery": 48,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -151,7 +151,7 @@
       "pushback": null,
       "recovery": 48,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -218,7 +218,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -272,7 +272,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -334,7 +334,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -390,7 +390,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -441,7 +441,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -506,7 +506,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -572,7 +572,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -611,7 +611,7 @@
         "numpad": "214KK~MK",
         "official": null
       },
-      "invuln": null,
+      "invuln": "10-22 Throw",
       "juggle": {
         "increase": "4",
         "limit": "10",
@@ -631,12 +631,13 @@
       "onPunishCounter": 10,
       "projectileSpeed": null,
       "properties": [
-        "high"
+        "high",
+        "invincible"
       ],
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -692,7 +693,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -743,7 +744,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -808,7 +809,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -874,7 +875,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -913,7 +914,7 @@
         "numpad": "214K~MK",
         "official": null
       },
-      "invuln": null,
+      "invuln": "12-26 Throw",
       "juggle": {
         "increase": "1",
         "limit": "10",
@@ -933,12 +934,13 @@
       "onPunishCounter": 51,
       "projectileSpeed": null,
       "properties": [
-        "high"
+        "high",
+        "invincible"
       ],
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1005,7 +1007,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1072,7 +1074,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1124,13 +1126,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Damage Distribution: 100x12,150x3,200,650; () refers to damage on high juggle; combo/juggle tool; only combos naturally from 5HP or 4HK (1st hit), or from 2MP after Punish Counter or Drive Rush; doesn't play out full animation on block or on high juggle connect; cancel occurs on 1st or 2nd to last hit; Punish Counter Drive dmg refers to before and after Super cancelable hit; good anti-air hitbox but cannot hit cross-up and is too slow for practical AA purposes",
+        "en": "Damage Distribution: 100x12,150x3,200,650; () refers to damage on high juggle; combo/juggle tool; only combos naturally from 5HP or 4HK (1st hit), or from 2MP after Punish Counter or Drive Rush; doesn't play out full animation on block or on high juggle connect; cancel occurs on 1st or 2nd to last hit; Punish Counter Drive dmg refers to before and after Super cancelable hit; good anti-air hitbox but cannot hit cross-up and is too slow for practical AA purposes; gives incredible oki anywhere on the screen (2 dashes leaves Dee Jay at HKD +14, and can use DR~6MK to become +11/+7 and safe to Drive Reversal)",
         "ja": null
       },
       "onBlock": -19,
-      "onHit": 23,
+      "onHit": 52,
       "onPerfectParry": -37,
-      "onPunishCounter": 23,
+      "onPunishCounter": 52,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -1139,7 +1141,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1193,7 +1195,7 @@
       "pushback": null,
       "recovery": 38,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1247,7 +1249,7 @@
       "pushback": null,
       "recovery": 38,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1314,7 +1316,7 @@
       "pushback": null,
       "recovery": 46,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1378,7 +1380,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1439,7 +1441,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1500,7 +1502,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1561,7 +1563,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1622,7 +1624,7 @@
       "pushback": null,
       "recovery": 47,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1683,7 +1685,7 @@
       "pushback": null,
       "recovery": 79,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1740,7 +1742,7 @@
       "pushback": null,
       "recovery": 151,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1797,7 +1799,7 @@
       "pushback": null,
       "recovery": 181,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1860,7 +1862,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1927,7 +1929,7 @@
       "pushback": null,
       "recovery": 46,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -1991,7 +1993,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2052,7 +2054,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2113,7 +2115,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2174,7 +2176,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2235,7 +2237,7 @@
       "pushback": null,
       "recovery": 47,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2296,7 +2298,7 @@
       "pushback": null,
       "recovery": 79,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2360,7 +2362,7 @@
       "pushback": null,
       "recovery": 46,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2424,7 +2426,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2485,7 +2487,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2546,7 +2548,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2607,7 +2609,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2668,7 +2670,7 @@
       "pushback": null,
       "recovery": 47,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2729,7 +2731,7 @@
       "pushback": null,
       "recovery": 79,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2786,7 +2788,7 @@
       "pushback": null,
       "recovery": 151,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2843,7 +2845,7 @@
       "pushback": null,
       "recovery": 181,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2907,7 +2909,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -2959,7 +2961,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Low crush 14-28f (not airborne); puts opponent into limited juggle state (can only combo into SA2/SA3 vs. grounded, but much more lenient juggle state vs. airborne opponents); somewhat weak to Drive Impact because only 2nd hit is Super cancelable",
+        "en": "Low crush 12-26f (not airborne); puts opponent into limited juggle state (can only combo into SA2/SA3 vs. grounded, but much more lenient juggle state vs. airborne opponents); somewhat weak to Drive Impact because only 2nd hit is Super cancelable",
         "ja": null
       },
       "onBlock": -2,
@@ -2974,16 +2976,16 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
-      "startup": 19,
+      "startup": 17,
       "superGauge": {
         "onBlock": 375,
         "onHit": 750
       },
-      "totalFrames": 51
+      "totalFrames": 49
     },
     {
       "active": "-",
@@ -3028,7 +3030,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -3092,7 +3094,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -3159,7 +3161,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -3226,7 +3228,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -3268,7 +3270,7 @@
         "ja": null
       },
       "notes": {
-        "en": "40f charge time (holds charge for 12f after release); startup refers to earliest air normal timing; 6f landing recovery only applies to empty jump version (air normals have the usual 3f landing recovery)",
+        "en": "40f charge time (holds charge for 12f after release); startup refers to earliest air normal timing; 6f landing recovery only applies to empty jump version (air normals have the usual 3f landing recovery); can hold back mid-air to shorten jump trajectory; Distance: 1.51~1.63",
         "ja": null
       },
       "onBlock": null,
@@ -3282,7 +3284,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -3346,7 +3348,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -3414,7 +3416,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -3482,7 +3484,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -3551,7 +3553,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -3626,7 +3628,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -3693,7 +3695,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -3752,7 +3754,7 @@
         "ja": null
       },
       "notes": {
-        "en": "1f extra recovery on whiff; good combo/buffer tool and meaty normal; good hitbox priority against low pokes; very long special hitconfirm window (but only 13f when canceling to 214MP or 16f into 236KK); when used out of Drive Rush, can link to 5HP on crouching opponents; [4]6LP cancel: +1/-5; 236LK cancel: -4/-10",
+        "en": "1f extra recovery on whiff; good combo/buffer tool and meaty normal; good hitbox priority against low pokes; very long special hitconfirm window (but only 13f when canceling to 214MP or 18f into 236KK); when used out of Drive Rush, can link to 5HP on crouching opponents; [4]6LP cancel: +1/-5; 236LK cancel: -4/-10",
         "ja": null
       },
       "onBlock": -1,
@@ -3767,7 +3769,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -3835,7 +3837,7 @@
       "pushback": null,
       "recovery": 43,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -3889,7 +3891,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -3954,7 +3956,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -4021,7 +4023,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -4096,7 +4098,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -4156,7 +4158,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -4210,7 +4212,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -4275,7 +4277,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -4349,7 +4351,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -4423,7 +4425,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -4497,12 +4499,12 @@
         "high"
       ],
       "pushback": {
-        "onBlock": "0.428",
-        "onHit": "0.409"
+        "onBlock": "0.371",
+        "onHit": "0.355"
       },
       "recovery": 6,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -4569,7 +4571,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -4630,7 +4632,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -4698,7 +4700,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -4768,7 +4770,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -4835,7 +4837,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -4902,7 +4904,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -4969,7 +4971,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5023,7 +5025,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5085,7 +5087,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5139,7 +5141,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5203,7 +5205,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5267,7 +5269,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5319,7 +5321,7 @@
         "ja": null
       },
       "notes": {
-        "en": "The first 2 active frames only hit airborne opponents (great vertical hitbox that causes a spike knockdown); () refers to startup vs. grounded opponents and 1f better advantage vs. crouching opponents; not an overhead despite the animation; good tool for oki or approaching in neutral with long range and forward movement",
+        "en": "The first 2 active frames only hit airborne opponents; great vertical hitbox that puts airborne opponents into a limited juggle OTG bounce state (combos into any Super when canceled on airborne hit); () refers to startup vs. grounded opponents and 1f better advantage vs. crouching opponents; not an overhead despite the animation; good tool for oki or approaching in neutral with long range and forward movement",
         "ja": null
       },
       "onBlock": 1,
@@ -5334,7 +5336,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5388,7 +5390,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5451,7 +5453,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5515,7 +5517,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5579,7 +5581,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5643,7 +5645,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5707,7 +5709,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5771,7 +5773,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5835,7 +5837,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5901,7 +5903,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -5965,7 +5967,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -6025,7 +6027,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -6085,7 +6087,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -6140,7 +6142,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -6195,7 +6197,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:36.809Z",
+        "fetchedAt": "2026-08-19T04:05:27.013Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Dee_Jay/Frame_data"
       },
@@ -6209,7 +6211,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-08-03T12:56:32.430Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

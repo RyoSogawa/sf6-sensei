@@ -15,7 +15,7 @@
     "forwardDashDistance": "1.40",
     "forwardDashFrames": 19,
     "forwardJumpDistance": "1.90",
-    "forwardWalkSpeed": "0.039",
+    "forwardWalkSpeed": "0.049",
     "jump": {
       "airborne": 38,
       "landing": 3,
@@ -59,7 +59,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Install that keeps Yasmine in Bayani Mode until the timer ends; timer lasts 1500 frames (25 seconds); grants access to a new special move Linya ng Liwanag (fast cross-up slash); changes the properties of OD Alon (new cinematic ender); each activation of an enhanced Bayani Mode special consumes 375f from the install timer (25%)",
+        "en": "Install that keeps Yasmine in Bayani Mode until the timer ends; timer lasts 1500 frames (25 seconds) and freezes during hitstop; cannot build additional Super gauge while the install is active; grants access to a new special move Linya ng Liwanag (fast cross-up slash); changes the properties of OD Alon (new cinematic ender); each activation of an enhanced Bayani Mode special consumes 375f from the install timer (25%)",
         "ja": null
       },
       "onBlock": null,
@@ -71,7 +71,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -128,7 +128,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -182,7 +182,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -236,7 +236,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -290,7 +290,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -348,7 +348,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -402,7 +402,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -460,7 +460,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -469,18 +469,18 @@
       "totalFrames": null
     },
     {
-      "active": "",
+      "active": "6",
       "afterDriveRush": null,
-      "airborne": null,
+      "airborne": "10-31 (FKD)",
       "aliases": [],
       "armor": "Break",
       "attackRange": null,
-      "blockstun": null,
+      "blockstun": 22,
       "cancel": [],
       "category": "super_art",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
+      "chipDamage": 500,
+      "damage": 2000,
       "damageText": null,
       "dmgScaling": "30% Minimum",
       "driveGauge": {
@@ -489,56 +489,61 @@
         "gain": null
       },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 10,
       "hitstun": null,
       "id": "yasmine__236236k",
       "input": {
         "numpad": "236236K",
         "official": null
       },
-      "invuln": "1-? Strike/Throw",
-      "juggle": null,
+      "invuln": "1-9 Strike/Throw",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
       "name": {
         "en": "Hiwa ng Kalangitan",
         "ja": null
       },
       "notes": {
-        "en": "Puts Yasmine into Bayani Mode",
+        "en": "Puts Yasmine into Bayani Mode on hit; transitions into a fully invincible cinematic on hit (1st hit can trade for 500 damage); fast reversal and a strong anti-air even at close ranges",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onBlock": -34,
+      "onHit": 24,
+      "onPerfectParry": -54,
+      "onPunishCounter": 24,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high",
         "invincible",
-        "armor"
+        "armor",
+        "airborne"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
+      "startup": 7,
       "superGauge": {
         "onBlock": -10000,
         "onHit": -10000
       },
-      "totalFrames": null
+      "totalFrames": 62
     },
     {
-      "active": "",
+      "active": "3",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": "Break",
-      "attackRange": null,
-      "blockstun": null,
+      "attackRange": 1.92,
+      "blockstun": 25,
       "cancel": [],
       "category": "super_art",
       "characterId": "yasmine",
@@ -552,27 +557,31 @@
         "gain": null
       },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 7,
       "hitstun": null,
       "id": "yasmine__236236p",
       "input": {
         "numpad": "236236P",
         "official": null
       },
-      "invuln": "1-? Full",
-      "juggle": null,
+      "invuln": "1-12 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
       "name": {
         "en": "Pamumukadkad ng Sampaguita",
         "ja": null
       },
       "notes": {
-        "en": "Cinematic time regenerates ~? Drive bars for Yasmine",
+        "en": "Cinematic time regenerates ~2.2 Drive bars for Yasmine; can be used against projectiles from about round-start distance if it catches an extended hurtbox; tall hitbox can anti-air at long range but whiffs under close/mid range opponents; leaves Yasmine fullscreen on hit even if the opponent was cornered; can still get oki with Drive Rush into a delayed normal but cannot get into throw range",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onBlock": -48,
+      "onHit": 42,
+      "onPerfectParry": -71,
+      "onPunishCounter": 42,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -581,27 +590,27 @@
         "armor"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 70,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
+      "startup": 10,
       "superGauge": {
         "onBlock": -30000,
         "onHit": -30000
       },
-      "totalFrames": null
+      "totalFrames": 82
     },
     {
-      "active": "",
+      "active": "3",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": "Break",
-      "attackRange": null,
-      "blockstun": null,
+      "attackRange": 1.92,
+      "blockstun": 25,
       "cancel": [],
       "category": "super_art",
       "characterId": "yasmine",
@@ -615,27 +624,31 @@
         "gain": null
       },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 7,
       "hitstun": null,
       "id": "yasmine__236236p",
       "input": {
         "numpad": "236236P",
         "official": null
       },
-      "invuln": "1-? Full",
-      "juggle": null,
+      "invuln": "1-12 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "99",
+        "start": null
+      },
       "name": {
         "en": "Pamumukadkad ng Sampaguita (CA)",
         "ja": null
       },
       "notes": {
-        "en": "Available at 25% HP or below; cinematic time regenerates ~? Drive bars for Yasmine",
+        "en": "Available at 25% HP or below; cinematic time regenerates ~2.3 Drive bars for Yasmine; can be used against projectiles from about round-start distance if it catches an extended hurtbox; tall hitbox can anti-air at long range but whiffs under close/mid range opponents; gives +1 oki after forward dash near the edge of throw range (opponent can back walk to avoid Throw or a chain after 2LK); can also Drive Rush for stronger pressure and bait 6f reversals with DR~2LP",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onBlock": -48,
+      "onHit": 20,
+      "onPerfectParry": -71,
+      "onPunishCounter": 20,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -644,18 +657,18 @@
         "armor"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 70,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
+      "startup": 10,
       "superGauge": {
         "onBlock": -30000,
         "onHit": -30000
       },
-      "totalFrames": null
+      "totalFrames": 82
     },
     {
       "active": "",
@@ -700,7 +713,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -754,7 +767,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -808,7 +821,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -861,7 +874,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -918,7 +931,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -970,7 +983,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1025,7 +1038,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1073,7 +1086,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1124,7 +1137,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1175,7 +1188,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1229,7 +1242,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1283,7 +1296,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1334,7 +1347,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1388,7 +1401,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1442,7 +1455,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1500,7 +1513,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1554,7 +1567,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1608,7 +1621,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1668,7 +1681,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1731,7 +1744,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1789,7 +1802,7 @@
       "pushback": null,
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1856,7 +1869,7 @@
       },
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1919,7 +1932,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -1970,7 +1983,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2033,7 +2046,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2089,7 +2102,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2146,7 +2159,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2188,7 +2201,7 @@
         "ja": null
       },
       "notes": {
-        "en": "\"\"",
+        "en": "\"Hoy! You're not taking this seriously! Underestimate me and I'll make a big meanie face like this, then I'll walk all over you! Don't sandbag me!\"",
         "ja": null
       },
       "onBlock": null,
@@ -2200,13 +2213,13 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
+      "startup": 796,
       "superGauge": null,
-      "totalFrames": null
+      "totalFrames": 796
     },
     {
       "active": "3",
@@ -2257,7 +2270,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2320,7 +2333,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2383,7 +2396,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2432,7 +2445,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Chains into 2LP/2LK or the 5LP~LP TC; SA2 cancel: +3/-2",
+        "en": "Chains into 5LP/2LP/2LK (delay required for consecutive 5LPs) or the 5LP~LP TC if chained quickly; SA2 cancel: +3/-2",
         "ja": null
       },
       "onBlock": -1,
@@ -2450,7 +2463,7 @@
       },
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2507,7 +2520,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2563,7 +2576,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2616,7 +2629,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2667,7 +2680,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2723,7 +2736,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2780,7 +2793,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2789,23 +2802,27 @@
       "totalFrames": null
     },
     {
-      "active": "-",
+      "active": "2",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
+      "attackRange": 1.08,
+      "blockstun": 20,
       "cancel": [],
       "category": "taunt",
       "characterId": "yasmine",
       "chipDamage": null,
-      "damage": null,
+      "damage": 400,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 13,
       "hitstun": null,
       "id": "yasmine__5pppkkk",
       "input": {
@@ -2813,31 +2830,41 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Neutral Taunt",
         "ja": null
       },
       "notes": {
-        "en": "\"\"",
+        "en": "\"I've been practicing this a lot! Gotcha! Cool, right?\"; Yasmine attacks with a kick while catching the knife; gives a shorter knockdown on Punish Counter",
         "ja": null
       },
-      "onBlock": null,
+      "onBlock": -157,
       "onHit": null,
-      "onPerfectParry": null,
+      "onPerfectParry": -175,
       "onPunishCounter": null,
       "projectileSpeed": null,
-      "properties": [],
+      "properties": [
+        "low",
+        "high"
+      ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 175,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 574,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 750
     },
     {
       "active": "",
@@ -2884,7 +2911,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2941,7 +2968,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2994,7 +3021,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3047,7 +3074,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3111,7 +3138,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3175,7 +3202,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3184,7 +3211,7 @@
       "totalFrames": 46
     },
     {
-      "active": "",
+      "active": "3",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
@@ -3195,10 +3222,14 @@
       "category": "normal",
       "characterId": "yasmine",
       "chipDamage": null,
-      "damage": null,
+      "damage": 600,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": -2500,
+        "dealtOnHit": -5000,
+        "gain": 1500
+      },
       "driveRushCancel": null,
       "hitstop": null,
       "hitstun": null,
@@ -3223,14 +3254,17 @@
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
+      "startup": 22,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 500
+      },
       "totalFrames": null
     },
     {
@@ -3264,7 +3298,7 @@
         "ja": null
       },
       "notes": {
-        "en": "\"\"",
+        "en": "\"Watch this! Haaaaaaaahhhhhh! Oh, um... hehehe...\"",
         "ja": null
       },
       "onBlock": null,
@@ -3276,13 +3310,78 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
+      "startup": 853,
       "superGauge": null,
-      "totalFrames": null
+      "totalFrames": 853
+    },
+    {
+      "active": "19",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 28,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "yasmine",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "yasmine__6[pppkkk]",
+      "input": {
+        "numpad": "6[PPPKKK]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Forward Taunt (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Watch this! Haaaaaaaahhhhhh! HADOKEN - Aaahhh! Wait, I did it? I gotta practice more!\"; must be holding a button on frame 275 of startup to fill Yasmine with aura, causing her to perform a short-range stationary projectile attack",
+        "ja": null
+      },
+      "onBlock": -397,
+      "onHit": null,
+      "onPerfectParry": -414,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 406,
+      "source": {
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
+      },
+      "startup": 450,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
+      "totalFrames": 874
     },
     {
       "active": "2",
@@ -3339,7 +3438,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3392,7 +3491,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3442,7 +3541,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3495,7 +3594,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3545,7 +3644,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3598,7 +3697,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3651,7 +3750,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3708,7 +3807,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3768,7 +3867,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3823,7 +3922,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3878,7 +3977,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-03T12:56:38.717Z",
+        "fetchedAt": "2026-08-19T04:05:28.570Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3892,7 +3991,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-08-03T12:56:32.431Z",
+    "fetchedAt": "2026-08-19T04:05:24.993Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }
