@@ -28,6 +28,8 @@ SF6 patch: 2026-08-03 / Data fetched: 2026-08-19
 
 - `dataVersion` was hand-written and had drifted from the actual data. The scraper now writes
   the fetch date into `generated/index.ts` and `dataVersion` is derived from it
+- The CC-BY-SA attribution every tool response carries stated a fetch date of `2026-06-13`,
+  months behind the data it described. It now reports `dataVersion`
 - Sagat's step kicks no longer resolve to their Japanese names, because upstream renamed them
   (`Step High Kick` became `High Step Kick`, and likewise for the low and middle versions)
 

@@ -1,4 +1,4 @@
-import { getCharacters } from '@repo/data'
+import { dataVersion, getCharacters } from '@repo/data'
 import { describe, expect, it } from 'vitest'
 import {
   findPunishImpl,
@@ -84,6 +84,13 @@ describe('Tool Functions', () => {
       expect(result.attribution).toBeDefined()
       expect(result.attribution.source).toBe('SuperCombo Wiki')
       expect(result.attribution.license).toBe('CC-BY-SA')
+    })
+
+    it('attributes the fetch date of the data actually bundled', () => {
+      const result = getMoveImpl('ryu', '236P', characters, 'en')
+      const move = result.matches?.[0]
+      expect(result.attribution.fetchedAt).toBe(dataVersion)
+      expect(move?.source.fetchedAt.slice(0, 10)).toBe(result.attribution.fetchedAt)
     })
 
     it('supports language selection', () => {

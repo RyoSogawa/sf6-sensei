@@ -1,4 +1,5 @@
 import { type Character, type CharacterMovement, type Move, resolveMoveBest } from '@repo/core'
+import { dataVersion } from '@repo/data'
 
 export interface ToolResult {
   success: boolean
@@ -73,8 +74,10 @@ interface Attribution {
   fetchedAt: string
 }
 
+// CC-BY-SA obliges us to state the source, so the fetch date has to track the data it
+// describes rather than be maintained by hand (it had drifted months behind).
 const DEFAULT_ATTRIBUTION: Attribution = {
-  fetchedAt: '2026-06-13',
+  fetchedAt: dataVersion,
   license: 'CC-BY-SA',
   source: 'SuperCombo Wiki',
   url: 'https://wiki.supercombo.gg',
