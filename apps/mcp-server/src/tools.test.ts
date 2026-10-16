@@ -86,11 +86,18 @@ describe('Tool Functions', () => {
       expect(result.attribution.license).toBe('CC-BY-SA')
     })
 
-    it('attributes the fetch date of the data actually bundled', () => {
-      const result = getMoveImpl('ryu', '236P', characters, 'en')
+    it.each([
+      ['ryu', '236P'],
+      ['arjun', '236P'],
+    ])('attributes the fetch date of the bundled %s data', (character, query) => {
+      const result = getMoveImpl(character, query, characters, 'en')
       const move = result.matches?.[0]
-      expect(result.attribution.fetchedAt).toBe(dataVersion)
       expect(move?.source.fetchedAt.slice(0, 10)).toBe(result.attribution.fetchedAt)
+    })
+
+    it('falls back to the snapshot date when the character is unknown', () => {
+      const result = getMoveImpl('nobody', '236P', characters, 'en')
+      expect(result.attribution.fetchedAt).toBe(dataVersion)
     })
 
     it('supports language selection', () => {
@@ -118,6 +125,40 @@ describe('Tool Functions', () => {
     it('finds the back throw by 裏投げ', () => {
       const result = getMoveImpl('ryu', '裏投げ', characters, 'ja')
       expect(result.matches.some((m) => m.input.numpad === '4LPLK')).toBe(true)
+    })
+  })
+
+  describe('per-character attribution date', () => {
+    const fetchDate = (id: string) =>
+      resolveCharacter(id, characters)?.moves[0]?.source.fetchedAt.slice(0, 10)
+
+    it('uses the character’s fetch date for get_character_frame_data', () => {
+      const result = getCharacterFrameDataImpl('arjun', undefined, characters, 'en')
+      expect(result.attribution.fetchedAt).toBe(fetchDate('arjun'))
+    })
+
+    it('uses the fetch date of the returned moves for search_moves', () => {
+      const result = searchMovesImpl(
+        'arjun',
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        5,
+        characters,
+        'en',
+      )
+      expect(result.attribution.fetchedAt).toBe(fetchDate('arjun'))
+    })
+
+    it('uses the oldest fetch date among the characters involved in find_punish', () => {
+      const result = findPunishImpl('arjun', 'ryu', '2MK', undefined, 10, characters, 'en')
+      const dates = [fetchDate('arjun'), fetchDate('ryu')].filter((d) => d !== undefined).sort()
+      expect(result.attribution.fetchedAt).toBe(dates[0])
     })
   })
 
@@ -329,7 +370,7 @@ describe('Tool Functions', () => {
     it('returns all characters', () => {
       const result = listCharactersImpl(characters, 'en')
       expect(result.characters.length).toBeGreaterThan(0)
-      // SF6 has 30 characters
+      // SF6 has 32 characters
       expect(result.characters.length).toBeGreaterThanOrEqual(20)
     })
 
