@@ -5,7 +5,9 @@ Notable changes to this project. Versions follow [Semantic Versioning](https://s
 Frame data comes from the SuperCombo Wiki (CC-BY-SA-4.0). "SF6 patch" is the Street Fighter 6
 balance patch (by release date) that a release's frame data reflects.
 
-## [Unreleased]
+## [0.3.0] - 2026-10-16
+
+SF6 patch: 2026-08-03 / Data fetched: 2026-08-19 (Arjun: 2026-10-16)
 
 ### Added
 
@@ -57,5 +59,6 @@ Initial release.
 - Japanese alias, Super Art level and movement data layers
 - Docs site in Japanese and English
 
+[0.3.0]: https://github.com/RyoSogawa/sf6-sensei/releases/tag/v0.3.0
 [0.2.0]: https://github.com/RyoSogawa/sf6-sensei/releases/tag/v0.2.0
 [0.1.0]: https://github.com/RyoSogawa/sf6-sensei/releases/tag/v0.1.0

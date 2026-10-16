@@ -3,7 +3,7 @@
  * User-Agent and the docs site all read this, so a release only needs to change it here.
  * Keep it in sync with the git tag `v<APP_VERSION>`.
  */
-export const APP_VERSION = '0.2.0'
+export const APP_VERSION = '0.3.0'
 
 /**
  * The SF6 balance patch (release date) the bundled data reflects. Update it when a
