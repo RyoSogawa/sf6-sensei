@@ -1,4 +1,5 @@
 :root {
+  color-scheme: dark;
   /* SF6 brand palette: yellow (the "6" in the logo) + electric cyan + magenta accent / near-black background */
   --bg: #0e0e12;
   --surface: #17171d;
