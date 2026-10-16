@@ -5,6 +5,20 @@ Notable changes to this project. Versions follow [Semantic Versioning](https://s
 Frame data comes from the SuperCombo Wiki (CC-BY-SA-4.0). "SF6 patch" is the Street Fighter 6
 balance patch (by release date) that a release's frame data reflects.
 
+## [Unreleased]
+
+### Added
+
+- Arjun (63 moves), with Super Art levels in `sa-levels.json` and Japanese names for his
+  special moves, Super Arts and target combos. Other characters keep their 2026-08-19 data,
+  because the upstream wiki is mid-restructure and a full re-scrape currently drops moves
+
+### Changed
+
+- Attribution `fetchedAt` now reflects the characters a response is built from (the oldest
+  fetch date among their moves) instead of a single snapshot date, since characters can now be
+  fetched in different batches
+
 ## [0.2.0] - 2026-08-19
 
 SF6 patch: 2026-08-03 / Data fetched: 2026-08-19

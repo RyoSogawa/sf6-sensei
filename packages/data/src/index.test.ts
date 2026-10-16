@@ -1,6 +1,7 @@
 import { type CharacterMovement, resolveMove, resolveMoveBest } from '@repo/core'
 import { describe, expect, it } from 'vitest'
 import { characters, dataVersion, generateMovementMoves } from './index'
+import saLevels from './sa-levels.json'
 
 const SRC = {
   fetchedAt: '2026-06-13T00:00:00Z',
@@ -80,6 +81,16 @@ describe('generated data', () => {
     // P/K-omitting forms like "2強" are expected to be filled in by the alias-overrides layer.
     const hits = resolveMove('屈強P', ryu?.moves ?? [])
     expect(hits.some((m) => m.input.numpad === '2HP')).toBe(true)
+  })
+
+  it('includes arjun with moves', () => {
+    const arjun = characters.find((c) => c.id === 'arjun')
+    expect(arjun?.moves.length ?? 0).toBeGreaterThan(0)
+  })
+
+  it('has curated SA levels for every character', () => {
+    const missing = characters.map((c) => c.id).filter((id) => !(id in saLevels))
+    expect(missing).toEqual([])
   })
 
   it('exposes a data version', () => {
@@ -213,6 +224,17 @@ describe('alias-overrides enrichment (common system moves)', () => {
     const ca = resolveMoveBest('CA', ryu?.moves ?? [])
     expect(ca.length).toBeGreaterThan(0)
     expect(ca.every((m) => m.name.en.includes('(CA)'))).toBe(true)
+  })
+
+  it('resolves Arjun’s super arts and Japanese move names', () => {
+    const arjun = characters.find((c) => c.id === 'arjun')
+    const moves = arjun?.moves ?? []
+    // SA1 = Howling Destruction (236236K), SA2 = Instant Oblivion (214214P) (per official frame-search)
+    expect(resolveMoveBest('SA1', moves).some((m) => m.input.numpad === '236236K')).toBe(true)
+    expect(resolveMoveBest('SA2', moves).some((m) => m.input.numpad === '214214P')).toBe(true)
+    expect(resolveMoveBest('CA', moves).map((m) => m.name.en)).toEqual(["Yaksha's Order (CA)"])
+    expect(resolveMoveBest('大義の巨腕', moves).some((m) => m.input.numpad === '236LP')).toBe(true)
+    expect(resolveMoveBest('前投げ', moves).some((m) => m.input.numpad === 'LPLK')).toBe(true)
   })
 
   it('does not enrich moves outside the override input map', () => {

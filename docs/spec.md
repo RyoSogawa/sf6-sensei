@@ -70,7 +70,7 @@ SuperCombo wiki (CC-BY-SA)
   許諾・アクセス方針は後述「取得の許諾とアクセス方針」を厳守。
 - **HTML スクレイプ不要。`action=cargoquery` で構造化 JSON を直接取得**:
   - `SF6_FrameData`（技ごと: input, name, moveType, damage, startup, active, recovery, total,
-    hitAdv, blockAdv, guard, cancel, punishAdv, perfParryAdv, DRcancelHit/Blk ...）。約 2306 行 / 30 キャラ。
+    hitAdv, blockAdv, guard, cancel, punishAdv, perfParryAdv, DRcancelHit/Blk ...）。約 2400 行 / 32 キャラ。
   - `SF6_CharacterData`（hp, throwRange, 歩き/ダッシュ/ジャンプ速度など）。
 - **要正規化**: advantage 系フィールドに色付け HTML/wiki マークアップが混入する
   （例 `hitAdv = <span ...>'''+4'''</span>`）。タグと `'''` を除去して数値化する。
