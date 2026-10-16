@@ -83,6 +83,13 @@ const DEFAULT_ATTRIBUTION: Attribution = {
   url: 'https://wiki.supercombo.gg',
 }
 
+// Characters can be fetched in different batches (e.g. a new character added while the rest
+// keep an older snapshot), so state the oldest fetch date among the moves a response is built from.
+function attributionFor(moves: readonly Move[]): Attribution {
+  const dates = moves.map((m) => m.source.fetchedAt.slice(0, 10)).sort()
+  return { ...DEFAULT_ATTRIBUTION, fetchedAt: dates[0] ?? dataVersion }
+}
+
 /**
  * Tool: get_move
  * Resolve a character and move, returning matches
@@ -115,7 +122,7 @@ export function getMoveImpl(
 
   return {
     ambiguous: matches.length > 1,
-    attribution: DEFAULT_ATTRIBUTION,
+    attribution: attributionFor(resolvedChar.moves),
     candidates:
       matches.length > 1
         ? matches.map((m) => ({
@@ -168,7 +175,7 @@ export function getCharacterFrameDataImpl(
   }
 
   return {
-    attribution: DEFAULT_ATTRIBUTION,
+    attribution: attributionFor(resolvedChar.moves),
     character: {
       id: resolvedChar.id,
       name: language === 'en' ? resolvedChar.name.en : resolvedChar.name.ja || resolvedChar.name.en,
@@ -278,7 +285,7 @@ export function searchMovesImpl(
   }
 
   return {
-    attribution: DEFAULT_ATTRIBUTION,
+    attribution: attributionFor(results),
     count: results.length,
     criteria: {
       category,
@@ -377,7 +384,9 @@ export function findPunishImpl(
     })
 
   return {
-    attribution: DEFAULT_ATTRIBUTION,
+    attribution: attributionFor(
+      opponentMoveData ? [...myChar.moves, opponentMoveData] : myChar.moves,
+    ),
     candidates,
     caveats: [
       'リーチ・距離・キャラ位置は考慮していません。実際に届くかは要確認です。',

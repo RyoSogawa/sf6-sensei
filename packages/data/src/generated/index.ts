@@ -2,6 +2,7 @@
 import c_aki from './aki.json'
 import c_akuma from './akuma.json'
 import c_alex from './alex.json'
+import c_arjun from './arjun.json'
 import c_blanka from './blanka.json'
 import c_cammy from './cammy.json'
 import c_chunli from './chunli.json'
@@ -31,12 +32,13 @@ import c_terry from './terry.json'
 import c_yasmine from './yasmine.json'
 import c_zangief from './zangief.json'
 
-export const generatedAt = '2026-08-19T04:05:24.993Z'
+export const generatedAt = '2026-10-16T08:05:35.203Z'
 
 export default [
   c_aki,
   c_akuma,
   c_alex,
+  c_arjun,
   c_blanka,
   c_cammy,
   c_chunli,

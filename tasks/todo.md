@@ -51,6 +51,12 @@
   - [x] `invuln`/`armor`/`airborne` を `properties` タグにも展開（`search_moves` 属性検索用）
 - [x] 生成データをキャラ別 JSON に分割（`generated/<charId>.json` + 自動生成 `index.ts`、実行時に結合）
 - [ ] 差分チェック（既存 JSON との比較）
+- [x] 新キャラ Arjun を追加（2026-10-16、63 技。sa-levels / translations も frame-search で検証して追加）
+  - 取得時点で上流 SuperCombo が再編中（marisa 90→30、lily 76→44、kimberly 84→46 等の行欠落 + 入力表記の変更
+    `214214P (Hold Lv.2)`→`214214{P}`）。全キャラ再取得は退行になるため **Arjun の JSON のみ採用**、他は 2026-08-19 取得のまま
+  - [ ] 上流が安定したら全キャラ再取得（入力表記変更に合わせて translations / alias キーの追従が必要）
+  - Arjun の frame-search 未収録技（Justice Beyond / Indomitable Defense / Moral Breakdown / Ghastly Interrogation /
+    Excessive Force / Shield of the Vindicator）は ja=null 維持
 - [x] CC-BY-SA の出典表記をデータ（各 Move.source）/ README / spec に明記
 
 ## Phase 3: データストア

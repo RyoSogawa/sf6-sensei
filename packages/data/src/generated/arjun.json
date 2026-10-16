@@ -1,0 +1,3863 @@
+{
+  "aliases": [],
+  "hp": 10500,
+  "id": "arjun",
+  "movement": {
+    "backwardDashDistance": "0.902",
+    "backwardDashFrames": 25,
+    "backwardJumpDistance": "1.52",
+    "backwardWalkSpeed": "0.025",
+    "driveRush": {
+      "block": "1.810",
+      "max": "3.589",
+      "min": "0.421"
+    },
+    "forwardDashDistance": "1.40",
+    "forwardDashFrames": 22,
+    "forwardJumpDistance": "1.90",
+    "forwardWalkSpeed": "0.0364",
+    "jump": {
+      "airborne": 38,
+      "landing": 3,
+      "startup": 4,
+      "text": "4+38+3",
+      "total": 45
+    },
+    "jumpApex": "2.115",
+    "throwHurtbox": "0.38",
+    "throwRange": "0.85"
+  },
+  "moves": [
+    {
+      "active": "4",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "arjun",
+      "chipDamage": 750,
+      "damage": 3000,
+      "damageText": null,
+      "dmgScaling": "40% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "arjun__214214p",
+      "input": {
+        "numpad": "214214P",
+        "official": null
+      },
+      "invuln": "1-12 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "127",
+        "start": null
+      },
+      "name": {
+        "en": "Instant Oblivion",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": -41,
+      "onHit": 57,
+      "onPerfectParry": -59,
+      "onPunishCounter": 57,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 57,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": {
+        "onBlock": -20000,
+        "onHit": -20000
+      },
+      "totalFrames": 69
+    },
+    {
+      "active": "10,10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 25,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800,800",
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 0,
+      "hitstun": null,
+      "id": "arjun__214k",
+      "input": {
+        "numpad": "214K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "11,16",
+        "limit": "1,15",
+        "start": "11,1"
+      },
+      "name": {
+        "en": "Divine Pillar",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button strength determines pillar distance (LK close, MK middle, HK far); holding the button results in a delayed activation",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 42,
+      "onPerfectParry": -29,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 25,
+      "superGauge": null,
+      "totalFrames": 55
+    },
+    {
+      "active": "10,10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 25,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800,800",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 0,
+      "hitstun": null,
+      "id": "arjun__214kk",
+      "input": {
+        "numpad": "214KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "11,16",
+        "limit": "1,15",
+        "start": "11,1"
+      },
+      "name": {
+        "en": "OD Divine Pillar",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button combination determines pillar distance (LK+MK close, LK+HK middle, MK+HK far); holding the buttons results in a delayed activation",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 42,
+      "onPerfectParry": -29,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 50
+    },
+    {
+      "active": "16",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 36,
+      "cancel": [],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 400,
+      "damage": 1600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 16,
+      "hitstun": null,
+      "id": "arjun__214k623p",
+      "input": {
+        "numpad": "214K~623P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "50",
+        "limit": "99",
+        "start": "50"
+      },
+      "name": {
+        "en": "Justice Beyond",
+        "ja": null
+      },
+      "notes": {
+        "en": "Occurs automatically when Cruel Shoulder connects with a placed Divine Pillar (startup is counted from the frame Arjun reaches the pillar); will auto-correct if Arjun is behind the opponent when swinging the pillar; no difference between strengths of Cruel Shoulder or Divine Pillar (including OD versions)",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": 95,
+      "onPerfectParry": -41,
+      "onPunishCounter": 95,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": null,
+      "totalFrames": 57
+    },
+    {
+      "active": "28~",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.83,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 1500,
+      "damageText": "1500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 17,
+      "hitstun": null,
+      "id": "arjun__22hk",
+      "input": {
+        "numpad": "22HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "127",
+        "limit": "99",
+        "start": "128"
+      },
+      "name": {
+        "en": "Indomitable Defense",
+        "ja": null
+      },
+      "notes": {
+        "en": "Absorbs any strike or projectile attack (including Super Arts) without incurring any recoverable damage; automatically performs a counter-attack when absorbing a strike (but not a projectile); can walk forward or backward while holding button (walk speed: 0.02 in either direction); counter-attack will autocorrect to face the opponent if they switch sides",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 29,
+      "onPerfectParry": null,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 60
+    },
+    {
+      "active": "38",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 375,
+      "damage": 1500,
+      "damageText": "1500 (100x10,500)",
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "arjun__22hkp",
+      "input": {
+        "numpad": "22HK~P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0x10,1",
+        "limit": "99",
+        "start": "0x10,1"
+      },
+      "name": {
+        "en": "Moral Breakdown",
+        "ja": null
+      },
+      "notes": {
+        "en": "11-hit OD-priority projectile hitbox; can be used to safely pressure without the threat of Drive Impact or reversal SA1",
+        "ja": null
+      },
+      "onBlock": 3,
+      "onHit": 54,
+      "onPerfectParry": 60,
+      "onPunishCounter": 54,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": null,
+      "totalFrames": 88
+    },
+    {
+      "active": "62",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 18,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "arjun",
+      "chipDamage": 500,
+      "damage": 2000,
+      "damageText": "2000 (100x11,900)",
+      "dmgScaling": "30% Minimum",
+      "driveGauge": {
+        "dealtOnBlock": 200,
+        "dealtOnHit": 400,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 0,
+      "hitstun": null,
+      "id": "arjun__236236k",
+      "input": {
+        "numpad": "236236K",
+        "official": null
+      },
+      "invuln": "1-8 Strike/Throw",
+      "juggle": {
+        "increase": "0x11,100",
+        "limit": "127",
+        "start": "0x11,100"
+      },
+      "name": {
+        "en": "Howling Destruction",
+        "ja": null
+      },
+      "notes": {
+        "en": "12-hit Super-priority projectile hitbox; aims near the ground before sweeping outward and upward (less range on early active frames but reaches fullscreen on the final 2 hits); can hit cross-up (even on grounded opponents if they extend a forward hurtbox while behind Arjun); useful juggle ender; can be used as an anti-fireball tool at mid range (less like to punish if clashing with multiple projectile hits)",
+        "ja": null
+      },
+      "onBlock": -46,
+      "onHit": 43,
+      "onPerfectParry": -46,
+      "onPunishCounter": 43,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 67,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": {
+        "onBlock": -10000,
+        "onHit": -10000
+      },
+      "totalFrames": 136
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "arjun",
+      "chipDamage": 1000,
+      "damage": 4000,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 7500,
+        "dealtOnHit": 15000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "arjun__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-15 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "127",
+        "start": null
+      },
+      "name": {
+        "en": "Yaksha's Order",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cinematic time regenerates ~2.1 Drive bars for Arjun",
+        "ja": null
+      },
+      "onBlock": -41,
+      "onHit": 22,
+      "onPerfectParry": -59,
+      "onPunishCounter": 22,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 58,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 73
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "super_art",
+      "characterId": "arjun",
+      "chipDamage": 1250,
+      "damage": 4500,
+      "damageText": null,
+      "dmgScaling": "50% Minimum; 10% Immediate (Sp)",
+      "driveGauge": {
+        "dealtOnBlock": 10000,
+        "dealtOnHit": 20000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "arjun__236236p",
+      "input": {
+        "numpad": "236236P",
+        "official": null
+      },
+      "invuln": "1-15 Full",
+      "juggle": {
+        "increase": null,
+        "limit": "127",
+        "start": null
+      },
+      "name": {
+        "en": "Yaksha's Order (CA)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Available at 25% HP or below; cinematic time regenerates ~2.3 Drive bars for Arjun",
+        "ja": null
+      },
+      "onBlock": -41,
+      "onHit": 35,
+      "onPerfectParry": -59,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 58,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": -30000,
+        "onHit": -30000
+      },
+      "totalFrames": 73
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.55,
+      "blockstun": 25,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "arjun__236hp",
+      "input": {
+        "numpad": "236HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "20",
+        "start": "3"
+      },
+      "name": {
+        "en": "HP Arm of Justice",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f extra recovery on whiff",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 43,
+      "onPerfectParry": -21,
+      "onPunishCounter": 67,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 28,
+      "superGauge": null,
+      "totalFrames": 50
+    },
+    {
+      "active": "[37]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 26,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "arjun__236k",
+      "input": {
+        "numpad": "236K",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Breathing Ring",
+        "ja": null
+      },
+      "notes": {
+        "en": "No difference between button strengths; projectile dissipates on contact with opponent",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 42,
+      "onPerfectParry": -21,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "[74]",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 17,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600 (300x2)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "arjun__236kk",
+      "input": {
+        "numpad": "236KK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "5,6",
+        "start": "0,1"
+      },
+      "name": {
+        "en": "OD Breathing Ring",
+        "ja": null
+      },
+      "notes": {
+        "en": "2 hits; projectile moves forward slightly while active; can input follow-up even after projectile connects with opponent",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 49,
+      "onPerfectParry": -10,
+      "onPunishCounter": 49,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 31,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "10~",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800(1000)",
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 8,
+      "hitstun": null,
+      "id": "arjun__236kk6p",
+      "input": {
+        "numpad": "236KK~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3 (8,0)",
+        "limit": "7 (7,99)",
+        "start": "3 (8,0)"
+      },
+      "name": {
+        "en": "OD Breathing Shockwave",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button strength determines the projectile angle (LP straight, MP 45 degree angle, HP nearly vertical); shockwave has an initial hitbox in front of Arjun for 10 frames followed by a launched projectile; if the initial Breathing Ring was dissipated on hit/block or by colliding with another projectile, only this short range shockwave will come out (less useful in ranged fireball wars)",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": 38,
+      "onPerfectParry": -27,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": null,
+      "totalFrames": 42
+    },
+    {
+      "active": "10~",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 21,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800(700)",
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 6,
+      "hitstun": null,
+      "id": "arjun__236k6p",
+      "input": {
+        "numpad": "236K~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "8",
+        "limit": "7",
+        "start": "8"
+      },
+      "name": {
+        "en": "Breathing Shockwave",
+        "ja": null
+      },
+      "notes": {
+        "en": "Button strength determines the projectile angle (LP straight, MP 45 degree angle, HP nearly vertical); shockwave has an initial hitbox in front of Arjun for 10 frames followed by a launched projectile; if the initial Breathing Ring was dissipated on hit/block or by colliding with another projectile, only this short range shockwave will come out (less useful in ranged fireball wars)",
+        "ja": null
+      },
+      "onBlock": -7,
+      "onHit": 38,
+      "onPerfectParry": -27,
+      "onPunishCounter": 38,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": null,
+      "totalFrames": 42
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.01,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "arjun__236lp",
+      "input": {
+        "numpad": "236LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "20",
+        "start": "3"
+      },
+      "name": {
+        "en": "LP Arm of Justice",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -22,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": null,
+      "totalFrames": 38
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.13,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 225,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "arjun__236mp",
+      "input": {
+        "numpad": "236MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "20",
+        "start": "3"
+      },
+      "name": {
+        "en": "MP Arm of Justice",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -22,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 43
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.55,
+      "blockstun": 25,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "arjun__236pp",
+      "input": {
+        "numpad": "236PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "3",
+        "limit": "20",
+        "start": "3"
+      },
+      "name": {
+        "en": "OD Arm of Justice",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f extra recovery on whiff",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 43,
+      "onPerfectParry": -21,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 17,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "6,2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800 (200,600)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "arjun__236pp6p",
+      "input": {
+        "numpad": "236PP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "99,99",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "OD Arm follow-up",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": 1,
+      "onHit": 74,
+      "onPerfectParry": -25,
+      "onPunishCounter": 74,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "6,2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800 (200,600)",
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 3,
+      "hitstun": null,
+      "id": "arjun__236p6p",
+      "input": {
+        "numpad": "236P~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "99,99",
+        "start": "1,1"
+      },
+      "name": {
+        "en": "Arm follow-up",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": 1,
+      "onHit": 74,
+      "onPerfectParry": -25,
+      "onPunishCounter": 74,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -7,
+        "onHit": 32
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.03,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "15% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 2500
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 47
+      },
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "arjun__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crush Dissent",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fully cancelable sweep with good range; cancel does not allow a combo follow-up on grounded hit or counter-hit (requires Punish Counter or airborne juggle); Punish Counter puts the opponent into a limited juggle OTG bounce state with extra hitstop for an easy hitconfirm; useful juggle tool that keeps the opponent airborne but only has slight juggle potential itself; forward movement leaves Arjun very close to the opponent on block if not canceled; cancel into 236LP creates a safe frame trap on block; Arjun lifts up his front leg hurtbox on frames 6-14, making it strong vs. low pokes; extends a hurtbox 1f before active that is vulnerable to projectiles; extends a projectile invincible head hurtbox upwards on frames 2-17 (but still in a crouching state)",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 32,
+      "onPerfectParry": -26,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": -7,
+        "onHit": 32
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.03,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "15% Starter; Combo (2 hits)",
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 2500
+      },
+      "driveRushCancel": {
+        "onBlock": 4,
+        "onHit": 47
+      },
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "arjun__2hk",
+      "input": {
+        "numpad": "2HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crush Dissent",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fully cancelable sweep with good range; cancel does not allow a combo follow-up on grounded hit or counter-hit (requires Punish Counter or airborne juggle); Punish Counter puts the opponent into a limited juggle OTG bounce state with extra hitstop for an easy hitconfirm; useful juggle tool that keeps the opponent airborne but only has slight juggle potential itself; forward movement leaves Arjun very close to the opponent on block if not canceled; cancel into 236LP creates a safe frame trap on block; Arjun lifts up his front leg hurtbox on frames 6-14, making it strong vs. low pokes; extends a hurtbox 1f before active that is vulnerable to projectiles; extends a projectile invincible head hurtbox upwards on frames 2-17 (but still in a crouching state)",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 32,
+      "onPerfectParry": -26,
+      "onPunishCounter": 48,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 25,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 41
+    },
+    {
+      "active": "7",
+      "afterDriveRush": {
+        "onBlock": -1,
+        "onHit": 3
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.01,
+      "blockstun": 24,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": {
+        "onBlock": 14,
+        "onHit": 18
+      },
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "arjun__2hp",
+      "input": {
+        "numpad": "2HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Heavy Punch",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": -5,
+      "onHit": -1,
+      "onPerfectParry": -27,
+      "onPunishCounter": 3,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": null,
+      "totalFrames": 38
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.26,
+      "blockstun": 13,
+      "cancel": [
+        "chain"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "arjun__2lk",
+      "input": {
+        "numpad": "2LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Kick",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -13,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": {
+        "onBlock": "0.355",
+        "onHit": "0.349"
+      },
+      "recovery": 12,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": null,
+      "totalFrames": 19
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 3,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.3,
+      "blockstun": 11,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 17,
+      "id": "arjun__2lp",
+      "input": {
+        "numpad": "2LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Light Punch",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": -1,
+      "onHit": 5,
+      "onPerfectParry": -10,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.371",
+        "onHit": "0.360"
+      },
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": null,
+      "totalFrames": 16
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 9
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.58,
+      "blockstun": 19,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 600,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 26,
+      "id": "arjun__2mk",
+      "input": {
+        "numpad": "2MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Kick",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": -2,
+      "onHit": 5,
+      "onPerfectParry": -19,
+      "onPunishCounter": 9,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 18,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": null,
+      "totalFrames": 28
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 27
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.74,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": null,
+      "id": "arjun__2mp",
+      "input": {
+        "numpad": "2MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Crouching Medium Punch",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": -4,
+      "onHit": 27,
+      "onPerfectParry": -23,
+      "onPunishCounter": 27,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 33
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "arjun__4lplk",
+      "input": {
+        "numpad": "4LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Scale of the Judged",
+        "ja": null
+      },
+      "notes": {
+        "en": "Side switch; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 21,
+      "onPerfectParry": null,
+      "onPunishCounter": 21,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "10",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": 28,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
+      "driveRushCancel": null,
+      "hitstop": 7,
+      "hitstun": null,
+      "id": "arjun__4pppkkk",
+      "input": {
+        "numpad": "4PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Back Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"Hmmm. This will not end well for you.\"; tosses a rock into the air, creating a large projectile hitbox when his breath collides with it; hitbox whiffs on crouching opponents unless they extend a vertical hurtbox; deals 200 recoverable damage on block",
+        "ja": null
+      },
+      "onBlock": -461,
+      "onHit": null,
+      "onPerfectParry": -478,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 479,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 257,
+      "superGauge": null,
+      "totalFrames": 745
+    },
+    {
+      "active": "4",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 43
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.87,
+      "blockstun": 22,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "arjun__5hk",
+      "input": {
+        "numpad": "5HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "; extends a hurtbox 1f before active that is vulnerable to projectiles",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 43,
+      "onPerfectParry": -23,
+      "onPunishCounter": 79,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 14,
+      "superGauge": null,
+      "totalFrames": 38
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.21,
+      "blockstun": 22,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": {
+        "onBlock": 12,
+        "onHit": 65
+      },
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "arjun__5hkhp",
+      "input": {
+        "numpad": "5HK~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
+      "name": {
+        "en": "Penitent Fist",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": -23,
+      "onHit": 29,
+      "onPerfectParry": -43,
+      "onPunishCounter": 29,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 42,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 24,
+      "superGauge": null,
+      "totalFrames": 68
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.21,
+      "blockstun": 26,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": {
+        "onBlock": 16,
+        "onHit": 89
+      },
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "arjun__5hk[hp]",
+      "input": {
+        "numpad": "5HK~[HP]",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "2",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Penitent Fist (Hold)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Allows the TC to combo after a 5HK Punish Counter launch (full charge) or a high anti-air connect (partial charge)",
+        "ja": null
+      },
+      "onBlock": -19,
+      "onHit": 54,
+      "onPerfectParry": -43,
+      "onPunishCounter": 54,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 42,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 41,
+      "superGauge": null,
+      "totalFrames": 85
+    },
+    {
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.95,
+      "blockstun": 22,
+      "cancel": [
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 28,
+      "id": "arjun__5hp",
+      "input": {
+        "numpad": "5HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "1f less recovery on block",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -23,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 15,
+      "superGauge": null,
+      "totalFrames": 40
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.14,
+      "blockstun": 22,
+      "cancel": [
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "arjun__5hphp",
+      "input": {
+        "numpad": "5HP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "102",
+        "limit": "99",
+        "start": "102"
+      },
+      "name": {
+        "en": "Loose Cannon",
+        "ja": null
+      },
+      "notes": {
+        "en": "Always a true blockstring; HP/HK follow-ups can only be input on hit",
+        "ja": null
+      },
+      "onBlock": -11,
+      "onHit": 35,
+      "onPerfectParry": null,
+      "onPunishCounter": 35,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 30,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 16,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "arjun__5hphphk",
+      "input": {
+        "numpad": "5HP~HP~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Hot Pursuit",
+        "ja": null
+      },
+      "notes": {
+        "en": "Chases the opponent down for strong midscreen oki; cannot be input on block",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 5,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 60,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": null,
+      "superGauge": null,
+      "totalFrames": 60
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.98,
+      "blockstun": null,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 2000,
+      "damageText": "2000(1200)",
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 2,
+      "hitstun": null,
+      "id": "arjun__5hphphp",
+      "input": {
+        "numpad": "5HP~HP~HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": null,
+        "limit": "127",
+        "start": null
+      },
+      "name": {
+        "en": "Suppression",
+        "ja": null
+      },
+      "notes": {
+        "en": "() refers to scaled damage from 5HP~HP combo starter; cannot be input on block; only combos in the corner (opponent is too far to connect midscreen)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 25,
+      "onPerfectParry": null,
+      "onPunishCounter": 25,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 40,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 60
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 5
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.45,
+      "blockstun": 13,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 400,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": {
+        "onBlock": -1,
+        "onHit": 4
+      },
+      "hitstop": 9,
+      "hitstun": 18,
+      "id": "arjun__5lk",
+      "input": {
+        "numpad": "5LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Kick",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": -15,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 14,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 6,
+      "superGauge": null,
+      "totalFrames": 22
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 5,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.04,
+      "blockstun": 13,
+      "cancel": [
+        "chain",
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": {
+        "onBlock": 3,
+        "onHit": 6
+      },
+      "hitstop": 9,
+      "hitstun": 16,
+      "id": "arjun__5lp",
+      "input": {
+        "numpad": "5LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Light Punch",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": 1,
+      "onHit": 4,
+      "onPerfectParry": -10,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": {
+        "onBlock": "0.355",
+        "onHit": "0.351"
+      },
+      "recovery": 9,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 4,
+      "superGauge": null,
+      "totalFrames": 15
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 6
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.34,
+      "blockstun": 17,
+      "cancel": [
+        "special",
+        "super",
+        "target_combo"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": {
+        "onBlock": 5,
+        "onHit": 12
+      },
+      "hitstop": 11,
+      "hitstun": 24,
+      "id": "arjun__5mk",
+      "input": {
+        "numpad": "5MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "2f less recovery on block",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -18,
+      "onPunishCounter": 6,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": null,
+      "totalFrames": 28
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 26,
+      "id": "arjun__5mkhk",
+      "input": {
+        "numpad": "5MK~HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "5",
+        "start": "1"
+      },
+      "name": {
+        "en": "Impose Order",
+        "ja": null
+      },
+      "notes": {
+        "en": "3f gap between hits on block; knocks down on counter-hit/Punish Counter (canceling into Super does not combo off the knockdown)",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -21,
+      "onPunishCounter": 31,
+      "projectileSpeed": null,
+      "properties": [
+        "low"
+      ],
+      "pushback": null,
+      "recovery": 20,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 17,
+      "superGauge": null,
+      "totalFrames": 39
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 2,
+        "onHit": 8
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.68,
+      "blockstun": 20,
+      "cancel": [
+        "special",
+        "super"
+      ],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": {
+        "onBlock": 10,
+        "onHit": 16
+      },
+      "hitstop": 11,
+      "hitstun": 26,
+      "id": "arjun__5mp",
+      "input": {
+        "numpad": "5MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Standing Medium Punch",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -20,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 11,
+      "superGauge": null,
+      "totalFrames": 32
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "arjun__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"You challenge me? You stand no chance. Ahh... haha. Your move. Your lack of rhythm disturbs me.\"; can change which dance Arjun performs by holding a direction (forward/back/up/down) and extend the taunt indefinitely",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 1364,
+      "superGauge": null,
+      "totalFrames": 1364
+    },
+    {
+      "active": "21",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 5.35,
+      "blockstun": 25,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "arjun__623hp",
+      "input": {
+        "numpad": "623HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "20",
+        "start": "1"
+      },
+      "name": {
+        "en": "HP Cruel Shoulder",
+        "ja": null
+      },
+      "notes": {
+        "en": "Reaches fullscreen; launches opponent upward followed by a limited juggle OTG bounce state; transitions into Justice Beyond when colliding with an active Divine Pillar; deals 800 recoverable damage on block (stacks with chip damage if the opponent is in Burnout); the active frames end immediately on block/parry or when absorbed by armor followed by a fixed 23f recovery (cannot gain extra block advantage with meaty timing)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 42,
+      "onPerfectParry": -22,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 28,
+      "superGauge": null,
+      "totalFrames": 75
+    },
+    {
+      "active": "16",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.54,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "arjun__623lp",
+      "input": {
+        "numpad": "623LP",
+        "official": null
+      },
+      "invuln": "6-23 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "20",
+        "start": "1"
+      },
+      "name": {
+        "en": "LP Cruel Shoulder",
+        "ja": null
+      },
+      "notes": {
+        "en": "Launches opponent slightly upward followed by a limited juggle OTG bounce state; transitions into Justice Beyond when colliding with an active Divine Pillar; deals 600 recoverable damage on block (stacks with chip damage if the opponent is in Burnout); the active frames end immediately on block/parry or when absorbed by armor followed by a fixed 23f recovery (cannot be made safer on block with meaty timing)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 60,
+      "onPerfectParry": -22,
+      "onPunishCounter": 60,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 22,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": null,
+      "totalFrames": 56
+    },
+    {
+      "active": "19",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 3.02,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 275,
+      "damage": 1100,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "arjun__623mp",
+      "input": {
+        "numpad": "623MP",
+        "official": null
+      },
+      "invuln": "6-27 Air",
+      "juggle": {
+        "increase": "1",
+        "limit": "20",
+        "start": "1"
+      },
+      "name": {
+        "en": "MP Cruel Shoulder",
+        "ja": null
+      },
+      "notes": {
+        "en": "Launches opponent slightly upward followed by a limited juggle OTG bounce state; transitions into Justice Beyond when colliding with an active Divine Pillar; deals 700 recoverable damage on block (stacks with chip damage if the opponent is in Burnout); the active frames end immediately on block/parry or when absorbed by armor followed by a fixed 23f recovery (cannot be made safer on block with meaty timing)",
+        "ja": null
+      },
+      "onBlock": -4,
+      "onHit": 64,
+      "onPerfectParry": -22,
+      "onPunishCounter": 64,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 19,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 23,
+      "superGauge": null,
+      "totalFrames": 60
+    },
+    {
+      "active": "21",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 5.35,
+      "blockstun": 25,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": 300,
+      "damage": 1200,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
+      "hitstun": null,
+      "id": "arjun__623pp",
+      "input": {
+        "numpad": "623PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "20",
+        "start": "1"
+      },
+      "name": {
+        "en": "OD Cruel Shoulder",
+        "ja": null
+      },
+      "notes": {
+        "en": "Reaches fullscreen; launches opponent upward followed by a limited juggle OTG bounce state; transitions into Justice Beyond when colliding with an active Divine Pillar; deals 800 recoverable damage on block (stacks with chip damage if the opponent is in Burnout); the active frames end immediately on block/parry or when absorbed by armor followed by a fixed 23f recovery (cannot gain extra block advantage with meaty timing)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 42,
+      "onPerfectParry": -22,
+      "onPunishCounter": 42,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 27,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": null,
+      "totalFrames": 69
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 1600,
+      "damageText": "1600 recoverable",
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "arjun__63214p",
+      "input": {
+        "numpad": "63214P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Ghastly Interrogation",
+        "ja": null
+      },
+      "notes": {
+        "en": "Deals recoverable damage to the opponent (cannot K.O. a low-health opponent); if the opponent already accumulated any recoverable damage, it instead deals actual damage and can K.O. the opponent; can be comboed into on grounded opponents but cannot be canceled into from normals",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 8,
+      "onPerfectParry": null,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 2.02,
+      "blockstun": null,
+      "cancel": [],
+      "category": "special",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 2200,
+      "damageText": "2200 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "arjun__63214pp",
+      "input": {
+        "numpad": "63214PP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "OD Ghastly Interrogation",
+        "ja": null
+      },
+      "notes": {
+        "en": "Deals recoverable damage to the opponent (cannot K.O. a low-health opponent); if the opponent already accumulated any recoverable damage, it instead deals actual damage and can K.O. the opponent; takes a step forward on startup similar to 236PP; can be comboed into on grounded or airborne opponents but cannot be canceled into from normals",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 8,
+      "onPerfectParry": null,
+      "onPunishCounter": 8,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 38,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": null,
+      "totalFrames": 66
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 0,
+        "onHit": 40
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.87,
+      "blockstun": 20,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "arjun__6hk",
+      "input": {
+        "numpad": "6HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Above the Law",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": -4,
+      "onHit": 40,
+      "onPerfectParry": -22,
+      "onPunishCounter": 40,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 19,
+      "superGauge": null,
+      "totalFrames": 42
+    },
+    {
+      "active": "3",
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 36
+      },
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.95,
+      "blockstun": 21,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 1000,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "arjun__6hp",
+      "input": {
+        "numpad": "6HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "99",
+        "start": "1"
+      },
+      "name": {
+        "en": "Blade of Duty",
+        "ja": null
+      },
+      "notes": null,
+      "onBlock": -3,
+      "onHit": 36,
+      "onPerfectParry": -22,
+      "onPunishCounter": 36,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 21,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 22,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.81,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "arjun",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "arjun__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-22 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Shield of the Vindicator (Block)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by inputting 6HPHK during blockstun; 5f extra recovery on hit; freezes the screen for 4f during startup; see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 20,
+      "superGauge": null,
+      "totalFrames": 48
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "Break",
+      "attackRange": 1.81,
+      "blockstun": 23,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "arjun",
+      "chipDamage": 125,
+      "damage": 500,
+      "damageText": "500 recoverable",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -20000
+      },
+      "driveRushCancel": null,
+      "hitstop": 20,
+      "hitstun": null,
+      "id": "arjun__6hphk",
+      "input": {
+        "numpad": "6HPHK",
+        "official": null
+      },
+      "invuln": "1-20 Full",
+      "juggle": {
+        "increase": "100",
+        "limit": "1",
+        "start": "200"
+      },
+      "name": {
+        "en": "Shield of the Vindicator (Recovery)",
+        "ja": null
+      },
+      "notes": {
+        "en": "Performed by holding 6HPHK on wakeup; 5f extra recovery on hit; does not have any screen freeze except for a 12f freeze when interacting with the opponent's throw hitbox (this also refunds 1 Drive bar after punishing the throw); see [[Street_Fighter_6/Gauges#Drive_Reversal|Drive Reversal]].",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 23,
+      "onPerfectParry": -27,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "invincible",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 26,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 18,
+      "superGauge": null,
+      "totalFrames": 46
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "taunt",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "arjun__6pppkkk",
+      "input": {
+        "numpad": "6PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Forward Taunt",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"One moment. There. Many thanks.\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 975,
+      "superGauge": null,
+      "totalFrames": 975
+    },
+    {
+      "active": "2",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": "1-27",
+      "attackRange": 2.516,
+      "blockstun": 34,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "arjun",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": "20% Starter",
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 10000,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": 25,
+      "hitstun": null,
+      "id": "arjun__hphk",
+      "input": {
+        "numpad": "HPHK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "0"
+      },
+      "name": {
+        "en": "Excessive Force",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Impact|Drive Impact]]. Airborne connect gives spinning juggle state on Punish Counter or corner Wall Splat with variable height.",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 35,
+      "onPerfectParry": -35,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high",
+        "armor"
+      ],
+      "pushback": null,
+      "recovery": 35,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 26,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 3000
+      },
+      "totalFrames": 62
+    },
+    {
+      "active": "7",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.9,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 900,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": null,
+      "id": "arjun__jhk",
+      "input": {
+        "numpad": "j.HK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "20",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Reaches farther downward than Arjun's other air normals (more likely to punish whiffed normals / projectiles / throw techs and harder to anti-air on reaction); knocks down the opponent on any hit (no follow-up combo is possible making it less rewarding than most air normals); lower body projectile invuln 10-21f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 1,
+      "onHit": 26,
+      "onPerfectParry": -12,
+      "onPunishCounter": 26,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "6",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.71,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 800,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 13,
+      "hitstun": 19,
+      "id": "arjun__jhp",
+      "input": {
+        "numpad": "j.HP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "20",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Heavy Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Cross-up (can connect even from a point blank forward jump); spike knockdown vs. airborne opponents; 1st active frame can only hit forward while the final active frame can only hit cross-up (2 separate hitboxes overlap during the middle 4 active frames); extends a large downward hurtbox that makes it vulnerable to otherwise weak anti-airs (like many 5LP/2LP/2MP attacks); lower body projectile invuln 10-22f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -8,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 10,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "9",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.97,
+      "blockstun": 10,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "arjun__jlk",
+      "input": {
+        "numpad": "j.LK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Strong downward hitbox priority; can be used as a fuzzy instant overhead if the opponent is in Burnout",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 1,
+      "onPerfectParry": -10,
+      "onPunishCounter": 5,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 7,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.16,
+      "blockstun": 9,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 300,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 9,
+      "hitstun": 13,
+      "id": "arjun__jlp",
+      "input": {
+        "numpad": "j.LP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Light Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Fast air-to-air with strong horizontal hitbox priority",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -3,
+      "onPunishCounter": 12,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "8",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.31,
+      "blockstun": 15,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 19,
+      "id": "arjun__jmk",
+      "input": {
+        "numpad": "j.MK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
+      "name": {
+        "en": "Jumping Medium Kick",
+        "ja": null
+      },
+      "notes": {
+        "en": "Greatest horizontal range of Arjun's air normals; lower body projectile invuln 9-26f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 8,
+      "onHit": 12,
+      "onPerfectParry": -5,
+      "onPunishCounter": 16,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "5",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.99,
+      "blockstun": 11,
+      "cancel": [],
+      "category": "normal",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 700,
+      "damageText": null,
+      "dmgScaling": null,
+      "driveGauge": null,
+      "driveRushCancel": null,
+      "hitstop": 11,
+      "hitstun": 15,
+      "id": "arjun__jmp",
+      "input": {
+        "numpad": "j.MP",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "6",
+        "limit": "20",
+        "start": "6"
+      },
+      "name": {
+        "en": "Jumping Medium Punch",
+        "ja": null
+      },
+      "notes": {
+        "en": "Puts airborne opponents into a limited juggle state; lower body projectile invuln 8-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 5,
+      "onHit": 9,
+      "onPerfectParry": -4,
+      "onPunishCounter": 13,
+      "projectileSpeed": null,
+      "properties": [
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 3,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 8,
+      "superGauge": null,
+      "totalFrames": null
+    },
+    {
+      "active": "3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 0.85,
+      "blockstun": null,
+      "cancel": [],
+      "category": "throw",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": 1200,
+      "damageText": "1200 (2040)",
+      "dmgScaling": "20% Immediate",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": 10000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "arjun__lplk",
+      "input": {
+        "numpad": "LPLK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Righteous Verdict",
+        "ja": null
+      },
+      "notes": {
+        "en": "; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": 23,
+      "onPerfectParry": null,
+      "onPunishCounter": 23,
+      "projectileSpeed": null,
+      "properties": [
+        "throw"
+      ],
+      "pushback": null,
+      "recovery": 23,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 5,
+      "superGauge": {
+        "onBlock": null,
+        "onHit": 2000
+      },
+      "totalFrames": 30
+    },
+    {
+      "active": "12 or until released",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "50% Multiplier (Perfect)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -5000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "arjun__mpmk",
+      "input": {
+        "numpad": "MPMK",
+        "official": null
+      },
+      "invuln": "6 Full (after Perfect Parry)",
+      "juggle": null,
+      "name": {
+        "en": "Drive Parry",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Parry|Drive Parry]]. Perfect Parrying has only 1F of recovery and disables the opponent from canceling their attack. Perfect Parrying projectiles puts you into fixed 11 frames of recovery. After a Perfect Parry, all Super Gauge gain is reduced by 20% and Drive Gauge gain/damage is reduced by 50% for the entire punish combo.",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [
+        "invincible"
+      ],
+      "pushback": null,
+      "recovery": 33,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 1,
+      "superGauge": null,
+      "totalFrames": 45
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -30000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "arjun__mpmkor66",
+      "input": {
+        "numpad": "MPMK or 66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Drive Rush Cancel",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 3-bar version performed on hit/block from a cancelable normal; can also be performed on whiff from cancelable light normals; startup refers to minimum time before an attack can cancel the Drive Rush animation; the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 9,
+      "superGauge": null,
+      "totalFrames": 24
+    },
+    {
+      "active": "-",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": null,
+      "blockstun": null,
+      "cancel": [],
+      "category": "drive",
+      "characterId": "arjun",
+      "chipDamage": null,
+      "damage": null,
+      "damageText": null,
+      "dmgScaling": "15% Multiplier (Mid-Combo)",
+      "driveGauge": {
+        "dealtOnBlock": null,
+        "dealtOnHit": null,
+        "gain": -10000
+      },
+      "driveRushCancel": null,
+      "hitstop": null,
+      "hitstun": null,
+      "id": "arjun__mpmk66",
+      "input": {
+        "numpad": "MPMK~66",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Parry Drive Rush",
+        "ja": null
+      },
+      "notes": {
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: ? (min/throw), ? (min/block), ? (max/final DR frame)",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": 15,
+      "source": {
+        "fetchedAt": "2026-10-16T08:05:36.823Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Arjun/Frame_data"
+      },
+      "startup": 3,
+      "superGauge": null,
+      "totalFrames": 26
+    }
+  ],
+  "name": {
+    "en": "Arjun",
+    "ja": null
+  },
+  "source": {
+    "fetchedAt": "2026-10-16T08:05:35.202Z",
+    "license": "CC-BY-SA",
+    "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
+  }
+}
