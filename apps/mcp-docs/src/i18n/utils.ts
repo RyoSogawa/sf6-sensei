@@ -19,7 +19,7 @@ export function useTranslations(lang: Lang) {
 export function localizePath(path: string, lang: Lang): string {
   const clean = path.replace(/^\/+|\/+$/g, '')
   const prefix = lang === 'en' ? '/en' : ''
-  return clean ? `${prefix}/${clean}` : `${prefix}/`
+  return clean ? `${prefix}/${clean}/` : `${prefix}/`
 }
 
 // Given the current URL, return the equivalent path in `lang` (used by the switcher).
