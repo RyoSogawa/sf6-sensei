@@ -12,5 +12,5 @@ export default defineConfig({
     routing: { prefixDefaultLocale: false },
   },
   integrations: [alpinejs()],
-  site: 'https://sf6-sensei-mcp.pages.dev',
+  site: 'https://sf6-sensei.pages.dev',
 })
