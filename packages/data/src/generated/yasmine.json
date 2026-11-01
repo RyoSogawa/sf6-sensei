@@ -59,7 +59,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Install that keeps Yasmine in Bayani Mode until the timer ends; timer lasts 1500 frames (25 seconds) and freezes during hitstop; cannot build additional Super gauge while the install is active; grants access to a new special move Linya ng Liwanag (fast cross-up slash); changes the properties of OD Alon (new cinematic ender); each activation of an enhanced Bayani Mode special consumes 375f from the install timer (25%)",
+        "en": "Install that keeps Yasmine in Bayani Mode until the timer ends; timer lasts 1500 frames (25 seconds) and freezes during hitstop; cannot build additional Super gauge while the install is active; Yasmine stays in Bayani Mode after install ends (if 236P is activated with at least 1 frame left on the timer, the follow-up enhanced Alon can be used freely without spending the Bayani stock); grants access to a new special move Linya ng Liwanag (fast cross-up slash); changes the properties of OD Alon (new cinematic ender); each activation of an enhanced Bayani Mode special consumes 375f from the install timer (25%); install activation is useful for starting pressure from ranges approaches like 214PP or 236PP~6P (very high pushback and weak pressure when canceled directly from 5MP~MP or 236PP)",
         "ja": null
       },
       "onBlock": null,
@@ -71,7 +71,7 @@
       "pushback": null,
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -83,13 +83,13 @@
       "totalFrames": 10
     },
     {
-      "active": "",
+      "active": "2(6)5",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
+      "attackRange": 4.73,
+      "blockstun": 23,
       "cancel": [],
       "category": "special",
       "characterId": "yasmine",
@@ -97,9 +97,13 @@
       "damage": 300,
       "damageText": "300,800",
       "dmgScaling": "20% Starter; Combo (2 hits)",
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 2000,
+        "gain": 2000
+      },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 2,
       "hitstun": null,
       "id": "yasmine__214214p4kk",
       "input": {
@@ -107,53 +111,66 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1,4",
+        "limit": "5,6",
+        "start": "1,1"
+      },
       "name": {
         "en": "Linya ng Liwanag",
         "ja": null
       },
       "notes": {
-        "en": "Dashes quickly behind the opponent and hits cross-up; puts opponent into a limited juggle state; consumes 375f (25%) of SA2 install timer",
+        "en": "Requires SA2 install; each use consumes 375f (25%) of SA2 install timer; deals Drive Damage on normal hit (0.5 bars if both hits connect); reaches fullscreen and extends a huge proximity guard hitbox from frame 15 onward; if the 1st hit is blocked, parried, or absorbed by armor, Yasmine stops her forward movement and does not perform the 2nd hit (this hit has 2f active + 24f recovery); on hit, Yasmine will dash behind the opponent (even in the corner) and perform a 2nd hit that launches the opponent into a limited juggle state; this cross-up hit can also occur if the first hit whiffs (like in a knockdown setup or on a jumping opponent); cross-up hit has functionally 30f startup when used as an oki tool; can be canceled into from 2MK~HK and 5MK~MK~HK Target Combos on hit; active frame distribution is 2(11)5 when both hits connect; whiff recovery is 1f faster (19f) if Yasmine passes far behind the opponent before the 2nd hit comes out; startup time can be up to 3f faster (19f) if Yasmine passes through a close range airborne/teleporting opponent with no collision box; after a corner sideswitch, some follow-up juggles can whiff under the opponent (623HK requires delay, while 623MK and SA1 are auto-timed)",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onBlock": -3,
+      "onHit": 49,
+      "onPerfectParry": -24,
+      "onPunishCounter": 49,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
       "totalFrames": null
     },
     {
-      "active": "",
+      "active": "2",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "attackRange": 2.91,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": "700,100,400 (1200)",
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 1500,
+        "gain": 2000
+      },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 12,
       "hitstun": null,
       "id": "yasmine__214hp",
       "input": {
@@ -161,34 +178,41 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1,0,1",
+        "limit": "3,5,5",
+        "start": "1,1,1"
+      },
       "name": {
-        "en": "Talim ng Hangin",
+        "en": "HP Talim ng Hangin",
         "ja": null
       },
       "notes": {
-        "en": "Puts Yasmine into Bayani Mode; plus on block advancing special but slow startup",
+        "en": "Puts Yasmine into Bayani Mode on hit (this occurs after the hitstop of the 1st hit ends, so it will be granted when Super canceled but not if it trades with opponent's attack); plus on block advancing special; slow startup makes it reactable and only combos naturally from 2HP; last 2 hits only play out on hit and are not cancelable (listed recovery refers to the blocked/whiffed version); puts opponents into a limited juggle state (follow-ups only possible when juggled on airborne opponents)",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onBlock": 1,
+      "onHit": 37,
+      "onPerfectParry": -17,
+      "onPunishCounter": 37,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 30,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 48
     },
     {
       "active": "-",
@@ -217,11 +241,11 @@
       "invuln": null,
       "juggle": null,
       "name": {
-        "en": "Talim ng Hangin",
+        "en": "LP Talim ng Hangin",
         "ja": null
       },
       "notes": {
-        "en": "Feints forward movement; useful to bait Parry or Drive Impact in neutral",
+        "en": "Feints forward movement; useful to bait Parry / Drive Impact / jumps in neutral; hurtbox extends forward on frame 14 until the end of recovery; Yasmine is in a counter-hit state with a standing hurtbox for the entire duration",
         "ja": null
       },
       "onBlock": null,
@@ -234,92 +258,107 @@
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": null,
       "superGauge": null,
-      "totalFrames": null
+      "totalFrames": 35
     },
     {
-      "active": "",
+      "active": "2",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "attackRange": 2.4,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "chipDamage": 150,
+      "damage": 600,
+      "damageText": "600,100,400 (1100)",
       "dmgScaling": "40% Starter",
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 1500,
+        "gain": 2000
+      },
       "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
+      "hitstop": 12,
+      "hitstun": 27,
       "id": "yasmine__214mp",
       "input": {
         "numpad": "214MP",
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1,0,1",
+        "limit": "3,5,5",
+        "start": "1,1,1"
+      },
       "name": {
-        "en": "Talim ng Hangin",
+        "en": "MP Talim ng Hangin",
         "ja": null
       },
       "notes": {
-        "en": "Puts Yasmine into Bayani Mode; safe on block advancing special",
+        "en": "Puts Yasmine into Bayani Mode on hit (this occurs after the hitstop of the 1st hit ends, so it will be granted when Super canceled but not if it trades with opponent's attack); safe on block advancing special; last 2 hits only play out on hit and are not cancelable (listed recovery refers to the blocked version); 3f extra recovery on whiff; 4f extra recovery when absorbed by armor (guaranteed punish when absorbed by Drive Impact unless canceled into SA3); counter-hit/Punish Counter bonus advantage carries through both hits (gives light confirms on CH and medium confirms on PC); puts airborne opponents into a limited juggle state (follow-ups are usually only possible in the corner)",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onBlock": -3,
+      "onHit": 2,
+      "onPerfectParry": -24,
+      "onPunishCounter": 6,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 400,
+        "onHit": 800
+      },
+      "totalFrames": 43
     },
     {
-      "active": "",
+      "active": "2",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "attackRange": 2.94,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300,250x2",
       "dmgScaling": null,
       "driveGauge": {
-        "dealtOnBlock": null,
-        "dealtOnHit": null,
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 1500,
         "gain": -20000
       },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 10,
       "hitstun": null,
       "id": "yasmine__214pp",
       "input": {
@@ -327,146 +366,175 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "0,0,4",
+        "limit": "1,6,6",
+        "start": "1,1,2"
+      },
       "name": {
-        "en": "Talim ng Hangin",
+        "en": "OD Talim ng Hangin",
         "ja": null
       },
       "notes": {
-        "en": "Puts Yasmine into Bayani Mode; SA2 cancel: +15/+5",
+        "en": "Puts Yasmine into Bayani Mode on hit (this occurs after the hitstop of the 1st hit ends, so it will be granted when Super canceled but not if it trades with opponent's attack); last 2 hits only play out on hit and are not cancelable (listed recovery refers to the blocked/whiffed version); puts opponents into a limited juggle state; useful approach tool when buffered into SA2; SA2 cancel: +15/+5",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onBlock": -12,
+      "onHit": 46,
+      "onPerfectParry": -28,
+      "onPunishCounter": 46,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 28,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 20,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 49
     },
     {
-      "active": "",
+      "active": "[50/60/74]",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
       "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x2",
       "dmgScaling": "20% Starter; Combo (2 hits)",
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
       "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
+      "hitstop": 8,
+      "hitstun": 27,
       "id": "yasmine__22p",
       "input": {
         "numpad": "22P",
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "2,10",
+        "start": "1"
+      },
       "name": {
         "en": "Pangil sa Likuran",
         "ja": null
       },
       "notes": {
-        "en": "Button strength determines projectile distance; projectile disappears if Yasmine is hit",
+        "en": "2-hit boomerang projectile (can only hit once on the way up, then applies all remaining hits on the way back); button strength determines projectile distance (LP short / MP mid / HP far); the listed active frames are for the L/M/H versions respectively; projectile disappears if Yasmine is hit; can only have one boomerang on-screen at a time; only the first 3 active frames are Super cancelable; the initial upward hit keeps opponents grounded (less range vs. crouching opponents); the returning projectile puts opponents into a limited juggle state; canceling from 2HP gives increased hit advantage (use LP boomerang from point blank 2HP for a link into 2LP in the corner); projectile speed refers to the initial activation before changing directions",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
-      "projectileSpeed": null,
+      "onBlock": -4,
+      "onHit": 1,
+      "onPerfectParry": -15,
+      "onPunishCounter": 5,
+      "projectileSpeed": 0.1,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 50
     },
     {
-      "active": "",
+      "active": "[50/60/74]",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
       "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "blockstun": 24,
+      "cancel": [
+        "super"
+      ],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "chipDamage": 75,
+      "damage": 300,
+      "damageText": "300x3",
       "dmgScaling": "20% Starter; Combo (2 hits)",
       "driveGauge": {
-        "dealtOnBlock": null,
-        "dealtOnHit": null,
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 2000,
         "gain": -20000
       },
       "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
+      "hitstop": 8,
+      "hitstun": 28,
       "id": "yasmine__22pp",
       "input": {
         "numpad": "22PP",
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "0,0,1",
+        "limit": "2,2(10),10",
+        "start": "1"
+      },
       "name": {
-        "en": "Pangil sa Likuran",
+        "en": "OD Pangil sa Likuran",
         "ja": null
       },
       "notes": {
-        "en": "3 hits; projectile disappears if Yasmine is hit; SA2 cancel: +16/+12",
+        "en": "3-hit boomerang projectile (can only hit once on the way up, then applies all remaining hits on the way back); button combination determines projectile distance (LP+MP short / LP+HP mid / MP+HP far); the listed active frames are for the L/M/H versions respectively; projectile disappears if Yasmine is hit; can only have one boomerang on-screen at a time; only the first 3 active frames are Super cancelable; the initial upward hit keeps opponents grounded (less range vs. crouching opponents); the returning projectile puts opponents into a limited juggle state; canceling from 2HP gives increased hit advantage (use LP+MP boomerang from point blank 2HP for a link into 5LK); projectile speed refers to the initial activation before changing directions; the 2nd hit Juggle Limit depends on whether the 1st hit connected on the way up (if returning projectile has all 3 hits: JL 2,2,10; if only 2 hits on the returning projectile, JL 2 followed by JL 10,10); SA2 cancel: +16/+12",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
-      "projectileSpeed": null,
+      "onBlock": -2,
+      "onHit": 2,
+      "onPerfectParry": -15,
+      "onPunishCounter": 6,
+      "projectileSpeed": 0.1,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 25,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 50
     },
     {
       "active": "6",
@@ -481,7 +549,7 @@
       "characterId": "yasmine",
       "chipDamage": 500,
       "damage": 2000,
-      "damageText": null,
+      "damageText": "2000(1600)",
       "dmgScaling": "30% Minimum",
       "driveGauge": {
         "dealtOnBlock": 2500,
@@ -507,7 +575,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Puts Yasmine into Bayani Mode on hit; transitions into a fully invincible cinematic on hit (1st hit can trade for 500 damage); fast reversal and a strong anti-air even at close ranges",
+        "en": "Puts Yasmine into Bayani Mode on hit; active frames 1-3 transition into a fully invincible cinematic on hit (1st hit can trade for 500 damage); active frames 4-6 perform a non-cinematic hit (1600 damage, KD +18~20 vs. grounded opponents, variable vs. airborne); fast reversal and a strong anti-air even at close ranges; useful juggle ender in any scenario where 623HK can also land",
         "ja": null
       },
       "onBlock": -34,
@@ -525,7 +593,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -575,7 +643,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Cinematic time regenerates ~2.2 Drive bars for Yasmine; can be used against projectiles from about round-start distance if it catches an extended hurtbox; tall hitbox can anti-air at long range but whiffs under close/mid range opponents; leaves Yasmine fullscreen on hit even if the opponent was cornered; can still get oki with Drive Rush into a delayed normal but cannot get into throw range",
+        "en": "Cinematic time regenerates ~2.2 Drive bars for Yasmine; can be used against projectiles from about round-start distance if it catches an extended hurtbox; tall hitbox can anti-air at long range but whiffs under close/mid range opponents; leaves Yasmine fullscreen on hit even if the opponent was cornered; can still get oki with Drive Rush into a delayed normal but cannot get into throw range; 2f startup when canceled from specials or 5HP",
         "ja": null
       },
       "onBlock": -48,
@@ -592,7 +660,7 @@
       "pushback": null,
       "recovery": 70,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -642,7 +710,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Available at 25% HP or below; cinematic time regenerates ~2.3 Drive bars for Yasmine; can be used against projectiles from about round-start distance if it catches an extended hurtbox; tall hitbox can anti-air at long range but whiffs under close/mid range opponents; gives +1 oki after forward dash near the edge of throw range (opponent can back walk to avoid Throw or a chain after 2LK); can also Drive Rush for stronger pressure and bait 6f reversals with DR~2LP",
+        "en": "Available at 25% HP or below; cinematic time regenerates ~2.3 Drive bars for Yasmine; can be used against projectiles from about round-start distance if it catches an extended hurtbox; tall hitbox can anti-air at long range but whiffs under close/mid range opponents; gives +1 oki after forward dash near the edge of throw range (opponent can back walk to avoid Throw or a chain after 2LK); can also Drive Rush for stronger pressure and bait 6f reversals with DR~2LP; 2f startup when canceled from specials or 5HP",
         "ja": null
       },
       "onBlock": -48,
@@ -659,7 +727,7 @@
       "pushback": null,
       "recovery": 70,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -671,74 +739,96 @@
       "totalFrames": 82
     },
     {
-      "active": "",
+      "active": "3",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "attackRange": 2.03,
+      "blockstun": 19,
+      "cancel": [
+        "super"
+      ],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
+      "chipDamage": 100,
+      "damage": 400,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
       "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
+      "hitstop": 10,
+      "hitstun": 28,
       "id": "yasmine__236hp",
       "input": {
         "numpad": "236HP",
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
       "name": {
-        "en": "Daloy ng Tubig",
+        "en": "HP Daloy ng Tubig",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "notes": {
+        "en": "Longest range and slowest startup (combos from 2MP, 2HP, and 5HP); too slow to frame trap when canceled into without Burnout or Drive Rush starter (always punishable in cancels, but if spaced in neutral can be safe to some stronger 6-frame punishes); leads to Alon follow-up that launches the opponent upward for midscreen oki or corner juggles (stronger juggles possible on enhanced follow-up); always a true blockstring when canceled into Alon follow-up",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 3,
+      "onPerfectParry": -23,
+      "onPunishCounter": 7,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 21,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 45
     },
     {
-      "active": "",
+      "active": "2(6)2(9)2",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "attackRange": 1.94,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "chipDamage": 12,
+      "damage": 50,
+      "damageText": "50x3,450 (600)",
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 750,
+        "dealtOnHit": 5000,
+        "gain": 600
+      },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 1,
       "hitstun": null,
       "id": "yasmine__236hp6p",
       "input": {
@@ -746,53 +836,66 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "0,0,1,1",
+        "limit": "5x3,6",
+        "start": "1"
+      },
       "name": {
-        "en": "Alon",
+        "en": "HP Alon",
         "ja": null
       },
       "notes": {
-        "en": "Puts Yasmine into Bayani Mode",
+        "en": "Final hit puts Yasmine into Bayani Mode on hit only (will not enter Bayani Mode if canceled on 3rd hit or if only the early hits connect); launches the opponent upward into a limited juggle state (gives a corner juggle into 623LK or gives solid oki anywhere on the screen); launch height is not improved by juggling an airborne opponent; always a true blockstring from Daloy ng Tubig starter; active/recovery/total data refers to the block/whiff version without the final hit",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
+      "onBlock": -12,
+      "onHit": 44,
       "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onPunishCounter": 44,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 100
+      },
+      "totalFrames": 57
     },
     {
-      "active": "",
+      "active": "2(6)2(9)2(23)3",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "attackRange": 1.94,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "chipDamage": 12,
+      "damage": 50,
+      "damageText": "50x3,550 (700)",
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 750,
+        "dealtOnHit": 1000,
+        "gain": 600
+      },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 1,
       "hitstun": null,
       "id": "yasmine__236hp6p",
       "input": {
@@ -800,39 +903,46 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "0,0,1,1",
+        "limit": "5x3,6",
+        "start": "3"
+      },
       "name": {
-        "en": "Alon (Bayani)",
+        "en": "HP Alon (Bayani)",
         "ja": null
       },
       "notes": {
-        "en": "Spends the Bayani Mode enhancement",
+        "en": "Spends the Bayani Mode enhancement; 3f less recovery on block; Yasmine performs the final hit on block unlike the standard version (safe on block and deals more Drive Damage); decent pressure tool vs. Burnout (but opponent can walk back to avoid throws and prevent a 2LK chain from comboing); launches opponents high into a limited juggle state (much more rewarding than non-Bayani version, juggles into 5HP / DR~2HP / 623HK / Supers); always a true blockstring from Daloy ng Tubig starter; deals 0.1 bars of Drive Damage on a normal hit during SA2 Bayani Mode install",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
+      "onBlock": -3,
+      "onHit": 52,
       "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onPunishCounter": 52,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 100
+      },
+      "totalFrames": 85
     },
     {
       "active": "-",
       "afterDriveRush": null,
-      "airborne": "?-? (FKD)",
+      "airborne": "14-48 (FKD)",
       "aliases": [],
       "armor": null,
       "attackRange": null,
@@ -860,7 +970,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Button strength determines trajectory",
+        "en": "Button strength determines trajectory (LK short, MK mid, HK far); cannot be steered manually after activation; follow-ups can be input starting on frame 24, and as late as frame 45 (236LK) / frame 42 (236MK) / frame 43 (236HK); can input OD follow-up with PP or KK for 2 Drive bars (safer on block); empty HK flip can have 1f longer or shorter aerial animation when crossing over the opponent at certain ranges; Yasmine is in a standing state with a standing-sized hurtbox during landing recovery",
         "ja": null
       },
       "onBlock": null,
@@ -872,20 +982,20 @@
         "airborne"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 11,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
+      "startup": 23,
       "superGauge": null,
-      "totalFrames": null
+      "totalFrames": 59
     },
     {
       "active": "-",
       "afterDriveRush": null,
-      "airborne": "?-? (FKD)",
+      "airborne": "14-48 (FKD)",
       "aliases": [],
       "armor": null,
       "attackRange": null,
@@ -913,11 +1023,11 @@
       "invuln": null,
       "juggle": null,
       "name": {
-        "en": "Mukha ng Langit",
+        "en": "OD Mukha ng Langit",
         "ja": null
       },
       "notes": {
-        "en": "Enhances the properties of follow-up attacks",
+        "en": "Enhances the properties of follow-up attacks (improved hit and block advantage, can be input with no extra meter cost); can be steered by holding back/neutral/forward before the follow-up starts (no input gives the same trajectory as 236LK); gives more freedom to control Yasmine's trajectory compared to the meterless flip; follow-ups can be input on frames 24-46; Yasmine is in a standing state with a standing-sized hurtbox during landing recovery",
         "ja": null
       },
       "onBlock": null,
@@ -929,291 +1039,438 @@
         "airborne"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 11,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
+      "startup": 23,
       "superGauge": null,
-      "totalFrames": null
+      "totalFrames": 59
     },
     {
-      "active": "",
+      "active": "until land",
       "afterDriveRush": null,
-      "airborne": null,
+      "airborne": "Until Land (FKD)",
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
+      "attackRange": 0.74,
+      "blockstun": 20,
       "cancel": [],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
+      "chipDamage": 175,
+      "damage": 700,
       "damageText": null,
       "dmgScaling": "20% Starter",
       "driveGauge": {
-        "dealtOnBlock": null,
-        "dealtOnHit": null,
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
         "gain": -20000
       },
       "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
+      "hitstop": 15,
+      "hitstun": 26,
       "id": "yasmine__236kkkor236kkk",
       "input": {
         "numpad": "236KK~K or 236K~KK",
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "15",
+        "start": "1"
+      },
       "name": {
-        "en": "Kulog",
+        "en": "OD Kulog",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "notes": {
+        "en": "Button strength determines downward trajectory (LK short, MK mid, HK far); can no longer alter the trajectory of OD Flip once the follow-up is activated; can be input with KK from a meterless Flip (button combination affects trajectory with LK+MK / LK+HK / MK+HK); cannot hit cross-up; stalls mid-air to bait anti-airs; plus on block and links into 5MP/2MP in almost all cases (worst advantage is only possible by inputting the follow-up right before landing against a point blank opponent); puts airborne opponents into a limited juggle state",
+        "ja": null
+      },
+      "onBlock": -2,
+      "onHit": 4,
+      "onPerfectParry": -18,
+      "onPunishCounter": 8,
       "projectileSpeed": null,
-      "properties": [],
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
       "totalFrames": null
     },
     {
-      "active": "",
+      "active": "4",
       "afterDriveRush": null,
-      "airborne": null,
+      "airborne": "Until Land (FKD)",
       "aliases": [],
       "armor": null,
       "attackRange": null,
-      "blockstun": null,
+      "blockstun": 20,
       "cancel": [],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
+      "chipDamage": 200,
+      "damage": 800,
       "damageText": null,
       "dmgScaling": "20% Starter",
       "driveGauge": {
-        "dealtOnBlock": null,
-        "dealtOnHit": null,
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
         "gain": -20000
       },
       "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
+      "hitstop": 15,
+      "hitstun": 27,
       "id": "yasmine__236kkpor236kpp",
       "input": {
         "numpad": "236KK~P or 236K~PP",
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "15",
+        "start": "1"
+      },
       "name": {
-        "en": "Ulan",
+        "en": "OD Ulan",
         "ja": null
       },
       "notes": {
-        "en": "Cross-up",
+        "en": "Cross-up only (in very ambiguous situations, can actually be blocked either direction before landing behind the opponent); button combination determines downward trajectory (LP+MP short / LP+HP mid / MP+HP far); can no longer alter the trajectory of OD Flip once the follow-up is activated; can use KD +42 safe jump setups to auto-time the deepest possible hit midscreen (may require OD Flip starter if the opponent Back Rises); puts airborne opponents into a limited juggle state (opponent falls toward Yasmine for easy follow-up)",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onBlock": -3,
+      "onHit": 4,
+      "onPerfectParry": -21,
+      "onPunishCounter": 8,
       "projectileSpeed": null,
-      "properties": [],
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
       "totalFrames": null
     },
     {
-      "active": "",
+      "active": "until land",
       "afterDriveRush": null,
-      "airborne": null,
+      "airborne": "Until Land (FKD)",
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
+      "attackRange": 0.74,
+      "blockstun": 17,
       "cancel": [],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
+      "chipDamage": 175,
+      "damage": 700,
       "damageText": null,
       "dmgScaling": "30% Starter",
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
       "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
+      "hitstop": 15,
+      "hitstun": 23,
       "id": "yasmine__236kk",
       "input": {
         "numpad": "236K~K",
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "15",
+        "start": "1"
+      },
       "name": {
         "en": "Kulog",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "notes": {
+        "en": "Button strength determines downward trajectory (LK short, MK mid, HK far); cannot hit cross-up; stalls mid-air to bait anti-airs; safe on block and links into light normals in almost all cases (worst advantage is only possible by inputting the follow-up right before landing against a point blank opponent); puts airborne opponents into a limited juggle state",
+        "ja": null
+      },
+      "onBlock": -5,
+      "onHit": 1,
+      "onPerfectParry": -17,
+      "onPunishCounter": 5,
       "projectileSpeed": null,
-      "properties": [],
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
       "totalFrames": null
     },
     {
-      "active": "",
+      "active": "4",
       "afterDriveRush": null,
-      "airborne": null,
+      "airborne": "Until Land (FKD)",
       "aliases": [],
       "armor": null,
       "attackRange": null,
-      "blockstun": null,
+      "blockstun": 17,
       "cancel": [],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
+      "chipDamage": 200,
+      "damage": 800,
       "damageText": null,
       "dmgScaling": "30% Starter",
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
       "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
+      "hitstop": 15,
+      "hitstun": 25,
       "id": "yasmine__236kp",
       "input": {
         "numpad": "236K~P",
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "15",
+        "start": "1"
+      },
       "name": {
         "en": "Ulan",
         "ja": null
       },
       "notes": {
-        "en": "Cross-up",
+        "en": "Cross-up only (in very ambiguous situations, can actually be blocked either direction before landing behind the opponent); button strength determines downward trajectory (LP short / MP mid / HP far); can use KD +42 safe jump setups to auto-time the deepest possible hit midscreen (may not be possible if the opponent Back Rises); puts airborne opponents into a limited juggle state (opponent falls toward Yasmine for easy follow-up)",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onBlock": -6,
+      "onHit": 2,
+      "onPerfectParry": -21,
+      "onPunishCounter": 6,
       "projectileSpeed": null,
-      "properties": [],
+      "properties": [
+        "low",
+        "high",
+        "airborne"
+      ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
+      "startup": 17,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
       "totalFrames": null
     },
     {
-      "active": "",
+      "active": "3",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "attackRange": 1.58,
+      "blockstun": 19,
+      "cancel": [
+        "super"
+      ],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
+      "chipDamage": 100,
+      "damage": 400,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
       "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
+      "hitstop": 10,
+      "hitstun": 26,
       "id": "yasmine__236lp",
       "input": {
         "numpad": "236LP",
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
       "name": {
-        "en": "Daloy ng Tubig",
+        "en": "LP Daloy ng Tubig",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "notes": {
+        "en": "Shortest range but fastest startup (combos from all light normals and fast enough to juggle in situations where MP/HP versions are too slow); frame traps when canceled from 2LP or 5LK (nearly always punishable, but when spaced may avoid strong 6-frame punishes); leads to Alon follow-up that keeps opponent grounded (enhanced follow-up gives a knockdown); always a true blockstring when canceled into Alon follow-up; with Alon, this version deals more damage than MP Daloy with less combo scaling (can be more useful in short combo routes)",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 1,
+      "onPerfectParry": -23,
+      "onPunishCounter": 5,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 36
     },
     {
-      "active": "",
+      "active": "2(6)2(9)2",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "attackRange": 1.81,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "chipDamage": 25,
+      "damage": 100,
+      "damageText": "100x3,400 (700)",
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 750,
+        "dealtOnHit": 5000,
+        "gain": 600
+      },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 1,
+      "hitstun": 26,
+      "id": "yasmine__236lp6p",
+      "input": {
+        "numpad": "236LP~6P",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": {
+        "increase": "0,0,1,1",
+        "limit": "5x3,6",
+        "start": "1"
+      },
+      "name": {
+        "en": "LP Alon",
+        "ja": null
+      },
+      "notes": {
+        "en": "Final hit puts Yasmine into Bayani Mode on hit only (will not enter Bayani Mode if canceled on 3rd hit or if only the early hits connect); leaves grounded opponents at close range with slight advantage on hit for continued pressure; puts airborne opponents into a limited juggle state (can only cancel into SA3); always a true blockstring from Daloy ng Tubig starter; active/recovery/total data refers to the block/whiff version without the final hit",
+        "ja": null
+      },
+      "onBlock": -12,
+      "onHit": 1,
+      "onPerfectParry": null,
+      "onPunishCounter": 1,
+      "projectileSpeed": null,
+      "properties": [
+        "low",
+        "high"
+      ],
+      "pushback": null,
+      "recovery": 24,
+      "source": {
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
+      },
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 100
+      },
+      "totalFrames": 57
+    },
+    {
+      "active": "2(6)2(9)2(17)3",
+      "afterDriveRush": null,
+      "airborne": null,
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.94,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
+      "category": "special",
+      "characterId": "yasmine",
+      "chipDamage": 25,
+      "damage": 100,
+      "damageText": "100x3,600 (900)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 750,
+        "dealtOnHit": 1000,
+        "gain": 600
+      },
+      "driveRushCancel": null,
+      "hitstop": 1,
       "hitstun": null,
       "id": "yasmine__236lp6p",
       "input": {
@@ -1221,158 +1478,133 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "0,0,1,1",
+        "limit": "5x3,6",
+        "start": "1"
+      },
       "name": {
-        "en": "Alon",
+        "en": "LP Alon (Bayani)",
         "ja": null
       },
       "notes": {
-        "en": "Puts Yasmine into Bayani Mode",
+        "en": "Spends the Bayani Mode enhancement; Yasmine performs the final hit on block unlike the standard version (safe on block and deals more Drive Damage); decent pressure tool vs. Burnout that deals more chip damage than the other versions (but opponent can walk back to avoid throws and prevent a 2LK chain from comboing); puts opponents into a limited juggle state (can only cancel into SA3 on grounded opponents, but in juggles like after 5MP~MP it can lead to a corner 623LK follow-up); grounded hit gives a KD +42 safe jump anywhere on the screen; always a true blockstring from Daloy ng Tubig starter; deals 0.1 bars of Drive Damage on a normal hit during SA2 Bayani Mode install",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
+      "onBlock": -1,
+      "onHit": 42,
       "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onPunishCounter": 42,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 100
+      },
+      "totalFrames": 73
     },
     {
-      "active": "",
+      "active": "3",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
-      "category": "special",
-      "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
-      "dmgScaling": null,
-      "driveGauge": null,
-      "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
-      "id": "yasmine__236lp6p",
-      "input": {
-        "numpad": "236LP~6P",
-        "official": null
-      },
-      "invuln": null,
-      "juggle": null,
-      "name": {
-        "en": "Alon (Bayani)",
-        "ja": null
-      },
-      "notes": {
-        "en": "Spends the Bayani Mode enhancement",
-        "ja": null
-      },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
-      "projectileSpeed": null,
-      "properties": [
-        "low",
-        "high"
+      "attackRange": 1.83,
+      "blockstun": 19,
+      "cancel": [
+        "super"
       ],
-      "pushback": null,
-      "recovery": null,
-      "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
-        "license": "CC-BY-SA",
-        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
-      },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
-    },
-    {
-      "active": "",
-      "afterDriveRush": null,
-      "airborne": null,
-      "aliases": [],
-      "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
+      "chipDamage": 100,
+      "damage": 400,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
+        "gain": 1500
+      },
       "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
+      "hitstop": 10,
+      "hitstun": 26,
       "id": "yasmine__236mp",
       "input": {
         "numpad": "236MP",
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
       "name": {
-        "en": "Daloy ng Tubig",
+        "en": "MP Daloy ng Tubig",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "notes": {
+        "en": "Medium range and startup (combos from mediums and 5LP~LP TC); frame traps when canceled from 5LP~LP, 5MP~MP, or 2MK (always punishable at this range, but if spaced in neutral can be safe to some stronger 6-frame punishes); leads to Alon follow-up that knocks down with good midscreen oki (OTG bounce juggles possible from enhanced follow-up); always a true blockstring when canceled into Alon follow-up",
+        "ja": null
+      },
+      "onBlock": -6,
+      "onHit": 1,
+      "onPerfectParry": -23,
+      "onPunishCounter": 5,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 40
     },
     {
-      "active": "",
+      "active": "2(6)2(9)2",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "attackRange": 1.81,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "chipDamage": 25,
+      "damage": 100,
+      "damageText": "100x3,300 (600)",
       "dmgScaling": "Combo (2 hits)",
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 750,
+        "dealtOnHit": 5000,
+        "gain": 600
+      },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 1,
       "hitstun": null,
       "id": "yasmine__236mp6p",
       "input": {
@@ -1380,53 +1612,66 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "0,0,1,1",
+        "limit": "5x3,6",
+        "start": "1"
+      },
       "name": {
-        "en": "Alon",
+        "en": "MP Alon",
         "ja": null
       },
       "notes": {
-        "en": "Puts Yasmine into Bayani Mode",
+        "en": "Final hit puts Yasmine into Bayani Mode on hit only (will not enter Bayani Mode if canceled on 3rd hit or if only the early hits connect); slams the opponent to the ground and gives solid oki anywhere on the screen; puts opponents into a limited juggle state (can only cancel into SA3); always a true blockstring from Daloy ng Tubig starter; active/recovery/total data refers to the block/whiff version without the final hit",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
+      "onBlock": -12,
+      "onHit": 30,
       "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onPunishCounter": 30,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 100
+      },
+      "totalFrames": 57
     },
     {
-      "active": "",
+      "active": "2(6)2(9)2(23)3",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "attackRange": 1.94,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "chipDamage": 25,
+      "damage": 100,
+      "damageText": "100x3,400 (700)",
       "dmgScaling": "Combo (2 hits)",
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 750,
+        "dealtOnHit": 1000,
+        "gain": 600
+      },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 1,
       "hitstun": null,
       "id": "yasmine__236mp6p",
       "input": {
@@ -1434,111 +1679,133 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "0,0,1,1",
+        "limit": "5x3,6",
+        "start": "1"
+      },
       "name": {
-        "en": "Alon (Bayani)",
+        "en": "MP Alon (Bayani)",
         "ja": null
       },
       "notes": {
-        "en": "Spends the Bayani Mode enhancement",
+        "en": "Spends the Bayani Mode enhancement; Yasmine performs the final hit on block unlike the standard version (safe on block and deals more Drive Damage); decent pressure tool vs. Burnout (but opponent can walk back to avoid throws and prevent a 2LK chain from comboing); puts opponents into a limited juggle OTG Bounce state (can juggle into 623MK/KK, but in juggles like after 5MP~MP it bounces higher for a juggle into 5HP / 623HK / SA1); grounded hit gives a KD +42 safe jump anywhere on the screen (but this sacrifices the juggle follow-up damage); always a true blockstring from Daloy ng Tubig starter; deals 0.1 bars of Drive Damage on a normal hit during SA2 Bayani Mode install",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
+      "onBlock": -2,
+      "onHit": 42,
       "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onPunishCounter": 42,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 50,
+        "onHit": 100
+      },
+      "totalFrames": 81
     },
     {
-      "active": "",
+      "active": "3",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "attackRange": 1.73,
+      "blockstun": 22,
+      "cancel": [
+        "super"
+      ],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
+      "chipDamage": 100,
+      "damage": 400,
       "damageText": null,
       "dmgScaling": null,
       "driveGauge": {
-        "dealtOnBlock": null,
-        "dealtOnHit": null,
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 5000,
         "gain": -20000
       },
       "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
+      "hitstop": 10,
+      "hitstun": 23,
       "id": "yasmine__236pp",
       "input": {
         "numpad": "236PP",
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "15",
+        "start": "1"
+      },
       "name": {
-        "en": "Daloy ng Tubig",
+        "en": "OD Daloy ng Tubig",
         "ja": null
       },
       "notes": {
-        "en": "SA2 cancel: +9/+8",
+        "en": "Has the startup of the LP version with improved range and juggle potential for consistency; puts airborne opponents into a limited juggle OTG bounce state (ensures OD Alon follow-up connects); safe on block and +1 in Burnout for continued pressure; leads to solid damage and corner carry; canceling directly into SA2 on block causes high pushback for weak pressure (always better to cancel from Alon follow-up); the OD follow-up plays out a cinematic cutscene that can lead to juggles if SA2 canceled; always a true blockstring when canceled into Alon follow-up; SA2 cancel: +9/+8",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onBlock": -3,
+      "onHit": -2,
+      "onPerfectParry": -23,
+      "onPunishCounter": 2,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 36
     },
     {
-      "active": "",
+      "active": "2(6)2(9)2",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "attackRange": 1.94,
+      "blockstun": 20,
+      "cancel": [
+        "super"
+      ],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
+      "chipDamage": 100,
+      "damage": 1400,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 750,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 1,
       "hitstun": null,
       "id": "yasmine__236pp6p",
       "input": {
@@ -1546,53 +1813,66 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "16",
+        "start": "0"
+      },
       "name": {
-        "en": "Alon",
+        "en": "OD Alon",
         "ja": null
       },
       "notes": {
-        "en": "Puts Yasmine into Bayani Mode; properties change during SA2 install; SA2 cancel: KD+85/+3",
+        "en": "Final cinematic hit puts Yasmine into Bayani Mode; does not cost any additional Drive gauge; puts opponents into a free juggle OTG Bounce state on hit or maintains the existing juggle state (requires SA2 cancel to continue the juggle, can combo into 214HP / DR normals / dash normals, will cause air reset if using a non-juggle move); always a true blockstring from OD Daloy ng Tubig starter; active/recovery/total data refers to block/whiff version without the final hit; SA2 cancel: KD+85/+3",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
+      "onBlock": -12,
+      "onHit": 40,
       "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onPunishCounter": 40,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 57
     },
     {
-      "active": "",
+      "active": "2(6)2(9)2(17)3",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "attackRange": 1.94,
+      "blockstun": 18,
+      "cancel": [
+        "super"
+      ],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "chipDamage": 100,
+      "damage": 1800,
+      "damageText": "1800 (2200)",
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 750,
+        "dealtOnHit": 5000,
+        "gain": null
+      },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 1,
       "hitstun": null,
       "id": "yasmine__236pp6p",
       "input": {
@@ -1600,34 +1880,41 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "0",
+        "limit": "16",
+        "start": "0"
+      },
       "name": {
-        "en": "Alon (Bayani)",
+        "en": "OD Alon (Bayani)",
         "ja": null
       },
       "notes": {
-        "en": "Spends the Bayani Mode enhancement; properties change during SA2 install; SA2 cancel: KD+85/+3",
+        "en": "Exits Bayani Mode on block but maintains the enhancement on hit; does not cost any additional Drive gauge; properties change during SA2 install (+400 damage, Hard Knockdown with greater advantage, and deals 0.5 bars of Drive Damage on a normal hit); puts opponents into a free juggle OTG Bounce state on hit or maintains the existing juggle state (requires SA2 cancel to continue the juggle, can combo into 214HP / DR normals / dash normals, will cause air reset if using a non-juggle move); always a true blockstring from OD Daloy ng Tubig starter; active/recovery/total data refers to blocked version (final hit does not occur on whiff, like when 236PP punishes a Dhalsim limb); SA2 cancel: KD+85/+9",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
+      "onBlock": -1,
+      "onHit": 40,
       "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onPunishCounter": 40,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 100,
+        "onHit": 200
+      },
+      "totalFrames": 73
     },
     {
       "active": "3",
@@ -1638,7 +1925,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 1.84,
       "blockstun": 18,
       "cancel": [],
       "category": "normal",
@@ -1647,7 +1934,11 @@
       "damage": 900,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 10000,
+        "gain": 3000
+      },
       "driveRushCancel": null,
       "hitstop": 13,
       "hitstun": null,
@@ -1667,7 +1958,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Has juggle potential without Drive Rush",
+        "en": "Sweep with good range that shifts Yasmine forward; has slight juggle potential without Drive Rush",
         "ja": null
       },
       "onBlock": -10,
@@ -1681,12 +1972,15 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 10,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
       "totalFrames": 37
     },
     {
@@ -1698,7 +1992,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 1.24,
       "blockstun": 18,
       "cancel": [
         "special",
@@ -1710,7 +2004,11 @@
       "damage": 800,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 5000,
+        "dealtOnHit": 8000,
+        "gain": 2000
+      },
       "driveRushCancel": {
         "onBlock": 8,
         "onHit": 21
@@ -1723,13 +2021,17 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Crouching Heavy Punch",
         "ja": null
       },
       "notes": {
-        "en": "Forces stand; SA2 cancel: +20/+7",
+        "en": "Forces stand; upper body and extended arm hurtbox is anti-air invuln on frames 10-13; active frames 1-2 hit in front of Yasmine and are cancelable; active frames 3-6 hit above Yasmine with a solid anti-air hitbox (these frames can hit grounded opponents but are not cancelable); forward movement on startup can cause it to whiff against closer jump-ins; important combo tool with high hitstun and much more damage than 5HP when canceled; SA2 cancel: +20/+7",
         "ja": null
       },
       "onBlock": -11,
@@ -1744,12 +2046,15 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 8,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
       "totalFrames": 36
     },
     {
@@ -1761,7 +2066,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 1.12,
       "blockstun": 11,
       "cancel": [
         "chain"
@@ -1772,7 +2077,11 @@
       "damage": 200,
       "damageText": null,
       "dmgScaling": "20% Starter",
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
       "driveRushCancel": null,
       "hitstop": 9,
       "hitstun": 15,
@@ -1782,7 +2091,11 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Crouching Light Kick",
         "ja": null
@@ -1799,15 +2112,21 @@
       "properties": [
         "low"
       ],
-      "pushback": null,
+      "pushback": {
+        "onBlock": "0.327",
+        "onHit": "0.320"
+      },
       "recovery": 10,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 5,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
       "totalFrames": 17
     },
     {
@@ -1819,7 +2138,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 0.97,
       "blockstun": 10,
       "cancel": [
         "chain",
@@ -1832,7 +2151,11 @@
       "damage": 300,
       "damageText": null,
       "dmgScaling": "20% Starter",
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
       "driveRushCancel": {
         "onBlock": 0,
         "onHit": 5
@@ -1845,13 +2168,17 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Crouching Light Punch",
         "ja": null
       },
       "notes": {
-        "en": "Chains into 5LP/2LP/2LK; SA2 cancel: +4/-1",
+        "en": "Chains into 5LP/2LP/2LK; Yasmine's only 4f option with fairly short range; up to +6 oH / +1 oB with meaty timing (allows stronger links or block pressure); topmost hurtbox on frames 1-6 is vulnerable only to aerial strikes (preventing its use as an anti-air); SA2 cancel: +4/-1",
         "ja": null
       },
       "onBlock": -1,
@@ -1864,17 +2191,20 @@
         "high"
       ],
       "pushback": {
-        "onBlock": "0.",
-        "onHit": "0."
+        "onBlock": "0.330",
+        "onHit": "0.352"
       },
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 4,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
       "totalFrames": 14
     },
     {
@@ -1886,7 +2216,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 1.456,
       "blockstun": 16,
       "cancel": [
         "special",
@@ -1899,7 +2229,11 @@
       "damage": 500,
       "damageText": null,
       "dmgScaling": "20% Starter",
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 2000,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
       "driveRushCancel": {
         "onBlock": 4,
         "onHit": 9
@@ -1912,13 +2246,17 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Crouching Medium Kick",
         "ja": null
       },
       "notes": {
-        "en": "SA2 cancel: +10/+5",
+        "en": "Solid cancelable low poke; can be hitconfirmed into a Target Combo extension for a knockdown (and an extended juggle with SA2 install active); SA2 cancel: +10/+5",
         "ja": null
       },
       "onBlock": -6,
@@ -1932,32 +2270,41 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 8,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
       "totalFrames": 29
     },
     {
-      "active": "",
+      "active": "2",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "attackRange": 1.58,
+      "blockstun": 17,
+      "cancel": [
+        "4kk"
+      ],
       "category": "normal",
       "characterId": "yasmine",
       "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "damage": 500,
+      "damageText": "500 (400)",
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 11,
       "hitstun": null,
       "id": "yasmine__2mkhk",
       "input": {
@@ -1965,31 +2312,41 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
       "name": {
         "en": "Kumbinasyong Pampabagsak",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
+      "notes": {
+        "en": "Hitconfirmable TC extension from low-hitting 2MK; always a true blockstring from 2MK; puts opponent into a limited juggle state on hit (much higher launch vs. airborne opponents, allowing follow-up juggles); becomes cancelable on hit only into 4KK (during SA2 install)",
+        "ja": null
+      },
+      "onBlock": -10,
+      "onHit": 30,
       "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onPunishCounter": 30,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 34
     },
     {
       "active": "3",
@@ -2000,7 +2357,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 1.25,
       "blockstun": 17,
       "cancel": [
         "special",
@@ -2012,7 +2369,11 @@
       "damage": 600,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": 4000,
+        "gain": 1500
+      },
       "driveRushCancel": {
         "onBlock": 7,
         "onHit": 13
@@ -2025,13 +2386,17 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Crouching Medium Punch",
         "ja": null
       },
       "notes": {
-        "en": "2f less recovery on block compared to on hit; 2f extra recovery on whiff; SA2 cancel: +12/+6",
+        "en": "2f less recovery on block compared to on hit; 2f extra recovery on whiff; great neutral buffer with good range for a 6f medium but slightly more whiff punishable than most similar normals; great pressure tool when used as a meaty or with bonus advantage from Drive Rush or Burnout; Yasmine's only medium button that combos naturally into 236HP and 214MP; topmost hurtbox on frames 1-8 is vulnerable only to aerial strikes (preventing its use as an anti-air); SA2 cancel: +12/+6",
         "ja": null
       },
       "onBlock": 0,
@@ -2046,22 +2411,28 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 6,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 300,
+        "onHit": 600
+      },
       "totalFrames": 24
     },
     {
-      "active": "",
-      "afterDriveRush": null,
+      "active": "2",
+      "afterDriveRush": {
+        "onBlock": -2,
+        "onHit": 31
+      },
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
+      "attackRange": 1.24,
+      "blockstun": 18,
       "cancel": [
         "special",
         "super"
@@ -2069,11 +2440,18 @@
       "category": "normal",
       "characterId": "yasmine",
       "chipDamage": null,
-      "damage": null,
+      "damage": 800,
       "damageText": null,
       "dmgScaling": "20% Starter",
-      "driveGauge": null,
-      "driveRushCancel": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
+      "driveRushCancel": {
+        "onBlock": 8,
+        "onHit": 45
+      },
       "hitstop": 13,
       "hitstun": null,
       "id": "yasmine__4hk",
@@ -2082,33 +2460,40 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Walis na Pabagsak",
         "ja": null
       },
       "notes": {
-        "en": "SA2 cancel: KD+43/+6",
+        "en": "Hurtbox shifts backwards on frames 5-15 before attacking with a low-hitting sweep (can be used as an auto-shimmy tool to avoid throws and some short-range attacks to score a Punish Counter); 3f extra recovery on whiff; extends a hurtbox 1f before active that is vulnerable to projectiles; crouching state on frames 16-44 (standing state for the last frame on block or the last 4 frames on whiff); fully cancelable despite being a sweep; puts opponent into a limited juggle state (when canceled, combos into moves like 236LP/MP/PP, 623K, SA1/SA3); Punish Counter launches the opponent higher (cancels into 214HP/PP or 236HP, and gains corner juggles into 623K / SA1 without a cancel); Special/DI cancel is delayed until after active frames; SA2 cancel: KD+43/+6",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onBlock": -6,
+      "onHit": 31,
+      "onPerfectParry": -22,
+      "onPunishCounter": 43,
       "projectileSpeed": null,
       "properties": [
         "low"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 22,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
+      "totalFrames": 45
     },
     {
       "active": "3",
@@ -2116,7 +2501,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 0.8,
       "blockstun": null,
       "cancel": [],
       "category": "throw",
@@ -2145,13 +2530,13 @@
         "ja": null
       },
       "notes": {
-        "en": "Side switch; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "en": "Side switch; after a corner back throw, can dash forward and poke with 2MK for a TC hitconfirm or 5HP for a potential trade combo; Drive Rush gives a pseudo-throw loop (and gives true strike/throw oki vs. Blanka / E. Honda / Zangief) but cannot get oki midscreen; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
         "ja": null
       },
       "onBlock": null,
-      "onHit": null,
+      "onHit": 24,
       "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onPunishCounter": 24,
       "projectileSpeed": null,
       "properties": [
         "throw"
@@ -2159,7 +2544,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2213,7 +2598,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2230,7 +2615,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 1.97,
       "blockstun": 19,
       "cancel": [],
       "category": "normal",
@@ -2239,7 +2624,11 @@
       "damage": 800,
       "damageText": null,
       "dmgScaling": "30% Starter",
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 6000,
+        "dealtOnHit": 8000,
+        "gain": 3000
+      },
       "driveRushCancel": null,
       "hitstop": 13,
       "hitstun": 24,
@@ -2249,13 +2638,17 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Standing Heavy Kick",
         "ja": null
       },
       "notes": {
-        "en": "Punish Counter puts opponent into a limited juggle state",
+        "en": "12-16f Low Crush (not airborne); Punish Counter puts opponent into a limited juggle state (can follow with 214PP or DR~2HP anywhere or 214MP/236PP at closer ranges); great poke that can be spaced safely and is very rewarding when countering low pokes in neutral; extends a hurtbox 1f before active that is vulnerable to projectiles",
         "ja": null
       },
       "onBlock": -4,
@@ -2270,12 +2663,15 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 14,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
       "totalFrames": 36
     },
     {
@@ -2287,7 +2683,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 1.97,
       "blockstun": 17,
       "cancel": [
         "special",
@@ -2299,7 +2695,11 @@
       "damage": 200,
       "damageText": "200x2,400",
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 1250,
+        "dealtOnHit": 2000,
+        "gain": 650
+      },
       "driveRushCancel": {
         "onBlock": 5,
         "onHit": 13
@@ -2312,13 +2712,17 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "0,2,1",
+        "limit": "10,11,12",
+        "start": "1,1,1"
+      },
       "name": {
         "en": "Standing Heavy Punch",
         "ja": null
       },
       "notes": {
-        "en": "3 hits; SA2 cancel: +12/+4",
+        "en": "3 hits (only the 2nd hit is cancelable); core poke and combo tool with good range for whiff punishing; counter-hit/Punish Counter bonus advantage carries through all hits; very high juggle potential; can be hitconfirmed, but late cancels have reduced advantage (DRC Adv. as low as +6 oH / -2 oB, and cancels into 214MP/PP and 236MP/HP can drop); high pushback prevents most counter-hit conversions but can usually link into mediums after Drive Rush or Punish Counter; punishable by Drive Impact if either of the first 2 hits are Perfect Parried; SA2 cancel: +12/+4",
         "ja": null
       },
       "onBlock": -3,
@@ -2333,12 +2737,15 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 9,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
       "totalFrames": 43
     },
     {
@@ -2350,7 +2757,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 1.3,
       "blockstun": 10,
       "cancel": [
         "special",
@@ -2362,7 +2769,11 @@
       "damage": 300,
       "damageText": null,
       "dmgScaling": "20% Starter",
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
       "driveRushCancel": {
         "onBlock": -1,
         "onHit": 5
@@ -2375,13 +2786,17 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Standing Light Kick",
         "ja": null
       },
       "notes": {
-        "en": "SA2 cancel: +5/-1",
+        "en": "Great range for a 5f light normal; does not link naturally from most combo starters but useful as a neutral buffer and punish starter; can combo into 236MP on Punish Counter (important for whiff punishes since other cancels drop or are too slow); DR cancel is delayed until after active frames; SA2 cancel: +5/-1",
         "ja": null
       },
       "onBlock": -4,
@@ -2396,12 +2811,15 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 5,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
       "totalFrames": 18
     },
     {
@@ -2413,9 +2831,10 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 1.01,
       "blockstun": 9,
       "cancel": [
+        "chain",
         "special",
         "super",
         "target_combo"
@@ -2426,10 +2845,14 @@
       "damage": 300,
       "damageText": null,
       "dmgScaling": "20% Starter",
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 500,
+        "dealtOnHit": 2000,
+        "gain": 250
+      },
       "driveRushCancel": {
         "onBlock": -1,
-        "onHit": 5
+        "onHit": 4
       },
       "hitstop": 9,
       "hitstun": 14,
@@ -2439,13 +2862,17 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Standing Light Punch",
         "ja": null
       },
       "notes": {
-        "en": "Chains into 5LP/2LP/2LK (delay required for consecutive 5LPs) or the 5LP~LP TC if chained quickly; SA2 cancel: +3/-2",
+        "en": "Chains into 5LP/2LP/2LK (delay required for consecutive 5LPs) or the 5LP~LP TC if chained quickly; 1f extra recovery on whiff; significantly less pushback on hit/block compared to 2LP for tick throw or DR pressure; SA2 cancel: +3/-2",
         "ja": null
       },
       "onBlock": -1,
@@ -2458,27 +2885,30 @@
         "high"
       ],
       "pushback": {
-        "onBlock": "0.",
-        "onHit": "0."
+        "onBlock": "0.278",
+        "onHit": "0.268"
       },
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 5,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
       "totalFrames": 14
     },
     {
-      "active": "",
+      "active": "2",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
+      "attackRange": 1.42,
+      "blockstun": 15,
       "cancel": [
         "special",
         "super"
@@ -2486,47 +2916,61 @@
       "category": "normal",
       "characterId": "yasmine",
       "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "damage": 400,
+      "damageText": "400 (320)",
       "dmgScaling": null,
-      "driveGauge": null,
-      "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
+      "driveRushCancel": {
+        "onBlock": 3,
+        "onHit": 5
+      },
+      "hitstop": 10,
+      "hitstun": 17,
       "id": "yasmine__5lplp",
       "input": {
         "numpad": "5LP~LP",
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
       "name": {
         "en": "Kidlat na Hiwa",
         "ja": null
       },
       "notes": {
-        "en": "; 1f longer hitconfirm window into DR Cancel; SA2 cancel: +5/+3",
+        "en": "Important hitconfirm tool from light strings with more hitstun than other lights (can combo naturally into 236MP); 2f extra recovery on block; safe on block and becomes +1 vs. Burnout for continued pressure (5LP~LP > 214MP keeps her in 5LP range); 1f longer hitconfirm window into DR Cancel; 2f gap between hits on block; DR cancel is delayed until after 1st recovery frame; SA2 cancel: +5/+3",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onBlock": -3,
+      "onHit": 1,
+      "onPerfectParry": -16,
+      "onPunishCounter": 5,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 14,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 8,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 23
     },
     {
       "active": "3",
@@ -2537,7 +2981,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 1.62,
       "blockstun": 18,
       "cancel": [
         "target_combo"
@@ -2548,7 +2992,11 @@
       "damage": 700,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 6000,
+        "gain": 2000
+      },
       "driveRushCancel": null,
       "hitstop": 11,
       "hitstun": 25,
@@ -2558,12 +3006,19 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Standing Medium Kick",
         "ja": null
       },
-      "notes": null,
+      "notes": {
+        "en": "Solid poke with good hitbox priority; foot hurtbox shifts backward on frames 4-12f (more effective at counter-hitting low pokes); moves Yasmine forward and maintains a somewhat consistent spacing on block (but can be punished at close range)",
+        "ja": null
+      },
       "onBlock": -4,
       "onHit": 3,
       "onPerfectParry": -20,
@@ -2576,85 +3031,108 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 10,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 350,
+        "onHit": 700
+      },
       "totalFrames": 31
     },
     {
-      "active": "",
+      "active": "2",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
+      "attackRange": 1.78,
+      "blockstun": 22,
       "cancel": [
         "target_combo"
       ],
       "category": "normal",
       "characterId": "yasmine",
       "chipDamage": null,
-      "damage": null,
+      "damage": 400,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
       "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
+      "hitstop": 11,
+      "hitstun": 22,
       "id": "yasmine__5mkmk",
       "input": {
         "numpad": "5MK~MK",
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "3",
+        "start": "1"
+      },
       "name": {
         "en": "Sunod-sunod na Sipa 1",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
+      "notes": {
+        "en": "Always a true blockstring from 5MK starter; primarily used after a 5MK whiff punish as it's difficult to hitconfirm directly; very unsafe on hit or block (should always go into the ender even on block)",
+        "ja": null
+      },
+      "onBlock": -13,
+      "onHit": -13,
       "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onPunishCounter": -9,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 13,
+      "superGauge": {
+        "onBlock": 200,
+        "onHit": 400
+      },
+      "totalFrames": 47
     },
     {
-      "active": "",
+      "active": "3",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
-      "cancel": [],
+      "attackRange": 2.04,
+      "blockstun": 22,
+      "cancel": [
+        "4kk"
+      ],
       "category": "normal",
       "characterId": "yasmine",
       "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "damage": 500,
+      "damageText": "500 (400)",
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 3000,
+        "dealtOnHit": null,
+        "gain": 1500
+      },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 13,
       "hitstun": null,
       "id": "yasmine__5mkmkhk",
       "input": {
@@ -2662,14 +3140,21 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "4",
+        "start": "1"
+      },
       "name": {
         "en": "Sunod-sunod na Sipa 2",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
+      "notes": {
+        "en": "5f extra recovery on whiff/block; always a true blockstring from 5MK~MK; puts opponent into a limited juggle state on hit; becomes cancelable on hit only into 4KK (during SA2 install)",
+        "ja": null
+      },
+      "onBlock": -9,
+      "onHit": 33,
       "onPerfectParry": null,
       "onPunishCounter": null,
       "projectileSpeed": null,
@@ -2678,15 +3163,18 @@
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 16,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
+      "totalFrames": 41
     },
     {
       "active": "2(8)2",
@@ -2697,7 +3185,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 1.01,
       "blockstun": 16,
       "cancel": [
         "target_combo"
@@ -2708,7 +3196,11 @@
       "damage": 300,
       "damageText": "300x2",
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 800
+      },
       "driveRushCancel": null,
       "hitstop": 4,
       "hitstun": 22,
@@ -2718,12 +3210,19 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "0,1",
+        "limit": "0,0",
+        "start": "0,1"
+      },
       "name": {
         "en": "Standing Medium Punch",
         "ja": null
       },
-      "notes": null,
+      "notes": {
+        "en": "2 hits; hitconfirmable pressure starter into a Target Combo extension; counter-hit/Punish Counter bonus advantage carries through both hits; 1st hit pulls opponent inward on hit/block; 2nd hit has less range but extends a wider combo-only hitbox for consistency; 2nd hit is Drive Impact punishable if the 1st hit is Perfect Parried; stops DR momentum almost immediately (weak as a DR approach tool at midrange)",
+        "ja": null
+      },
       "onBlock": -3,
       "onHit": 2,
       "onPerfectParry": -18,
@@ -2736,22 +3235,25 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 6,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
       "totalFrames": 35
     },
     {
-      "active": "",
+      "active": "2",
       "afterDriveRush": null,
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
+      "attackRange": 1.1,
+      "blockstun": 16,
       "cancel": [
         "special",
         "super"
@@ -2759,12 +3261,19 @@
       "category": "normal",
       "characterId": "yasmine",
       "chipDamage": null,
-      "damage": null,
+      "damage": 400,
       "damageText": null,
       "dmgScaling": "Combo (2 hits)",
-      "driveGauge": null,
-      "driveRushCancel": null,
-      "hitstop": null,
+      "driveGauge": {
+        "dealtOnBlock": 1000,
+        "dealtOnHit": 4000,
+        "gain": 400
+      },
+      "driveRushCancel": {
+        "onBlock": 6,
+        "onHit": 44
+      },
+      "hitstop": 13,
       "hitstun": null,
       "id": "yasmine__5mpmp",
       "input": {
@@ -2772,34 +3281,41 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "1",
+        "start": "1"
+      },
       "name": {
         "en": "Tatlong Hiwa",
         "ja": null
       },
       "notes": {
-        "en": "SA2 cancel: KD+43/+5",
+        "en": "Easily hitconfirmable from 5MP starter (always a true blockstring from 5MP); puts opponents into a limited juggle state (combos into 236LP/MP/PP, 214PP, or Super); SA2 cancel: KD+43/+5",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
+      "onBlock": -13,
+      "onHit": 25,
       "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onPunishCounter": 25,
       "projectileSpeed": null,
       "properties": [
         "low",
         "high"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 12,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
+      "totalFrames": 40
     },
     {
       "active": "2",
@@ -2855,7 +3371,7 @@
       "pushback": null,
       "recovery": 175,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -2867,15 +3383,15 @@
       "totalFrames": 750
     },
     {
-      "active": "",
+      "active": "-",
       "afterDriveRush": null,
-      "airborne": "?-? (FKD)",
+      "airborne": null,
       "aliases": [],
       "armor": null,
       "attackRange": null,
       "blockstun": null,
       "cancel": [],
-      "category": "special",
+      "category": "taunt",
       "characterId": "yasmine",
       "chipDamage": null,
       "damage": null,
@@ -2884,23 +3400,85 @@
       "driveGauge": null,
       "driveRushCancel": null,
       "hitstop": null,
+      "hitstun": null,
+      "id": "yasmine__5pppkkk",
+      "input": {
+        "numpad": "5PPPKKK",
+        "official": null
+      },
+      "invuln": null,
+      "juggle": null,
+      "name": {
+        "en": "Neutral Taunt (Burnout)",
+        "ja": null
+      },
+      "notes": {
+        "en": "\"I'm starving... Oh, I almost forgot! Aha! Want some? Really? Your loss! Alright, ready to go!\"",
+        "ja": null
+      },
+      "onBlock": null,
+      "onHit": null,
+      "onPerfectParry": null,
+      "onPunishCounter": null,
+      "projectileSpeed": null,
+      "properties": [],
+      "pushback": null,
+      "recovery": null,
+      "source": {
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
+        "license": "CC-BY-SA",
+        "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
+      },
+      "startup": 1221,
+      "superGauge": null,
+      "totalFrames": 1221
+    },
+    {
+      "active": "4(4)2",
+      "afterDriveRush": null,
+      "airborne": "9-43 (FKD)",
+      "aliases": [],
+      "armor": null,
+      "attackRange": 1.26,
+      "blockstun": 17,
+      "cancel": [],
+      "category": "special",
+      "characterId": "yasmine",
+      "chipDamage": 200,
+      "damage": 800,
+      "damageText": "800,60,30x3,350 (1300)",
+      "dmgScaling": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
+      "driveRushCancel": null,
+      "hitstop": 15,
       "hitstun": null,
       "id": "yasmine__623hk",
       "input": {
         "numpad": "623HK",
         "official": null
       },
-      "invuln": "1-? Air",
-      "juggle": null,
+      "invuln": "1-10 Air",
+      "juggle": {
+        "increase": "1,0x4,1",
+        "limit": "15,16",
+        "start": "1"
+      },
       "name": {
-        "en": "Lipad ng Agila",
+        "en": "HK Lipad ng Agila",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "notes": {
+        "en": "Only the first 2 hits come out on block/whiff; cannot hit cross-up; has the most horizontal range of meterless versions (works from max range 5LK cancel except in whiff punish scenarios)",
+        "ja": null
+      },
+      "onBlock": -32,
+      "onHit": 21,
+      "onPerfectParry": -47,
+      "onPunishCounter": 21,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -2909,55 +3487,65 @@
         "airborne"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 7,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 55
     },
     {
-      "active": "",
+      "active": "4(4)2",
       "afterDriveRush": null,
-      "airborne": "?-? (FKD)",
+      "airborne": "8-42 (FKD)",
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
+      "attackRange": 1.27,
+      "blockstun": 16,
       "cancel": [],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "chipDamage": 250,
+      "damage": 1000,
+      "damageText": "1000,60,30x3,450 (1600)",
       "dmgScaling": null,
       "driveGauge": {
-        "dealtOnBlock": null,
+        "dealtOnBlock": 4000,
         "dealtOnHit": null,
         "gain": -20000
       },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 15,
       "hitstun": null,
       "id": "yasmine__623kk",
       "input": {
         "numpad": "623KK",
         "official": null
       },
-      "invuln": "1-? Full",
-      "juggle": null,
+      "invuln": "1-9 Full",
+      "juggle": {
+        "increase": "1,0x4,1",
+        "limit": "15,16",
+        "start": "1"
+      },
       "name": {
-        "en": "Lipad ng Agila",
+        "en": "OD Lipad ng Agila",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "notes": {
+        "en": "Only the first 2 hits come out on block/whiff; cannot hit cross-up; Yasmine's primary reversal option; has the most horizontal range of all versions",
+        "ja": null
+      },
+      "onBlock": -40,
+      "onHit": 21,
+      "onPerfectParry": -54,
+      "onPunishCounter": 21,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -2966,51 +3554,65 @@
         "airborne"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 61
     },
     {
-      "active": "",
+      "active": "4(4)2",
       "afterDriveRush": null,
-      "airborne": "?-? (FKD)",
+      "airborne": "7-41 (FKD)",
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
+      "attackRange": 1.03,
+      "blockstun": 20,
       "cancel": [],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "chipDamage": 137,
+      "damage": 550,
+      "damageText": "550,50x2,350 (1000)",
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 15,
       "hitstun": null,
       "id": "yasmine__623lk",
       "input": {
         "numpad": "623LK",
         "official": null
       },
-      "invuln": "1-? Air",
-      "juggle": null,
+      "invuln": "1-14 Air",
+      "juggle": {
+        "increase": "1,0x2,1",
+        "limit": "15,16",
+        "start": "1"
+      },
       "name": {
-        "en": "Lipad ng Agila",
+        "en": "LK Lipad ng Agila",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "notes": {
+        "en": "Only the first 2 hits come out on block/whiff; cannot hit cross-up; best overall anti-air due to speed and invuln; very short horizontal range",
+        "ja": null
+      },
+      "onBlock": -29,
+      "onHit": 20,
+      "onPerfectParry": -47,
+      "onPunishCounter": 20,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -3019,51 +3621,65 @@
         "airborne"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 5,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 53
     },
     {
-      "active": "",
+      "active": "4(4)2",
       "afterDriveRush": null,
-      "airborne": "?-? (FKD)",
+      "airborne": "8-42 (FKD)",
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
+      "attackRange": 1.11,
+      "blockstun": 20,
       "cancel": [],
       "category": "special",
       "characterId": "yasmine",
-      "chipDamage": null,
-      "damage": null,
-      "damageText": null,
+      "chipDamage": 175,
+      "damage": 700,
+      "damageText": "700,50x3,350 (1200)",
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
       "driveRushCancel": null,
-      "hitstop": null,
+      "hitstop": 15,
       "hitstun": null,
       "id": "yasmine__623mk",
       "input": {
         "numpad": "623MK",
         "official": null
       },
-      "invuln": "1-? Air",
-      "juggle": null,
+      "invuln": "1-9 Air",
+      "juggle": {
+        "increase": "1,0x3,1",
+        "limit": "15,16",
+        "start": "1"
+      },
       "name": {
-        "en": "Lipad ng Agila",
+        "en": "MK Lipad ng Agila",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "notes": {
+        "en": "Only the first 2 hits come out on block/whiff; cannot hit cross-up; slightly more horizontal range than 623LK",
+        "ja": null
+      },
+      "onBlock": -29,
+      "onHit": 21,
+      "onPerfectParry": -47,
+      "onPunishCounter": 21,
       "projectileSpeed": null,
       "properties": [
         "low",
@@ -3072,15 +3688,18 @@
         "airborne"
       ],
       "pushback": null,
-      "recovery": null,
+      "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
-      "startup": null,
-      "superGauge": null,
-      "totalFrames": null
+      "startup": 6,
+      "superGauge": {
+        "onBlock": 125,
+        "onHit": 250
+      },
+      "totalFrames": 54
     },
     {
       "active": "3",
@@ -3088,7 +3707,7 @@
       "airborne": null,
       "aliases": [],
       "armor": "Break",
-      "attackRange": null,
+      "attackRange": 1.68,
       "blockstun": 23,
       "cancel": [],
       "category": "drive",
@@ -3138,7 +3757,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3152,7 +3771,7 @@
       "airborne": null,
       "aliases": [],
       "armor": "Break",
-      "attackRange": null,
+      "attackRange": 1.68,
       "blockstun": 23,
       "cancel": [],
       "category": "drive",
@@ -3202,7 +3821,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3212,12 +3831,15 @@
     },
     {
       "active": "3",
-      "afterDriveRush": null,
+      "afterDriveRush": {
+        "onBlock": 1,
+        "onHit": 7
+      },
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
-      "blockstun": null,
+      "attackRange": 1.6,
+      "blockstun": 18,
       "cancel": [],
       "category": "normal",
       "characterId": "yasmine",
@@ -3226,29 +3848,36 @@
       "damageText": null,
       "dmgScaling": null,
       "driveGauge": {
-        "dealtOnBlock": -2500,
-        "dealtOnHit": -5000,
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 5000,
         "gain": 1500
       },
       "driveRushCancel": null,
-      "hitstop": null,
-      "hitstun": null,
+      "hitstop": 11,
+      "hitstun": 24,
       "id": "yasmine__6mp",
       "input": {
         "numpad": "6MP",
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Hiwang Pababa",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "notes": {
+        "en": "Spike knockdown vs. airborne opponents; can link into light normals with meaty timing or with precise spacing in neutral; above average range for an overhead",
+        "ja": null
+      },
+      "onBlock": -3,
+      "onHit": 3,
+      "onPerfectParry": -19,
+      "onPunishCounter": 7,
       "projectileSpeed": null,
       "properties": [
         "high"
@@ -3256,16 +3885,16 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 22,
       "superGauge": {
-        "onBlock": null,
+        "onBlock": 250,
         "onHit": 500
       },
-      "totalFrames": null
+      "totalFrames": 42
     },
     {
       "active": "-",
@@ -3310,7 +3939,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3372,7 +4001,7 @@
       "pushback": null,
       "recovery": 406,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3389,7 +4018,7 @@
       "airborne": null,
       "aliases": [],
       "armor": "1-27",
-      "attackRange": null,
+      "attackRange": 2.548,
       "blockstun": 34,
       "cancel": [],
       "category": "drive",
@@ -3438,7 +4067,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3455,7 +4084,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 1.17,
       "blockstun": 15,
       "cancel": [],
       "category": "normal",
@@ -3464,7 +4093,11 @@
       "damage": 800,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
       "driveRushCancel": null,
       "hitstop": 13,
       "hitstun": 19,
@@ -3474,16 +4107,23 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Jumping Heavy Kick",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "notes": {
+        "en": "Yasmine's best horizontal approach with the longest range; lower body projectile invuln 10-19f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 7,
+      "onHit": 11,
+      "onPerfectParry": -6,
+      "onPunishCounter": 15,
       "projectileSpeed": null,
       "properties": [
         "high"
@@ -3491,12 +4131,15 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 10,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
       "totalFrames": null
     },
     {
@@ -3505,7 +4148,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 0.98,
       "blockstun": 15,
       "cancel": [],
       "category": "normal",
@@ -3514,7 +4157,11 @@
       "damage": 800,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 4000,
+        "dealtOnHit": 5000,
+        "gain": 2000
+      },
       "driveRushCancel": null,
       "hitstop": 13,
       "hitstun": 19,
@@ -3524,16 +4171,23 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Jumping Heavy Punch",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "notes": {
+        "en": "Spikes airborne opponents on counter-hit/Punish Counter; hitbox starts at the bottom and expands upward throughout the first 3 active frames (decent air-to-air on later active frames); Yasmine's best vertical approach at closer ranges; lower body projectile invuln 9-23f except around attack hitbox (cannot be used to avoid the 2nd hit of JP's OD Amnesia bombs)",
+        "ja": null
+      },
+      "onBlock": 4,
+      "onHit": 8,
+      "onPerfectParry": -9,
+      "onPunishCounter": 12,
       "projectileSpeed": null,
       "properties": [
         "high"
@@ -3541,12 +4195,15 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 9,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 500,
+        "onHit": 1000
+      },
       "totalFrames": null
     },
     {
@@ -3555,7 +4212,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 0.55,
       "blockstun": 10,
       "cancel": [],
       "category": "normal",
@@ -3564,7 +4221,11 @@
       "damage": 300,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
       "driveRushCancel": null,
       "hitstop": 9,
       "hitstun": 14,
@@ -3574,19 +4235,23 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Jumping Light Kick",
         "ja": null
       },
       "notes": {
-        "en": "Cross-up",
+        "en": "Cross-up; can be used as a fuzzy instant overhead (except vs. Blanka)",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onBlock": 1,
+      "onHit": 5,
+      "onPerfectParry": -7,
+      "onPunishCounter": 9,
       "projectileSpeed": null,
       "properties": [
         "high"
@@ -3594,12 +4259,15 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 4,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
       "totalFrames": null
     },
     {
@@ -3608,7 +4276,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 0.79,
       "blockstun": 9,
       "cancel": [],
       "category": "normal",
@@ -3617,7 +4285,11 @@
       "damage": 300,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 1500,
+        "dealtOnHit": 2000,
+        "gain": 500
+      },
       "driveRushCancel": null,
       "hitstop": 9,
       "hitstun": 13,
@@ -3627,16 +4299,23 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Jumping Light Punch",
         "ja": null
       },
-      "notes": null,
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "notes": {
+        "en": "Quick air-to-air",
+        "ja": null
+      },
+      "onBlock": 2,
+      "onHit": 6,
+      "onPerfectParry": -5,
+      "onPunishCounter": 10,
       "projectileSpeed": null,
       "properties": [
         "high"
@@ -3644,12 +4323,15 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 4,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 150,
+        "onHit": 300
+      },
       "totalFrames": null
     },
     {
@@ -3658,7 +4340,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 1.08,
       "blockstun": 13,
       "cancel": [],
       "category": "normal",
@@ -3667,7 +4349,11 @@
       "damage": 500,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
       "driveRushCancel": null,
       "hitstop": 11,
       "hitstun": 17,
@@ -3677,19 +4363,23 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "0",
+        "start": "1"
+      },
       "name": {
         "en": "Jumping Medium Kick",
         "ja": null
       },
       "notes": {
-        "en": "Cross-up",
+        "en": "Cross-up; lower body projectile invuln 7-20f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onBlock": 6,
+      "onHit": 10,
+      "onPerfectParry": -5,
+      "onPunishCounter": 14,
       "projectileSpeed": null,
       "properties": [
         "high"
@@ -3697,12 +4387,15 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 7,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
       "totalFrames": null
     },
     {
@@ -3711,7 +4404,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 0.8,
       "blockstun": 11,
       "cancel": [],
       "category": "normal",
@@ -3720,7 +4413,11 @@
       "damage": 700,
       "damageText": null,
       "dmgScaling": null,
-      "driveGauge": null,
+      "driveGauge": {
+        "dealtOnBlock": 2500,
+        "dealtOnHit": 4000,
+        "gain": 1000
+      },
       "driveRushCancel": null,
       "hitstop": 11,
       "hitstun": 15,
@@ -3730,19 +4427,23 @@
         "official": null
       },
       "invuln": null,
-      "juggle": null,
+      "juggle": {
+        "increase": "1",
+        "limit": "2",
+        "start": "1"
+      },
       "name": {
         "en": "Jumping Medium Punch",
         "ja": null
       },
       "notes": {
-        "en": "Puts airborne opponents into a limited juggle state",
+        "en": "Puts airborne opponents into a limited juggle state; lower body projectile invuln 6-22f (if used immediately on the way up, can avoid the 2nd hit of JP's OD Amnesia bombs)",
         "ja": null
       },
-      "onBlock": null,
-      "onHit": null,
-      "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onBlock": 6,
+      "onHit": 10,
+      "onPerfectParry": -3,
+      "onPunishCounter": 14,
       "projectileSpeed": null,
       "properties": [
         "high"
@@ -3750,12 +4451,15 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
       "startup": 7,
-      "superGauge": null,
+      "superGauge": {
+        "onBlock": 250,
+        "onHit": 500
+      },
       "totalFrames": null
     },
     {
@@ -3764,7 +4468,7 @@
       "airborne": null,
       "aliases": [],
       "armor": null,
-      "attackRange": null,
+      "attackRange": 0.8,
       "blockstun": null,
       "cancel": [],
       "category": "throw",
@@ -3793,13 +4497,13 @@
         "ja": null
       },
       "notes": {
-        "en": "; a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
+        "en": "Has a corner throw loop with Dash + walk with enough time for a shimmy (throw requires 3f timing vs. standard characters, 4f timing vs. wide characters); Drive Rush gives better strike options in the corner (requires manual timing except for DR~6MP which sets up trade combos); can chase opponent midscreen with DR normals (not a true strike/throw mixup but can get into throw range if the opponent doesn't wake up with a fast attack); a successful Throw Escape builds 0.5 Drive bars for the defender; Throw Escape is awarded to a random player if input simultaneously",
         "ja": null
       },
       "onBlock": null,
-      "onHit": null,
+      "onHit": 29,
       "onPerfectParry": null,
-      "onPunishCounter": null,
+      "onPunishCounter": 29,
       "projectileSpeed": null,
       "properties": [
         "throw"
@@ -3807,7 +4511,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3867,7 +4571,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3922,7 +4626,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3965,7 +4669,7 @@
         "ja": null
       },
       "notes": {
-        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: ? (min/throw), ? (min/block), ? (max/final DR frame)",
+        "en": "See [[Street_Fighter_6/Gauges#Drive_Rush|Drive Rush]]; 1-bar version performed out of a Parry; startup refers to minimum time before an attack can cancel the Drive Rush animation (if performed immediately after a successful Parry, only 1+8 startup); the first 15 recovery frames are cancelable into any attack; the final 22 recovery frames are cancelable into any attack or movement option or blocking (except Parry); only Normal and Command Normal attacks are enhanced with +4 frame advantage and improved juggle properties; Distance: 0.708 (min/throw), 2.478 (min/block), 3.918 (max/final DR frame)",
         "ja": null
       },
       "onBlock": null,
@@ -3977,7 +4681,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Yasmine/Frame_data"
       },
@@ -3991,7 +4695,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-08-19T04:05:24.993Z",
+    "fetchedAt": "2026-11-01T00:01:59.250Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

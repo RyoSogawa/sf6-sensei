@@ -84,7 +84,7 @@
       "pushback": null,
       "recovery": 68,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -151,7 +151,7 @@
       "pushback": null,
       "recovery": 68,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -199,7 +199,7 @@
         "start": "1,1,1,3"
       },
       "name": {
-        "en": "Spinning Scythe",
+        "en": "HK Spinning Scythe",
         "ja": null
       },
       "notes": {
@@ -218,7 +218,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -266,7 +266,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Moon Glider",
+        "en": "HP Moon Glider",
         "ja": null
       },
       "notes": {
@@ -285,7 +285,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -333,7 +333,7 @@
         "start": "1,1,1,3"
       },
       "name": {
-        "en": "Spinning Scythe",
+        "en": "OD Spinning Scythe",
         "ja": null
       },
       "notes": {
@@ -352,7 +352,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -400,7 +400,7 @@
         "start": "1,1,1,3"
       },
       "name": {
-        "en": "Spinning Scythe",
+        "en": "LK Spinning Scythe",
         "ja": null
       },
       "notes": {
@@ -419,7 +419,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -467,7 +467,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Moon Glider",
+        "en": "LP Moon Glider",
         "ja": null
       },
       "notes": {
@@ -486,7 +486,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -534,7 +534,7 @@
         "start": "1,1,1,3"
       },
       "name": {
-        "en": "Spinning Scythe",
+        "en": "MK Spinning Scythe",
         "ja": null
       },
       "notes": {
@@ -553,7 +553,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -601,7 +601,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Moon Glider",
+        "en": "MP Moon Glider",
         "ja": null
       },
       "notes": {
@@ -620,7 +620,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -668,7 +668,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Moon Glider",
+        "en": "OD Moon Glider",
         "ja": null
       },
       "notes": {
@@ -687,7 +687,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -735,7 +735,7 @@
         "start": "1,1,1"
       },
       "name": {
-        "en": "Moon Glider Follow-up",
+        "en": "OD Moon Glider Follow-up",
         "ja": null
       },
       "notes": {
@@ -754,7 +754,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -821,7 +821,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -889,7 +889,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -956,7 +956,7 @@
       "pushback": null,
       "recovery": 62,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1023,7 +1023,7 @@
       "pushback": null,
       "recovery": 62,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1071,7 +1071,7 @@
         "start": "1,2"
       },
       "name": {
-        "en": "Rhino Horn",
+        "en": "HK Rhino Horn",
         "ja": null
       },
       "notes": {
@@ -1091,7 +1091,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1129,7 +1129,7 @@
       "invuln": "11-24 Projectile",
       "juggle": null,
       "name": {
-        "en": "Lynx Song",
+        "en": "HP Lynx Song",
         "ja": null
       },
       "notes": {
@@ -1147,7 +1147,7 @@
       "pushback": null,
       "recovery": 38,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1192,7 +1192,7 @@
         "start": "1,2,2"
       },
       "name": {
-        "en": "Rhino Horn",
+        "en": "OD Rhino Horn",
         "ja": null
       },
       "notes": {
@@ -1212,7 +1212,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1260,7 +1260,7 @@
         "start": "1,2"
       },
       "name": {
-        "en": "Rhino Horn",
+        "en": "LK Rhino Horn",
         "ja": null
       },
       "notes": {
@@ -1280,7 +1280,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1318,7 +1318,7 @@
       "invuln": "11-21 Projectile",
       "juggle": null,
       "name": {
-        "en": "Lynx Song",
+        "en": "LP Lynx Song",
         "ja": null
       },
       "notes": {
@@ -1336,7 +1336,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1381,7 +1381,7 @@
         "start": "1,2"
       },
       "name": {
-        "en": "Rhino Horn",
+        "en": "MK Rhino Horn",
         "ja": null
       },
       "notes": {
@@ -1401,7 +1401,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1439,7 +1439,7 @@
       "invuln": "11-22 Projectile",
       "juggle": null,
       "name": {
-        "en": "Lynx Song",
+        "en": "MP Lynx Song",
         "ja": null
       },
       "notes": {
@@ -1457,7 +1457,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1496,7 +1496,7 @@
       "invuln": "8-26 Projectile",
       "juggle": null,
       "name": {
-        "en": "Lynx Song",
+        "en": "OD Lynx Song",
         "ja": null
       },
       "notes": {
@@ -1514,7 +1514,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1557,7 +1557,7 @@
         "start": "1,1"
       },
       "name": {
-        "en": "Mallet Smash",
+        "en": "OD Mallet Smash",
         "ja": null
       },
       "notes": {
@@ -1577,7 +1577,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1625,7 +1625,7 @@
         "start": "1,1"
       },
       "name": {
-        "en": "Leopard Snap",
+        "en": "OD Leopard Snap",
         "ja": null
       },
       "notes": {
@@ -1644,7 +1644,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1690,7 +1690,7 @@
         "start": "1,4"
       },
       "name": {
-        "en": "Harvest Circle",
+        "en": "OD Harvest Circle",
         "ja": null
       },
       "notes": {
@@ -1710,7 +1710,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1748,7 +1748,7 @@
       "invuln": "1-26 Projectile",
       "juggle": null,
       "name": {
-        "en": "Lynx Whirl",
+        "en": "OD Lynx Whirl",
         "ja": null
       },
       "notes": {
@@ -1766,7 +1766,7 @@
       "pushback": null,
       "recovery": 34,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1829,7 +1829,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1867,7 +1867,7 @@
       "invuln": "1-26 Projectile",
       "juggle": null,
       "name": {
-        "en": "Lynx Whirl",
+        "en": "HP Lynx Whirl",
         "ja": null
       },
       "notes": {
@@ -1885,7 +1885,7 @@
       "pushback": null,
       "recovery": 38,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1949,7 +1949,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -1987,7 +1987,7 @@
       "invuln": "1-21 Projectile",
       "juggle": null,
       "name": {
-        "en": "Lynx Whirl",
+        "en": "LP Lynx Whirl",
         "ja": null
       },
       "notes": {
@@ -2005,7 +2005,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -2068,7 +2068,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -2106,7 +2106,7 @@
       "invuln": "1-26 Projectile",
       "juggle": null,
       "name": {
-        "en": "Lynx Whirl",
+        "en": "MP Lynx Whirl",
         "ja": null
       },
       "notes": {
@@ -2124,7 +2124,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -2188,7 +2188,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -2262,7 +2262,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -2328,10 +2328,13 @@
       "properties": [
         "low"
       ],
-      "pushback": null,
+      "pushback": {
+        "onBlock": "0.374",
+        "onHit": "0.364"
+      },
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -2409,7 +2412,7 @@
       },
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -2478,7 +2481,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -2549,7 +2552,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -2623,7 +2626,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -2684,7 +2687,7 @@
       "pushback": null,
       "recovery": 120,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -2751,7 +2754,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -2819,7 +2822,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -2879,7 +2882,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -2933,7 +2936,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -2984,7 +2987,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -3035,7 +3038,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -3100,7 +3103,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -3170,7 +3173,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -3235,7 +3238,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -3309,7 +3312,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -3383,7 +3386,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -3458,7 +3461,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -3529,7 +3532,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -3600,7 +3603,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -3671,7 +3674,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -3725,7 +3728,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -3768,7 +3771,7 @@
         "start": "1,1,1"
       },
       "name": {
-        "en": "Scratch Wheel",
+        "en": "HK Scratch Wheel",
         "ja": null
       },
       "notes": {
@@ -3789,7 +3792,7 @@
       "pushback": null,
       "recovery": 34,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -3835,7 +3838,7 @@
         "start": "1,1,1,1"
       },
       "name": {
-        "en": "Scratch Wheel",
+        "en": "OD Scratch Wheel",
         "ja": null
       },
       "notes": {
@@ -3856,7 +3859,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -3902,7 +3905,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Scratch Wheel",
+        "en": "LK Scratch Wheel",
         "ja": null
       },
       "notes": {
@@ -3923,7 +3926,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -3969,7 +3972,7 @@
         "start": "1,1"
       },
       "name": {
-        "en": "Scratch Wheel",
+        "en": "MK Scratch Wheel",
         "ja": null
       },
       "notes": {
@@ -3990,7 +3993,7 @@
       "pushback": null,
       "recovery": 30,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -4060,7 +4063,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -4127,7 +4130,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -4191,7 +4194,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -4255,7 +4258,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -4320,7 +4323,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -4389,7 +4392,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -4454,7 +4457,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -4508,7 +4511,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -4571,7 +4574,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -4635,7 +4638,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -4699,7 +4702,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -4763,7 +4766,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -4829,7 +4832,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -4890,7 +4893,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -4954,7 +4957,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -5020,7 +5023,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -5082,7 +5085,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -5142,7 +5145,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -5202,7 +5205,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -5257,7 +5260,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -5312,7 +5315,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:27.013Z",
+        "fetchedAt": "2026-11-01T00:02:01.290Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Elena/Frame_data"
       },
@@ -5326,7 +5329,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-08-19T04:05:24.993Z",
+    "fetchedAt": "2026-11-01T00:01:59.250Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

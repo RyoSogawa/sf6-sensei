@@ -84,7 +84,7 @@
       "pushback": null,
       "recovery": 54,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -150,7 +150,7 @@
       "pushback": null,
       "recovery": 43,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -214,7 +214,7 @@
       "pushback": null,
       "recovery": 125,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -260,7 +260,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Crack Shoot",
+        "en": "HK Crack Shoot",
         "ja": null
       },
       "notes": {
@@ -281,7 +281,7 @@
       "pushback": null,
       "recovery": 1,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -329,7 +329,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Burning Knuckle",
+        "en": "HP Burning Knuckle",
         "ja": null
       },
       "notes": {
@@ -348,7 +348,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -394,7 +394,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Crack Shoot",
+        "en": "OD Crack Shoot",
         "ja": null
       },
       "notes": {
@@ -414,7 +414,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -460,7 +460,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Crack Shoot",
+        "en": "LK Crack Shoot",
         "ja": null
       },
       "notes": {
@@ -480,7 +480,7 @@
       "pushback": null,
       "recovery": 4,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -547,7 +547,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -595,7 +595,7 @@
         "start": "3"
       },
       "name": {
-        "en": "Quick Burn",
+        "en": "OD Quick Burn",
         "ja": null
       },
       "notes": {
@@ -614,7 +614,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -660,7 +660,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Crack Shoot",
+        "en": "MK Crack Shoot",
         "ja": null
       },
       "notes": {
@@ -680,7 +680,7 @@
       "pushback": null,
       "recovery": 2,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -728,7 +728,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Burning Knuckle",
+        "en": "MP Burning Knuckle",
         "ja": null
       },
       "notes": {
@@ -747,7 +747,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -795,7 +795,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Burning Knuckle",
+        "en": "OD Burning Knuckle",
         "ja": null
       },
       "notes": {
@@ -814,7 +814,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -881,7 +881,7 @@
       "pushback": null,
       "recovery": 60,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -949,7 +949,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -1017,7 +1017,7 @@
       "pushback": null,
       "recovery": 29,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -1066,7 +1066,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Power Charge",
+        "en": "HK Power Charge",
         "ja": null
       },
       "notes": {
@@ -1085,7 +1085,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -1151,7 +1151,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -1200,11 +1200,11 @@
         "start": "3"
       },
       "name": {
-        "en": "Power Charge",
+        "en": "OD Power Charge",
         "ja": null
       },
       "notes": {
-        "en": "Causes Wall Bounce on hit; cancelable on frames 20-39 into special moves (except Power Charge) on hit only (useful for midscreen positioning or keeping opponent cornered after wall bounce); if used twice in a combo, 2nd hit will cause a quick wall splat that drops straight to the ground; KD advantage varies based on distance from wall (farther away gives higher advantage)",
+        "en": "Causes Wall Bounce on hit; cancelable on frames 20-39 into special moves (except Power Charge) on hit only (useful for midscreen positioning or keeping opponent cornered after wall bounce); if used twice in a combo, 2nd hit will cause a quick wall splat that drops straight to the ground; KD advantage varies based on distance from wall (farther away gives higher advantage); wall bounce may not come out after a delayed cancel into 214K (can scroll the screen forward to prevent the opponent from hitting the wall)",
         "ja": null
       },
       "onBlock": -14,
@@ -1219,7 +1219,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -1267,7 +1267,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Power Charge",
+        "en": "LK Power Charge",
         "ja": null
       },
       "notes": {
@@ -1286,7 +1286,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -1334,7 +1334,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Power Wave",
+        "en": "LP Power Wave",
         "ja": null
       },
       "notes": {
@@ -1353,7 +1353,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -1401,7 +1401,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Power Charge",
+        "en": "MK Power Charge",
         "ja": null
       },
       "notes": {
@@ -1420,7 +1420,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -1468,7 +1468,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Power Wave",
+        "en": "MP Power Wave",
         "ja": null
       },
       "notes": {
@@ -1487,7 +1487,7 @@
       "pushback": null,
       "recovery": 32,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -1535,7 +1535,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Power Wave",
+        "en": "OD Power Wave",
         "ja": null
       },
       "notes": {
@@ -1554,7 +1554,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -1621,7 +1621,7 @@
       "pushback": null,
       "recovery": 24,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -1695,7 +1695,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -1761,10 +1761,13 @@
       "properties": [
         "low"
       ],
-      "pushback": null,
+      "pushback": {
+        "onBlock": "0.306",
+        "onHit": "0.266"
+      },
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -1842,7 +1845,7 @@
       },
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -1916,7 +1919,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -1972,7 +1975,7 @@
         "ja": null
       },
       "notes": {
-        "en": "Puts opponent into limited juggle state; () refers to scaled damage from 2MK combo starter; can always be interrupted by an invincible reversal if DR canceled on block; DR cancel is delayed until after 2nd recovery frame; special cancel is delayed until after 3rd recovery frame",
+        "en": "Puts opponent into limited juggle state; () refers to scaled damage from 2MK combo starter; can always be interrupted by an invincible reversal if DR canceled on block; DR/214LP cancel is delayed until after 2nd recovery frame; special/DI cancel (except 214LP) is delayed until after 3rd recovery frame",
         "ja": null
       },
       "onBlock": -16,
@@ -1987,7 +1990,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -2061,7 +2064,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -2121,7 +2124,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -2175,7 +2178,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -2240,7 +2243,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -2314,7 +2317,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -2388,7 +2391,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -2466,7 +2469,7 @@
       },
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -2534,7 +2537,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -2609,7 +2612,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -2676,7 +2679,7 @@
       "pushback": null,
       "recovery": 31,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -2738,7 +2741,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -2800,7 +2803,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -2865,7 +2868,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -2933,7 +2936,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3000,7 +3003,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3067,7 +3070,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3121,7 +3124,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3172,7 +3175,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3217,7 +3220,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Rising Tackle",
+        "en": "HP Rising Tackle",
         "ja": null
       },
       "notes": {
@@ -3238,7 +3241,7 @@
       "pushback": null,
       "recovery": 27,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3286,7 +3289,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Rising Tackle",
+        "en": "LP Rising Tackle",
         "ja": null
       },
       "notes": {
@@ -3307,7 +3310,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3355,7 +3358,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Rising Tackle",
+        "en": "MP Rising Tackle",
         "ja": null
       },
       "notes": {
@@ -3376,7 +3379,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3422,7 +3425,7 @@
         "start": "100"
       },
       "name": {
-        "en": "Rising Tackle",
+        "en": "OD Rising Tackle",
         "ja": null
       },
       "notes": {
@@ -3443,7 +3446,7 @@
       "pushback": null,
       "recovery": 34,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3510,7 +3513,7 @@
       "pushback": null,
       "recovery": 19,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3577,7 +3580,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3641,7 +3644,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3692,7 +3695,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3755,7 +3758,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3819,7 +3822,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3883,7 +3886,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -3947,7 +3950,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -4011,7 +4014,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -4075,7 +4078,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -4139,7 +4142,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -4199,7 +4202,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -4259,7 +4262,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -4314,7 +4317,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -4369,7 +4372,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:28.570Z",
+        "fetchedAt": "2026-11-01T00:02:03.381Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/Terry/Frame_data"
       },
@@ -4383,7 +4386,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-08-19T04:05:24.993Z",
+    "fetchedAt": "2026-11-01T00:01:59.250Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }
