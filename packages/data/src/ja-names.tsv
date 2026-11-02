@@ -1015,11 +1015,11 @@ guile	214214P	ソリッドパンチャー
 guile	214HP	ソニックブレイド
 guile	214LP	ソニックブレイド
 guile	214MP	ソニックブレイド
-guile	214P ~ 6P	ソニッククロス
-guile	214P ~ 6PP	ソニッククロス
-guile	214PP	ソニッククロス
+guile	214PP	ソニックブレイド
 guile	214PP ~ 6P	ソニッククロス
 guile	214PP ~ 6PP	ソニッククロス
+guile	214P~6P	ソニッククロス
+guile	214P~6PP	ソニッククロス
 guile	2HK	しゃがみ強キック
 guile	2HK~3HK	ファントムカッター
 guile	2HP	しゃがみ強パンチ
@@ -2440,6 +2440,7 @@ yasmine	5MK~MK	-
 yasmine	5MK~MK~HK	-
 yasmine	5MP	立ち中パンチ
 yasmine	5MP~MP	-
+yasmine	5PPPKKK	ニュートラル挑発
 yasmine	5PPPKKK	ニュートラル挑発
 yasmine	623HK	-
 yasmine	623KK	-
