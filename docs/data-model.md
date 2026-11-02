@@ -114,6 +114,12 @@ SF6 フレームデータの正規化 JSON スキーマ。`packages/core` の型
      誤マッチは手動 reject し、frame-search に無い技は `null` のまま残す（誤った名前を入れない）。
    - 英語名（SuperCombo）と公式日本語名が異なる例も正確化: `The Final Prison → ファイナルキャプチュード`、
      `Goddess of the Hunt → アポロウーサ`、`Interdiction → ザプリェット`、`Malice → シャーロスチ`(Шалость) 等。
+   - **キーが英語名なので、上流の改称で黙ってずれる**。段数を番号で区別するキー（`Snapback Combo` / `Snapback Combo 2`
+     等、約 90 件）は特に危険で、上流が番号を振り直すとキーは全部有効なまま訳が隣の技へずれ、件数も減らない
+     （2026-11 にルークのスナップバックコンボで実際に発生）。
+   - そのため解決後の日本語名を `packages/data/src/__snapshots__/ja-names.tsv`（キャラ・入力・日本語名、未訳は `-`）に
+     固定し、`packages/data/src/index.test.ts` で比較している。再取得や翻訳の変更でこの差分が出たら、各行を
+     frame-search で確認してから `pnpm --filter @repo/data exec vitest run -u` で更新する。確認せずに `-u` しない。
 
 > カバレッジは ja 86.5%（~連結技は 62.5%）。残りは frame-search 未収録の特殊技派生や juri の FSE チェーン等。
 > 消費側 LLM が英語名や notes を読んで日本語で答えられるため、未訳でも実用上は致命的でない。

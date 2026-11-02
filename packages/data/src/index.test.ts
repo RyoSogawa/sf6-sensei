@@ -243,3 +243,16 @@ describe('alias-overrides enrichment (common system moves)', () => {
     expect(hits.some((m) => m.input.numpad === '2HP')).toBe(true)
   })
 })
+
+// Translations are keyed by upstream English names, which upstream renames and renumbers
+// ("Snapback Combo" became "Snapback Combo 2"). A renumbering keeps every key valid but shifts
+// each Japanese label onto a neighbouring move, so coverage counts stay the same. Pinning the
+// resolved name per input surfaces such a shift as a reviewable diff instead of a silent change.
+describe('Japanese name snapshot', () => {
+  it('keeps every move’s resolved Japanese name unless the snapshot is deliberately updated', async () => {
+    const lines = characters
+      .flatMap((c) => c.moves.map((m) => `${c.id}\t${m.input.numpad}\t${m.name.ja ?? '-'}`))
+      .toSorted()
+    await expect(`${lines.join('\n')}\n`).toMatchFileSnapshot('./__snapshots__/ja-names.tsv')
+  })
+})
