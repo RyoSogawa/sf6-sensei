@@ -1,6 +1,8 @@
+import { readFileSync } from 'node:fs'
 import { type CharacterMovement, resolveMove, resolveMoveBest } from '@repo/core'
 import { describe, expect, it } from 'vitest'
 import { characters, dataVersion, generateMovementMoves } from './index'
+import { findJaNameRegressions, serializeJaNames } from './ja-names-snapshot'
 import saLevels from './sa-levels.json'
 
 const SRC = {
@@ -241,5 +243,42 @@ describe('alias-overrides enrichment (common system moves)', () => {
     // "屈強P" (2HP) is not in the override map, so it stays a plain normal (resolveMove works as before).
     const hits = resolveMove('屈強P', ryu?.moves ?? [])
     expect(hits.some((m) => m.input.numpad === '2HP')).toBe(true)
+  })
+})
+
+describe('findJaNameRegressions', () => {
+  const recorded = 'luke\t5MP~MP\t2段目\nluke\t5MP~MP~MP\t3段目\nryu\t236P\t-\n'
+
+  it('passes when nothing changed', () => {
+    expect(findJaNameRegressions(recorded, recorded)).toEqual([])
+  })
+
+  it('flags a recorded name that moved to another input', () => {
+    const current = 'luke\t5MP~MP\t3段目\nluke\t5MP~MP~MP\t4段目\nryu\t236P\t-\n'
+    expect(findJaNameRegressions(recorded, current).map((r) => r.key)).toEqual([
+      'luke\t5MP~MP',
+      'luke\t5MP~MP~MP',
+    ])
+  })
+
+  it('flags a recorded name that disappeared, including its input going away', () => {
+    const current = 'luke\t5MP~MP\t-\nryu\t236P\t-\n'
+    expect(findJaNameRegressions(recorded, current)).toEqual([
+      { after: ['-'], before: ['2段目'], key: 'luke\t5MP~MP' },
+      { after: [], before: ['3段目'], key: 'luke\t5MP~MP~MP' },
+    ])
+  })
+
+  it('allows new inputs, extra moves on an input and untranslated moves gaining a name', () => {
+    const current = `${recorded.replace('ryu\t236P\t-', 'ryu\t236P\t波動拳')}luke\t5MP~MP\t2段目\nken\t5LP\t立ち弱パンチ\n`
+    expect(findJaNameRegressions(recorded, current)).toEqual([])
+  })
+})
+
+describe('recorded Japanese names (ja-names.tsv)', () => {
+  it('keeps every recorded Japanese name on the same input', () => {
+    const recorded = readFileSync(new URL('./ja-names.tsv', import.meta.url), 'utf8')
+    // On failure, check each entry against frame-search, then run `pnpm --filter @repo/data ja-names:update --accept-changes`.
+    expect(findJaNameRegressions(recorded, serializeJaNames(characters))).toEqual([])
   })
 })

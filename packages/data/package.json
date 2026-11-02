@@ -4,6 +4,7 @@
   },
   "devDependencies": {
     "@repo/tsconfig": "workspace:*",
+    "tsx": "4.22.4",
     "typescript": "catalog:",
     "vitest": "catalog:"
   },
@@ -17,7 +18,8 @@
   "private": true,
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "test": "vitest run"
+    "test": "vitest run",
+    "ja-names:update": "tsx scripts/update-ja-names.ts"
   },
   "type": "module",
   "version": "0.0.0"

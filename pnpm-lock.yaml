@@ -153,6 +153,9 @@ importers:
       '@repo/tsconfig':
         specifier: workspace:*
         version: link:../tsconfig
+      tsx:
+        specifier: 4.22.4
+        version: 4.22.4
       typescript:
         specifier: 'catalog:'
         version: 6.0.3
