@@ -78,7 +78,7 @@
       "pushback": null,
       "recovery": 54,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -145,7 +145,7 @@
       "pushback": null,
       "recovery": 54,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -212,7 +212,7 @@
       "pushback": null,
       "recovery": 45,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -260,7 +260,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Thunder Dash",
+        "en": "HP Thunder Dash",
         "ja": null
       },
       "notes": {
@@ -281,7 +281,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -327,7 +327,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Tracer Combination",
+        "en": "HP Tracer Combination",
         "ja": null
       },
       "notes": {
@@ -347,7 +347,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -415,7 +415,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -463,7 +463,7 @@
         "start": "1,1"
       },
       "name": {
-        "en": "Focus Force (Lv.1)",
+        "en": "OD Focus Force (Lv.1)",
         "ja": null
       },
       "notes": {
@@ -483,7 +483,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -531,7 +531,7 @@
         "start": "1,1"
       },
       "name": {
-        "en": "Focus Force (Lv.3)",
+        "en": "OD Focus Force (Lv.3)",
         "ja": null
       },
       "notes": {
@@ -551,7 +551,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -599,7 +599,7 @@
         "start": "1,1"
       },
       "name": {
-        "en": "Focus Force (Lv.2)",
+        "en": "OD Focus Force (Lv.2)",
         "ja": null
       },
       "notes": {
@@ -619,7 +619,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -687,7 +687,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -755,7 +755,7 @@
       "pushback": null,
       "recovery": 36,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -804,7 +804,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Thunder Dash",
+        "en": "LP Thunder Dash",
         "ja": null
       },
       "notes": {
@@ -824,7 +824,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -872,7 +872,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Tracer Combination",
+        "en": "LP Tracer Combination",
         "ja": null
       },
       "notes": {
@@ -892,7 +892,7 @@
       "pushback": null,
       "recovery": 28,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -941,7 +941,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Thunder Dash",
+        "en": "MP Thunder Dash",
         "ja": null
       },
       "notes": {
@@ -960,7 +960,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1008,7 +1008,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Tracer Combination",
+        "en": "MP Tracer Combination",
         "ja": null
       },
       "notes": {
@@ -1027,7 +1027,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1075,7 +1075,7 @@
         "start": "1,1"
       },
       "name": {
-        "en": "Thunder Dash",
+        "en": "OD Thunder Dash",
         "ja": null
       },
       "notes": {
@@ -1094,7 +1094,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1148,7 +1148,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1213,7 +1213,7 @@
       "pushback": null,
       "recovery": 22,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1259,7 +1259,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Burning Kick",
+        "en": "HK Burning Kick",
         "ja": null
       },
       "notes": {
@@ -1280,7 +1280,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1328,7 +1328,7 @@
         "start": "1,1"
       },
       "name": {
-        "en": "Burning Kick",
+        "en": "OD Burning Kick",
         "ja": null
       },
       "notes": {
@@ -1348,7 +1348,7 @@
       "pushback": null,
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1414,7 +1414,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1480,7 +1480,7 @@
       "pushback": null,
       "recovery": 14,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1526,7 +1526,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Burning Kick",
+        "en": "LK Burning Kick",
         "ja": null
       },
       "notes": {
@@ -1547,7 +1547,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1593,7 +1593,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Burning Kick",
+        "en": "MK Burning Kick",
         "ja": null
       },
       "notes": {
@@ -1614,7 +1614,7 @@
       "pushback": null,
       "recovery": 7,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1681,7 +1681,7 @@
       "pushback": null,
       "recovery": 25,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1756,7 +1756,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1823,10 +1823,13 @@
       "properties": [
         "low"
       ],
-      "pushback": null,
+      "pushback": {
+        "onBlock": "0.330",
+        "onHit": "0.320"
+      },
       "recovery": 9,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1905,7 +1908,7 @@
       },
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -1974,7 +1977,7 @@
       "pushback": null,
       "recovery": 17,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2049,7 +2052,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2112,7 +2115,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2169,7 +2172,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2223,7 +2226,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2290,7 +2293,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2360,7 +2363,7 @@
       "pushback": null,
       "recovery": 21,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2435,7 +2438,7 @@
       "pushback": null,
       "recovery": 11,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2514,7 +2517,7 @@
       },
       "recovery": 8,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2584,7 +2587,7 @@
       "pushback": null,
       "recovery": 18,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2659,7 +2662,7 @@
       "pushback": null,
       "recovery": 12,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2713,7 +2716,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2778,7 +2781,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2828,7 +2831,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Seismic Hammer",
+        "en": "OD Seismic Hammer",
         "ja": null
       },
       "notes": {
@@ -2846,7 +2849,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2900,7 +2903,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -2965,7 +2968,7 @@
       "pushback": null,
       "recovery": 16,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3032,7 +3035,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3096,7 +3099,7 @@
       "pushback": null,
       "recovery": 26,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3160,7 +3163,7 @@
       "pushback": null,
       "recovery": 20,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3214,7 +3217,7 @@
       "pushback": null,
       "recovery": null,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3275,7 +3278,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3341,7 +3344,7 @@
       "pushback": null,
       "recovery": 35,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3387,7 +3390,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Aerial Burning Kick",
+        "en": "HK Aerial Burning Kick",
         "ja": null
       },
       "notes": {
@@ -3408,7 +3411,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3454,7 +3457,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Aerial Burning Kick",
+        "en": "OD Aerial Burning Kick",
         "ja": null
       },
       "notes": {
@@ -3475,7 +3478,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3521,7 +3524,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Aerial Burning Kick",
+        "en": "LK Aerial Burning Kick",
         "ja": null
       },
       "notes": {
@@ -3542,7 +3545,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3588,7 +3591,7 @@
         "start": "1"
       },
       "name": {
-        "en": "Aerial Burning Kick",
+        "en": "MK Aerial Burning Kick",
         "ja": null
       },
       "notes": {
@@ -3609,7 +3612,7 @@
       "pushback": null,
       "recovery": 13,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3675,7 +3678,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3739,7 +3742,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3803,7 +3806,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3867,7 +3870,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3931,7 +3934,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -3997,7 +4000,7 @@
       "pushback": null,
       "recovery": 3,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -4057,7 +4060,7 @@
       "pushback": null,
       "recovery": 23,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -4117,7 +4120,7 @@
       "pushback": null,
       "recovery": 33,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -4172,7 +4175,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -4227,7 +4230,7 @@
       "pushback": null,
       "recovery": 15,
       "source": {
-        "fetchedAt": "2026-08-19T04:05:26.479Z",
+        "fetchedAt": "2026-11-01T00:02:00.758Z",
         "license": "CC-BY-SA",
         "url": "https://wiki.supercombo.gg/w/Street_Fighter_6/C.Viper/Frame_data"
       },
@@ -4241,7 +4244,7 @@
     "ja": null
   },
   "source": {
-    "fetchedAt": "2026-08-19T04:05:24.993Z",
+    "fetchedAt": "2026-11-01T00:01:59.250Z",
     "license": "CC-BY-SA",
     "url": "https://wiki.supercombo.gg/w/Street_Fighter_6"
   }

@@ -32,7 +32,7 @@ import c_terry from './terry.json'
 import c_yasmine from './yasmine.json'
 import c_zangief from './zangief.json'
 
-export const generatedAt = '2026-10-16T08:05:35.203Z'
+export const generatedAt = '2026-11-01T00:01:59.250Z'
 
 export default [
   c_aki,
